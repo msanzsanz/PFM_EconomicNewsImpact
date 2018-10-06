@@ -5,7 +5,7 @@ Therefore, the scope for this spike is to do an initial reseach to clarify these
 
 ## QUESTIONS I WOULD LIKE TO ANSWER
 
-1. Is it possible to predict the volatility of a pair (e.g. EUR /USD) based on the information provided by the economic calendars?
+1. Is it possible to predict the volatility of a pair (e.g. EUR /USD) 1h after a major economic new is released based on the discrepancy between the forecast vs the actual value ?
 
 2. Is it possible to forecast the value of an economic new based on previous data for that same new and previous data from other news?
 
