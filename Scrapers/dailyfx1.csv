@@ -1,0 +1,1484 @@
+,actual,country,date,forecast,forecast_error,impact,new,previous,previous_error,time
+0,,JPY,"Monday, February 26, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+1,107.4,JPY,"Monday, February 26, 2018",,-,Low,JPY Leading Index CI (DEC F),107.9,-,05:00
+2,120.2,JPY,"Monday, February 26, 2018",,-,Low,JPY Coincident Index (DEC F),120.7,-,05:00
+3,14.9b,CNY,"Monday, February 26, 2018",,-,Low,CNY FX Net Settlement - Clients CNY (JAN),44.5b,-,07:19
+4,576.0b,CHF,"Monday, February 26, 2018",,-,Low,CHF Total Sight Deposits CHF (23 FEB),575.1b,-,09:00
+5,460.2b,CHF,"Monday, February 26, 2018",,-,Low,CHF Domestic Sight Deposits CHF (23 FEB),462.0b,-,09:00
+6,40117,GBP,"Monday, February 26, 2018",37000,u,Medium,GBP BBA Loans for House Purchase (JAN),36085,d,09:30
+7,,EUR,"Monday, February 26, 2018",,-,Low,EUR ECB's Coeure speaks in Frankfurt,,-,10:00
+8,,USD,"Monday, February 26, 2018",,-,Low,USD Fed's Bullard Speaks on U.S. Economy and Monetary Policy,,-,13:00
+9,0.12,USD,"Monday, February 26, 2018",0.25,d,Low,USD Chicago Fed Nat Activity Index (JAN),0.14,d,13:30
+10,,EUR,"Monday, February 26, 2018",,-,High,EUR ECB President Draghi speaks in Brussels,,-,14:40
+11,593k,USD,"Monday, February 26, 2018",647k,d,Low,USD New Home Sales (JAN),643k,u,15:00
+12,-7.8%,USD,"Monday, February 26, 2018",3.5%,d,Medium,USD New Home Sales (MoM) (JAN),-7.6%,u,15:00
+13,37.2,USD,"Monday, February 26, 2018",30.0,u,Low,USD Dallas Fed Manufacturing Activity (FEB),33.4,-,15:30
+14,,EUR,"Monday, February 26, 2018",,-,Low,EUR Luis de Guindos at hearing for ECB Vice President in Brussels,,-,16:15
+15,,USD,"Monday, February 26, 2018",,-,Low,USD U.S. to Sell USD51 Bln 3-Month Bills,,-,16:30
+16,,USD,"Monday, February 26, 2018",,-,Low,USD U.S. to Sell USD45 Bln 6-Month Bills,,-,16:30
+17,,GBP,"Monday, February 26, 2018",,-,Low,GBP BOE's Cunliffe Speaks at Event at Warwick University,,-,18:00
+18,,USD,"Monday, February 26, 2018",,-,Low,USD Fed's Quarles Gives Assessment of U.S. Economy,,-,20:15
+19,-566m,NZD,"Monday, February 26, 2018",0m,d,Medium,NZD Trade Balance (JAN),596m,d,21:45
+20,4.31b,NZD,"Monday, February 26, 2018",4.58b,d,Low,NZD Exports (JAN),5.49b,d,21:45
+21,4.87b,NZD,"Monday, February 26, 2018",4.60b,u,Low,NZD Imports (JAN),4.89b,d,21:45
+22,-3218m,NZD,"Monday, February 26, 2018",-2711m,d,Medium,NZD Trade Balance 12 Mth YTD (JAN),-2879m,d,21:45
+23,117.9,AUD,"Monday, February 26, 2018",,-,Low,AUD ANZ Roy Morgan Weekly Consumer Confidence Index (25 FEB),115.3,-,22:30
+24,,EUR,"Tuesday, February 27, 2018",,-,Low,EUR ECB's Mersch speaks in Brussels,,-,08:40
+25,4.6%,EUR,"Tuesday, February 27, 2018",4.6%,-,Low,EUR Euro-Zone M3 Money Supply (YoY) (JAN),4.6%,-,09:00
+26,,GBP,"Tuesday, February 27, 2018",,-,Low,GBP BOE's Sam Woods speaks in London,,-,09:00
+27,114.1,EUR,"Tuesday, February 27, 2018",114.0,u,Low,EUR Euro-Zone Economic Confidence (FEB),114.9,u,10:00
+28,1.48,EUR,"Tuesday, February 27, 2018",1.47,u,Low,EUR Euro-Zone Business Climate Indicator (FEB),1.56,u,10:00
+29,8.0,EUR,"Tuesday, February 27, 2018",8.0,-,Low,EUR Euro-Zone Industrial Confidence (FEB),9.0,u,10:00
+30,17.5,EUR,"Tuesday, February 27, 2018",16.3,u,Low,EUR Euro-Zone Services Confidence (FEB),16.8,u,10:00
+31,0.1,EUR,"Tuesday, February 27, 2018",0.1,-,Low,EUR Euro-Zone Consumer Confidence (FEB F),0.1,-,10:00
+32,,EUR,"Tuesday, February 27, 2018",,-,Low,EUR Bundesbank's Weidmann Presents Institution's Annual Report,,-,10:00
+33,0.5%,EUR,"Tuesday, February 27, 2018",0.5%,-,Medium,EUR German Consumer Price Index (MoM) (FEB P),-0.7%,-,13:00
+34,1.4%,EUR,"Tuesday, February 27, 2018",1.5%,d,High,EUR German Consumer Price Index (YoY) (FEB P),1.6%,-,13:00
+35,,USD,"Tuesday, February 27, 2018",,-,High,USD Fed Powell's Congressional Testimony is Released,,-,13:30
+36,-$74.4b,USD,"Tuesday, February 27, 2018",-$72.3b,d,High,USD Advance Goods Trade Balance (JAN),-$72.3b,d,13:30
+37,0.7%,USD,"Tuesday, February 27, 2018",0.4%,u,Medium,USD Wholesale Inventories (MoM) (JAN P),0.6%,u,13:30
+38,0.8%,USD,"Tuesday, February 27, 2018",,-,Low,USD Retail Inventories (MoM) (JAN),0.3%,u,13:30
+39,-3.7%,USD,"Tuesday, February 27, 2018",-2.0%,d,High,USD Durable Goods Orders (JAN P),2.6%,d,13:30
+40,-0.3%,USD,"Tuesday, February 27, 2018",0.4%,d,Medium,USD Durables Ex Transportation (JAN P),0.7%,-,13:30
+41,-0.2%,USD,"Tuesday, February 27, 2018",0.5%,d,Low,USD Cap Goods Orders Nondef Ex Air (JAN P),-0.6%,-,13:30
+42,0.1%,USD,"Tuesday, February 27, 2018",0.3%,d,Low,USD Cap Goods Ship Nondef Ex Air (JAN P),0.7%,u,13:30
+43,1.6%,USD,"Tuesday, February 27, 2018",,-,Medium,USD House Price Purchase Index (QoQ) (4Q),1.5%,u,14:00
+44,0.3%,USD,"Tuesday, February 27, 2018",0.4%,d,Medium,USD House Price Index (MoM) (DEC),0.5%,u,14:00
+45,204.45,USD,"Tuesday, February 27, 2018",,-,Low,USD S&P/Case-Shiller 20-City Index n.s.a (DEC),204.11,d,14:00
+46,0.64%,USD,"Tuesday, February 27, 2018",0.6%,u,Medium,USD S&P CoreLogic CS 20-City (MoM) SA (DEC),0.74%,d,14:00
+47,6.3%,USD,"Tuesday, February 27, 2018",6.35%,d,Medium,USD S&P/Case-Shiller Composite-20 (YoY) (DEC),6.36%,d,14:00
+48,196.23,USD,"Tuesday, February 27, 2018",,-,Low,USD S&P/Case-Shiller US Home Price Index (DEC),195.78,d,14:00
+49,6.27%,USD,"Tuesday, February 27, 2018",,-,Medium,USD S&P/Case-Shiller US Home Price Index (YoY) (DEC),6.13%,d,14:00
+50,28,USD,"Tuesday, February 27, 2018",15,u,Low,USD Richmond Fed Manufact. Index (FEB),14,-,15:00
+51,130.8,USD,"Tuesday, February 27, 2018",126.5,u,High,USD Consumer Confidence Index (FEB),124.3,d,15:00
+52,162.4,USD,"Tuesday, February 27, 2018",,-,Medium,USD Conf. Board Present Situation (FEB),154.7,d,15:00
+53,109.7,USD,"Tuesday, February 27, 2018",,-,Low,USD Conf. Board Expectations (FEB),104,d,15:00
+54,,USD,"Tuesday, February 27, 2018",,-,High,USD Fed's Powell Testifies to House Financial Services Committee,,-,15:00
+55,,USD,"Tuesday, February 27, 2018",,-,Low,USD U.S. to Sell USD22 Bln 52-Week Bills,,-,16:30
+56,,USD,"Tuesday, February 27, 2018",,-,Low,USD U.S. to Sell 4-Week Bills,,-,16:30
+57,,CAD,"Tuesday, February 27, 2018",,-,Low,CAD Finance Minister Morneau Delivers Canada's Federal Budget,,-,21:00
+58,6210,NZD,"Tuesday, February 27, 2018",,-,Low,NZD Net Migration s.a. (JAN),5780,u,21:45
+59,-1.8%,JPY,"Tuesday, February 27, 2018",-0.6%,d,Low,JPY Retail Trade s.a. (MoM) (JAN),0.9%,-,23:50
+60,1.6%,JPY,"Tuesday, February 27, 2018",2.4%,d,Medium,JPY Retail Trade (YoY) (JAN),3.6%,-,23:50
+61,0.5%,JPY,"Tuesday, February 27, 2018",0.4%,u,Medium,JPY Large Retailers' Sales (JAN),1.1%,-,23:50
+62,-6.6%,JPY,"Tuesday, February 27, 2018",-4.0%,d,Low,JPY Industrial Production (MoM) (JAN P),2.9%,-,23:50
+63,2.7%,JPY,"Tuesday, February 27, 2018",5.3%,d,Medium,JPY Industrial Production (YoY) (JAN P),4.4%,-,23:50
+64,20.4,NZD,"Wednesday, February 28, 2018",,-,Medium,NZD ANZ Activity Outlook (FEB),15.6,-,00:00
+65,-19.0,NZD,"Wednesday, February 28, 2018",,-,Low,NZD ANZ Business Confidence (FEB),-37.8,-,00:00
+66,-10,GBP,"Wednesday, February 28, 2018",-10,-,Medium,GBP GfK Consumer Confidence (FEB),-9,-,00:01
+67,33,GBP,"Wednesday, February 28, 2018",,-,Low,GBP Lloyds Business Barometer (FEB),35,-,00:01
+68,-0.8%,GBP,"Wednesday, February 28, 2018",-0.6%,d,Low,GBP BRC Shop Price Index (YoY) (FEB),-0.5%,-,00:01
+69,0.3%,AUD,"Wednesday, February 28, 2018",0.4%,d,Low,AUD Private Sector Credit (MoM) (JAN),0.3%,-,00:30
+70,4.9%,AUD,"Wednesday, February 28, 2018",5.0%,d,Medium,AUD Private Sector Credit (YoY) (JAN),4.9%,u,00:30
+71,54.4,CNY,"Wednesday, February 28, 2018",55.0,d,Medium,CNY Non-manufacturing PMI (FEB),55.3,-,00:52
+72,50.3,CNY,"Wednesday, February 28, 2018",51.1,d,High,CNY Manufacturing PMI (FEB),51.3,-,00:52
+73,52.9,CNY,"Wednesday, February 28, 2018",,-,Medium,CNY Composite PMI (FEB),54.6,-,00:52
+74,,JPY,"Wednesday, February 28, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+75,,JPY,"Wednesday, February 28, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+76,,JPY,"Wednesday, February 28, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+77,,JPY,"Wednesday, February 28, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+78,-3.8%,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Vehicle Production (YoY) (JAN),2.1%,u,04:00
+79,-13.2%,JPY,"Wednesday, February 28, 2018",-4.7%,d,Medium,JPY Housing Starts (YoY) (JAN),-2.1%,-,05:00
+80,0.856m,JPY,"Wednesday, February 28, 2018",0.940m,d,Low,JPY Annualized Housing Starts (JAN),0.936m,-,05:00
+81,0.9%,JPY,"Wednesday, February 28, 2018",,-,Medium,JPY Construction Orders (YoY) (JAN),-8.1%,-,05:00
+82,10.8,EUR,"Wednesday, February 28, 2018",10.9,d,Medium,EUR German GfK Consumer Confidence (MAR),11.0,-,07:00
+83,0.6%,EUR,"Wednesday, February 28, 2018",0.6%,-,Low,EUR French Gross Domestic Product (QoQ) (4Q P),0.6%,-,07:45
+84,2.5%,EUR,"Wednesday, February 28, 2018",2.4%,u,Medium,EUR French Gross Domestic Product (YoY) (4Q P),2.4%,-,07:45
+85,108.0,CHF,"Wednesday, February 28, 2018",106.0,u,Medium,CHF KOF Leading Indicator (FEB),107.6,u,08:00
+86,-22k,EUR,"Wednesday, February 28, 2018",-15k,u,High,EUR German Unemployment Change (000's) (FEB),-25k,-,08:55
+87,5.4%,EUR,"Wednesday, February 28, 2018",5.4%,-,High,EUR German Unemployment Claims Rate s.a. (FEB),5.4%,-,08:55
+88,25.8,CHF,"Wednesday, February 28, 2018",,-,Low,CHF Credit Suisse Survey Expectations (FEB),34.5,-,09:00
+89,1.0%,EUR,"Wednesday, February 28, 2018",1.0%,-,High,EUR Euro-Zone Consumer Price Index Core (YoY) (FEB A),1.0%,-,10:00
+90,1.2%,EUR,"Wednesday, February 28, 2018",1.2%,-,High,EUR Euro-Zone Consumer Price Index Estimate (YoY) (FEB),1.3%,-,10:00
+91,2.7%,USD,"Wednesday, February 28, 2018",,-,Medium,USD MBA Mortgage Applications (23 FEB),-6.6%,-,12:00
+92,3.6%,USD,"Wednesday, February 28, 2018",3.8%,d,Medium,USD Personal Consumption (4Q S),3.8%,-,13:30
+93,0.3%,CAD,"Wednesday, February 28, 2018",0.5%,d,Low,CAD Industrial Product Price (MoM) (JAN),-0.1%,-,13:30
+94,3.3%,CAD,"Wednesday, February 28, 2018",,-,Low,CAD Raw Materials Price Index (MoM) (JAN),-0.9%,-,13:30
+95,2.5%,USD,"Wednesday, February 28, 2018",2.5%,-,High,USD Gross Domestic Product Annualized (QoQ) (4Q S),2.6%,-,13:30
+96,2.3%,USD,"Wednesday, February 28, 2018",2.4%,d,High,USD Gross Domestic Product Price Index (4Q S),2.4%,-,13:30
+97,1.9%,USD,"Wednesday, February 28, 2018",1.9%,-,Medium,USD Core PCE (QoQ) (4Q S),1.9%,-,13:30
+98,61.9,USD,"Wednesday, February 28, 2018",64.1,d,Medium,USD Chicago Purchasing Manager (FEB),65.7,-,14:45
+99,-4.7%,USD,"Wednesday, February 28, 2018",0.5%,d,Low,USD Pending Home Sales (MoM) (JAN),0.0%,d,15:00
+100,-1.7%,USD,"Wednesday, February 28, 2018",,-,Medium,USD Pending Home Sales (YoY) (JAN),-1.8%,-,15:00
+101,,USD,"Wednesday, February 28, 2018",,-,Low,USD Revisions: Pending Home Sales,,-,15:00
+102,3019k,USD,"Wednesday, February 28, 2018",3000k,d,Medium,USD DOE U.S. Crude Oil Inventories (23 FEB),-1616k,-,15:30
+103,-1218k,USD,"Wednesday, February 28, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (23 FEB),-2664k,-,15:30
+104,2483k,USD,"Wednesday, February 28, 2018",600k,d,Low,USD DOE U.S. Gasoline Inventories (23 FEB),261k,-,15:30
+105,-960k,USD,"Wednesday, February 28, 2018",-950k,u,Low,USD DOE U.S. Distillate Inventory (23 FEB),-2422k,-,15:30
+106,-1.2%,NZD,"Wednesday, February 28, 2018",,-,Low,NZD ANZ Job Advertisements (MoM) (FEB),2.9%,d,21:00
+107,57.5,AUD,"Wednesday, February 28, 2018",,-,Medium,AUD AiG Performance of Manufacturing Index (FEB),58.7,-,21:30
+108,0.8%,NZD,"Wednesday, February 28, 2018",0.5%,u,Medium,NZD Terms of Trade Index (QoQ) (4Q),0.7%,-,21:45
+109,55.6,AUD,"Wednesday, February 28, 2018",,-,Low,AUD CBA Australia PMI Mfg (FEB),55.4,-,22:00
+110,-0.3%,AUD,"Wednesday, February 28, 2018",,-,Low,AUD CoreLogic House Px (MoM) (FEB),-0.5%,-,23:00
+111,¥201.3b,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (23 FEB),-¥512.6b,u,23:50
+112,¥45.0b,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (23 FEB),-¥587.1b,-,23:50
+113,-¥20.6b,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Foreign Buying Japan Bonds (23 FEB),-¥789.5b,-,23:50
+114,-¥53.6b,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Foreign Buying Japan Stocks (23 FEB),¥127.2b,u,23:50
+115,4.3%,JPY,"Wednesday, February 28, 2018",3.0%,u,Low,JPY Capital Spending (4Q),4.2%,-,23:50
+116,4.7%,JPY,"Wednesday, February 28, 2018",2.7%,u,Low,JPY Capital Spending excl Software (4Q),4.3%,-,23:50
+117,0.9%,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Company Profits (4Q),5.5%,-,23:50
+118,5.9%,JPY,"Wednesday, February 28, 2018",,-,Low,JPY Company Sales (4Q),4.8%,-,23:50
+119,2.53%,JPY,"Wednesday, February 28, 2018",,-,Medium,JPY Loans & Discounts Corp (YoY) (JAN),2.77%,-,23:50
+120,-0.2%,AUD,"Thursday, March 1, 2018",1.0%,d,Medium,AUD Private Capital Expenditure (4Q),1.9%,u,00:30
+121,54.1,JPY,"Thursday, March 1, 2018",,-,Low,JPY Nikkei Japan PMI Manufacturing (FEB F),54,-,00:30
+122,,JPY,"Thursday, March 1, 2018",,-,Low,JPY BOJ Kataoka makes a speech,,-,01:30
+123,51.6,CNY,"Thursday, March 1, 2018",51.3,u,Medium,CNY Caixin China PMI Mfg (FEB),51.5,-,01:45
+124,44.3,JPY,"Thursday, March 1, 2018",44.8,d,Medium,JPY Consumer Confidence Index (FEB),44.7,-,05:00
+125,-4.9%,JPY,"Thursday, March 1, 2018",,-,Low,JPY Vehicle Sales (YoY) (FEB),-5.7%,-,05:00
+126,-1.0%,AUD,"Thursday, March 1, 2018",,-,Low,AUD RBA Commodity Index SDR (YoY) (FEB),-1.1%,d,05:30
+127,139.8,AUD,"Thursday, March 1, 2018",,-,Low,AUD Commodity Index AUD (FEB),134.6,d,05:30
+128,0.6%,CHF,"Thursday, March 1, 2018",0.5%,u,Medium,CHF Gross Domestic Product (QoQ) (4Q),0.7%,u,06:45
+129,1.9%,CHF,"Thursday, March 1, 2018",1.7%,-,High,CHF Gross Domestic Product (YoY) (4Q),1.2%,-,06:45
+130,-0.3%,GBP,"Thursday, March 1, 2018",0.1%,d,Low,GBP Nationwide House PX (MoM) (FEB),0.8%,u,07:00
+131,2.2%,GBP,"Thursday, March 1, 2018",2.6%,d,Medium,GBP Nationwide House Px n.s.a. (YoY) (FEB),3.2%,-,07:00
+132,-1.4%,CHF,"Thursday, March 1, 2018",,-,Medium,CHF Retail Sales Real (YoY) (JAN),0.7%,u,08:15
+133,65.5,CHF,"Thursday, March 1, 2018",64.1,u,Medium,CHF PMI Manufacturing (FEB),65.3,-,08:30
+134,56.8,EUR,"Thursday, March 1, 2018",58,d,Low,EUR Markit/ADACI Italy Manufacturing PMI (FEB),59,-,08:45
+135,55.9,EUR,"Thursday, March 1, 2018",56.1,d,Low,EUR Markit France Manufacturing PMI (FEB F),56.1,-,08:50
+136,60.6,EUR,"Thursday, March 1, 2018",60.3,u,Low,EUR Markit/BME Germany Manufacturing PMI (FEB F),60.3,-,08:55
+137,58.6,EUR,"Thursday, March 1, 2018",58.5,u,Low,EUR Markit Eurozone Manufacturing PMI (FEB F),58.5,-,09:00
+138,1.3b,GBP,"Thursday, March 1, 2018",1.4b,d,Medium,GBP Net Consumer Credit (JAN),1.6b,u,09:30
+139,3.4b,GBP,"Thursday, March 1, 2018",3.6b,d,Medium,GBP Net Lending Sec. on Dwellings (JAN),3.5b,d,09:30
+140,67.5k,GBP,"Thursday, March 1, 2018",62.0k,u,Medium,GBP Mortgage Approvals (JAN),61.7k,u,09:30
+141,1.5%,GBP,"Thursday, March 1, 2018",,-,Low,GBP Money Supply M4 (MoM) (JAN),-0.6%,-,09:30
+142,4.3%,GBP,"Thursday, March 1, 2018",,-,Low,GBP M4 Money Supply (YoY) (JAN),3.8%,u,09:30
+143,5.1%,GBP,"Thursday, March 1, 2018",,-,Low,GBP M4 Ex IOFCs 3M Annualised (JAN),4.8%,u,09:30
+144,55.2,GBP,"Thursday, March 1, 2018",55.0,u,Medium,GBP Markit UK PMI Manufacturing s.a. (FEB),55.3,-,09:30
+145,8.6%,EUR,"Thursday, March 1, 2018",8.6%,-,Medium,EUR Euro-Zone Unemployment Rate (JAN),8.6%,u,10:00
+146,1.5%,EUR,"Thursday, March 1, 2018",1.5%,-,Medium,EUR Italian Annual Gross Domestic Product (YoY) (2017),0.9%,-,10:00
+147,-$16.35b,CAD,"Thursday, March 1, 2018",-$17.65b,u,Low,CAD Current Account Balance (4Q),-$18.59b,-,13:30
+148,0.4%,USD,"Thursday, March 1, 2018",0.3%,u,Medium,USD Personal Income (JAN),0.4%,-,13:30
+149,0.2%,USD,"Thursday, March 1, 2018",0.2%,-,Medium,USD Personal Spending (JAN),0.4%,-,13:30
+150,-0.1%,USD,"Thursday, March 1, 2018",-0.1%,-,Medium,USD Real Personal Spending (JAN),0.2%,d,13:30
+151,0.4%,USD,"Thursday, March 1, 2018",0.4%,-,Low,USD PCE Deflator (MoM) (JAN),0.1%,-,13:30
+152,1.7%,USD,"Thursday, March 1, 2018",1.7%,-,Low,USD PCE Deflator (YoY) (JAN),1.7%,-,13:30
+153,0.3%,USD,"Thursday, March 1, 2018",0.3%,-,Medium,USD PCE Core (MoM) (JAN),0.2%,-,13:30
+154,1.5%,USD,"Thursday, March 1, 2018",1.5%,-,High,USD PCE Core (YoY) (JAN),1.5%,-,13:30
+155,210k,USD,"Thursday, March 1, 2018",225k,u,Medium,USD Initial Jobless Claims (24 FEB),220k,u,13:30
+156,1931k,USD,"Thursday, March 1, 2018",1925k,d,Medium,USD Continuing Claims (17 FEB),1874k,u,13:30
+157,55.6,CAD,"Thursday, March 1, 2018",,-,High,CAD RBC Canadian Manufacturing PMI (FEB),55.9,-,14:30
+158,55.3,USD,"Thursday, March 1, 2018",55.9,d,Low,USD Markit US Manufacturing PMI (FEB F),55.9,-,14:45
+159,0.0%,USD,"Thursday, March 1, 2018",0.3%,d,Medium,USD Construction Spending (MoM) (JAN),0.8%,u,15:00
+160,60.8,USD,"Thursday, March 1, 2018",58.7,u,High,USD ISM Manufacturing (FEB),59.1,-,15:00
+161,59.7,USD,"Thursday, March 1, 2018",,-,High,USD ISM Employment (FEB),54.2,-,15:00
+162,74.2,USD,"Thursday, March 1, 2018",70.0,u,Medium,USD ISM Prices Paid (FEB),72.7,-,15:00
+163,64.2,USD,"Thursday, March 1, 2018",,-,Low,USD ISM New Orders (FEB),65.4,-,15:00
+164,-78,USD,"Thursday, March 1, 2018",-77,u,Low,USD EIA Working Natural Gas Implied Flow (23 FEB),-124,-,15:30
+165,-78,USD,"Thursday, March 1, 2018",-77,u,Low,USD EIA Natural Gas Storage Change (23 FEB),-124,-,15:30
+166,12.94m,USD,"Thursday, March 1, 2018",13.30m,d,Low,USD Domestic Vehicle Sales (FEB),13.10m,-,19:40
+167,16.96m,USD,"Thursday, March 1, 2018",17.20m,d,Low,USD Wards Total Vehicle Sales (FEB),17.07m,-,19:40
+168,127.7,NZD,"Thursday, March 1, 2018",,-,Low,NZD ANZ Consumer Confidence Index (FEB),126.9,-,21:00
+169,0.6%,NZD,"Thursday, March 1, 2018",,-,Low,NZD ANZ Consumer Confidence (MoM) (FEB),4.2%,-,21:00
+170,0.2%,NZD,"Thursday, March 1, 2018",,-,Medium,NZD Building Permits (MoM) (JAN),-9.5%,u,21:45
+171,1.59,JPY,"Thursday, March 1, 2018",1.60,d,Low,JPY Job-To-Applicant Ratio (JAN),1.59,-,23:30
+172,2.4%,JPY,"Thursday, March 1, 2018",2.8%,u,Medium,JPY Jobless Rate (JAN),2.7%,u,23:30
+173,1.4%,JPY,"Thursday, March 1, 2018",1.4%,-,Low,JPY Tokyo Consumer Price Index (YoY) (FEB),1.3%,-,23:30
+174,0.9%,JPY,"Thursday, March 1, 2018",0.8%,u,Low,JPY Tokyo Consumer Price Index Ex-Fresh Food (YoY) (FEB),0.7%,-,23:30
+175,0.5%,JPY,"Thursday, March 1, 2018",0.5%,-,Low,"JPY Tokyo CPI Ex-Fresh Food, Energy (YoY) (FEB)",0.4%,-,23:30
+176,9.4%,JPY,"Thursday, March 1, 2018",,-,Medium,JPY Monetary Base (YoY) (FEB),9.7%,-,23:50
+177,¥475.2t,JPY,"Thursday, March 1, 2018",¥476.6t,d,Medium,JPY Monetary Base End of period (FEB),¥476.7t,-,23:50
+178,-0.7%,EUR,"Friday, March 2, 2018",0.7%,d,Low,EUR German Retail Sales (MoM) (JAN),-1.1%,u,07:00
+179,2.3%,EUR,"Friday, March 2, 2018",3.0%,d,Medium,EUR German Retail Sales (YoY) (JAN),-0.2%,u,07:00
+180,0.5%,EUR,"Friday, March 2, 2018",0.4%,u,Low,EUR German Import Price Index (MoM) (JAN),0.3%,-,07:00
+181,0.7%,EUR,"Friday, March 2, 2018",0.7%,-,Low,EUR German Import Price Index (YoY) (JAN),1.1%,-,07:00
+182,,EUR,"Friday, March 2, 2018",,-,Low,EUR ECB's Mersch speaks in Prague,,-,08:10
+183,0.3%,EUR,"Friday, March 2, 2018",0.3%,-,Low,EUR Italian Gross Domestic Product w.d.a. (QoQ) (4Q F),0.3%,-,09:00
+184,1.6%,EUR,"Friday, March 2, 2018",1.6%,-,Medium,EUR Italian Gross Domestic Product w.d.a. (YoY) (4Q F),1.6%,-,09:00
+185,51.4,GBP,"Friday, March 2, 2018",50.5,u,Medium,GBP Markit/CIPS UK Construction PMI (FEB),50.2,-,09:30
+186,,GBP,"Friday, March 2, 2018",,-,High,GBP Carney Speaks on Money at Event in London,,-,10:00
+187,0.4%,EUR,"Friday, March 2, 2018",0.4%,-,Low,EUR Euro-Zone Producer Price Index (MoM) (JAN),0.1%,d,10:00
+188,1.5%,EUR,"Friday, March 2, 2018",1.6%,d,Low,EUR Euro-Zone Producer Price Index (YoY) (JAN),2.2%,-,10:00
+189,0.1%,CAD,"Friday, March 2, 2018",0.1%,-,Medium,CAD Gross Domestic Product (MoM) (DEC),0.4%,-,13:30
+190,3.3%,CAD,"Friday, March 2, 2018",3.3%,-,High,CAD Gross Domestic Product (YoY) (DEC),3.5%,-,13:30
+191,1.7%,CAD,"Friday, March 2, 2018",2.0%,d,High,CAD Quarterly Gross Domestic Product Annualized (4Q),1.5%,d,13:30
+192,,GBP,"Friday, March 2, 2018",,d,High,GBP UK PM Theresa May Speaks on Britain and EU Post-Brexit,,d,13:30
+193,99.7,USD,"Friday, March 2, 2018",99.5,u,Medium,USD U. of Mich. Sentiment (FEB F),99.9,-,15:00
+194,114.9,USD,"Friday, March 2, 2018",,-,Low,USD U. of Mich. Current Conditions (FEB F),115.1,-,15:00
+195,90.0,USD,"Friday, March 2, 2018",,-,Low,USD U. of Mich. Expectations (FEB F),90.2,-,15:00
+196,2.7%,USD,"Friday, March 2, 2018",,-,Low,USD U. of Mich. 1 Yr Inflation (FEB F),2.7%,-,15:00
+197,2.5%,USD,"Friday, March 2, 2018",,-,Medium,USD U. of Mich. 5-10 Yr Inflation (FEB F),2.5%,-,15:00
+198,981,USD,"Friday, March 2, 2018",,-,Medium,USD Baker Hughes U.S. Rig Count (2 MAR),978,-,18:00
+199,,AUD,"Tuesday, February 20, 2018",,-,Medium,AUD RBA February Meeting Minutes,,-,00:30
+200,48.8%,JPY,"Tuesday, February 20, 2018",,-,Low,JPY Machine Tool Orders (YoY) (JAN F),48.8%,-,06:00
+201,0.1%,JPY,"Tuesday, February 20, 2018",,-,Low,JPY Convenience Store Sales (YoY) (JAN),-0.3%,-,07:00
+202,2.1%,EUR,"Tuesday, February 20, 2018",1.8%,u,Low,EUR German Producer Price Index (YoY) (JAN),2.3%,-,07:00
+203,0.5%,EUR,"Tuesday, February 20, 2018",0.3%,u,Low,EUR German Producer Price Index (MoM) (JAN),0.2%,-,07:00
+204,-5.1%,CHF,"Tuesday, February 20, 2018",,-,Low,CHF Exports (MoM) (JAN),3.3%,u,07:00
+205,3.8%,CHF,"Tuesday, February 20, 2018",,-,Low,CHF Imports (MoM) (JAN),1%,u,07:00
+206,12.6%,CHF,"Tuesday, February 20, 2018",,-,Low,CHF Swiss Watch Exports (YoY) (JAN),0.7%,-,07:00
+207,92.3,EUR,"Tuesday, February 20, 2018",94.0,d,Medium,EUR German ZEW Survey Current Situation (FEB),95.2,-,10:00
+208,17.8,EUR,"Tuesday, February 20, 2018",16.0,u,High,EUR German ZEW Survey Expectations (FEB),20.4,-,10:00
+209,29.3,EUR,"Tuesday, February 20, 2018",,-,High,EUR Euro-Zone ZEW Survey (Economic Sentiment) (FEB),31.8,-,10:00
+210,10,GBP,"Tuesday, February 20, 2018",11,d,Low,GBP CBI Trends Total Orders (FEB),14,-,11:00
+211,25,GBP,"Tuesday, February 20, 2018",,-,Low,GBP CBI Trends Selling Prices (FEB),40,-,11:00
+212,-0.5%,CAD,"Tuesday, February 20, 2018",0.4%,d,Low,CAD Wholesale Trade Sales (MoM) (DEC),0.3%,d,13:30
+213,"$3,623",NZD,"Tuesday, February 20, 2018",,-,Medium,NZD Dairy Auction Avg. Winning Price MT (20 FEB),"$3,553",-,13:44
+214,"$3,246",NZD,"Tuesday, February 20, 2018",,-,Medium,NZD Dairy Auction Whole Milk Powder MT (20 FEB),"$3,226",-,13:44
+215,0.1,EUR,"Tuesday, February 20, 2018",1.0,d,Medium,EUR Euro-Zone Consumer Confidence (FEB A),1.4,u,15:00
+216,,USD,"Tuesday, February 20, 2018",,-,Low,USD U.S. to Sell USD51 Bln 3-Month Bills,,-,16:30
+217,,USD,"Tuesday, February 20, 2018",,-,Low,USD U.S. to Sell USD45 Bln 6-Month Bills,,-,16:30
+218,,USD,"Tuesday, February 20, 2018",,-,Low,USD U.S. to Sell USD55 Bln 4-Week Bills,,-,18:00
+219,,USD,"Tuesday, February 20, 2018",,-,Low,USD U.S. to Sell USD28 Bln 2-Year Notes,,-,18:00
+220,-0.24%,AUD,"Tuesday, February 20, 2018",,-,Medium,AUD Westpac Leading Index (MoM) (JAN),0.21%,d,23:30
+221,1.2%,AUD,"Wednesday, February 21, 2018",,-,Low,AUD Skilled Vacancies (MoM) (JAN),1.2%,u,00:00
+222,0.6%,AUD,"Wednesday, February 21, 2018",0.5%,u,Low,AUD Wage Price Index (QoQ) (4Q),0.5%,-,00:30
+223,2.1%,AUD,"Wednesday, February 21, 2018",2.0%,u,Medium,AUD Wage Price Index (YoY) (4Q),2.0%,-,00:30
+224,-19.4%,AUD,"Wednesday, February 21, 2018",-10.0%,d,Low,AUD Construction Work Done (4Q),16.6%,u,00:30
+225,54.0,JPY,"Wednesday, February 21, 2018",,-,Medium,JPY Nikkei Japan PMI Manufacturing (FEB P),54.8,-,00:30
+226,,JPY,"Wednesday, February 21, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+227,,JPY,"Wednesday, February 21, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+228,,JPY,"Wednesday, February 21, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Year,,-,01:10
+229,,JPY,"Wednesday, February 21, 2018",,-,Low,JPY BOJ Funo speaks for 100 years anniversary of Matsue Branch,,-,01:10
+230,-1.2%,JPY,"Wednesday, February 21, 2018",,-,Low,JPY Nationwide Department Store Sales (YoY) (JAN),-0.6%,-,04:24
+231,-0.2%,JPY,"Wednesday, February 21, 2018",,-,Low,JPY Tokyo Department Store Sales (YoY) (JAN),0.9%,-,04:24
+232,0.5%,JPY,"Wednesday, February 21, 2018",0.4%,u,Medium,JPY All Industry Activity Index (MoM) (DEC),1.0%,-,04:30
+233,0.6%,JPY,"Wednesday, February 21, 2018",,-,Low,JPY Supermarket Sales (YoY) (JAN),0.9%,-,05:00
+234,56.1,EUR,"Wednesday, February 21, 2018",58.0,d,Low,EUR Markit France Manufacturing PMI (FEB P),58.4,-,08:00
+235,4.1%,CHF,"Wednesday, February 21, 2018",,-,Low,CHF Money Supply M3 (YoY) (JAN),3.6%,-,08:00
+236,57.9,EUR,"Wednesday, February 21, 2018",59.0,d,Low,EUR Markit France Services PMI (FEB P),59.2,-,08:00
+237,57.8,EUR,"Wednesday, February 21, 2018",59.2,d,Low,EUR Markit France Composite PMI (FEB P),59.6,-,08:00
+238,60.3,EUR,"Wednesday, February 21, 2018",60.5,d,Medium,EUR Markit/BME Germany Manufacturing PMI (FEB P),61.1,-,08:30
+239,55.3,EUR,"Wednesday, February 21, 2018",57.0,d,Medium,EUR Markit Germany Services PMI (FEB P),57.3,-,08:30
+240,57.4,EUR,"Wednesday, February 21, 2018",58.5,d,Medium,EUR Markit/BME Germany Composite PMI (FEB P),59,-,08:30
+241,58.5,EUR,"Wednesday, February 21, 2018",59.2,d,Medium,EUR Markit Eurozone Manufacturing PMI (FEB P),59.6,-,09:00
+242,56.7,EUR,"Wednesday, February 21, 2018",57.6,d,Medium,EUR Markit Eurozone Services PMI (FEB P),58,-,09:00
+243,57.5,EUR,"Wednesday, February 21, 2018",58.4,d,Medium,EUR Markit Eurozone Composite PMI (FEB P),58.8,-,09:00
+244,2.3%,GBP,"Wednesday, February 21, 2018",,-,Medium,GBP Claimant Count Rate (JAN),2.4%,-,09:30
+245,-7.2k,GBP,"Wednesday, February 21, 2018",,-,Medium,GBP Jobless Claims Change (JAN),6.2k,u,09:30
+246,2.5%,GBP,"Wednesday, February 21, 2018",2.5%,-,Medium,GBP Average Weekly Earnings (3M/YoY) (DEC),2.5%,-,09:30
+247,2.5%,GBP,"Wednesday, February 21, 2018",2.4%,u,Medium,GBP Weekly Earnings ex Bonus (3M/YoY) (DEC),2.3%,d,09:30
+248,4.4%,GBP,"Wednesday, February 21, 2018",4.3%,d,Medium,GBP ILO Unemployment Rate 3Mths (DEC),4.3%,-,09:30
+249,88k,GBP,"Wednesday, February 21, 2018",180k,d,Low,GBP Employment Change 3M/3M (DEC),102k,-,09:30
+250,-26.4b,GBP,"Wednesday, February 21, 2018",,-,Low,GBP Public Finances (PSNCR) (Pounds) (JAN),25.3b,d,09:30
+251,-27.7b,GBP,"Wednesday, February 21, 2018",,-,Low,GBP Central Government NCR (JAN),21.7b,d,09:30
+252,-11.6b,GBP,"Wednesday, February 21, 2018",-11.4b,d,Medium,GBP Public Sector Net Borrowing (JAN),0.3b,u,09:30
+253,-10.0b,GBP,"Wednesday, February 21, 2018",-9.6b,d,Medium,GBP PSNB ex Banking Groups (JAN),1.9b,u,09:30
+254,-6.6%,USD,"Wednesday, February 21, 2018",,-,Medium,USD MBA Mortgage Applications (16 FEB),-4.1%,-,12:00
+255,,USD,"Wednesday, February 21, 2018",,-,Low,USD Fed's Harker Speaks on the Economic Outlook,,-,14:00
+256,,GBP,"Wednesday, February 21, 2018",,-,High,"GBP BOE's Carney, Broadbent, Haldane and Tenreyro Speak in London",,-,14:15
+257,55.9,USD,"Wednesday, February 21, 2018",55.5,u,Medium,USD Markit US Manufacturing PMI (FEB P),55.5,-,14:45
+258,55.9,USD,"Wednesday, February 21, 2018",53.7,u,Medium,USD Markit US Services PMI (FEB P),53.3,-,14:45
+259,55.9,USD,"Wednesday, February 21, 2018",,-,Medium,USD Markit US Composite PMI (FEB P),53.8,-,14:45
+260,,USD,"Wednesday, February 21, 2018",,-,Low,USD Revisions: Existing Home Sales,,-,15:00
+261,5.38m,USD,"Wednesday, February 21, 2018",5.60m,d,Low,USD Existing Home Sales (JAN),5.56m,d,15:00
+262,-3.2%,USD,"Wednesday, February 21, 2018",0.5%,d,Medium,USD Existing Home Sales (MoM) (JAN),-2.8%,u,15:00
+263,,USD,"Wednesday, February 21, 2018",,-,Low,USD U.S. to Sell USD15 Bln 2-Year Floating Rate Notes Reopening,,-,16:30
+264,,USD,"Wednesday, February 21, 2018",,-,Low,USD U.S. to Sell USD35 Bln 5-Year Notes,,-,18:00
+265,,USD,"Wednesday, February 21, 2018",,-,High,USD FOMC Meeting Minutes (31 JAN),,-,19:00
+266,1.66%,CNY,"Thursday, February 22, 2018",,-,Low,CNY Swift Global Payments CNY (JAN),1.54%,-,01:00
+267,-0.6%,NZD,"Thursday, February 22, 2018",,-,Low,NZD Credit Card Spending (MoM) (JAN),0.6%,-,02:00
+268,4.6%,NZD,"Thursday, February 22, 2018",,-,Medium,NZD Credit Card Spending (YoY) (JAN),6.2%,d,02:00
+269,,USD,"Thursday, February 22, 2018",,-,Low,USD Fed's Quarles to Speak on Global Economy,,-,05:15
+270,8.5%,CHF,"Thursday, February 22, 2018",,-,Low,CHF Industry & Construction Output WDA (YoY) (4Q),8.0%,u,08:15
+271,8.7%,CHF,"Thursday, February 22, 2018",,-,Medium,CHF Industrial Output w.d.a. (YoY) (4Q),9.2%,u,08:15
+272,115.4,EUR,"Thursday, February 22, 2018",117.0,d,Medium,EUR German IFO Business Climate (FEB),117.6,-,09:00
+273,105.4,EUR,"Thursday, February 22, 2018",107.9,d,Medium,EUR German IFO Expectations (FEB),108.3,d,09:00
+274,126.3,EUR,"Thursday, February 22, 2018",127.0,d,Medium,EUR German IFO Current Assessment (FEB),127.8,u,09:00
+275,0.0%,GBP,"Thursday, February 22, 2018",0.0%,-,Low,GBP Index of Services (MoM) (DEC),0.4%,-,09:30
+276,0.6%,GBP,"Thursday, February 22, 2018",0.5%,u,Low,GBP Index of Services (3Mo3M) (DEC),0.4%,-,09:30
+277,0.4%,GBP,"Thursday, February 22, 2018",0.5%,d,Medium,GBP Gross Domestic Product (QoQ) (4Q P),0.5%,-,09:30
+278,1.4%,GBP,"Thursday, February 22, 2018",1.5%,d,High,GBP Gross Domestic Product (YoY) (4Q P),1.5%,-,09:30
+279,0.0%,GBP,"Thursday, February 22, 2018",0.4%,d,Low,GBP Total Business Investment (QoQ) (4Q P),0.5%,-,09:30
+280,2.1%,GBP,"Thursday, February 22, 2018",2.4%,d,Low,GBP Total Business Investment (YoY) (4Q P),1.7%,-,09:30
+281,0.3%,GBP,"Thursday, February 22, 2018",0.4%,d,Low,GBP Private Consumption (4Q P),0.4%,u,09:30
+282,0.6%,GBP,"Thursday, February 22, 2018",0.3%,u,Low,GBP Government Spending (4Q P),0.0%,u,09:30
+283,1.1%,GBP,"Thursday, February 22, 2018",0.5%,u,Low,GBP Gross Fixed Capital Formation (4Q P),0.2%,-,09:30
+284,-0.2%,GBP,"Thursday, February 22, 2018",0.5%,d,Low,GBP Exports (4Q P),0.2%,u,09:30
+285,1.5%,GBP,"Thursday, February 22, 2018",1.0%,u,Low,GBP Imports (4Q P),1.0%,u,09:30
+286,8,GBP,"Thursday, February 22, 2018",14,d,Low,GBP CBI Reported Sales (FEB),12,-,11:00
+287,27,GBP,"Thursday, February 22, 2018",,-,Low,GBP CBI Total Dist. Reported Sales (FEB),14,-,11:00
+288,62.4,CAD,"Thursday, February 22, 2018",,-,Low,CAD CFIB Business Barometer (FEB),62.7,-,12:10
+289,,EUR,"Thursday, February 22, 2018",,-,High,EUR ECB Publishes Account of Jan. 24-25 Policy meeting,,-,12:30
+290,222k,USD,"Thursday, February 22, 2018",230k,u,Medium,USD Initial Jobless Claims (17 FEB),229k,u,13:30
+291,1875k,USD,"Thursday, February 22, 2018",1935k,u,Medium,USD Continuing Claims (10 FEB),1948k,d,13:30
+292,-0.8%,CAD,"Thursday, February 22, 2018",0.0%,d,Medium,CAD Retail Sales (MoM) (DEC),0.3%,u,13:30
+293,-1.8%,CAD,"Thursday, February 22, 2018",0.3%,d,Low,CAD Retail Sales Ex Auto (MoM) (DEC),1.7%,u,13:30
+294,1.0%,USD,"Thursday, February 22, 2018",0.7%,u,Medium,USD Leading Index (JAN),0.6%,-,15:00
+295,,USD,"Thursday, February 22, 2018",,-,Low,USD Fed's Dudley to Speak at New York Fed Briefing on Puerto Rico,,-,15:00
+296,-124,USD,"Thursday, February 22, 2018",-122,u,Low,USD EIA Working Natural Gas Implied Flow (16 FEB),-194,-,15:30
+297,-124,USD,"Thursday, February 22, 2018",-122,u,Low,USD EIA Natural Gas Storage Change (16 FEB),-194,-,15:30
+298,17,USD,"Thursday, February 22, 2018",18,d,Low,USD Kansas City Fed Manf. Activity (FEB),16,-,16:00
+299,-1616k,USD,"Thursday, February 22, 2018",2900k,u,Medium,USD DOE U.S. Crude Oil Inventories (16 FEB),1841k,-,16:00
+300,-2664k,USD,"Thursday, February 22, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (16 FEB),-3642k,-,16:00
+301,261k,USD,"Thursday, February 22, 2018",1350k,u,Low,USD DOE U.S. Gasoline Inventories (16 FEB),3599k,-,16:00
+302,-2422k,USD,"Thursday, February 22, 2018",-1200k,u,Low,USD DOE U.S. Distillate Inventory (16 FEB),-459k,-,16:00
+303,,USD,"Thursday, February 22, 2018",,-,Low,USD Fed's Bostic Speaks at Banking Conference in Atlanta,,-,17:10
+304,,USD,"Thursday, February 22, 2018",,-,Low,USD U.S. to Sell USD29 Bln 7-Year Notes,,-,18:00
+305,,USD,"Thursday, February 22, 2018",,-,Low,USD Fed's Kaplan Speaks on Trade Panel in Vancouver,,-,20:30
+306,1.7%,NZD,"Thursday, February 22, 2018",1.4%,u,Medium,NZD Retail Sales Ex Inflation (QoQ) (4Q),0.2%,-,21:45
+307,1.4%,JPY,"Thursday, February 22, 2018",1.3%,u,High,JPY National Consumer Price Index (YoY) (JAN),1.0%,-,23:30
+308,0.9%,JPY,"Thursday, February 22, 2018",0.8%,u,Medium,JPY National Consumer Price Index Ex-Fresh Food (YoY) (JAN),0.9%,-,23:30
+309,0.4%,JPY,"Thursday, February 22, 2018",0.3%,u,Medium,"JPY Natl CPI Ex Fresh Food, Energy (YoY) (JAN)",0.3%,-,23:30
+310,0.7%,JPY,"Thursday, February 22, 2018",0.8%,d,Low,JPY Corporate Service Price (YoY) (JAN),0.8%,-,23:50
+311,,JPY,"Friday, February 23, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+312,,JPY,"Friday, February 23, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+313,,JPY,"Friday, February 23, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+314,,JPY,"Friday, February 23, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+315,0.0%,EUR,"Friday, February 23, 2018",0.1%,d,Low,EUR German Private Consumption (4Q),-0.2%,d,07:00
+316,0.5%,EUR,"Friday, February 23, 2018",0.4%,u,Low,EUR German Government Spending (4Q),0.5%,u,07:00
+317,0.0%,EUR,"Friday, February 23, 2018",0.4%,d,Low,EUR German Capital Investment (4Q),0.4%,-,07:00
+318,-0.4%,EUR,"Friday, February 23, 2018",-0.2%,d,Low,EUR German Construction Investment (4Q),-0.3%,u,07:00
+319,0.1%,EUR,"Friday, February 23, 2018",0.2%,d,Low,EUR German Domestic Demand (4Q),0.4%,-,07:00
+320,2.7%,EUR,"Friday, February 23, 2018",2.2%,u,Low,EUR German Exports (4Q),1.8%,u,07:00
+321,2.0%,EUR,"Friday, February 23, 2018",1.4%,u,Low,EUR German Imports (4Q),1.1%,u,07:00
+322,0.6%,EUR,"Friday, February 23, 2018",0.6%,-,Low,EUR German Gross Domestic Product s.a. (QoQ) (4Q F),0.6%,-,07:00
+323,2.9%,EUR,"Friday, February 23, 2018",2.9%,-,Medium,EUR German Gross Domestic Product w.d.a. (YoY) (4Q F),2.9%,-,07:00
+324,2.3%,EUR,"Friday, February 23, 2018",2.3%,-,Medium,EUR German Gross Domestic Product n.s.a. (YoY) (4Q F),2.2%,u,07:00
+325,1.0%,EUR,"Friday, February 23, 2018",1.0%,-,Medium,EUR Euro-Zone Consumer Price Index Core (YoY) (JAN F),1.0%,-,10:00
+326,1.3%,EUR,"Friday, February 23, 2018",1.3%,-,Medium,EUR Euro-Zone Consumer Price Index (YoY) (JAN F),1.4%,-,10:00
+327,-0.9%,EUR,"Friday, February 23, 2018",-0.9%,-,Medium,EUR Euro-Zone Consumer Price Index (MoM) (JAN),0.4%,-,10:00
+328,,GBP,"Friday, February 23, 2018",,-,Low,GBP BOE's Ramsden Speaks on Productivity in Cambridge,,-,12:00
+329,0.7%,CAD,"Friday, February 23, 2018",0.5%,u,Medium,CAD Consumer Price Index n.s.a. (MoM) (JAN),-0.4%,-,13:30
+330,1.7%,CAD,"Friday, February 23, 2018",1.5%,u,High,CAD Consumer Price Index (YoY) (JAN),1.9%,-,13:30
+331,131.7,CAD,"Friday, February 23, 2018",131.5,u,Low,CAD Consumer Price Index (JAN),130.8,-,13:30
+332,1.8%,CAD,"Friday, February 23, 2018",1.7%,u,Low,CAD Consumer Price Index Core (YoY) (JAN),1.6%,-,13:30
+333,1.9%,CAD,"Friday, February 23, 2018",,-,Low,CAD CPI Core - Median (YoY) (JAN),1.9%,-,13:30
+334,1.9%,CAD,"Friday, February 23, 2018",,-,Low,CAD CPI Core - Trim (YoY) (JAN),1.8%,d,13:30
+335,,USD,"Friday, February 23, 2018",,-,Low,USD Fed's Dudley and Rosengren Speak on Panel on Fed Balance Sheet,,-,15:15
+336,,USD,"Friday, February 23, 2018",,-,Low,USD Fed Releases February 2018 Monetary Policy Report to Congress,,-,16:00
+337,978,USD,"Friday, February 23, 2018",,-,Medium,USD Baker Hughes U.S. Rig Count (23 FEB),975,-,18:00
+338,,EUR,"Friday, February 23, 2018",,-,Low,"EUR ECB's Coeure, Fed's Mester Participate in Panel in New York",,-,18:30
+339,,USD,"Friday, February 23, 2018",,-,Low,USD Fed's Williams Speaks on Outlook for U.S. Economy,,-,20:40
+340,,EUR,"Saturday, February 24, 2018",,-,Low,EUR German Import Price Index (MoM) (JAN),0.3%,-,
+341,,EUR,"Saturday, February 24, 2018",,-,Low,EUR German Import Price Index (YoY) (JAN),1.1%,-,
+342,,CNY,"Saturday, February 24, 2018",,-,Low,CNY China January Property Prices,,-,01:30
+343,A$27.9b,AUD,"Monday, February 12, 2018",,-,Low,AUD Credit Card Purchases (DEC),A$27.9b,-,00:30
+344,A$52.9b,AUD,"Monday, February 12, 2018",,-,Low,AUD Credit Card Balances (DEC),A$52.2b,-,00:30
+345,-0.1%,CHF,"Monday, February 12, 2018",-0.2%,u,Low,CHF Consumer Price Index (MoM) (JAN),0.0%,-,08:15
+346,0.7%,CHF,"Monday, February 12, 2018",0.8%,d,Medium,CHF Consumer Price Index (YoY) (JAN),0.8%,-,08:15
+347,-0.5%,CHF,"Monday, February 12, 2018",,-,Low,CHF CPI EU Harmonized (MoM) (JAN),0.2%,-,08:15
+348,0.8%,CHF,"Monday, February 12, 2018",,-,Medium,CHF CPI EU Harmonized (YoY) (JAN),1.1%,-,08:15
+349,574.7b,CHF,"Monday, February 12, 2018",,-,Low,CHF Total Sight Deposits CHF (9 FEB),574.7b,-,09:00
+350,466.4b,CHF,"Monday, February 12, 2018",,-,Low,CHF Domestic Sight Deposits CHF (9 FEB),465.4b,-,09:00
+351,3060.0b,CNY,"Monday, February 12, 2018",3150.0b,d,Medium,CNY Aggregate Financing CNY (JAN),1139.8b,d,09:01
+352,2900.0b,CNY,"Monday, February 12, 2018",2050.0b,u,High,CNY New Yuan Loans CNY (JAN),584.4b,-,09:01
+353,-13.8%,CNY,"Monday, February 12, 2018",4.2%,d,Low,CNY Money Supply M0 (YoY) (JAN),3.4%,-,09:01
+354,15.0%,CNY,"Monday, February 12, 2018",13.5%,u,Low,CNY Money Supply M1 (YoY) (JAN),11.8%,-,09:01
+355,8.6%,CNY,"Monday, February 12, 2018",8.2%,u,Low,CNY Money Supply M2 (YoY) (JAN),8.2%,-,09:01
+356,,GBP,"Monday, February 12, 2018",,-,Low,GBP BOE's Vlieghe Speaks at Resolution Foundation Event in London,,-,09:30
+357,,USD,"Monday, February 12, 2018",,-,Low,USD U.S. to Sell USD48 Bln 3-Month Bills,,-,16:30
+358,,USD,"Monday, February 12, 2018",,-,Low,USD U.S. to Sell USD42 Bln 6-Month Bills,,-,16:30
+359,,GBP,"Monday, February 12, 2018",,-,Low,GBP BOE Policy Maker Ian McCafferty Speaks on LBC Radio,,-,16:30
+360,$49.2b,USD,"Monday, February 12, 2018",$51.0b,d,Medium,USD Monthly Budget Statement (JAN),$51.3b,-,19:00
+361,,AUD,"Monday, February 12, 2018",,-,Low,AUD RBA's Ellis Gives Speech in Sydney,,-,21:50
+362,119.5,AUD,"Monday, February 12, 2018",,-,Low,AUD ANZ Roy Morgan Weekly Consumer Confidence Index (11 FEB),122.7,-,22:30
+363,2.7%,JPY,"Monday, February 12, 2018",2.7%,-,Low,JPY Domestic Corporate Goods Price Index (YoY) (JAN),3.0%,d,23:50
+364,0.3%,JPY,"Monday, February 12, 2018",0.3%,-,Low,JPY Domestic Corporate Goods Price Index (MoM) (JAN),0.1%,d,23:50
+365,,USD,"Tuesday, February 13, 2018",,-,Low,USD Revisions: Producer Price Index,,-,
+366,19,AUD,"Tuesday, February 13, 2018",,-,Low,AUD NAB Business Conditions (JAN),13,-,00:30
+367,12,AUD,"Tuesday, February 13, 2018",,-,Medium,AUD NAB Business Confidence (JAN),10,d,00:30
+368,,JPY,"Tuesday, February 13, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+369,48.8%,JPY,"Tuesday, February 13, 2018",,-,Medium,JPY Machine Tool Orders (YoY) (JAN P),48.3%,-,06:00
+370,0.3%,CHF,"Tuesday, February 13, 2018",,-,Low,CHF Producer & Import Prices (MoM) (JAN),0.2%,-,08:15
+371,1.8%,CHF,"Tuesday, February 13, 2018",,-,Low,CHF Producer & Import Prices (YoY) (JAN),1.8%,-,08:15
+372,2.7%,GBP,"Tuesday, February 13, 2018",2.8%,d,Medium,GBP CPIH (YoY) (JAN),2.7%,-,09:30
+373,-0.5%,GBP,"Tuesday, February 13, 2018",-0.6%,u,Medium,GBP Consumer Price Index (MoM) (JAN),0.4%,-,09:30
+374,3.0%,GBP,"Tuesday, February 13, 2018",2.9%,u,High,GBP Consumer Price Index (YoY) (JAN),3.0%,-,09:30
+375,2.7%,GBP,"Tuesday, February 13, 2018",2.6%,u,High,GBP Core Consumer Price Index (YoY) (JAN),2.5%,-,09:30
+376,276.0,GBP,"Tuesday, February 13, 2018",276.2,d,Low,GBP Retail Price Index (JAN),278.1,-,09:30
+377,-0.8%,GBP,"Tuesday, February 13, 2018",-0.7%,d,Low,GBP Retail Price Index (MoM) (JAN),0.8%,-,09:30
+378,4.0%,GBP,"Tuesday, February 13, 2018",4.0%,-,Low,GBP Retail Price Index (YoY) (JAN),4.1%,-,09:30
+379,4.0%,GBP,"Tuesday, February 13, 2018",4.1%,d,Low,GBP Retail Price Index Ex Mort Int.Payments (YoY) (JAN),4.2%,-,09:30
+380,0.7%,GBP,"Tuesday, February 13, 2018",0.6%,u,Low,GBP Producer Price Index Input n.s.a. (MoM) (JAN),0.6%,u,09:30
+381,4.7%,GBP,"Tuesday, February 13, 2018",4.1%,u,Low,GBP Producer Price Index Input n.s.a. (YoY) (JAN),5.4%,u,09:30
+382,0.1%,GBP,"Tuesday, February 13, 2018",0.2%,d,Low,GBP Producer Price Index Output n.s.a. (MoM) (JAN),0.4%,-,09:30
+383,2.8%,GBP,"Tuesday, February 13, 2018",3.0%,d,Low,GBP Producer Price Index Output n.s.a. (YoY) (JAN),3.3%,-,09:30
+384,0.3%,GBP,"Tuesday, February 13, 2018",0.2%,u,Low,GBP Producer Price Index Output Core n.s.a. (MoM) (JAN),0.2%,d,09:30
+385,2.2%,GBP,"Tuesday, February 13, 2018",2.3%,d,Low,GBP Producer Price Index Output Core n.s.a. (YoY) (JAN),2.4%,d,09:30
+386,5.2%,GBP,"Tuesday, February 13, 2018",4.9%,u,Medium,GBP House Price Index (YoY) (DEC),5.0%,d,09:30
+387,106.9,USD,"Tuesday, February 13, 2018",105.7,u,Low,USD NFIB Small Business Optimism (JAN),104.9,-,11:00
+388,,USD,"Tuesday, February 13, 2018",,-,Low,USD Fed's Mester to Discuss Monetary Policy and Economic Outlook,,-,13:00
+389,,USD,"Tuesday, February 13, 2018",,-,Low,USD U.S. to Sell 4-Week Bills,,-,16:30
+390,1.2%,NZD,"Tuesday, February 13, 2018",,-,Low,NZD Food Prices (MoM) (JAN),-0.8%,-,21:45
+391,102.7,AUD,"Tuesday, February 13, 2018",,-,Low,AUD Westpac Consumer Conf Index (FEB),105.1,-,23:30
+392,-2.3%,AUD,"Tuesday, February 13, 2018",,-,Medium,AUD Westpac Consumer Confidence (FEB),1.8%,-,23:30
+393,0.1%,JPY,"Tuesday, February 13, 2018",0.2%,d,Medium,JPY Gross Domestic Product s.a. (QoQ) (4Q P),0.6%,-,23:50
+394,0.5%,JPY,"Tuesday, February 13, 2018",1.0%,d,High,JPY Gross Domestic Product Annualized s.a. (QoQ) (4Q P),2.2%,d,23:50
+395,0.0%,JPY,"Tuesday, February 13, 2018",0.4%,d,Medium,JPY Nominal Gross Domestic Product (QoQ) (4Q P),0.6%,d,23:50
+396,0.0%,JPY,"Tuesday, February 13, 2018",0.0%,-,Low,JPY Gross Domestic Product Deflator (YoY) (4Q P),0.2%,u,23:50
+397,0.5%,JPY,"Tuesday, February 13, 2018",0.4%,u,Low,JPY Gross Domestic Product Private Consumption (QoQ) (4Q P),-0.6%,d,23:50
+398,0.7%,JPY,"Tuesday, February 13, 2018",1.1%,d,Low,JPY GDP Business Spending (QoQ) (4Q P),1.0%,d,23:50
+399,2.11%,NZD,"Wednesday, February 14, 2018",,-,Medium,NZD Reserve Bank of New Zealand 2-Year Inflation Expectation (1Q),2.02%,-,02:00
+400,0.3%,CNY,"Wednesday, February 14, 2018",,-,Low,CNY Foreign Direct Investment CNY (YoY),-9.2%,-,03:25
+401,39.7%,JPY,"Wednesday, February 14, 2018",,-,Low,JPY Tokyo Condominium Sales (YoY) (JAN),-7.5%,-,04:00
+402,0.6%,EUR,"Wednesday, February 14, 2018",0.6%,-,Medium,EUR German Gross Domestic Product s.a. (QoQ) (4Q P),0.8%,-,07:00
+403,2.9%,EUR,"Wednesday, February 14, 2018",3.0%,d,High,EUR German Gross Domestic Product w.d.a. (YoY) (4Q P),2.8%,-,07:00
+404,2.3%,EUR,"Wednesday, February 14, 2018",2.2%,u,High,EUR German Gross Domestic Product n.s.a. (YoY) (4Q P),2.2%,u,07:00
+405,-0.7%,EUR,"Wednesday, February 14, 2018",-0.7%,-,Low,EUR German Consumer Price Index (MoM) (JAN F),-0.7%,-,07:00
+406,1.6%,EUR,"Wednesday, February 14, 2018",1.6%,-,Medium,EUR German Consumer Price Index (YoY) (JAN F),1.6%,-,07:00
+407,,CHF,"Wednesday, February 14, 2018",,-,Low,CHF SNB's Zurbruegg Speaks in Frankfurt,,-,08:50
+408,0.3%,EUR,"Wednesday, February 14, 2018",0.4%,d,Medium,EUR Italian Gross Domestic Product w.d.a. (QoQ) (4Q P),0.4%,-,09:00
+409,1.6%,EUR,"Wednesday, February 14, 2018",1.7%,d,High,EUR Italian Gross Domestic Product w.d.a. (YoY) (4Q P),1.7%,-,09:00
+410,0.4%,EUR,"Wednesday, February 14, 2018",0.1%,u,Low,EUR Euro-Zone Industrial Production s.a. (MoM) (DEC),1.3%,u,10:00
+411,5.2%,EUR,"Wednesday, February 14, 2018",4.2%,u,Medium,EUR Euro-Zone Industrial Production w.d.a. (YoY) (DEC),3.7%,u,10:00
+412,0.6%,EUR,"Wednesday, February 14, 2018",0.6%,-,Medium,EUR Euro-Zone Gross Domestic Product s.a. (QoQ) (4Q P),0.6%,-,10:00
+413,2.7%,EUR,"Wednesday, February 14, 2018",2.7%,-,High,EUR Euro-Zone Gross Domestic Product s.a. (YoY) (4Q P),2.7%,-,10:00
+414,,EUR,"Wednesday, February 14, 2018",,-,Low,EUR ECB's Mersch Speaks in Frankfurt,,-,10:20
+415,,EUR,"Wednesday, February 14, 2018",,-,Low,"EUR ECB's Mersch, SNB's Zurbruegg Participate in Panel Discussion",,-,11:20
+416,-4.1%,USD,"Wednesday, February 14, 2018",,-,Medium,USD MBA Mortgage Applications (9 FEB),0.7%,-,12:00
+417,,EUR,"Wednesday, February 14, 2018",,-,Low,EUR ECB's Mersch speaks in Frankfurt,,-,12:45
+418,219.19,CAD,"Wednesday, February 14, 2018",,-,Low,CAD Teranet/National Bank HP Index (JAN),217.49,-,13:30
+419,0.3%,CAD,"Wednesday, February 14, 2018",,-,Low,CAD Teranet/National Bank HPI (MoM) (JAN),0.2%,-,13:30
+420,8.7%,CAD,"Wednesday, February 14, 2018",,-,Low,CAD Teranet/National Bank HPI (YoY) (JAN),9.1%,-,13:30
+421,0.5%,USD,"Wednesday, February 14, 2018",0.3%,u,Medium,USD Consumer Price Index (MoM) (JAN),0.2%,u,13:30
+422,0.3%,USD,"Wednesday, February 14, 2018",0.2%,u,Medium,USD Consumer Price Index Ex Food and Energy (MoM) (JAN),0.2%,d,13:30
+423,2.1%,USD,"Wednesday, February 14, 2018",1.9%,u,High,USD Consumer Price Index (YoY) (JAN),2.1%,-,13:30
+424,1.8%,USD,"Wednesday, February 14, 2018",1.7%,u,High,USD Consumer Price Index Ex Food and Energy (YoY) (JAN),1.8%,-,13:30
+425,247.867,USD,"Wednesday, February 14, 2018",247.599,u,Low,USD Consumer Price Index n.s.a. (JAN),246.524,-,13:30
+426,255.287,USD,"Wednesday, February 14, 2018",,-,Low,USD Consumer Price Index Core Index s.a. (JAN),254.398,d,13:30
+427,-0.3%,USD,"Wednesday, February 14, 2018",0.2%,d,High,USD Retail Sales Advance (MoM) (JAN),0.0%,d,13:30
+428,0.0%,USD,"Wednesday, February 14, 2018",0.5%,d,Low,USD Retail Sales Ex Auto (MoM) (JAN),0.1%,d,13:30
+429,-0.2%,USD,"Wednesday, February 14, 2018",0.3%,d,Medium,USD Retail Sales Ex Auto and Gas (JAN),0.0%,d,13:30
+430,0.0%,USD,"Wednesday, February 14, 2018",0.4%,d,Medium,USD Retail Sales Control Group (JAN),-0.2%,d,13:30
+431,0.4%,USD,"Wednesday, February 14, 2018",,-,Medium,USD Real Avg Weekly Earnings (YoY) (JAN),0.9%,u,13:30
+432,0.8%,USD,"Wednesday, February 14, 2018",,-,Medium,USD Real Avg Hourly Earning (YoY) (JAN),0.6%,u,13:30
+433,0.4%,USD,"Wednesday, February 14, 2018",0.3%,u,Medium,USD Business Inventories (DEC),0.4%,-,15:00
+434,1841k,USD,"Wednesday, February 14, 2018",3100k,u,Medium,USD DOE U.S. Crude Oil Inventories (9 FEB),1895k,-,15:30
+435,-3642k,USD,"Wednesday, February 14, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (9 FEB),-711k,-,15:30
+436,3599k,USD,"Wednesday, February 14, 2018",1800k,d,Low,USD DOE U.S. Gasoline Inventories (9 FEB),3414k,-,15:30
+437,-459k,USD,"Wednesday, February 14, 2018",0k,u,Low,USD DOE U.S. Distillate Inventory (9 FEB),3926k,-,15:30
+438,2.7%,NZD,"Wednesday, February 14, 2018",,-,Medium,NZD REINZ House Sales (YoY) (JAN),-10.1%,-,20:00
+439,-11.9%,JPY,"Wednesday, February 14, 2018",-2.0%,d,Low,JPY Machine Orders (MoM) (DEC),5.7%,-,23:50
+440,-5.0%,JPY,"Wednesday, February 14, 2018",1.8%,d,Medium,JPY Machine Orders (YoY) (DEC),4.1%,-,23:50
+441,3.6%,AUD,"Thursday, February 15, 2018",,-,Medium,AUD Consumer Inflation Expectation (FEB),3.7%,-,00:00
+442,16.0k,AUD,"Thursday, February 15, 2018",15.0k,u,High,AUD Employment Change (JAN),33.5k,d,00:30
+443,5.5%,AUD,"Thursday, February 15, 2018",5.5%,-,High,AUD Unemployment Rate (JAN),5.6%,d,00:30
+444,-49.8k,AUD,"Thursday, February 15, 2018",,-,Medium,AUD Full Time Employment Change (JAN),12.7k,d,00:30
+445,65.9k,AUD,"Thursday, February 15, 2018",,-,Low,AUD Part Time Employment Change (JAN),20.7k,u,00:30
+446,65.6%,AUD,"Thursday, February 15, 2018",65.6%,-,Low,AUD Participation Rate (JAN),65.7%,-,00:30
+447,A$529m,AUD,"Thursday, February 15, 2018",,-,Low,AUD RBA Foreign Exchange Transaction (Australian dollar) (JAN),A$1279m,-,00:30
+448,-A$634m,AUD,"Thursday, February 15, 2018",,-,Low,AUD RBA FX Transactions Government (JAN),-A$1358m,-,00:30
+449,-A$2646m,AUD,"Thursday, February 15, 2018",,-,Low,AUD RBA FX Transactions Other (JAN),A$2319m,-,00:30
+450,,JPY,"Thursday, February 15, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+451,,JPY,"Thursday, February 15, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+452,,JPY,"Thursday, February 15, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+453,2.9%,JPY,"Thursday, February 15, 2018",,-,Low,JPY Industrial Production (MoM) (DEC F),2.7%,-,04:30
+454,4.4%,JPY,"Thursday, February 15, 2018",,-,Low,JPY Industrial Production (YoY) (DEC F),4.2%,-,04:30
+455,2.8%,JPY,"Thursday, February 15, 2018",,-,Low,JPY Capacity Utilization (MoM) (DEC),0.0%,-,04:30
+456,7.1%,EUR,"Thursday, February 15, 2018",,-,Low,EUR EU 25 New Car Registrations (JAN),-4.9%,-,07:00
+457,,EUR,"Thursday, February 15, 2018",,-,Low,EUR ECB's Mersch Speaks in Paris,,-,08:15
+458,23.8b,EUR,"Thursday, February 15, 2018",22.3b,u,Low,EUR Euro-Zone Trade Balance s.a. (DEC),22.0b,u,10:00
+459,25.4b,EUR,"Thursday, February 15, 2018",27.0b,d,Low,EUR Euro-Zone Trade Balance (euros) (DEC),26.3b,-,10:00
+460,,EUR,"Thursday, February 15, 2018",,-,Low,EUR ECB's Praet Participates in Panel Discussion in Paris,,-,10:45
+461,,EUR,"Thursday, February 15, 2018",,-,Low,EUR ECB's Lautenschlaeger speaks in Amsterdam,,-,12:00
+462,,CAD,"Thursday, February 15, 2018",,-,Low,CAD ADP Publishes January Payrolls Report,,-,13:30
+463,13.1,USD,"Thursday, February 15, 2018",18,d,Low,USD Empire Manufacturing (FEB),17.7,-,13:30
+464,230k,USD,"Thursday, February 15, 2018",228k,d,Medium,USD Initial Jobless Claims (10 FEB),223k,d,13:30
+465,1942k,USD,"Thursday, February 15, 2018",1925k,d,Medium,USD Continuing Claims (3 FEB),1927k,d,13:30
+466,0.4%,USD,"Thursday, February 15, 2018",0.4%,-,Low,USD Producer Price Index Final Demand (MoM) (JAN),0.0%,u,13:30
+467,0.4%,USD,"Thursday, February 15, 2018",0.2%,u,Low,USD Producer Price Index Ex Food and Energy (MoM) (JAN),-0.1%,-,13:30
+468,0.4%,USD,"Thursday, February 15, 2018",0.2%,u,Low,"USD PPI Ex Food, Energy, Trade (MoM) (JAN)",0.1%,-,13:30
+469,2.7%,USD,"Thursday, February 15, 2018",2.4%,u,Low,USD PPI Final Demand (YoY) (JAN),2.6%,-,13:30
+470,2.2%,USD,"Thursday, February 15, 2018",2.0%,u,Low,USD Producer Price Index Ex Food and Energy (YoY) (JAN),2.3%,-,13:30
+471,2.5%,USD,"Thursday, February 15, 2018",,-,Low,"USD PPI Ex Food, Energy, Trade (YoY) (JAN)",2.3%,-,13:30
+472,25.8,USD,"Thursday, February 15, 2018",21.8,u,Medium,USD Philadelphia Fed Business Outlook (FEB),22.2,-,13:30
+473,-14.5%,CAD,"Thursday, February 15, 2018",,-,Medium,CAD Existing Home Sales (MoM) (JAN),4.5%,-,14:00
+474,-0.1%,USD,"Thursday, February 15, 2018",0.2%,d,Medium,USD Industrial Production (MoM) (JAN),0.4%,d,14:15
+475,0.0%,USD,"Thursday, February 15, 2018",0.3%,d,Medium,USD Manufacturing (SIC) Production (JAN),0.0%,d,14:15
+476,77.5%,USD,"Thursday, February 15, 2018",78.0%,d,Low,USD Capacity Utilization (JAN),77.7%,d,14:15
+477,72,USD,"Thursday, February 15, 2018",72,-,Medium,USD NAHB Housing Market Index (FEB),72,-,15:00
+478,-194,USD,"Thursday, February 15, 2018",-186,u,Low,USD EIA Working Natural Gas Implied Flow (9 FEB),-119,-,15:30
+479,-194,USD,"Thursday, February 15, 2018",-186,u,Low,USD EIA Natural Gas Storage Change (9 FEB),-119,-,15:30
+480,,USD,"Thursday, February 15, 2018",,-,Low,USD U.S. to Sell USD7 Bln 30-Year TIPS,,-,18:00
+481,,CAD,"Thursday, February 15, 2018",,-,Low,CAD Bank of Canada Deputy Governor Lawrence Schembri Speech,,-,18:30
+482,$199.3b,USD,"Thursday, February 15, 2018",,-,Low,USD Total Net TIC Flows (DEC),$33.5b,d,21:00
+483,$27.3b,USD,"Thursday, February 15, 2018",,-,Medium,USD Net Long-term TIC Flows (DEC),$57.5b,-,21:00
+484,55.6,NZD,"Thursday, February 15, 2018",,-,Medium,NZD BusinessNZ Manufacturing PMI (JAN),51.1,d,21:30
+485,,AUD,"Thursday, February 15, 2018",,-,High,AUD RBA Governor Gives Testimony to Parliamentary Committee,,-,22:30
+486,-¥973.2b,JPY,"Thursday, February 15, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (9 FEB),-¥864.9b,u,23:50
+487,-¥44.8b,JPY,"Thursday, February 15, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (9 FEB),¥466.6b,u,23:50
+488,¥41.7b,JPY,"Thursday, February 15, 2018",,-,Low,JPY Foreign Buying Japan Bonds (9 FEB),-¥345.1b,u,23:50
+489,-¥429.5b,JPY,"Thursday, February 15, 2018",,-,Low,JPY Foreign Buying Japan Stocks (9 FEB),-¥125.6b,d,23:50
+490,60.0%,NZD,"Friday, February 16, 2018",,-,Low,NZD Non Resident Bond Holdings (JAN),60.4%,d,02:00
+491,0.9%,EUR,"Friday, February 16, 2018",,-,Low,EUR German Wholesale Price Index (MoM) (JAN),-0.3%,-,07:00
+492,2.0%,EUR,"Friday, February 16, 2018",,-,Low,EUR German Wholesale Price Index (YoY) (JAN),1.8%,-,07:00
+493,,EUR,"Friday, February 16, 2018",,-,Low,"EUR ECB's Coeure Speaks in Skopje, Macedonia",,-,08:20
+494,0.1%,GBP,"Friday, February 16, 2018",0.6%,d,Low,GBP Retail Sales Ex Auto Fuel (MoM) (JAN),-1.5%,u,09:30
+495,1.5%,GBP,"Friday, February 16, 2018",2.4%,d,Medium,GBP Retail Sales Ex Auto Fuel (YoY) (JAN),1.3%,-,09:30
+496,0.1%,GBP,"Friday, February 16, 2018",0.5%,d,Low,GBP Retail Sales Inc Auto Fuel (MoM) (JAN),-1.4%,u,09:30
+497,1.6%,GBP,"Friday, February 16, 2018",2.5%,d,Low,GBP Retail Sales Inc Auto Fuel (YoY) (JAN),1.5%,u,09:30
+498,-0.3%,CAD,"Friday, February 16, 2018",0.3%,d,Low,CAD Manufacturing Sales (MoM) (DEC),3.8%,u,13:30
+499,-1.97b,CAD,"Friday, February 16, 2018",,-,Low,CAD International Securities Transactions (Canadian dollar) (DEC),19.20b,d,13:30
+500,1.0%,USD,"Friday, February 16, 2018",0.6%,u,Low,USD Import Price Index (MoM) (JAN),0.2%,u,13:30
+501,0.5%,USD,"Friday, February 16, 2018",0.1%,u,Medium,USD Import Price Index ex Petroleum (MoM) (JAN),-0.2%,-,13:30
+502,3.6%,USD,"Friday, February 16, 2018",3.0%,u,Low,USD Import Price Index (YoY) (JAN),3.2%,u,13:30
+503,0.8%,USD,"Friday, February 16, 2018",0.3%,u,Low,USD Export Price Index (MoM) (JAN),0.1%,u,13:30
+504,3.4%,USD,"Friday, February 16, 2018",,-,Medium,USD Export Price Index (YoY) (JAN),2.8%,u,13:30
+505,1326k,USD,"Friday, February 16, 2018",1234k,u,Low,USD Housing Starts (JAN),1209k,u,13:30
+506,9.7%,USD,"Friday, February 16, 2018",3.5%,u,Medium,USD Housing Starts (MoM) (JAN),-6.9%,u,13:30
+507,1396k,USD,"Friday, February 16, 2018",1300k,u,Low,USD Building Permits (JAN),1300k,d,13:30
+508,7.4%,USD,"Friday, February 16, 2018",0.0%,u,Medium,USD Building Permits (MoM) (JAN),-0.2%,d,13:30
+509,99.9,USD,"Friday, February 16, 2018",95.5,u,High,USD U. of Mich. Sentiment (FEB P),95.7,-,15:00
+510,115.1,USD,"Friday, February 16, 2018",111.7,u,Low,USD U. of Mich. Current Conditions (FEB P),110.5,-,15:00
+511,90.2,USD,"Friday, February 16, 2018",87.2,u,Low,USD U. of Mich. Expectations (FEB P),86.3,-,15:00
+512,2.7%,USD,"Friday, February 16, 2018",,-,Low,USD U. of Mich. 1 Yr Inflation (FEB P),2.7%,-,15:00
+513,2.5%,USD,"Friday, February 16, 2018",,-,Low,USD U. of Mich. 5-10 Yr Inflation (FEB P),2.5%,-,15:00
+514,975,USD,"Friday, February 16, 2018",973,d,Medium,USD Baker Hughes U.S. Rig Count (16 FEB),975,-,18:00
+515,0.3%,AUD,"Monday, February 5, 2018",,-,Low,AUD TD Securities Inflation (MoM) (JAN),0.1%,-,00:00
+516,2.0%,AUD,"Monday, February 5, 2018",,-,Medium,AUD TD Securities Inflation (YoY) (JAN),2.3%,-,00:00
+517,0.7%,NZD,"Monday, February 5, 2018",,-,Low,NZD ANZ Commodity Price (JAN),-1.9%,u,00:00
+518,51.9,JPY,"Monday, February 5, 2018",,-,Medium,JPY Nikkei Japan PMI Services (JAN),51.1,-,00:30
+519,52.8,JPY,"Monday, February 5, 2018",,-,Medium,JPY Nikkei Japan PMI Composite (JAN),52.2,-,00:30
+520,6.2%,AUD,"Monday, February 5, 2018",,-,Low,AUD ANZ Job Advertisements (MoM) (JAN),-2.7%,d,00:30
+521,53.7,CNY,"Monday, February 5, 2018",,-,Medium,CNY Caixin China PMI Composite (JAN),53.0,-,01:45
+522,54.7,CNY,"Monday, February 5, 2018",53.5,u,Medium,CNY Caixin China PMI Services (JAN),53.9,-,01:45
+523,57.7,EUR,"Monday, February 5, 2018",55.9,u,Low,EUR Markit/ADACI Italy Services PMI (JAN),55.4,-,08:45
+524,59.0,EUR,"Monday, February 5, 2018",57.4,u,Low,EUR Markit/ADACI Italy Composite PMI (JAN),56.5,-,08:45
+525,59.2,EUR,"Monday, February 5, 2018",59.3,d,Low,EUR Markit France Services PMI (JAN F),59.3,-,08:50
+526,59.6,EUR,"Monday, February 5, 2018",59.7,d,Low,EUR Markit France Composite PMI (JAN F),59.7,-,08:50
+527,57.3,EUR,"Monday, February 5, 2018",57.0,u,Low,EUR Markit Germany Services PMI (JAN F),57.0,-,08:55
+528,59.0,EUR,"Monday, February 5, 2018",58.8,u,Low,EUR Markit/BME Germany Composite PMI (JAN F),58.8,-,08:55
+529,574.7b,CHF,"Monday, February 5, 2018",,-,Low,CHF Total Sight Deposits CHF (2 FEB),575.0b,-,09:00
+530,465.4b,CHF,"Monday, February 5, 2018",,-,Low,CHF Domestic Sight Deposits CHF (2 FEB),465.1b,-,09:00
+531,58.0,EUR,"Monday, February 5, 2018",57.6,u,Low,EUR Markit Eurozone Services PMI (JAN F),57.6,-,09:00
+532,58.8,EUR,"Monday, February 5, 2018",58.6,u,Low,EUR Markit Eurozone Composite PMI (JAN F),58.6,-,09:00
+533,$1709,GBP,"Monday, February 5, 2018",,-,Low,GBP Official Reserves (Changes) (JAN),-$44m,-,09:30
+534,53.0,GBP,"Monday, February 5, 2018",54.1,d,Medium,GBP Markit/CIPS UK Services PMI (JAN),54.2,-,09:30
+535,53.5,GBP,"Monday, February 5, 2018",54.6,d,Medium,GBP Markit/CIPS UK Composite PMI (JAN),54.9,-,09:30
+536,31.9,EUR,"Monday, February 5, 2018",33.2,d,Low,EUR Euro-Zone Sentix Investor Confidence (FEB),32.9,-,09:30
+537,-1.1%,EUR,"Monday, February 5, 2018",-1.0%,d,Low,EUR Euro-Zone Retail Sales (MoM) (DEC),2.0%,u,10:00
+538,1.9%,EUR,"Monday, February 5, 2018",1.9%,-,Medium,EUR Euro-Zone Retail Sales (YoY) (DEC),3.9%,u,10:00
+539,53.3,USD,"Monday, February 5, 2018",53.3,-,Low,USD Markit US Services PMI (JAN F),53.3,-,14:45
+540,53.8,USD,"Monday, February 5, 2018",,-,Low,USD Markit US Composite PMI (JAN F),53.8,-,14:45
+541,59.9,USD,"Monday, February 5, 2018",56.7,u,High,USD ISM Non-Manufacturing/Services Composite (JAN),56,u,15:00
+542,,EUR,"Monday, February 5, 2018",,-,High,EUR ECB's Draghi in European Parliament in Strasbourg,,-,16:00
+543,,USD,"Monday, February 5, 2018",,-,Low,USD U.S. to Sell USD48 Bln 3-Month Bills,,-,16:30
+544,,USD,"Monday, February 5, 2018",,-,Low,USD U.S. to Sell USD42 Bln 6-Month Bills,,-,16:30
+545,122.7,AUD,"Monday, February 5, 2018",,-,Low,AUD ANZ Roy Morgan Weekly Consumer Confidence Index (4 FEB),120.9,-,22:30
+546,0.6%,GBP,"Tuesday, February 6, 2018",0.7%,d,Low,GBP BRC Sales Like-For-Like (YoY) (JAN),0.6%,-,00:01
+547,-A$1358m,AUD,"Tuesday, February 6, 2018",A$200m,d,Medium,AUD Trade Balance (DEC),A$36m,u,00:30
+548,-0.5%,AUD,"Tuesday, February 6, 2018",-0.2%,d,Low,AUD Retail Sales (MoM) (DEC),1.3%,u,00:30
+549,0.9%,AUD,"Tuesday, February 6, 2018",1.0%,d,Medium,AUD Retail Sales Ex Inflation (QoQ) (4Q),0.1%,-,00:30
+550,1.50%,AUD,"Tuesday, February 6, 2018",1.50%,-,High,AUD RBA Cash Rate Target (6 FEB),1.50%,-,03:30
+551,3.8%,EUR,"Tuesday, February 6, 2018",0.7%,u,Low,EUR German Factory Orders (MoM) (DEC),-0.1%,u,07:00
+552,7.2%,EUR,"Tuesday, February 6, 2018",3.1%,u,Medium,EUR German Factory Orders n.s.a. (YoY) (DEC),9.1%,u,07:00
+553,59.8,EUR,"Tuesday, February 6, 2018",,-,Medium,EUR Markit Germany Construction PMI (JAN),53.7,-,08:30
+554,-6.3%,GBP,"Tuesday, February 6, 2018",,-,Low,GBP New Car Registrations (YoY) (JAN),-14.4%,-,09:00
+555,47.3,EUR,"Tuesday, February 6, 2018",,-,Low,EUR Markit Italy Retail PMI (JAN),49.5,-,09:10
+556,51.0,EUR,"Tuesday, February 6, 2018",,-,Low,EUR Markit France Retail PMI (JAN),53.0,-,09:10
+557,53.0,EUR,"Tuesday, February 6, 2018",,-,Medium,EUR Markit Germany Retail PMI (JAN),55.1,-,09:10
+558,50.8,EUR,"Tuesday, February 6, 2018",,-,Low,EUR Markit Eurozone Retail PMI (JAN),53.0,-,09:10
+559,-3.19b,CAD,"Tuesday, February 6, 2018",-2.32b,d,Low,CAD International Merchandise Trade (Canadian dollar) (DEC),-2.71b,d,13:30
+560,-$53.1b,USD,"Tuesday, February 6, 2018",-$52.1b,d,Medium,USD Trade Balance (DEC),-$50.4b,u,13:30
+561,,USD,"Tuesday, February 6, 2018",,-,Low,USD Fed's Bullard Speaks on U.S. Economy and Monetary Policy,,-,13:50
+562,"$3,553",NZD,"Tuesday, February 6, 2018",,-,Medium,NZD Dairy Auction Avg. Winning Price MT (6 FEB),"$3,310",-,14:36
+563,"$3,226",NZD,"Tuesday, February 6, 2018",,-,Medium,NZD Dairy Auction Whole Milk Powder MT (6 FEB),"$3,010",-,14:36
+564,5811,USD,"Tuesday, February 6, 2018",5961,d,Low,USD JOLTS Job Openings (DEC),5978,u,15:00
+565,55.2,CAD,"Tuesday, February 6, 2018",,-,Low,CAD Ivey Purchasing Managers Index s.a. (JAN),60.4,-,15:00
+566,,USD,"Tuesday, February 6, 2018",,-,Low,USD U.S. to Sell 4-Week Bills,,-,16:30
+567,,USD,"Tuesday, February 6, 2018",,-,Low,USD U.S. to Sell USD26 Bln 3-Year Notes,,-,18:00
+568,4.5%,NZD,"Tuesday, February 6, 2018",4.7%,u,High,NZD Unemployment Rate (4Q),4.6%,-,21:45
+569,0.5%,NZD,"Tuesday, February 6, 2018",0.4%,u,Medium,NZD Employment Change (QoQ) (4Q),2.2%,-,21:45
+570,3.7%,NZD,"Tuesday, February 6, 2018",3.6%,u,High,NZD Employment Change (YoY) (4Q),4.2%,-,21:45
+571,71.0%,NZD,"Tuesday, February 6, 2018",71.0%,-,Low,NZD Participation Rate (4Q),71.1%,-,21:45
+572,0.4%,NZD,"Tuesday, February 6, 2018",0.5%,d,Low,NZD Labor Cost Private Sector (QoQ) (4Q),0.7%,-,21:45
+573,0.4%,NZD,"Tuesday, February 6, 2018",0.5%,d,Low,NZD Private Wages ex Overtime (QoQ) (4Q),0.7%,-,21:45
+574,0.8%,NZD,"Tuesday, February 6, 2018",0.5%,u,Low,NZD Average Hourly Earnings (QoQ) (4Q),1.2%,-,21:45
+575,54.3,AUD,"Tuesday, February 6, 2018",,-,Medium,AUD AiG Performance of Construction Index (JAN),52.8,-,22:30
+576,$1268.5b,JPY,"Tuesday, February 6, 2018",,-,Low,JPY Official Reserve Assets (JAN),$1264.3b,-,23:50
+577,0.7%,JPY,"Wednesday, February 7, 2018",0.5%,u,Medium,JPY Labor Cash Earnings (YoY) (DEC),0.9%,-,00:00
+578,-0.5%,JPY,"Wednesday, February 7, 2018",,-,Medium,JPY Real Cash Earnings (YoY) (DEC),0.1%,-,00:00
+579,,JPY,"Wednesday, February 7, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+580,,JPY,"Wednesday, February 7, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+581,,JPY,"Wednesday, February 7, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+582,107.9,JPY,"Wednesday, February 7, 2018",108.1,d,Medium,JPY Leading Index CI (DEC P),108.2,d,05:00
+583,120.7,JPY,"Wednesday, February 7, 2018",120.5,u,Medium,JPY Coincident Index (DEC P),117.9,-,05:00
+584,A$65.3b,AUD,"Wednesday, February 7, 2018",,-,Low,AUD Foreign Reserves (Australian dollar) (JAN),A$85.4b,-,05:30
+585,-0.6%,EUR,"Wednesday, February 7, 2018",-0.7%,u,Low,EUR German Industrial Production s.a. (MoM) (DEC),3.1%,d,07:00
+586,6.5%,EUR,"Wednesday, February 7, 2018",6.8%,d,Medium,EUR German Industrial Production n.s.a. and w.d.a. (YoY) (DEC),5.5%,d,07:00
+587,1.32,CHF,"Wednesday, February 7, 2018",,-,Medium,CHF UBS Real Estate Bubble Index (4Q),1.34,u,07:00
+588,731.4b,CHF,"Wednesday, February 7, 2018",,-,Low,CHF Foreign Currency Reserves (JAN),744.2b,u,08:00
+589,-0.6%,GBP,"Wednesday, February 7, 2018",0.2%,d,Low,GBP Halifax House Prices (MoM) (JAN),-0.8%,u,08:30
+590,2.2%,GBP,"Wednesday, February 7, 2018",2.4%,d,Low,GBP Halifax House Price 3Mths/Year (JAN),2.7%,-,08:30
+591,,EUR,"Wednesday, February 7, 2018",,-,Low,EUR ECB's Nouy and Lautenschlaeger Speak in Frankfurt,,-,09:00
+592,,EUR,"Wednesday, February 7, 2018",,-,Low,EUR European Commission Economic Forecasts,,-,10:00
+593,$3161.5b,CNY,"Wednesday, February 7, 2018",$3170.0b,d,Low,CNY Foreign Reserves (JAN),$3139.9b,-,10:20
+594,,USD,"Wednesday, February 7, 2018",,-,Low,USD Fed's Kaplan Speaks in Frankfurt,,-,11:00
+595,0.7%,USD,"Wednesday, February 7, 2018",,-,Medium,USD MBA Mortgage Applications (2 FEB),-2.6%,-,12:00
+596,4.8%,CAD,"Wednesday, February 7, 2018",2.0%,u,Medium,CAD Building Permits (MoM) (DEC),-7.3%,u,13:30
+597,,USD,"Wednesday, February 7, 2018",,-,Low,USD Fed's Dudley Speaks in Moderated Q&A,,-,13:30
+598,,USD,"Wednesday, February 7, 2018",,-,Low,USD Fed's Evans Speaks on Economic and Policy Outlook,,-,15:15
+599,3414k,USD,"Wednesday, February 7, 2018",500k,d,Low,USD DOE U.S. Gasoline Inventories (2 FEB),-1980k,-,15:30
+600,1895k,USD,"Wednesday, February 7, 2018",3150k,u,Medium,USD DOE U.S. Crude Oil Inventories (2 FEB),6776k,-,15:30
+601,-711k,USD,"Wednesday, February 7, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (2 FEB),-2224k,-,15:30
+602,3926k,USD,"Wednesday, February 7, 2018",-1250k,d,Low,USD DOE U.S. Distillate Inventory (2 FEB),-1940k,-,15:30
+603,,USD,"Wednesday, February 7, 2018",,-,Low,USD U.S. to Sell USD24 Bln 10-Year Notes,,-,18:00
+604,1.75%,NZD,"Wednesday, February 7, 2018",1.75%,-,High,NZD RBNZ Official Cash Rate (8 FEB),1.75%,-,20:00
+605,$18.447b,USD,"Wednesday, February 7, 2018",$20.000b,d,Medium,USD Consumer Credit (DEC),$31.019b,u,20:00
+606,,NZD,"Wednesday, February 7, 2018",,-,High,NZD RBNZ's Spencer news conference on policy statement,,-,21:00
+607,,USD,"Wednesday, February 7, 2018",,-,High,USD Fed's Williams Speaks in Hawaii,,-,22:20
+608,2.9%,JPY,"Wednesday, February 7, 2018",,-,Medium,JPY Housing Loans (YoY) (4Q),3.0%,u,23:50
+609,¥797.2b,JPY,"Wednesday, February 7, 2018",¥1056.9b,d,Low,JPY BoP Current Account Balance (DEC),¥1347.3b,-,23:50
+610,¥1479.6b,JPY,"Wednesday, February 7, 2018",¥1652.6b,d,Low,JPY Adjusted Current Account Total (Yen) (DEC),¥1700.5b,-,23:50
+611,¥538.9b,JPY,"Wednesday, February 7, 2018",¥520.4b,u,Medium,JPY Trade Balance - BOP Basis (Yen) (DEC),¥181.0b,-,23:50
+612,-¥866.6b,JPY,"Wednesday, February 7, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (2 FEB),¥16.4b,d,23:50
+613,¥466.5b,JPY,"Wednesday, February 7, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (2 FEB),¥374.5b,-,23:50
+614,-¥353.1b,JPY,"Wednesday, February 7, 2018",,-,Low,JPY Foreign Buying Japan Bonds (2 FEB),-¥253.8b,d,23:50
+615,-¥126.7b,JPY,"Wednesday, February 7, 2018",,-,Low,JPY Foreign Buying Japan Stocks (2 FEB),-¥171.8b,u,23:50
+616,2.4%,JPY,"Wednesday, February 7, 2018",,-,Medium,JPY Bank Lending incl Trusts (YoY) (JAN),2.5%,-,23:50
+617,2.3%,JPY,"Wednesday, February 7, 2018",,-,Medium,JPY Bank Lending Ex-Trusts (YoY) (JAN),2.4%,-,23:50
+618,,NZD,"Thursday, February 8, 2018",,-,High,NZD RBNZ's Spencer at Parliament Select Committee,,-,00:00
+619,8.0%,GBP,"Thursday, February 8, 2018",5.0%,u,Medium,GBP RICS House Price Balance (JAN),8.0%,-,00:01
+620,6,AUD,"Thursday, February 8, 2018",,-,Medium,AUD NAB Business Confidence (4Q),8,u,00:30
+621,,JPY,"Thursday, February 8, 2018",,-,Low,JPY BOJ Suzuki makes a speech in Wakayama,,-,01:30
+622,3.07,JPY,"Thursday, February 8, 2018",,-,Low,JPY Tokyo Avg Office Vacancies (JAN),3.12,-,02:00
+623,6.0%,CNY,"Thursday, February 8, 2018",2.6%,u,Low,CNY Exports (YoY) CNY (JAN),7.4%,-,03:06
+624,30.2%,CNY,"Thursday, February 8, 2018",5.3%,u,Low,CNY Imports (YoY) CNY (JAN),0.9%,-,03:06
+625,135.80b,CNY,"Thursday, February 8, 2018",330.00b,d,Medium,CNY Trade Balance CNY (JAN),361.98b,-,03:06
+626,$20.34b,CNY,"Thursday, February 8, 2018",$54.65b,d,Medium,CNY Trade Balance (JAN),$54.69b,-,03:41
+627,36.9%,CNY,"Thursday, February 8, 2018",10.6%,u,Low,CNY Imports (YoY) (JAN),4.5%,-,03:41
+628,11.1%,CNY,"Thursday, February 8, 2018",10.7%,u,Low,CNY Exports (YoY) (JAN),10.9%,-,03:41
+629,4.95%,JPY,"Thursday, February 8, 2018",,-,Medium,JPY Bankruptcies (YoY) (JAN),-1.97%,-,04:30
+630,49.9,JPY,"Thursday, February 8, 2018",53.7,d,Medium,JPY Eco Watchers Survey Current (JAN),53.9,-,05:00
+631,52.4,JPY,"Thursday, February 8, 2018",53.6,d,Medium,JPY Eco Watchers Survey Outlook SA (JAN),52.7,-,05:00
+632,18.2b,EUR,"Thursday, February 8, 2018",21.0b,d,Medium,EUR German Trade Balance (DEC),23.7b,-,07:00
+633,27.8b,EUR,"Thursday, February 8, 2018",28.0b,d,Low,EUR German Current Account (euros) (DEC),25.4b,-,07:00
+634,0.3%,EUR,"Thursday, February 8, 2018",-1.0%,u,Low,EUR German Exports s.a. (MoM) (DEC),4.1%,-,07:00
+635,1.4%,EUR,"Thursday, February 8, 2018",-0.8%,-,Low,EUR German Imports s.a. (MoM) (DEC),2.3%,-,07:00
+636,$62.2b,CNY,"Thursday, February 8, 2018",,-,Low,CNY BoP Current Account Balance (4Q P),$40.5b,-,07:17
+637,,EUR,"Thursday, February 8, 2018",,-,Medium,EUR ECB Publishes Economic Bulletin,,-,09:00
+638,,AUD,"Thursday, February 8, 2018",,-,High,AUD RBA Governor Lowe Gives Speech in Sydney,,-,09:00
+639,,EUR,"Thursday, February 8, 2018",,-,Low,EUR ECB's Mersch Speaks in London,,-,10:30
+640,,EUR,"Thursday, February 8, 2018",,-,Low,EUR ECB's Praet Speaks in Frankfurt,,-,10:45
+641,0.50%,GBP,"Thursday, February 8, 2018",0.50%,-,High,GBP Bank of England Bank Rate (8 FEB),0.50%,-,12:00
+642,435b,GBP,"Thursday, February 8, 2018",435b,-,High,GBP BOE Asset Purchase Target (FEB),435b,-,12:00
+643,10b,GBP,"Thursday, February 8, 2018",10b,-,Low,GBP BOE Corporate Bond Target (FEB),10b,-,12:00
+644,,GBP,"Thursday, February 8, 2018",,-,High,GBP Bank of England Inflation Report,,-,12:00
+645,,USD,"Thursday, February 8, 2018",,-,Low,USD Fed's Harker Speaks on Economy: Outlook and Impact for College,,-,13:00
+646,216.2k,CAD,"Thursday, February 8, 2018",210.0k,u,Medium,CAD Housing Starts (JAN),216.3k,d,13:15
+647,0.0%,CAD,"Thursday, February 8, 2018",0.1%,d,Low,CAD New Housing Price Index (MoM) (DEC),0.1%,-,13:30
+648,3.3%,CAD,"Thursday, February 8, 2018",,-,Medium,CAD New Housing Price Index (YoY) (DEC),3.4%,-,13:30
+649,221k,USD,"Thursday, February 8, 2018",232k,u,Medium,USD Initial Jobless Claims (3 FEB),230k,-,13:30
+650,1923k,USD,"Thursday, February 8, 2018",1940k,u,Medium,USD Continuing Claims (27 JAN),1956k,d,13:30
+651,,USD,"Thursday, February 8, 2018",,-,Low,USD Fed's Kashkari Speaks in Moderated Q&A,,-,14:00
+652,1.19%,USD,"Thursday, February 8, 2018",,-,Low,USD MBA Mortgage Foreclosures (4Q),1.23%,-,15:00
+653,5.17%,USD,"Thursday, February 8, 2018",,-,Low,USD Mortgage Delinquencies (4Q),4.88%,-,15:00
+654,-119,USD,"Thursday, February 8, 2018",-115,u,Low,USD EIA Working Natural Gas Implied Flow (2 FEB),-99,-,15:30
+655,-119,USD,"Thursday, February 8, 2018",-115,u,Low,USD EIA Natural Gas Storage Change (2 FEB),-99,-,15:30
+656,6.4%,NZD,"Thursday, February 8, 2018",,-,Low,NZD QV House Prices (YoY) (JAN),6.6%,-,16:00
+657,,CAD,"Thursday, February 8, 2018",,-,Low,CAD Bank of Canada Senior Deputy Governor Carolyn Wilkins Speech,,-,17:45
+658,,USD,"Thursday, February 8, 2018",,-,Low,USD U.S. to Sell USD16 Bln 30-Year Bonds,,-,18:00
+659,7.50%,MXN,"Thursday, February 8, 2018",7.50%,-,High,MXN Overnight Rate (FEB 08),7.25%,-,19:00
+660,4.1%,NZD,"Thursday, February 8, 2018",,-,Low,NZD ANZ Truckometer Heavy (MoM) (JAN),-4.4%,d,21:00
+661,3.4%,JPY,"Thursday, February 8, 2018",3.6%,d,Low,JPY Japan Money Stock M2+CD (YoY) (JAN),3.6%,-,23:50
+662,2.9%,JPY,"Thursday, February 8, 2018",3.1%,d,Low,JPY Japan Money Stock M3 (YoY) (JAN),3.1%,-,23:50
+663,,CNY,"Friday, February 9, 2018",,-,Medium,CNY Foreign Direct Investment (YoY) (JAN),-9.2%,-,
+664,-2.3%,AUD,"Friday, February 9, 2018",-1.0%,d,Medium,AUD Home Loans (MoM) (DEC),2.1%,-,00:30
+665,-2.6%,AUD,"Friday, February 9, 2018",,-,Low,AUD Investment Lending (DEC),1.5%,-,00:30
+666,-1.0%,AUD,"Friday, February 9, 2018",,-,Low,AUD Value of Loans (MoM) (DEC),2.7%,-,00:30
+667,,AUD,"Friday, February 9, 2018",,-,Medium,AUD RBA Quarterly Statement on Monetary Policy,,-,00:30
+668,,JPY,"Friday, February 9, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+669,,JPY,"Friday, February 9, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+670,,JPY,"Friday, February 9, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+671,,JPY,"Friday, February 9, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+672,4.3%,CNY,"Friday, February 9, 2018",4.2%,u,Medium,CNY Producer Price Index (YoY) (JAN),4.9%,-,01:30
+673,1.5%,CNY,"Friday, February 9, 2018",1.5%,-,High,CNY Consumer Price Index (YoY) (JAN),1.8%,-,01:30
+674,,USD,"Friday, February 9, 2018",,-,Low,USD Fed's George Speaks on the Economy,,-,02:00
+675,-0.2%,JPY,"Friday, February 9, 2018",0.1%,d,Medium,JPY Tertiary Industry Index (MoM) (DEC),1.1%,-,04:30
+676,3.3%,CHF,"Friday, February 9, 2018",3.4%,u,Medium,CHF Unemployment Rate (JAN),3.3%,-,06:45
+677,3.0%,CHF,"Friday, February 9, 2018",3.0%,-,Medium,CHF Unemployment Rate s.a. (JAN),3.0%,-,06:45
+678,-0.2%,GBP,"Friday, February 9, 2018",-0.9%,u,Low,GBP Industrial Production (MoM) (DEC),0.3%,-,09:30
+679,0.0%,GBP,"Friday, February 9, 2018",0.4%,d,Medium,GBP Industrial Production (YoY) (DEC),2.6%,u,09:30
+680,0.3%,GBP,"Friday, February 9, 2018",0.3%,-,Low,GBP Manufacturing Production (MoM) (DEC),0.2%,u,09:30
+681,1.4%,GBP,"Friday, February 9, 2018",1.2%,u,Medium,GBP Manufacturing Production (YoY) (DEC),3.8%,u,09:30
+682,1.6%,GBP,"Friday, February 9, 2018",-0.1%,u,Low,GBP Construction Output SA (MoM) (DEC),0.1%,u,09:30
+683,-0.2%,GBP,"Friday, February 9, 2018",-1.9%,u,Medium,GBP Construction Output SA (YoY) (DEC),0.8%,u,09:30
+684,-£13580,GBP,"Friday, February 9, 2018",-£11550,d,Medium,GBP Visible Trade Balance (Pounds) (DEC),-£12460,u,09:30
+685,-£5180,GBP,"Friday, February 9, 2018",-£4050,d,Medium,GBP Trade Balance Non EU GBP/Mn (DEC),-£4510,u,09:30
+686,-£4896,GBP,"Friday, February 9, 2018",-£2400,d,Medium,GBP Trade Balance (DEC),-£3652,u,09:30
+687,0.5%,GBP,"Friday, February 9, 2018",0.5%,-,Medium,GBP NIESR Gross Domestic Product Estimate (JAN),0.6%,-,12:00
+688,-88.0k,CAD,"Friday, February 9, 2018",10.0k,d,High,CAD Net Change in Employment (JAN),64.8k,d,13:30
+689,5.9%,CAD,"Friday, February 9, 2018",5.8%,d,High,CAD Unemployment Rate (JAN),5.8%,d,13:30
+690,49,CAD,"Friday, February 9, 2018",,-,Medium,CAD Full Time Employment Change (JAN),23.2,d,13:30
+691,-137,CAD,"Friday, February 9, 2018",,-,Low,CAD Part Time Employment Change (JAN),41.6,d,13:30
+692,65.5,CAD,"Friday, February 9, 2018",,-,Low,CAD Participation Rate (JAN),65.8,-,13:30
+693,0.4%,USD,"Friday, February 9, 2018",0.2%,u,Low,USD Wholesale Inventories (MoM) (DEC F),0.2%,-,15:00
+694,1.2%,USD,"Friday, February 9, 2018",0.4%,u,Low,USD Wholesale Trade Sales (MoM) (DEC),1.9%,u,15:00
+695,,GBP,"Friday, February 9, 2018",,-,Low,GBP BOE's Cunliffe Speaks in California,,-,16:45
+696,975,USD,"Friday, February 9, 2018",,-,Medium,USD Baker Hughes U.S. Rig Count (9 FEB),946,-,18:00
+697,8.6%,CNY,"Saturday, February 10, 2018",8.2%,u,Low,CNY Money Supply M2 (YoY) (JAN),8.2%,-,09:01
+698,,JPY,"Monday, January 29, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+699,0.3%,EUR,"Monday, January 29, 2018",0.2%,u,Low,EUR German Import Price Index (MoM) (DEC),0.8%,-,07:00
+700,1.1%,EUR,"Monday, January 29, 2018",1.1%,-,Low,EUR German Import Price Index (YoY) (DEC),2.7%,-,07:00
+701,575b,CHF,"Monday, January 29, 2018",,-,Low,CHF Total Sight Deposits CHF (JAN 26),574.7b,-,09:00
+702,465.1b,CHF,"Monday, January 29, 2018",,-,Low,CHF Domestic Sight Deposits CHF (JAN 26),468.9b,-,09:00
+703,,EUR,"Monday, January 29, 2018",,-,Low,EUR ECB's Lautenschlaeger Speaks in Frankfurt,,-,10:45
+704,0.4%,USD,"Monday, January 29, 2018",0.3%,u,Medium,USD Personal Income (DEC),0.3%,-,13:30
+705,0.4%,USD,"Monday, January 29, 2018",0.4%,-,Medium,USD Personal Spending (DEC),0.8%,u,13:30
+706,0.3%,USD,"Monday, January 29, 2018",0.4%,d,Medium,USD Real Personal Spending (DEC),0.5%,u,13:30
+707,0.1%,USD,"Monday, January 29, 2018",0.1%,-,Low,USD PCE Deflator (MoM) (DEC),0.2%,-,13:30
+708,1.7%,USD,"Monday, January 29, 2018",1.7%,-,Low,USD Personal Consumption Expenditure Deflator (YoY) (DEC),1.8%,-,13:30
+709,0.2%,USD,"Monday, January 29, 2018",0.2%,-,Medium,USD PCE Core (MoM) (DEC),0.1%,-,13:30
+710,1.5%,USD,"Monday, January 29, 2018",1.5%,-,High,USD PCE Core (YoY) (DEC),1.5%,-,13:30
+711,33.4,USD,"Monday, January 29, 2018",25.4,u,Medium,USD Dallas Fed Manufacturing Activity (JAN),29.7,-,15:30
+712,,EUR,"Monday, January 29, 2018",,-,Low,EUR ECB's Coeure Speaks in Paris,,-,16:00
+713,,USD,"Monday, January 29, 2018",,-,Low,USD U.S. to Sell USD48 Bln 3-Month Bills,,-,16:30
+714,,USD,"Monday, January 29, 2018",,-,Low,USD U.S. to Sell USD42 Bln 6-Month Bills,,-,16:30
+715,640m,NZD,"Monday, January 29, 2018",-125m,u,Medium,NZD Trade Balance (DEC),-1233m,d,21:45
+716,5.55b,NZD,"Monday, January 29, 2018",5.00b,u,Low,NZD Exports (DEC),4.61b,d,21:45
+717,4.91b,NZD,"Monday, January 29, 2018",5.10b,d,Low,NZD Imports (DEC),5.84b,u,21:45
+718,-2837m,NZD,"Monday, January 29, 2018",-3420m,u,Medium,NZD Trade Balance 12 Mth YTD (DEC),-3478m,d,21:45
+719,120.9,AUD,"Monday, January 29, 2018",,-,Low,AUD ANZ Roy Morgan Weekly Consumer Confidence Index (JAN 28),119.4,-,22:30
+720,2.8%,JPY,"Monday, January 29, 2018",2.7%,d,Medium,JPY Jobless Rate (DEC),2.7%,-,23:30
+721,1.59,JPY,"Monday, January 29, 2018",1.57,u,Low,JPY Job-To-Applicant Ratio (DEC),1.56,-,23:30
+722,-0.1%,JPY,"Monday, January 29, 2018",1.3%,d,Medium,JPY Overall Household Spending (YoY) (DEC),1.7%,-,23:30
+723,0.9%,JPY,"Monday, January 29, 2018",-0.4%,u,Low,JPY Retail Trade s.a. (MoM) (DEC),1.8%,d,23:50
+724,3.6%,JPY,"Monday, January 29, 2018",2.2%,u,Medium,JPY Retail Trade (YoY) (DEC),2.1%,d,23:50
+725,1.1%,JPY,"Monday, January 29, 2018",0.5%,u,Medium,JPY Large Retailers' Sales (DEC),1.4%,-,23:50
+726,13,AUD,"Tuesday, January 30, 2018",,-,Low,AUD NAB Business Conditions (DEC),13,u,00:30
+727,11,AUD,"Tuesday, January 30, 2018",,-,Medium,AUD NAB Business Confidence (DEC),7,u,00:30
+728,0.6%,EUR,"Tuesday, January 30, 2018",0.6%,-,Low,EUR French Gross Domestic Product (QoQ) (4Q A),0.5%,d,06:30
+729,2.4%,EUR,"Tuesday, January 30, 2018",2.3%,u,Medium,EUR French Gross Domestic Product (YoY) (4Q A),2.3%,-,06:30
+730,2.8%,CHF,"Tuesday, January 30, 2018",,-,Low,CHF Exports (MoM) (DEC),0.4%,d,07:00
+731,0.6%,CHF,"Tuesday, January 30, 2018",,-,Low,CHF Imports (MoM) (DEC),3.7%,u,07:00
+732,0.7%,CHF,"Tuesday, January 30, 2018",,-,Low,CHF Swiss Watch Exports (YoY) (DEC),6.3%,-,07:00
+733,106.9,CHF,"Tuesday, January 30, 2018",110.8,d,Medium,CHF KOF Leading Indicator (JAN),111.4,u,08:00
+734,1.5b,GBP,"Tuesday, January 30, 2018",1.4b,u,Medium,GBP Net Consumer Credit (DEC),1.5b,u,09:30
+735,3.7b,GBP,"Tuesday, January 30, 2018",3.4b,u,Medium,GBP Net Lending Sec. on Dwellings (DEC),3.7b,u,09:30
+736,61.0k,GBP,"Tuesday, January 30, 2018",63.5k,d,Medium,GBP Mortgage Approvals (DEC),64.7k,u,09:30
+737,-0.6%,GBP,"Tuesday, January 30, 2018",,-,Low,GBP Money Supply M4 (MoM) (DEC),0.2%,-,09:30
+738,3.7%,GBP,"Tuesday, January 30, 2018",,-,Low,GBP M4 Money Supply (YoY) (DEC),3.8%,u,09:30
+739,4.7%,GBP,"Tuesday, January 30, 2018",,-,Low,GBP M4 Ex IOFCs 3M Annualised (DEC),3.6%,d,09:30
+740,114.7,EUR,"Tuesday, January 30, 2018",116.2,d,Low,EUR Euro-Zone Economic Confidence (JAN),115.3,u,10:00
+741,1.54,EUR,"Tuesday, January 30, 2018",1.68,d,Low,EUR Euro-Zone Business Climate Indicator (JAN),1.60,u,10:00
+742,8.8,EUR,"Tuesday, January 30, 2018",8.9,d,Low,EUR Euro-Zone Industrial Confidence (JAN),8.8,d,10:00
+743,16.7,EUR,"Tuesday, January 30, 2018",18.5,d,Low,EUR Euro-Zone Services Confidence (JAN),18.0,d,10:00
+744,0.6%,EUR,"Tuesday, January 30, 2018",0.6%,-,Medium,EUR Euro-Zone Gross Domestic Product s.a. (QoQ) (4Q A),0.7%,u,10:00
+745,2.7%,EUR,"Tuesday, January 30, 2018",2.7%,-,High,EUR Euro-Zone Gross Domestic Product s.a. (YoY) (4Q A),2.8%,u,10:00
+746,1.3,EUR,"Tuesday, January 30, 2018",1.3,-,Low,EUR Euro-Zone Consumer Confidence (JAN F),1.3,-,10:00
+747,-0.7%,EUR,"Tuesday, January 30, 2018",-0.6%,d,Medium,EUR German Consumer Price Index (MoM) (JAN P),0.6%,-,13:00
+748,1.6%,EUR,"Tuesday, January 30, 2018",1.7%,d,High,EUR German Consumer Price Index (YoY) (JAN P),1.7%,-,13:00
+749,204.21,USD,"Tuesday, January 30, 2018",,-,Low,USD S&P/Case-Shiller 20-City Index n.s.a (NOV),203.71,d,14:00
+750,0.75%,USD,"Tuesday, January 30, 2018",0.6%,u,Medium,USD S&P CoreLogic CS 20-City (MoM) SA (NOV),0.7%,-,14:00
+751,6.41%,USD,"Tuesday, January 30, 2018",6.3%,u,Medium,USD S&P/Case-Shiller Composite-20 (YoY) (NOV),6.32%,d,14:00
+752,195.94,USD,"Tuesday, January 30, 2018",,-,Low,USD S&P/Case-Shiller US Home Price Index (NOV),195.48,d,14:00
+753,6.21%,USD,"Tuesday, January 30, 2018",,-,Medium,USD S&P/Case-Shiller US Home Price Index (YoY) (NOV),6.10%,d,14:00
+754,125.4,USD,"Tuesday, January 30, 2018",123.0,u,High,USD Consumer Confidence Index (JAN),123.1,u,15:00
+755,155.3,USD,"Tuesday, January 30, 2018",,-,Medium,USD Conf. Board Present Situation (JAN),156.5,d,15:00
+756,105.5,USD,"Tuesday, January 30, 2018",,-,Low,USD Conf. Board Expectations (JAN),100.8,u,15:00
+757,,GBP,"Tuesday, January 30, 2018",,-,High,GBP Bank of England Governor Carney Speaks Before Lawmakers,,-,15:30
+758,,USD,"Tuesday, January 30, 2018",,-,Low,USD U.S. to Sell USD20 Bln 52-Week Bills,,-,16:30
+759,,USD,"Tuesday, January 30, 2018",,-,Low,USD U.S. to Sell 4-Week Bills,,-,16:30
+760,,EUR,"Tuesday, January 30, 2018",,-,Low,EUR ECB's Mersch speaks in Frankfurt,,-,16:30
+761,,JPY,"Tuesday, January 30, 2018",,-,Medium,JPY BOJ Summary of Opinions,,-,23:50
+762,2.7%,JPY,"Tuesday, January 30, 2018",1.5%,u,Low,JPY Industrial Production (MoM) (DEC P),0.5%,-,23:50
+763,4.2%,JPY,"Tuesday, January 30, 2018",3.3%,u,Medium,JPY Industrial Production (YoY) (DEC P),3.6%,-,23:50
+764,2.77%,JPY,"Tuesday, January 30, 2018",,-,Medium,JPY Loans & Discounts Corp (YoY) (DEC),3.11%,-,23:50
+765,-9,GBP,"Wednesday, January 31, 2018",-13,u,Medium,GBP GfK Consumer Confidence (JAN),-13,-,00:01
+766,35,GBP,"Wednesday, January 31, 2018",,-,Low,GBP Lloyds Business Barometer (JAN),28,-,00:01
+767,-0.5%,GBP,"Wednesday, January 31, 2018",-0.4%,d,Low,GBP BRC Shop Price Index (YoY) (JAN),-0.6%,-,00:01
+768,0.6%,AUD,"Wednesday, January 31, 2018",0.7%,d,Medium,AUD Consumer Prices Index (QoQ) (4Q),0.6%,-,00:30
+769,1.9%,AUD,"Wednesday, January 31, 2018",2.0%,d,High,AUD Consumer Prices Index (YoY) (4Q),1.8%,-,00:30
+770,0.4%,AUD,"Wednesday, January 31, 2018",0.5%,d,Medium,AUD Consumer Prices Index RBA Trimmed Mean (QoQ) (4Q),0.4%,-,00:30
+771,1.8%,AUD,"Wednesday, January 31, 2018",1.8%,-,Medium,AUD Consumer Prices Index RBA Trimmed Mean (YoY) (4Q),1.8%,-,00:30
+772,0.4%,AUD,"Wednesday, January 31, 2018",0.4%,-,Medium,AUD Consumer Prices Index RBA Weighted Median (QoQ) (4Q),0.4%,u,00:30
+773,2.0%,AUD,"Wednesday, January 31, 2018",1.9%,u,Medium,AUD Consumer Prices Index RBA Weighted Median (YoY) (4Q),1.9%,-,00:30
+774,4.8%,AUD,"Wednesday, January 31, 2018",5.2%,d,Medium,AUD Private Sector Credit (YoY) (DEC),5.2%,d,00:30
+775,0.3%,AUD,"Wednesday, January 31, 2018",0.5%,d,Low,AUD Private Sector Credit (MoM) (DEC),0.4%,d,00:30
+776,51.3,CNY,"Wednesday, January 31, 2018",51.6,d,High,CNY Manufacturing PMI (JAN),51.6,-,00:56
+777,55.3,CNY,"Wednesday, January 31, 2018",54.9,u,Medium,CNY Non-manufacturing PMI (JAN),55,-,01:00
+778,,JPY,"Wednesday, January 31, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+779,,JPY,"Wednesday, January 31, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+780,,JPY,"Wednesday, January 31, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+781,,JPY,"Wednesday, January 31, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years,,-,01:10
+782,,JPY,"Wednesday, January 31, 2018",,-,Low,JPY BOJ Iwata makes a speech in Oita,,-,01:30
+783,,USD,"Wednesday, January 31, 2018",,-,High,USD US President Trump Delivers State of the Union Address,,-,02:00
+784,1.3%,JPY,"Wednesday, January 31, 2018",,-,Low,JPY Vehicle Production (YoY) (DEC),0.9%,-,04:00
+785,44.7,JPY,"Wednesday, January 31, 2018",44.9,d,Medium,JPY Consumer Confidence Index (JAN),44.7,-,05:00
+786,-2.1%,JPY,"Wednesday, January 31, 2018",1.0%,d,Medium,JPY Housing Starts (YoY) (DEC),-0.4%,-,05:00
+787,0.936M,JPY,"Wednesday, January 31, 2018",0.935m,u,Low,JPY Annualized Housing Starts (DEC),0.951m,-,05:00
+788,-8.1%,JPY,"Wednesday, January 31, 2018",,-,Medium,JPY Construction Orders (YoY) (DEC),20.5%,-,05:00
+789,,CHF,"Wednesday, January 31, 2018",,-,Low,CHF Swiss National Bank Releases 4Q 2017 Currency Allocation,,-,06:30
+790,-1.9%,EUR,"Wednesday, January 31, 2018",-0.4%,d,Low,EUR German Retail Sales (MoM) (DEC),1.9%,u,07:00
+791,-1.9%,EUR,"Wednesday, January 31, 2018",2.8%,d,Medium,EUR German Retail Sales (YoY) (DEC),4.3%,d,07:00
+792,1.69,CHF,"Wednesday, January 31, 2018",,-,Medium,CHF UBS Consumption Indicator (DEC),1.73,u,07:00
+793,-25k,EUR,"Wednesday, January 31, 2018",-17k,u,High,EUR German Unemployment Change (000's) (JAN),-30k,u,08:55
+794,5.4%,EUR,"Wednesday, January 31, 2018",5.4%,-,High,EUR German Unemployment Claims Rate s.a. (JAN),5.5%,-,08:55
+795,34.5,CHF,"Wednesday, January 31, 2018",,-,Low,CHF Credit Suisse Survey Expectations (JAN),52,-,09:00
+796,,EUR,"Wednesday, January 31, 2018",,-,Low,EUR ECB's Coeure Speaks in Dublin,,-,09:50
+797,8.7%,EUR,"Wednesday, January 31, 2018",8.7%,-,Medium,EUR Euro-Zone Unemployment Rate (DEC),8.7%,-,10:00
+798,1.0%,EUR,"Wednesday, January 31, 2018",1.0%,-,High,EUR Euro-Zone Consumer Price Index Core (YoY) (JAN A),0.9%,-,10:00
+799,1.3%,EUR,"Wednesday, January 31, 2018",1.2%,u,High,EUR Euro-Zone Consumer Price Index Estimate (YoY) (JAN),1.4%,-,10:00
+800,-2.6%,USD,"Wednesday, January 31, 2018",,-,Medium,USD MBA Mortgage Applications (JAN 26),4.5%,-,12:00
+801,234k,USD,"Wednesday, January 31, 2018",185k,u,Medium,USD ADP Employment Change (JAN),242k,d,13:15
+802,0.6%,USD,"Wednesday, January 31, 2018",0.6%,-,Medium,USD Employment Cost Index (4Q),0.7%,-,13:30
+803,0.4%,CAD,"Wednesday, January 31, 2018",0.4%,-,Medium,CAD Gross Domestic Product (MoM) (NOV),0.0%,-,13:30
+804,3.5%,CAD,"Wednesday, January 31, 2018",3.4%,u,High,CAD Gross Domestic Product (YoY) (NOV),3.4%,-,13:30
+805,-0.1%,CAD,"Wednesday, January 31, 2018",-0.2%,u,Low,CAD Industrial Product Price (MoM) (DEC),1.4%,-,13:30
+806,-0.9%,CAD,"Wednesday, January 31, 2018",-2.3%,u,Low,CAD Raw Materials Price Index (MoM) (DEC),5.4%,d,13:30
+807,65.7,USD,"Wednesday, January 31, 2018",64,u,Medium,USD Chicago Purchasing Manager (JAN),67.8,u,14:45
+808,0.5%,USD,"Wednesday, January 31, 2018",0.5%,-,Low,USD Pending Home Sales (MoM) (DEC),0.3%,u,15:00
+809,-1.8%,USD,"Wednesday, January 31, 2018",1.7%,d,Medium,USD Pending Home Sales (YoY) (DEC),0.6%,-,15:00
+810,-1980k,USD,"Wednesday, January 31, 2018",2000k,u,Low,USD DOE U.S. Gasoline Inventories (JAN 26),3098k,-,15:30
+811,6776k,USD,"Wednesday, January 31, 2018",900k,d,Medium,USD DOE U.S. Crude Oil Inventories (JAN 26),-1071k,-,15:30
+812,-2224k,USD,"Wednesday, January 31, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (JAN 26),-3150k,-,15:30
+813,-1940k,USD,"Wednesday, January 31, 2018",-700k,u,Low,USD DOE U.S. Distillate Inventory (JAN 26),639k,-,15:30
+814,1.50%,USD,"Wednesday, January 31, 2018",1.50%,-,High,USD FOMC Rate Decision (Upper Bound) (JAN 31),1.50%,-,19:00
+815,1.25%,USD,"Wednesday, January 31, 2018",1.25%,-,High,USD FOMC Rate Decision (Lower Bound) (JAN 31),1.25%,-,19:00
+816,3.1%,NZD,"Wednesday, January 31, 2018",,-,Low,NZD ANZ Job Advertisements (MoM) (JAN),0.0%,u,21:00
+817,55.4,AUD,"Wednesday, January 31, 2018",,-,Low,AUD CBA Australia PMI Mfg (JAN),57.1,-,22:00
+818,58.7,AUD,"Wednesday, January 31, 2018",,-,Medium,AUD AiG Performance of Manufacturing Index (JAN),56.2,-,22:30
+819,-0.5%,AUD,"Wednesday, January 31, 2018",,-,Low,AUD CoreLogic House Px (MoM) (JAN),-0.4%,-,23:00
+820,¥41.1b,JPY,"Wednesday, January 31, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (JAN 26),¥390.9b,d,23:50
+821,¥374.5b,JPY,"Wednesday, January 31, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (JAN 26),¥379.8b,-,23:50
+822,-¥253.6b,JPY,"Wednesday, January 31, 2018",,-,Low,JPY Foreign Buying Japan Bonds (JAN 26),-¥414.5b,d,23:50
+823,-¥300.5b,JPY,"Wednesday, January 31, 2018",,-,Low,JPY Foreign Buying Japan Stocks (JAN 26),-¥148.1b,u,23:50
+824,13.10m,USD,"Thursday, February 1, 2018",13.45m,-,Low,USD Domestic Vehicle Sales (JAN),13.72m,-,
+825,17.07m,USD,"Thursday, February 1, 2018",17.20m,-,Low,USD Wards Total Vehicle Sales (JAN),17.76m,-,
+826,2.0%,AUD,"Thursday, February 1, 2018",1.5%,u,Low,AUD Import price index (QoQ) (4Q),-1.6%,-,00:30
+827,2.8%,AUD,"Thursday, February 1, 2018",2.0%,u,Low,AUD Export Price Index (QoQ) (4Q),-3.0%,-,00:30
+828,-20.0%,AUD,"Thursday, February 1, 2018",-7.6%,d,Low,AUD Building Approvals (MoM) (DEC),12.6%,u,00:30
+829,-5.5%,AUD,"Thursday, February 1, 2018",11.5%,d,Medium,AUD Building Approvals (YoY) (DEC),18.1%,u,00:30
+830,54.8,JPY,"Thursday, February 1, 2018",,-,Low,JPY Nikkei Japan PMI Manufacturing (JAN F),54.4,-,00:30
+831,51.5,CNY,"Thursday, February 1, 2018",51.5,-,Medium,CNY Caixin China PMI Mfg (JAN),51.5,-,01:45
+832,-5.7%,JPY,"Thursday, February 1, 2018",,-,Low,JPY Vehicle Sales (YoY) (JAN),-1.0%,-,05:00
+833,135.3,AUD,"Thursday, February 1, 2018",,-,Low,AUD Commodity Index AUD (JAN),129.3,d,05:30
+834,-0.6%,AUD,"Thursday, February 1, 2018",,-,Low,AUD RBA Commodity Index SDR (YoY) (JAN),-6.0%,d,05:30
+835,5,CHF,"Thursday, February 1, 2018",2,u,Medium,CHF SECO Consumer Confidence (JAN),-2,-,06:45
+836,0.6%,GBP,"Thursday, February 1, 2018",0.1%,u,Low,GBP Nationwide House PX (MoM) (JAN),0.6%,-,07:00
+837,3.2%,GBP,"Thursday, February 1, 2018",2.5%,u,Medium,GBP Nationwide House Px n.s.a. (YoY) (JAN),2.6%,-,07:00
+838,0.6%,CHF,"Thursday, February 1, 2018",,-,Medium,CHF Retail Sales Real (YoY) (DEC),0.3%,u,08:15
+839,65.3,CHF,"Thursday, February 1, 2018",64.2,u,Medium,CHF PMI Manufacturing (JAN),65.6,u,08:30
+840,59.0,EUR,"Thursday, February 1, 2018",57.4,u,Low,EUR Markit/ADACI Italy Manufacturing PMI (JAN),57.4,-,08:45
+841,58.4,EUR,"Thursday, February 1, 2018",58.1,u,Low,EUR Markit France Manufacturing PMI (JAN F),58.1,-,08:50
+842,61.1,EUR,"Thursday, February 1, 2018",61.2,d,Low,EUR Markit/BME Germany Manufacturing PMI (JAN F),61.2,-,08:55
+843,59.6,EUR,"Thursday, February 1, 2018",59.6,-,Low,EUR Markit Eurozone Manufacturing PMI (JAN F),59.6,-,09:00
+844,55.3,GBP,"Thursday, February 1, 2018",56.5,d,Medium,GBP Markit UK PMI Manufacturing s.a. (JAN),56.2,d,09:30
+845,,EUR,"Thursday, February 1, 2018",,-,Low,EUR ECB's Praet Speaks in Brussels,,-,11:15
+846,0.5%,CAD,"Thursday, February 1, 2018",,-,Low,CAD MLI Leading Indicator (MoM) (DEC),0.5%,-,12:00
+847,-2.8%,USD,"Thursday, February 1, 2018",,-,Low,USD Challenger Job Cuts (YoY) (JAN),-3.6%,-,12:30
+848,-0.1%,USD,"Thursday, February 1, 2018",0.7%,d,Low,USD Nonfarm Productivity (4Q P),2.7%,d,13:30
+849,2.0%,USD,"Thursday, February 1, 2018",0.9%,u,Low,USD Unit Labor Costs (4Q P),-0.1%,u,13:30
+850,230k,USD,"Thursday, February 1, 2018",235k,u,Medium,USD Initial Jobless Claims (JAN 27),231k,u,13:30
+851,1953k,USD,"Thursday, February 1, 2018",1929k,d,Medium,USD Continuing Claims (JAN 20),1940k,d,13:30
+852,55.9,CAD,"Thursday, February 1, 2018",,-,High,CAD RBC Canadian Manufacturing PMI (JAN),54.7,-,14:30
+853,55.5,USD,"Thursday, February 1, 2018",55.5,-,Low,USD Markit US Manufacturing PMI (JAN F),55.5,-,14:45
+854,0.7%,USD,"Thursday, February 1, 2018",0.4%,u,Medium,USD Construction Spending (MoM) (DEC),0.6%,d,15:00
+855,59.1,USD,"Thursday, February 1, 2018",58.6,u,High,USD ISM Manufacturing (JAN),59.3,d,15:00
+856,54.2,USD,"Thursday, February 1, 2018",,-,High,USD ISM Employment (JAN),58.1,u,15:00
+857,72.7,USD,"Thursday, February 1, 2018",68.8,u,Medium,USD ISM Prices Paid (JAN),68.3,d,15:00
+858,65.4,USD,"Thursday, February 1, 2018",,-,Low,USD ISM New Orders (JAN),67.4,d,15:00
+859,-99,USD,"Thursday, February 1, 2018",-102,d,Low,USD EIA Working Natural Gas Implied Flow (JAN 26),-288,-,15:30
+860,-99,USD,"Thursday, February 1, 2018",-102,d,Low,USD EIA Natural Gas Storage Change (JAN 26),-288,-,15:30
+861,,GBP,"Thursday, February 1, 2018",,-,Low,GBP BOE's Brazier Speaks in London,,-,17:30
+862,126.9,NZD,"Thursday, February 1, 2018",,-,Low,NZD ANZ Consumer Confidence Index (JAN),121.8,-,21:00
+863,4.2%,NZD,"Thursday, February 1, 2018",,-,Low,NZD ANZ Consumer Confidence (MoM) (JAN),-1.5%,-,21:00
+864,-9.6%,NZD,"Thursday, February 1, 2018",,-,Medium,NZD Building Permits (MoM) (DEC),9.6%,d,21:45
+865,5700,NZD,"Thursday, February 1, 2018",,-,Low,NZD Net Migration s.a. (DEC),5660,u,21:45
+866,9.7%,JPY,"Thursday, February 1, 2018",,-,Medium,JPY Monetary Base (YoY) (JAN),11.2%,-,23:50
+867,¥476.7t,JPY,"Thursday, February 1, 2018",,-,Medium,JPY Monetary Base End of period (JAN),¥480.0t,-,23:50
+868,0.6%,AUD,"Friday, February 2, 2018",,-,Low,AUD Producer Price Index (QoQ) (4Q),0.2%,-,00:30
+869,1.7%,AUD,"Friday, February 2, 2018",,-,Low,AUD Producer Price Index (YoY) (4Q),1.6%,-,00:30
+870,50.2,GBP,"Friday, February 2, 2018",52,d,Medium,GBP Markit/CIPS UK Construction PMI (JAN),52.2,-,09:30
+871,0.2%,EUR,"Friday, February 2, 2018",0.2%,-,Low,EUR Euro-Zone Producer Price Index (MoM) (DEC),0.6%,-,10:00
+872,2.2%,EUR,"Friday, February 2, 2018",2.3%,d,Low,EUR Euro-Zone Producer Price Index (YoY) (DEC),2.8%,-,10:00
+873,,EUR,"Friday, February 2, 2018",,-,Low,"EUR ECB's Coeure Speaks in Kranj, Slovenia",,-,10:00
+874,200k,USD,"Friday, February 2, 2018",180k,u,High,USD Change in Non-farm Payrolls (JAN),160k,u,13:30
+875,196k,USD,"Friday, February 2, 2018",181k,u,Medium,USD Change in Private Payrolls (JAN),166k,u,13:30
+876,15k,USD,"Friday, February 2, 2018",20k,d,Low,USD Change in Manufact. Payrolls (JAN),21k,d,13:30
+877,4.1%,USD,"Friday, February 2, 2018",4.1%,-,High,USD Unemployment Rate (JAN),4.1%,-,13:30
+878,8.2%,USD,"Friday, February 2, 2018",,-,Low,USD Underemployment Rate (JAN),8.1%,-,13:30
+879,0.3%,USD,"Friday, February 2, 2018",0.2%,u,Low,USD Average Hourly Earnings (MoM) (JAN),0.4%,u,13:30
+880,2.9%,USD,"Friday, February 2, 2018",2.6%,u,Medium,USD Average Hourly Earnings (YoY) (JAN),2.7%,u,13:30
+881,34.3,USD,"Friday, February 2, 2018",34.5,d,Medium,USD Average Weekly Hours All Employees (JAN),34.5,-,13:30
+882,62.7%,USD,"Friday, February 2, 2018",,-,Low,USD Labor Force Participation Rate (JAN),62.7%,-,13:30
+883,1.7%,USD,"Friday, February 2, 2018",1.5%,u,Medium,USD Factory Orders (DEC),1.7%,u,15:00
+884,0.7%,USD,"Friday, February 2, 2018",,-,Low,USD Factory Orders Ex Trans (DEC),1.1%,u,15:00
+885,95.7,USD,"Friday, February 2, 2018",95,u,Medium,USD U. of Mich. Sentiment (JAN F),94.4,-,15:00
+886,2.8%,USD,"Friday, February 2, 2018",,-,Medium,USD Durable Goods Orders (DEC F),2.9%,-,15:00
+887,110.5,USD,"Friday, February 2, 2018",,-,Low,USD U. of Mich. Current Conditions (JAN F),109.2,-,15:00
+888,0.7%,USD,"Friday, February 2, 2018",,-,Low,USD Durables Ex Transportation (DEC F),0.6%,-,15:00
+889,86.3,USD,"Friday, February 2, 2018",,-,Low,USD U. of Mich. Expectations (JAN F),84.8,-,15:00
+890,-0.6%,USD,"Friday, February 2, 2018",,-,Low,USD Cap Goods Orders Nondef Ex Air (DEC F),-0.3%,-,15:00
+891,2.7%,USD,"Friday, February 2, 2018",,-,Low,USD U. of Mich. 1 Yr Inflation (JAN F),2.8%,-,15:00
+892,0.4%,USD,"Friday, February 2, 2018",,-,Low,USD Cap Goods Ship Nondef Ex Air (DEC F),0.6%,-,15:00
+893,2.5%,USD,"Friday, February 2, 2018",,-,Medium,USD U. of Mich. 5-10 Yr Inflation (JAN F),2.5%,-,15:00
+894,946,USD,"Friday, February 2, 2018",944,d,Medium,USD Baker Hughes U.S. Rig Count (FEB 02),947,-,18:00
+895,,USD,"Friday, February 2, 2018",,-,Low,USD Fed's Williams Speaks in San Francisco,,-,20:30
+896,0.00%,JPY,"Tuesday, January 23, 2018",0.00%,-,High,JPY BOJ 10-Yr Yield Target (JAN 23),0.00%,-,03:14
+897,,JPY,"Tuesday, January 23, 2018",,-,High,JPY BOJ Outlook Report,,-,03:14
+898,-0.10%,JPY,"Tuesday, January 23, 2018",-0.10%,-,High,JPY BOJ Rate Decision (JAN 23),-0.10%,-,03:14
+899,-0.6%,JPY,"Tuesday, January 23, 2018",,-,Low,JPY Nationwide Department Store Sales (YoY) (DEC),2.2%,-,03:40
+900,0.9%,JPY,"Tuesday, January 23, 2018",,-,Low,JPY Tokyo Department Store Sales (YoY) (DEC),3.8%,-,03:40
+901,1.0%,JPY,"Tuesday, January 23, 2018",0.8%,u,Medium,JPY All Industry Activity Index (MoM) (NOV),0.3%,-,04:30
+902,48.3%,JPY,"Tuesday, January 23, 2018",,-,Low,JPY Machine Tool Orders (YoY) (DEC F),48.3%,-,06:00
+903,25.1b,GBP,"Tuesday, January 23, 2018",,-,Medium,GBP Public Finances (PSNCR) (Pounds) (DEC),13.2b,u,09:30
+904,18.8b,GBP,"Tuesday, January 23, 2018",,-,Medium,GBP Central Government NCR (DEC),12.4b,u,09:30
+905,1b,GBP,"Tuesday, January 23, 2018",4.3b,d,Medium,GBP Public Sector Net Borrowing (DEC),6.6b,u,09:30
+906,2.6b,GBP,"Tuesday, January 23, 2018",5.0b,d,Medium,GBP PSNB ex Banking Groups (DEC),8.3b,u,09:30
+907,95.2,EUR,"Tuesday, January 23, 2018",89.5,u,Medium,EUR German ZEW Survey Current Situation (JAN),89.3,-,10:00
+908,20.4,EUR,"Tuesday, January 23, 2018",17.7,u,High,EUR German ZEW Survey Expectations (JAN),17.4,-,10:00
+909,31.8,EUR,"Tuesday, January 23, 2018",,-,High,EUR Euro-Zone ZEW Survey (Economic Sentiment) (JAN),29,-,10:00
+910,14,GBP,"Tuesday, January 23, 2018",12,u,Low,GBP CBI Trends Total Orders (JAN),17,-,11:00
+911,40,GBP,"Tuesday, January 23, 2018",,-,Low,GBP CBI Trends Selling Prices (JAN),23,-,11:00
+912,13,GBP,"Tuesday, January 23, 2018",,-,Low,GBP CBI Business Optimism (JAN),-11,-,11:00
+913,14,USD,"Tuesday, January 23, 2018",19,d,Low,USD Richmond Fed Manufact. Index (JAN),20,-,15:00
+914,1.3,EUR,"Tuesday, January 23, 2018",0.6,u,Medium,EUR Euro-Zone Consumer Confidence (JAN A),0.5,-,15:00
+915,,USD,"Tuesday, January 23, 2018",,-,Medium,USD Senate Holds Confirmation Hearing for Fed Nominee Goodfriend,,-,15:00
+916,,USD,"Tuesday, January 23, 2018",,-,Low,USD U.S. to Sell 4-Week Bills,,-,16:30
+917,,USD,"Tuesday, January 23, 2018",,-,Low,USD U.S. to Sell USD26 Bln 2-Year Notes,,-,18:00
+918,0.27%,AUD,"Tuesday, January 23, 2018",,-,Medium,AUD Westpac Leading Index (MoM) (DEC),0.05%,d,23:30
+919,,USD,"Tuesday, January 23, 2018",,-,Low,USD Fed's Evans Makes Introductory Remarks,,-,23:30
+920,¥359.0b,JPY,"Tuesday, January 23, 2018",¥520.0b,d,Medium,JPY Trade Balance (DEC),¥112.2b,d,23:50
+921,¥86.6b,JPY,"Tuesday, January 23, 2018",¥264.3b,d,Low,JPY Adjusted Merchandise Trade Balance (Yen) (DEC),¥289.6b,d,23:50
+922,9.3%,JPY,"Tuesday, January 23, 2018",10.0%,d,Low,JPY Exports (YoY) (DEC),16.2%,-,23:50
+923,14.9%,JPY,"Tuesday, January 23, 2018",12.4%,u,Low,JPY Imports (YoY) (DEC),17.2%,-,23:50
+924,0.2%,AUD,"Wednesday, January 24, 2018",,-,Low,AUD Skilled Vacancies (MoM) (DEC),0.3%,-,00:00
+925,54.4,JPY,"Wednesday, January 24, 2018",,-,Medium,JPY Nikkei Japan PMI Manufacturing (JAN P),54.0,-,00:30
+926,,JPY,"Wednesday, January 24, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+927,,JPY,"Wednesday, January 24, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+928,,JPY,"Wednesday, January 24, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+929,0.6%,NZD,"Wednesday, January 24, 2018",,-,Low,NZD Credit Card Spending (MoM) (DEC),0.9%,u,02:00
+930,6.3%,NZD,"Wednesday, January 24, 2018",,-,Medium,NZD Credit Card Spending (YoY) (DEC),9.1%,-,02:00
+931,108.3,JPY,"Wednesday, January 24, 2018",,-,Low,JPY Leading Index CI (NOV F),108.6,-,05:00
+932,117.9,JPY,"Wednesday, January 24, 2018",,-,Low,JPY Coincident Index (NOV F),118.1,-,05:00
+933,58.1,EUR,"Wednesday, January 24, 2018",58.6,d,Low,EUR Markit France Manufacturing PMI (JAN P),58.8,-,08:00
+934,59.3,EUR,"Wednesday, January 24, 2018",58.9,u,Low,EUR Markit France Services PMI (JAN P),59.1,-,08:00
+935,59.7,EUR,"Wednesday, January 24, 2018",59.2,u,Low,EUR Markit France Composite PMI (JAN P),59.6,-,08:00
+936,61.2,EUR,"Wednesday, January 24, 2018",63,d,Medium,EUR Markit/BME Germany Manufacturing PMI (JAN P),63.3,-,08:30
+937,57,EUR,"Wednesday, January 24, 2018",55.5,u,Medium,EUR Markit Germany Services PMI (JAN P),55.8,-,08:30
+938,58.8,EUR,"Wednesday, January 24, 2018",58.5,u,Medium,EUR Markit/BME Germany Composite PMI (JAN P),58.9,-,08:30
+939,59.6,EUR,"Wednesday, January 24, 2018",60.3,d,Medium,EUR Markit Eurozone Manufacturing PMI (JAN P),60.6,-,09:00
+940,57.6,EUR,"Wednesday, January 24, 2018",56.4,u,Medium,EUR Markit Eurozone Services PMI (JAN P),56.6,-,09:00
+941,58.6,EUR,"Wednesday, January 24, 2018",57.9,u,Medium,EUR Markit Eurozone Composite PMI (JAN P),58.1,-,09:00
+942,2.4%,GBP,"Wednesday, January 24, 2018",,-,Medium,GBP Claimant Count Rate (DEC),2.3%,-,09:30
+943,8.6k,GBP,"Wednesday, January 24, 2018",,-,Medium,GBP Jobless Claims Change (DEC),12.2k,u,09:30
+944,2.5%,GBP,"Wednesday, January 24, 2018",2.5%,-,Medium,GBP Average Weekly Earnings (3M/YoY) (NOV),2.5%,-,09:30
+945,2.4%,GBP,"Wednesday, January 24, 2018",2.3%,u,Medium,GBP Weekly Earnings ex Bonus (3M/YoY) (NOV),2.3%,-,09:30
+946,4.3%,GBP,"Wednesday, January 24, 2018",4.3%,-,Medium,GBP ILO Unemployment Rate 3Mths (NOV),4.3%,-,09:30
+947,102k,GBP,"Wednesday, January 24, 2018",-12k,u,Medium,GBP Employment Change 3M/3M (NOV),-56k,-,09:30
+948,,CNY,"Wednesday, January 24, 2018",,-,Medium,CNY China Economic Adviser Liu He Speaks in Davos,,-,09:50
+949,4.5%,USD,"Wednesday, January 24, 2018",,-,Medium,USD MBA Mortgage Applications (JAN 19),4.1%,-,12:00
+950,0.4%,USD,"Wednesday, January 24, 2018",0.5%,d,Medium,USD House Price Index (MoM) (NOV),0.5%,-,14:00
+951,55.5,USD,"Wednesday, January 24, 2018",55,u,Medium,USD Markit US Manufacturing PMI (JAN P),55.1,-,14:45
+952,53.3,USD,"Wednesday, January 24, 2018",54.3,d,Medium,USD Markit US Services PMI (JAN P),53.7,-,14:45
+953,53.8,USD,"Wednesday, January 24, 2018",,-,Medium,USD Markit US Composite PMI (JAN P),54.1,-,14:45
+954,5.57m,USD,"Wednesday, January 24, 2018",5.70m,d,Low,USD Existing Home Sales (DEC),5.78m,d,15:00
+955,-3.6%,USD,"Wednesday, January 24, 2018",-1.9%,d,Medium,USD Existing Home Sales (MoM) (DEC),5.1%,d,15:00
+956,3098k,USD,"Wednesday, January 24, 2018",2200k,d,Low,USD DOE U.S. Gasoline Inventories (JAN 19),3620k,-,15:30
+957,-1071k,USD,"Wednesday, January 24, 2018",-2000k,d,Medium,USD DOE U.S. Crude Oil Inventories (JAN 19),-6861k,-,15:30
+958,3150k,USD,"Wednesday, January 24, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (JAN 19),-4184k,-,15:30
+959,639k,USD,"Wednesday, January 24, 2018",-1100k,d,Low,USD DOE U.S. Distillate Inventory (JAN 19),-3887k,-,15:30
+960,,USD,"Wednesday, January 24, 2018",,-,Low,USD U.S. to Sell USD15 Bln 2-Year Floating Rate Notes,,-,16:30
+961,,USD,"Wednesday, January 24, 2018",,-,Low,USD U.S. to Sell USD34 Bln 5-Year Notes,,-,18:00
+962,0.1%,NZD,"Wednesday, January 24, 2018",0.4%,d,Medium,NZD Consumer Price Index (QoQ) (4Q),0.5%,-,21:45
+963,1.6%,NZD,"Wednesday, January 24, 2018",1.9%,d,High,NZD Consumer Price Index (YoY) (4Q),1.9%,-,21:45
+964,¥411.1b,JPY,"Wednesday, January 24, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (JAN 19),¥957.8b,u,23:50
+965,¥379.8b,JPY,"Wednesday, January 24, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (JAN 19),¥93.1b,u,23:50
+966,¥-413.4b,JPY,"Wednesday, January 24, 2018",,-,Low,JPY Foreign Buying Japan Bonds (JAN 19),¥87.7b,u,23:50
+967,¥-148.2b,JPY,"Wednesday, January 24, 2018",,-,Low,JPY Foreign Buying Japan Stocks (JAN 19),¥499.4b,u,23:50
+968,0.9%,JPY,"Thursday, January 25, 2018",,-,Low,JPY Supermarket Sales (YoY) (DEC),-0.6%,-,05:00
+969,11.0,EUR,"Thursday, January 25, 2018",10.8,u,Medium,EUR German GfK Consumer Confidence (FEB),10.8,-,07:00
+970,117.6,EUR,"Thursday, January 25, 2018",117,u,Medium,EUR German IFO Business Climate (JAN),117.2,-,09:00
+971,108.4,EUR,"Thursday, January 25, 2018",109.2,d,Medium,EUR German IFO Expectations (JAN),109.4,d,09:00
+972,127.7,EUR,"Thursday, January 25, 2018",125.3,u,Medium,EUR German IFO Current Assessment (JAN),125.5,u,09:00
+973,36115,GBP,"Thursday, January 25, 2018",39800,d,Medium,GBP BBA Loans for House Purchase (DEC),39007,d,09:30
+974,12,GBP,"Thursday, January 25, 2018",13,d,Low,GBP CBI Reported Sales (JAN),20,-,11:00
+975,14,GBP,"Thursday, January 25, 2018",,-,Low,GBP CBI Total Dist. Reported Sales (JAN),24,-,11:00
+976,62.7,CAD,"Thursday, January 25, 2018",,-,Low,CAD CFIB Business Barometer (JAN),59.7,-,11:27
+977,0.00%,EUR,"Thursday, January 25, 2018",0.00%,-,High,EUR European Central Bank Rate Decision (JAN 25),0.00%,-,12:45
+978,0.25%,EUR,"Thursday, January 25, 2018",0.25%,-,High,EUR ECB Marginal Lending Facility (JAN 25),0.25%,-,12:45
+979,-0.40%,EUR,"Thursday, January 25, 2018",-0.40%,-,High,EUR ECB Deposit Facility Rate (JAN 25),-0.40%,-,12:45
+980,,EUR,"Thursday, January 25, 2018",,-,High,EUR ECB President Draghi holds press conference in Frankfurt,,-,13:30
+981,233k,USD,"Thursday, January 25, 2018",235k,u,Medium,USD Initial Jobless Claims (JAN 20),216k,u,13:30
+982,1937k,USD,"Thursday, January 25, 2018",1925k,d,Medium,USD Continuing Claims (JAN 13),1965k,d,13:30
+983,0.2%,CAD,"Thursday, January 25, 2018",0.8%,d,Medium,CAD Retail Sales (MoM) (NOV),1.6%,u,13:30
+984,1.6%,CAD,"Thursday, January 25, 2018",0.9%,u,Low,CAD Retail Sales Ex Auto (MoM) (NOV),0.8%,-,13:30
+985,625k,USD,"Thursday, January 25, 2018",675k,d,Low,USD New Home Sales (DEC),689k,d,15:00
+986,-9.3%,USD,"Thursday, January 25, 2018",-7.9%,d,Medium,USD New Home Sales (MoM) (DEC),15.0%,d,15:00
+987,0.6%,USD,"Thursday, January 25, 2018",0.5%,u,Medium,USD Leading Index (DEC),0.5%,u,15:00
+988,-288,USD,"Thursday, January 25, 2018",-277,u,Low,USD EIA Working Natural Gas Implied Flow (JAN 19),-183,-,15:30
+989,-288,USD,"Thursday, January 25, 2018",-277,u,Low,USD EIA Natural Gas Storage Change (JAN 19),-183,-,15:30
+990,16,USD,"Thursday, January 25, 2018",14,u,Low,USD Kansas City Fed Manf. Activity (JAN),14,-,16:00
+991,,USD,"Thursday, January 25, 2018",,-,Low,USD U.S. to Sell USD28 Bln 7-Year Notes,,-,18:00
+992,1.0%,JPY,"Thursday, January 25, 2018",1.1%,d,High,JPY National Consumer Price Index (YoY) (DEC),0.6%,-,23:30
+993,0.9%,JPY,"Thursday, January 25, 2018",0.9%,-,Medium,JPY National Consumer Price Index Ex-Fresh Food (YoY) (DEC),0.9%,-,23:30
+994,0.3%,JPY,"Thursday, January 25, 2018",0.4%,d,Medium,"JPY Natl CPI Ex Fresh Food, Energy (YoY) (DEC)",0.3%,-,23:30
+995,1.3%,JPY,"Thursday, January 25, 2018",1.1%,u,Low,JPY Tokyo Consumer Price Index (YoY) (JAN),1.0%,-,23:30
+996,0.7%,JPY,"Thursday, January 25, 2018",0.8%,d,Low,JPY Tokyo Consumer Price Index Ex-Fresh Food (YoY) (JAN),0.8%,-,23:30
+997,0.4%,JPY,"Thursday, January 25, 2018",0.4%,-,Low,"JPY Tokyo CPI Ex-Fresh Food, Energy (YoY) (JAN)",0.4%,-,23:30
+998,0.8%,JPY,"Thursday, January 25, 2018",0.8%,-,Low,JPY Corporate Service Price (YoY) (DEC),0.8%,-,23:50
+999,,JPY,"Thursday, January 25, 2018",,-,Medium,JPY BOJ Minutes of Policy Meeting,,-,23:50
+1000,1.54%,CNY,"Friday, January 26, 2018",,-,Low,CNY Swift Global Payments CNY (DEC),1.75%,-,01:00
+1001,,JPY,"Friday, January 26, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+1002,,JPY,"Friday, January 26, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+1003,,JPY,"Friday, January 26, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+1004,,JPY,"Friday, January 26, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+1005,10.8%,CNY,"Friday, January 26, 2018",,-,Low,CNY Industrial Profits (YoY) (DEC),14.9%,-,01:30
+1006,4.6%,EUR,"Friday, January 26, 2018",4.9%,d,Low,EUR Euro-Zone M3 Money Supply (YoY) (DEC),4.9%,-,09:00
+1007,,EUR,"Friday, January 26, 2018",,-,Medium,EUR ECB Survey of Professional Forecasters,,-,09:00
+1008,0.4%,GBP,"Friday, January 26, 2018",0.2%,u,Low,GBP Index of Services (MoM) (NOV),0.2%,-,09:30
+1009,0.4%,GBP,"Friday, January 26, 2018",0.4%,-,Low,GBP Index of Services (3Mo3M) (NOV),0.3%,-,09:30
+1010,0.5%,GBP,"Friday, January 26, 2018",0.4%,u,Medium,GBP Gross Domestic Product (QoQ) (4Q A),0.4%,-,09:30
+1011,1.5%,GBP,"Friday, January 26, 2018",1.4%,u,High,GBP Gross Domestic Product (YoY) (4Q A),1.7%,-,09:30
+1012,,EUR,"Friday, January 26, 2018",,-,Low,EUR ECB's Coeure speaks in Davos,,-,10:00
+1013,,USD,"Friday, January 26, 2018",,-,Low,USD Fed's Bullard Speaks at Economics Workshop in Oslo,,-,13:00
+1014,-0.4%,CAD,"Friday, January 26, 2018",-0.3%,d,Medium,CAD Consumer Price Index n.s.a. (MoM) (DEC),0.3%,-,13:30
+1015,1.9%,CAD,"Friday, January 26, 2018",1.9%,-,High,CAD Consumer Price Index (YoY) (DEC),2.1%,-,13:30
+1016,-$71.6b,USD,"Friday, January 26, 2018",-$68.9b,d,High,USD Advance Goods Trade Balance (DEC),-$70.0b,d,13:30
+1017,1.9%,CAD,"Friday, January 26, 2018",,-,Low,CAD CPI Core- Trim (YoY) (DEC),1.8%,-,13:30
+1018,0.2%,USD,"Friday, January 26, 2018",0.4%,d,Medium,USD Wholesale Inventories (MoM) (DEC P),0.7%,d,13:30
+1019,1.6%,CAD,"Friday, January 26, 2018",,-,Low,CAD Consumer Price Index Core (YoY) (DEC),1.5%,-,13:30
+1020,0.2%,USD,"Friday, January 26, 2018",,-,Low,USD Retail Inventories (MoM) (DEC),0.1%,-,13:30
+1021,1.9%,CAD,"Friday, January 26, 2018",,-,Low,CAD CPI Core- Median (YoY) (DEC),1.9%,-,13:30
+1022,130.8,CAD,"Friday, January 26, 2018",,-,Low,CAD Consumer Price Index (DEC),131.3,-,13:30
+1023,2.6%,USD,"Friday, January 26, 2018",3.0%,d,High,USD Gross Domestic Product Annualized (QoQ) (4Q A),3.2%,-,13:30
+1024,3.8%,USD,"Friday, January 26, 2018",3.7%,u,Medium,USD Personal Consumption (4Q),2.2%,-,13:30
+1025,2.4%,USD,"Friday, January 26, 2018",2.3%,u,Medium,USD Gross Domestic Product Price Index (4Q A),2.1%,-,13:30
+1026,1.9%,USD,"Friday, January 26, 2018",1.9%,-,Medium,USD Core PCE (QoQ) (4Q A),1.3%,-,13:30
+1027,2.9%,USD,"Friday, January 26, 2018",0.8%,u,High,USD Durable Goods Orders (DEC P),1.7%,u,13:30
+1028,0.6%,USD,"Friday, January 26, 2018",0.6%,-,Medium,USD Durables Ex Transportation (DEC P),0.3%,u,13:30
+1029,-0.3%,USD,"Friday, January 26, 2018",0.5%,d,Low,USD Cap Goods Orders Nondef Ex Air (DEC P),0.2%,u,13:30
+1030,0.6%,USD,"Friday, January 26, 2018",0.4%,u,Low,USD Cap Goods Ship Nondef Ex Air (DEC P),0.4%,u,13:30
+1031,,GBP,"Friday, January 26, 2018",,-,High,GBP BOE Governor Mark Carney speaks on panel at Davos,,-,14:00
+1032,947,USD,"Friday, January 26, 2018",934,d,Medium,USD Baker Hughes U.S. Rig Count (JAN 26),936,-,18:00
+1033,,EUR,"Saturday, January 27, 2018",,-,Low,EUR German Retail Sales (MoM) (DEC),2.3%,-,
+1034,,EUR,"Saturday, January 27, 2018",,-,Medium,EUR German Retail Sales (YoY) (DEC),4.4%,-,
+1035,4.5%,AUD,"Tuesday, January 16, 2018",,-,Low,AUD New Motor Vehicle Sales (MoM) (DEC),0.2%,u,00:30
+1036,6.7%,AUD,"Tuesday, January 16, 2018",,-,Low,AUD New Motor Vehicle Sales (YoY) (DEC),2.2%,u,00:30
+1037,61.1%,NZD,"Tuesday, January 16, 2018",,-,Low,NZD Non Resident Bond Holdings (DEC),60.4%,-,02:00
+1038,1.1%,JPY,"Tuesday, January 16, 2018",0.3%,u,Medium,JPY Tertiary Industry Index (MoM) (NOV),0.2%,d,04:30
+1039,-1.97%,JPY,"Tuesday, January 16, 2018",,-,Medium,JPY Bankruptcies (YoY) (DEC),-2.3%,-,04:30
+1040,-0.3%,EUR,"Tuesday, January 16, 2018",,d,Low,EUR German Wholesale Price Index (MoM) (DEC),0.5%,-,07:00
+1041,1.8%,EUR,"Tuesday, January 16, 2018",,-,Low,EUR German Wholesale Price Index (YoY) (DEC),3.3%,-,07:00
+1042,0.6%,EUR,"Tuesday, January 16, 2018",0.6%,-,Low,EUR German Consumer Price Index (MoM) (DEC F),0.6%,-,07:00
+1043,1.7%,EUR,"Tuesday, January 16, 2018",1.7%,-,Medium,EUR German Consumer Price Index (YoY) (DEC F),1.7%,-,07:00
+1044,-9.2%,CNY,"Tuesday, January 16, 2018",,-,Low,CNY Foreign Direct Investment (YoY) (DEC),90.7%,-,07:16
+1045,,GBP,"Tuesday, January 16, 2018",,-,Low,"GBP Woods, Boss and Yallop testify on PRA before U.K. lawmakers.",,-,09:15
+1046,2.7%,GBP,"Tuesday, January 16, 2018",2.8%,d,Medium,GBP CPIH (YoY) (DEC),2.8%,-,09:30
+1047,0.4%,GBP,"Tuesday, January 16, 2018",0.4%,-,Medium,GBP Consumer Price Index (MoM) (DEC),0.3%,-,09:30
+1048,3.0%,GBP,"Tuesday, January 16, 2018",3.0%,-,High,GBP Consumer Price Index (YoY) (DEC),3.1%,-,09:30
+1049,2.5%,GBP,"Tuesday, January 16, 2018",2.6%,d,High,GBP Core Consumer Price Index (YoY) (DEC),2.7%,-,09:30
+1050,278.1,GBP,"Tuesday, January 16, 2018",277.6,u,Low,GBP Retail Price Index (DEC),275.8,-,09:30
+1051,0.8%,GBP,"Tuesday, January 16, 2018",0.6%,u,Low,GBP Retail Price Index (MoM) (DEC),0.2%,-,09:30
+1052,4.1%,GBP,"Tuesday, January 16, 2018",3.9%,u,Low,GBP Retail Price Index (YoY) (DEC),3.9%,-,09:30
+1053,4.2%,GBP,"Tuesday, January 16, 2018",3.9%,u,Low,GBP Retail Price Index Ex Mort Int.Payments (YoY) (DEC),4.0%,-,09:30
+1054,0.1%,GBP,"Tuesday, January 16, 2018",0.4%,d,Low,GBP Producer Price Index Input n.s.a. (MoM) (DEC),1.6%,d,09:30
+1055,4.9%,GBP,"Tuesday, January 16, 2018",5.3%,d,Low,GBP Producer Price Index Input n.s.a. (YoY) (DEC),7.3%,-,09:30
+1056,0.4%,GBP,"Tuesday, January 16, 2018",0.2%,u,Low,GBP Producer Price Index Output n.s.a. (MoM) (DEC),0.4%,u,09:30
+1057,3.3%,GBP,"Tuesday, January 16, 2018",2.9%,u,Low,GBP Producer Price Index Output n.s.a. (YoY) (DEC),3.1%,u,09:30
+1058,0.3%,GBP,"Tuesday, January 16, 2018",0.2%,u,Low,GBP Producer Price Index Output Core n.s.a. (MoM) (DEC),0.2%,-,09:30
+1059,2.5%,GBP,"Tuesday, January 16, 2018",2.3%,u,Low,GBP Producer Price Index Output Core n.s.a. (YoY) (DEC),2.3%,u,09:30
+1060,5.1%,GBP,"Tuesday, January 16, 2018",4.2%,u,Medium,GBP House Price Index (YoY) (NOV),5.4%,u,09:30
+1061,17.7,USD,"Tuesday, January 16, 2018",19,d,Low,USD Empire Manufacturing (JAN),19.6,u,13:30
+1062,468.8,CHF,"Tuesday, January 16, 2018",,-,Medium,CHF Real Estate Index Family Homes (4Q),464.5,-,13:42
+1063,$3310,NZD,"Tuesday, January 16, 2018",,-,Medium,NZD Dairy Auction Avg. Winning Price MT (JAN 16),$3124,-,15:00
+1064,$3010,NZD,"Tuesday, January 16, 2018",,-,Medium,NZD Dairy Auction Whole Milk Powder MT (JAN 16),$2886,-,15:00
+1065,,USD,"Tuesday, January 16, 2018",,-,Low,USD U.S. to Sell USD45 Bln 4-Week Bills,,-,16:30
+1066,,USD,"Tuesday, January 16, 2018",,-,Low,USD U.S. to Sell USD48 Bln 3-Month Bills,,-,16:30
+1067,,USD,"Tuesday, January 16, 2018",,-,Low,USD U.S. to Sell USD42 Bln 6-Month Bills,,-,16:30
+1068,,CHF,"Tuesday, January 16, 2018",,-,High,CHF SNB President Jordan Speaks in Zurich,,-,17:00
+1069,-4.2%,NZD,"Tuesday, January 16, 2018",,-,Low,NZD ANZ Truckometer Heavy (MoM) (DEC),2.9%,u,21:00
+1070,105.1,AUD,"Tuesday, January 16, 2018",,-,Low,AUD Westpac Consumer Conf Index (JAN),103.3,-,23:30
+1071,1.8%,AUD,"Tuesday, January 16, 2018",,-,Medium,AUD Westpac Consumer Confidence (JAN),3.6%,-,23:30
+1072,5.7%,JPY,"Tuesday, January 16, 2018",-1.4%,u,Low,JPY Machine Orders (MoM) (NOV),5.0%,-,23:50
+1073,4.1%,JPY,"Tuesday, January 16, 2018",-1.0%,u,Medium,JPY Machine Orders (YoY) (NOV),2.3%,-,23:50
+1074,-2.2%,NZD,"Wednesday, January 17, 2018",,-,Low,NZD ANZ Commodity Price (DEC),-0.9%,-,00:00
+1075,2.1%,AUD,"Wednesday, January 17, 2018",0.0%,u,Medium,AUD Home Loans (MoM) (NOV),-0.6%,-,00:30
+1076,1.5%,AUD,"Wednesday, January 17, 2018",,-,Low,AUD Investment Lending (NOV),1.6%,-,00:30
+1077,2.7%,AUD,"Wednesday, January 17, 2018",,-,Low,AUD Value of Loans (MoM) (NOV),0.0%,-,00:30
+1078,,JPY,"Wednesday, January 17, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+1079,,JPY,"Wednesday, January 17, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+1080,-4.9%,EUR,"Wednesday, January 17, 2018",,-,Low,EUR EU 25 New Car Registrations (DEC),5.9%,-,07:00
+1081,0.5%,EUR,"Wednesday, January 17, 2018",,-,Low,EUR Euro-Zone Construction Output s.a. (MoM) (NOV),-0.3%,u,10:00
+1082,2.7%,EUR,"Wednesday, January 17, 2018",,-,Low,EUR Euro-Zone Construction Output w.d.a. (YoY) (NOV),2.2%,u,10:00
+1083,0.9%,EUR,"Wednesday, January 17, 2018",0.9%,-,Medium,EUR Euro-Zone Consumer Price Index Core (YoY) (DEC F),0.9%,-,10:00
+1084,1.4%,EUR,"Wednesday, January 17, 2018",1.4%,-,Medium,EUR Euro-Zone Consumer Price Index (YoY) (DEC F),1.5%,-,10:00
+1085,0.4%,EUR,"Wednesday, January 17, 2018",0.4%,-,Medium,EUR Euro-Zone Consumer Price Index (MoM) (DEC),0.1%,-,10:00
+1086,,GBP,"Wednesday, January 17, 2018",,-,Low,GBP BOE's Saunders Speaks at Event in London,,-,11:45
+1087,4.1%,USD,"Wednesday, January 17, 2018",,-,Medium,USD MBA Mortgage Applications (JAN 12),8.3%,-,12:00
+1088,0.9%,USD,"Wednesday, January 17, 2018",0.5%,u,Medium,USD Industrial Production (MoM) (DEC),-0.1%,d,14:15
+1089,77.9%,USD,"Wednesday, January 17, 2018",77.4%,u,Low,USD Capacity Utilization (DEC),77.2%,u,14:15
+1090,0.1%,USD,"Wednesday, January 17, 2018",0.3%,d,Medium,USD Manufacturing (SIC) Production (DEC),0.3%,u,14:15
+1091,1.25%,CAD,"Wednesday, January 17, 2018",1.25%,-,High,CAD Bank of Canada Rate Decision (JAN 17),1.00%,-,15:00
+1092,72,USD,"Wednesday, January 17, 2018",72,-,Medium,USD NAHB Housing Market Index (JAN),74,-,15:00
+1093,,USD,"Wednesday, January 17, 2018",,-,Medium,USD U.S. Federal Reserve Releases Beige Book,,-,19:00
+1094,,USD,"Wednesday, January 17, 2018",,-,Low,USD Fed's Evans Speaks on Economy and Monetary Policy,,-,20:00
+1095,-10.1%,NZD,"Wednesday, January 17, 2018",,-,Low,NZD REINZ House Sales (YoY) (DEC),-8.9%,-,20:00
+1096,$33.8b,USD,"Wednesday, January 17, 2018",,-,Low,USD Total Net TIC Flows (NOV),$152.9b,-,21:00
+1097,$57.5B,USD,"Wednesday, January 17, 2018",,-,Medium,USD Net Long-term TIC Flows (NOV),$26.2b,u,21:00
+1098,,USD,"Wednesday, January 17, 2018",,-,Low,USD Fed's Mester Discusses Monetary Policy Communication,,-,21:30
+1099,¥953.5b,JPY,"Wednesday, January 17, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (JAN 12),¥186.6b,u,23:50
+1100,¥89.2b,JPY,"Wednesday, January 17, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (JAN 12),¥217.0b,d,23:50
+1101,¥86.8b,JPY,"Wednesday, January 17, 2018",,-,Low,JPY Foreign Buying Japan Bonds (JAN 12),-¥127.3b,u,23:50
+1102,¥498.7b,JPY,"Wednesday, January 17, 2018",,-,Low,JPY Foreign Buying Japan Stocks (JAN 12),¥598.7b,u,23:50
+1103,3.7%,AUD,"Thursday, January 18, 2018",,-,Medium,AUD Consumer Inflation Expectation (JAN),3.7%,-,00:00
+1104,8.0%,GBP,"Thursday, January 18, 2018",-1.0%,u,Medium,GBP RICS House Price Balance (DEC),0.0%,-,00:01
+1105,34.7k,AUD,"Thursday, January 18, 2018",15.0k,u,High,AUD Employment Change (DEC),63.6k,u,00:30
+1106,5.5%,AUD,"Thursday, January 18, 2018",5.4%,d,High,AUD Unemployment Rate (DEC),5.4%,-,00:30
+1107,15.1k,AUD,"Thursday, January 18, 2018",,-,Medium,AUD Full Time Employment Change (DEC),43.6k,u,00:30
+1108,19.5k,AUD,"Thursday, January 18, 2018",,-,Low,AUD Part Time Employment Change (DEC),20.0k,u,00:30
+1109,65.7%,AUD,"Thursday, January 18, 2018",65.5%,u,Low,AUD Participation Rate (DEC),65.5%,-,00:30
+1110,A$1279m,AUD,"Thursday, January 18, 2018",,-,Low,AUD RBA Foreign Exchange Transaction (Australian dollar) (DEC),A$343m,-,00:30
+1111,-A$1358m,AUD,"Thursday, January 18, 2018",,-,Low,AUD RBA FX Transactions Government (DEC),-A$457m,-,00:30
+1112,A$2319m,AUD,"Thursday, January 18, 2018",,-,Low,AUD RBA FX Transactions Other (DEC),-A$664m,d,00:30
+1113,,CNY,"Thursday, January 18, 2018",,-,Low,CNY China December Property Prices,,-,01:30
+1114,44.5b,CNY,"Thursday, January 18, 2018",,-,Low,CNY China FX Net Settlement - Clients CNY (DEC),-31.2b,-,02:00
+1115,0.5%,JPY,"Thursday, January 18, 2018",,-,Low,JPY Industrial Production (MoM) (NOV F),0.6%,-,04:30
+1116,3.6%,JPY,"Thursday, January 18, 2018",,-,Low,JPY Industrial Production (YoY) (NOV F),3.7%,-,04:30
+1117,0.0%,JPY,"Thursday, January 18, 2018",,-,Low,JPY Capacity Utilization (MoM) (NOV),0.2%,-,04:30
+1118,6.8%,CNY,"Thursday, January 18, 2018",6.7%,u,High,CNY Gross Domestic Product (YoY) (4Q),6.8%,-,07:00
+1119,1.6%,CNY,"Thursday, January 18, 2018",1.7%,d,High,CNY Gross Domestic Product s.a. (QoQ) (4Q),1.8%,u,07:00
+1120,6.9%,CNY,"Thursday, January 18, 2018",6.8%,u,High,CNY Gross Domestic Product YTD (YoY) (4Q),6.9%,-,07:00
+1121,10.2%,CNY,"Thursday, January 18, 2018",10.3%,d,Medium,CNY Retail Sales (YoY) (DEC),10.2%,-,07:00
+1122,10.2%,CNY,"Thursday, January 18, 2018",10.3%,d,Medium,CNY Retail Sales YTD (YoY) (DEC),10.3%,-,07:00
+1123,6.2%,CNY,"Thursday, January 18, 2018",6.1%,u,Medium,CNY Industrial Production (YoY) (DEC),6.1%,-,07:00
+1124,6.6%,CNY,"Thursday, January 18, 2018",6.6%,-,Medium,CNY Industrial Production YTD (YoY) (DEC),6.6%,-,07:00
+1125,7.2%,CNY,"Thursday, January 18, 2018",7.1%,u,Medium,CNY Fixed Assets Ex Rural YTD (YoY) (DEC),7.2%,-,07:00
+1126,,EUR,"Thursday, January 18, 2018",,-,Low,"EUR ECB's Weidmann, Coeure, IMF's Lagarde speak in Frankfurt",,-,08:15
+1127,,CAD,"Thursday, January 18, 2018",,-,Low,CAD ADP Canada Employment Report Published,,-,13:30
+1128,1192k,USD,"Thursday, January 18, 2018",1275k,d,Low,USD Housing Starts (DEC),1299k,u,13:30
+1129,-8.2%,USD,"Thursday, January 18, 2018",-1.7%,d,Medium,USD Housing Starts (MoM) (DEC),3.0%,d,13:30
+1130,1302k,USD,"Thursday, January 18, 2018",1295k,u,Low,USD Building Permits (DEC),1303k,u,13:30
+1131,-0.1%,USD,"Thursday, January 18, 2018",-0.6%,u,Medium,USD Building Permits (MoM) (DEC),-1.0%,u,13:30
+1132,22.2,USD,"Thursday, January 18, 2018",25,d,Medium,USD Philadelphia Fed Business Outlook (JAN),27.9,u,13:30
+1133,220k,USD,"Thursday, January 18, 2018",249k,u,Medium,USD Initial Jobless Claims (JAN 13),261k,-,13:30
+1134,1952k,USD,"Thursday, January 18, 2018",1900k,d,Medium,USD Continuing Claims (JAN 06),1876k,d,13:30
+1135,,EUR,"Thursday, January 18, 2018",,-,Low,EUR ECB's Coeure speaks on a panel in Frankfurt,,-,14:30
+1136,-183,USD,"Thursday, January 18, 2018",-199,d,Low,USD EIA Working Natural Gas Implied Flow (JAN 12),-359,-,15:30
+1137,-183,USD,"Thursday, January 18, 2018",-199,d,Low,USD EIA Natural Gas Storage Change (JAN 12),-359,-,15:30
+1138,3620k,USD,"Thursday, January 18, 2018",3992k,u,Low,USD DOE U.S. Gasoline Inventories (JAN 12),4135k,-,16:00
+1139,-6861k,USD,"Thursday, January 18, 2018",-3150k,u,Medium,USD DOE U.S. Crude Oil Inventories (JAN 12),-4948k,-,16:00
+1140,-4184k,USD,"Thursday, January 18, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (JAN 12),-2395k,-,16:00
+1141,-3887k,USD,"Thursday, January 18, 2018",1550k,u,Low,USD DOE U.S. Distillate Inventory (JAN 12),4254k,-,16:00
+1142,,USD,"Thursday, January 18, 2018",,-,Low,USD U.S. to Sell USD13 Bln 10-Year TIPS,,-,18:00
+1143,51.2,NZD,"Thursday, January 18, 2018",,-,Medium,NZD BusinessNZ Manufacturing PMI (DEC),57.7,-,21:30
+1144,,JPY,"Friday, January 19, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+1145,,JPY,"Friday, January 19, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+1146,,JPY,"Friday, January 19, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+1147,0.2%,EUR,"Friday, January 19, 2018",0.2%,-,Low,EUR German Producer Price Index (MoM) (DEC),0.1%,-,07:00
+1148,2.3%,EUR,"Friday, January 19, 2018",2.3%,-,Low,EUR German Producer Price Index (YoY) (DEC),2.5%,-,07:00
+1149,0.2%,CHF,"Friday, January 19, 2018",,-,Low,CHF Producer & Import Prices (MoM) (DEC),0.6%,-,08:15
+1150,1.8%,CHF,"Friday, January 19, 2018",,-,Low,CHF Producer & Import Prices (YoY) (DEC),1.8%,-,08:15
+1151,32.5b,EUR,"Friday, January 19, 2018",,-,Low,EUR Euro-Zone Current Account s.a. (euros) (NOV),30.3b,d,09:00
+1152,37.8b,EUR,"Friday, January 19, 2018",,-,Low,EUR Euro-Zone Current Account n.s.a. (euros) (NOV),35.4b,d,09:00
+1153,-1.6%,GBP,"Friday, January 19, 2018",-1.0%,d,Low,GBP Retail Sales Ex Auto Fuel (MoM) (DEC),1.1%,d,09:30
+1154,1.3%,GBP,"Friday, January 19, 2018",2.6%,d,Medium,GBP Retail Sales Ex Auto Fuel (YoY) (DEC),1.5%,-,09:30
+1155,-1.5%,GBP,"Friday, January 19, 2018",-0.9%,d,Low,GBP Retail Sales Inc Auto Fuel (MoM) (DEC),1.0%,d,09:30
+1156,1.4%,GBP,"Friday, January 19, 2018",2.6%,d,Low,GBP Retail Sales Inc Auto Fuel (YoY) (DEC),1.5%,d,09:30
+1157,3.4%,CAD,"Friday, January 19, 2018",2.0%,u,Low,CAD Manufacturing Sales (MoM) (NOV),-0.6%,d,13:30
+1158,19.56b,CAD,"Friday, January 19, 2018",,-,Low,CAD International Securities Transactions (Canadian dollar) (NOV),20.77b,d,13:30
+1159,94.4,USD,"Friday, January 19, 2018",97.0,d,High,USD U. of Mich. Sentiment (JAN P),95.9,-,15:00
+1160,84.8,USD,"Friday, January 19, 2018",85.3,d,Low,USD U. of Mich. Expectations (JAN P),84.3,-,15:00
+1161,2.8%,USD,"Friday, January 19, 2018",,-,Low,USD U. of Mich. 1 Yr Inflation (JAN P),2.7%,-,15:00
+1162,2.5%,USD,"Friday, January 19, 2018",,-,Low,USD U. of Mich. 5-10 Yr Inflation (JAN P),2.4%,-,15:00
+1163,109.2,USD,"Friday, January 19, 2018",114.4,d,Low,USD U. of Mich. Current Conditions (JAN P),113.8,-,15:00
+1164,936,USD,"Friday, January 19, 2018",,-,Medium,USD Baker Hughes U.S. Rig Count (JAN 19),939,-,18:00
+1165,,USD,"Friday, January 19, 2018",,-,Low,USD Fed's Quarles Speaks on Bank Regulation,,-,18:00
+1166,A$85.4b,AUD,"Monday, January 8, 2018",,-,Low,AUD Foreign Reserves (Australian dollar) (DEC),A$80.7b,d,05:30
+1167,-0.4%,EUR,"Monday, January 8, 2018",0.0%,d,Low,EUR German Factory Orders (MoM) (NOV),0.7%,u,07:00
+1168,8.7%,EUR,"Monday, January 8, 2018",7.8%,u,Medium,EUR German Factory Orders n.s.a. (YoY) (NOV),7.2%,u,07:00
+1169,0.0%,CHF,"Monday, January 8, 2018",-0.1%,u,Low,CHF Consumer Price Index (MoM) (DEC),-0.1%,d,08:15
+1170,0.8%,CHF,"Monday, January 8, 2018",0.8%,-,Medium,CHF Consumer Price Index (YoY) (DEC),0.8%,-,08:15
+1171,0.2%,CHF,"Monday, January 8, 2018",,-,Low,CHF CPI EU Harmonized (MoM) (DEC),-0.3%,-,08:15
+1172,1.1%,CHF,"Monday, January 8, 2018",,-,Medium,CHF CPI EU Harmonized (YoY) (DEC),0.8%,-,08:15
+1173,-0.6%,GBP,"Monday, January 8, 2018",0.2%,d,Low,GBP Halifax House Prices (MoM) (DEC),0.3%,d,08:30
+1174,2.7%,GBP,"Monday, January 8, 2018",3.3%,d,Low,GBP Halifax House Price 3Mths/Year (DEC),3.9%,-,08:30
+1175,572.8,CHF,"Monday, January 8, 2018",,-,Low,CHF Total Sight Deposits CHF (JAN 05),573.2b,-,09:00
+1176,471.4b,CHF,"Monday, January 8, 2018",,-,Low,CHF Domestic Sight Deposits CHF (JAN 05),473.4b,-,09:00
+1177,32.9,EUR,"Monday, January 8, 2018",31.3,u,Low,EUR Euro-Zone Sentix Investor Confidence (JAN),31.1,-,09:30
+1178,0.5,EUR,"Monday, January 8, 2018",0.5,-,Low,EUR Euro-Zone Consumer Confidence (DEC F),0.5,-,10:00
+1179,1.5%,EUR,"Monday, January 8, 2018",1.3%,u,Low,EUR Euro-Zone Retail Sales (MoM) (NOV),-1.1%,-,10:00
+1180,2.8%,EUR,"Monday, January 8, 2018",2.4%,u,Medium,EUR Euro-Zone Retail Sales (YoY) (NOV),0.2%,d,10:00
+1181,116.0,EUR,"Monday, January 8, 2018",114.8,u,Low,EUR Euro-Zone Economic Confidence (DEC),114.6,-,10:00
+1182,1.66,EUR,"Monday, January 8, 2018",1.5,u,Low,EUR Euro-Zone Business Climate Indicator (DEC),1.49,-,10:00
+1183,9.1,EUR,"Monday, January 8, 2018",8.4,u,Low,EUR Euro-Zone Industrial Confidence (DEC),8.1,d,10:00
+1184,18.4,EUR,"Monday, January 8, 2018",16.5,u,Low,EUR Euro-Zone Services Confidence (DEC),16.4,u,10:00
+1185,8,CAD,"Monday, January 8, 2018",,-,Low,CAD Business Outlook Future Sales (4Q),19,-,15:30
+1186,-6.4,CAD,"Monday, January 8, 2018",,-,Low,CAD Bank of Canda Senior Loan Officer Survey (4Q),-0.5,-,15:30
+1187,,USD,"Monday, January 8, 2018",,-,Low,USD U.S. to Sell USD48 Bln 3-Month Bills,,-,16:30
+1188,,USD,"Monday, January 8, 2018",,-,Low,USD U.S. to Sell USD42 Bln 6-Month Bills,,-,16:30
+1189,,USD,"Monday, January 8, 2018",,-,Low,USD Fed's Bostic Speaks on Economic Outlook in Atlanta,,-,17:40
+1190,,USD,"Monday, January 8, 2018",,-,Low,USD Fed's Williams Speaks at Inflation Targeting Conference,,-,18:35
+1191,$27.951b,USD,"Monday, January 8, 2018",$18.000b,u,Medium,USD Consumer Credit (NOV),$20.532b,u,20:00
+1192,,USD,"Monday, January 8, 2018",,-,Low,USD Fed's Rosengren Speaks at Inflation Targeting Conference,,-,21:00
+1193,122.0,AUD,"Monday, January 8, 2018",,-,Low,AUD ANZ Roy Morgan Weekly Consumer Confidence Index (JAN 07),116.5,-,22:30
+1194,0.9%,JPY,"Tuesday, January 9, 2018",0.6%,u,Medium,JPY Labor Cash Earnings (YoY) (NOV),0.2%,d,00:00
+1195,0.1%,JPY,"Tuesday, January 9, 2018",-0.1%,u,Medium,JPY Real Cash Earnings (YoY) (NOV),-0.1%,d,00:00
+1196,0.6%,GBP,"Tuesday, January 9, 2018",0.3%,u,Low,GBP BRC Sales Like-For-Like (YoY) (DEC),0.6%,-,00:01
+1197,11.7%,AUD,"Tuesday, January 9, 2018",-1.3%,u,Low,AUD Building Approvals (MoM) (NOV),-0.1%,d,00:30
+1198,17.1%,AUD,"Tuesday, January 9, 2018",4.6%,u,Medium,AUD Building Approvals (YoY) (NOV),17.5%,d,00:30
+1199,-2.3%,AUD,"Tuesday, January 9, 2018",,-,Low,AUD ANZ Job Advertisements (MoM) (DEC),1.1%,d,00:30
+1200,,JPY,"Tuesday, January 9, 2018",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+1201,,JPY,"Tuesday, January 9, 2018",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+1202,44.7,JPY,"Tuesday, January 9, 2018",45.0,d,Medium,JPY Consumer Confidence Index (DEC),44.9,-,05:00
+1203,,CHF,"Tuesday, January 9, 2018",,-,Low,CHF SNB Prelimary Full-Year Results,,-,06:25
+1204,3.3%,CHF,"Tuesday, January 9, 2018",3.2%,d,Medium,CHF Unemployment Rate (DEC),3.1%,-,06:45
+1205,3.0%,CHF,"Tuesday, January 9, 2018",3.0%,-,Medium,CHF Unemployment Rate s.a. (DEC),3.1%,d,06:45
+1206,3.4%,EUR,"Tuesday, January 9, 2018",1.8%,u,Low,EUR German Industrial Production s.a. (MoM) (NOV),-1.2%,u,07:00
+1207,5.6%,EUR,"Tuesday, January 9, 2018",3.9%,u,Medium,EUR German Industrial Production n.s.a. and w.d.a. (YoY) (NOV),2.8%,u,07:00
+1208,23.7b,EUR,"Tuesday, January 9, 2018",21.3b,u,Medium,EUR German Trade Balance (NOV),18.9b,-,07:00
+1209,25.4b,EUR,"Tuesday, January 9, 2018",25.5b,d,Low,EUR German Current Account (euros) (NOV),18.1b,-,07:00
+1210,4.1%,EUR,"Tuesday, January 9, 2018",1.2%,u,Low,EUR German Exports s.a. (MoM) (NOV),-0.3%,u,07:00
+1211,2.3%,EUR,"Tuesday, January 9, 2018",0.4%,u,Low,EUR German Imports s.a. (MoM) (NOV),1.8%,-,07:00
+1212,743.9b,CHF,"Tuesday, January 9, 2018",,-,Low,CHF Foreign Currency Reserves (DEC),738.1b,d,08:00
+1213,-0.2%,CHF,"Tuesday, January 9, 2018",,-,Medium,CHF Retail Sales Real (YoY) (NOV),-2.6%,u,08:15
+1214,8.7%,EUR,"Tuesday, January 9, 2018",8.7%,-,Medium,EUR Euro-Zone Unemployment Rate (NOV),8.8%,-,10:00
+1215,104.9,USD,"Tuesday, January 9, 2018",107.8,d,Low,USD NFIB Small Business Optimism (DEC),107.5,-,11:00
+1216,217k,CAD,"Tuesday, January 9, 2018",211k,u,Medium,CAD Housing Starts (DEC),251.7k,d,13:15
+1217,5879,USD,"Tuesday, January 9, 2018",6025,d,Low,USD JOLTS Job Openings (NOV),5925,d,15:00
+1218,,USD,"Tuesday, January 9, 2018",,-,Low,USD Fed's Kashkari Speaks on Moderated Panel,,-,15:00
+1219,,USD,"Tuesday, January 9, 2018",,-,Low,USD U.S. to Sell 4-Week Bills,,-,16:30
+1220,,USD,"Tuesday, January 9, 2018",,-,Low,USD U.S. to Sell USD24 Bln 3-Year Notes,,-,18:00
+1221,2.7%,AUD,"Wednesday, January 10, 2018",,-,Low,AUD Job vacancies (NOV),6.7%,d,00:30
+1222,4.9%,CNY,"Wednesday, January 10, 2018",4.8%,u,Medium,CNY Producer Price Index (YoY) (DEC),5.8%,-,01:30
+1223,1.8%,CNY,"Wednesday, January 10, 2018",1.9%,d,High,CNY Consumer Price Index (YoY) (DEC),1.7%,-,01:30
+1224,0.4%,GBP,"Wednesday, January 10, 2018",0.4%,-,Low,GBP Industrial Production (MoM) (NOV),0.2%,u,09:30
+1225,2.5%,GBP,"Wednesday, January 10, 2018",1.8%,u,Medium,GBP Industrial Production (YoY) (NOV),4.3%,u,09:30
+1226,0.4%,GBP,"Wednesday, January 10, 2018",0.3%,u,Low,GBP Manufacturing Production (MoM) (NOV),0.3%,u,09:30
+1227,3.5%,GBP,"Wednesday, January 10, 2018",2.8%,u,Medium,GBP Manufacturing Production (YoY) (NOV),4.7%,u,09:30
+1228,0.4%,GBP,"Wednesday, January 10, 2018",0.8%,d,Low,GBP Construction Output SA (MoM) (NOV),-1.1%,u,09:30
+1229,0.4%,GBP,"Wednesday, January 10, 2018",-1.0%,u,Medium,GBP Construction Output SA (YoY) (NOV),1.3%,u,09:30
+1230,"-£12,231",GBP,"Wednesday, January 10, 2018","-£10,950",d,Medium,GBP Visible Trade Balance (Pounds) (NOV),"-£11,677",d,09:30
+1231,"-£4,675",GBP,"Wednesday, January 10, 2018","-£2,600",d,Medium,GBP Trade Balance Non EU GBP/Mn (NOV),"-£3,374",d,09:30
+1232,"-£2,804",GBP,"Wednesday, January 10, 2018","-£1,500",d,Medium,GBP Trade Balance (NOV),"-£2,270",d,09:30
+1233,8.3%,USD,"Wednesday, January 10, 2018",,-,Medium,USD MBA Mortgage Applications (JAN 05),-1.6%,d,12:00
+1234,0.6%,GBP,"Wednesday, January 10, 2018",0.5%,u,Medium,GBP NIESR Gross Domestic Product Estimate (DEC),0.6%,u,13:00
+1235,-7.7%,CAD,"Wednesday, January 10, 2018",-1.0%,d,Medium,CAD Building Permits (MoM) (NOV),4.4%,u,13:30
+1236,0.1%,USD,"Wednesday, January 10, 2018",0.4%,d,Low,USD Import Price Index (MoM) (DEC),0.8%,u,13:30
+1237,-0.2%,USD,"Wednesday, January 10, 2018",0.1%,d,Medium,USD Import Price Index ex Petroleum (MoM) (DEC),0.2%,u,13:30
+1238,3.0%,USD,"Wednesday, January 10, 2018",3.1%,d,Low,USD Import Price Index (YoY) (DEC),3.3%,u,13:30
+1239,-0.1%,USD,"Wednesday, January 10, 2018",0.3%,d,Low,USD Export Price Index (MoM) (DEC),0.5%,-,13:30
+1240,2.6%,USD,"Wednesday, January 10, 2018",,-,Medium,USD Export Price Index (YoY) (DEC),3.1%,-,13:30
+1241,,USD,"Wednesday, January 10, 2018",,-,Low,USD Fed's Evans Discusses Economy and Policy Outlook,,-,14:00
+1242,0.8%,USD,"Wednesday, January 10, 2018",0.7%,u,Low,USD Wholesale Inventories (MoM) (NOV F),0.7%,-,15:00
+1243,1.5%,USD,"Wednesday, January 10, 2018",0.6%,u,Low,USD Wholesale Trade Sales (MoM) (NOV),0.8%,u,15:00
+1244,4135k,USD,"Wednesday, January 10, 2018",3550k,d,Low,USD DOE U.S. Gasoline Inventories (JAN 05),4813k,-,15:30
+1245,-4948k,USD,"Wednesday, January 10, 2018",-3750k,u,Medium,USD DOE U.S. Crude Oil Inventories (JAN 05),-7419k,-,15:30
+1246,-2395k,USD,"Wednesday, January 10, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (JAN 05),-2441k,-,15:30
+1247,4254k,USD,"Wednesday, January 10, 2018",2250k,d,Low,USD DOE U.S. Distillate Inventory (JAN 05),8899k,-,15:30
+1248,6.6%,NZD,"Wednesday, January 10, 2018",,-,Low,NZD QV House Prices (YoY) (DEC),6.4%,-,16:00
+1249,,USD,"Wednesday, January 10, 2018",,-,Low,USD U.S. to Sell USD20 Bln 10-Year Notes Reopening,,-,18:00
+1250,,USD,"Wednesday, January 10, 2018",,-,Low,USD Fed's Bullard Speaks on U.S. Economic Outlook in St. Louis,,-,18:30
+1251,-0.3%,NZD,"Wednesday, January 10, 2018",,-,Low,NZD ANZ Job Advertisements (MoM) (DEC),-0.3%,d,21:00
+1252,$1264.3b,JPY,"Wednesday, January 10, 2018",,-,Low,JPY Official Reserve Assets (DEC),$1261.2b,-,23:50
+1253,1.2%,AUD,"Thursday, January 11, 2018",0.4%,u,Low,AUD Retail Sales (MoM) (NOV),0.5%,-,00:30
+1254,,JPY,"Thursday, January 11, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+1255,,JPY,"Thursday, January 11, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+1256,,JPY,"Thursday, January 11, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+1257,3.12%,JPY,"Thursday, January 11, 2018",,-,Low,JPY Tokyo Average Office Vacancies (DEC),3.03%,-,02:00
+1258,108.6,JPY,"Thursday, January 11, 2018",108.6,-,Medium,JPY Leading Index CI (NOV P),106.5,-,05:00
+1259,118.1,JPY,"Thursday, January 11, 2018",117.9,u,Medium,JPY Coincident Index (NOV P),116.4,-,05:00
+1260,1.2%,EUR,"Thursday, January 11, 2018",1.1%,u,Medium,EUR German Public Finances Balance-GDP Ratio (2017),0.8%,u,09:00
+1261,2.2%,EUR,"Thursday, January 11, 2018",2.3%,d,High,EUR German Gross Domestic Product NSA (YoY) (2017),1.9%,-,09:00
+1262,,GBP,"Thursday, January 11, 2018",,-,High,GBP Bank of England Credit Conditions & Bank Liabilities Surveys,,-,09:30
+1263,1.0%,EUR,"Thursday, January 11, 2018",0.8%,u,Low,EUR Euro-Zone Industrial Production s.a. (MoM) (NOV),0.4%,u,10:00
+1264,3.2%,EUR,"Thursday, January 11, 2018",3.1%,u,Medium,EUR Euro-Zone Industrial Production w.d.a. (YoY) (NOV),3.9%,u,10:00
+1265,,EUR,"Thursday, January 11, 2018",,-,High,EUR ECB account of the monetary policy meeting,,-,12:30
+1266,0.1%,CAD,"Thursday, January 11, 2018",0.2%,d,Low,CAD New Housing Price Index (MoM) (NOV),0.1%,-,13:30
+1267,3.4%,CAD,"Thursday, January 11, 2018",,-,Medium,CAD New Housing Price Index (YoY) (NOV),3.5%,-,13:30
+1268,-0.1%,USD,"Thursday, January 11, 2018",0.2%,d,Low,USD Producer Price Index Final Demand (MoM) (DEC),0.4%,-,13:30
+1269,-0.1%,USD,"Thursday, January 11, 2018",0.2%,d,Low,USD Producer Price Index Ex Food and Energy (MoM) (DEC),0.3%,-,13:30
+1270,0.1%,USD,"Thursday, January 11, 2018",0.2%,d,Low,"USD PPI Ex Food, Energy, Trade (MoM) (DEC)",0.4%,-,13:30
+1271,2.6%,USD,"Thursday, January 11, 2018",3.0%,d,Low,USD PPI Final Demand (YoY) (DEC),3.1%,-,13:30
+1272,2.3%,USD,"Thursday, January 11, 2018",2.5%,d,Low,USD Producer Price Index Ex Food and Energy (YoY) (DEC),2.4%,-,13:30
+1273,2.3%,USD,"Thursday, January 11, 2018",,-,Low,"USD PPI Ex Food, Energy, Trade (YoY) (DEC)",2.4%,-,13:30
+1274,261k,USD,"Thursday, January 11, 2018",245k,d,Medium,USD Initial Jobless Claims (JAN 06),250k,-,13:30
+1275,1867k,USD,"Thursday, January 11, 2018",1920k,u,Medium,USD Continuing Claims (DEC 30),1902k,u,13:30
+1276,,USD,"Thursday, January 11, 2018",,-,Low,USD Revisions: Philadelphia Fed Manufacturing Index,,-,13:30
+1277,-359,USD,"Thursday, January 11, 2018",-333,u,Low,USD EIA Working Natural Gas Implied Flow (JAN 05),-206,-,15:30
+1278,-359,USD,"Thursday, January 11, 2018",-333,u,Low,USD EIA Natural Gas Storage Change (JAN 05),-206,-,15:30
+1279,,USD,"Thursday, January 11, 2018",,-,Low,USD U.S. to Sell USD12 Bln 30-Year Bonds Reopening,,-,18:00
+1280,-$23.2b,USD,"Thursday, January 11, 2018",-$26.0b,u,Medium,USD Monthly Budget Statement (DEC),-$27.3b,-,19:00
+1281,,USD,"Thursday, January 11, 2018",,-,Low,USD Fed's Dudley Speaks on the U.S. Economic Outlook,,-,20:30
+1282,10.8%,NZD,"Thursday, January 11, 2018",,-,Medium,NZD Building Permits (MoM) (NOV),-10.4%,d,21:45
+1283,¥1347.3b,JPY,"Thursday, January 11, 2018",¥1836.1b,d,Low,JPY BoP Current Account Balance (NOV),¥2176.4b,-,23:50
+1284,¥1700.5b,JPY,"Thursday, January 11, 2018",¥2168.9b,d,Low,JPY Adjusted Current Account Total (Yen) (NOV),¥2441.5b,-,23:50
+1285,¥181.0b,JPY,"Thursday, January 11, 2018",¥314.1b,d,Medium,JPY Trade Balance - BOP Basis (Yen) (NOV),¥430.2b,-,23:50
+1286,¥173.0b,JPY,"Thursday, January 11, 2018",,-,Low,JPY Japan Buying Foreign Bonds (Yen) (JAN 05),¥434.2b,-,23:50
+1287,¥217.1b,JPY,"Thursday, January 11, 2018",,-,Low,JPY Japan Buying Foreign Stocks (Yen) (JAN 05),¥177.7b,-,23:50
+1288,-¥128.3b,JPY,"Thursday, January 11, 2018",,-,Low,JPY Foreign Buying Japan Bonds (JAN 05),-¥2023.7b,-,23:50
+1289,¥597.9b,JPY,"Thursday, January 11, 2018",,-,Low,JPY Foreign Buying Japan Stocks (JAN 05),¥76.2b,-,23:50
+1290,2.5%,JPY,"Thursday, January 11, 2018",,-,Medium,JPY Bank Lending incl Trusts (YoY) (DEC),2.7%,-,23:50
+1291,2.4%,JPY,"Thursday, January 11, 2018",,-,Medium,JPY Bank Lending Ex-Trusts (YoY) (DEC),2.7%,-,23:50
+1292,A$27.9b,AUD,"Friday, January 12, 2018",,-,Low,AUD Credit Card Purchases (NOV),A$27.5b,-,00:30
+1293,A$52.2b,AUD,"Friday, January 12, 2018",,-,Low,AUD Credit Card Balances (NOV),A$51.2b,-,00:30
+1294,7.4%,CNY,"Friday, January 12, 2018",6.7%,u,Low,CNY Exports (YoY) CNY (DEC),9.5%,d,02:00
+1295,0.9%,CNY,"Friday, January 12, 2018",11.8%,u,Low,CNY Imports (YoY) CNY (DEC),15.4%,u,02:00
+1296,361.98b,CNY,"Friday, January 12, 2018",235.20b,u,Medium,CNY Trade Balance CNY (DEC),255.440b,d,02:00
+1297,$54.69b,CNY,"Friday, January 12, 2018",$37.00b,u,Medium,CNY Trade Balance (DEC),$38.98b,d,03:03
+1298,4.5%,CNY,"Friday, January 12, 2018",15.1%,d,Low,CNY Imports (YoY) (DEC),17.6%,d,03:03
+1299,10.9%,CNY,"Friday, January 12, 2018",10.8%,u,Low,CNY Exports (YoY) (DEC),11.5%,d,03:03
+1300,53.9,JPY,"Friday, January 12, 2018",55.1,d,Medium,JPY Eco Watchers Survey Current (DEC),54.1,d,05:00
+1301,52.7,JPY,"Friday, January 12, 2018",53.5,d,Medium,JPY Eco Watchers Survey Outlook SA (DEC),53.4,d,05:00
+1302,11.8%,CNY,"Friday, January 12, 2018",12.6%,d,Low,CNY Money Supply M1 (YoY) (DEC),12.7%,-,08:00
+1303,8.2%,CNY,"Friday, January 12, 2018",9.2%,d,Low,CNY Money Supply M2 (YoY) (DEC),9.1%,-,08:00
+1304,1140.0b,CNY,"Friday, January 12, 2018",1500.0b,d,Medium,CNY Aggregate Financing CNY (DEC),1598.2b,d,08:00
+1305,584.4b,CNY,"Friday, January 12, 2018",1000.0b,d,High,CNY New Yuan Loans CNY (DEC),1120.0b,-,08:00
+1306,3.4%,CNY,"Friday, January 12, 2018",5.9%,d,Low,CNY Money Supply M0 (YoY) (DEC),5.7%,-,08:00
+1307,217.49,CAD,"Friday, January 12, 2018",,-,Low,CAD Teranet/National Bank HP Index (DEC),217.1,-,13:30
+1308,0.2%,CAD,"Friday, January 12, 2018",,-,Low,CAD Teranet/National Bank HPI (MoM) (DEC),-0.5%,-,13:30
+1309,9.1%,CAD,"Friday, January 12, 2018",,-,Low,CAD Teranet/National Bank HPI (YoY) (DEC),9.2%,-,13:30
+1310,0.1%,USD,"Friday, January 12, 2018",0.1%,-,Medium,USD Consumer Price Index (MoM) (DEC),0.4%,-,13:30
+1311,0.3%,USD,"Friday, January 12, 2018",0.2%,u,Medium,USD Consumer Price Index Ex Food and Energy (MoM) (DEC),0.1%,-,13:30
+1312,2.1%,USD,"Friday, January 12, 2018",2.1%,-,High,USD Consumer Price Index (YoY) (DEC),2.2%,-,13:30
+1313,1.8%,USD,"Friday, January 12, 2018",1.7%,u,High,USD Consumer Price Index Ex Food and Energy (YoY) (DEC),1.7%,-,13:30
+1314,246.524,USD,"Friday, January 12, 2018",246.372,u,Low,USD Consumer Price Index n.s.a. (DEC),246.669,-,13:30
+1315,254.426,USD,"Friday, January 12, 2018",254.333,u,Low,USD Consumer Price Index Core Index s.a. (DEC),253.724,-,13:30
+1316,0.4%,USD,"Friday, January 12, 2018",0.5%,d,High,USD Retail Sales Advance (MoM) (DEC),0.9%,u,13:30
+1317,0.4%,USD,"Friday, January 12, 2018",0.3%,u,Low,USD Retail Sales Ex Auto (MoM) (DEC),1.3%,u,13:30
+1318,0.4%,USD,"Friday, January 12, 2018",0.4%,-,Medium,USD Retail Sales Ex Auto and Gas (DEC),1.2%,u,13:30
+1319,0.3%,USD,"Friday, January 12, 2018",0.4%,d,Medium,USD Retail Sales Control Group (DEC),1.4%,u,13:30
+1320,0.7%,USD,"Friday, January 12, 2018",,-,Medium,USD Real Avg Weekly Earnings (YoY) (DEC),0.8%,-,13:30
+1321,0.4%,USD,"Friday, January 12, 2018",,-,Medium,USD Real Avg Hourly Earning (YoY) (DEC),0.2%,-,13:30
+1322,0.4%,USD,"Friday, January 12, 2018",0.4%,-,Medium,USD Business Inventories (NOV),0.0%,u,15:00
+1323,939,USD,"Friday, January 12, 2018",,-,Medium,USD Baker Hughes U.S. Rig Count (JAN 12),924,-,18:00
+1324,,USD,"Friday, January 12, 2018",,-,Low,USD Fed's Rosengren Gives Keynote Address at UC San Diego Conf,,-,21:15
+1325,57.1,AUD,"Monday, January 1, 2018",,-,Low,AUD CBA Australia PMI Mfg (DEC),56.3,-,22:00
+1326,56.2,AUD,"Monday, January 1, 2018",,-,Medium,AUD AiG Performance of Manufacturing Index (DEC),57.3,-,22:30
+1327,-0.4%,AUD,"Monday, January 1, 2018",,-,Low,AUD CoreLogic House Px (MoM) (DEC),-0.1%,-,23:00
+1328,51.5,CNY,"Tuesday, January 2, 2018",50.7,u,Medium,CNY Caixin China PMI Mfg (DEC),50.8,-,01:45
+1329,129.4,AUD,"Tuesday, January 2, 2018",,-,Low,AUD Commodity Index AUD (DEC),124.8,d,05:30
+1330,-5.9%,AUD,"Tuesday, January 2, 2018",,-,Low,AUD RBA Commodity Index SDR (YoY) (DEC),-4.0%,d,05:30
+1331,57.4,EUR,"Tuesday, January 2, 2018",58.5,d,Low,EUR Markit/ADACI Italy Manufacturing PMI (DEC),58.3,-,08:45
+1332,58.8,EUR,"Tuesday, January 2, 2018",59.3,d,Low,EUR Markit France Manufacturing PMI (DEC F),59.3,-,08:50
+1333,63.3,EUR,"Tuesday, January 2, 2018",63.3,-,Low,EUR Markit/BME Germany Manufacturing PMI (DEC F),63.3,-,08:55
+1334,60.6,EUR,"Tuesday, January 2, 2018",60.6,-,Low,EUR Markit Eurozone Manufacturing PMI (DEC F),60.6,-,09:00
+1335,56.3,GBP,"Tuesday, January 2, 2018",57.9,d,Medium,GBP Markit UK PMI Manufacturing s.a. (DEC),58.2,-,09:30
+1336,0.5%,CAD,"Tuesday, January 2, 2018",,-,Low,CAD MLI Leading Indicator (MoM) (NOV),0.3%,d,12:00
+1337,$3124,NZD,"Tuesday, January 2, 2018",,-,Medium,NZD Dairy Auction Avg. Winning Price MT (JAN 02),$2969,-,14:25
+1338,$2886,NZD,"Tuesday, January 2, 2018",,-,Medium,NZD Dairy Auction Whole Milk Powder MT (JAN 02),$2755,-,14:25
+1339,54.7,CAD,"Tuesday, January 2, 2018",,-,High,CAD RBC Canadian Manufacturing PMI (DEC),54.4,-,14:30
+1340,55.1,USD,"Tuesday, January 2, 2018",55,u,Low,USD Markit US Manufacturing PMI (DEC F),55,-,14:45
+1341,,USD,"Tuesday, January 2, 2018",,-,Low,USD U.S. to Sell USD50 Bln 4-Week Bills,,-,16:30
+1342,,USD,"Tuesday, January 2, 2018",,-,Low,USD U.S. to Sell USD48 Bln 3-Month Bills,,-,16:30
+1343,,USD,"Tuesday, January 2, 2018",,-,Low,USD U.S. to Sell USD42 Bln 6-Month Bills,,-,16:30
+1344,,USD,"Tuesday, January 2, 2018",,-,Low,USD U.S. to Sell USD20 Bln 52-Week Bills,,-,16:30
+1345,65.2,CHF,"Wednesday, January 3, 2018",64.5,u,Medium,CHF PMI Manufacturing (DEC),65.1,-,08:30
+1346,-29k,EUR,"Wednesday, January 3, 2018",-13k,u,High,EUR German Unemployment Change (000's) (DEC),-20k,u,08:55
+1347,5.5%,EUR,"Wednesday, January 3, 2018",5.5%,-,High,EUR German Unemployment Claims Rate s.a. (DEC),5.5%,u,08:55
+1348,573.2b,CHF,"Wednesday, January 3, 2018",,-,Low,CHF Total Sight Deposits CHF (DEC 29),574.6b,-,09:00
+1349,473.4b,CHF,"Wednesday, January 3, 2018",,-,Low,CHF Domestic Sight Deposits CHF (DEC 29),481.1b,-,09:00
+1350,52.2,GBP,"Wednesday, January 3, 2018",53.0,d,Medium,GBP Markit/CIPS UK Construction PMI (DEC),53.1,-,09:30
+1351,0.7%,USD,"Wednesday, January 3, 2018",,-,Medium,USD MBA Mortgage Applications (DEC 29),-3.5%,-,12:00
+1352,0.8%,USD,"Wednesday, January 3, 2018",0.5%,u,Medium,USD Construction Spending (MoM) (NOV),0.9%,d,15:00
+1353,59.7,USD,"Wednesday, January 3, 2018",58.2,u,High,USD ISM Manufacturing (DEC),58.2,-,15:00
+1354,69,USD,"Wednesday, January 3, 2018",64.5,u,Medium,USD ISM Prices Paid (DEC),65.5,-,15:00
+1355,69.4,USD,"Wednesday, January 3, 2018",,-,Low,USD ISM New Orders (DEC),64,-,15:00
+1356,57,USD,"Wednesday, January 3, 2018",,-,High,USD ISM Employment (DEC),59.7,-,15:00
+1357,,USD,"Wednesday, January 3, 2018",,-,High,USD FOMC Meeting Minutes (DEC 13),,-,19:00
+1358,17.76m,USD,"Wednesday, January 3, 2018",17.50m,u,Low,USD Wards Total Vehicle Sales (DEC),17.40m,u,21:53
+1359,13.72m,USD,"Wednesday, January 3, 2018",13.35m,u,Low,USD Domestic Vehicle Sales (DEC),13.46m,u,21:53
+1360,55.1,AUD,"Wednesday, January 3, 2018",,-,Low,AUD CBA Australia PMI Services (DEC),54.0,-,22:00
+1361,55.5,AUD,"Wednesday, January 3, 2018",,-,Low,AUD CBA Australia PMI Composite (DEC),54.3,-,22:00
+1362,52.0,AUD,"Wednesday, January 3, 2018",,-,Medium,AUD AiG Performance of Service Index (DEC),51.7,-,22:30
+1363,54.0,JPY,"Thursday, January 4, 2018",,-,Low,JPY Nikkei Japan PMI Manufacturing (DEC F),54.2,-,00:30
+1364,,JPY,"Thursday, January 4, 2018",,-,Low,JPY BOJ Outright Bond Purchase 1~3 Years,,-,01:10
+1365,,JPY,"Thursday, January 4, 2018",,-,Low,JPY BOJ Outright Bond Purchase 3~5 Years,,-,01:10
+1366,,JPY,"Thursday, January 4, 2018",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+1367,53.0,CNY,"Thursday, January 4, 2018",,-,Medium,CNY Caixin China PMI Composite (DEC),51.6,-,01:45
+1368,53.9,CNY,"Thursday, January 4, 2018",51.8,u,Medium,CNY Caixin China PMI Services (DEC),51.9,-,01:45
+1369,0.6%,GBP,"Thursday, January 4, 2018",0.1%,u,Low,GBP Nationwide House PX (MoM) (DEC),0.1%,-,07:00
+1370,2.6%,GBP,"Thursday, January 4, 2018",2.0%,u,Medium,GBP Nationwide House Px n.s.a. (YoY) (DEC),2.5%,-,07:00
+1371,55.4,EUR,"Thursday, January 4, 2018",54.7,u,Low,EUR Markit/ADACI Italy Services PMI (DEC),54.7,-,08:45
+1372,56.5,EUR,"Thursday, January 4, 2018",56,u,Low,EUR Markit/ADACI Italy Composite PMI (DEC),56,-,08:45
+1373,59.1,EUR,"Thursday, January 4, 2018",59.4,d,Low,EUR Markit France Services PMI (DEC F),59.4,-,08:50
+1374,59.6,EUR,"Thursday, January 4, 2018",60,d,Low,EUR Markit France Composite PMI (DEC F),60,-,08:50
+1375,55.8,EUR,"Thursday, January 4, 2018",55.8,-,Low,EUR Markit Germany Services PMI (DEC F),55.8,-,08:55
+1376,58.9,EUR,"Thursday, January 4, 2018",58.7,u,Low,EUR Markit/BME Germany Composite PMI (DEC F),58.7,-,08:55
+1377,56.6,EUR,"Thursday, January 4, 2018",56.5,u,Low,EUR Markit Eurozone Services PMI (DEC F),56.5,-,09:00
+1378,58.1,EUR,"Thursday, January 4, 2018",58,u,Low,EUR Markit Eurozone Composite PMI (DEC F),58,-,09:00
+1379,-$44m,GBP,"Thursday, January 4, 2018",,-,Low,GBP Official Reserves (Changes) (DEC),$865m,-,09:30
+1380,1.4b,GBP,"Thursday, January 4, 2018",1.5b,d,Medium,GBP Net Consumer Credit (NOV),1.4b,d,09:30
+1381,3.5b,GBP,"Thursday, January 4, 2018",3.4b,u,Medium,GBP Net Lending Sec. on Dwellings (NOV),3.3b,d,09:30
+1382,65.1k,GBP,"Thursday, January 4, 2018",64.1k,u,Medium,GBP Mortgage Approvals (NOV),64.9k,u,09:30
+1383,0.1%,GBP,"Thursday, January 4, 2018",,-,Low,GBP Money Supply M4 (MoM) (NOV),0.6%,-,09:30
+1384,3.7%,GBP,"Thursday, January 4, 2018",,-,Low,GBP M4 Money Supply (YoY) (NOV),4.1%,-,09:30
+1385,0.5%,GBP,"Thursday, January 4, 2018",,-,Low,GBP M4 Ex IOFCs 3M Annualised (NOV),4.8%,d,09:30
+1386,54.2,GBP,"Thursday, January 4, 2018",54,u,Medium,GBP Markit/CIPS UK Services PMI (DEC),53.8,-,09:30
+1387,54.7,GBP,"Thursday, January 4, 2018",,-,Medium,GBP Markit/CIPS UK Composite PMI (DEC),54.7,-,09:30
+1388,-3.6%,USD,"Thursday, January 4, 2018",,-,Low,USD Challenger Job Cuts (YoY) (DEC),30.1%,-,12:30
+1389,250k,USD,"Thursday, January 4, 2018",190k,u,Medium,USD ADP Employment Change (DEC),185k,d,13:15
+1390,1.4%,CAD,"Thursday, January 4, 2018",,-,Low,CAD Industrial Product Price (MoM) (NOV),1.1%,u,13:30
+1391,5.5%,CAD,"Thursday, January 4, 2018",,-,Low,CAD Raw Materials Price Index (MoM) (NOV),3.8%,-,13:30
+1392,250k,USD,"Thursday, January 4, 2018",240k,u,Medium,USD Initial Jobless Claims (DEC 30),247k,d,13:30
+1393,1914k,USD,"Thursday, January 4, 2018",1928k,u,Medium,USD Continuing Claims (DEC 23),1951k,d,13:30
+1394,53.7,USD,"Thursday, January 4, 2018",52.5,u,Low,USD Markit US Services PMI (DEC F),52.4,-,14:45
+1395,54.1,USD,"Thursday, January 4, 2018",,-,Low,USD Markit US Composite PMI (DEC F),53,-,14:45
+1396,-206,USD,"Thursday, January 4, 2018",-220,d,Low,USD EIA Natural Gas Storage Change (DEC 29),-112,-,15:30
+1397,-206,USD,"Thursday, January 4, 2018",-220,d,Low,USD EIA Working Natural Gas Implied Flow (DEC 29),-112,-,15:30
+1398,-7419k,USD,"Thursday, January 4, 2018",-4700k,d,Medium,USD DOE U.S. Crude Oil Inventories (DEC 29),-4609k,-,16:00
+1399,-2441k,USD,"Thursday, January 4, 2018",,-,Low,USD DOE Cushing OK Crude Inventory (DEC 29),-1584k,-,16:00
+1400,4813k,USD,"Thursday, January 4, 2018",2000k,u,Low,USD DOE U.S. Gasoline Inventories (DEC 29),591k,-,16:00
+1401,8899k,USD,"Thursday, January 4, 2018",500k,u,Low,USD DOE U.S. Distillate Inventory (DEC 29),1090k,-,16:00
+1402,,USD,"Thursday, January 4, 2018",,-,Low,USD Fed's Bullard Speaks at Economics Convention in Philadelphia,,-,18:30
+1403,11.2%,JPY,"Thursday, January 4, 2018",,-,Medium,JPY Monetary Base (YoY) (DEC),13.2%,-,23:50
+1404,¥480.0t,JPY,"Thursday, January 4, 2018",,-,Medium,JPY Monetary Base End of period (DEC),¥471.5t,-,23:50
+1405,3.11%,JPY,"Thursday, January 4, 2018",,-,Medium,JPY Loans & Discounts Corp (YoY) (NOV),3.54%,-,23:50
+1406,-0.6%,GBP,"Friday, January 5, 2018",,-,Low,GBP BRC Shop Price Index (YoY) (DEC),-0.1%,-,00:01
+1407,-A$628m,AUD,"Friday, January 5, 2018",A$550m,d,Medium,AUD Trade Balance (NOV),-A$302m,d,00:30
+1408,51.1,JPY,"Friday, January 5, 2018",,-,Medium,JPY Nikkei Japan PMI Services (DEC),51.2,-,00:30
+1409,52.2,JPY,"Friday, January 5, 2018",,-,Medium,JPY Nikkei Japan PMI Composite (DEC),52.2,-,00:30
+1410,-1.0%,JPY,"Friday, January 5, 2018",,-,Low,JPY Vehicle Sales (YoY) (DEC),-5.4%,-,05:00
+1411,2.3%,EUR,"Friday, January 5, 2018",1.0%,u,Low,EUR German Retail Sales (MoM) (NOV),-1.0%,u,07:00
+1412,4.4%,EUR,"Friday, January 5, 2018",2.3%,u,Medium,EUR German Retail Sales (YoY) (NOV),-0.9%,u,07:00
+1413,53.7,EUR,"Friday, January 5, 2018",,-,Medium,EUR Markit Germany Construction PMI (DEC),53.1,-,08:30
+1414,-14.4%,GBP,"Friday, January 5, 2018",,-,Low,GBP New Car Registrations (YoY) (DEC),-11.2%,-,09:00
+1415,49.5,EUR,"Friday, January 5, 2018",,-,Low,EUR Markit Italy Retail PMI (DEC),49.2,-,09:10
+1416,53.0,EUR,"Friday, January 5, 2018",,-,Low,EUR Markit France Retail PMI (DEC),52.2,-,09:10
+1417,55.1,EUR,"Friday, January 5, 2018",,-,Medium,EUR Markit Germany Retail PMI (DEC),54.6,-,09:10
+1418,53.0,EUR,"Friday, January 5, 2018",,-,Low,EUR Markit Eurozone Retail PMI (DEC),52.4,-,09:10
+1419,1.3%,GBP,"Friday, January 5, 2018",,-,Medium,GBP Unit Labor Costs (YoY) (3Q),1.7%,u,09:30
+1420,0.6%,EUR,"Friday, January 5, 2018",0.3%,u,Low,EUR Euro-Zone Producer Price Index (MoM) (NOV),0.4%,-,10:00
+1421,2.8%,EUR,"Friday, January 5, 2018",2.5%,u,Low,EUR Euro-Zone Producer Price Index (YoY) (NOV),2.5%,-,10:00
+1422,0.9%,EUR,"Friday, January 5, 2018",1.0%,d,High,EUR Euro-Zone Consumer Price Index Core (YoY) (DEC A),0.9%,-,10:00
+1423,1.4%,EUR,"Friday, January 5, 2018",1.4%,-,High,EUR Euro-Zone Consumer Price Index Estimate (YoY) (DEC),1.5%,-,10:00
+1424,-2.54b,CAD,"Friday, January 5, 2018",-1.13b,d,Low,CAD International Merchandise Trade (Canadian dollar) (NOV),-1.55b,d,13:30
+1425,78.6k,CAD,"Friday, January 5, 2018",2.0k,u,High,CAD Net Change in Employment (DEC),79.5k,-,13:30
+1426,5.7%,CAD,"Friday, January 5, 2018",6.0%,u,High,CAD Unemployment Rate (DEC),5.9%,-,13:30
+1427,23.7,CAD,"Friday, January 5, 2018",,-,Medium,CAD Full Time Employment Change (DEC),29.6,-,13:30
+1428,54.9,CAD,"Friday, January 5, 2018",,-,Low,CAD Part Time Employment Change (DEC),49.9,-,13:30
+1429,65.8,CAD,"Friday, January 5, 2018",,-,Low,CAD Participation Rate (DEC),65.7,-,13:30
+1430,148k,USD,"Friday, January 5, 2018",190k,d,High,USD Change in Non-farm Payrolls (DEC),252k,u,13:30
+1431,-9k,USD,"Friday, January 5, 2018",,-,Low,USD Two-Month Payroll Net Revision (DEC),,-,13:30
+1432,146k,USD,"Friday, January 5, 2018",193k,d,Medium,USD Change in Private Payrolls (DEC),239k,u,13:30
+1433,25k,USD,"Friday, January 5, 2018",18k,u,Low,USD Change in Manufact. Payrolls (DEC),31k,-,13:30
+1434,4.1%,USD,"Friday, January 5, 2018",4.1%,-,High,USD Unemployment Rate (DEC),4.1%,-,13:30
+1435,0.3%,USD,"Friday, January 5, 2018",0.3%,-,Low,USD Average Hourly Earnings (MoM) (DEC),0.1%,d,13:30
+1436,2.5%,USD,"Friday, January 5, 2018",2.5%,-,Medium,USD Average Hourly Earnings (YoY) (DEC),2.4%,d,13:30
+1437,34.5,USD,"Friday, January 5, 2018",34.5,-,Medium,USD Average Weekly Hours All Employees (DEC),34.5,-,13:30
+1438,62.7%,USD,"Friday, January 5, 2018",,-,Low,USD Labor Force Participation Rate (DEC),62.7%,-,13:30
+1439,8.1%,USD,"Friday, January 5, 2018",,-,Low,USD Underemployment Rate (DEC),8.0%,-,13:30
+1440,-$50.5b,USD,"Friday, January 5, 2018",-$49.9b,d,Medium,USD Trade Balance (NOV),-$48.9b,d,13:30
+1441,,USD,"Friday, January 5, 2018",,-,Low,USD Revisions: Seasonally Adjusted Household Survey data,,-,13:30
+1442,60.4,CAD,"Friday, January 5, 2018",,-,Low,CAD Ivey Purchasing Managers Index s.a. (DEC),63,-,15:00
+1443,55.9,USD,"Friday, January 5, 2018",57.6,d,High,USD ISM Non-Manufacturing/Services Composite (DEC),57.4,-,15:00
+1444,1.3%,USD,"Friday, January 5, 2018",1.1%,u,Medium,USD Factory Orders (NOV),0.4%,u,15:00
+1445,0.8%,USD,"Friday, January 5, 2018",,-,Low,USD Factory Orders Ex Trans (NOV),1.2%,u,15:00
+1446,1.3%,USD,"Friday, January 5, 2018",,-,Medium,USD Durable Goods Orders (NOV F),1.3%,-,15:00
+1447,-0.1%,USD,"Friday, January 5, 2018",,-,Low,USD Durables Ex Transportation (NOV F),-0.1%,-,15:00
+1448,-0.2%,USD,"Friday, January 5, 2018",,-,Low,USD Cap Goods Orders Nondef Ex Air (NOV F),-0.1%,-,15:00
+1449,-0.1%,USD,"Friday, January 5, 2018",,-,Low,USD Cap Goods Ship Nondef Ex Air (NOV F),0.3%,-,15:00
+1450,,USD,"Friday, January 5, 2018",,-,Low,USD Fed's Harker Speaks on the Economic Outlook at AEA,,-,15:15
+1451,,USD,"Friday, January 5, 2018",,-,Low,USD Fed's Mester Speaks on Panel on Monetary Policy Coordination,,-,17:30
+1452,924,USD,"Friday, January 5, 2018",,-,Medium,USD Baker Hughes U.S. Rig Count (JAN 05),929,-,18:00
+1453,,USD,"Saturday, January 6, 2018",,-,Low,USD Fed's Mester Speaks on Financial Stability at Conference,,-,15:15
+1454,,USD,"Saturday, January 6, 2018",,-,Low,USD Fed's Potter Speaks on Panel at AEA Meeting,,-,15:15
+1455,,JPY,"Monday, December 25, 2017",,-,Low,JPY BOJ Outright Bond Purchase 5~10 Years,,-,01:10
+1456,,JPY,"Monday, December 25, 2017",,-,Low,JPY BOJ Outright Bond Purchase 10~25 Years,,-,01:10
+1457,,JPY,"Monday, December 25, 2017",,-,Low,JPY BOJ Outright Bond Purchase 25 Years~,,-,01:10
+1458,106.5,JPY,"Monday, December 25, 2017",,-,Low,JPY Leading Index CI (OCT F),106.1,-,05:00
+1459,116.4,JPY,"Monday, December 25, 2017",,-,Low,JPY Coincident Index (OCT F),116.5,-,05:00
+1460,2.7%,JPY,"Monday, December 25, 2017",2.8%,u,Medium,JPY Jobless Rate (NOV),2.8%,-,23:30
+1461,1.56,JPY,"Monday, December 25, 2017",1.56,-,Low,JPY Job-To-Applicant Ratio (NOV),1.55,-,23:30
+1462,1.7%,JPY,"Monday, December 25, 2017",0.5%,u,Medium,JPY Overall Household Spending (YoY) (NOV),0.0%,-,23:30
+1463,0.6%,JPY,"Monday, December 25, 2017",0.5%,u,High,JPY National Consumer Price Index (YoY) (NOV),0.2%,-,23:30
+1464,0.9%,JPY,"Monday, December 25, 2017",0.8%,u,Medium,JPY National Consumer Price Index Ex-Fresh Food (YoY) (NOV),0.8%,-,23:30
+1465,0.4%,JPY,"Monday, December 25, 2017",0.3%,u,Medium,"JPY Natl CPI Ex Fresh Food, Energy (YoY) (NOV)",0.2%,-,23:30
+1466,1.0%,JPY,"Monday, December 25, 2017",0.6%,u,Low,JPY Tokyo Consumer Price Index (YoY) (DEC),0.3%,-,23:30
+1467,0.8%,JPY,"Monday, December 25, 2017",0.7%,u,Low,JPY Tokyo Consumer Price Index Ex-Fresh Food (YoY) (DEC),0.6%,-,23:30
+1468,0.3%,JPY,"Monday, December 25, 2017",0.3%,-,Low,"JPY Tokyo CPI Ex-Fresh Food, Energy (YoY) (DEC)",0.2%,-,23:30
+1469,,JPY,"Monday, December 25, 2017",,-,Medium,JPY BOJ Minutes of Oct.30-31 Meeting,,-,23:50
+1470,0.8%,JPY,"Monday, December 25, 2017",0.8%,-,Low,JPY Corporate Service Price (YoY) (NOV),0.8%,-,23:50
+1471,,JPY,"Tuesday, December 26, 2017",,-,High,JPY BOJ Kuroda makes a speech in Keidanren,,-,04:00
+1472,0.7%,USD,"Tuesday, December 26, 2017",0.6%,u,Medium,USD S&P CoreLogic CS 20-City (MoM) SA (OCT),0.97%,u,14:00
+1473,6.38%,USD,"Tuesday, December 26, 2017",6.25%,u,Medium,USD S&P/Case-Shiller Composite-20 (YoY) (OCT),6.16%,d,14:00
+1474,203.84,USD,"Tuesday, December 26, 2017",,-,Low,USD S&P/Case-Shiller 20-City Index n.s.a (OCT),203.44,d,14:00
+1475,6.17%,USD,"Tuesday, December 26, 2017",,-,Medium,USD S&P/Case-Shiller US Home Price Index (YoY) (OCT),6.05%,d,14:00
+1476,195.63,USD,"Tuesday, December 26, 2017",,-,Low,USD S&P/Case-Shiller US Home Price Index (OCT),195.31,d,14:00
+1477,20,USD,"Tuesday, December 26, 2017",21,d,Low,USD Richmond Fed Manufact. Index (DEC),30,-,15:00
+1478,29.7,USD,"Tuesday, December 26, 2017",20,u,Low,USD Dallas Fed Manufacturing Activity (DEC),19.4,-,15:30
+1479,,USD,"Tuesday, December 26, 2017",,-,Low,USD U.S. to Sell USD45 Bln 3-Month Bills,,-,16:30
+1480,,USD,"Tuesday, December 26, 2017",,-,Low,USD U.S. to Sell USD39 Bln 6-Month Bills,,-,16:30
+1481,,USD,"Tuesday, December 26, 2017",,-,Low,USD U.S. to Sell USD50 Bln 4-Week Bills,,-,18:00
+1482,,USD,"Tuesday, December 26, 2017",,-,Low,USD U.S. to Sell USD26 Bln 2-Year Notes,,-,18:00

@@ -3588,3 +3588,70 @@ JavaScript warning: https://www.googletagmanager.com/gtag/js?id=DC-8826624, line
 1538899709025	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
 1538899779552	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
 1538899879516	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538899962886	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900039551	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900153942	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900284297	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900441240	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900561971	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900691895	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538900879374	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538901069712	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538901302957	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538901500756	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538901794933	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538902074870	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538902388757	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538902692170	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538903028779	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538903363454	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538903700097	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538904075572	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538904386602	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538904761361	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538905140756	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538905496497	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538905933213	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538906339885	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538906942340	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538907610910	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+2018-10-07 12:21:42.853 plugin-container[6922:630588] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9837, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-10-07 12:21:42.853 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.854 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.854 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.855 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.856 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.856 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.857 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.857 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.857 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.857 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.858 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.858 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.858 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.858 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.859 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.859 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.859 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.859 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.860 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+2018-10-07 12:21:42.861 plugin-container[6922:630588] CFPasteboardRef CFPasteboardCreate(CFAllocatorRef, CFStringRef) : failed to create global data
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=UA-3311429-1, line 74: unreachable code after return statement
+1538908100393	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538908667993	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538909368207	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538910065297	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538910585499	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538911085473	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538911681552	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+1538912190417	Marionette	DEBUG	[4294967297] Canceled page load listener because no navigation has been detected
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
