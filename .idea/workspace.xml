@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/dailyfx0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/dailyfx1.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/forexfactory.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/forexfactory_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,20 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
+            <state relative-caret-position="-468">
+              <caret line="46" column="56" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="56" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1538929093000" expanded="true" signature="560:562" ph="..." />
+                <marker date="1538930547000" expanded="true" signature="560:562" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapers/forexfactory_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="205">
@@ -96,6 +90,7 @@
       <find>logging</find>
       <find>errors</find>
       <find>chun</find>
+      <find>chunk</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -109,8 +104,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" />
         <option value="$PROJECT_DIR$/Scrapers/forexfactory_scraper.py" />
+        <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" />
       </list>
     </option>
   </component>
@@ -265,19 +260,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1263" height="753" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14492753" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.32980332" />
-      <window_info anchor="bottom" id="Terminal" weight="0.33131617" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.24357034" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36308622" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -356,23 +350,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-            <marker date="1538929093000" expanded="true" signature="560:562" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/forexfactory_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="46" column="56" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+            <marker date="1538930547000" expanded="true" signature="560:562" ph="..." />
           </folding>
         </state>
       </provider>
