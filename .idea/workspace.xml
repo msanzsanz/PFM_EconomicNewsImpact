@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Scrapers/forexfactory_scraper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/.ipynb_checkpoints/dailydf_scraper-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/.ipynb_checkpoints/dailydf_scraper-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/dailydf_scraper.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/dailydf_scraper.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/dailyfx0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/dailyfx0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scrapers/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/geckodriver.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workdone.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/forexfactory.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,23 +23,25 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="1" />
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="1" />
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="92" />
           <entry key="py" value="875" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="967" />
         </counts>
       </usages-collector>
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapers/forexfactory_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+            <state relative-caret-position="98">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -76,9 +75,16 @@
       <find>startlink</find>
       <find>curr_date</find>
       <find>&quot;</find>
+      <find>print</find>
+      <find>logging</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="MSS" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -237,6 +243,9 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -293,8 +302,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/forexfactory_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="138" lean-forward="true" selection-start-line="138" selection-end-line="138" />
+        <state relative-caret-position="98">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
