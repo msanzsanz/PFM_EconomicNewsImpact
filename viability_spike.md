@@ -5,7 +5,7 @@ Therefore, the scope for this spike is to do an initial reseach to clarify these
 
 ## QUESTIONS I WOULD LIKE TO ANSWER
 
-1. Is it possible to predict the volatility of a pair (e.g. EUR /USD) 1h after a major economic new is released based on the discrepancy between the forecast vs the actual value ?
+1. Is it possible to predict, with > 70% confidence level, the price of a pair (e.g. EUR /USD) one hour after releasing a major economic new (e.g. unemployment rate in USA)?
 
 2. Is it possible to forecast the value of an economic new based on previous data for that same new and previous data from other news?
 
@@ -24,4 +24,7 @@ Let´s see how the project evolves but, at least for now, I think having multipl
 For those interested in knowing more about economic calendars and what information is publically available in these websites, I would encourage to read the entire article: https://www.earnforex.com/blog/top-10-forex-calendars/ 
 It´s a great in-deep analysis of the pros and cons of all top Forex Calendars available out there.
 
+### From where I can get historical currency rates for my pairs of interest?
 
+After some research on the web, I found this place: https://www.forextester.com/data/datasources
+The source for this data is https://www.forexite.com/traderoom/default.asp, which it´s supposed to be quite accurate, based on forum's reviews 
