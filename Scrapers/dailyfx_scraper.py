@@ -25,7 +25,7 @@ def getEconomicCalendar(num_weeks):
     week_days = [id_of_week + str(i) for i in range(7)]
 
     d = []
-    year = ''
+    year = '2018'
 
     try:
 
@@ -36,12 +36,13 @@ def getEconomicCalendar(num_weeks):
                 try:
                     day_rows = driver.find_element_by_id(day)
 
-                    if len(day_rows) > 0:
+                    if day_rows.text != '':
 
                         news = day_rows.find_elements(By.TAG_NAME, 'tr')
                         date = news[0].text
+                        year_row = date.split(',')[2].split()[0]
 
-                        if date.split(',')[2] != year & len(d) != '':
+                        if ((year_row != year) & (len(d) != 0)):
 
                             calendar_df = pd.DataFrame(d)
                             calendar_df.to_csv('dailyfx_' + year + '.csv')
@@ -70,9 +71,6 @@ def getEconomicCalendar(num_weeks):
                                 correction = fields[7].get_attribute('outerHTML').split('class="')
                                 previous_error = correction[1][0]
 
-                                # print("time: " + time + ", new: " + new + ", impact:" + impact +", actual:" \
-                                #      + actual + ", forecast_error" + forecast_error + ", forecast:" + forecast \
-                                #      + ", previous" + previous + ', previous_error: ' + previous_error )
 
                                 d.append({'date': date, 'time': time, 'new': new, 'country': country, \
                                           'impact': impact, 'actual': actual, 'forecast_error': forecast_error, \
@@ -80,11 +78,11 @@ def getEconomicCalendar(num_weeks):
 
                 except:
                     with open('errors_dailyfx.csv', 'a') as f:
-                        f.write('Week: ' + str(week) + ', Day: ' +  day )
+                        f.write('week: ' + str(week) + ', day: ' + str(day) + '\n')
 
 
 
-            print('End of week: ', str(week))
+            logging.info('End of week: {} '.format(week))
 
             buttons = driver.find_element_by_class_name('grid-prev')
             buttons.click()
@@ -93,7 +91,7 @@ def getEconomicCalendar(num_weeks):
 
     except:
 
-        print('End of the history or some error')
+        logging.info('End of the history or some error')
         calendar_df = pd.DataFrame(d)
         calendar_df.to_csv('dailyfx_' + year + '.csv')
 

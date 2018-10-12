@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/forexfactory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory_2016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory_2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/forexfactory_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scrapers/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/Scrapers/geckodriver.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,26 +27,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="ipynb" value="2" />
-          <entry key="py" value="18" />
+          <entry key="py" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IPNB" value="2" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="92" />
-          <entry key="py" value="1373" />
+          <entry key="Python Console" value="172" />
+          <entry key="py" value="1613" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="1465" />
+          <entry key="Python" value="1785" />
         </counts>
       </usages-collector>
     </session>
@@ -50,11 +56,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-468">
-              <caret line="46" column="56" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="56" />
+            <state relative-caret-position="319">
+              <caret line="54" column="54" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="54" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
-                <marker date="1538930547000" expanded="true" signature="560:562" ph="..." />
               </folding>
             </state>
           </provider>
@@ -63,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapers/forexfactory_scraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+            <state relative-caret-position="339">
+              <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="51" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -86,11 +91,11 @@
       <find>startlink</find>
       <find>curr_date</find>
       <find>&quot;</find>
-      <find>print</find>
       <find>logging</find>
       <find>errors</find>
       <find>chun</find>
       <find>chunk</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -105,6 +110,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Scrapers/forexfactory_scraper.py" />
+        <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper_selenium.py" />
         <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" />
       </list>
     </option>
@@ -159,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.forexfactory_scraper.py">
+  <component name="RunManager" selected="Python.dailyfx_scraper">
     <configuration default="true" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="PFM_EconomicNewsImpact" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,18 +266,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3" y="23" width="1263" height="753" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14492753" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21658616" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Terminal" weight="0.26172465" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32980332" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.36308622" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.27231467" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -285,6 +292,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py</url>
+          <line>84</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file:///anaconda3/lib/python3.6/logging/__init__.py">
@@ -343,17 +366,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="335" selection-start-line="335" selection-end-line="335" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4740">
-          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        <state relative-caret-position="120">
+          <caret line="358" selection-start-line="358" selection-end-line="358" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper_selenium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="38" column="61" lean-forward="true" selection-start-line="38" selection-start-column="61" selection-end-line="38" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/forexfactory_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="71" column="33" lean-forward="true" selection-start-line="71" selection-start-column="33" selection-end-line="71" selection-end-column="33" />
+        <state relative-caret-position="339">
+          <caret line="70" column="51" lean-forward="true" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="51" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
@@ -362,11 +409,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-468">
-          <caret line="46" column="56" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="56" />
+        <state relative-caret-position="319">
+          <caret line="54" column="54" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="54" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
-            <marker date="1538930547000" expanded="true" signature="560:562" ph="..." />
           </folding>
         </state>
       </provider>
