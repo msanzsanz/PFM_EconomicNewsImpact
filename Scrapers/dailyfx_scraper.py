@@ -2,6 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pandas as pd
 import logging
+import time as t
+
 
 def setLogger():
 
@@ -16,20 +18,48 @@ def setLogger():
     logging.getLogger('').addHandler(console)
 
 
-def getEconomicCalendar(num_weeks):
+def rewind_weeks(driver, num_weeks):
 
-    driver = webdriver.Firefox()
-    driver.get("https://www.dailyfx.com/calendar")
+    for i in range(num_weeks):
+        buttons = driver.find_element_by_class_name('grid-prev')
+        buttons.click()
+        t.sleep(1.5)
 
-    id_of_week = 'daily-cal'
-    week_days = [id_of_week + str(i) for i in range(7)]
+    return 0
+
+
+def getEconomicCalendar(num_weeks, start_week, chunk_size):
 
     d = []
     year = '2018'
 
+    id_of_week = 'daily-cal'
+    week_days = [id_of_week + str(i) for i in range(7)]
+    week_days.reverse()
+
+    f = open('errors_dailyfx.csv', 'a')
+
+    i = 0
+    driver = webdriver.Firefox()
+    driver.get("https://www.dailyfx.com/calendar")
+
+    rewind_weeks(driver, start_week)
+
     try:
 
         for week in range(num_weeks):
+
+            if i > chunk_size:
+                driver.quit()
+                driver = webdriver.Firefox()
+                driver.get("https://www.dailyfx.com/calendar")
+                i = 0
+                start_week += chunk_size + 1
+                rewind_weeks(driver, start_week)
+
+            else:
+
+                i += 1
 
             for day in week_days:
 
@@ -40,17 +70,20 @@ def getEconomicCalendar(num_weeks):
 
                         news = day_rows.find_elements(By.TAG_NAME, 'tr')
                         date = news[0].text
+                        logging.info('Day: {} '.format(date))
                         year_row = date.split(',')[2].split()[0]
 
                         if ((year_row != year) & (len(d) != 0)):
 
+                            logging.info('End of year: {} '.format(year))
                             calendar_df = pd.DataFrame(d)
                             calendar_df.to_csv('dailyfx_' + year + '.csv')
                             d = []
                             del (calendar_df)
-                            year = date.split(',')[2]
+                            year = year_row
 
                         for new in news[1:]:
+
 
                             fields = new.find_elements(By.TAG_NAME, 'td')
 
@@ -77,15 +110,16 @@ def getEconomicCalendar(num_weeks):
                                           'forecast': forecast, 'previous': previous, 'previous_error': previous_error})
 
                 except:
-                    with open('errors_dailyfx.csv', 'a') as f:
-                        f.write('week: ' + str(week) + ', day: ' + str(day) + '\n')
-
+                    f.write('week: ' + str(week) + ', day: ' + str(day) + '\n')
 
 
             logging.info('End of week: {} '.format(week))
 
+
             buttons = driver.find_element_by_class_name('grid-prev')
             buttons.click()
+
+
 
         return 0
 
@@ -104,5 +138,5 @@ if __name__ == '__main__':
     setLogger()
 
     # Let's aim for more than 20 years
-    getEconomicCalendar(1500)
+    getEconomicCalendar(1500, 342, 10)
 

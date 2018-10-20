@@ -1,0 +1,78 @@
+,actual,country,date,forecast,forecast_error,impact,new,previous,previous_error,time
+0,51.7,CNY,"Friday, January 4, 2013",,-,Medium,CNY HSBC Services PMI (DEC),52.1,-,01:45
+1,1.2%,EUR,"Friday, January 4, 2013",0.8%,u,Medium,EUR Germany Retail Sales (MoM) (NOV),-1.3%,u,07:00
+2,-0.9%,EUR,"Friday, January 4, 2013",-1.6%,u,Medium,EUR German Retail Sales (YoY) (NOV),0.2%,u,07:00
+3,45.6,EUR,"Friday, January 4, 2013",45,u,Low,EUR Italian Purchasing Manager Index Services (DEC),44.6,-,07:45
+4,45.2,EUR,"Friday, January 4, 2013",46.0,d,Low,EUR French Purchasing Manager Index Services (DEC F),46,-,08:50
+5,52.0,EUR,"Friday, January 4, 2013",52.1,d,Medium,EUR German Purchasing Manager Index Services (DEC F),52.1,-,08:55
+6,47.8,EUR,"Friday, January 4, 2013",47.8,-,Medium,EUR Euro-zone Purchasing Manager Index Services (DEC F),47.8,-,09:00
+7,47.2,EUR,"Friday, January 4, 2013",47.3,d,Medium,EUR Euro-zone Purchasing Manager Index Composite (DEC F),47.3,-,09:00
+8,0.1B,GBP,"Friday, January 4, 2013",0.0B,-,Medium,GBP Net Consumer Credit (NOV),-0.3B,u,09:30
+9,$-350M,GBP,"Friday, January 4, 2013",,-,Low,GBP Official Reserves (Changes) (DEC),$44M,-,09:30
+10,48.9,GBP,"Friday, January 4, 2013",50.2,d,Medium,GBP Purchasing Manager Index Services (DEC),50.2,-,09:30
+11,-0.2B,GBP,"Friday, January 4, 2013",0.5B,-,Medium,GBP Net Lending Sec. on Dwellings (NOV),0.1B,d,09:30
+12,54.0K,GBP,"Friday, January 4, 2013",54.0K,-,Medium,GBP Mortgage Approvals (NOV),53.1K,u,09:30
+13,-0.2%,GBP,"Friday, January 4, 2013",,-,Low,GBP M4 Money Supply (MoM) (NOV),0.2%,-,09:30
+14,-2.8%,GBP,"Friday, January 4, 2013",,-,Low,GBP M4 Money Supply (YoY) (NOV),-3.1%,u,09:30
+15,4.3%,GBP,"Friday, January 4, 2013",,-,Low,GBP M4 Ex IOFCs 3M Annualised (NOV),5.4%,-,09:30
+16,2.2%,EUR,"Friday, January 4, 2013",2.1%,-,Medium,EUR Euro-zone Consumer Price Index Estimate (YoY) (DEC),2.2%,-,10:00
+17,155K,USD,"Friday, January 4, 2013",145K,u,High,USD Change in Nonfarm Payrolls (DEC),161K,u,13:30
+18,25K,USD,"Friday, January 4, 2013",5K,u,Medium,USD Change in Manufacturing Payrolls (DEC),5K,u,13:30
+19,168K,USD,"Friday, January 4, 2013",150K,u,Low,USD Change in Private Payrolls (DEC),171K,u,13:30
+20,7.8%,USD,"Friday, January 4, 2013",7.7%,d,High,USD Unemployment Rate (DEC),7.8%,d,13:30
+21,14.4%,USD,"Friday, January 4, 2013",,-,Medium,USD Underemployment Rate (U6) (DEC),14.4%,-,13:30
+22,28,USD,"Friday, January 4, 2013",,-,Medium,USD Change in Household Employment (DEC),-51,u,13:30
+23,0.3%,USD,"Friday, January 4, 2013",0.2%,u,Medium,USD Average Hourly Earnings All Employees (MoM) (DEC),0.3%,u,13:30
+24,2.1%,USD,"Friday, January 4, 2013",1.7%,u,Medium,USD Average Hourly Earnings All Employees (YoY) (DEC),1.9%,u,13:30
+25,34.5,USD,"Friday, January 4, 2013",34.4,u,Low,USD Average Weekly Hours All Employees (DEC),34.4,-,13:30
+26,-0.3%,CAD,"Friday, January 4, 2013",-0.3%,-,Low,CAD Industrial Product Price (MoM) (NOV),-0.1%,-,13:30
+27,-1.9%,CAD,"Friday, January 4, 2013",-1.0%,d,Low,CAD Raw Materials Price Index (MoM) (NOV),0.1%,u,13:30
+28,39.8K,CAD,"Friday, January 4, 2013",5.0K,u,High,CAD Net Change in Employment (DEC),59.3K,-,13:30
+29,-1.4,CAD,"Friday, January 4, 2013",,-,Low,CAD Part Time Employment Change (DEC),4.1,-,13:30
+30,66.8,CAD,"Friday, January 4, 2013",66.8,-,Low,CAD Participation Rate (DEC),66.8,-,13:30
+31,7.1%,CAD,"Friday, January 4, 2013",7.3%,u,High,CAD Unemployment Rate (DEC),7.2%,-,13:30
+32,0.0%,USD,"Friday, January 4, 2013",0.4%,d,Medium,USD Factory Orders (NOV),0.8%,-,15:00
+33,56.1,USD,"Friday, January 4, 2013",54.3,u,Medium,USD ISM Non-Manufacturing Composite (DEC),54.7,-,15:00
+34,-135,USD,"Friday, January 4, 2013",-130,d,Low,USD EIA Natural Gas Storage Change (DEC 28),-72,-,15:30
+35,,USD,"Friday, January 4, 2013",,-,Low,USD Fed's Plosser Speaks on Real Business Cycles in San Diego,,-,18:15
+36,,USD,"Friday, January 4, 2013",,-,Low,USD Fed's Lacker Speaks on Economic Outlook in Baltimore,,-,18:30
+37,,USD,"Friday, January 4, 2013",,-,Low,USD Fed's Yellen Speaks on Systemic Risk in San Diego,,-,20:30
+38,,USD,"Friday, January 4, 2013",,-,Low,USD Fed's Bullard to Speak to Economists in San Diego (DEC),,-,22:30
+39,56.1,CNY,"Thursday, January 3, 2013",,-,Medium,CNY Non-manufacturing PMI (DEC),55.6,-,01:00
+40,-0.1%,GBP,"Thursday, January 3, 2013",0.0%,-,Low,GBP Nationwide House Prices s.a. (MoM) (DEC),0.0%,-,07:00
+41,-1.0%,GBP,"Thursday, January 3, 2013",-0.9%,-,Medium,GBP Nationwide House Prices n.s.a. (YoY) (DEC),-1.2%,-,07:00
+42,1.28,CHF,"Thursday, January 3, 2013",1.4,d,Medium,CHF KOF Swiss Leading Indicator (DEC),1.5,-,08:00
+43,49.5,CHF,"Thursday, January 3, 2013",48.4,u,Medium,CHF SVME-Purchasing Managers Index (DEC),48.5,-,08:30
+44,3K,EUR,"Thursday, January 3, 2013",10K,u,High,EUR German Unemployment Change (DEC),5K,-,08:55
+45,6.9%,EUR,"Thursday, January 3, 2013",6.9%,-,Medium,EUR German Unemployment Rate s.a. (DEC),6.9%,-,08:55
+46,3.4%,EUR,"Thursday, January 3, 2013",3.5%,-,Low,EUR Euro-zone M3 s.a. (3M) (NOV),3.1%,-,09:00
+47,3.8%,EUR,"Thursday, January 3, 2013",3.8%,-,Low,EUR Euro-zone M3 s.a. (YoY) (NOV),3.9%,-,09:00
+48,48.7,GBP,"Thursday, January 3, 2013",49.5,d,Medium,GBP Purchasing Manager Index Construction (DEC),49.3,-,09:30
+49,-10.4%,USD,"Thursday, January 3, 2013",,-,Low,USD MBA Mortgage Applications (DEC 28),-11.2%,u,12:00
+50,-22.1%,USD,"Thursday, January 3, 2013",,-,Low,USD Challenger Job Cuts (YoY) (DEC),34.4%,-,12:30
+51,215K,USD,"Thursday, January 3, 2013",140K,u,Medium,USD ADP Employment Change (DEC),118K,-,13:15
+52,372K,USD,"Thursday, January 3, 2013",360K,d,Medium,USD Initial Jobless Claims (DEC 29),352K,d,13:30
+53,3245K,USD,"Thursday, January 3, 2013",3215K,d,Low,USD Continuing Claims (DEC 23),3201K,u,13:30
+54,,USD,"Thursday, January 3, 2013",,-,High,USD Minutes of FOMC Meeting,,-,19:00
+55,15.30M,USD,"Thursday, January 3, 2013",15.30M,-,Low,USD Total Vehicle Sales (DEC),15.46M,-,22:00
+56,11.97M,USD,"Thursday, January 3, 2013",11.70M,u,Low,USD Domestic Vehicle Sales (DEC),12.01M,-,22:00
+57,43.2,AUD,"Thursday, January 3, 2013",,-,Medium,AUD AiG Performance of Service Index (DEC),47.1,-,22:30
+58,-8.0%,AUD,"Wednesday, January 2, 2013",,-,Low,AUD RBA Commodity Index SDR (YoY) (DEC),-10.3%,u,05:30
+59,89.2,AUD,"Wednesday, January 2, 2013",,-,Low,AUD RBA Commodity Price Index (DEC),88.3,-,05:30
+60,46.7,EUR,"Wednesday, January 2, 2013",45.3,u,Low,EUR Italian Purchasing Manager Index Manufacturing (DEC),45.1,-,08:45
+61,44.6,EUR,"Wednesday, January 2, 2013",44.6,-,Low,EUR French Purchasing Manager Index Manufacturing (DEC F),44.6,-,08:50
+62,46.0,EUR,"Wednesday, January 2, 2013",46.3,d,Medium,EUR German Purchasing Manager Index Manufacturing (DEC F),46.3,-,08:55
+63,46.1,EUR,"Wednesday, January 2, 2013",46.3,d,Medium,EUR Euro-zone Purchasing Manager Index Manufacturing (DEC F),46.3,-,09:00
+64,51.4,GBP,"Wednesday, January 2, 2013",49.1,u,Medium,GBP Purchasing Manager Index Manufacturing (DEC),49.2,u,09:30
+65,0.9%,EUR,"Wednesday, January 2, 2013",0.7%,u,Medium,EUR German Consumer Price Index (MoM) (DEC P),-0.1%,-,13:00
+66,2.1%,EUR,"Wednesday, January 2, 2013",1.9%,u,High,EUR German Consumer Price Index (YoY) (DEC P),1.9%,-,13:00
+67,1.0%,EUR,"Wednesday, January 2, 2013",0.7%,u,Medium,EUR German Consumer Price Index - EU Harmonised (MoM) (DEC P),-0.2%,-,13:00
+68,2.1%,EUR,"Wednesday, January 2, 2013",1.9%,u,High,EUR German Consumer Price Index - EU Harmonised (YoY) (DEC P),1.9%,-,13:00
+69,54.0,USD,"Wednesday, January 2, 2013",53.6,u,Low,USD Markit US PMI Final (DEC),54.2,-,13:58
+70,-0.3%,USD,"Wednesday, January 2, 2013",0.6%,d,Medium,USD Construction Spending (MoM) (NOV),0.7%,d,15:00
+71,50.7,USD,"Wednesday, January 2, 2013",50.5,u,High,USD ISM Manufacturing (DEC),49.5,-,15:00
+72,55.5,USD,"Wednesday, January 2, 2013",50.8,u,Medium,USD ISM Prices Paid (DEC),52.5,-,15:00
+73,50.6,CNY,"Tuesday, January 1, 2013",51.0,d,High,CNY Manufacturing PMI (DEC),50.6,-,01:00
+74,44.3,AUD,"Tuesday, January 1, 2013",,-,Medium,AUD AiG Performance of Manufacturing Index (DEC),44.3,u,22:30
+75,-0.3%,AUD,"Tuesday, January 1, 2013",,-,Low,AUD RPData-Rismark House PX Actual (DEC),0.0%,-,23:00
+76,100.21,CNY,"Tuesday, January 1, 2013",,-,Medium,CNY Leading Index (NOV),100.37,d,23:44

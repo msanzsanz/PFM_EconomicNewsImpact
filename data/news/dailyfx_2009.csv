@@ -1,0 +1,1345 @@
+,actual,country,date,forecast,forecast_error,impact,new,previous,previous_error,time
+0,0.1%,AUD,"Thursday, December 31, 2009",0.1%,-,Medium,AUD Private Sector Credit (MoM) (NOV),-0.1% (R-),-,00:30
+1,0.8%,AUD,"Thursday, December 31, 2009",0.9%,-,Medium,AUD Private Sector Credit (YoY) (NOV),1.2% (R+),-,00:30
+2,0.4%,GBP,"Thursday, December 31, 2009",0.3%,-,Low,GBP Nationwide House Prices s.a. (MoM) (DEC),0.5%,-,07:00
+3,5.9%,GBP,"Thursday, December 31, 2009",5.6%,-,Low,GBP Nationwide House Prices n.s.a. (YoY) (DEC),2.7%,-,07:00
+4,432K,USD,"Thursday, December 31, 2009",455K,-,Low,USD Initial Jobless Claims (DEC 26),454K (R+),-,13:30
+5,4981K,USD,"Thursday, December 31, 2009",5100K,-,Low,USD Continuing Claims (DEC 19),5038K (R-),-,13:30
+6,52.0,USD,"Thursday, December 31, 2009",56.0,-,Low,USD NAPM-Milwaukee (DEC),57.0,-,15:00
+7,,USD,"Thursday, December 31, 2009",,-,Low,USD Bloomberg Financial Conditions Index (DEC),-0.532,-,21:15
+8,-2.0%,NZD,"Wednesday, December 30, 2009",,-,Low,NZD Money Supply M3 (YoY) (NOV),0.8%,-,02:00
+9,0.6%,EUR,"Wednesday, December 30, 2009",0.8%,-,Low,EUR Euro-Zone M3 s.a. (3M) (NOV),1.6%,-,09:00
+10,-0.2%,EUR,"Wednesday, December 30, 2009",0.4%,-,Low,EUR Euro-Zone M3 s.a. (YoY) (NOV),0.6% (R+),-,09:00
+11,-1.9%,EUR,"Wednesday, December 30, 2009",,-,Low,EUR Italian Large Company Employment n.s.a. (YoY) (OCT),-2.0%,-,09:00
+12,0.3%,EUR,"Wednesday, December 30, 2009",0.3%,-,Low,EUR Italian Producer Price Index (MoM) (NOV),0.1% (R+),-,10:00
+13,-3.5%,EUR,"Wednesday, December 30, 2009",-3.5%,-,Low,EUR Italian Producer Price Index (YoY) (NOV),-6.0% (R+),-,10:00
+14,1.68,CHF,"Wednesday, December 30, 2009",1.73,-,Medium,CHF KOF Swiss Leading Indicator (DEC),1.62,-,10:30
+15,60.0,USD,"Wednesday, December 30, 2009",55.1,-,Low,USD Chicago Purchasing Manager (DEC),56.1,-,14:45
+16,-1538K,USD,"Wednesday, December 30, 2009",-1850K,-,Low,USD DOE U.S. Crude Oil Inventories (DEC 25),-4841K,-,15:30
+17,-366K,USD,"Wednesday, December 30, 2009",1000K,-,Low,USD DOE U.S. Gasoline Inventories (DEC 25),-883K,-,15:30
+18,-2055K,USD,"Wednesday, December 30, 2009",-2225K,-,Low,USD DOE U.S. Distillate Inventory (DEC 25),-3027K,-,15:30
+19,1.276,CHF,"Tuesday, December 29, 2009",,-,Medium,CHF UBS Consumption Indicator (NOV),0.876 (R+),-,07:00
+20,0.3%,EUR,"Tuesday, December 29, 2009",0.3%,-,Low,EUR French Gross Domestic Product (QoQ) (3Q F),0.3%,-,07:45
+21,-2.3%,EUR,"Tuesday, December 29, 2009",-2.4%,-,Low,EUR French Gross Domestic Product (YoY) (3Q F),-2.4%,-,07:45
+22,96.9,EUR,"Tuesday, December 29, 2009",,-,Low,EUR Italian Retailers' Confidence General (DEC),101.8 (R-),-,08:30
+23,82.6,EUR,"Tuesday, December 29, 2009",79.7,-,Low,EUR Italian Business Confidence (DEC),79.4 (R+),-,08:30
+24,-3.0,EUR,"Tuesday, December 29, 2009",,-,Low,EUR Italian Services Survey (DEC),-2.0,-,08:30
+25,-4.9B,GBP,"Tuesday, December 29, 2009",-6.4B,-,Low,GBP Bank of England Housing Equity Withdrawal (Pounds) (3Q),-6.9B (R+),-,09:30
+26,0.7%,EUR,"Tuesday, December 29, 2009",0.6%,-,Medium,EUR German Consumer Price Index (MoM) (DEC P),-0.1%,-,14:00
+27,0.8%,EUR,"Tuesday, December 29, 2009",0.7%,-,High,EUR German Consumer Price Index (YoY) (DEC P),0.4%,-,14:00
+28,0.9%,EUR,"Tuesday, December 29, 2009",0.7%,-,Medium,EUR German Consumer Price Index - EU Harmonised (MoM) (DEC P),-0.2%,-,14:00
+29,0.8%,EUR,"Tuesday, December 29, 2009",0.7%,-,High,EUR German Consumer Price Index - EU Harmonised (YoY) (DEC P),0.3%,-,14:00
+30,146.58,USD,"Tuesday, December 29, 2009",147.00,-,Medium,USD S&P/Case-Shiller Home Price Index (OCT),146.65 (R+),-,14:00
+31,-7.28%,USD,"Tuesday, December 29, 2009",-7.20%,-,Low,USD S&P/Case-Shiller Composite-20 (YoY) (OCT),-9.27% (R+),-,14:00
+32,52.9,USD,"Tuesday, December 29, 2009",53.0,-,High,USD Consumer Confidence (DEC),50.6 (R+),-,15:00
+33,1725K,USD,"Tuesday, December 29, 2009",,-,Low,USD API U.S. Crude Oil Inventories (DEC 25),-3707K,-,21:30
+34,-1395K,USD,"Tuesday, December 29, 2009",,-,Low,USD API U.S. Gasoline Inventories (DEC 25),-1096K,-,21:30
+35,-3460K,USD,"Tuesday, December 29, 2009",,-,Low,USD API U.S. Distillate Inventory (DEC 25),-745K,-,21:30
+36,-44,USD,"Tuesday, December 29, 2009",,-,Low,USD ABC Consumer Confidence (DEC 27),-42,-,22:00
+37,53.8,JPY,"Tuesday, December 29, 2009",,-,Low,JPY Nomura/JMMA Manufacturing Purchasing Manager Index (DEC),52.3,-,23:15
+38,0.1%,GBP,"Monday, December 28, 2009",,-,Low,GBP Hometrack Housing Survey (MoM) (DEC),0.2%,-,00:01
+39,-1.9%,GBP,"Monday, December 28, 2009",,-,Low,GBP Hometrack Housing Survey (YoY) (DEC),-2.9%,-,00:01
+40,-2.8%,JPY,"Monday, December 28, 2009",,-,Low,JPY Labor Cash Earnings (YoY) (NOV),-1.9% (R-),-,01:30
+41,3.8%,USD,"Monday, December 28, 2009",2.0%,-,Low,USD Dallas Fed Manufacturing Activity (DEC),0.3%,-,15:30
+42,2.6%,JPY,"Sunday, December 27, 2009",2.5%,-,Medium,JPY Industrial Production (MoM) (NOV P),0.5%,-,23:50
+43,-3.9%,JPY,"Sunday, December 27, 2009",-4.3%,-,Low,JPY Industrial Production (YoY) (NOV P),-15.1%,-,23:50
+44,-9.6%,JPY,"Sunday, December 27, 2009",-7.7%,-,Low,JPY Large Retailers' Sales (NOV),-7.2%,-,23:50
+45,0.2%,JPY,"Sunday, December 27, 2009",0.2%,-,Low,JPY Retail Trade s.a. (MoM) (NOV),-0.9%,-,23:50
+46,-1.0%,JPY,"Sunday, December 27, 2009",-1.1%,-,Low,JPY Retail Trade (YoY) (NOV),-1.0% (R-),-,23:50
+47,0.4%,EUR,"Wednesday, December 23, 2009",0.3%,-,Low,EUR German Import Price Index (MoM) (NOV),0.5%,-,07:00
+48,-5.0%,EUR,"Wednesday, December 23, 2009",-5.2%,-,Low,EUR German Import Price Index (YoY) (NOV),-8.1%,-,07:00
+49,-0.1%,EUR,"Wednesday, December 23, 2009",0.5%,-,Low,EUR French Consumer Spending (MoM) (NOV),1.0% (R-),-,07:45
+50,3.2%,EUR,"Wednesday, December 23, 2009",3.3%,-,Low,EUR French Consumer Spending (YoY) (NOV),3.6% (R+),-,07:45
+51,113.7,EUR,"Wednesday, December 23, 2009",112.7,-,Low,EUR Italian Consumer Confidence Index s.a. (DEC),112.8,-,08:30
+52,0.05,EUR,"Wednesday, December 23, 2009",0.1%,-,Low,EUR Italian Retail Sales s.a. (MoM) (OCT),0.0% (R+),-,09:00
+53,0.5%,EUR,"Wednesday, December 23, 2009",-1.8%,-,Low,EUR Italian Retail Sales (YoY) (OCT),-1.9% (R-),-,09:00
+54,,GBP,"Wednesday, December 23, 2009",,-,Low,GBP Bank of England Meeting Minutes,,-,09:30
+55,-0.2%,GBP,"Wednesday, December 23, 2009",,-,Low,GBP Index of Services (3Mo3M) (OCT 1),-0.2% (R-),-,09:30
+56,44713,GBP,"Wednesday, December 23, 2009",43000,-,Medium,GBP BBA Loans for House Purchase (NOV),42552 (R+),-,09:30
+57,-10.7%,USD,"Wednesday, December 23, 2009",,-,Low,USD MBA Mortgage Applications (DEC 18),0.3%,-,12:00
+58,,EUR,"Wednesday, December 23, 2009",,-,Low,EUR German IFO Business Climate Survey by Industry (DEC),,-,13:00
+59,0.2%,CAD,"Wednesday, December 23, 2009",0.3%,-,Medium,CAD Gross Domestic Product (MoM) (OCT),0.4%,-,13:30
+60,0.4%,USD,"Wednesday, December 23, 2009",0.5%,-,Low,USD Personal Income (NOV),0.3% (R+),-,13:30
+61,0.5%,USD,"Wednesday, December 23, 2009",0.7%,-,Medium,USD Personal Spending (NOV),0.6% (R-),-,13:30
+62,1.5%,USD,"Wednesday, December 23, 2009",1.6%,-,Medium,USD Personal Consumption Expenditure Deflator (YoY) (NOV),0.1% (R-),-,13:30
+63,1.4%,USD,"Wednesday, December 23, 2009",1.5%,-,Medium,USD Personal Consumption Expenditure Core (YoY) (NOV),1.4%,-,13:30
+64,0.1%,USD,"Wednesday, December 23, 2009",0.0%,-,Medium,USD Personal Consumption Expenditure Core (MoM) (NOV),0.2%,-,13:35
+65,72.5,USD,"Wednesday, December 23, 2009",73.8,-,Medium,USD U. of Michigan Confidence (DEC F),73.4,-,15:00
+66,355K,USD,"Wednesday, December 23, 2009",438K,-,Medium,USD New Home Sales (NOV),400K (R-),-,15:00
+67,-11.3%,USD,"Wednesday, December 23, 2009",1.7%,-,Medium,USD New Home Sales (MoM) (NOV),1.8% (R-),-,15:00
+68,-4841K,USD,"Wednesday, December 23, 2009",-1600K,-,Low,USD DOE U.S. Crude Oil Inventories (DEC 18),-3689K,-,15:30
+69,-883K,USD,"Wednesday, December 23, 2009",1000K,-,Low,USD DOE U.S. Gasoline Inventories (DEC 18),879K,-,15:30
+70,-3027K,USD,"Wednesday, December 23, 2009",-2000K,-,Low,USD DOE U.S. Distillate Inventory (DEC 18),-2954K,-,15:30
+71,,JPY,"Wednesday, December 23, 2009",,-,Medium,JPY Bank of Japan Meeting Minutes,,-,23:50
+72,-1.9%,JPY,"Wednesday, December 23, 2009",,-,Low,JPY BSI Large All Industry (QoQ) (4Q),0.3%,-,23:50
+73,13.2%,JPY,"Wednesday, December 23, 2009",,-,Low,JPY BSI Large Manufacturing (QoQ) (4Q),15.5%,-,23:50
+74,-8.0%,JPY,"Tuesday, December 22, 2009",,-,Low,JPY Supermarket Sales (YoY) (NOV),-5.2%,-,05:00
+75,40.4,JPY,"Tuesday, December 22, 2009",,-,Low,JPY Small Business Confidence (DEC),43.0,-,05:00
+76,3.3,EUR,"Tuesday, December 22, 2009",3.5,-,Medium,EUR German GfK Consumer Confidence Survey (JAN),3.7 (R-),-,07:00
+77,,JPY,"Tuesday, December 22, 2009",,-,Low,JPY BoJ Governor Masaaki Shirakawa to Speak in Tokyo,,-,07:00
+78,2.14B,CHF,"Tuesday, December 22, 2009",,-,Medium,CHF Trade Balance (Swiss franc) (NOV),2.46B (R-),-,07:15
+79,1.6%,CHF,"Tuesday, December 22, 2009",,-,Low,CHF Exports (MoM) (NOV),0.9% (R+),-,07:15
+80,0.6%,CHF,"Tuesday, December 22, 2009",,-,Low,CHF Imports (MoM) (NOV),1.0% (R+),-,07:15
+81,0.2%,EUR,"Tuesday, December 22, 2009",0.1%,-,Medium,EUR French Producer Prices (MoM) (NOV),0.8%,-,07:45
+82,-4.5%,EUR,"Tuesday, December 22, 2009",-4.7%,-,Low,EUR French Producer Prices (YoY) (NOV),-6.6%,-,07:45
+83,0.0%,EUR,"Tuesday, December 22, 2009",0.1%,-,Low,EUR Italian Hourly Wages (MoM) (NOV),0.2%,-,09:00
+84,3.1%,EUR,"Tuesday, December 22, 2009",3.2%,-,Low,EUR Italian Hourly Wages (YoY) (NOV),3.2%,-,09:00
+85,-0.2%,GBP,"Tuesday, December 22, 2009",-0.1%,-,High,GBP Gross Domestic Product (QoQ) (3Q F),-0.3%,-,09:30
+86,-5.1%,GBP,"Tuesday, December 22, 2009",-4.9%,-,High,GBP Gross Domestic Product (YoY) (3Q F),-5.1%,-,09:30
+87,-4.7B,GBP,"Tuesday, December 22, 2009",-8.2B,-,High,GBP Current Account (Pounds) (3Q),-4.4B (R+),-,09:30
+88,-30.0,EUR,"Tuesday, December 22, 2009",,-,Low,EUR Italian Trade Balance Non-EU (euros) (NOV),115.0M (R-),-,10:00
+89,2.2%,USD,"Tuesday, December 22, 2009",2.8%,-,High,USD Gross Domestic Product (Annualized) (3Q T),2.8%,-,13:30
+90,2.8%,USD,"Tuesday, December 22, 2009",2.9%,-,Medium,USD Personal Consumption (3Q T),2.9%,-,13:30
+91,0.4%,USD,"Tuesday, December 22, 2009",0.5%,-,Low,USD Gross Domestic Product Price Index (3Q T),0.5%,-,13:30
+92,1.2%,USD,"Tuesday, December 22, 2009",1.3%,-,Medium,USD Core Personal Consumption Expenditure (QoQ) (3Q T),1.3%,-,13:30
+93,5.0,USD,"Tuesday, December 22, 2009",4.0,-,Low,USD Richmond Fed Manufacturing Index (DEC),1.0,-,15:00
+94,0.6%,USD,"Tuesday, December 22, 2009",0.2,-,Low,USD House Price Index (MoM) (OCT),0.0%,-,15:00
+95,6.54M,USD,"Tuesday, December 22, 2009",6.25M,-,Low,USD Existing Home Sales (NOV),6.10M,-,15:00
+96,7.4%,USD,"Tuesday, December 22, 2009",2.5%,-,Low,USD Existing Home Sales (MoM) (NOV),10.1%,-,15:00
+97,,USD,"Tuesday, December 22, 2009",,-,Low,USD API U.S. Crude Oil Inventories (DEC 18),924K,-,21:30
+98,,USD,"Tuesday, December 22, 2009",,-,Low,USD API U.S. Gasoline Inventories (DEC 18),2074K,-,21:30
+99,,USD,"Tuesday, December 22, 2009",,-,Low,USD API U.S. Distillate Inventory (DEC 18),-2604K,-,21:30
+100,0.2%,NZD,"Tuesday, December 22, 2009",0.4%,-,High,NZD Gross Domestic Product (QoQ) (3Q),0.2% (R+),-,21:45
+101,-1.3%,NZD,"Tuesday, December 22, 2009",-1.2%,-,High,NZD Gross Domestic Product (YoY) (3Q),-2.1%,-,21:45
+102,-42,USD,"Tuesday, December 22, 2009",,-,Low,USD ABC Consumer Confidence (DEC 20),-45,-,22:00
+103,5.5%,AUD,"Monday, December 21, 2009",,-,Low,AUD New Motor Vehicle Sales (MoM) (NOV),3.3%,-,00:30
+104,15.8%,AUD,"Monday, December 21, 2009",,-,Low,AUD New Motor Vehicle Sales (YoY) (NOV),3.7%,-,00:30
+105,0.8%,NZD,"Monday, December 21, 2009",,-,Low,NZD Credit Card Spending s.a. (MoM) (NOV),0.2%,-,02:00
+106,1.6%,NZD,"Monday, December 21, 2009",,-,Low,NZD Credit Card Spending (YoY) (NOV),-0.3% (R+),-,02:00
+107,1.2%,JPY,"Monday, December 21, 2009",1.0%,-,Low,JPY All Industry Activity Index (MoM) (OCT),-0.7% (R-),-,04:30
+108,,JPY,"Monday, December 21, 2009",,-,Medium,JPY Bank of Japan Monthly Report,,-,05:00
+109,-6.3%,JPY,"Monday, December 21, 2009",,-,Low,JPY Convenience Store Sales (YoY) (NOV),-5.5%,-,07:00
+110,7.6%,CHF,"Monday, December 21, 2009",,-,Low,CHF Money Supply M3 (YoY) (NOV),7.6% (R-),-,08:00
+111,0.8%,CAD,"Monday, December 21, 2009",0.8%,-,Medium,CAD Retail Sales (MoM) (OCT),1.1%(R+),-,13:30
+112,0.3%,CAD,"Monday, December 21, 2009",0.2%,-,Medium,CAD Retail Sales Less Autos (MoM) (OCT),1.0%(R-),-,13:30
+113,-0.32,USD,"Monday, December 21, 2009",,-,Low,USD Chicago Fed National Activity Index (NOV),-1.08,-,13:30
+114,-1.413B,NZD,"Monday, December 21, 2009",-2.030B,-,Medium,NZD Current Account Balance (3Q),0.124B,-,21:45
+115,-3.1,NZD,"Monday, December 21, 2009",-3.5%,-,Low,NZD Current Account Deficit-GDP Ratio (3Q),-5.9%,-,21:45
+116,-0.3%,AUD,"Monday, December 21, 2009",,-,Medium,AUD Conference Board Leading Index (OCT),0.0% (R-),-,23:00
+117,-3.7%,NZD,"Sunday, December 20, 2009",,-,Low,NZD Visitor Arrivals (NOV),-0.7%,-,21:45
+118,373.9B,JPY,"Sunday, December 20, 2009",300.0B,-,Medium,JPY Merchandise Trade Balance Total (Yen) (NOV),805.4B (R-),-,23:50
+119,492.4B,JPY,"Sunday, December 20, 2009",268.0B,-,Low,JPY Adjusted Merchandise Trade Balance (Yen) (NOV),419.1B,-,23:50
+120,-6.2%,JPY,"Sunday, December 20, 2009",-6.8%,-,Low,JPY Merchandise Trade Exports (YoY) (NOV),-23.2%,-,23:50
+121,-16.8%,JPY,"Sunday, December 20, 2009",-17.9%,-,Low,JPY Merchandise Trade Imports (YoY) (NOV),-35.6%,-,23:50
+122,313M,AUD,"Thursday, December 17, 2009",,-,Low,AUD RBA Foreign Exchange Transaction (NOV),307M,-,00:30
+123,116.9,NZD,"Thursday, December 17, 2009",,-,Low,NZD Westpac NZ Consumer Confidence (4Q),120.3,-,01:00
+124,38.5,NZD,"Thursday, December 17, 2009",,-,Medium,NZD NBNZ Business Confidence (DEC),43.4,-,02:00
+125,,JPY,"Thursday, December 17, 2009",,-,Medium,JPY BoJ Monetary Policy Meeting,,-,04:00
+126,89.4,JPY,"Thursday, December 17, 2009",,-,Low,JPY Leading Index (OCT F),89.7,-,05:00
+127,94.3,JPY,"Thursday, December 17, 2009",,-,Low,JPY Coincident Index (OCT F),94.3,-,05:00
+128,7.8%,EUR,"Thursday, December 17, 2009",7.7%,-,Low,EUR Italian Unemployment Rate (s.a.) (3Q),7.5% (R+),-,09:00
+129,-0.3%,GBP,"Thursday, December 17, 2009",0.5%,-,Medium,GBP Retail Sales (MoM) (NOV),0.6%,-,09:30
+130,3.1%,GBP,"Thursday, December 17, 2009",3.7%,-,Medium,GBP Retail Sales (YoY) (NOV),3.7%,-,09:30
+131,54.0,CHF,"Thursday, December 17, 2009",,-,Medium,CHF Credit Suisse ZEW Survey (Expectations) (DEC),56.4,-,10:00
+132,-0.6%,EUR,"Thursday, December 17, 2009",,-,Low,EUR Euro-Zone Construction Output s.a. (MoM) (OCT),-0.8% (R+),-,10:00
+133,-7.7%,EUR,"Thursday, December 17, 2009",,-,Low,EUR Euro-Zone Construction Output w.d.a. (YoY) (OCT),-8.1% (R-),-,10:00
+134,13,GBP,"Thursday, December 17, 2009",,-,Low,GBP U.K. CBI Distributive Trades (DEC),19,-,11:00
+135,0.5%,CAD,"Thursday, December 17, 2009",0.3%,-,Medium,CAD Consumer Price Index (MoM) (NOV),-0.1%,-,12:00
+136,1.0%,CAD,"Thursday, December 17, 2009",0.8%,-,Medium,CAD Consumer Price Index (YoY) (NOV),0.1%,-,12:00
+137,0.4%,CAD,"Thursday, December 17, 2009",0.2%,-,Medium,CAD Bank Canada Consumer Price Index Core (MoM) (NOV),0.1%,-,12:00
+138,1.5%,CAD,"Thursday, December 17, 2009",1.3%,-,Medium,CAD Bank Canada Consumer Price Index Core (YoY) (NOV),1.8%,-,12:00
+139,5.814B,CAD,"Thursday, December 17, 2009",6.000B,-,Low,CAD Int'l Securities Transactions (OCT),13.272B (R-),-,13:30
+140,480K,USD,"Thursday, December 17, 2009",465K,-,Medium,USD Initial Jobless Claims (DEC 12),473K (R-),-,13:30
+141,5186K,USD,"Thursday, December 17, 2009",5195K,-,Medium,USD Continuing Claims (DEC 5),5181K (R+),-,13:30
+142,.9%,USD,"Thursday, December 17, 2009",0.7%,-,Low,USD Leading Indicators (NOV),0.3%,-,15:00
+143,20.4,USD,"Thursday, December 17, 2009",16.0,-,Low,USD Philadelphia Fed. (DEC),16.7,-,15:00
+144,-207,USD,"Thursday, December 17, 2009",-178,-,Low,USD EIA Natural Gas Storage Change (DEC 11),-64,-,15:30
+145,,EUR,"Wednesday, December 16, 2009",,-,Low,EUR German Wholesale Price Index (MoM) (NOV),-0.4%,-,00:00
+146,,EUR,"Wednesday, December 16, 2009",,-,Low,EUR German Wholesale Price Index (YoY) (NOV),-7.0%,-,00:00
+147,1.9%,AUD,"Wednesday, December 16, 2009",,-,Low,AUD DEWR Skilled Vacancies (MoM) (DEC),2.4%,-,00:00
+148,0.2%,AUD,"Wednesday, December 16, 2009",0.4%,-,High,AUD Gross Domestic Product (QoQ) (3Q),0.6%,-,00:30
+149,0.5%,AUD,"Wednesday, December 16, 2009",0.7%,-,Medium,AUD Gross Domestic Product (YoY) (3Q),0.6%,-,00:30
+150,-8.4%,JPY,"Wednesday, December 16, 2009",,-,Medium,JPY Machine Tool Orders (YoY) (NOV F),-8.6%,-,06:00
+151,53.1,EUR,"Wednesday, December 16, 2009",52.6,-,Low,EUR German PMI Manufacturing (Dec A),52.4,-,08:30
+152,53.1,EUR,"Wednesday, December 16, 2009",51.9,-,Low,EUR German PMI Services (Dec A),51.4,-,08:30
+153,0.0%,EUR,"Wednesday, December 16, 2009",0.1%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (MoM) (NOV F),0.1%,-,09:00
+154,0.7%,EUR,"Wednesday, December 16, 2009",0.7%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (YoY) (NOV F),0.7%,-,09:00
+155,0.1%,EUR,"Wednesday, December 16, 2009",0.1%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (MoM) (NOV F),0.1%,-,09:00
+156,0.8%,EUR,"Wednesday, December 16, 2009",0.8%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (YoY) (NOV F),0.8%,-,09:00
+157,51.6,EUR,"Wednesday, December 16, 2009",51.5,-,Low,EUR Euro-Zone Purchasing Manager Index Manufacturing (DEC A),51.2,-,09:00
+158,53.7,EUR,"Wednesday, December 16, 2009",53.2,-,Low,EUR Euro-Zone Purchasing Manager Index Services (DEC A),53.0,-,09:00
+159,54.2,EUR,"Wednesday, December 16, 2009",54.0,-,Low,EUR Euro-Zone Purchasing Manager Index Composite (DEC A),53.7,-,09:00
+160,5.0%,GBP,"Wednesday, December 16, 2009",5.1%,-,High,GBP Claimant Count Rate (NOV),5.0% (R-),-,09:30
+161,-6.3K,GBP,"Wednesday, December 16, 2009",12.5K,-,High,GBP Jobless Claims Change (NOV),5.9K (R-),-,09:30
+162,1.5%,GBP,"Wednesday, December 16, 2009",1.2%,-,Medium,GBP Average Earnings Including Bonus (3MoY) (OCT),1.4% (R+),-,09:30
+163,1.7%,GBP,"Wednesday, December 16, 2009",1.8%,-,Medium,GBP Average Earnings Excluding Bonus (3MoY) (OCT),1.7% (R-),-,09:30
+164,7.9%,GBP,"Wednesday, December 16, 2009",7.9%,-,Low,GBP ILO Unemployment Rate (3MoY) (OCT),7.8%,-,09:30
+165,3.0%,GBP,"Wednesday, December 16, 2009",,-,Low,GBP Manufacturing Unit Wage Cost (3MoY) (OCT),3.5% (R+),-,09:30
+166,-710.0M,EUR,"Wednesday, December 16, 2009",75.8M,-,Low,EUR Italian Trade Balance (Total) (Euros) (OCT),-911.0M (R-),-,10:00
+167,-825.0M,EUR,"Wednesday, December 16, 2009",-322.5M,-,Low,EUR Italian Trade Balance Eu (Euros) (OCT),-402.0M (R-),-,10:00
+168,0.1%,EUR,"Wednesday, December 16, 2009",0.2%,-,Medium,EUR Euro-Zone Consumer Price Index (MoM) (NOV),0.2%,-,10:00
+169,0.5%,EUR,"Wednesday, December 16, 2009",0.6%,-,Medium,EUR Euro-Zone Consumer Price Index (YoY) (NOV),-0.1% (R-),-,10:00
+170,1.0%,EUR,"Wednesday, December 16, 2009",1.2%,-,Low,EUR Euro-Zone Consumer Price Index - Core (YoY) (NOV),1.2%,-,10:00
+171,-3310.0,EUR,"Wednesday, December 16, 2009",,-,Low,EUR Italian Current Account (EURO) (OCT),-4194.0,-,10:05
+172,58.87,USD,"Wednesday, December 16, 2009",,-,Medium,USD Bloomberg Global Confidence (DEC),60.3,-,12:00
+173,0.3%,USD,"Wednesday, December 16, 2009",,-,Low,USD MBA Mortgage Applications (DEC 11),8.5%,-,12:00
+174,2.0%,CAD,"Wednesday, December 16, 2009",0.8%,-,Low,CAD Manufacturing Sales MoM (OCT),1.0% (R-),-,13:30
+175,0.4%,USD,"Wednesday, December 16, 2009",0.4%,-,Low,USD Consumer Price Index (MoM) (NOV),0.3%,-,13:30
+176,-$108.0B,USD,"Wednesday, December 16, 2009",-$107.5B,-,Low,USD Current Account Balance (3Q),-$98.0B (R+),-,13:30
+177,0.0%,USD,"Wednesday, December 16, 2009",0.1%,-,Low,USD Consumer Price Index Ex Food & Energy (MoM) (NOV),0.2%,-,13:30
+178,1.8%,USD,"Wednesday, December 16, 2009",1.8%,-,Low,USD Consumer Price Index (YoY) (NOV),-0.2%,-,13:30
+179,1.7%,USD,"Wednesday, December 16, 2009",1.8%,-,Low,USD Consumer Price Index Excluding Food & Energy (YoY) (NOV),1.7%,-,13:30
+180,574K,USD,"Wednesday, December 16, 2009",578K,-,Medium,USD Housing Starts (NOV),527K (R-),-,13:30
+181,220.527,USD,"Wednesday, December 16, 2009",,-,Low,USD CPI Core Index s.a. (NOV),220.453,-,13:30
+182,584,USD,"Wednesday, December 16, 2009",570K,-,Low,USD Building Permits (NOV),551K (R-),-,13:30
+183,216.330,USD,"Wednesday, December 16, 2009",216.230,-,Low,USD Consumer Price Index n.s.a (NOV),216.177,-,13:30
+184,,JPY,"Wednesday, December 16, 2009",,-,Medium,JPY BOJ to Hold Regular Policy Board Meeting,,-,15:30
+185,-3689K,USD,"Wednesday, December 16, 2009",-2000K,-,Medium,USD DOE U.S. Crude Oil Inventories (Dec 11),-3823K,-,15:30
+186,879K,USD,"Wednesday, December 16, 2009",1250K,-,Low,USD DOE U.S. Gasoline Inventories (DEC 11),2253K,-,15:30
+187,-2954K,USD,"Wednesday, December 16, 2009",-500K,-,Low,USD DOE U.S. Distillate Inventory (DEC 11),1619K,-,15:30
+188,0.25%,USD,"Wednesday, December 16, 2009",0.25%,-,High,USD FOMC Rate Decision,0.25%,-,19:15
+189,35%,GBP,"Tuesday, December 15, 2009",39%,-,Medium,GBP RICS House Price Balance (NOV),34%,-,00:01
+190,9.4%,AUD,"Tuesday, December 15, 2009",6.0%,-,Medium,AUD Dwelling Starts (3Q),-3.7%,-,00:30
+191,,AUD,"Tuesday, December 15, 2009",,-,Medium,AUD Reserve Bank of Australia Meeting Minutes,,-,00:30
+192,65.4%,NZD,"Tuesday, December 15, 2009",,-,Low,NZD Non Resident Bond Holdings (NOV),71.2%,-,02:00
+193,,CHF,"Tuesday, December 15, 2009",,-,Low,CHF SECO Economic Forecasts (DEC),,-,06:45
+194,26.9%,EUR,"Tuesday, December 15, 2009",,-,Low,EUR EU 25 New Car Registrations (NOV),11.6%,-,07:00
+195,0.1%,EUR,"Tuesday, December 15, 2009",0.3%,-,Low,EUR French Consumer Price Index (MoM) (NOV),0.1%,-,07:45
+196,0.4%,EUR,"Tuesday, December 15, 2009",0.5%,-,Low,EUR French Consumer Price Index (YoY) (NOV),-0.2%,-,07:45
+197,0.2%,EUR,"Tuesday, December 15, 2009",0.2%,-,Low,EUR French Consumer Price Index - EU Harmonised (MoM) (NOV),0.1%,-,07:45
+198,0.5%,EUR,"Tuesday, December 15, 2009",0.5%,-,Low,EUR French Consumer Price Index - EU Harmonised (YoY) (NOV),-0.2%,-,07:45
+199,118.31,EUR,"Tuesday, December 15, 2009",118.51,-,Low,EUR French CPI Ex Tobacco Index (NOV),118.23,-,07:45
+200,3.4%,CHF,"Tuesday, December 15, 2009",-0.1%,-,Low,CHF Industrial Production (QoQ) (3Q),3.4% (R+),-,08:15
+201,-6.7%,CHF,"Tuesday, December 15, 2009",-9.6%,-,Low,CHF Industrial Production (YoY) (3Q),-14.3% (R+),-,08:15
+202,0.5%,EUR,"Tuesday, December 15, 2009",,-,Low,EUR Italian Labor Costs (QoQ) (3Q),1.0%,-,09:00
+203,1.8%,EUR,"Tuesday, December 15, 2009",,-,Low,EUR Italian Labor Costs (YoY) (3Q),4.5% (R-),-,09:00
+204,0.3%,GBP,"Tuesday, December 15, 2009",0.2%,-,Medium,GBP Consumer Price Index (MoM) (NOV),0.2%,-,09:30
+205,1.9%,GBP,"Tuesday, December 15, 2009",1.8%,-,Medium,GBP Consumer Price Index (YoY) (NOV),1.5%,-,09:30
+206,1.9%,GBP,"Tuesday, December 15, 2009",1.9%,-,Low,GBP Core Consumer Price Index (YoY) (NOV),1.8%,-,09:30
+207,216.6,GBP,"Tuesday, December 15, 2009",216.6,-,Low,GBP Retail Price Index (NOV),216.0,-,09:30
+208,0.3%,GBP,"Tuesday, December 15, 2009",0.2%,-,Low,GBP Retail Price Index (MoM) (NOV),0.3%,-,09:30
+209,0.3%,GBP,"Tuesday, December 15, 2009",0.3%,-,Low,GBP Retail Price Index (YoY) (NOV),-0.8%,-,09:30
+210,2.7%,GBP,"Tuesday, December 15, 2009",2.6%,-,Low,GBP Retail Price Index Excluding Mortgage Interest Payments (YoY) (NOV),1.9%,-,09:30
+211,-2.2%,GBP,"Tuesday, December 15, 2009",,-,Low,GBP DCLG UK House Prices (YoY) (OCT),-4.1%,-,09:30
+212,50.4,EUR,"Tuesday, December 15, 2009",50.0,-,High,EUR German ZEW Survey (Econ. Sentiment) (DEC),51.1,-,10:00
+213,-60.6,EUR,"Tuesday, December 15, 2009",-60.1,-,High,EUR German Zew Survey (Current Situation) (DEC),-65.6,-,10:00
+214,3.2%,EUR,"Tuesday, December 15, 2009",3.5%,-,Low,EUR Euro-Zone Euro-Zone Labour Costs (YoY) (3Q),4.3% (R+),-,10:00
+215,48.0,EUR,"Tuesday, December 15, 2009",50.0,-,High,EUR Euro-Zone ZEW Survey (Econ. Sentiment) (DEC),51.8,-,10:00
+216,1.3%,CAD,"Tuesday, December 15, 2009",0.7%,-,Low,CAD Leading Indicators (MoM) (NOV),0.7%,-,13:30
+217,3.5%,CAD,"Tuesday, December 15, 2009",3.0%,-,Low,CAD New Motor Vehicle Sales (MoM) (OCT),1.7% (R+),-,13:30
+218,-0.2%,CAD,"Tuesday, December 15, 2009",-0.3%,-,Medium,CAD Labor Productivity (QoQ) (3Q),0.1% (R+),-,13:30
+219,1.8%,USD,"Tuesday, December 15, 2009",0.8%,-,Low,USD Producer Price Index (MoM) (NOV),0.3%,-,13:30
+220,0.5%,USD,"Tuesday, December 15, 2009",0.2%,-,Low,USD PPI Ex Food & Energy (MoM) (NOV),-0.6%,-,13:30
+221,2.4%,USD,"Tuesday, December 15, 2009",1.8%,-,Medium,USD Producer Price Index (YoY) (NOV),-1.9%,-,13:30
+222,1.2%,USD,"Tuesday, December 15, 2009",0.9%,-,High,USD PPI Ex Food & Energy (YoY) (NOV),0.7%,-,13:30
+223,2.55,USD,"Tuesday, December 15, 2009",24.00,-,Low,USD Empire Manufacturing (DEC),23.51,-,13:30
+224,-$13.9B,USD,"Tuesday, December 15, 2009",,-,Low,USD Total Net TIC Flows (OCT),$127.6B,-,14:00
+225,$20.7B,USD,"Tuesday, December 15, 2009",$37.1B,-,Low,USD Net Long-term TIC Flows (OCT),$40.7B,-,14:00
+226,0.8%,USD,"Tuesday, December 15, 2009",0.5%,-,Medium,USD Industrial Production (NOV),0.0% (R-),-,14:15
+227,71.3%,USD,"Tuesday, December 15, 2009",71.1%,-,Medium,USD Capacity Utilization (NOV),70.6% (R-),-,14:15
+228,16,USD,"Tuesday, December 15, 2009",18,-,Medium,USD NAHB Housing Market Index (DEC),17,-,18:00
+229,924K,USD,"Tuesday, December 15, 2009",,-,Medium,USD API U.S. Crude Oil Inventories (DEC 11),-5815K,-,21:30
+230,2074K,USD,"Tuesday, December 15, 2009",,-,Medium,USD API U.S. Gasoline Inventories (DEC 11),-753K,-,21:30
+231,-2604K,USD,"Tuesday, December 15, 2009",,-,Low,USD API U.S. Distillate Inventory (DEC 11),1011K,-,21:30
+232,-45,USD,"Tuesday, December 15, 2009",,-,Low,USD ABC Consumer Confidence (DEC 13),-47,-,22:00
+233,0.4%,AUD,"Tuesday, December 15, 2009",,-,Low,AUD Westpac Leading Index (MoM) (OCT),1.1 (R+),-,23:30
+234,0.5%,JPY,"Tuesday, December 15, 2009",0.5%,-,Medium,JPY Tertiary Industry Index (MoM) (OCT),-0.6% (R-),-,23:50
+235,-2.2%,GBP,"Monday, December 14, 2009",,-,Low,GBP Rightmove House Prices (MoM) (DEC),-1.6%,-,00:01
+236,1.7%,GBP,"Monday, December 14, 2009",,-,Low,GBP Rightmove House Prices (YoY) (DEC),1.6%,-,00:01
+237,10.8%,JPY,"Monday, December 14, 2009",,-,Low,JPY Tokyo Condominium Sales (YoY),-20.0%,-,04:00
+238,0.5%,JPY,"Monday, December 14, 2009",,-,Medium,JPY Industrial Production (MoM) (OCT F),0.5%,-,04:30
+239,-15.1%,JPY,"Monday, December 14, 2009",,-,Medium,JPY Industrial Production (YoY) (OCT F),-15.1%,-,04:30
+240,0.2%,JPY,"Monday, December 14, 2009",,-,Medium,JPY Capacity Utilization (MoM) (OCT F),1.6%,-,04:30
+241,-4.5B,EUR,"Monday, December 14, 2009",-4.0B,-,Low,EUR French Current Account (EURO) (OCT),-4.3B (R-),-,07:45
+242,0.5%,EUR,"Monday, December 14, 2009",,-,Low,EUR French Wages (QoQ) (3Q F),0.5%,-,07:45
+243,0.0%,CHF,"Monday, December 14, 2009",0.1%,-,Low,CHF Producer & Import Prices (MoM) (NOV),-0.4%,-,08:15
+244,-3.3%,CHF,"Monday, December 14, 2009",-3.1%,-,Low,CHF Producer & Import Prices (YoY) (NOV),-4.7%,-,08:15
+245,-0.5%,EUR,"Monday, December 14, 2009",,-,Medium,EUR Euro-Zone Employment (QoQ) (3Q),-0.5%,-,10:00
+246,-2.1%,EUR,"Monday, December 14, 2009",,-,Medium,EUR Euro-Zone Employment (YoY) (3Q),-1.8%,-,10:00
+247,-0.6%,EUR,"Monday, December 14, 2009",-0.7%,-,Low,EUR Euro-Zone Industrial Production s.a. (MoM) (OCT),0.2% (R-),-,10:00
+248,-11.1%,EUR,"Monday, December 14, 2009",-10.8%,-,Low,EUR Euro-Zone Industrial Production w.d.a (YoY) (OCT),-12.8% (R+),-,10:00
+249,67.5%,CAD,"Monday, December 14, 2009",67.0%,-,Low,CAD Capacity Utilization Rate (3Q),67.7% (R+),-,13:30
+250,3283.0,NZD,"Sunday, December 13, 2009",,-,Low,NZD REINZ Housing Price Index (NOV),3275.4,-,21:00
+251,41.5%,NZD,"Sunday, December 13, 2009",,-,Low,NZD REINZ House Sales (YoY) (NOV),36.3%,-,21:00
+252,0.2%,NZD,"Sunday, December 13, 2009",,-,Low,NZD REINZ Housing Price Index (MoM) (NOV),1.3%,-,21:00
+253,56.0,NZD,"Sunday, December 13, 2009",,-,Low,NZD New Zealand Performance of Services Index (NOV),49.9,-,21:30
+254,-24,JPY,"Sunday, December 13, 2009",-27,-,Low,JPY Tankan Large Manufacturers Index (4Q),-33,-,23:50
+255,-18,JPY,"Sunday, December 13, 2009",-22,-,Medium,JPY Tankan Large Mfg Outlook (4Q),-21,-,23:50
+256,-22,JPY,"Sunday, December 13, 2009",-23,-,Low,JPY Tankan Non-Manufacturing (4Q),-24,-,23:50
+257,-19,JPY,"Sunday, December 13, 2009",-20,-,Low,JPY Tankan Non-Manufacturing Outlook (4Q),-17,-,23:50
+258,-13.8%,JPY,"Sunday, December 13, 2009",-11.3%,-,Low,JPY Tankan Large All Indust Capex (4Q),-10.8%,-,23:50
+259,3.6%,AUD,"Thursday, December 10, 2009",,-,Low,AUD Consumer Inflation Expectation (DEC),3.2%,-,00:00
+260,31.2K,AUD,"Thursday, December 10, 2009",5.0K,-,High,AUD Employment Change (NOV),24.5K,-,00:30
+261,5.7%,AUD,"Thursday, December 10, 2009",5.9%,-,Medium,AUD Unemployment Rate (NOV),5.8%,-,00:30
+262,30.8K,AUD,"Thursday, December 10, 2009",,-,Medium,AUD Full Time Employment Change (NOV),2.9K,-,00:30
+263,0.3K,AUD,"Thursday, December 10, 2009",,-,Medium,AUD Part Time Employment Change (NOV),21.5K,-,00:30
+264,65.2%,AUD,"Thursday, December 10, 2009",65.2%,-,Low,AUD Participation Rate (NOV),65.2%,-,00:30
+265,,AUD,"Thursday, December 10, 2009",,-,Low,AUD Australian Central Bank Assistant Governor Speaks in Sydney,,-,01:45
+266,0.7%,EUR,"Thursday, December 10, 2009",,-,Low,EUR German Wholesale price Index (MoM) (NOV),-0.4%,-,07:00
+267,-3.2%,EUR,"Thursday, December 10, 2009",,-,Low,EUR German Wholesale price Index (YoY) (NOV),-7.0%,-,07:00
+268,-0.6%,EUR,"Thursday, December 10, 2009",,-,Low,EUR French Non-Farm Payrolls (QoQ),0.0%,-,07:45
+269,-8.4%,EUR,"Thursday, December 10, 2009",-6.6%,-,Low,EUR French Industrial Production (YoY) (OCT),-10.6% (R-),-,07:50
+270,-0.8%,EUR,"Thursday, December 10, 2009",1.6%,-,Low,EUR French Industrial Production (MoM) (OCT),-1.1% (R+),-,07:50
+271,-0.8%,EUR,"Thursday, December 10, 2009",1.0%,-,Low,EUR French Manufacturing Production (MoM) (OCT),-1.1% (R+),-,07:50
+272,-8.8%,EUR,"Thursday, December 10, 2009",-6.3%,-,Low,EUR French Manufacturing Production (YoY) (OCT),-11.3% (R-),-,07:50
+273,0.25%,CHF,"Thursday, December 10, 2009",0.25%,-,High,CHF Swiss National Bank Interest Rate Decision,0.25%,-,08:30
+274,0.5%,EUR,"Thursday, December 10, 2009",1.3%,-,Low,EUR Italian Industrial Production s.a. (MoM),-5.1% (R+),-,09:00
+275,-11.8%,EUR,"Thursday, December 10, 2009",-12.7%,-,Low,EUR Italian Industrial Production w.d.a. (YoY) (OCT),-15.4% (R+),-,09:00
+276,-14.0%,EUR,"Thursday, December 10, 2009",-12.9%,-,Low,EUR Italian Industrial Production n.s.a. (YoY) (OCT),-15.0% (R+),-,09:00
+277,,EUR,"Thursday, December 10, 2009",,-,Medium,EUR European Central Bank Publishes Monthly Report (DEC),,-,09:00
+278,0.6%,EUR,"Thursday, December 10, 2009",0.6%,-,Low,EUR Italian GDP s.a. and w.d.a. (QoQ) (3Q F),-0.5%,-,10:00
+279,-4.6%,EUR,"Thursday, December 10, 2009",-4.6%,-,Low,EUR Italian GDP s.a. and w.d.a. (YoY) (3Q F),-5.9%,-,10:00
+280,0.4%,EUR,"Thursday, December 10, 2009",0.2%,-,Low,EUR Italian Private Consumption (3Q),0.1% (R-),-,10:00
+281,-0.2%,EUR,"Thursday, December 10, 2009",0.3%,-,Low,EUR Italian Government Spending (3Q),1.2% (R-),-,10:00
+282,0.3%,EUR,"Thursday, December 10, 2009",-0.9%,-,Low,EUR Italian Total investments (3Q),-3.1% (R-),-,10:00
+283,2.5%,EUR,"Thursday, December 10, 2009",1.0%,-,Low,EUR Italian Exports (3Q),-2.5% (R+),-,10:00
+284,1.5%,EUR,"Thursday, December 10, 2009",0.0%,-,Low,EUR Italian Imports (3Q),-2.5% (R+),-,10:00
+285,0.50%,GBP,"Thursday, December 10, 2009",0.50%,-,High,GBP Bank of England Interest Rate Decision,0.50%,-,12:00
+286,200B,GBP,"Thursday, December 10, 2009",200B,-,High,GBP Bank of England Asset Purchase Target,200B,-,12:00
+287,0.4B,CAD,"Thursday, December 10, 2009",-0.7B,-,Low,CAD International Merchandise Trade (OCT),-0.9B,-,13:30
+288,-$32.9B,USD,"Thursday, December 10, 2009",-$36.7B,-,Medium,USD Trade Balance (OCT),-$35.7B (R+),-,13:30
+289,474K,USD,"Thursday, December 10, 2009",455K,-,Medium,USD Initial Jobless Claims (DEC 5),457K,-,13:30
+290,5157K,USD,"Thursday, December 10, 2009",5450K,-,Low,USD Continuing Claims (NOV 28),5460K (R-),-,13:30
+291,,USD,"Thursday, December 10, 2009",-$135.0B,-,Medium,USD Monthly Budget Statement (NOV),-$176.4B,-,19:00
+292,-0.3%,NZD,"Thursday, December 10, 2009",,-,Low,NZD Food Prices (MoM) (NOV),-1.5%,-,21:45
+293,0.2%,GBP,"Wednesday, December 9, 2009",,-,Low,GBP BRC Shop Price Index (NOV),0.0%,-,00:01
+294,73,GBP,"Wednesday, December 9, 2009",70,-,Medium,GBP Nationwide Consumer Confidence (NOV),73 (R+),-,00:01
+295,-1.4%,AUD,"Wednesday, December 9, 2009",-2.0%,-,Medium,AUD Home Loans (OCT),3.3% (R-),-,00:30
+296,-2379M,AUD,"Wednesday, December 9, 2009",-1805M,-,Medium,AUD Trade Balance (OCT),-1845M (R+),-,00:30
+297,-0.6%,AUD,"Wednesday, December 9, 2009",,-,Medium,AUD Investment Lending (OCT),-0.1%,-,00:30
+298,-1.7%,AUD,"Wednesday, December 9, 2009",,-,Low,AUD Value of Loans (MoM) (OCT),6.0%,-,00:30
+299,-8.6%,JPY,"Wednesday, December 9, 2009",,-,Low,JPY Machine Tool Orders (YoY) (NOV P),-42.5%,-,06:00
+300,4.2%,CHF,"Wednesday, December 9, 2009",4.2%,-,Medium,CHF Unemployment Rate (NOV),4.0%,-,06:45
+301,4.1%,CHF,"Wednesday, December 9, 2009",4.2%,-,Medium,CHF Unemployment Rate s.a. (NOV),4.1%,-,06:45
+302,13.6B,EUR,"Wednesday, December 9, 2009",10.7B,-,Medium,EUR German Trade Balance (OCT),10.4B (R-),-,07:00
+303,-0.1%,EUR,"Wednesday, December 9, 2009",-0.2%,-,Low,EUR German Consumer Price Index (MoM) (NOV F),-0.2%,-,07:00
+304,11.0B,EUR,"Wednesday, December 9, 2009",9.4B,-,Medium,EUR German Current Account (Euro) (Oct),9.3B (R-),-,07:00
+305,0.4%,EUR,"Wednesday, December 9, 2009",0.3%,-,Low,EUR German Consumer Price Index (YoY) (NOV F),0.3%,-,07:00
+306,-0.2%,EUR,"Wednesday, December 9, 2009",-0.1%,-,Low,EUR German CPI - EU Harmonised (MoM) (NOV F),-0.1%,-,07:00
+307,-2.4%,EUR,"Wednesday, December 9, 2009",0.2%,-,Low,EUR German Imports s.a. (MoM) (OCT),5.8%,-,07:00
+308,0.3%,EUR,"Wednesday, December 9, 2009",0.4%,-,Low,EUR German CPI - EU Harmonised (YoY) (NOV F),0.4%,-,07:00
+309,2.5%,EUR,"Wednesday, December 9, 2009",2.0%,-,Low,EUR Germany Exports s.a. (MoM) (OCT),3.6% (R-),-,07:00
+310,-7108,GBP,"Wednesday, December 9, 2009",-6850,-,Medium,GBP Visible Trade Balance (Pounds) (OCT),-6939 (R+),-,09:30
+311,-3533,GBP,"Wednesday, December 9, 2009",-3500,-,Low,GBP Trade Balance Non EU GBP/Mn (OCT),-3774 (R-),-,09:30
+312,-3213,GBP,"Wednesday, December 9, 2009",-3175,-,Low,GBP Total Trade Balance (GBP/Mln) (OCT),-3067,-,09:30
+313,8.5%,USD,"Wednesday, December 9, 2009",,-,Low,USD MBA Mortgage Applications (DEC 4),2.1%,-,12:00
+314,,GBP,"Wednesday, December 9, 2009",,-,Low,GBP U.K. Pre-Budget Report,,-,12:30
+315,0.3%,USD,"Wednesday, December 9, 2009",-0.5%,-,Low,USD Wholesale Inventories (OCT),-0.8%(R+),-,15:00
+316,-3823K,USD,"Wednesday, December 9, 2009",250K,-,Low,USD DOE U.S. Crude Oil Inventories (DEC 4),2091K,-,15:30
+317,2253K,USD,"Wednesday, December 9, 2009",1600K,-,Low,USD DOE U.S. Gasoline Inventories (DEC 4),3996K,-,15:30
+318,1619K,USD,"Wednesday, December 9, 2009",-750K,-,Low,USD DOE U.S. Distillate Inventory (DEC 4),-1170K,-,15:30
+319,2.50%,NZD,"Wednesday, December 9, 2009",2.50%,-,High,NZD Reserve Bank of New Zealand Interest Rate Decision,2.50%,-,20:00
+320,-1.3%,NZD,"Wednesday, December 9, 2009",0.5%,-,Medium,NZD Terms of Trade Index (QoQ) (3Q),-9.4% (R-),-,21:45
+321,-4.5%,JPY,"Wednesday, December 9, 2009",-4.4%,-,Medium,JPY Machine Orders (MoM) (OCT),10.5%,-,23:50
+322,-21.0%,JPY,"Wednesday, December 9, 2009",-20.9%,-,Medium,JPY Machine Orders (YoY) (OCT),-22.0%,-,23:50
+323,0.1%,JPY,"Wednesday, December 9, 2009",-0.2%,-,Low,JPY Domestic CGPI (MoM) (NOV),-0.8% (R-),-,23:50
+324,-4.9%,JPY,"Wednesday, December 9, 2009",-5.1%,-,Low,JPY Domestic CGPI (YoY) (NOV),-6.8% (R-),-,23:50
+325,1.8%,GBP,"Tuesday, December 8, 2009",,-,Medium,GBP BRC Retail Sales Monitor (NOV),3.8%,-,00:01
+326,10,AUD,"Tuesday, December 8, 2009",,-,Low,AUD NAB Business Conditions (NOV),12,-,00:30
+327,19,AUD,"Tuesday, December 8, 2009",,-,Medium,AUD NAB Business Confidence (NOV),16,-,00:30
+328,-16183M,AUD,"Tuesday, December 8, 2009",-16650M,-,Medium,AUD Current Account Balance (3Q),-13133M (R+),-,00:30
+329,89.7,JPY,"Tuesday, December 8, 2009",88.7,-,Low,JPY Leading Index (OCT P),87.5 (R+),-,05:00
+330,94.3,JPY,"Tuesday, December 8, 2009",93.8,-,Low,JPY Coincident Index (OCT P),93.2 (R+),-,05:00
+331,33.9,JPY,"Tuesday, December 8, 2009",40,-,Medium,JPY Eco Watchers Survey: Current (NOV),40.9,-,05:30
+332,34.5,JPY,"Tuesday, December 8, 2009",,-,Medium,JPY Eco Watchers Survey: Outlook (NOV),42.8,-,05:30
+333,45.9B,AUD,"Tuesday, December 8, 2009",,-,Low,AUD Foreign Reserves (NOV),48.5B,-,05:30
+334,-134.8B,EUR,"Tuesday, December 8, 2009",,-,Low,EUR French Central Govt. Balance (Euros) (OCT),-125.8B,-,07:45
+335,1.4%,GBP,"Tuesday, December 8, 2009",0.6%,-,Low,GBP Halifax House Prices s.a. (MoM) (NOV),1.2%,-,09:00
+336,-1.6%,GBP,"Tuesday, December 8, 2009",-1.5%,-,Low,GBP Halifax House Prices (3MoY) (NOV),-4.7%,-,09:00
+337,0.0%,GBP,"Tuesday, December 8, 2009",0.5%,-,Medium,GBP Industrial Production (MoM) (OCT),1.3% (R-),-,09:30
+338,-8.4%,GBP,"Tuesday, December 8, 2009",-7.6%,-,Low,GBP Industrial Production (YoY) (OCT),-10.8% (R-),-,09:30
+339,0.0%,GBP,"Tuesday, December 8, 2009",0.4%,-,Medium,GBP Manufacturing Production (MoM) (OCT),1.5% (R-),-,09:30
+340,-7.8%,GBP,"Tuesday, December 8, 2009",-7.2%,-,Medium,GBP Manufacturing Production (YoY) (OCT),-9.8% (R-),-,09:30
+341,-12.4%,EUR,"Tuesday, December 8, 2009",-10.2%,-,Medium,EUR German Industrial Production n.s.a. and w.d.a. (YoY) (OCT),-12.6% (R+),-,11:00
+342,-1.8%,EUR,"Tuesday, December 8, 2009",1.0%,-,Medium,EUR German Industrial Production s.a. (MoM) (OCT),3.1% (R+),-,11:00
+343,88.3,USD,"Tuesday, December 8, 2009",,-,Low,USD NFIB Small Business Optimism (NOV),89.1,-,12:30
+344,158.5K,CAD,"Tuesday, December 8, 2009",156.0K,-,Medium,CAD Housing Starts (NOV),157.4K (R+),-,13:15
+345,0.25%,CAD,"Tuesday, December 8, 2009",0.25%,-,High,CAD Bank of Canada Interest Rate Decision,0.25%,-,14:00
+346,46.8,USD,"Tuesday, December 8, 2009",49.0,-,Low,USD IBD/TIPP Economic Optimism (DEC),47.9,-,15:00
+347,0.2%,GBP,"Tuesday, December 8, 2009",,-,Medium,GBP NIESR GDP Estimate (NOV),-0.3% (R+),-,15:00
+348,-5815K,USD,"Tuesday, December 8, 2009",,-,Low,USD API U.S. Crude Oil Inventories (DEC 4),2887K,-,21:30
+349,-753K,USD,"Tuesday, December 8, 2009",,-,Low,USD API U.S. Gasoline Inventories (DEC 4),3423K,-,21:30
+350,1011K,USD,"Tuesday, December 8, 2009",,-,Low,USD API U.S. Distillate Inventory (DEC 4),1059K,-,21:30
+351,0.7%,NZD,"Tuesday, December 8, 2009",,-,Low,NZD NZ Card Spending (MoM) (NOV),0.0% (R+),-,21:45
+352,-47,USD,"Tuesday, December 8, 2009",,-,Low,USD ABC Consumer Confidence (DEC 6),-45,-,22:00
+353,-3.8%,AUD,"Tuesday, December 8, 2009",,-,Medium,AUD Westpac Consumer Confidence (DEC),-2.5%,-,23:30
+354,113.8,AUD,"Tuesday, December 8, 2009",,-,Medium,AUD Westpac Cons. Confidence Index (DEC),118.3,-,23:30
+355,0.3%,JPY,"Tuesday, December 8, 2009",0.7%,-,High,JPY Gross Domestic Product (QoQ) (3Q F),1.2%,-,23:50
+356,1.3%,JPY,"Tuesday, December 8, 2009",2.8%,-,High,JPY GDP Annualized (3Q F),4.8%,-,23:50
+357,-0.9%,JPY,"Tuesday, December 8, 2009",-0.5%,-,High,JPY Nominal GDP (QoQ) (3Q F),-0.1%,-,23:50
+358,-0.5%,JPY,"Tuesday, December 8, 2009",0.2%,-,Low,JPY GDP Deflator YoY (3Q F),0.2%,-,23:50
+359,5.2%,AUD,"Monday, December 7, 2009",,-,Low,AUD ANZ Job Advertisements (MoM) (NOV),-1.7%,-,00:30
+360,-5.5,EUR,"Monday, December 7, 2009",,-,Low,EUR Sentix Investor Confidence (DEC),-7.0,-,09:30
+361,-2.1%,EUR,"Monday, December 7, 2009",0.8%,-,Low,EUR German Factory Orders s.a. (MoM) (OCT),1.3%,-,11:00
+362,-8.5%,EUR,"Monday, December 7, 2009",-6.2%,-,Low,EUR German Factory Orders n.s.a. (YoY) (OCT),-12.8%,-,11:00
+363,18.0%,CAD,"Monday, December 7, 2009",1.0%,-,Low,CAD Building Permits (MoM) (OCT),3.2%,-,13:30
+364,,USD,"Monday, December 7, 2009",,-,Low,USD Bernanke Speaks to Economic Club of Washington Lunch,,-,17:00
+365,14.0%,NZD,"Monday, December 7, 2009",,-,Low,NZD New Zealand Manpower Survey (1Q),1.0%,-,19:01
+366,19.0%,AUD,"Monday, December 7, 2009",,-,Low,AUD Australia Manpower Survey (1Q),9.0%,-,19:01
+367,-$3.5B,USD,"Monday, December 7, 2009",-$9.4B,-,Medium,USD Consumer Credit (OCT),-$8.8B (R+),-,20:00
+368,-1%,JPY,"Monday, December 7, 2009",,-,Low,JPY Japan Manpower Survey (1Q),-6%,-,21:00
+369,-5.1%,NZD,"Monday, December 7, 2009",,-,Medium,NZD Manufacturing Activity (3Q),-4.8%,-,21:45
+370,,USD,"Monday, December 7, 2009",,-,Low,USD New York Fed President Dudley Speaks at Columbia University,,-,22:45
+371,1397.6B,JPY,"Monday, December 7, 2009",1483.2B,-,Low,JPY Current Account Total (OCT),1567.9B,-,23:50
+372,1376.2B,JPY,"Monday, December 7, 2009",1564.9B,-,Low,JPY Adjusted Current Account Total (OCT),1338.0B,-,23:50
+373,949.0B,JPY,"Monday, December 7, 2009",864.6B,-,Low,JPY Trade Balance - BOP Basis (OCT),599.2B,-,23:50
+374,0.2%,JPY,"Monday, December 7, 2009",,-,Low,JPY Bank Lending (YoY) (NOV),1.4% (R-),-,23:50
+375,0.1%,JPY,"Monday, December 7, 2009",,-,Low,JPY Bank Lending Banks (YoY) (NOV),1.5%,-,23:50
+376,0.5%,JPY,"Monday, December 7, 2009",,-,Low,JPY Bank Lending Banks Adjust (YoY) (NOV),1.9%,-,23:50
+377,3.3%,JPY,"Monday, December 7, 2009",3.4%,-,Low,JPY Japan Money Stock M2 (YoY) (NOV),3.4% (R+),-,23:50
+378,2.4%,JPY,"Monday, December 7, 2009",2.4%,-,Low,JPY Japan Money Stock M3 (YoY) (NOV),2.4%,-,23:50
+379,1.0%,NZD,"Sunday, December 6, 2009",,-,Low,NZD QV House Prices (YoY) (NOV),0.2%,-,11:01
+380,47.6,AUD,"Sunday, December 6, 2009",,-,Low,AUD AiG Perf of Construction Index (NOV),50.9,-,22:30
+381,$1073.7B,JPY,"Sunday, December 6, 2009",,-,Low,JPY Official Reserve Assets (NOV),$1056.8B,-,23:50
+382,,USD,"Thursday, December 3, 2009",,-,Low,USD Fed's Sack Speaks in New York,,-,00:00
+383,0.3%,AUD,"Thursday, December 3, 2009",0.3%,-,Medium,AUD Retail Sales s.a. (MoM) (OCT),-0.2%,-,00:30
+384,10.5%,NZD,"Thursday, December 3, 2009",,-,Medium,NZD ANZ Commodity Price (NOV),4.7% (R+),-,02:00
+385,9.5%,EUR,"Thursday, December 3, 2009",9.9%,-,Low,EUR French ILO Unemployment Rate (3Q),9.4% (R+),-,07:45
+386,9.1%,EUR,"Thursday, December 3, 2009",9.3%,-,Low,EUR French ILO Mainland Unemployment Rate (3Q),9.1%,-,07:45
+387,13K,EUR,"Thursday, December 3, 2009",,-,Low,EUR French Mainland Unemployment Change (3Q),154K (R+),-,07:45
+388,49.8,EUR,"Thursday, December 3, 2009",52.2,-,Low,EUR Italian Purchasing Manager Index Services (NOV),52.2,-,08:45
+389,60.9,EUR,"Thursday, December 3, 2009",60.4,-,Low,EUR French Purchasing Manager Index Services (NOV F),60.4,-,08:50
+390,51.4,EUR,"Thursday, December 3, 2009",51.5,-,Low,EUR German Purchasing Manager Index Services (NOV F),51.5,-,08:55
+391,53.0,EUR,"Thursday, December 3, 2009",53.2,-,Low,EUR Euro-Zone Purchasing Manager Index Services (NOV F),53.2,-,09:00
+392,53.7,EUR,"Thursday, December 3, 2009",53.7,-,Low,EUR Euro-Zone Purchasing Manager Index Composite (NOV F),53.7,-,09:00
+393,56.6,GBP,"Thursday, December 3, 2009",57.0,-,Low,GBP Purchasing Manager Index Services (NOV),56.9,-,09:30
+394,$1947M,GBP,"Thursday, December 3, 2009",,-,Low,GBP Official Reserves (Changes) (NOV),$555M,-,09:30
+395,0.4%,EUR,"Thursday, December 3, 2009",0.4%,-,High,EUR Euro-Zone Gross Domestic Product s.a. (QoQ) (3Q P),0.4%,-,10:00
+396,-4.1%,EUR,"Thursday, December 3, 2009",-4.1%,-,High,EUR Euro-Zone Gross Domestic Product s.a. (YoY) (3Q P),-4.1%,-,10:00
+397,-0.2%,EUR,"Thursday, December 3, 2009",-0.1%,-,Medium,EUR Euro-Zone Household Consumption (QoQ) (3Q P),0.0% (R-),-,10:00
+398,-0.4%,EUR,"Thursday, December 3, 2009",-0.8%,-,Medium,EUR Euro-Zone Gross Fixed Capital (QoQ) (3Q P),-1.7% (R-),-,10:00
+399,0.5%,EUR,"Thursday, December 3, 2009",0.5%,-,Low,EUR Euro-Zone Government Expenditure (QoQ) (3Q P),0.6% (R-),-,10:00
+400,0.0%,EUR,"Thursday, December 3, 2009",0.2%,-,Medium,EUR Euro-Zone Retail Sales (MoM) (OCT),-0.5% (R+),-,10:00
+401,-1.9%,EUR,"Thursday, December 3, 2009",-2.4%,-,Medium,EUR Euro-Zone Retail Sales (YoY) (OCT),-2.8% (R+),-,10:00
+402,1.00%,EUR,"Thursday, December 3, 2009",1.00%,-,High,EUR European Central Bank Interest Rate Decision,1.00%,-,12:45
+403,8.1%,USD,"Thursday, December 3, 2009",8.5%,-,Low,USD Non-Farm Productivity (3Q F),9.5%,-,13:30
+404,-2.5%,USD,"Thursday, December 3, 2009",-4.1%,-,Low,USD Unit Labor Costs (3Q F),-5.2%,-,13:30
+405,457K,USD,"Thursday, December 3, 2009",480K,-,Low,USD Initial Jobless Claims (NOV 28),462K (R-),-,13:30
+406,5465K,USD,"Thursday, December 3, 2009",5400K,-,Low,USD Continuing Claims (NOV 21),5437K (R+),-,13:30
+407,-0.3%,USD,"Thursday, December 3, 2009",,-,Low,USD ICSC Chain Store Sales (YoY) (NOV),2.1%,-,14:30
+408,48.7,USD,"Thursday, December 3, 2009",51.5,-,Medium,USD ISM Non-Manufacutring Composite (NOV),50.6,-,15:00
+409,47.0,GBP,"Wednesday, December 2, 2009",46.9,-,Low,GBP Purchasing Manager Index Construction (NOV),46.2,-,09:30
+410,0.2%,EUR,"Wednesday, December 2, 2009",0.0%,-,Medium,EUR Euro-Zone Producer Price Index (MoM) (OCT),-0.4%,-,10:00
+411,-6.7%,EUR,"Wednesday, December 2, 2009",-6.8%,-,Medium,EUR Euro-Zone Producer Price Index (YoY) (OCT),-7.6% (R+),-,10:00
+412,2.1%,USD,"Wednesday, December 2, 2009",,-,Low,USD MBA Mortgage Applications (NOV 27),-4.5%,-,12:00
+413,-72.3%,USD,"Wednesday, December 2, 2009",,-,Low,USD Challenger Job Cuts (YoY) (NOV),-50.7%,-,12:30
+414,-169K,USD,"Wednesday, December 2, 2009",-150K,-,Medium,USD ADP Employment Change (NOV),-195K (R+),-,13:15
+415,2091K,USD,"Wednesday, December 2, 2009",-400K,-,Medium,USD DOE U.S. Crude Oil Inventories (NOV 27),1019K,-,15:30
+416,3996K,USD,"Wednesday, December 2, 2009",700K,-,Medium,USD DOE U.S. Gasoline Inventories (NOV 27),1003K,-,15:30
+417,-1170K,USD,"Wednesday, December 2, 2009",-150K,-,Medium,USD DOE U.S. Distillate Inventory (NOV 27),-529K,-,15:30
+418,,USD,"Wednesday, December 2, 2009",,-,Low,"USD Fed's Lacker Speaks on Economic Outlook in Charlotte, N.C.",,-,17:30
+419,,USD,"Wednesday, December 2, 2009",,-,Low,USD Fed's Beige Book,,-,19:00
+420,52.5,AUD,"Wednesday, December 2, 2009",,-,Medium,AUD AiG Performance of Service Index (NOV),54.8,-,22:30
+421,-24.8%,JPY,"Wednesday, December 2, 2009",-16.0%,-,Low,JPY Capital Spending (3Q),-21.7%,-,23:50
+422,-25.7%,JPY,"Wednesday, December 2, 2009",-17.6%,-,Low,JPY Capital Spending excl Software (3Q),-22.2%,-,23:50
+423,0.3%,JPY,"Wednesday, December 2, 2009",,-,Low,JPY Loans & Discounts Corp (YoY) (OCT),2.3%,-,23:50
+424,8.36M,USD,"Tuesday, December 1, 2009",7.80M,-,Low,USD Domestic Vehicle Sales (NOV),7.94M,-,00:00
+425,10.92M,USD,"Tuesday, December 1, 2009",10.50M,-,Low,USD Total Vehicle Sales (NOV),10.45M,-,00:00
+426,,JPY,"Tuesday, December 1, 2009",,-,Low,JPY Official Reserve Assets (NOV),$1056.8B,-,00:00
+427,-0.6%,AUD,"Tuesday, December 1, 2009",2.0%,-,Low,AUD Building Approvals (MoM) (OCT),2.7%,-,00:30
+428,11.7%,AUD,"Tuesday, December 1, 2009",9.6%,-,Low,AUD Building Approvals (YoY) (OCT),11.7%,-,00:30
+429,3.75%,AUD,"Tuesday, December 1, 2009",3.75%,-,High,AUD Reserve Bank of Australia Interest Rate Decision,3.50%,-,03:30
+430,36.0%,JPY,"Tuesday, December 1, 2009",,-,Low,JPY Vehicle Sales (YoY) (NOV),12.6%,-,05:00
+431,-25.3%,AUD,"Tuesday, December 1, 2009",,-,High,AUD RBA Commodity Index SDR (YoY) (NOV),-30.3% (R+),-,05:30
+432,0.10%,JPY,"Tuesday, December 1, 2009",,-,High,JPY BOJ Target Rate,0.10%,-,06:38
+433,0.3%,CHF,"Tuesday, December 1, 2009",0.3%,-,High,CHF Gross Domestic Product (QoQ) (3Q),-0.3%,-,06:45
+434,-1.3%,CHF,"Tuesday, December 1, 2009",-1.5%,-,High,CHF Gross Domestic Product (YoY) (3Q),-2.4% (R-),-,06:45
+435,0.5%,GBP,"Tuesday, December 1, 2009",0.4%,-,Medium,GBP Nationwide House Prices s.a. (MoM) (NOV),0.5% (R+),-,07:00
+436,2.7%,GBP,"Tuesday, December 1, 2009",2.4%,-,Medium,GBP Nationwide House Prices n.s.a. (YoY) (NOV),2.0%,-,07:00
+437,0.5%,EUR,"Tuesday, December 1, 2009",0.4%,-,Medium,EUR German Retail Sales (MoM) (OCT),-0.2% (R+),-,07:00
+438,-1.7%,EUR,"Tuesday, December 1, 2009",-1.9%,-,Low,EUR German Retail Sales (YoY) (OCT),-3.2% (R+),-,07:00
+439,56.9,CHF,"Tuesday, December 1, 2009",55.2,-,Medium,CHF SVME-Purchasing Managers Index (NOV),54.0,-,08:30
+440,50.1,EUR,"Tuesday, December 1, 2009",50.0,-,Low,EUR Italian Purchasing Manager Index Manufacturing (NOV),49.2,-,08:45
+441,54.4,EUR,"Tuesday, December 1, 2009",54.2,-,Low,EUR French Purchasing Manager Index Manufacturing (NOV F),54.2,-,08:50
+442,-7K,EUR,"Tuesday, December 1, 2009",5K,-,High,EUR German Unemployment Change (NOV),-26K,-,08:55
+443,52.4,EUR,"Tuesday, December 1, 2009",52.0,-,Low,EUR German Purchasing Manager Index Manufacturing (NOV F),52.0,-,08:55
+444,8.1%,EUR,"Tuesday, December 1, 2009",8.1%,-,High,EUR German Unemployment Rate (s.a),8.2% (R-),-,08:55
+445,51.2,EUR,"Tuesday, December 1, 2009",51.0,-,Low,EUR Euro-Zone Purchasing Manager Index Manufacturing (NOV F),51.0,-,09:00
+446,51.8,GBP,"Tuesday, December 1, 2009",54.0,-,Low,GBP Purchasing Manager Index Manufacturing (NOV),53.7,-,09:30
+447,9.8%,EUR,"Tuesday, December 1, 2009",9.8%,-,Medium,EUR Euro-Zone Unemployment Rate (OCT),9.8% (R+),-,10:00
+448,55.0,USD,"Tuesday, December 1, 2009",65.0,-,Medium,USD ISM Prices Paid (NOV),65.0,-,15:00
+449,3.7%,USD,"Tuesday, December 1, 2009",-1.0%,-,Medium,USD Pending Home Sales (MoM) (OCT),6.0% (R-),-,15:00
+450,28.6%,USD,"Tuesday, December 1, 2009",,-,Medium,USD Pending Home Sales (YoY) (OCT),19.8%,-,15:00
+451,0.0%,USD,"Tuesday, December 1, 2009",-0.5%,-,Low,USD Construction Spending (MoM) (OCT),-1.6% (R-),-,15:00
+452,53.6,USD,"Tuesday, December 1, 2009",55.0,-,High,USD ISM Manufacturing (NOV),55.7,-,15:00
+453,31.3%,EUR,"Tuesday, December 1, 2009",,-,Low,EUR Italian New Car Registrations (YoY) (NOV),15.7%,-,17:00
+454,,USD,"Tuesday, December 1, 2009",,-,Low,"USD Fed's Plosser to Speak on Economic Outlook in Rochester, N.Y.",,-,17:00
+455,-5.2B,EUR,"Tuesday, December 1, 2009",,-,Low,EUR Italian Budget Balance (euros) (NOV),-10.8B,-,18:00
+456,-88.4B,EUR,"Tuesday, December 1, 2009",,-,Low,EUR Italian Budget Balance (euros) (YTD) (NOV),-83.4B,-,18:00
+457,-45,USD,"Tuesday, December 1, 2009",,-,Low,USD ABC Consumer Confidence (NOV 29),-47,-,22:00
+458,3.8%,JPY,"Tuesday, December 1, 2009",,-,Low,JPY Monetary Base (YoY) (NOV),4.4%,-,23:50
+459,-6.0%,AUD,"Monday, November 30, 2009",,-,Medium,AUD HIA New Home Sales (MoM) (OCT),-4.5%,-,00:00
+460,-17,GBP,"Monday, November 30, 2009",-11,-,Medium,GBP GfK Consumer Confidence Survey (NOV),-13,-,00:01
+461,0.2%,GBP,"Monday, November 30, 2009",,-,Low,GBP Hometrack Housing Survey (MoM) (NOV),0.2%,-,00:01
+462,-2.9%,GBP,"Monday, November 30, 2009",,-,Low,GBP Hometrack Housing Survey (YoY) (NOV),-4.2%,-,00:01
+463,-2.1%,AUD,"Monday, November 30, 2009",0.0%,-,Low,AUD Company Operating Profit (QoQ) (3Q),-7.0% (R+),-,00:30
+464,0.8%,AUD,"Monday, November 30, 2009",-1.0%,-,Low,AUD Inventories (3Q),-3.1% (R+),-,00:30
+465,0.0%,AUD,"Monday, November 30, 2009",0.2%,-,Low,AUD Private Sector Credit (MoM) (OCT),-0.1% (R+),-,00:30
+466,1.1%,AUD,"Monday, November 30, 2009",1.6%,-,Low,AUD Private Sector Credit (YoY) (OCT),1.7%,-,00:30
+467,,JPY,"Monday, November 30, 2009",,-,Low,JPY BoJ Governor Masaaki Shirakawa to Speak in Nagoya,,-,01:00
+468,-1.7%,JPY,"Monday, November 30, 2009",-1.9%,-,Low,JPY Labor Cash Earnings (YoY) (OCT),-1.8% (R-),-,01:30
+469,-27.1%,JPY,"Monday, November 30, 2009",-33.5%,-,Medium,JPY Housing Starts (YoY) (OCT),-37.0%,-,05:00
+470,.762,JPY,"Monday, November 30, 2009",0.705M,-,Low,JPY Annualized Housing Starts (OCT),0.699M,-,05:00
+471,-40.1%,JPY,"Monday, November 30, 2009",,-,Low,JPY Construction Orders (YoY) (OCT),-14.0%,-,05:00
+472,0.8%,EUR,"Monday, November 30, 2009",0.2%,-,Medium,EUR French Producer Prices (MoM) (OCT),-0.3%,-,07:45
+473,-6.6%,EUR,"Monday, November 30, 2009",-7.3%,-,Medium,EUR French Producer Prices (YoY) (OCT),-8.0% (R+),-,07:45
+474,0.0%,EUR,"Monday, November 30, 2009",0.1%,-,Low,EUR Italian Producer Price Index (MoM) (OCT),-0.3%,-,09:00
+475,-6.1%,EUR,"Monday, November 30, 2009",-6.0%,-,Low,EUR Italian Producer Price Index (YoY) (OCT),-7.9%,-,09:00
+476,57.3K,GBP,"Monday, November 30, 2009",57.0K,-,Medium,GBP Mortgage Approvals (OCT),56.2K,-,09:30
+477,-0.6B,GBP,"Monday, November 30, 2009",-0.2B,-,Medium,GBP Net Consumer Credit (OCT),-0.3B,-,09:30
+478,0.9B,GBP,"Monday, November 30, 2009",1.0B,-,Medium,GBP Net Lending Sec. on Dwellings (OCT),0.9B,-,09:30
+479,1.6%,GBP,"Monday, November 30, 2009",,-,Low,GBP M4 Money Supply (MoM) (OCT F),1.8%,-,09:30
+480,10.8%,GBP,"Monday, November 30, 2009",,-,Low,GBP M4 Money Supply (YoY) (OCT F),11.0%,-,09:30
+481,0.1%,EUR,"Monday, November 30, 2009",0.2%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (MoM) (NOV P),0.1%,-,10:00
+482,0.7%,EUR,"Monday, November 30, 2009",0.8%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (YoY) (NOV P),0.3%,-,10:00
+483,0.1%,EUR,"Monday, November 30, 2009",0.1%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (MoM) (NOV P),0.4%,-,10:00
+484,0.8%,EUR,"Monday, November 30, 2009",0.8%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (YoY) (NOV P),0.3%,-,10:00
+485,0.6%,EUR,"Monday, November 30, 2009",0.4%,-,Medium,EUR Euro-Zone Consumer Price Index Estimate (YoY) (NOV),-0.1%,-,10:00
+486,0.4%,CAD,"Monday, November 30, 2009",1.0%,-,High,CAD Quarterly Gross Domestic Product Annualized (3Q),-3.1% (R+),-,13:30
+487,0.4%,CAD,"Monday, November 30, 2009",0.4%,-,Medium,CAD Gross Domestic Product (MoM) (SEP),-0.1%,-,13:30
+488,-0.3%,CAD,"Monday, November 30, 2009",0.3%,-,Low,CAD Industrial Product Price (MoM) (OCT),-0.4% (R+),-,13:30
+489,2.5%,CAD,"Monday, November 30, 2009",3.3%,-,Low,CAD Raw Materials Price Index (MoM) (OCT),-1.0% (R+),-,13:30
+490,56.1,USD,"Monday, November 30, 2009",53.0,-,Low,USD Chicago Purchasing Manager (NOV),54.2,-,14:45
+491,57.0,USD,"Monday, November 30, 2009",,-,Low,USD NAPM-Milwaukee (NOV),50.0,-,15:00
+492,0.3%,USD,"Monday, November 30, 2009",0.0%,-,Low,USD Dallas Fed Manufacturing Activity (NOV),-3.3%,-,15:30
+493,-0.5,USD,"Monday, November 30, 2009",,-,Low,USD Bloomberg Financial Conditions Index (APR) (NOV),-0.9,-,21:15
+494,51.2,AUD,"Monday, November 30, 2009",,-,Medium,AUD AiG Performance of Manufacturing Index (NOV),51.7,-,22:30
+495,52.3,JPY,"Sunday, November 29, 2009",,-,Low,JPY Nomura/JMMA Manufacturing Purchasing Manager Index (NOV),54.3,-,00:00
+496,11.7%,NZD,"Sunday, November 29, 2009",,-,Low,NZD Building Permits (MoM) (OCT),3.3%,-,21:45
+497,0.3%,AUD,"Sunday, November 29, 2009",,-,Low,AUD TD Securities Inflation (MoM) (NOV),-0.3%,-,23:30
+498,2.1%,AUD,"Sunday, November 29, 2009",,-,Low,AUD TD Securities Inflation (YoY) (NOV),1.2%,-,23:30
+499,0.5%,JPY,"Sunday, November 29, 2009",2.5%,-,Medium,JPY Industrial Production (MoM) (OCT P),1.4% (R-),-,23:50
+500,-15.1%,JPY,"Sunday, November 29, 2009",-13.4%,-,Medium,JPY Industrial Production (YoY) (OCT P),-18.9% (R-),-,23:50
+501,0.8%,NZD,"Friday, November 27, 2009",,-,Low,NZD Money Supply M3 (YoY) (OCT),2.7%,-,02:00
+502,0.5%,EUR,"Friday, November 27, 2009",0.4%,-,Low,EUR German Import Price Index (MoM) (OCT),-0.9%,-,07:00
+503,-8.1%,EUR,"Friday, November 27, 2009",-7.8%,-,Low,EUR German Import Price Index (YoY) (OCT),-11.4% (R-),-,07:00
+504,-30,EUR,"Friday, November 27, 2009",-35,-,Low,EUR French Consumer Confidence Indicator (NOV),-34 (R+),-,07:45
+505,-2.0%,EUR,"Friday, November 27, 2009",,-,Low,EUR Italian Large Company Employment n.s.a. (YoY) (SEP),-1.9%,-,09:00
+506,0.2%,EUR,"Friday, November 27, 2009",0.2%,-,Low,EUR Italian Hourly Wages (MoM) (OCT),0.7%,-,09:00
+507,3.2%,EUR,"Friday, November 27, 2009",3.2%,-,Low,EUR Italian Hourly Wages (YoY) (OCT),3.1%,-,09:00
+508,88.8,EUR,"Friday, November 27, 2009",88.0,-,Medium,EUR Euro-Zone Economic Confidence (NOV),86.1 (R-),-,10:00
+509,-1.56,EUR,"Friday, November 27, 2009",-1.65,-,Medium,EUR Euro-Zone Business Climate Indicator (NOV),-1.79 (R-),-,10:00
+510,-17.0,EUR,"Friday, November 27, 2009",-17.0,-,Medium,EUR Euro-Zone Consumer Confidence (NOV),-18.0,-,10:00
+511,-19.0,EUR,"Friday, November 27, 2009",-19.0,-,Low,EUR Euro-Zone Industrial Confidence (NOV),-21.0,-,10:00
+512,-4.0,EUR,"Friday, November 27, 2009",-6.0,-,Low,EUR Euro-Zone Services Confidence (NOV),-7.0,-,10:00
+513,1.62,CHF,"Friday, November 27, 2009",1.78,-,Medium,CHF KOF Swiss Leading Indicator (NOV),1.44 (R-),-,10:30
+514,-13.1B,CAD,"Friday, November 27, 2009",-13.4B,-,Medium,CAD Current Account (BoP) (Canadian dollar) (3Q),-11.9B (R-),-,13:30
+515,43.4,NZD,"Thursday, November 26, 2009",,-,Medium,NZD NBNZ Business Confidence (NOV),48.2,-,02:00
+516,-3.9%,AUD,"Thursday, November 26, 2009",1.0%,-,Medium,AUD Private Capital Expenditure (QoQ) (3Q),2.1% (R-),-,02:06
+517,78.8,EUR,"Thursday, November 26, 2009",78.0,-,Low,EUR Italian Business Confidence (NOV),77.4 (R+),-,08:30
+518,102.0,EUR,"Thursday, November 26, 2009",,-,Low,EUR Italian Retailers' Confidence General (NOV),93.8 (R+),-,08:30
+519,-2,EUR,"Thursday, November 26, 2009",,-,Low,EUR Italian Services Survey (NOV),-7,-,08:30
+520,117.0M,EUR,"Thursday, November 26, 2009",2350.0M,-,Low,EUR Italian Trade Balance Non-Eu (euros) (OCT),-509.0M (R+),-,09:00
+521,0.3%,EUR,"Thursday, November 26, 2009",0.8%,-,Low,EUR Euro-Zone M3 s.a. (YoY) (OCT),1.8%,-,09:00
+522,1.6%,EUR,"Thursday, November 26, 2009","1,7%",-,Low,EUR Euro-Zone M3 s.a. (3M) (OCT),2.5%,-,09:00
+523,13,GBP,"Thursday, November 26, 2009",,-,Low,GBP U.K. CBI Quaterly Distributive Trades,19,-,11:00
+524,-0.2%,EUR,"Thursday, November 26, 2009",0.0%,-,Medium,EUR German Consumer Price Index (MoM) (NOV P),0.1%,-,15:50
+525,0.3%,EUR,"Thursday, November 26, 2009",0.5%,-,High,EUR German Consumer Price Index (YoY) (NOV P),0.0%,-,15:50
+526,-0.1%,EUR,"Thursday, November 26, 2009",0.0%,-,Medium,EUR German Consumer Price Index - EU Harmonised (MoM) (NOV P),0.1%,-,15:50
+527,0.4%,EUR,"Thursday, November 26, 2009",0.5%,-,Medium,EUR German Consumer Price Index - EU Harmonised (YoY) (NOV P),-0.1%,-,15:50
+528,2627.3,EUR,"Thursday, November 26, 2009",,-,Low,EUR French Total Jobseekers (OCT),2574.9,-,17:00
+529,52.4,EUR,"Thursday, November 26, 2009",16.5,-,Low,EUR French Total Jobseekers Change (OCT),21.6,-,17:00
+530,-487M,NZD,"Thursday, November 26, 2009",-480M,-,Low,NZD Trade Balance (New Zealand dollars) (OCT),-563M (R-),-,21:45
+531,-1164M,NZD,"Thursday, November 26, 2009",-1010M,-,Low,NZD Balance (YTD) (New Zealand dollars) (OCT),-1671M (R-),-,21:45
+532,3.45B,NZD,"Thursday, November 26, 2009",3.60B,-,Low,NZD Imports (New Zealand dollars) (OCT),3.39B (R+),-,21:45
+533,2.97B,NZD,"Thursday, November 26, 2009",3.14B,-,Low,NZD Exports (New Zealand dollars) (OCT),2.83B,-,21:45
+534,5.1%,JPY,"Thursday, November 26, 2009",5.4%,-,Medium,JPY Jobless Rate (OCT),5.3%,-,23:30
+535,0.44,JPY,"Thursday, November 26, 2009",0.44,-,Low,JPY Job-To-Applicant Ratio (OCT),0.43,-,23:30
+536,1.6%,JPY,"Thursday, November 26, 2009",0.7%,-,Medium,JPY Household Spending (YoY) (OCT),1.0%,-,23:30
+537,-2.2%,JPY,"Thursday, November 26, 2009",-2.3%,-,Low,JPY Tokyo Consumer Price Index (YoY) (NOV),-2.4%,-,23:30
+538,-1.9%,JPY,"Thursday, November 26, 2009",-2.0%,-,Low,JPY Tokyo Consumer Price Index Ex-Fresh Food (YoY) (NOV),-2.2%,-,23:30
+539,-1.3%,JPY,"Thursday, November 26, 2009",-1.4%,-,Low,"JPY Tokyo Consumer Price Index Ex Food, Energy (YoY) (NOV)",-1.4%,-,23:30
+540,-2.5%,JPY,"Thursday, November 26, 2009",-2.4%,-,Low,JPY National Consumer Price Index (YoY) (OCT),-2.2%,-,23:30
+541,-2.2%,JPY,"Thursday, November 26, 2009",-2.2%,-,Low,JPY National Consumer Price Index Ex-Fresh Food (YoY) (OCT),-2.3%,-,23:30
+542,-1.1%,JPY,"Thursday, November 26, 2009",-1.1%,-,Low,"JPY National Consumer Price Index Ex Food, Energy (YoY) (OCT)",-1.0%,-,23:30
+543,-7.2%,JPY,"Thursday, November 26, 2009",-5.8%,-,Medium,JPY Large Retailers' Sales (OCT),-5.6%,-,23:50
+544,-0.9%,JPY,"Thursday, November 26, 2009",-0.9%,-,Low,JPY Retail Trade s.a. (MoM) (OCT),0.9%,-,23:50
+545,-0.9%,JPY,"Thursday, November 26, 2009",-1.6%,-,Low,JPY Retail Trade (YoY) (OCT),-1.3%(R+),-,23:50
+546,43.0,JPY,"Wednesday, November 25, 2009",,-,Low,JPY Small Business Confidence (NOV),43.4,-,00:00
+547,2.4%,AUD,"Wednesday, November 25, 2009",,-,Low,AUD DEWR Skilled Vacancies (MoM) (NOV),1.9%,-,00:00
+548,2.2%,AUD,"Wednesday, November 25, 2009",0.0%,-,Low,AUD Construction Work Done (3Q),4.5% (R+),-,00:30
+549,3.7,EUR,"Wednesday, November 25, 2009",4.0,-,Medium,EUR German GfK Consumer Confidence Survey (DEC),4.0,-,07:00
+550,112.8,EUR,"Wednesday, November 25, 2009",111.5,-,Low,EUR Italian Consumer Confidence Index s.a. (NOV),111.7,-,08:30
+551,-0.1%,EUR,"Wednesday, November 25, 2009",0.1%,-,Low,EUR Italian Retail Sales s.a. (MoM) (SEP),0.1% (R+),-,09:00
+552,-1.6%,EUR,"Wednesday, November 25, 2009",-2.9%,-,Low,EUR Italian Retail Sales (YoY) (SEP),-2.4% (R+),-,09:00
+553,-0.3%,GBP,"Wednesday, November 25, 2009",-0.3%,-,High,GBP Gross Domestic Product (QoQ) (3Q P),-0.4%,-,09:30
+554,-5.1%,GBP,"Wednesday, November 25, 2009",-5.1%,-,High,GBP Gross Domestic Product (YoY) (3Q P),-5.2%,-,09:30
+555,0.0%,GBP,"Wednesday, November 25, 2009",-0.2%,-,Medium,GBP Private Consumption (3Q P),-0.6%,-,09:30
+556,0.2%,GBP,"Wednesday, November 25, 2009",0.5%,-,Medium,GBP Government Spending (3Q P),0.6%,-,09:30
+557,-0.3%,GBP,"Wednesday, November 25, 2009",-3.3%,-,Low,GBP Gross Fixed Capital Formation (3Q P),-5.2%,-,09:30
+558,0.5%,GBP,"Wednesday, November 25, 2009",1.4%,-,Medium,GBP Exports (3Q P),-1.4%,-,09:30
+559,1.3%,GBP,"Wednesday, November 25, 2009",2.0%,-,Medium,GBP Imports (3Q P),-2.2%,-,09:30
+560,-0.1%,GBP,"Wednesday, November 25, 2009",-0.1%,-,Medium,GBP Index of Services (3Mo3M) (SEP),-0.1%,-,09:30
+561,-4.5%,USD,"Wednesday, November 25, 2009",,-,Low,USD MBA Mortgage Applications (NOV 20),0.3% (R+),-,12:00
+562,-0.6%,USD,"Wednesday, November 25, 2009",0.5%,-,Medium,USD Durable Goods Orders (OCT),2.0%(R+),-,13:30
+563,-1.3%,USD,"Wednesday, November 25, 2009",0.7%,-,Medium,USD Durables Ex Transportation (OCT),1.8%(R+),-,13:30
+564,0.2%,USD,"Wednesday, November 25, 2009",0.1%,-,Low,USD Personal Income (OCT),0.2% (R+),-,13:30
+565,0.7%,USD,"Wednesday, November 25, 2009",0.5%,-,Medium,USD Personal Spending (OCT),-0.6% (R-),-,13:30
+566,0.2%,USD,"Wednesday, November 25, 2009",0.1%,-,Medium,USD Personal Consumption Expenditure Deflator (YoY) (OCT),-0.6% (R-),-,13:30
+567,0.2%,USD,"Wednesday, November 25, 2009",0.1%,-,Medium,USD Personal Consumption Expenditure Core (MoM) (OCT),0.1%,-,13:30
+568,1.4%,USD,"Wednesday, November 25, 2009",1.4%,-,Medium,USD Personal Consumption Expenditure Core (YoY) (OCT),1.3%,-,13:30
+569,466K,USD,"Wednesday, November 25, 2009",500K,-,Low,USD Initial Jobless Claims (NOV 21),501K (R-),-,13:30
+570,5423K,USD,"Wednesday, November 25, 2009",5565K,-,Low,USD Continuing Claims (NOV 14),5613K (R+),-,13:30
+571,67.4,USD,"Wednesday, November 25, 2009",67,-,Low,USD U. of Michigan Confidence (NOV F),66,-,15:00
+572,430K,USD,"Wednesday, November 25, 2009",404K,-,Medium,USD New Home Sales (OCT),405K (R+),-,15:00
+573,6.2%,USD,"Wednesday, November 25, 2009",0.4%,-,High,USD New Home Sales (MoM) (OCT),-2.4% (R+),-,15:00
+574,1019K,USD,"Wednesday, November 25, 2009",1500K,-,Medium,USD DOE U.S. Crude Oil Inventories (NOV 20),-887K,-,15:30
+575,1003K,USD,"Wednesday, November 25, 2009",300K,-,Medium,USD DOE U.S. Gasoline Inventories (NOV 20),-1755K,-,15:30
+576,-529K,USD,"Wednesday, November 25, 2009",0K,-,Medium,USD DOE U.S. Distillate Inventory (NOV 20),-328K,-,15:30
+577,,JPY,"Wednesday, November 25, 2009",,-,Medium,JPY Bank of Japan Meeting Minutes,,-,23:50
+578,,JPY,"Tuesday, November 24, 2009",,-,Low,JPY Nomura/JMMA Manufacturing Purchasing Manager Index (NOV),54.3,-,00:00
+579,-5.2%,JPY,"Tuesday, November 24, 2009",,-,Low,JPY Supermarket Sales (YoY) (OCT),-2.4%,-,05:00
+580,,JPY,"Tuesday, November 24, 2009",,-,Medium,JPY Bank of Japan Monthly Report,,-,05:00
+581,.867,CHF,"Tuesday, November 24, 2009",,-,Medium,CHF UBS Consumption Indicator (OCT),0.671 (R+),-,07:00
+582,0.7%,EUR,"Tuesday, November 24, 2009",0.7%,-,Medium,EUR German Gross Domestic Product s.a. (QoQ) (3Q F),0.7%,-,07:00
+583,-4.8%,EUR,"Tuesday, November 24, 2009",-4.8%,-,Medium,EUR German Gross Domestic Product w.d.a. (YoY) (3Q F),-4.8%,-,07:00
+584,-4.7%,EUR,"Tuesday, November 24, 2009",-4.7%,-,Medium,EUR German Gross Domestic Product n.s.a. (YoY) (3Q F),-4.7%,-,07:00
+585,-0.9%,EUR,"Tuesday, November 24, 2009",-0.4%,-,Medium,EUR German Private Consumption (3Q),0.7%,-,07:00
+586,0.1%,EUR,"Tuesday, November 24, 2009",0.3%,-,Low,EUR German Government Spending (3Q F),0.6% (R+),-,07:00
+587,1.3%,EUR,"Tuesday, November 24, 2009",0.8%,-,Low,EUR German Capital Investment (3Q F),0.7% (R-),-,07:00
+588,1.5%,EUR,"Tuesday, November 24, 2009",0.6%,-,Low,EUR German Construction Investment (3Q F),1.3% (R-),-,07:00
+589,1.3%,EUR,"Tuesday, November 24, 2009",0.2%,-,Low,EUR German Domestic Demand (3Q F),-1.4% (R-),-,07:00
+590,5.0%,EUR,"Tuesday, November 24, 2009",3.5%,-,Low,EUR German Imports (3Q F),-5.4% (R-),-,07:00
+591,3.4%,EUR,"Tuesday, November 24, 2009",4.1%,-,Low,EUR German Exports (3Q F),-0.8% (R+),-,07:00
+592,89,EUR,"Tuesday, November 24, 2009",91,-,Low,EUR French Business Confidence Indicator (NOV),89,-,07:45
+593,-3,EUR,"Tuesday, November 24, 2009",1,-,Low,EUR French Own-Company Production Outlook (NOV),-3 (R-),-,07:45
+594,-9,EUR,"Tuesday, November 24, 2009",-9,-,Low,EUR French Production Outlook Indicator (NOV),-10 (R+),-,07:45
+595,1.1%,EUR,"Tuesday, November 24, 2009",0.4,-,Low,EUR French Consumer Spending (MoM) (OCT),2.4% (R+),-,07:50
+596,3.5%,EUR,"Tuesday, November 24, 2009",2.3%,-,Low,EUR French Consumer Spending (YoY) (OCT),1.1% (R+),-,07:50
+597,3.963M,CHF,"Tuesday, November 24, 2009",3.936M,-,Low,CHF Employment Level (3Q),3.945M,-,08:15
+598,98.9,EUR,"Tuesday, November 24, 2009",97.3,-,Medium,EUR German IFO - Expectations (NOV),96.8,-,09:00
+599,93.9,EUR,"Tuesday, November 24, 2009",92.5,-,Medium,EUR German IFO - Business Climate (NOV),91.9,-,09:00
+600,89.1,EUR,"Tuesday, November 24, 2009",88,-,Medium,EUR German IFO - Current Assessment (NOV),87.3,-,09:00
+601,-3.0%,GBP,"Tuesday, November 24, 2009",-5.0%,-,Low,GBP Total Business Investment (QoQ) (3Q P),-10.2%,-,09:30
+602,-21.7%,GBP,"Tuesday, November 24, 2009",-22.9%,-,Low,GBP Total Business Investment (YoY) (3Q P),-21.8%,-,09:30
+603,42238,GBP,"Tuesday, November 24, 2009",44000,-,Medium,GBP BBA Loans for House Purchase (OCT),42073 (R-),-,09:30
+604,1.5%,EUR,"Tuesday, November 24, 2009",1.0%,-,Medium,EUR Euro-Zone Industrial New Orders s.a. (MoM) (SEP),0.6% (R-),-,10:00
+605,-16.5%,EUR,"Tuesday, November 24, 2009",-17.3%,-,Medium,EUR Euro-Zone Industrial New Orders (YoY) (SEP),-23.2% (R+),-,10:00
+606,2.8%,USD,"Tuesday, November 24, 2009",2.8%,-,High,USD Gross Domestic Product (Annualized) (3Q S),3.5%,-,13:30
+607,2.9%,USD,"Tuesday, November 24, 2009",3.2%,-,Medium,USD Personal Consumption (3Q S),3.4%,-,13:30
+608,0.5%,USD,"Tuesday, November 24, 2009",0.8%,-,Low,USD Gross Domestic Product Price Index (3Q S),0.8%,-,13:30
+609,1.3%,USD,"Tuesday, November 24, 2009",1.4%,-,Medium,USD Core Personal Consumption Expenditure (QoQ) (3Q S),1.4%,-,13:30
+610,146.51,USD,"Tuesday, November 24, 2009",146.90,-,Medium,USD S&P/Case-Shiller Home Price Index (SEP),146.03 (R+),-,14:00
+611,-9.36%,USD,"Tuesday, November 24, 2009",-9.10%,-,Low,USD S&P/Case-Shiller Composite-20 (YoY) (SEP),-11.30% (R+),-,14:00
+612,137.19,USD,"Tuesday, November 24, 2009",,-,Low,USD S&P/Case-Shiller US Home Price Index (3Q),133.01 (R+),-,14:00
+613,-8.86%,USD,"Tuesday, November 24, 2009",-10.25%,-,Low,USD S&P/Case-Shiller US Home Price Index (YoY) (3Q),-14.74% (R+),-,14:00
+614,49.5,USD,"Tuesday, November 24, 2009",47.3,-,High,USD Consumer Confidence (NOV),48.7 (R+),-,15:00
+615,0.0%,USD,"Tuesday, November 24, 2009",0.1%,-,Medium,USD House Price Index (MoM) (SEP),-0.3%,-,15:00
+616,0.2%,USD,"Tuesday, November 24, 2009",0.3%,-,Low,USD House Price Purchase Index (QoQ) (3Q),-0.7%,-,15:00
+617,1,USD,"Tuesday, November 24, 2009",8,-,Low,USD Richmond Fed Manufacturing Index (NOV),7,-,15:00
+618,,USD,"Tuesday, November 24, 2009",,-,Medium,USD Federal Open Market Committee Meeting Minutes,,-,19:00
+619,3347K,USD,"Tuesday, November 24, 2009",,-,Medium,USD API U.S. Crude Oil Inventories (NOV 20),-4367K,-,21:30
+620,1707K,USD,"Tuesday, November 24, 2009",,-,Medium,USD API U.S. Gasoline Inventories (NOV 20),-963K,-,21:30
+621,-2360K,USD,"Tuesday, November 24, 2009",,-,Medium,USD API U.S. Distillate Inventory (NOV 20),507K,-,21:30
+622,-47,USD,"Tuesday, November 24, 2009",,-,Low,USD ABC Consumer Confidence (NOV 22),-45,-,22:00
+623,,AUD,"Tuesday, November 24, 2009",,-,Medium,AUD Reserve Bank of Australia Deputy Governor Speaks in Melbourne,,-,22:00
+624,801.7B,JPY,"Tuesday, November 24, 2009",465.5B,-,Low,JPY Merchandise Trade Balance Total (Yen) (OCT),525.3B (R+),-,23:50
+625,419.1B,JPY,"Tuesday, November 24, 2009",300.0B,-,Low,JPY Adjusted Merchandise Trade Balance (Yen) (OCT),58.6B,-,23:50
+626,-23.2%,JPY,"Tuesday, November 24, 2009",-26.8%,-,Low,JPY Merchandise Trade Exports (YoY) (OCT),-30.6% (R-),-,23:50
+627,-2.2%,JPY,"Tuesday, November 24, 2009",-2.6%,-,Low,JPY Corporate Service Price (YoY) (OCT),-3.2%,-,23:50
+628,-35.6%,JPY,"Tuesday, November 24, 2009",-34.0%,-,Low,JPY Merchandise Trade Imports (YoY) (OCT),-36.9%,-,23:50
+629,3.7%,AUD,"Monday, November 23, 2009",,-,Low,AUD New Motor Vehicle Sales (MoM) (OCT),3.1% (R+),-,00:30
+630,3.3%,AUD,"Monday, November 23, 2009",,-,Low,AUD New Motor Vehicle Sales (YoY) (OCT),-1.8% (R+),-,00:30
+631,7.7%,CHF,"Monday, November 23, 2009",,-,Low,CHF Money Supply M3 (YoY) (OCT),7.8%,-,08:00
+632,54.2,EUR,"Monday, November 23, 2009",56.0,-,Low,EUR French Purchasing Manager Index Manufacturing (NOV P),55.6,-,08:00
+633,60.4,EUR,"Monday, November 23, 2009",57.8,-,Low,EUR French Purchasing Manager Index Services (NOV P),57.7,-,08:00
+634,52.0,EUR,"Monday, November 23, 2009",51.6,-,Medium,EUR German Purchasing Manager Index Manufacturing (NOV A),51.0,-,08:30
+635,51.5,EUR,"Monday, November 23, 2009",51.2,-,Medium,EUR German Purchasing Manager Index Services (NOV A),50.7,-,08:30
+636,51.0,EUR,"Monday, November 23, 2009",51.2,-,Medium,EUR Euro-Zone Purchasing Manager Index Manufacturing (NOV A),50.7,-,09:00
+637,53.2,EUR,"Monday, November 23, 2009",52.9,-,Medium,EUR Euro-Zone Purchasing Manager Index Services (NOV A),52.6,-,09:00
+638,53.7,EUR,"Monday, November 23, 2009",53.4,-,Medium,EUR Euro-Zone Purchasing Manager Index Composite (NOV A),53.0,-,09:00
+639,1.0%,CAD,"Monday, November 23, 2009",0.6%,-,High,CAD Retail Sales (MoM) (SEP),1.0%(R+),-,13:30
+640,1.1%,CAD,"Monday, November 23, 2009",0.4%,-,Medium,CAD Retail Sales Less Autos (MoM) (SEP),0.7%(R+),-,13:30
+641,-1.08,USD,"Monday, November 23, 2009",,-,Medium,USD Chicago Fed National Activity Index (OCT),-1.01 (R-),-,13:30
+642,6.10M,USD,"Monday, November 23, 2009",5.70M,-,Medium,USD Existing Home Sales (OCT),5.54M (R-),-,15:00
+643,10.1%,USD,"Monday, November 23, 2009",2.3%,-,Medium,USD Existing Home Sales (MoM) (OCT),8.8% (R-),-,15:00
+644,0.3%,AUD,"Monday, November 23, 2009",,-,Medium,AUD Conference Board Leading Index (SEP),1.5% (R-),-,23:00
+645,-0.7%,NZD,"Sunday, November 22, 2009",,-,Low,NZD Visitor Arrivals (OCT),3.8%,-,21:45
+646,0.8%,NZD,"Friday, November 27, 2009",,-,Low,NZD Money Supply M3 (YoY) (OCT),2.7%,-,02:00
+647,0.5%,EUR,"Friday, November 27, 2009",0.4%,-,Low,EUR German Import Price Index (MoM) (OCT),-0.9%,-,07:00
+648,-8.1%,EUR,"Friday, November 27, 2009",-7.8%,-,Low,EUR German Import Price Index (YoY) (OCT),-11.4% (R-),-,07:00
+649,-30,EUR,"Friday, November 27, 2009",-35,-,Low,EUR French Consumer Confidence Indicator (NOV),-34 (R+),-,07:45
+650,-2.0%,EUR,"Friday, November 27, 2009",,-,Low,EUR Italian Large Company Employment n.s.a. (YoY) (SEP),-1.9%,-,09:00
+651,0.2%,EUR,"Friday, November 27, 2009",0.2%,-,Low,EUR Italian Hourly Wages (MoM) (OCT),0.7%,-,09:00
+652,3.2%,EUR,"Friday, November 27, 2009",3.2%,-,Low,EUR Italian Hourly Wages (YoY) (OCT),3.1%,-,09:00
+653,88.8,EUR,"Friday, November 27, 2009",88.0,-,Medium,EUR Euro-Zone Economic Confidence (NOV),86.1 (R-),-,10:00
+654,-1.56,EUR,"Friday, November 27, 2009",-1.65,-,Medium,EUR Euro-Zone Business Climate Indicator (NOV),-1.79 (R-),-,10:00
+655,-17.0,EUR,"Friday, November 27, 2009",-17.0,-,Medium,EUR Euro-Zone Consumer Confidence (NOV),-18.0,-,10:00
+656,-19.0,EUR,"Friday, November 27, 2009",-19.0,-,Low,EUR Euro-Zone Industrial Confidence (NOV),-21.0,-,10:00
+657,-4.0,EUR,"Friday, November 27, 2009",-6.0,-,Low,EUR Euro-Zone Services Confidence (NOV),-7.0,-,10:00
+658,1.62,CHF,"Friday, November 27, 2009",1.78,-,Medium,CHF KOF Swiss Leading Indicator (NOV),1.44 (R-),-,10:30
+659,-13.1B,CAD,"Friday, November 27, 2009",-13.4B,-,Medium,CAD Current Account (BoP) (Canadian dollar) (3Q),-11.9B (R-),-,13:30
+660,43.4,NZD,"Thursday, November 26, 2009",,-,Medium,NZD NBNZ Business Confidence (NOV),48.2,-,02:00
+661,-3.9%,AUD,"Thursday, November 26, 2009",1.0%,-,Medium,AUD Private Capital Expenditure (QoQ) (3Q),2.1% (R-),-,02:06
+662,78.8,EUR,"Thursday, November 26, 2009",78.0,-,Low,EUR Italian Business Confidence (NOV),77.4 (R+),-,08:30
+663,102.0,EUR,"Thursday, November 26, 2009",,-,Low,EUR Italian Retailers' Confidence General (NOV),93.8 (R+),-,08:30
+664,-2,EUR,"Thursday, November 26, 2009",,-,Low,EUR Italian Services Survey (NOV),-7,-,08:30
+665,117.0M,EUR,"Thursday, November 26, 2009",2350.0M,-,Low,EUR Italian Trade Balance Non-Eu (euros) (OCT),-509.0M (R+),-,09:00
+666,0.3%,EUR,"Thursday, November 26, 2009",0.8%,-,Low,EUR Euro-Zone M3 s.a. (YoY) (OCT),1.8%,-,09:00
+667,1.6%,EUR,"Thursday, November 26, 2009","1,7%",-,Low,EUR Euro-Zone M3 s.a. (3M) (OCT),2.5%,-,09:00
+668,13,GBP,"Thursday, November 26, 2009",,-,Low,GBP U.K. CBI Quaterly Distributive Trades,19,-,11:00
+669,-0.2%,EUR,"Thursday, November 26, 2009",0.0%,-,Medium,EUR German Consumer Price Index (MoM) (NOV P),0.1%,-,15:50
+670,0.3%,EUR,"Thursday, November 26, 2009",0.5%,-,High,EUR German Consumer Price Index (YoY) (NOV P),0.0%,-,15:50
+671,-0.1%,EUR,"Thursday, November 26, 2009",0.0%,-,Medium,EUR German Consumer Price Index - EU Harmonised (MoM) (NOV P),0.1%,-,15:50
+672,0.4%,EUR,"Thursday, November 26, 2009",0.5%,-,Medium,EUR German Consumer Price Index - EU Harmonised (YoY) (NOV P),-0.1%,-,15:50
+673,2627.3,EUR,"Thursday, November 26, 2009",,-,Low,EUR French Total Jobseekers (OCT),2574.9,-,17:00
+674,52.4,EUR,"Thursday, November 26, 2009",16.5,-,Low,EUR French Total Jobseekers Change (OCT),21.6,-,17:00
+675,-487M,NZD,"Thursday, November 26, 2009",-480M,-,Low,NZD Trade Balance (New Zealand dollars) (OCT),-563M (R-),-,21:45
+676,-1164M,NZD,"Thursday, November 26, 2009",-1010M,-,Low,NZD Balance (YTD) (New Zealand dollars) (OCT),-1671M (R-),-,21:45
+677,3.45B,NZD,"Thursday, November 26, 2009",3.60B,-,Low,NZD Imports (New Zealand dollars) (OCT),3.39B (R+),-,21:45
+678,2.97B,NZD,"Thursday, November 26, 2009",3.14B,-,Low,NZD Exports (New Zealand dollars) (OCT),2.83B,-,21:45
+679,5.1%,JPY,"Thursday, November 26, 2009",5.4%,-,Medium,JPY Jobless Rate (OCT),5.3%,-,23:30
+680,0.44,JPY,"Thursday, November 26, 2009",0.44,-,Low,JPY Job-To-Applicant Ratio (OCT),0.43,-,23:30
+681,1.6%,JPY,"Thursday, November 26, 2009",0.7%,-,Medium,JPY Household Spending (YoY) (OCT),1.0%,-,23:30
+682,-2.2%,JPY,"Thursday, November 26, 2009",-2.3%,-,Low,JPY Tokyo Consumer Price Index (YoY) (NOV),-2.4%,-,23:30
+683,-1.9%,JPY,"Thursday, November 26, 2009",-2.0%,-,Low,JPY Tokyo Consumer Price Index Ex-Fresh Food (YoY) (NOV),-2.2%,-,23:30
+684,-1.3%,JPY,"Thursday, November 26, 2009",-1.4%,-,Low,"JPY Tokyo Consumer Price Index Ex Food, Energy (YoY) (NOV)",-1.4%,-,23:30
+685,-2.5%,JPY,"Thursday, November 26, 2009",-2.4%,-,Low,JPY National Consumer Price Index (YoY) (OCT),-2.2%,-,23:30
+686,-2.2%,JPY,"Thursday, November 26, 2009",-2.2%,-,Low,JPY National Consumer Price Index Ex-Fresh Food (YoY) (OCT),-2.3%,-,23:30
+687,-1.1%,JPY,"Thursday, November 26, 2009",-1.1%,-,Low,"JPY National Consumer Price Index Ex Food, Energy (YoY) (OCT)",-1.0%,-,23:30
+688,-7.2%,JPY,"Thursday, November 26, 2009",-5.8%,-,Medium,JPY Large Retailers' Sales (OCT),-5.6%,-,23:50
+689,-0.9%,JPY,"Thursday, November 26, 2009",-0.9%,-,Low,JPY Retail Trade s.a. (MoM) (OCT),0.9%,-,23:50
+690,-0.9%,JPY,"Thursday, November 26, 2009",-1.6%,-,Low,JPY Retail Trade (YoY) (OCT),-1.3%(R+),-,23:50
+691,43.0,JPY,"Wednesday, November 25, 2009",,-,Low,JPY Small Business Confidence (NOV),43.4,-,00:00
+692,2.4%,AUD,"Wednesday, November 25, 2009",,-,Low,AUD DEWR Skilled Vacancies (MoM) (NOV),1.9%,-,00:00
+693,2.2%,AUD,"Wednesday, November 25, 2009",0.0%,-,Low,AUD Construction Work Done (3Q),4.5% (R+),-,00:30
+694,3.7,EUR,"Wednesday, November 25, 2009",4.0,-,Medium,EUR German GfK Consumer Confidence Survey (DEC),4.0,-,07:00
+695,112.8,EUR,"Wednesday, November 25, 2009",111.5,-,Low,EUR Italian Consumer Confidence Index s.a. (NOV),111.7,-,08:30
+696,-0.1%,EUR,"Wednesday, November 25, 2009",0.1%,-,Low,EUR Italian Retail Sales s.a. (MoM) (SEP),0.1% (R+),-,09:00
+697,-1.6%,EUR,"Wednesday, November 25, 2009",-2.9%,-,Low,EUR Italian Retail Sales (YoY) (SEP),-2.4% (R+),-,09:00
+698,-0.3%,GBP,"Wednesday, November 25, 2009",-0.3%,-,High,GBP Gross Domestic Product (QoQ) (3Q P),-0.4%,-,09:30
+699,-5.1%,GBP,"Wednesday, November 25, 2009",-5.1%,-,High,GBP Gross Domestic Product (YoY) (3Q P),-5.2%,-,09:30
+700,0.0%,GBP,"Wednesday, November 25, 2009",-0.2%,-,Medium,GBP Private Consumption (3Q P),-0.6%,-,09:30
+701,0.2%,GBP,"Wednesday, November 25, 2009",0.5%,-,Medium,GBP Government Spending (3Q P),0.6%,-,09:30
+702,-0.3%,GBP,"Wednesday, November 25, 2009",-3.3%,-,Low,GBP Gross Fixed Capital Formation (3Q P),-5.2%,-,09:30
+703,0.5%,GBP,"Wednesday, November 25, 2009",1.4%,-,Medium,GBP Exports (3Q P),-1.4%,-,09:30
+704,1.3%,GBP,"Wednesday, November 25, 2009",2.0%,-,Medium,GBP Imports (3Q P),-2.2%,-,09:30
+705,-0.1%,GBP,"Wednesday, November 25, 2009",-0.1%,-,Medium,GBP Index of Services (3Mo3M) (SEP),-0.1%,-,09:30
+706,-4.5%,USD,"Wednesday, November 25, 2009",,-,Low,USD MBA Mortgage Applications (NOV 20),0.3% (R+),-,12:00
+707,-0.6%,USD,"Wednesday, November 25, 2009",0.5%,-,Medium,USD Durable Goods Orders (OCT),2.0%(R+),-,13:30
+708,-1.3%,USD,"Wednesday, November 25, 2009",0.7%,-,Medium,USD Durables Ex Transportation (OCT),1.8%(R+),-,13:30
+709,0.2%,USD,"Wednesday, November 25, 2009",0.1%,-,Low,USD Personal Income (OCT),0.2% (R+),-,13:30
+710,0.7%,USD,"Wednesday, November 25, 2009",0.5%,-,Medium,USD Personal Spending (OCT),-0.6% (R-),-,13:30
+711,0.2%,USD,"Wednesday, November 25, 2009",0.1%,-,Medium,USD Personal Consumption Expenditure Deflator (YoY) (OCT),-0.6% (R-),-,13:30
+712,0.2%,USD,"Wednesday, November 25, 2009",0.1%,-,Medium,USD Personal Consumption Expenditure Core (MoM) (OCT),0.1%,-,13:30
+713,1.4%,USD,"Wednesday, November 25, 2009",1.4%,-,Medium,USD Personal Consumption Expenditure Core (YoY) (OCT),1.3%,-,13:30
+714,466K,USD,"Wednesday, November 25, 2009",500K,-,Low,USD Initial Jobless Claims (NOV 21),501K (R-),-,13:30
+715,5423K,USD,"Wednesday, November 25, 2009",5565K,-,Low,USD Continuing Claims (NOV 14),5613K (R+),-,13:30
+716,67.4,USD,"Wednesday, November 25, 2009",67,-,Low,USD U. of Michigan Confidence (NOV F),66,-,15:00
+717,430K,USD,"Wednesday, November 25, 2009",404K,-,Medium,USD New Home Sales (OCT),405K (R+),-,15:00
+718,6.2%,USD,"Wednesday, November 25, 2009",0.4%,-,High,USD New Home Sales (MoM) (OCT),-2.4% (R+),-,15:00
+719,1019K,USD,"Wednesday, November 25, 2009",1500K,-,Medium,USD DOE U.S. Crude Oil Inventories (NOV 20),-887K,-,15:30
+720,1003K,USD,"Wednesday, November 25, 2009",300K,-,Medium,USD DOE U.S. Gasoline Inventories (NOV 20),-1755K,-,15:30
+721,-529K,USD,"Wednesday, November 25, 2009",0K,-,Medium,USD DOE U.S. Distillate Inventory (NOV 20),-328K,-,15:30
+722,,JPY,"Wednesday, November 25, 2009",,-,Medium,JPY Bank of Japan Meeting Minutes,,-,23:50
+723,,JPY,"Tuesday, November 24, 2009",,-,Low,JPY Nomura/JMMA Manufacturing Purchasing Manager Index (NOV),54.3,-,00:00
+724,-5.2%,JPY,"Tuesday, November 24, 2009",,-,Low,JPY Supermarket Sales (YoY) (OCT),-2.4%,-,05:00
+725,,JPY,"Tuesday, November 24, 2009",,-,Medium,JPY Bank of Japan Monthly Report,,-,05:00
+726,.867,CHF,"Tuesday, November 24, 2009",,-,Medium,CHF UBS Consumption Indicator (OCT),0.671 (R+),-,07:00
+727,0.7%,EUR,"Tuesday, November 24, 2009",0.7%,-,Medium,EUR German Gross Domestic Product s.a. (QoQ) (3Q F),0.7%,-,07:00
+728,-4.8%,EUR,"Tuesday, November 24, 2009",-4.8%,-,Medium,EUR German Gross Domestic Product w.d.a. (YoY) (3Q F),-4.8%,-,07:00
+729,-4.7%,EUR,"Tuesday, November 24, 2009",-4.7%,-,Medium,EUR German Gross Domestic Product n.s.a. (YoY) (3Q F),-4.7%,-,07:00
+730,-0.9%,EUR,"Tuesday, November 24, 2009",-0.4%,-,Medium,EUR German Private Consumption (3Q),0.7%,-,07:00
+731,0.1%,EUR,"Tuesday, November 24, 2009",0.3%,-,Low,EUR German Government Spending (3Q F),0.6% (R+),-,07:00
+732,1.3%,EUR,"Tuesday, November 24, 2009",0.8%,-,Low,EUR German Capital Investment (3Q F),0.7% (R-),-,07:00
+733,1.5%,EUR,"Tuesday, November 24, 2009",0.6%,-,Low,EUR German Construction Investment (3Q F),1.3% (R-),-,07:00
+734,1.3%,EUR,"Tuesday, November 24, 2009",0.2%,-,Low,EUR German Domestic Demand (3Q F),-1.4% (R-),-,07:00
+735,5.0%,EUR,"Tuesday, November 24, 2009",3.5%,-,Low,EUR German Imports (3Q F),-5.4% (R-),-,07:00
+736,3.4%,EUR,"Tuesday, November 24, 2009",4.1%,-,Low,EUR German Exports (3Q F),-0.8% (R+),-,07:00
+737,89,EUR,"Tuesday, November 24, 2009",91,-,Low,EUR French Business Confidence Indicator (NOV),89,-,07:45
+738,-3,EUR,"Tuesday, November 24, 2009",1,-,Low,EUR French Own-Company Production Outlook (NOV),-3 (R-),-,07:45
+739,-9,EUR,"Tuesday, November 24, 2009",-9,-,Low,EUR French Production Outlook Indicator (NOV),-10 (R+),-,07:45
+740,1.1%,EUR,"Tuesday, November 24, 2009",0.4,-,Low,EUR French Consumer Spending (MoM) (OCT),2.4% (R+),-,07:50
+741,3.5%,EUR,"Tuesday, November 24, 2009",2.3%,-,Low,EUR French Consumer Spending (YoY) (OCT),1.1% (R+),-,07:50
+742,3.963M,CHF,"Tuesday, November 24, 2009",3.936M,-,Low,CHF Employment Level (3Q),3.945M,-,08:15
+743,98.9,EUR,"Tuesday, November 24, 2009",97.3,-,Medium,EUR German IFO - Expectations (NOV),96.8,-,09:00
+744,93.9,EUR,"Tuesday, November 24, 2009",92.5,-,Medium,EUR German IFO - Business Climate (NOV),91.9,-,09:00
+745,89.1,EUR,"Tuesday, November 24, 2009",88,-,Medium,EUR German IFO - Current Assessment (NOV),87.3,-,09:00
+746,-3.0%,GBP,"Tuesday, November 24, 2009",-5.0%,-,Low,GBP Total Business Investment (QoQ) (3Q P),-10.2%,-,09:30
+747,-21.7%,GBP,"Tuesday, November 24, 2009",-22.9%,-,Low,GBP Total Business Investment (YoY) (3Q P),-21.8%,-,09:30
+748,42238,GBP,"Tuesday, November 24, 2009",44000,-,Medium,GBP BBA Loans for House Purchase (OCT),42073 (R-),-,09:30
+749,1.5%,EUR,"Tuesday, November 24, 2009",1.0%,-,Medium,EUR Euro-Zone Industrial New Orders s.a. (MoM) (SEP),0.6% (R-),-,10:00
+750,-16.5%,EUR,"Tuesday, November 24, 2009",-17.3%,-,Medium,EUR Euro-Zone Industrial New Orders (YoY) (SEP),-23.2% (R+),-,10:00
+751,2.8%,USD,"Tuesday, November 24, 2009",2.8%,-,High,USD Gross Domestic Product (Annualized) (3Q S),3.5%,-,13:30
+752,2.9%,USD,"Tuesday, November 24, 2009",3.2%,-,Medium,USD Personal Consumption (3Q S),3.4%,-,13:30
+753,0.5%,USD,"Tuesday, November 24, 2009",0.8%,-,Low,USD Gross Domestic Product Price Index (3Q S),0.8%,-,13:30
+754,1.3%,USD,"Tuesday, November 24, 2009",1.4%,-,Medium,USD Core Personal Consumption Expenditure (QoQ) (3Q S),1.4%,-,13:30
+755,146.51,USD,"Tuesday, November 24, 2009",146.90,-,Medium,USD S&P/Case-Shiller Home Price Index (SEP),146.03 (R+),-,14:00
+756,-9.36%,USD,"Tuesday, November 24, 2009",-9.10%,-,Low,USD S&P/Case-Shiller Composite-20 (YoY) (SEP),-11.30% (R+),-,14:00
+757,137.19,USD,"Tuesday, November 24, 2009",,-,Low,USD S&P/Case-Shiller US Home Price Index (3Q),133.01 (R+),-,14:00
+758,-8.86%,USD,"Tuesday, November 24, 2009",-10.25%,-,Low,USD S&P/Case-Shiller US Home Price Index (YoY) (3Q),-14.74% (R+),-,14:00
+759,49.5,USD,"Tuesday, November 24, 2009",47.3,-,High,USD Consumer Confidence (NOV),48.7 (R+),-,15:00
+760,0.0%,USD,"Tuesday, November 24, 2009",0.1%,-,Medium,USD House Price Index (MoM) (SEP),-0.3%,-,15:00
+761,0.2%,USD,"Tuesday, November 24, 2009",0.3%,-,Low,USD House Price Purchase Index (QoQ) (3Q),-0.7%,-,15:00
+762,1,USD,"Tuesday, November 24, 2009",8,-,Low,USD Richmond Fed Manufacturing Index (NOV),7,-,15:00
+763,,USD,"Tuesday, November 24, 2009",,-,Medium,USD Federal Open Market Committee Meeting Minutes,,-,19:00
+764,3347K,USD,"Tuesday, November 24, 2009",,-,Medium,USD API U.S. Crude Oil Inventories (NOV 20),-4367K,-,21:30
+765,1707K,USD,"Tuesday, November 24, 2009",,-,Medium,USD API U.S. Gasoline Inventories (NOV 20),-963K,-,21:30
+766,-2360K,USD,"Tuesday, November 24, 2009",,-,Medium,USD API U.S. Distillate Inventory (NOV 20),507K,-,21:30
+767,-47,USD,"Tuesday, November 24, 2009",,-,Low,USD ABC Consumer Confidence (NOV 22),-45,-,22:00
+768,,AUD,"Tuesday, November 24, 2009",,-,Medium,AUD Reserve Bank of Australia Deputy Governor Speaks in Melbourne,,-,22:00
+769,801.7B,JPY,"Tuesday, November 24, 2009",465.5B,-,Low,JPY Merchandise Trade Balance Total (Yen) (OCT),525.3B (R+),-,23:50
+770,419.1B,JPY,"Tuesday, November 24, 2009",300.0B,-,Low,JPY Adjusted Merchandise Trade Balance (Yen) (OCT),58.6B,-,23:50
+771,-23.2%,JPY,"Tuesday, November 24, 2009",-26.8%,-,Low,JPY Merchandise Trade Exports (YoY) (OCT),-30.6% (R-),-,23:50
+772,-2.2%,JPY,"Tuesday, November 24, 2009",-2.6%,-,Low,JPY Corporate Service Price (YoY) (OCT),-3.2%,-,23:50
+773,-35.6%,JPY,"Tuesday, November 24, 2009",-34.0%,-,Low,JPY Merchandise Trade Imports (YoY) (OCT),-36.9%,-,23:50
+774,3.7%,AUD,"Monday, November 23, 2009",,-,Low,AUD New Motor Vehicle Sales (MoM) (OCT),3.1% (R+),-,00:30
+775,3.3%,AUD,"Monday, November 23, 2009",,-,Low,AUD New Motor Vehicle Sales (YoY) (OCT),-1.8% (R+),-,00:30
+776,7.7%,CHF,"Monday, November 23, 2009",,-,Low,CHF Money Supply M3 (YoY) (OCT),7.8%,-,08:00
+777,54.2,EUR,"Monday, November 23, 2009",56.0,-,Low,EUR French Purchasing Manager Index Manufacturing (NOV P),55.6,-,08:00
+778,60.4,EUR,"Monday, November 23, 2009",57.8,-,Low,EUR French Purchasing Manager Index Services (NOV P),57.7,-,08:00
+779,52.0,EUR,"Monday, November 23, 2009",51.6,-,Medium,EUR German Purchasing Manager Index Manufacturing (NOV A),51.0,-,08:30
+780,51.5,EUR,"Monday, November 23, 2009",51.2,-,Medium,EUR German Purchasing Manager Index Services (NOV A),50.7,-,08:30
+781,51.0,EUR,"Monday, November 23, 2009",51.2,-,Medium,EUR Euro-Zone Purchasing Manager Index Manufacturing (NOV A),50.7,-,09:00
+782,53.2,EUR,"Monday, November 23, 2009",52.9,-,Medium,EUR Euro-Zone Purchasing Manager Index Services (NOV A),52.6,-,09:00
+783,53.7,EUR,"Monday, November 23, 2009",53.4,-,Medium,EUR Euro-Zone Purchasing Manager Index Composite (NOV A),53.0,-,09:00
+784,1.0%,CAD,"Monday, November 23, 2009",0.6%,-,High,CAD Retail Sales (MoM) (SEP),1.0%(R+),-,13:30
+785,1.1%,CAD,"Monday, November 23, 2009",0.4%,-,Medium,CAD Retail Sales Less Autos (MoM) (SEP),0.7%(R+),-,13:30
+786,-1.08,USD,"Monday, November 23, 2009",,-,Medium,USD Chicago Fed National Activity Index (OCT),-1.01 (R-),-,13:30
+787,6.10M,USD,"Monday, November 23, 2009",5.70M,-,Medium,USD Existing Home Sales (OCT),5.54M (R-),-,15:00
+788,10.1%,USD,"Monday, November 23, 2009",2.3%,-,Medium,USD Existing Home Sales (MoM) (OCT),8.8% (R-),-,15:00
+789,0.3%,AUD,"Monday, November 23, 2009",,-,Medium,AUD Conference Board Leading Index (SEP),1.5% (R-),-,23:00
+790,-0.7%,NZD,"Sunday, November 22, 2009",,-,Low,NZD Visitor Arrivals (OCT),3.8%,-,21:45
+791,0.10%,JPY,"Friday, November 20, 2009",0.10%,-,High,JPY Bank of Japan Interest Rate Decision,0.10%,-,00:00
+792,-0.4%,NZD,"Friday, November 20, 2009",,-,Medium,NZD Credit Card Spending (YoY) (OCT),-2.3%,-,02:00
+793,0.2%,NZD,"Friday, November 20, 2009",,-,Medium,NZD Credit Card Spending s.a. (MoM) (OCT),-1.0%,-,02:00
+794,-7.6%,EUR,"Friday, November 20, 2009",-7.5%,-,Low,EUR German Producer Prices (YoY) (OCT),-7.6%,-,07:00
+795,0.0%,EUR,"Friday, November 20, 2009",0.1%,-,Low,EUR German Producer Prices (MoM) (OCT),-0.5%,-,07:00
+796,-5.5%,JPY,"Friday, November 20, 2009",,-,Low,JPY Convenience Store Sales (YoY) (OCT),-5.6%,-,07:00
+797,-17.3%,EUR,"Friday, November 20, 2009",,-,Low,EUR Italian Industrial Sales n.s.a. (YoY) (SEP),-21.2%,-,09:00
+798,2.3%$,EUR,"Friday, November 20, 2009",,-,Low,EUR Italian Industrial Sales s.a. (MoM) (SEP),-1.3% (R+),-,09:00
+799,-20.4%,EUR,"Friday, November 20, 2009",-21.7%,-,Low,EUR Italian Industrial Orders n.s.a. (YoY) (SEP),-27.5%,-,09:00
+800,5.2%,EUR,"Friday, November 20, 2009",5.0%,-,Low,EUR Italian Industrial Orders s.a. (MoM) (SEP),-8.6%,-,09:00
+801,5.2%,AUD,"Thursday, November 19, 2009",,-,Medium,AUD Average Weekly Wages (YoY) (AUG),6.1%,-,00:30
+802,0.9%,AUD,"Thursday, November 19, 2009",,-,Medium,AUD Average Weekly Wages (QoQ) (AUG),1.2%,-,00:30
+803,307M,AUD,"Thursday, November 19, 2009",,-,Low,AUD RBA Foreign Exchange Transaction (Australian dollar) (OCT),830M,-,00:30
+804,,AUD,"Thursday, November 19, 2009",,-,Low,AUD Reserve Bank of Australia Official Guy Debelle Speaks in Sydney,,-,01:00
+805,-0.6%,JPY,"Thursday, November 19, 2009",0.0%,-,Medium,JPY All Industry Activity Index (MoM) (SEP),0.90%,-,04:30
+806,92.7,JPY,"Thursday, November 19, 2009",,-,Low,JPY Coincident Index (SEP F),92.5,-,05:00
+807,86.4,JPY,"Thursday, November 19, 2009",,-,Low,JPY Leading Index (SEP F),86.4,-,05:00
+808,-13.1%,JPY,"Thursday, November 19, 2009",,-,Low,JPY Tokyo Department Store Sales (YoY) (OCT),-10.5%,-,05:30
+809,-10.5%,JPY,"Thursday, November 19, 2009",,-,Low,JPY Nationwide Department Store Sales (YoY) (OCT),-7.8%,-,05:30
+810,,USD,"Thursday, November 19, 2009",,-,Low,USD Fed's Plosser Speaks on Food and Water in Singapore,,-,05:45
+811,2.46B,CHF,"Thursday, November 19, 2009",,-,Medium,CHF Trade Balance (Swiss franc) (OCT),1.91B (R-),-,07:15
+812,0.6%,CHF,"Thursday, November 19, 2009",,-,Low,CHF Imports (MoM) (OCT),3.2% (R+),-,07:15
+813,0.1%,CHF,"Thursday, November 19, 2009",,-,Low,CHF Exports (MoM) (OCT),-1.9% (R+),-,07:15
+814,-388.0M,EUR,"Thursday, November 19, 2009",,-,Low,EUR Italian Trade Balance Eu (euros) (SEP),-399.0M (R-),-,09:00
+815,-897.0,EUR,"Thursday, November 19, 2009",,-,Low,EUR Italian Trade Balance (Total) (euros) (SEP),-1369.0 (R-),-,09:00
+816,5.9B,GBP,"Thursday, November 19, 2009",4.0B,-,Medium,GBP Public Finances (PSNCR) (Pounds) (OCT),19.3B (R-),-,09:30
+817,11.0%,GBP,"Thursday, November 19, 2009",9.9%,-,Low,GBP M4 Money Supply (YoY) (OCT P),11.6%,-,09:30
+818,1.8%,GBP,"Thursday, November 19, 2009",1.0%,-,Low,GBP M4 Money Supply (MoM) (OCT P),0.9% (R+),-,09:30
+819,3.4%,GBP,"Thursday, November 19, 2009",2.9%,-,Medium,GBP Retail Sales (YoY) (OCT),2.9% (R+),-,09:30
+820,0.4%,GBP,"Thursday, November 19, 2009",0.5%,-,Medium,GBP Retail Sales (MoM) (OCT),0.4% (R+),-,09:30
+821,61K,GBP,"Thursday, November 19, 2009",,-,Medium,GBP Major Banks Mortgage Approvals (OCT),56K,-,09:30
+822,,GBP,"Thursday, November 19, 2009",7.0B,-,Medium,GBP Public Sector Net Borrowing (Pounds) (OCT),14.8,-,09:30
+823,5611K,USD,"Thursday, November 19, 2009",5598K,-,Low,USD Continuing Claims (NOV 7),5650K (R+),-,13:30
+824,0.2%,CAD,"Thursday, November 19, 2009",1.0%,-,Low,CAD Wholesale Sales (MoM) (SEP),-1.5% (R-),-,13:30
+825,0.7%,CAD,"Thursday, November 19, 2009",0.7%,-,Low,CAD Leading Indicators (MoM) (OCT),1.2% (R+),-,13:30
+826,13.590B,CAD,"Thursday, November 19, 2009",3.000B,-,Low,CAD International Securities Transactions (Canadian dollar) (SEP),5.067B (R-),-,13:30
+827,505K,USD,"Thursday, November 19, 2009",504K,-,Low,USD Initial Jobless Claims (NOV 14),505K (R+),-,13:30
+828,-10.02%,USD,"Thursday, November 19, 2009",,-,Low,USD RPX Composite 28 Day (YoY) (SEP),-9.76%,-,14:00
+829,193.96,USD,"Thursday, November 19, 2009",,-,Low,USD RPX Composite 28 Day Index (SEP 17),200.29,-,14:00
+830,16.7,USD,"Thursday, November 19, 2009",12.2,-,Low,USD Philadelphia Fed. (NOV),11.5,-,15:00
+831,0.3%,USD,"Thursday, November 19, 2009",0.4%,-,Low,USD Leading Indicators (OCT),1.0%,-,15:00
+832,,USD,"Thursday, November 19, 2009",,-,Low,USD Treasury's Geithner Testifies About Financial Regulation,,-,15:00
+833,,USD,"Thursday, November 19, 2009",,-,Low,USD Fed's Fisher Speaks at Cato Conference in Washington,,-,21:45
+834,3.6%,AUD,"Wednesday, November 18, 2009",3.6%,-,Low,AUD Wage Cost Index (YoY) (3Q),3.8%,-,00:30
+835,0.7%,AUD,"Wednesday, November 18, 2009",0.7%,-,Low,AUD Wage Cost Index (QoQ) (3Q),0.8%,-,00:30
+836,-42.5%,JPY,"Wednesday, November 18, 2009",,-,Low,JPY Machine Tool Orders (YoY) (OCT F),-42.6%,-,06:00
+837,-5.0B,EUR,"Wednesday, November 18, 2009",,-,Low,EUR Euro-Zone Current Account n.s.a. (euros) (SEP),-3.5 (R+),-,09:00
+838,-5.4B,EUR,"Wednesday, November 18, 2009",,-,Low,EUR Euro-Zone Current Account s.a. (euros) (SEP),0.6B (R+),-,09:00
+839,,GBP,"Wednesday, November 18, 2009",,-,High,GBP Bank of England Meeting Minutes,,-,09:30
+840,-1.1%,EUR,"Wednesday, November 18, 2009",,-,Medium,EUR Euro-Zone Construction Output s.a. (MoM) (SEP),0.1% (R+),-,10:00
+841,-8.0%,EUR,"Wednesday, November 18, 2009",,-,Low,EUR Euro-Zone Construction Output w.d.a. (YoY) (SEP),-10.0% (R+),-,10:00
+842,-45,GBP,"Wednesday, November 18, 2009",,-,Medium,GBP U.K. CBI Industrial Trends Total Orders (OCT),-51,-,11:00
+843,-2.5%,USD,"Wednesday, November 18, 2009",,-,Low,USD MBA Mortgage Applications (NOV 13),3.2%,-,12:00
+844,1.8%,CAD,"Wednesday, November 18, 2009",1.7%,-,Medium,CAD Bank Canada Consumer Price Index Core (YoY) (OCT),1.5%,-,12:00
+845,0.1%,CAD,"Wednesday, November 18, 2009",0.0%,-,Low,CAD Bank Canada Consumer Price Index Core (MoM) (OCT),0.3%,-,12:00
+846,0.1%,CAD,"Wednesday, November 18, 2009",0.1%,-,Medium,CAD Consumer Price Index (YoY) (OCT),-0.9%,-,12:00
+847,-0.1%,CAD,"Wednesday, November 18, 2009",0.1%,-,Low,CAD Consumer Price Index (MoM) (OCT),0.0%,-,12:00
+848,216.177,USD,"Wednesday, November 18, 2009",216.069,-,Low,USD Consumer Price Index n.s.a. (OCT),215.969,-,13:30
+849,1.7%,USD,"Wednesday, November 18, 2009",1.6%,-,Medium,USD Consumer Price Index Ex Food & Energy (YoY) (OCT),1.5%,-,13:30
+850,0.2%,USD,"Wednesday, November 18, 2009",0.1%,-,Low,USD Consumer Price Index Ex Food & Energy (MoM) (OCT),0.2%,-,13:30
+851,-0.2%,USD,"Wednesday, November 18, 2009",-0.3%,-,High,USD Consumer Price Index (YoY) (OCT),-1.3%,-,13:30
+852,0.3%,USD,"Wednesday, November 18, 2009",0.2%,-,Low,USD Consumer Price Index (MoM) (OCT),0.2%,-,13:30
+853,552K,USD,"Wednesday, November 18, 2009",580K,-,Low,USD Building Permits (OCT),575K (R+),-,13:30
+854,529K,USD,"Wednesday, November 18, 2009",600K,-,Medium,USD Housing Starts (OCT),592K (R+),-,13:30
+855,220.453,USD,"Wednesday, November 18, 2009",,-,Low,USD Consumer Price Index Core Index s.a. (OCT),220.053,-,13:30
+856,,EUR,"Tuesday, November 17, 2009",,-,Low,EUR German Wholesale Price Index (MoM) (OCT),-0.2%,-,00:00
+857,,EUR,"Tuesday, November 17, 2009",,-,Low,EUR German Wholesale Price Index (YoY) (OCT),-8.1%,-,00:00
+858,-1.6%,CHF,"Tuesday, November 17, 2009",,-,Medium,CHF Retail Sales (Real) (YoY) (SEP),-1.0%,-,08:15
+859,216.0,GBP,"Tuesday, November 17, 2009",215.8,-,Low,GBP Retail Price Index (OCT),215.3,-,09:30
+860,1.8%,GBP,"Tuesday, November 17, 2009",1.8%,-,Medium,GBP Core Consumer Price Index (YoY) (OCT),1.7%,-,09:30
+861,1.5%,GBP,"Tuesday, November 17, 2009",1.4%,-,Medium,GBP Consumer Price Index (YoY) (OCT),1.1%,-,09:30
+862,0.2%,GBP,"Tuesday, November 17, 2009",0.1%,-,Low,GBP Consumer Price Index (MoM) (OCT),0.0%,-,09:30
+863,1.9%,GBP,"Tuesday, November 17, 2009",1.8%,-,Low,GBP Retail Price Index Ex Mort Int.Payments (YoY) (OCT),1.3%,-,09:30
+864,-0.8%,GBP,"Tuesday, November 17, 2009",-1.0%,-,Low,GBP Retail Price Index (YoY) (OCT),-1.4%,-,09:30
+865,0.3%,GBP,"Tuesday, November 17, 2009",0.1%,-,Low,GBP Retail Price Index (MoM) (OCT),0.4%,-,09:30
+866,6.8B,EUR,"Tuesday, November 17, 2009",,-,Low,EUR Euro-Zone Trade Balance s.a. (euros) (SEP),2.2B (R+),-,10:00
+867,3.7B,EUR,"Tuesday, November 17, 2009",,-,Low,EUR Euro-Zone Trade Balance (euros) (SEP),-2.3B (R+),-,10:00
+868,0.7%,USD,"Tuesday, November 17, 2009",1.4%,-,Medium,USD Producer Price Index Ex Food & Energy (YoY) (OCT),1.8%,-,13:30
+869,-0.6%,USD,"Tuesday, November 17, 2009",0.1%,-,Low,USD Producer Price Index Ex Food & Energy (MoM) (OCT),-0.1%,-,13:30
+870,-1.9%,USD,"Tuesday, November 17, 2009",-1.8%,-,Medium,USD Producer Price Index (YoY) (OCT),-4.8%,-,13:30
+871,0.3%,USD,"Tuesday, November 17, 2009",0.5%,-,Low,USD Producer Price Index (MoM) (OCT),-0.6%,-,13:30
+872,$133.5B,USD,"Tuesday, November 17, 2009",,-,Low,USD Total Net TIC Flows (SEP),$25.3B,-,14:00
+873,$40.7B,USD,"Tuesday, November 17, 2009",$30.0B,-,Medium,USD Net Long-term TIC Flows (SEP),$34.2B (R+),-,14:00
+874,70.7%,USD,"Tuesday, November 17, 2009",70.8%,-,Low,USD Capacity Utilization (OCT),70.5%,-,14:15
+875,0.1%,USD,"Tuesday, November 17, 2009",0.4%,-,Medium,USD Industrial Production (OCT),0.6% (R-),-,14:15
+876,,USD,"Tuesday, November 17, 2009",,-,Low,USD Fed's Lacker Speaks on Economy to Lawmakers in Virginia,,-,15:15
+877,17,USD,"Tuesday, November 17, 2009",19,-,Low,USD NAHB Housing Market Index (NOV),17 (R-),-,18:00
+878,-45,USD,"Tuesday, November 17, 2009",,-,Low,USD ABC Consumer Confidence (NOV 15),-46,-,22:00
+879,,AUD,"Tuesday, November 17, 2009",,-,Low,AUD Reserve Bank of Australia Official Guy Debelle Speaks in Sydney,,-,22:05
+880,0.9%,AUD,"Tuesday, November 17, 2009",,-,Low,AUD Westpac Leading Index (MoM) (SEP),1.3% (R+),-,23:30
+881,-4194.0,EUR,"Monday, November 16, 2009",,-,Low,EUR Italian Current Account (euros) (SEP),-3168,-,00:00
+882,-1.6%,GBP,"Monday, November 16, 2009",,-,Medium,GBP Rightmove House Prices (MoM) (NOV),2.8%,-,00:01
+883,1.6%,GBP,"Monday, November 16, 2009",,-,Medium,GBP Rightmove House Prices (YoY) (NOV),0.2%,-,00:01
+884,,JPY,"Monday, November 16, 2009",,-,Low,JPY BOJ Governor Masaaki Shirakawa to Speak at Forum in Tokyo,,-,00:30
+885,11.6%,EUR,"Monday, November 16, 2009",,-,Low,EUR EU 25 New Car Registrations (OCT),6.3%,-,07:00
+886,0.1%,EUR,"Monday, November 16, 2009",0.1%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (MoM) (OCT F),0.1%,-,09:00
+887,0.3%,EUR,"Monday, November 16, 2009",0.3%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (YoY) (OCT F),0.3%,-,09:00
+888,0.4%,EUR,"Monday, November 16, 2009",0.5%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (MoM) (OCT F),0.5%,-,09:00
+889,0.3%,EUR,"Monday, November 16, 2009",0.4%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (YoY) (OCT F),0.4%,-,09:00
+890,0.2%,EUR,"Monday, November 16, 2009",0.3%,-,Medium,EUR Euro-Zone Consumer Price index (MoM) (OCT),0.0%,-,10:00
+891,-0.1%,EUR,"Monday, November 16, 2009",-0.1%,-,Medium,EUR Euro-Zone Consumer Price index (YoY) (OCT),-0.3%,-,10:00
+892,1.1%,EUR,"Monday, November 16, 2009",1.2%,-,Medium,EUR Euro-Zone Consumer Price index - Core (YoY),1.2%,-,10:00
+893,1.4%,USD,"Monday, November 16, 2009",0.9%,-,High,USD Advance Retail Sales (OCT),-2.3% (R-),-,13:30
+894,1.4%,CAD,"Monday, November 16, 2009",1.7%,-,Medium,CAD Manufacturing Shipments (MoM) (SEP),-1.8% (R+),-,13:30
+895,23.51,USD,"Monday, November 16, 2009",30.00,-,Low,USD Empire Manufacturing (NOV),34.57,-,13:30
+896,0.3%,USD,"Monday, November 16, 2009",0.3%,-,Medium,USD Retail Sales Ex Auto & Gas (OCT),0.3% (R-),-,13:30
+897,0.2%,USD,"Monday, November 16, 2009",0.4%,-,Medium,USD Retail Sales Less Autos (OCT),0.4% (R-),-,13:30
+898,-0.4%,USD,"Monday, November 16, 2009",-0.7%,-,Low,USD Business Inventories (SEP),-1.6% (R-),-,15:00
+899,,USD,"Monday, November 16, 2009",,-,Medium,USD Fed's Bernanke Speaks to Economic Club of New York Lunch,,-,17:15
+900,-0.5%,JPY,"Monday, November 16, 2009",0.2%,-,Medium,JPY Tertiary Industry Index (MoM) (SEP),0.3%,-,23:50
+901,0.8%,JPY,"Monday, November 16, 2009",,-,Low,JPY Housing Loans (YoY) (3Q),0.4%,-,23:50
+902,,NZD,"Sunday, November 15, 2009",,-,Medium,NZD New Zealand's Performance of Services Index (SEP),51.3,-,21:30
+903,-1.4%,NZD,"Sunday, November 15, 2009",0.2%,-,Low,NZD Producer Prices- Outputs (QoQ) (3Q),-0.7%,-,21:45
+904,-1.1%,NZD,"Sunday, November 15, 2009",0.0%,-,Low,NZD Producer Prices- Inputs (QoQ) (3Q),0.0%,-,21:45
+905,-.1%,JPY,"Sunday, November 15, 2009",-0.6%,-,High,JPY Nominal Gross Domestic Product (QoQ) (3Q P),-0.4% (R+),-,23:50
+906,4.8%,JPY,"Sunday, November 15, 2009",2.9%,-,High,JPY Gross Domestic Product Annualized (3Q P),2.7% (R+),-,23:50
+907,1.2%,JPY,"Sunday, November 15, 2009",0.7%,-,High,JPY Gross Domestic Product (QoQ) (3Q P),0.7% (R+),-,23:50
+908,50.6,NZD,"Thursday, November 12, 2009",,-,Medium,NZD Business NZ Performance of Manufacturing Index (OCT),51.5 (R-),-,00:00
+909,3.2%,AUD,"Thursday, November 12, 2009",,-,Low,AUD Consumer Inflation Expectation (NOV),3.5%,-,00:00
+910,24.5K,AUD,"Thursday, November 12, 2009",-10K,-,High,AUD Employment Change (OCT),39.8K (R-),-,00:30
+911,2.9,AUD,"Thursday, November 12, 2009",,-,Low,AUD Full Time Employment Change (OCT),33.3 (R-),-,00:30
+912,5.8%,AUD,"Thursday, November 12, 2009",5.8%,-,Medium,AUD Unemployment Rate (OCT),5.7%,-,00:30
+913,21.5,AUD,"Thursday, November 12, 2009",,-,Low,AUD Part Time Employment Change (OCT),6.5 (R+),-,00:30
+914,65.2%,AUD,"Thursday, November 12, 2009",65.2%,-,Low,AUD Participation Rate (OCT),65.2%,-,00:30
+915,-20.0%,JPY,"Thursday, November 12, 2009",,-,Low,JPY Tokyo Condominium Sales (YoY) (OCT),26.2%,-,04:00
+916,-3.7B,EUR,"Thursday, November 12, 2009",,-,Low,EUR French Current Account (euros) (SEP),-4.0B (R-),-,07:45
+917,,EUR,"Thursday, November 12, 2009",,-,Low,EUR ECB Publishes Monthly Report (NOV),,-,09:00
+918,56.4,CHF,"Thursday, November 12, 2009",,-,Medium,CHF ZEW Survey (Expectations) (NOV),65,-,10:00
+919,0.3%,EUR,"Thursday, November 12, 2009",0.5%,-,Medium,EUR Euro-Zone Industrial Production s.a. (MoM) (SEP),1.2% (R+),-,10:00
+920,-14.1%,EUR,"Thursday, November 12, 2009",-14.1%,-,Medium,EUR Euro-Zone Industrial Production w.d.a. (YoY) (SEP),-15.1% (R+),-,10:00
+921,3.2%,USD,"Thursday, November 12, 2009",,-,Low,USD MBA Mortgage Applications (NOV 6),8.2%,-,12:00
+922,5631K,USD,"Thursday, November 12, 2009",5700K,-,Low,USD Continuing Claims (OCT 31),5770K (R+),-,13:30
+923,502K,USD,"Thursday, November 12, 2009",510K,-,Low,USD Initial Jobless Claims (NOV 7),514K (R+),-,13:30
+924,0.5%,CAD,"Thursday, November 12, 2009",0.2%,-,Low,CAD New Housing Price Index (MoM) (SEP),0.1%,-,13:30
+925,-$176.4B,USD,"Thursday, November 12, 2009",-$165.0B,-,Low,USD Monthly Budget Statement (OCT),-$155.5B,-,19:00
+926,36.3%,NZD,"Thursday, November 12, 2009",,-,Medium,NZD REINZ House Sales (YoY) (OCT),43.7%,-,21:00
+927,3275.4,NZD,"Thursday, November 12, 2009",,-,Low,NZD REINZ Housing Price Index (OCT),3233.1,-,21:00
+928,1.3%,NZD,"Thursday, November 12, 2009",,-,Low,NZD REINZ Housing Price Index (MoM) (OCT),1.9%,-,21:00
+929,5.1%,GBP,"Wednesday, November 11, 2009",5.1%,-,Medium,GBP Claimant Count Rate (OCT),5.0%,-,09:30
+930,12.9K,GBP,"Wednesday, November 11, 2009",20.0K,-,Low,GBP Jobless Claims Change (OCT),20.6K (R-),-,09:30
+931,1.2%,GBP,"Wednesday, November 11, 2009",1.4%,-,Low,GBP Average Earnings inc bonus (3MoY) (SEP),1.6%,-,09:30
+932,1.8%,GBP,"Wednesday, November 11, 2009",1.8%,-,Medium,GBP Average Earnings ex bonus (3MoY) (SEP),1.9%,-,09:30
+933,7.8%,GBP,"Wednesday, November 11, 2009",8.0%,-,Medium,GBP ILO Unemployment Rate (3M) (SEP),7.8% (R+),-,09:30
+934,3.1%,GBP,"Wednesday, November 11, 2009",,-,Medium,GBP Manufacturing Unit Wage Cost (3MoY) (SEP),3.7% (R+),-,09:30
+935,,GBP,"Wednesday, November 11, 2009",,-,High,GBP Bank of England Quarterly Inflation Report,,-,10:30
+936,60.30,USD,"Wednesday, November 11, 2009",,-,Medium,USD Bloomberg Global Confidence (NOV),61.7,-,12:00
+937,0.2%,NZD,"Wednesday, November 11, 2009",0.4%,-,Medium,NZD Retail Sales (MoM) (SEP),1.1%,-,21:45
+938,0.0%,NZD,"Wednesday, November 11, 2009",0.4%,-,Medium,NZD Retail Sales Ex-Auto (MoM) (SEP),1.2%,-,21:45
+939,0.1%,NZD,"Wednesday, November 11, 2009",-0.1%,-,Medium,NZD Retail Sales Ex Inflation (QoQ) (3Q),0.5%(R+),-,21:45
+940,2.3%,JPY,"Wednesday, November 11, 2009",,-,Low,JPY Loans & Discounts Corp (YoY) (SEP),1.8%,-,23:50
+941,-0.7%,JPY,"Wednesday, November 11, 2009",-0.1%,-,Low,JPY Domestic Corporate Goods Price Index (MoM) (OCT),0.0% (R-),-,23:50
+942,-6.7%,JPY,"Wednesday, November 11, 2009",-6.0%,-,Low,JPY Domestic Corporate Goods Price Index (YoY) (OCT),-8.0% (R-),-,23:50
+943,-7.0%,EUR,"Tuesday, November 10, 2009",,-,Low,EUR German Wholesale Price Index (YoY) (OCT),-8.1%,-,00:00
+944,-0.4%,EUR,"Tuesday, November 10, 2009",,-,Low,EUR German Wholesale Price Index (MoM) (OCT),-0.2%,-,00:00
+945,34%,GBP,"Tuesday, November 10, 2009",28%,-,Medium,GBP RICS House Price Balance (OCT),22%,-,00:01
+946,3.8%,GBP,"Tuesday, November 10, 2009",,-,Medium,GBP BRC Retail Sales Monitor (OCT),2.8%,-,00:01
+947,16,AUD,"Tuesday, November 10, 2009",,-,Medium,AUD NAB Business Confidence (OCT),14,-,00:30
+948,12,AUD,"Tuesday, November 10, 2009",,-,Medium,AUD NAB Business Conditions (OCT),3,-,00:30
+949,-11.8%,JPY,"Tuesday, November 10, 2009",,-,Low,JPY Bankruptcies (YoY) (OCT),-18.0%,-,04:30
+950,42.8,JPY,"Tuesday, November 10, 2009",,-,Medium,JPY Eco Watchers Survey: Outlook (OCT),44.5,-,05:00
+951,40.9,JPY,"Tuesday, November 10, 2009",43.1,-,Medium,JPY Eco Watchers Survey: Current (OCT),43.1,-,05:00
+952,-42.6%,JPY,"Tuesday, November 10, 2009",,-,Low,JPY Machine Tool Orders (YoY) (OCT P),-62.1%,-,06:00
+953,-0.1%,EUR,"Tuesday, November 10, 2009",0.0%,-,High,EUR German Consumer Price Index - EU Harmonised (YoY) (OCT F),0.0%,-,07:00
+954,0.1%,EUR,"Tuesday, November 10, 2009",0.2%,-,Medium,EUR German Consumer Price Index - EU Harmonised (MoM) (OCT F),0.2%,-,07:00
+955,0.0%,EUR,"Tuesday, November 10, 2009",0.0%,-,High,EUR German Consumer Price Index (YoY) (OCT F),0.0%,-,07:00
+956,0.1%,EUR,"Tuesday, November 10, 2009",0.1%,-,Medium,EUR German Consumer Price Index (MoM) (OCT F),0.1%,-,07:00
+957,-1.6%,EUR,"Tuesday, November 10, 2009",1.2%,-,Low,EUR French Manufacturing Production (MoM) (SEP),3.0% (R+),-,07:45
+958,-10.4%,EUR,"Tuesday, November 10, 2009",-9.2%,-,Low,EUR French Industrial Production (YoY) (SEP),-10.8%,-,07:45
+959,-1.5%,EUR,"Tuesday, November 10, 2009",0.5%,-,Low,EUR French Industrial Production (MoM) (SEP),2.8% (R+),-,07:45
+960,-11.0%,EUR,"Tuesday, November 10, 2009",-10.5%,-,Low,EUR French Manufacturing Production (YoY) (SEP),-11.5%,-,07:45
+961,-15.7%,EUR,"Tuesday, November 10, 2009",-15.8%,-,Low,EUR Italian Industrial Production w.d.a. (YoY) (SEP),-18.3%,-,09:00
+962,-15.3%,EUR,"Tuesday, November 10, 2009",-13.8%,-,Low,EUR Italian Industrial Production n.s.a. (YoY) (SEP),-14.5%,-,09:00
+963,-4.1%,GBP,"Tuesday, November 10, 2009",-4.9%,-,Low,GBP DCLG UK House Prices (YoY) (SEP),-5.6%,-,09:30
+964,-3469,GBP,"Tuesday, November 10, 2009",-2200,-,Low,GBP Total Trade Balance (Pounds) (SEP),-2151 (R+),-,09:30
+965,-3793,GBP,"Tuesday, November 10, 2009",-3000,-,Low,GBP Trade Balance Non EU (Pounds) (SEP),-3060 (R-),-,09:30
+966,-7194,GBP,"Tuesday, November 10, 2009",-6100,-,Medium,GBP Visible Trade Balance (Pounds) (SEP),-6073 (R+),-,09:30
+967,51.8,EUR,"Tuesday, November 10, 2009",58.0,-,Medium,EUR Euro-Zone ZEW Survey (Economic Sentiment) (NOV),56.9,-,10:00
+968,-65.6,EUR,"Tuesday, November 10, 2009",-70.0,-,Medium,EUR German ZEW Survey (Current Situation) (NOV),-72.2,-,10:00
+969,51.1,EUR,"Tuesday, November 10, 2009",55.0,-,Medium,EUR German ZEW Survey (Economic Sentiment) (NOV),56.0,-,10:00
+970,89.1,USD,"Tuesday, November 10, 2009",,-,Low,USD NFIB Small Business Optimism,88.8,-,12:30
+971,47.9,USD,"Tuesday, November 10, 2009",49.0,-,Low,USD IBD/TIPP Economic Optimism (NOV),48.7,-,15:00
+972,-1.5%,NZD,"Tuesday, November 10, 2009",,-,Low,NZD Food Prices (MoM) (OCT),-0.7%,-,21:45
+973,-46,USD,"Tuesday, November 10, 2009",,-,Low,USD ABC Consumer Confidence (NOV 8),-49,-,22:00
+974,118.3,AUD,"Tuesday, November 10, 2009",,-,Medium,AUD Westpac Consumer Confidence Index (NOV),121.4,-,23:30
+975,-2.5%,AUD,"Tuesday, November 10, 2009",,-,Medium,AUD Westpac Consumer Confidence (NOV),1.7%,-,23:30
+976,10.5%,JPY,"Tuesday, November 10, 2009",4.1%,-,Low,JPY Machine Orders (MoM) (SEP),0.5%,-,23:50
+977,-22.0%,JPY,"Tuesday, November 10, 2009",-26.2%,-,Low,JPY Machine Orders (YoY) (SEP),-26.5%,-,23:50
+978,5.8%,EUR,"Monday, November 9, 2009",0.9%,-,Low,EUR German Imports s.a. (MoM) (SEP),0.5% (R-),-,07:00
+979,9.4B,EUR,"Monday, November 9, 2009",9.3B,-,Low,EUR German Current Account (euros) (SEP),4.6B,-,07:00
+980,10.6B,EUR,"Monday, November 9, 2009",11.3B,-,Medium,EUR German Trade Balance (euros) (SEP),8.1B,-,07:00
+981,3.8%,EUR,"Monday, November 9, 2009",2.5%,-,Low,EUR German Exports s.a. (MoM) (SEP),-2.8% (R-),-,07:00
+982,-12.0,EUR,"Monday, November 9, 2009",-7.0,-,Medium,EUR Euro-Zone Sentix Investor Confidence (NOV),-12.6,-,09:30
+983,2.7%,EUR,"Monday, November 9, 2009",1.0%,-,Medium,EUR German Industrial Production s.a. (MoM) (SEP),1.8% (R+),-,11:00
+984,-12.9%,EUR,"Monday, November 9, 2009",-14.4%,-,Medium,EUR German Industrial Production n.s.a. and w.d.a. (YoY) (SEP),-16.5% (R+),-,11:00
+985,157.3K,CAD,"Monday, November 9, 2009",158.5K,-,Medium,CAD Housing Starts (OCT),149.3K (R-),-,13:15
+986,-0.2%,NZD,"Monday, November 9, 2009",,-,Low,NZD NZ Card Spending (MoM) (OCT),0.7%,-,21:45
+987,,AUD,"Monday, November 9, 2009",,-,Low,AUD RBA's John Broadbent Speaks in Sydney,,-,23:00
+988,1.9%,JPY,"Monday, November 9, 2009",,-,Low,JPY Bank Lending Banks Adjustments (YoY) (OCT),2.3%,-,23:50
+989,1.5%,JPY,"Monday, November 9, 2009",,-,Low,JPY Bank Lending Banks ex-Trust (OCT),1.6% (R-),-,23:50
+990,1.5%,JPY,"Monday, November 9, 2009",1.5%,-,Low,JPY Bank Lending incl Trusts (YoY) (OCT),1.5% (R-),-,23:50
+991,2.4%,JPY,"Monday, November 9, 2009",2.3%,-,Low,JPY Japan Money Stock M3 (YoY) (OCT),2.2%,-,23:50
+992,3.3%,JPY,"Monday, November 9, 2009",3.1%,-,Low,JPY Japan Money Stock M2+CD (YoY) (OCT),3.0%,-,23:50
+993,599.2B,JPY,"Monday, November 9, 2009",630.0B,-,Medium,JPY Trade Balance - BOP Basis (Yen) (SEP),303.7B,-,23:50
+994,1338.0B,JPY,"Monday, November 9, 2009",1315.4B,-,Low,JPY Adjusted Current Account Total (Yen) (SEP),1233.6B,-,23:50
+995,1567.9B,JPY,"Monday, November 9, 2009",1510.0B,-,Medium,JPY Current Account Total (Yen) (SEP),1171.2B,-,23:50
+996,0.2%,NZD,"Sunday, November 8, 2009",,-,Medium,NZD QV House Prices (YoY) (OCT),-1.1%,-,00:00
+997,$1056.8B,JPY,"Sunday, November 8, 2009",,-,Low,JPY Official Reserve Assets (OCT),$1053.0B,-,00:00
+998,6.7%,AUD,"Sunday, November 8, 2009",,-,Low,AUD Value of Loans (MoM) (SEP),-2.7% (R-),-,00:30
+999,-0.1%,AUD,"Sunday, November 8, 2009",,-,Low,AUD Investment Lending (SEP),8.3% (R+),-,00:30
+1000,5.1%,AUD,"Sunday, November 8, 2009",3.0%,-,Medium,AUD Home Loans (SEP),-1.9% (R-),-,00:30
+1001,-1.7%,AUD,"Sunday, November 8, 2009",,-,Low,AUD ANZ Job Advertisements (MoM) (OCT),4.4%,-,00:30
+1002,,AUD,"Sunday, November 8, 2009",,-,Low,AUD RBA Assistant Governor Lowe Speaks in Perth,,-,03:20
+1003,-1849M,AUD,"Thursday, November 5, 2009",-2150M,-,Medium,AUD Trade Balance (Australian dollar) (SEP),-1651M (R-),-,00:30
+1004,31.6%,GBP,"Thursday, November 5, 2009",,-,Low,GBP New Car Registrations (YoY) (OCT),11.4%,-,01:00
+1005,-14,SECO,"Thursday, November 5, 2009",-38,-,Low,SECO Consumer Climate (OCT),-42,-,06:45
+1006,0.6%,CHF,"Thursday, November 5, 2009",0.7%,-,Medium,CHF Consumer Price Index (MoM) (OCT),0.0%,-,08:15
+1007,-0.8%,CHF,"Thursday, November 5, 2009",-0.7%,-,Medium,CHF Consumer Price Index (YoY) (OCT),-0.9%,-,08:15
+1008,,AUD,"Thursday, November 5, 2009",,-,Medium,AUD Australian Central Bank Governor Stevens Speaks in Melbourne,,-,08:55
+1009,1.6%,GBP,"Thursday, November 5, 2009",1.2%,-,Medium,GBP Industrial Production (MoM) (SEP),-2.5%,-,09:30
+1010,-10.3%,GBP,"Thursday, November 5, 2009",-10.3%,-,Medium,GBP Industrial Production (YoY) (SEP),-11.2%,-,09:30
+1011,1.7%,GBP,"Thursday, November 5, 2009",1.0%,-,Medium,GBP Manufacturing Production (MoM) (SEP),-1.9%,-,09:30
+1012,-9.3%,GBP,"Thursday, November 5, 2009",-9.7%,-,Medium,GBP Manufacturing Production (YoY) (SEP),-11.3%,-,09:30
+1013,0.7%,EUR,"Thursday, November 5, 2009",0.2%,-,Medium,EUR Euro-Zone Retail Sales (MoM) (SEP),-0.1% (R+),-,10:00
+1014,-3.6%,EUR,"Thursday, November 5, 2009",-2.4%,-,Low,EUR Euro-Zone Retail Sales (YoY) (SEP),-2.3% (R+),-,10:00
+1015,0.50%,GBP,"Thursday, November 5, 2009",0.50%,-,High,GBP Bank of England Interest Rate Decision,0.50%,-,12:00
+1016,200B,GBP,"Thursday, November 5, 2009",225B,-,High,GBP Bank of England Asset Purchase Target,175B,-,12:00
+1017,1.00%,EUR,"Thursday, November 5, 2009",1.00%,-,High,EUR European Central Bank Interest Rate Decision,1.00%,-,12:45
+1018,1.6%,CAD,"Thursday, November 5, 2009",1.6%,-,Low,CAD Building Permits (MoM) (SEP),7.4% (R+),-,13:30
+1019,9.5%,USD,"Thursday, November 5, 2009",6.5%,-,Low,USD Non-Farm Productivity (3Q P),6.9% (R+),-,13:30
+1020,-5.2%,USD,"Thursday, November 5, 2009",-4.2%,-,Low,USD Unit Labor Costs (3Q P),-6.1% (R-),-,13:30
+1021,512K,USD,"Thursday, November 5, 2009",522K,-,Low,USD Initial Jobless Claims (OCT 31),532K (R+),-,13:30
+1022,5749K,USD,"Thursday, November 5, 2009",5750K,-,Low,USD Continuing Claims (OCT 24),5817K (R+),-,13:30
+1023,2.1%,USD,"Thursday, November 5, 2009",,-,Medium,USD ICSC Chain Store Sales (YoY) (OCT),0.6% (R+),-,14:30
+1024,61.2,CAD,"Thursday, November 5, 2009",58.0,-,Medium,CAD Ivey Purchasing Managers Index (OCT),61.7,-,15:00
+1025,-0.4%,GBP,"Thursday, November 5, 2009",,-,Medium,GBP NIESR Gross Domestic Product Estimate (OCT),-0.4% (R-),-,15:00
+1026,50.9,AUD,"Thursday, November 5, 2009",,-,Medium,AUD AiG Performance of Construction Index (OCT),50.8,-,22:00
+1027,72,GBP,"Wednesday, November 4, 2009",73,-,Medium,GBP Nationwide Consumer Confidence (OCT),72 (R+),-,00:01
+1028,0.0%,GBP,"Wednesday, November 4, 2009",,-,Low,GBP BRC Shop Price Index (OCT),-0.1%,-,00:01
+1029,-0.2%,AUD,"Wednesday, November 4, 2009",0.5%,-,Medium,AUD Retail Sales s.a. (MoM) (SEP),0.9%,-,00:30
+1030,11.7%,AUD,"Wednesday, November 4, 2009",8.2%,-,Medium,AUD Building Approvals (YoY) (SEP),0.0%,-,00:30
+1031,-0.4%,AUD,"Wednesday, November 4, 2009",-0.5%,-,Medium,AUD Retail Sales Ex Inflation (QoQ) (3Q),2.0%,-,00:30
+1032,2.7%,AUD,"Wednesday, November 4, 2009",2.3%,-,Medium,AUD Building Approvals (MoM) (SEP),-0.1%,-,00:45
+1033,,JPY,"Wednesday, November 4, 2009",,-,Medium,JPY BOJ Governor Masaaki Shirakawa to Speak in Tokyo,,-,02:30
+1034,52.2,EUR,"Wednesday, November 4, 2009",49.3,-,Low,EUR Italian Purchasing Manager Index Services (OCT),48.5,-,08:45
+1035,57.7,EUR,"Wednesday, November 4, 2009",57.8,-,Low,EUR French Purchasing Manager Index Services (OCT F),57.8,-,08:50
+1036,50.7,EUR,"Wednesday, November 4, 2009",50.9,-,Low,EUR German Purchasing Manager Index Services (OCT F),50.9,-,08:55
+1037,52.6,EUR,"Wednesday, November 4, 2009",52.3,-,Low,EUR Euro-Zone Purchasing Manager Index Services (OCT F),52.3,-,09:00
+1038,53.0,EUR,"Wednesday, November 4, 2009",53.0,-,Low,EUR Euro-Zone Purchasing Manager Index Composite (OCT F),53.0,-,09:00
+1039,56.9,GBP,"Wednesday, November 4, 2009",55.5,-,Medium,GBP Purchasing Manager Index Services (OCT),55.3,-,09:30
+1040,$555M,GBP,"Wednesday, November 4, 2009",,-,Low,GBP Official Reserves (Changes) (OCT),$1665M,-,09:30
+1041,-7.7%,EUR,"Wednesday, November 4, 2009",-7.7%,-,Medium,EUR Euro-Zone Producer Price Index (YoY) (SEP),-7.5%,-,10:00
+1042,-0.4%,EUR,"Wednesday, November 4, 2009",-0.4%,-,Medium,EUR Euro-Zone Producer Price Index (MoM) (SEP),0.4%,-,10:00
+1043,8.2%,USD,"Wednesday, November 4, 2009",,-,Low,USD MBA Mortgage Applications (OCT 30),-12.3%,-,12:00
+1044,-50.7%,USD,"Wednesday, November 4, 2009",,-,Low,USD Challenger Job Cuts (YoY) (OCT),-30.2%,-,12:30
+1045,-203K,USD,"Wednesday, November 4, 2009",-198K,-,Medium,USD ADP Employment Change (OCT),-227K (R+),-,13:15
+1046,50.6,USD,"Wednesday, November 4, 2009",51.5,-,Medium,USD ISM Non-Manufacutring Composite (OCT),50.9,-,15:00
+1047,0.25%,USD,"Wednesday, November 4, 2009",0.25%,-,High,USD Federal Open Market Committee Interest Rate Decision,0.25%,-,19:15
+1048,-0.8%,NZD,"Wednesday, November 4, 2009",-0.3%,-,Medium,NZD Employment Change (QoQ) (3Q),-0.4%,-,21:45
+1049,-1.8%,NZD,"Wednesday, November 4, 2009",-1.3%,-,Medium,NZD Employment Change (YoY) (3Q),-0.9%,-,21:45
+1050,6.5%,NZD,"Wednesday, November 4, 2009",6.4%,-,Medium,NZD Unemployment Rate (3Q),6.0%,-,21:45
+1051,68.0%,NZD,"Wednesday, November 4, 2009",68.2%,-,Low,NZD Participation Rate (QoQ) (3Q),68.4%,-,21:45
+1052,,JPY,"Wednesday, November 4, 2009",,-,Low,JPY Bank of Japan Meeting Minutes,,-,23:50
+1053,10.45M,USD,"Tuesday, November 3, 2009",9.80M,-,Low,USD Total Vehicle Sales (OCT),9.20M,-,01:00
+1054,7.94M,USD,"Tuesday, November 3, 2009",7.30M,-,Low,USD Domestic Vehicle Sales (OCT),6.80M,-,01:00
+1055,4.6%,NZD,"Tuesday, November 3, 2009",,-,Low,NZD ANZ Commodity Price (OCT),6.8%,-,02:00
+1056,3.50%,AUD,"Tuesday, November 3, 2009",3.50%,-,High,AUD Reserve Bank of Australia Interest Rate Decision,3.25%,-,03:30
+1057,46.2,GBP,"Tuesday, November 3, 2009",47.2,-,Medium,GBP Purchasing Manager Index Construction (OCT),46.7,-,09:30
+1058,0.9%,USD,"Tuesday, November 3, 2009",0.8%,-,Medium,USD Factory Orders (SEP),-0.8%,-,15:00
+1059,-49,USD,"Tuesday, November 3, 2009",-50,-,Low,USD ABC Consumer Confidence (NOV 1),-51,-,22:00
+1060,54.8,AUD,"Tuesday, November 3, 2009",,-,Medium,AUD AiG Performance of Service Index (OCT),49.3,-,22:30
+1061,4.4%,JPY,"Tuesday, November 3, 2009",,-,Low,JPY Monetary Base (YoY) (OCT),4.5%,-,23:50
+1062,0.2%,GBP,"Monday, November 2, 2009",,-,Low,GBP Hometrack Housing Survey (MoM) (OCT),0.2%,-,00:01
+1063,-4.2%,GBP,"Monday, November 2, 2009",,-,Low,GBP Hometrack Housing Survey (YoY) (OCT),-5.6%,-,00:01
+1064,4.2%,AUD,"Monday, November 2, 2009",3.0%,-,Medium,AUD House Price Index (QoQ) (3Q),-1.50% (R-),-,00:30
+1065,6.2%,AUD,"Monday, November 2, 2009",4.3%,-,Medium,AUD House Price Index (YoY) (3Q),-0.7% (R+),-,00:30
+1066,-1.6%,JPY,"Monday, November 2, 2009",-2.1%,-,Medium,JPY Labor Cash Earnings (YoY) (SEP),-2.7% (R+),-,01:30
+1067,12.6%,JPY,"Monday, November 2, 2009",,-,Low,JPY Vehicle Sales (YoY) (OCT),3.5%,-,05:00
+1068,-31.1%,AUD,"Monday, November 2, 2009",,-,Low,AUD RBA Commodity Index SDR (YoY) (OCT),-33.9% (R-),-,05:30
+1069,54.0,CHF,"Monday, November 2, 2009",54.8,-,Medium,CHF SVME-Purchasing Managers Index (OCT),54.3,-,08:30
+1070,49.2,EUR,"Monday, November 2, 2009",48.8,-,Low,EUR Italian Purchasing Manager Index Manufacturing (OCT),47.6,-,08:45
+1071,55.6,EUR,"Monday, November 2, 2009",55.3,-,Low,EUR French Purchasing Manager Index Manufacturing (OCT F),55.3,-,08:50
+1072,51.0,EUR,"Monday, November 2, 2009",51.1,-,Low,EUR German Purchasing Manager Index Manufacturing (OCT F),51.1,-,08:55
+1073,50.7,EUR,"Monday, November 2, 2009",50.7,-,Low,EUR Euro-Zone Purchasing Manager Index Manufacturing (OCT F),50.7,-,09:00
+1074,53.7,GBP,"Monday, November 2, 2009",50.0,-,Medium,GBP Purchasing Manager Index Manufacturing (OCT),49.9 (R+),-,09:30
+1075,55.7,USD,"Monday, November 2, 2009",53.0,-,High,USD ISM Manufacturing (OCT),52.6,-,15:00
+1076,65.0,USD,"Monday, November 2, 2009",64.0,-,Low,USD ISM Prices Paid (OCT),63.5,-,15:00
+1077,6.1%,USD,"Monday, November 2, 2009",0.0%,-,Medium,USD Pending Home Sales (MoM) (SEP),6.4%,-,15:00
+1078,19.8%,USD,"Monday, November 2, 2009",,-,Medium,USD Pending Home Sales (YoY) (SEP),12.1%,-,15:00
+1079,0.8%,USD,"Monday, November 2, 2009",-0.2%,-,Medium,USD Construction Spending (MoM) (SEP),-0.1% (R-),-,15:00
+1080,15.7%,EUR,"Monday, November 2, 2009",,-,Low,EUR Italian New Car Registrations (YoY) (OCT),6.8%,-,17:00
+1081,-10.8B,EUR,"Monday, November 2, 2009",,-,Low,EUR Italian Budget Balance (euros) (OCT),-11.8B,-,18:00
+1082,-83.4B,EUR,"Monday, November 2, 2009",,-,Low,EUR Italian Budget Balance (euros) (YTD) (OCT),-72.6B,-,18:00
+1083,,USD,"Monday, November 2, 2009",,-,Low,USD Fed's Tarullo Speaks on Executive Pay in Washington,,-,20:15
+1084,0.4%,NZD,"Monday, November 2, 2009",0.3%,-,Medium,NZD Labor Cost Private Sector (QoQ) (3Q),0.3%,-,21:45
+1085,1.7%,NZD,"Monday, November 2, 2009",0.5%,-,Medium,NZD Average Hourly Earnings (QoQ) (3Q),0.7%,-,21:45
+1086,0.4%,NZD,"Monday, November 2, 2009",0.3%,-,Low,NZD Private Wages ex Overtime (QoQ) (3Q),0.3%,-,21:45
+1087,51.7,AUD,"Sunday, November 1, 2009",,-,Medium,AUD AiG Performance of Manufacturing Index (OCT),52.0,-,22:30
+1088,-0.3%,AUD,"Sunday, November 1, 2009",,-,Low,AUD TD Securities Inflation (MoM) (OCT),0.0%,-,23:30
+1089,1.2%,AUD,"Sunday, November 1, 2009",,-,Medium,AUD TD Securities Inflation (YoY) (OCT),1.3%,-,23:30
+1090,0.10%,JPY,"Friday, October 30, 2009",0.10%,-,High,JPY Bank of Japan Interest Rate Decision,0.10%,-,00:00
+1091,-13,GBP,"Friday, October 30, 2009",-14,-,Medium,GBP GfK Consumer Confidence Survey (OCT),-16,-,00:01
+1092,-0.2%,AUD,"Friday, October 30, 2009",0.2%,-,Medium,AUD Private Sector Credit (MoM) (SEP),0.2% (R+),-,00:30
+1093,1.7%,AUD,"Friday, October 30, 2009",2.0%,-,Medium,AUD Private Sector Credit (YoY) (SEP),2.6% (R+),-,00:30
+1094,-37.0%,JPY,"Friday, October 30, 2009",-37.0%,-,Medium,JPY Housing Starts (YoY) (SEP),-38.3%,-,05:00
+1095,0..699M,JPY,"Friday, October 30, 2009",0.699M,-,Medium,JPY Annualized Housing Starts (SEP),0.676M,-,05:00
+1096,-14.0%,JPY,"Friday, October 30, 2009",,-,Low,JPY Construction Orders (YoY) (SEP),-25.2%,-,05:00
+1097,0.4%,GBP,"Friday, October 30, 2009",0.6%,-,Medium,GBP Nationwide House Prices s.a. (MoM) (OCT),0.9%,-,07:00
+1098,2.0%,GBP,"Friday, October 30, 2009",1.8%,-,Medium,GBP Nationwide House Prices n.s.a. (YoY) (OCT),0.0%,-,07:00
+1099,-0.5%,EUR,"Friday, October 30, 2009",1.0%,-,Medium,EUR German Retail Sales (MoM) (SEP),-1.8% (R-),-,07:00
+1100,-3.9%,EUR,"Friday, October 30, 2009",-2.2%,-,Medium,EUR German Retail Sales (YoY) (SEP),-2.9% (R-),-,07:00
+1101,-0.3%,EUR,"Friday, October 30, 2009",-0.3%,-,Low,EUR French Producer Prices (MoM) (SEP),0.4%,-,07:45
+1102,-8.1%,EUR,"Friday, October 30, 2009",-8.1%,-,Low,EUR French Producer Prices (YoY) (SEP),-8.5%,-,07:45
+1103,-0.3%,EUR,"Friday, October 30, 2009",-0.3%,-,Low,EUR Italian Producer Price Index (MoM) (SEP),0.6%,-,09:00
+1104,-7.9%,EUR,"Friday, October 30, 2009",-7.9%,-,Low,EUR Italian Producer Price Index (YoY) (SEP),-7.8%,-,09:00
+1105,0.1%,EUR,"Friday, October 30, 2009",0.1%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (MoM) (OCT P),-0.2%,-,10:00
+1106,0.3%,EUR,"Friday, October 30, 2009",0.3%,-,Low,EUR Italian Consumer Price Index (NIC incl. tobacco) (YoY) (OCT P),0.2%,-,10:00
+1107,0.5%,EUR,"Friday, October 30, 2009",0.5%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (MoM) (OCT P),0.7%,-,10:00
+1108,0.4%,EUR,"Friday, October 30, 2009",0.4%,-,Low,EUR Italian Consumer Price Index - EU Harmonized (YoY) (OCT P),0.4%,-,10:00
+1109,,EUR,"Friday, October 30, 2009",,-,Low,EUR ISAE Presents New Report on Public Policies and Redistribution,,-,10:00
+1110,-0.1%,EUR,"Friday, October 30, 2009",-0.1%,-,High,EUR Euro-Zone Consumer Price Index Estimate (YoY) (OCT),-0.3%,-,10:00
+1111,9.7%,EUR,"Friday, October 30, 2009",9.7%,-,Medium,EUR Euro-Zone Unemployment Rate (SEP),9.6%,-,10:00
+1112,1.45,CHF,"Friday, October 30, 2009",1.16,-,Medium,CHF KOF Swiss Leading Indicator (OCT),0.77 (R-),-,10:30
+1113,-0.1%,CAD,"Friday, October 30, 2009",0.1%,-,Medium,CAD Gross Domestic Product (MoM) (AUG),0.0%,-,12:30
+1114,0.0%,USD,"Friday, October 30, 2009",0.0%,-,Medium,USD Personal Income (SEP),0.1% (R-),-,12:30
+1115,-0.5%,USD,"Friday, October 30, 2009",-0.5%,-,Medium,USD Personal Spending (SEP),1.4% (R+),-,12:30
+1116,0.1%,USD,"Friday, October 30, 2009",0.2%,-,Medium,USD Personal Consumption Expenditure Core (MoM) (SEP),0.1%,-,12:30
+1117,1.3%,USD,"Friday, October 30, 2009",1.3%,-,Low,USD Personal Consumption Expenditure Core (YoY) (SEP),1.3%,-,12:30
+1118,-0.5%,USD,"Friday, October 30, 2009",-0.5%,-,Low,USD Personal Consumption Expenditure Deflator (YoY) (SEP),-0.5%,-,12:30
+1119,0.4%,USD,"Friday, October 30, 2009",0.4%,-,Low,USD Employment Cost Index (3Q),0.4%,-,12:30
+1120,54.2,USD,"Friday, October 30, 2009",49.0,-,Low,USD Chicago Purchasing Manager (OCT),46.1,-,13:45
+1121,70.6,USD,"Friday, October 30, 2009",70.0,-,Low,USD U. of Michigan Confidence (OCT F),69.4,-,14:00
+1122,50,USD,"Friday, October 30, 2009",57,-,Low,USD NAPM-Milwaukee (OCT),58,-,14:00
+1123,,USD,"Friday, October 30, 2009",,-,Medium,USD Bloomberg Financial Conditions Index (OCT),,-,20:15
+1124,-4.5%,AUD,"Thursday, October 29, 2009",,-,Medium,AUD HIA New Home Sales (MoM) (SEP),11.4%,-,00:00
+1125,2.7%,NZD,"Thursday, October 29, 2009",,-,Low,NZD Money Supply M3 (YoY) (SEP),3.6% (R+),-,02:00
+1126,-21.6%,JPY,"Thursday, October 29, 2009",,-,Low,JPY Vehicle Production (YoY) (SEP),-25.9%,-,04:00
+1127,-26K,EUR,"Thursday, October 29, 2009",15K,-,High,EUR German Unemployment Change (OCT),-12K,-,08:55
+1128,8.1%,EUR,"Thursday, October 29, 2009",8.3%,-,Medium,EUR German Unemployment Rate s.a. (OCT),8.2%,-,08:55
+1129,0.7%,EUR,"Thursday, October 29, 2009",,-,Low,EUR Italian Hourly Wages (MoM) (SEP),0.3%,-,09:00
+1130,3.1%,EUR,"Thursday, October 29, 2009",,-,Low,EUR Italian Hourly Wages (YoY) (SEP),2.4%,-,09:00
+1131,56.2K,GBP,"Thursday, October 29, 2009",53.6K,-,Medium,GBP Mortgage Approvals (SEP),53.0K (R+),-,09:30
+1132,-0.3B,GBP,"Thursday, October 29, 2009",-0.2B,-,Medium,GBP Net Consumer Credit (SEP),-0.4B (R-),-,09:30
+1133,0.9B,GBP,"Thursday, October 29, 2009",0.8B,-,Medium,GBP Net Lending Sec. on Dwellings (SEP),1.3B (R+),-,09:30
+1134,0.8%,GBP,"Thursday, October 29, 2009",,-,Low,GBP M4 Money Supply (MoM) (SEP F),0.7%,-,09:30
+1135,11.6%,GBP,"Thursday, October 29, 2009",,-,Low,GBP M4 Money Supply (YoY) (SEP F),11.3%,-,09:30
+1136,86.2,EUR,"Thursday, October 29, 2009",84.4,-,Low,EUR Euro-Zone Economic Confidence (OCT),82.8,-,10:00
+1137,-1.78,EUR,"Thursday, October 29, 2009",-1.9,-,Medium,EUR Euro-Zone Business Climate Indicator (OCT),-2.07,-,10:00
+1138,-18,EUR,"Thursday, October 29, 2009",-18,-,Medium,EUR Euro-Zone Consumer Confidence (OCT),-19,-,10:00
+1139,-21,EUR,"Thursday, October 29, 2009",-22,-,Low,EUR Euro-Zone Industrial Confidence (OCT),-24,-,10:00
+1140,-7,EUR,"Thursday, October 29, 2009",-8,-,Low,EUR Euro-Zone Services Confidence (OCT),-9,-,10:00
+1141,-1.9%,EUR,"Thursday, October 29, 2009",,-,Low,EUR Italian Large Company Employment n.s.a. (YoY) (AUG),-1.8%,-,10:00
+1142,-0.5%,CAD,"Thursday, October 29, 2009",-0.2%,-,Low,CAD Industrial Product Price (MoM) (SEP),0.5%,-,12:30
+1143,-1.1%,CAD,"Thursday, October 29, 2009",-0.5%,-,Low,CAD Raw Materials Price Index (MoM) (SEP),3.8% (R+),-,12:30
+1144,3.5%,USD,"Thursday, October 29, 2009",3.2%,-,High,USD Gross Domestic Product (Annualized) (3Q A),-0.7%,-,12:30
+1145,0.8%,USD,"Thursday, October 29, 2009",1.4%,-,High,USD Gross Domestic Product Price Index (3Q A),0.0%,-,12:30
+1146,3.4%,USD,"Thursday, October 29, 2009",3.1%,-,Medium,USD Personal Consumption (3Q A),-0.9%,-,12:30
+1147,1.4%,USD,"Thursday, October 29, 2009",1.4%,-,Medium,USD Core Personal Consumption Expenditure (QoQ) (3Q A),2.0%,-,12:30
+1148,530K,USD,"Thursday, October 29, 2009",525K,-,Medium,USD Initial Jobless Claims (OCT 24),531K,-,12:30
+1149,5797K,USD,"Thursday, October 29, 2009",5905K,-,Low,USD Continuing Claims (OCT 17),5945K (R+),-,12:30
+1150,,EUR,"Thursday, October 29, 2009",,-,Low,EUR IFO Business Climate Survey by Industry (OCT),,-,13:00
+1151,,JPY,"Thursday, October 29, 2009",,-,Medium,"JPY BOJ to Hold Regular Policy Board Meeting, Release Outlook",,-,15:00
+1152,3.3%,NZD,"Thursday, October 29, 2009",4.0%,-,Low,NZD Building Permits (MoM) (SEP),1.8% (R+),-,21:45
+1153,54.3,JPY,"Thursday, October 29, 2009",,-,Medium,JPY Nomura/JMMA Manufacturing Purchasing Manager Index (OCT),54.5,-,23:15
+1154,5.3%,JPY,"Thursday, October 29, 2009",5.6%,-,Medium,JPY Jobless Rate (SEP),5.5%,-,23:30
+1155,0.43,JPY,"Thursday, October 29, 2009",0.42,-,Low,JPY Job-To-Applicant Ratio (SEP),0.42,-,23:30
+1156,1.0%,JPY,"Thursday, October 29, 2009",1.0%,-,Medium,JPY Household Spending (YoY) (SEP),2.6%,-,23:30
+1157,-2.4%,JPY,"Thursday, October 29, 2009",-2.0%,-,Low,JPY Tokyo Consumer Price Index (YoY) (OCT),-2.1% (R-),-,23:30
+1158,-2.2%,JPY,"Thursday, October 29, 2009",-2.1%,-,Low,JPY Tokyo Consumer Price Index Ex-Fresh Food (YoY) (OCT),-2.1%,-,23:30
+1159,-1.4%,JPY,"Thursday, October 29, 2009",-1.4%,-,Low,"JPY Tokyo Consumer Price Index Ex Food, Energy (YoY) (OCT)",-1.4%,-,23:30
+1160,-2.2%,JPY,"Thursday, October 29, 2009",-2.2%,-,Medium,JPY National Consumer Price Index (YoY) (SEP),-2.2%,-,23:30
+1161,-2.3%,JPY,"Thursday, October 29, 2009",-2.4%,-,Medium,JPY National Consumer Price Index Ex-Fresh Food (YoY) (SEP),-2.4%,-,23:30
+1162,-1.0%,JPY,"Thursday, October 29, 2009",-1.0%,-,Medium,"JPY National Consumer Price Index Ex Food, Energy (YoY) (SEP)",-0.9%,-,23:30
+1163,1.9%,AUD,"Wednesday, October 28, 2009",,-,Low,AUD DEWR Skilled Vacancies (MoM) (OCT),1.2%,-,00:00
+1164,0.1%,EUR,"Wednesday, October 28, 2009",0.1%,-,Medium,EUR German Consumer Price Index (MoM) (OCT P),-0.4%,-,00:00
+1165,0.0%,EUR,"Wednesday, October 28, 2009",0.0%,-,High,EUR German Consumer Price Index (YoY) (OCT P),-0.3%,-,00:00
+1166,0.2%,EUR,"Wednesday, October 28, 2009",0.1%,-,Medium,EUR German Consumer Price Index - EU Harmonised (MoM) (OCT P),-0.5%,-,00:00
+1167,0.0%,EUR,"Wednesday, October 28, 2009",-0.1%,-,High,EUR German Consumer Price Index - EU Harmonised (YoY) (OCT P),-0.5%,-,00:00
+1168,1.0%,AUD,"Wednesday, October 28, 2009",0.9%,-,Medium,AUD Consumer Prices Index (QoQ) (3Q),0.5%,-,00:30
+1169,1.3%,AUD,"Wednesday, October 28, 2009",1.2%,-,High,AUD Consumer Prices Index (YoY) (3Q),1.5%,-,00:30
+1170,0.8%,AUD,"Wednesday, October 28, 2009",0.7%,-,Low,AUD Consumer Prices Index RBA Trimmed Mean (QoQ) (3Q),0.8%,-,00:30
+1171,3.2%,AUD,"Wednesday, October 28, 2009",3.2%,-,Medium,AUD Consumer Prices Index RBA Trimmed Mean (YoY) (3Q),3.6%,-,00:30
+1172,0.8%,AUD,"Wednesday, October 28, 2009",0.8%,-,Medium,AUD Consumer Prices Index RBA Weighted Median (QoQ) (3Q),0.8%,-,00:30
+1173,3.8%,AUD,"Wednesday, October 28, 2009",3.7%,-,Low,AUD Consumer Prices Index RBA Weighted Median (YoY) (3Q),4.2%,-,00:30
+1174,48.2,NZD,"Wednesday, October 28, 2009",,-,Medium,NZD NBNZ Business Confidence (OCT),49.1,-,02:00
+1175,43.4,JPY,"Wednesday, October 28, 2009",,-,Low,JPY Small Business Confidence (OCT),43.5,-,05:00
+1176,-0.9%,EUR,"Wednesday, October 28, 2009",-0.7%,-,Low,EUR German Import Price Index (MoM) (SEP),1.3%,-,07:00
+1177,-11.0%,EUR,"Wednesday, October 28, 2009",-10.7%,-,Low,EUR German Import Price Index (YoY) (SEP),-10.9%,-,07:00
+1178,77.1,EUR,"Wednesday, October 28, 2009",75.1,-,Low,EUR Italian Business Confidence (OCT),74.3 (R+),-,08:30
+1179,-7,EUR,"Wednesday, October 28, 2009",,-,Low,EUR Italian Services Survey (OCT),-5 (R+),-,08:30
+1180,93.4,EUR,"Wednesday, October 28, 2009",,-,Low,EUR Italian Retailers' Confidence General (OCT),95.4,-,09:30
+1181,-12.3%,USD,"Wednesday, October 28, 2009",,-,Low,USD MBA Mortgage Applications (OCT 23),-13.7%,-,11:00
+1182,1.0%,USD,"Wednesday, October 28, 2009",1.0%,-,Medium,USD Durable Goods Orders (SEP),-2.6% (R-),-,12:30
+1183,0.9,USD,"Wednesday, October 28, 2009",0.7%,-,Medium,USD Durables Ex Transportation (SEP),-0.3%,-,12:30
+1184,402K,USD,"Wednesday, October 28, 2009",440K,-,Medium,USD New Home Sales (SEP),417K (R-),-,14:00
+1185,-3.6%,USD,"Wednesday, October 28, 2009",2.6%,-,Medium,USD New Home Sales (MoM) (SEP),1.0% (R+),-,14:00
+1186,2.50%,NZD,"Wednesday, October 28, 2009",2.50%,-,High,NZD Reserve Bank of New Zealand Interest Rate Decision,2.50%,-,20:00
+1187,-424M,NZD,"Wednesday, October 28, 2009",-681M,-,Medium,NZD Trade Balance (New Zealand dollars) (SEP),-719M (R+),-,21:45
+1188,-1533,NZD,"Wednesday, October 28, 2009",-1803,-,Medium,NZD Balance (YTD) (New Zealand dollars) (SEP),-2365,-,21:45
+1189,3.25B,NZD,"Wednesday, October 28, 2009",3.50B,-,Low,NZD Imports (New Zealand dollars) (SEP),3.46B (R-),-,21:45
+1190,2.83B,NZD,"Wednesday, October 28, 2009",2.83B,-,Low,NZD Exports (New Zealand dollars) (SEP),2.74B,-,21:45
+1191,1.8%,AUD,"Wednesday, October 28, 2009",,-,Medium,AUD Conference Board Leading Index (AUG),1.0% (R+),-,23:00
+1192,1.4%,JPY,"Wednesday, October 28, 2009",1.0%,-,Medium,JPY Industrial Production (MoM) (SEP P),1.6%,-,23:50
+1193,-3.2%,JPY,"Wednesday, October 28, 2009",-3.4%,-,Low,JPY Corporate Service Price (YoY) (SEP),-3.5%,-,23:50
+1194,-18.9%,JPY,"Wednesday, October 28, 2009",-19.3%,-,Medium,JPY Industrial Production (YoY) (SEP P),-19.0%,-,23:50
+1195,16,AUD,"Tuesday, October 27, 2009",,-,Medium,AUD NAB Business Confidence (3Q),-4,-,00:30
+1196,16,AUD,"Tuesday, October 27, 2009",,-,Medium,AUD NAB Business Confidence (3Q),-4,-,00:30
+1197,0.632,CHF,"Tuesday, October 27, 2009",,-,Medium,CHF UBS Consumption Indicator (SEP),0.623,-,07:00
+1198,-15,EUR,"Tuesday, October 27, 2009",-41,-,Low,EUR French Business Survey Overall Demand (OCT),-36,-,07:45
+1199,-35,EUR,"Tuesday, October 27, 2009",-35,-,Low,EUR French Consumer Confidence Indicator (OCT),-36,-,07:50
+1200,111.7,EUR,"Tuesday, October 27, 2009",113.7,-,Low,EUR Italian Consumer Confidence Index s.a. (OCT),113.6,-,08:30
+1201,2.5%,EUR,"Tuesday, October 27, 2009",2.5%,-,Low,EUR Euro-Zone M3 s.a. (3M) (SEP),2.5%,-,09:00
+1202,1.8%,EUR,"Tuesday, October 27, 2009",2.2%,-,Low,EUR Euro-Zone M3 s.a. (YoY) (SEP),2.6%,-,09:00
+1203,8,GBP,"Tuesday, October 27, 2009",,-,Medium,GBP U.K. CBI Distributive Trades (OCT),3,-,11:00
+1204,146.00,USD,"Tuesday, October 27, 2009",,-,Medium,USD S&P/Case-Shiller Home Price Index (AUG),144.30 (R+),-,13:00
+1205,-11.32%,USD,"Tuesday, October 27, 2009",-11.90%,-,Medium,USD S&P/Case-Shiller Composite-20 (YoY) (AUG),-13.26% (R+),-,13:00
+1206,47.7,USD,"Tuesday, October 27, 2009",53.5,-,High,USD Consumer Confidence (OCT),53.4 (R+),-,14:00
+1207,7,USD,"Tuesday, October 27, 2009",14,-,Low,USD Richmond Fed Manufacturing Index (OCT),14,-,14:00
+1208,,USD,"Tuesday, October 27, 2009",,-,Low,USD Treasury's Geithner Speaks at SIFMA Annual Meeting in New York,,-,20:00
+1209,-51,USD,"Tuesday, October 27, 2009",-49,-,Low,USD ABC Consumer Confidence (OCT 25),-50,-,21:00
+1210,-5.6%,JPY,"Tuesday, October 27, 2009",-5.9%,-,Medium,JPY Large Retailers' Sales (SEP),-6.8%,-,23:50
+1211,0.9%,JPY,"Tuesday, October 27, 2009",0.2%,-,Medium,JPY Retail Trade s.a. (MoM) (SEP),1.0%,-,23:50
+1212,-1.4%,JPY,"Tuesday, October 27, 2009",-1.6%,-,Medium,JPY Retail Trade (YoY) (SEP),-1.8%,-,23:50
+1213,0.1%,AUD,"Monday, October 26, 2009",0.3%,-,Low,AUD Producer Price Index (QoQ) (3Q),-0.8%,-,00:30
+1214,0.2%,AUD,"Monday, October 26, 2009",0.5%,-,Low,AUD Producer Price Index (YoY) (3Q),2.1%,-,00:30
+1215,4.0,EUR,"Monday, October 26, 2009",4.5,-,Medium,EUR German GfK Consumer Confidence Survey (NOV),4.3,-,07:00
+1216,-0.81,USD,"Monday, October 26, 2009",,-,Medium,USD Chicago Fed National Activity Index (SEP),-0.65 (R+),-,12:30
+1217,-3.3%,USD,"Monday, October 26, 2009",-0.5%,-,Low,USD Dallas Fed Manufacturing Activity (OCT),-6.4%,-,14:30
+1218,2574.9,EUR,"Monday, October 26, 2009",,-,Low,EUR French Total Jobseekers (SEP),2553.3,-,17:00
+1219,21.6,EUR,"Monday, October 26, 2009",20.0,-,Low,EUR French Total Jobseekers Change (SEP),18.1,-,17:00
+1220,147.9,AUD,"Thursday, October 22, 2009",,-,Low,AUD CBAHIA House Affordability (3Q),153.0 (R+),-,00:30
+1221,0.9%,JPY,"Thursday, October 22, 2009",0.4%,-,Low,JPY All Industry Activity Index (MoM) (AUG),0.8% (R-),-,04:30
+1222,,USD,"Thursday, October 22, 2009",,-,High,USD Treasury's Krueger at Panel Dsicussion in Washington,,-,04:30
+1223,-2.4%,JPY,"Thursday, October 22, 2009",,-,Low,JPY Supermarket Sales (YoY) (SEP),-3.4%,-,05:00
+1224,1.92B,CHF,"Thursday, October 22, 2009",,-,Medium,CHF Trade Balance (SEP),1.72B (R-),-,06:15
+1225,-2.3%,CHF,"Thursday, October 22, 2009",,-,Medium,CHF Exports (MoM) (SEP),2.0%,-,06:15
+1226,3.0%,CHF,"Thursday, October 22, 2009",,-,Medium,CHF Imports (MoM) (SEP),-2.5%,-,06:15
+1227,89,EUR,"Thursday, October 22, 2009",87,-,Low,EUR French Business Confidence Indicator (OCT),85,-,06:45
+1228,-2,EUR,"Thursday, October 22, 2009",-9,-,Low,EUR French Own-Company Production Outlook (OCT),-11,-,06:45
+1229,-11,EUR,"Thursday, October 22, 2009",-13,-,Low,EUR French Production Outlook Indicator (OCT),-16,-,06:45
+1230,-0.1 %,EUR,"Thursday, October 22, 2009",0.1%,-,Low,EUR Italian Retail Sales s.a. (MoM) (AUG),-0.4% (R-),-,08:00
+1231,-2.9%,EUR,"Thursday, October 22, 2009",-1.7%,-,Low,EUR Italian Retail Sales (YoY) (AUG),-2.5% (R+),-,08:00
+1232,,EUR,"Thursday, October 22, 2009",,-,Low,EUR Euro-Zone Current Account s.a. (euros) (AUG),6.6B,-,08:00
+1233,,EUR,"Thursday, October 22, 2009",,-,Medium,EUR Euro-Zone Current Account n.s.a. (euros) (AUG),8.8B,-,08:00
+1234,0.0%,GBP,"Thursday, October 22, 2009",0.5%,-,High,GBP Retail Sales (MoM) (SEP),0.0%,-,08:30
+1235,2.4%,GBP,"Thursday, October 22, 2009",2.8%,-,High,GBP Retail Sales (YoY) (SEP),2.1%,-,08:30
+1236,-513.0M,EUR,"Thursday, October 22, 2009",,-,Low,EUR Italian Trade Balance Non-Eu (euros) (SEP),-970.0M (R-),-,09:00
+1237,69.3%,EUR,"Thursday, October 22, 2009",,-,Low,EUR Euro-Zone Government Debt-GDP Ratio DEC 31,69.3%,-,09:00
+1238,0.8%,CAD,"Thursday, October 22, 2009",0.4%,-,High,CAD Retail Sales (MoM) (AUG),-0.5% (R+),-,12:30
+1239,0.5%,CAD,"Thursday, October 22, 2009",0.6%,-,Medium,CAD Retail Sales Less Autos (MoM) (AUG),-0.6% (R+),-,12:30
+1240,531K,USD,"Thursday, October 22, 2009",515K,-,Low,USD Initial Jobless Claims (OCT 17),520K (R+),-,12:30
+1241,5923K,USD,"Thursday, October 22, 2009",5970K,-,Low,USD Continuing Claims (OCT 10),6021K (R+),-,12:30
+1242,-9.76%,USD,"Thursday, October 22, 2009",,-,Low,USD RPX Composite 28 Day (YoY) (AUG),-12.46%,-,13:00
+1243,200.29,USD,"Thursday, October 22, 2009",,-,Low,USD RPX Composite 28 Day Index (AUG),198.40,-,13:00
+1244,1.0%,USD,"Thursday, October 22, 2009",0.8%,-,Low,USD Leading Indicators (SEP),0.4% (R-),-,14:00
+1245,-0.3%,USD,"Thursday, October 22, 2009",0.3%,-,Low,USD House Price Index (MoM) (AUG),0.3%,-,14:00
+1246,,USD,"Thursday, October 22, 2009",,-,Medium,USD Treasury's Allison Testifies to TARP Oversight Panel,,-,14:00
+1247,,USD,"Thursday, October 22, 2009",,-,Low,USD Fed's Rosengren Speaks in Massachusetts on Financial Stability,,-,14:00
+1248,,CAD,"Thursday, October 22, 2009",,-,Medium,CAD Bank of Canada Monetary Policy Report,,-,14:30
+1249,,USD,"Thursday, October 22, 2009",,-,Medium,USD Fed's Rosengren Speaks in Massachusetts on Financial Stability,,-,14:30
+1250,,USD,"Thursday, October 22, 2009",,-,Low,USD Treasury's Barr Testifies on Banking to House Committee,,-,15:00
+1251,,USD,"Thursday, October 22, 2009",,-,Low,USD Fed's Lockhart to Speak About Financial Stability,,-,16:00
+1252,,USD,"Thursday, October 22, 2009",,-,Low,USD Fed's Dudley Speaks About Monetary Policy,,-,16:30
+1253,,USD,"Thursday, October 22, 2009",,-,Low,USD Fed's Dudley Moderates Policy Panel at Boston Fed Event,,-,17:30
+1254,,USD,"Thursday, October 22, 2009",,-,High,"USD Fed's Evans Speaks on Panel in Ann Arbor, Michigan",,-,20:00
+1255,,Fed's,"Wednesday, October 21, 2009",,-,Medium,Fed's Plosser to Speak at Stanford on Monetary Policy,,-,00:00
+1256,1.1%,Westpac,"Wednesday, October 21, 2009",,-,Medium,Westpac Leading Index (MoM) (AUG),1.4% (R+),-,00:00
+1257,-2.3%,NZD,"Wednesday, October 21, 2009",,-,Medium,NZD Credit Card Spending (YoY) (SEP),0.1%,-,02:00
+1258,7.8%,CHF,"Wednesday, October 21, 2009",,-,Low,CHF Money Supply M3 (YoY) (SEP),7.7%,-,07:00
+1259,365.9,CHF,"Wednesday, October 21, 2009",,-,Medium,CHF Real Estate Index Family Homes (3Q),362.3,-,07:00
+1260,,GBP,"Wednesday, October 21, 2009",,-,High,GBP Bank of England Minutes,,-,08:30
+1261,51,GBP,"Wednesday, October 21, 2009",,-,Medium,GBP U.K. CBI Quarterly Industrial Trends Total Orders,48,-,10:00
+1262,-13.7%,USD,"Wednesday, October 21, 2009",,-,Low,USD MBA Mortgage Applications (OCT 16),-1.8%,-,11:00
+1263,,USD,"Wednesday, October 21, 2009",,-,Low,USD Fed's Lacker to Speak at Economics Workshop at Richmond Fed,,-,16:00
+1264,,USD,"Wednesday, October 21, 2009",,-,Low,USD Fed's Tarullo Speaks to Exchequer Club in Washington,,-,17:00
+1265,,USD,"Wednesday, October 21, 2009",,-,High,USD Fed Releases Beige Book Economic Report,,-,18:00
+1266,,USD,"Wednesday, October 21, 2009",,-,Low,"USD Fed's Rosengren Speaks at Chatham, Massachusetts",,-,20:30
+1267,520.6B,JPY,"Wednesday, October 21, 2009",620.8B,-,Medium,JPY Merchandise Trade Balance Total (Japanese yen) (SEP),183.3B (R-),-,23:50
+1268,58.6B,JPY,"Wednesday, October 21, 2009",375.0B,-,Medium,JPY Adjusted Merchandise Trade Balance (Japanese yen) (SEP),173.5B (R-),-,23:50
+1269,-30.7%,JPY,"Wednesday, October 21, 2009",-29.7%,-,Low,JPY Merchandise Trade Exports (YoY) (SEP),-36.0%,-,23:50
+1270,-36.9%,JPY,"Wednesday, October 21, 2009",-38.0%,-,Low,JPY Merchandise Trade Imports (YoY) (SEP),-41.3%,-,23:50
+1271,,AUD,"Tuesday, October 20, 2009",,-,High,AUD Reserve Bank's Board October Minutes,,-,00:30
+1272,,JPY,"Tuesday, October 20, 2009",,-,Low,JPY BOJ Deputy Governor Nishimura to Speak in Kobe City,,-,01:30
+1273,83.2,JPY,"Tuesday, October 20, 2009",,-,Low,JPY Leading Index CI (AUG F),83.3,-,05:00
+1274,91.2,JPY,"Tuesday, October 20, 2009",,-,Low,JPY Coincident Index CI (AUG F),91.4,-,05:00
+1275,-62.1%,JPY,"Tuesday, October 20, 2009",,-,Low,JPY Machine Tool Orders (YoY) (SEP F),-61.9%,-,06:00
+1276,-0.5%,EUR,"Tuesday, October 20, 2009",-0.1%,-,Medium,EUR German Producer Prices (MoM) (SEP),0.5%,-,06:00
+1277,-7.6%,EUR,"Tuesday, October 20, 2009",-7.1%,-,Medium,EUR German Producer Prices (YoY) (SEP),-6.9%,-,06:00
+1278,-5.6%,JPY,"Tuesday, October 20, 2009",,-,Low,JPY Convenience Store Sales (YoY) (SEP),-5.5%,-,07:00
+1279,-8.6%,EUR,"Tuesday, October 20, 2009",1.0%,-,Low,EUR Italian Industrial Orders s.a. (MoM) (AUG),3.2%,-,08:00
+1280,-27.5%,EUR,"Tuesday, October 20, 2009",-20.0%,-,Low,EUR Italian Industrial Orders n.s.a. (YoY) (AUG),-23.2%,-,08:00
+1281,-1.4%,EUR,"Tuesday, October 20, 2009",,-,Low,EUR Italian Industrial Sales s.a. (MoM) (AUG),0.7%,-,08:00
+1282,-21.2%,EUR,"Tuesday, October 20, 2009",,-,Low,EUR Italian Industrial Sales n.s.a. (YoY) (AUG),-21.7%,-,08:00
+1283,19.4B,GBP,"Tuesday, October 20, 2009",19.0B,-,Medium,GBP Public Finances (British pounds) (PSNCR) (SEP),10.4B,-,08:30
+1284,14.8B,GBP,"Tuesday, October 20, 2009",15.5B,-,Medium,GBP Public Sector Net Borrowing (British pounds) (SEP),16.1B,-,08:30
+1285,0.7%,GBP,"Tuesday, October 20, 2009",0.5%,-,Low,GBP M4 Money Supply (MoM) (SEP P),0.1%,-,08:30
+1286,11.3%,GBP,"Tuesday, October 20, 2009",11.4%,-,Low,GBP M4 Money Supply (YoY) (SEP P),12.5%,-,08:30
+1287,-0.4%,EUR,"Tuesday, October 20, 2009",,-,Low,EUR Euro-Zone Construction Output s.a. (MoM) (AUG),-2.0%,-,09:00
+1288,-11.3%,EUR,"Tuesday, October 20, 2009",,-,Low,EUR Euro-Zone Construction Output w.d.a. (YoY) (AUG),-10.8%,-,09:00
+1289,-1.4%,CAD,"Tuesday, October 20, 2009",-0.4%,-,Low,CAD Wholesale Sales (MoM) (AUG),2.6% (R-),-,12:30
+1290,1.1%,CAD,"Tuesday, October 20, 2009",0.8%,-,Medium,CAD Leading Indicators (MoM) (SEP),1.2% (R+),-,12:30
+1291,-0.6%,USD,"Tuesday, October 20, 2009",0.0%,-,Medium,USD Producer Price Index (MoM) (SEP),1.7%,-,12:30
+1292,-4.8%,USD,"Tuesday, October 20, 2009",-4.3%,-,Medium,USD Producer Price Index (YoY) (SEP),-4.3%,-,12:30
+1293,-0.1%,USD,"Tuesday, October 20, 2009",0.1%,-,Medium,USD PPI Ex Food & Energy (MoM) (SEP),0.2%,-,12:30
+1294,1.8%,USD,"Tuesday, October 20, 2009",2.0%,-,Medium,USD PPI Ex Food & Energy (YoY) (SEP),2.3%,-,12:30
+1295,590K,USD,"Tuesday, October 20, 2009",610K,-,High,USD Housing Starts (SEP),587K (R-),-,12:30
+1296,573K,USD,"Tuesday, October 20, 2009",595K,-,High,USD Building Permits (SEP),580K (R+),-,12:30
+1297,0.25%,CAD,"Tuesday, October 20, 2009",0.25%,-,High,CAD Bank of Canada Interest Rate Decision,0.25%,-,13:00
+1298,,USD,"Tuesday, October 20, 2009",,-,Low,USD Fed's Warsh Moderates Sessions at S.F. Fed Conference,,-,15:00
+1299,2.9%,AUD,"Tuesday, October 20, 2009",,-,Low,AUD New Motor Vehicle Sales (MoM) (SEP),0.1% (R-),-,18:00
+1300,-2.0%,AUD,"Tuesday, October 20, 2009",,-,Low,AUD New Motor Vehicle Sales (YoY) (SEP),-6.1% (R-),-,18:00
+1301,-50,USD,"Tuesday, October 20, 2009",,-,Low,USD ABC Consumer Confidence (OCT 18),-48,-,21:00
+1302,3.8%,Visitor,"Tuesday, October 20, 2009",,-,Low,Visitor Arrivals (SEP),-0.5% (R+),-,21:45
+1303,,BoJ,"Monday, October 19, 2009",,-,Medium,BoJ to Hold Quarterly Branch Managers' Meeting in Tokyo,,-,00:30
+1304,,USD,"Monday, October 19, 2009",,-,Medium,"USD Bernanke, Yellen Speak at San Francisco Event",,-,01:00
+1305,,AUD,"Monday, October 19, 2009",,-,Low,AUD RBA Assistant Governor Lowe Speaks in Sydney,,-,02:00
+1306,-10.5%,JPY,"Monday, October 19, 2009",,-,Low,JPY Tokyo Department Store Sales (YoY) (SEP),-10.3%,-,05:30
+1307,-7.8%,JPY,"Monday, October 19, 2009",,-,Low,JPY Nationwide Department Store Sales (YoY) (SEP),-8.8%,-,05:30
+1308,5.082B,CAD,"Monday, October 19, 2009",2.500B,-,Medium,CAD International Securities Transactions (Canadian Dollars) (AUG),0.370B (R+),-,12:30
+1309,,USD,"Monday, October 19, 2009",,-,Medium,USD Bernanke Speaks on Asia and Financial Crisis in California,,-,15:00
+1310,18,USD,"Monday, October 19, 2009",20,-,Low,USD NAHB Housing Market Index (OCT),19,-,17:00
+1311,,AUD,"Sunday, October 18, 2009",,-,Low,AUD NAB Business Confidence (3Q),-4,-,00:00
+1312,,CHF,"Sunday, October 18, 2009",,-,Medium,CHF Real Estate Index Family Homes (3Q),362.3,-,00:00
+1313,53.2,NZD,"Sunday, October 18, 2009",,-,Medium,NZD Performance of Services Index (SEP),51.3,-,21:30
+1314,2.8%,GBP,"Sunday, October 18, 2009",,-,Medium,GBP Rightmove House Prices (MoM) (OCT),0.6%,-,23:01
+1315,0.2%,GBP,"Sunday, October 18, 2009",,-,Medium,GBP Rightmove House Prices (YoY) (OCT),-1.5%,-,23:01
+1316,,JPY,"Sunday, October 18, 2009",,-,Medium,JPY Bank of Japan Meeting Minutes,,-,23:50
+1317,0.3%,JPY,"Sunday, October 18, 2009",0.1%,-,Medium,JPY Tertiary Industry Index (MoM) (AUG),0.6%,-,23:50
+1318,,USD,"Tuesday, October 13, 2009",,-,Low,USD White House's Romer Speaks to Economists Meeting in St. Louis,,-,00:00
+1319,0.10%,JPY,"Tuesday, October 13, 2009",0.10%,-,Low,JPY Bank of Japan Interest Rate Decision,0.10%,-,00:00
+1320,14,AUD,"Tuesday, October 13, 2009",,-,Medium,AUD NAB Business Confidence (SEP),18,-,01:30
+1321,3,AUD,"Tuesday, October 13, 2009",,-,Low,AUD NAB Business Conditions (SEP),4,-,01:30
+1322,,JPY,"Tuesday, October 13, 2009",,-,Low,JPY Bank of Japan Monetary Policy Meeting,,-,04:00
+1323,-0.4%,EUR,"Tuesday, October 13, 2009",-0.2%,-,Low,EUR French Consumer Price Index (YoY) (SEP),-0.2%,-,06:35
+1324,-0.2%,EUR,"Tuesday, October 13, 2009",-0.1%,-,Low,EUR French Consumer Price Index (MoM) (SEP),0.5%,-,06:45
+1325,-0.2%,EUR,"Tuesday, October 13, 2009",0.0%,-,Low,EUR French Consumer Price Index Ex Tobacco Index (SEP),0.6%,-,06:45
+1326,-0.4%,EUR,"Tuesday, October 13, 2009",-0.2%,-,Low,EUR French Consumer Price Index - EU Harmonised (YoY) (SEP),-0.2%,-,06:45
+1327,118.12,EUR,"Tuesday, October 13, 2009",118.3,-,Low,EUR French Consumer Price Index Ex Tobacco Index (SEP),118.41,-,06:45
+1328,-3.7B,EUR,"Tuesday, October 13, 2009",,-,Low,EUR French Current Account (euros) (AUG),-1.2B,-,06:45
+1329,0.1%,CHF,"Tuesday, October 13, 2009",0.1%,-,Low,CHF Producer & Import Prices (MoM) (SEP),0.1%,-,07:15
+1330,-4.9%,CHF,"Tuesday, October 13, 2009",-4.9%,-,Low,CHF Producer & Import Prices (YoY) (SEP),-5.5%,-,07:15
+1331,0.0%,GBP,"Tuesday, October 13, 2009",0.3%,-,Medium,GBP Consumer Price Index (MoM) (SEP),0.4%,-,08:30
+1332,1.1%,GBP,"Tuesday, October 13, 2009",1.3%,-,Medium,GBP Consumer Price Index (YoY) (SEP),1.6%,-,08:30
+1333,-1.4%,GBP,"Tuesday, October 13, 2009",-1.5%,-,Low,GBP Retail Price Index (YoY) (SEP),-1.3%,-,08:30
+1334,1.3%,GBP,"Tuesday, October 13, 2009",1.2%,-,Low,GBP Retail Price Index Ex Mort Int.Payments (YoY) (SEP),1.4%,-,08:30
+1335,-5.6%,GBP,"Tuesday, October 13, 2009",-4.9%,-,Low,GBP DCLG UK House Prices (YoY) (AUG),-8.3%,-,08:30
+1336,56.0,EUR,"Tuesday, October 13, 2009",58.8,-,Medium,EUR German ZEW Survey (Economic Sentiment) (OCT),57.7,-,09:00
+1337,-72.2,EUR,"Tuesday, October 13, 2009",-69,-,Medium,EUR German ZEW Survey (Current Situation) (OCT),-74,-,09:00
+1338,-72.2,EUR,"Tuesday, October 13, 2009",-69,-,Medium,EUR Euro-Zone ZEW Survey (Economic Sentiment) (OCT),-74,-,09:00
+1339,,USD,"Tuesday, October 13, 2009",,-,Low,USD Fed's Kohn Speaks to Economists in St. Louis,,-,17:00
+1340,43.7%,NZD,"Tuesday, October 13, 2009",,-,Medium,NZD REINZ House Sales (YoY) (SEP),39.3%(R-),-,21:00
+1341,1.2%,NZD,"Tuesday, October 13, 2009",0.5%,-,Medium,NZD Retail Sales Ex-Auto (MoM) (AUG),-0.6%,-,21:45
+1342,0.1%,JPY,"Tuesday, October 13, 2009",0.1%,-,Medium,JPY Domestic Corporate Goods Price Index (MoM),0.0%,-,23:50
+1343,-7.9%,JPY,"Tuesday, October 13, 2009",,-,Medium,JPY Domestic Corporate Goods Price Index (YoY),-7.9%,-,23:50

@@ -1,0 +1,865 @@
+2018-10-13 17:14:09,871 - INFO - Day: Friday, March 23, 2012 
+2018-10-13 17:14:12,571 - INFO - Day: Thursday, March 22, 2012 
+2018-10-13 17:14:12,572 - INFO - End of year: 2018 
+2018-10-13 17:14:16,315 - INFO - Day: Wednesday, March 21, 2012 
+2018-10-13 17:14:20,103 - INFO - Day: Tuesday, March 20, 2012 
+2018-10-13 17:14:23,488 - INFO - Day: Monday, March 19, 2012 
+2018-10-13 17:14:25,381 - INFO - Day: Sunday, March 18, 2012 
+2018-10-13 17:14:25,782 - INFO - End of week: 0 
+2018-10-13 17:14:28,035 - INFO - Day: Thursday, March 15, 2012 
+2018-10-13 17:14:33,390 - INFO - Day: Wednesday, March 14, 2012 
+2018-10-13 17:14:40,222 - INFO - Day: Tuesday, March 13, 2012 
+2018-10-13 17:14:48,114 - INFO - Day: Monday, March 12, 2012 
+2018-10-13 17:14:51,351 - INFO - Day: Sunday, March 11, 2012 
+2018-10-13 17:14:52,155 - INFO - End of week: 1 
+2018-10-13 17:14:55,491 - INFO - Day: Thursday, March 8, 2012 
+2018-10-13 17:15:05,146 - INFO - Day: Wednesday, March 7, 2012 
+2018-10-13 17:15:14,500 - INFO - Day: Tuesday, March 6, 2012 
+2018-10-13 17:15:19,657 - INFO - Day: Monday, March 5, 2012 
+2018-10-13 17:15:25,107 - INFO - Day: Sunday, March 4, 2012 
+2018-10-13 17:15:26,825 - INFO - End of week: 2 
+2018-10-13 17:15:29,045 - INFO - Day: Friday, March 2, 2012 
+2018-10-13 17:15:37,099 - INFO - Day: Thursday, March 1, 2012 
+2018-10-13 17:15:56,064 - INFO - Day: Wednesday, February 29, 2012 
+2018-10-13 17:16:15,997 - INFO - Day: Tuesday, February 28, 2012 
+2018-10-13 17:16:27,431 - INFO - Day: Monday, February 27, 2012 
+2018-10-13 17:16:32,615 - INFO - Day: Sunday, February 26, 2012 
+2018-10-13 17:16:34,121 - INFO - End of week: 3 
+2018-10-13 17:16:36,681 - INFO - Day: Friday, February 24, 2012 
+2018-10-13 17:16:49,314 - INFO - Day: Thursday, February 23, 2012 
+2018-10-13 17:16:58,294 - INFO - Day: Wednesday, February 22, 2012 
+2018-10-13 17:17:11,201 - INFO - Day: Tuesday, February 21, 2012 
+2018-10-13 17:17:19,531 - INFO - Day: Monday, February 20, 2012 
+2018-10-13 17:17:26,233 - INFO - Day: Sunday, February 19, 2012 
+2018-10-13 17:17:29,018 - INFO - End of week: 4 
+2018-10-13 17:17:34,151 - INFO - Day: Thursday, February 16, 2012 
+2018-10-13 17:17:51,705 - INFO - Day: Wednesday, February 15, 2012 
+2018-10-13 17:18:13,208 - INFO - Day: Tuesday, February 14, 2012 
+2018-10-13 17:18:33,086 - INFO - Day: Monday, February 13, 2012 
+2018-10-13 17:18:38,071 - INFO - Day: Sunday, February 12, 2012 
+2018-10-13 17:18:40,492 - INFO - End of week: 5 
+2018-10-13 17:18:41,016 - INFO - Day: Saturday, February 18, 2012 
+2018-10-13 17:18:44,101 - INFO - Day: Friday, February 10, 2012 
+2018-10-13 17:19:01,057 - INFO - Day: Thursday, February 9, 2012 
+2018-10-13 17:19:16,765 - INFO - Day: Wednesday, February 8, 2012 
+2018-10-13 17:19:33,279 - INFO - Day: Tuesday, February 7, 2012 
+2018-10-13 17:19:45,314 - INFO - Day: Monday, February 6, 2012 
+2018-10-13 17:19:56,310 - INFO - Day: Sunday, February 5, 2012 
+2018-10-13 17:19:57,456 - INFO - End of week: 6 
+2018-10-13 17:20:00,913 - INFO - Day: Thursday, February 2, 2012 
+2018-10-13 17:20:15,083 - INFO - Day: Wednesday, February 1, 2012 
+2018-10-13 17:20:36,960 - INFO - Day: Tuesday, January 31, 2012 
+2018-10-13 17:21:01,575 - INFO - Day: Monday, January 30, 2012 
+2018-10-13 17:21:18,637 - INFO - Day: Sunday, January 29, 2012 
+2018-10-13 17:21:19,251 - INFO - End of week: 7 
+2018-10-13 17:21:24,062 - INFO - Day: Thursday, January 26, 2012 
+2018-10-13 17:21:49,595 - INFO - Day: Wednesday, January 25, 2012 
+2018-10-13 17:22:16,846 - INFO - Day: Tuesday, January 24, 2012 
+2018-10-13 17:22:33,588 - INFO - Day: Monday, January 23, 2012 
+2018-10-13 17:22:43,985 - INFO - End of week: 8 
+2018-10-13 17:22:48,674 - INFO - Day: Thursday, January 19, 2012 
+2018-10-13 17:23:17,099 - INFO - Day: Wednesday, January 18, 2012 
+2018-10-13 17:23:45,222 - INFO - Day: Tuesday, January 17, 2012 
+2018-10-13 17:24:09,633 - INFO - Day: Monday, January 16, 2012 
+2018-10-13 17:24:23,422 - INFO - Day: Sunday, January 15, 2012 
+2018-10-13 17:24:30,014 - INFO - End of week: 9 
+2018-10-13 17:24:39,647 - INFO - Day: Thursday, January 12, 2012 
+2018-10-13 17:25:19,318 - INFO - Day: Wednesday, January 11, 2012 
+2018-10-13 17:25:42,118 - INFO - Day: Tuesday, January 10, 2012 
+2018-10-13 17:26:03,091 - INFO - Day: Monday, January 9, 2012 
+2018-10-13 17:26:22,417 - INFO - Day: Sunday, January 8, 2012 
+2018-10-13 17:26:31,592 - INFO - End of week: 10 
+2018-10-13 17:37:09,690 - INFO - Day: Friday, January 13, 2012 
+2018-10-13 17:37:12,872 - INFO - Day: Thursday, January 12, 2012 
+2018-10-13 17:37:18,672 - INFO - Day: Wednesday, January 11, 2012 
+2018-10-13 17:37:22,570 - INFO - Day: Tuesday, January 10, 2012 
+2018-10-13 17:37:26,507 - INFO - Day: Monday, January 9, 2012 
+2018-10-13 17:37:29,956 - INFO - Day: Sunday, January 8, 2012 
+2018-10-13 17:37:31,492 - INFO - End of week: 11 
+2018-10-13 17:37:33,746 - INFO - Day: Thursday, January 5, 2012 
+2018-10-13 17:37:39,755 - INFO - Day: Wednesday, January 4, 2012 
+2018-10-13 17:37:44,655 - INFO - Day: Tuesday, January 3, 2012 
+2018-10-13 17:37:47,780 - INFO - Day: Monday, January 2, 2012 
+2018-10-13 17:37:50,115 - INFO - End of week: 12 
+2018-10-13 17:37:53,248 - INFO - Day: Thursday, December 29, 2011 
+2018-10-13 17:37:53,248 - INFO - End of year: 2012 
+2018-10-13 17:37:57,731 - INFO - Day: Wednesday, December 28, 2011 
+2018-10-13 17:37:59,989 - INFO - Day: Tuesday, December 27, 2011 
+2018-10-13 17:38:08,077 - INFO - Day: Monday, December 26, 2011 
+2018-10-13 17:38:09,347 - INFO - End of week: 13 
+2018-10-13 17:38:11,926 - INFO - Day: Thursday, December 22, 2011 
+2018-10-13 17:38:19,194 - INFO - Day: Wednesday, December 21, 2011 
+2018-10-13 17:38:28,894 - INFO - Day: Tuesday, December 20, 2011 
+2018-10-13 17:38:39,692 - INFO - Day: Monday, December 19, 2011 
+2018-10-13 17:38:44,633 - INFO - Day: Sunday, December 18, 2011 
+2018-10-13 17:38:45,204 - INFO - End of week: 14 
+2018-10-13 17:38:47,070 - INFO - Day: Friday, December 23, 2011 
+2018-10-13 17:38:50,665 - INFO - Day: Thursday, December 15, 2011 
+2018-10-13 17:39:09,680 - INFO - Day: Wednesday, December 14, 2011 
+2018-10-13 17:39:25,032 - INFO - Day: Tuesday, December 13, 2011 
+2018-10-13 17:39:37,713 - INFO - Day: Monday, December 12, 2011 
+2018-10-13 17:39:43,941 - INFO - Day: Sunday, December 11, 2011 
+2018-10-13 17:39:44,694 - INFO - End of week: 15 
+2018-10-13 17:39:49,140 - INFO - Day: Thursday, December 8, 2011 
+2018-10-13 17:40:05,393 - INFO - Day: Wednesday, December 7, 2011 
+2018-10-13 17:40:23,989 - INFO - Day: Tuesday, December 6, 2011 
+2018-10-13 17:40:35,898 - INFO - Day: Monday, December 5, 2011 
+2018-10-13 17:40:46,419 - INFO - Day: Sunday, December 4, 2011 
+2018-10-13 17:40:48,656 - INFO - End of week: 16 
+2018-10-13 17:40:49,358 - INFO - Day: Saturday, December 10, 2011 
+2018-10-13 17:40:51,368 - INFO - Day: Friday, December 2, 2011 
+2018-10-13 17:41:02,444 - INFO - Day: Thursday, December 1, 2011 
+2018-10-13 17:41:26,687 - INFO - Day: Wednesday, November 30, 2011 
+2018-10-13 17:41:58,420 - INFO - Day: Tuesday, November 29, 2011 
+2018-10-13 17:42:21,881 - INFO - Day: Monday, November 28, 2011 
+2018-10-13 17:42:36,794 - INFO - Day: Sunday, November 27, 2011 
+2018-10-13 17:42:37,456 - INFO - End of week: 17 
+2018-10-13 17:42:38,035 - INFO - Day: Saturday, December 3, 2011 
+2018-10-13 17:42:39,554 - INFO - Day: Friday, November 25, 2011 
+2018-10-13 17:42:46,214 - INFO - Day: Thursday, November 24, 2011 
+2018-10-13 17:43:09,345 - INFO - Day: Wednesday, November 23, 2011 
+2018-10-13 17:43:33,842 - INFO - Day: Tuesday, November 22, 2011 
+2018-10-13 17:43:47,520 - INFO - Day: Monday, November 21, 2011 
+2018-10-13 17:43:58,233 - INFO - Day: Sunday, November 20, 2011 
+2018-10-13 17:44:00,478 - INFO - End of week: 18 
+2018-10-13 17:44:03,813 - INFO - Day: Thursday, November 17, 2011 
+2018-10-13 17:44:22,768 - INFO - Day: Wednesday, November 16, 2011 
+2018-10-13 17:44:49,401 - INFO - Day: Tuesday, November 15, 2011 
+2018-10-13 17:45:16,752 - INFO - Day: Monday, November 14, 2011 
+2018-10-13 17:45:23,376 - INFO - Day: Sunday, November 13, 2011 
+2018-10-13 17:45:27,542 - INFO - End of week: 19 
+2018-10-13 17:45:35,603 - INFO - Day: Thursday, November 10, 2011 
+2018-10-13 17:46:13,160 - INFO - Day: Wednesday, November 9, 2011 
+2018-10-13 17:46:38,806 - INFO - Day: Tuesday, November 8, 2011 
+2018-10-13 17:47:04,302 - INFO - Day: Monday, November 7, 2011 
+2018-10-13 17:47:18,689 - INFO - Day: Sunday, November 6, 2011 
+2018-10-13 17:47:19,519 - INFO - End of week: 20 
+2018-10-13 17:47:23,660 - INFO - Day: Thursday, November 3, 2011 
+2018-10-13 17:47:39,600 - INFO - Day: Wednesday, November 2, 2011 
+2018-10-13 17:48:00,899 - INFO - Day: Tuesday, November 1, 2011 
+2018-10-13 17:48:24,290 - INFO - Day: Monday, October 31, 2011 
+2018-10-13 17:48:56,045 - INFO - Day: Sunday, October 30, 2011 
+2018-10-13 17:49:00,722 - INFO - End of week: 21 
+2018-10-13 17:49:09,453 - INFO - Day: Thursday, October 27, 2011 
+2018-10-13 17:49:43,572 - INFO - Day: Wednesday, October 26, 2011 
+2018-10-13 17:50:18,809 - INFO - Day: Tuesday, October 25, 2011 
+2018-10-13 17:50:41,027 - INFO - Day: Monday, October 24, 2011 
+2018-10-13 17:50:56,291 - INFO - Day: Sunday, October 23, 2011 
+2018-10-13 17:50:59,803 - INFO - End of week: 22 
+2018-10-13 18:02:56,811 - INFO - Day: Friday, October 21, 2011 
+2018-10-13 18:03:00,528 - INFO - Day: Thursday, October 20, 2011 
+2018-10-13 18:03:05,090 - INFO - Day: Wednesday, October 19, 2011 
+2018-10-13 18:03:10,759 - INFO - Day: Tuesday, October 18, 2011 
+2018-10-13 18:03:16,756 - INFO - Day: Monday, October 17, 2011 
+2018-10-13 18:03:19,135 - INFO - Day: Sunday, October 16, 2011 
+2018-10-13 18:03:19,637 - INFO - End of week: 23 
+2018-10-13 18:03:22,391 - INFO - Day: Thursday, October 13, 2011 
+2018-10-13 18:03:29,488 - INFO - End of week: 24 
+2018-10-13 18:03:31,856 - INFO - Day: Wednesday, October 5, 2011 
+2018-10-13 18:03:38,900 - INFO - Day: Tuesday, October 4, 2011 
+2018-10-13 18:03:42,976 - INFO - Day: Monday, October 3, 2011 
+2018-10-13 18:03:48,805 - INFO - Day: Sunday, October 2, 2011 
+2018-10-13 18:03:51,662 - INFO - End of week: 25 
+2018-10-13 18:03:55,781 - INFO - Day: Thursday, September 29, 2011 
+2018-10-13 18:04:08,705 - INFO - Day: Wednesday, September 28, 2011 
+2018-10-13 18:04:15,904 - INFO - Day: Tuesday, September 27, 2011 
+2018-10-13 18:04:21,546 - INFO - Day: Monday, September 26, 2011 
+2018-10-13 18:04:25,698 - INFO - Day: Sunday, September 25, 2011 
+2018-10-13 18:04:26,993 - INFO - End of week: 26 
+2018-10-13 18:04:28,343 - INFO - Day: Friday, September 23, 2011 
+2018-10-13 18:04:32,948 - INFO - Day: Thursday, September 22, 2011 
+2018-10-13 18:04:41,657 - INFO - Day: Wednesday, September 21, 2011 
+2018-10-13 18:04:51,805 - INFO - Day: Tuesday, September 20, 2011 
+2018-10-13 18:05:02,462 - INFO - Day: Monday, September 19, 2011 
+2018-10-13 18:05:03,999 - INFO - Day: Sunday, September 18, 2011 
+2018-10-13 18:05:05,356 - INFO - End of week: 27 
+2018-10-13 18:05:09,090 - INFO - Day: Thursday, September 15, 2011 
+2018-10-13 18:05:25,579 - INFO - Day: Wednesday, September 14, 2011 
+2018-10-13 18:05:40,359 - INFO - Day: Tuesday, September 13, 2011 
+2018-10-13 18:05:52,956 - INFO - Day: Monday, September 12, 2011 
+2018-10-13 18:05:59,287 - INFO - Day: Sunday, September 11, 2011 
+2018-10-13 18:06:03,693 - INFO - End of week: 28 
+2018-10-13 18:06:09,820 - INFO - Day: Thursday, September 8, 2011 
+2018-10-13 18:06:32,892 - INFO - Day: Wednesday, September 7, 2011 
+2018-10-13 18:06:49,122 - INFO - Day: Tuesday, September 6, 2011 
+2018-10-13 18:07:01,939 - INFO - Day: Monday, September 5, 2011 
+2018-10-13 18:07:10,558 - INFO - Day: Sunday, September 4, 2011 
+2018-10-13 18:07:11,610 - INFO - End of week: 29 
+2018-10-13 18:07:12,424 - INFO - Day: Saturday, September 10, 2011 
+2018-10-13 18:07:14,180 - INFO - Day: Friday, September 2, 2011 
+2018-10-13 18:07:24,044 - INFO - Day: Thursday, September 1, 2011 
+2018-10-13 18:07:53,912 - INFO - Day: Wednesday, August 31, 2011 
+2018-10-13 18:08:20,849 - INFO - Day: Tuesday, August 30, 2011 
+2018-10-13 18:08:42,379 - INFO - Day: Monday, August 29, 2011 
+2018-10-13 18:08:54,590 - INFO - Day: Sunday, August 28, 2011 
+2018-10-13 18:08:55,664 - INFO - End of week: 30 
+2018-10-13 18:08:56,209 - INFO - Day: Saturday, September 3, 2011 
+2018-10-13 18:08:58,614 - INFO - Day: Friday, August 26, 2011 
+2018-10-13 18:09:09,591 - INFO - Day: Thursday, August 25, 2011 
+2018-10-13 18:09:21,228 - INFO - Day: Wednesday, August 24, 2011 
+2018-10-13 18:09:38,786 - INFO - Day: Tuesday, August 23, 2011 
+2018-10-13 18:09:57,576 - INFO - Day: Monday, August 22, 2011 
+2018-10-13 18:10:01,952 - INFO - End of week: 31 
+2018-10-13 18:10:02,611 - INFO - Day: Saturday, August 27, 2011 
+2018-10-13 18:10:04,980 - INFO - Day: Friday, August 19, 2011 
+2018-10-13 18:10:17,632 - INFO - Day: Thursday, August 18, 2011 
+2018-10-13 18:10:43,817 - INFO - Day: Wednesday, August 17, 2011 
+2018-10-13 18:11:08,297 - INFO - Day: Tuesday, August 16, 2011 
+2018-10-13 18:11:30,134 - INFO - Day: Monday, August 15, 2011 
+2018-10-13 18:11:37,838 - INFO - Day: Sunday, August 14, 2011 
+2018-10-13 18:11:42,725 - INFO - End of week: 32 
+2018-10-13 18:11:47,578 - INFO - Day: Thursday, August 11, 2011 
+2018-10-13 18:12:05,399 - INFO - Day: Wednesday, August 10, 2011 
+2018-10-13 18:12:31,791 - INFO - Day: Tuesday, August 9, 2011 
+2018-10-13 18:13:03,210 - INFO - Day: Monday, August 8, 2011 
+2018-10-13 18:13:18,911 - INFO - Day: Sunday, August 7, 2011 
+2018-10-13 18:13:25,778 - INFO - End of week: 33 
+2018-10-13 18:13:29,252 - INFO - Day: Thursday, August 4, 2011 
+2018-10-13 18:13:44,348 - INFO - Day: Wednesday, August 3, 2011 
+2018-10-13 18:14:10,273 - INFO - Day: Tuesday, August 2, 2011 
+2018-10-13 18:14:31,797 - INFO - Day: Monday, August 1, 2011 
+2018-10-13 18:14:52,697 - INFO - Day: Sunday, July 31, 2011 
+2018-10-13 18:14:54,381 - INFO - End of week: 34 
+2018-10-13 18:26:30,025 - INFO - Day: Friday, October 28, 2011 
+2018-10-13 18:26:32,708 - INFO - Day: Thursday, October 27, 2011 
+2018-10-13 18:26:38,022 - INFO - Day: Wednesday, October 26, 2011 
+2018-10-13 18:26:44,676 - INFO - Day: Tuesday, October 25, 2011 
+2018-10-13 18:26:48,299 - INFO - Day: Monday, October 24, 2011 
+2018-10-13 18:26:51,242 - INFO - Day: Sunday, October 23, 2011 
+2018-10-13 18:26:52,017 - INFO - End of week: 35 
+2018-10-13 18:26:52,888 - INFO - Day: Friday, October 28, 2011 
+2018-10-13 18:26:54,705 - INFO - Day: Thursday, October 20, 2011 
+2018-10-13 18:27:01,366 - INFO - Day: Wednesday, October 19, 2011 
+2018-10-13 18:27:09,409 - INFO - Day: Tuesday, October 18, 2011 
+2018-10-13 18:27:17,378 - INFO - Day: Monday, October 17, 2011 
+2018-10-13 18:27:20,361 - INFO - Day: Sunday, October 16, 2011 
+2018-10-13 18:27:21,002 - INFO - End of week: 36 
+2018-10-13 18:27:24,423 - INFO - Day: Thursday, October 13, 2011 
+2018-10-13 18:27:33,879 - INFO - End of week: 37 
+2018-10-13 18:27:36,449 - INFO - Day: Thursday, October 6, 2011 
+2018-10-13 18:27:44,884 - INFO - Day: Wednesday, October 5, 2011 
+2018-10-13 18:27:53,493 - INFO - Day: Tuesday, October 4, 2011 
+2018-10-13 18:27:59,355 - INFO - Day: Monday, October 3, 2011 
+2018-10-13 18:28:06,985 - INFO - Day: Sunday, October 2, 2011 
+2018-10-13 18:28:10,821 - INFO - End of week: 38 
+2018-10-13 18:28:15,705 - INFO - Day: Thursday, September 29, 2011 
+2018-10-13 18:28:31,741 - INFO - Day: Wednesday, September 28, 2011 
+2018-10-13 18:28:40,435 - INFO - Day: Tuesday, September 27, 2011 
+2018-10-13 18:28:46,820 - INFO - Day: Monday, September 26, 2011 
+2018-10-13 18:28:51,541 - INFO - Day: Sunday, September 25, 2011 
+2018-10-13 18:28:53,010 - INFO - End of week: 39 
+2018-10-13 18:28:53,466 - INFO - Day: Saturday, October 1, 2011 
+2018-10-13 18:28:56,573 - INFO - Day: Friday, September 30, 2011 
+2018-10-13 18:29:02,579 - INFO - Day: Thursday, September 22, 2011 
+2018-10-13 18:29:12,951 - INFO - Day: Wednesday, September 21, 2011 
+2018-10-13 18:29:26,037 - INFO - Day: Tuesday, September 20, 2011 
+2018-10-13 18:29:40,549 - INFO - Day: Monday, September 19, 2011 
+2018-10-13 18:29:42,230 - INFO - Day: Sunday, September 18, 2011 
+2018-10-13 18:29:44,013 - INFO - End of week: 40 
+2018-10-13 18:29:45,198 - INFO - Day: Friday, September 23, 2011 
+2018-10-13 18:29:49,505 - INFO - Day: Thursday, September 15, 2011 
+2018-10-13 18:30:09,921 - INFO - Day: Wednesday, September 14, 2011 
+2018-10-13 18:30:26,575 - INFO - Day: Tuesday, September 13, 2011 
+2018-10-13 18:30:41,076 - INFO - Day: Monday, September 12, 2011 
+2018-10-13 18:30:48,508 - INFO - Day: Sunday, September 11, 2011 
+2018-10-13 18:30:54,064 - INFO - End of week: 41 
+2018-10-13 18:30:59,597 - INFO - Day: Thursday, September 8, 2011 
+2018-10-13 18:31:24,324 - INFO - Day: Wednesday, September 7, 2011 
+2018-10-13 18:31:44,100 - INFO - Day: Tuesday, September 6, 2011 
+2018-10-13 18:31:59,314 - INFO - Day: Monday, September 5, 2011 
+2018-10-13 18:32:09,341 - INFO - Day: Sunday, September 4, 2011 
+2018-10-13 18:32:10,491 - INFO - End of week: 42 
+2018-10-13 18:32:12,657 - INFO - Day: Friday, September 2, 2011 
+2018-10-13 18:32:23,740 - INFO - Day: Thursday, September 1, 2011 
+2018-10-13 18:32:58,939 - INFO - Day: Wednesday, August 31, 2011 
+2018-10-13 18:33:27,540 - INFO - Day: Tuesday, August 30, 2011 
+2018-10-13 18:33:50,156 - INFO - Day: Monday, August 29, 2011 
+2018-10-13 18:34:02,811 - INFO - Day: Sunday, August 28, 2011 
+2018-10-13 18:34:04,042 - INFO - End of week: 43 
+2018-10-13 18:34:06,499 - INFO - Day: Friday, August 26, 2011 
+2018-10-13 18:34:18,250 - INFO - Day: Thursday, August 25, 2011 
+2018-10-13 18:34:30,935 - INFO - Day: Wednesday, August 24, 2011 
+2018-10-13 18:34:47,664 - INFO - Day: Tuesday, August 23, 2011 
+2018-10-13 18:35:08,271 - INFO - Day: Monday, August 22, 2011 
+2018-10-13 18:35:12,713 - INFO - End of week: 44 
+2018-10-13 18:35:15,423 - INFO - Day: Friday, August 19, 2011 
+2018-10-13 18:35:28,721 - INFO - Day: Thursday, August 18, 2011 
+2018-10-13 18:35:55,093 - INFO - Day: Wednesday, August 17, 2011 
+2018-10-13 18:36:20,244 - INFO - Day: Tuesday, August 16, 2011 
+2018-10-13 18:36:42,109 - INFO - Day: Monday, August 15, 2011 
+2018-10-13 18:36:49,529 - INFO - Day: Sunday, August 14, 2011 
+2018-10-13 18:36:54,664 - INFO - End of week: 45 
+2018-10-13 18:36:58,003 - INFO - Day: Thursday, August 11, 2011 
+2018-10-13 18:37:15,679 - INFO - Day: Wednesday, August 10, 2011 
+2018-10-13 18:37:42,943 - INFO - Day: Tuesday, August 9, 2011 
+2018-10-13 18:38:14,174 - INFO - Day: Monday, August 8, 2011 
+2018-10-13 18:38:30,563 - INFO - Day: Sunday, August 7, 2011 
+2018-10-13 18:38:38,066 - INFO - End of week: 46 
+2018-10-13 18:50:32,829 - INFO - Day: Friday, October 21, 2011 
+2018-10-13 18:50:36,060 - INFO - Day: Thursday, October 20, 2011 
+2018-10-13 18:50:40,057 - INFO - Day: Wednesday, October 19, 2011 
+2018-10-13 18:50:44,999 - INFO - Day: Tuesday, October 18, 2011 
+2018-10-13 18:50:50,130 - INFO - Day: Monday, October 17, 2011 
+2018-10-13 18:50:52,218 - INFO - Day: Sunday, October 16, 2011 
+2018-10-13 18:50:52,661 - INFO - End of week: 47 
+2018-10-13 18:50:55,291 - INFO - Day: Thursday, October 13, 2011 
+2018-10-13 18:51:02,025 - INFO - End of week: 48 
+2018-10-13 18:51:04,415 - INFO - Day: Thursday, October 13, 2011 
+2018-10-13 18:51:06,744 - INFO - Day: Wednesday, October 5, 2011 
+2018-10-13 18:51:13,148 - INFO - Day: Tuesday, October 4, 2011 
+2018-10-13 18:51:17,268 - INFO - Day: Monday, October 3, 2011 
+2018-10-13 18:51:22,322 - INFO - Day: Sunday, October 2, 2011 
+2018-10-13 18:51:24,736 - INFO - End of week: 49 
+2018-10-13 18:51:26,769 - INFO - Day: Friday, October 7, 2011 
+2018-10-13 18:51:31,056 - INFO - Day: Thursday, September 29, 2011 
+2018-10-13 18:51:44,222 - INFO - Day: Wednesday, September 28, 2011 
+2018-10-13 18:51:50,841 - INFO - Day: Tuesday, September 27, 2011 
+2018-10-13 18:51:56,013 - INFO - Day: Monday, September 26, 2011 
+2018-10-13 18:52:00,062 - INFO - Day: Sunday, September 25, 2011 
+2018-10-13 18:52:01,200 - INFO - End of week: 50 
+2018-10-13 18:52:01,692 - INFO - Day: Saturday, October 1, 2011 
+2018-10-13 18:52:02,908 - INFO - Day: Friday, September 23, 2011 
+2018-10-13 18:52:07,273 - INFO - Day: Thursday, September 22, 2011 
+2018-10-13 18:52:16,074 - INFO - Day: Wednesday, September 21, 2011 
+2018-10-13 18:52:26,624 - INFO - Day: Tuesday, September 20, 2011 
+2018-10-13 18:52:37,654 - INFO - Day: Monday, September 19, 2011 
+2018-10-13 18:52:39,253 - INFO - Day: Sunday, September 18, 2011 
+2018-10-13 18:52:40,484 - INFO - End of week: 51 
+2018-10-13 18:52:42,189 - INFO - Day: Friday, September 16, 2011 
+2018-10-13 18:52:50,024 - INFO - Day: Thursday, September 15, 2011 
+2018-10-13 18:53:05,995 - INFO - Day: Wednesday, September 14, 2011 
+2018-10-13 18:53:20,423 - INFO - Day: Tuesday, September 13, 2011 
+2018-10-13 18:53:32,747 - INFO - Day: Monday, September 12, 2011 
+2018-10-13 18:53:39,693 - INFO - Day: Sunday, September 11, 2011 
+2018-10-13 18:53:44,429 - INFO - End of week: 52 
+2018-10-13 18:53:49,435 - INFO - Day: Thursday, September 8, 2011 
+2018-10-13 18:54:11,773 - INFO - Day: Wednesday, September 7, 2011 
+2018-10-13 18:54:27,999 - INFO - Day: Tuesday, September 6, 2011 
+2018-10-13 18:54:40,728 - INFO - Day: Monday, September 5, 2011 
+2018-10-13 18:54:49,103 - INFO - Day: Sunday, September 4, 2011 
+2018-10-13 18:54:50,102 - INFO - End of week: 53 
+2018-10-13 18:54:50,993 - INFO - Day: Saturday, September 10, 2011 
+2018-10-13 18:54:52,746 - INFO - Day: Friday, September 2, 2011 
+2018-10-13 18:55:01,774 - INFO - Day: Thursday, September 1, 2011 
+2018-10-13 18:55:32,257 - INFO - Day: Wednesday, August 31, 2011 
+2018-10-13 18:55:58,875 - INFO - Day: Tuesday, August 30, 2011 
+2018-10-13 18:56:20,383 - INFO - Day: Monday, August 29, 2011 
+2018-10-13 18:56:31,814 - INFO - Day: Sunday, August 28, 2011 
+2018-10-13 18:56:32,943 - INFO - End of week: 54 
+2018-10-13 18:56:35,190 - INFO - Day: Friday, August 26, 2011 
+2018-10-13 18:56:45,702 - INFO - Day: Thursday, August 25, 2011 
+2018-10-13 18:56:57,132 - INFO - Day: Wednesday, August 24, 2011 
+2018-10-13 18:57:12,159 - INFO - Day: Tuesday, August 23, 2011 
+2018-10-13 18:57:30,249 - INFO - Day: Monday, August 22, 2011 
+2018-10-13 18:57:34,386 - INFO - End of week: 55 
+2018-10-13 18:57:36,700 - INFO - Day: Friday, August 19, 2011 
+2018-10-13 18:57:49,184 - INFO - Day: Thursday, August 18, 2011 
+2018-10-13 18:58:13,805 - INFO - Day: Wednesday, August 17, 2011 
+2018-10-13 18:58:38,272 - INFO - Day: Tuesday, August 16, 2011 
+2018-10-13 18:58:59,794 - INFO - Day: Monday, August 15, 2011 
+2018-10-13 18:59:06,792 - INFO - Day: Sunday, August 14, 2011 
+2018-10-13 18:59:12,138 - INFO - End of week: 56 
+2018-10-13 18:59:15,694 - INFO - Day: Thursday, August 11, 2011 
+2018-10-13 18:59:32,053 - INFO - Day: Wednesday, August 10, 2011 
+2018-10-13 18:59:57,907 - INFO - Day: Tuesday, August 9, 2011 
+2018-10-13 19:00:28,985 - INFO - Day: Monday, August 8, 2011 
+2018-10-13 19:00:45,777 - INFO - Day: Sunday, August 7, 2011 
+2018-10-13 19:00:52,859 - INFO - End of week: 57 
+2018-10-13 19:00:58,897 - INFO - Day: Thursday, August 4, 2011 
+2018-10-13 19:01:12,672 - INFO - Day: Wednesday, August 3, 2011 
+2018-10-13 19:01:38,741 - INFO - Day: Tuesday, August 2, 2011 
+2018-10-13 19:02:00,526 - INFO - Day: Monday, August 1, 2011 
+2018-10-13 19:02:21,048 - INFO - Day: Sunday, July 31, 2011 
+2018-10-13 19:02:22,456 - INFO - End of week: 58 
+2018-10-13 19:14:37,620 - INFO - Day: Friday, April 8, 2011 
+2018-10-13 19:14:41,326 - INFO - Day: Thursday, April 7, 2011 
+2018-10-13 19:14:45,344 - INFO - Day: Wednesday, April 6, 2011 
+2018-10-13 19:14:50,270 - INFO - Day: Tuesday, April 5, 2011 
+2018-10-13 19:14:53,679 - INFO - Day: Monday, April 4, 2011 
+2018-10-13 19:14:56,733 - INFO - Day: Sunday, April 3, 2011 
+2018-10-13 19:14:57,027 - INFO - End of week: 59 
+2018-10-13 19:15:00,242 - INFO - Day: Thursday, March 31, 2011 
+2018-10-13 19:15:09,274 - INFO - Day: Wednesday, March 30, 2011 
+2018-10-13 19:15:17,045 - INFO - Day: Tuesday, March 29, 2011 
+2018-10-13 19:15:23,949 - INFO - Day: Monday, March 28, 2011 
+2018-10-13 19:15:28,876 - INFO - Day: Sunday, March 27, 2011 
+2018-10-13 19:15:29,107 - INFO - End of week: 60 
+2018-10-13 19:15:32,573 - INFO - Day: Thursday, March 24, 2011 
+2018-10-13 19:15:43,630 - INFO - Day: Wednesday, March 23, 2011 
+2018-10-13 19:15:50,362 - INFO - Day: Tuesday, March 22, 2011 
+2018-10-13 19:15:57,565 - INFO - Day: Monday, March 21, 2011 
+2018-10-13 19:15:59,601 - INFO - End of week: 61 
+2018-10-13 19:16:03,063 - INFO - Day: Thursday, March 17, 2011 
+2018-10-13 19:16:12,250 - INFO - Day: Wednesday, March 16, 2011 
+2018-10-13 19:16:24,769 - INFO - Day: Tuesday, March 15, 2011 
+2018-10-13 19:16:35,305 - INFO - Day: Monday, March 14, 2011 
+2018-10-13 19:16:40,007 - INFO - Day: Sunday, March 13, 2011 
+2018-10-13 19:16:40,985 - INFO - End of week: 62 
+2018-10-13 19:16:45,176 - INFO - Day: Thursday, March 10, 2011 
+2018-10-13 19:16:59,950 - INFO - Day: Wednesday, March 9, 2011 
+2018-10-13 19:17:11,555 - INFO - Day: Tuesday, March 8, 2011 
+2018-10-13 19:17:22,310 - INFO - Day: Monday, March 7, 2011 
+2018-10-13 19:17:30,101 - INFO - Day: Sunday, March 6, 2011 
+2018-10-13 19:17:31,341 - INFO - End of week: 63 
+2018-10-13 19:17:37,085 - INFO - Day: Thursday, March 3, 2011 
+2018-10-13 19:17:56,880 - INFO - Day: Wednesday, March 2, 2011 
+2018-10-13 19:18:10,504 - INFO - Day: Tuesday, March 1, 2011 
+2018-10-13 19:18:35,614 - INFO - Day: Monday, February 28, 2011 
+2018-10-13 19:18:58,529 - INFO - Day: Sunday, February 27, 2011 
+2018-10-13 19:19:06,787 - INFO - End of week: 64 
+2018-10-13 19:19:12,990 - INFO - Day: Thursday, February 24, 2011 
+2018-10-13 19:19:41,195 - INFO - Day: Wednesday, February 23, 2011 
+2018-10-13 19:19:56,254 - INFO - Day: Tuesday, February 22, 2011 
+2018-10-13 19:20:12,277 - INFO - Day: Monday, February 21, 2011 
+2018-10-13 19:20:21,453 - INFO - Day: Sunday, February 20, 2011 
+2018-10-13 19:20:22,557 - INFO - End of week: 65 
+2018-10-13 19:20:28,606 - INFO - Day: Thursday, February 17, 2011 
+2018-10-13 19:20:48,936 - INFO - Day: Wednesday, February 16, 2011 
+2018-10-13 19:21:15,757 - INFO - Day: Tuesday, February 15, 2011 
+2018-10-13 19:21:45,672 - INFO - Day: Monday, February 14, 2011 
+2018-10-13 19:21:52,677 - INFO - Day: Sunday, February 13, 2011 
+2018-10-13 19:21:57,069 - INFO - End of week: 66 
+2018-10-13 19:22:01,397 - INFO - Day: Thursday, February 10, 2011 
+2018-10-13 19:22:23,909 - INFO - Day: Wednesday, February 9, 2011 
+2018-10-13 19:22:44,935 - INFO - Day: Tuesday, February 8, 2011 
+2018-10-13 19:23:04,395 - INFO - Day: Monday, February 7, 2011 
+2018-10-13 19:23:19,961 - INFO - Day: Sunday, February 6, 2011 
+2018-10-13 19:23:21,354 - INFO - End of week: 67 
+2018-10-13 19:23:27,637 - INFO - Day: Thursday, February 3, 2011 
+2018-10-13 19:23:46,381 - INFO - Day: Wednesday, February 2, 2011 
+2018-10-13 19:24:01,800 - INFO - Day: Tuesday, February 1, 2011 
+2018-10-13 19:24:37,415 - INFO - Day: Monday, January 31, 2011 
+2018-10-13 19:25:02,210 - INFO - Day: Sunday, January 30, 2011 
+2018-10-13 19:25:12,595 - INFO - End of week: 68 
+2018-10-13 19:25:18,116 - INFO - Day: Thursday, January 27, 2011 
+2018-10-13 19:25:45,783 - INFO - Day: Wednesday, January 26, 2011 
+2018-10-13 19:26:11,703 - INFO - Day: Tuesday, January 25, 2011 
+2018-10-13 19:26:37,859 - INFO - Day: Monday, January 24, 2011 
+2018-10-13 19:26:49,495 - INFO - End of week: 69 
+2018-10-13 19:26:53,777 - INFO - Day: Thursday, January 20, 2011 
+2018-10-13 19:27:23,462 - INFO - Day: Wednesday, January 19, 2011 
+2018-10-13 19:27:42,727 - INFO - Day: Tuesday, January 18, 2011 
+2018-10-13 19:28:08,086 - INFO - Day: Monday, January 17, 2011 
+2018-10-13 19:28:20,373 - INFO - Day: Sunday, January 16, 2011 
+2018-10-13 19:28:22,712 - INFO - End of week: 70 
+2018-10-13 19:41:28,724 - INFO - Day: Friday, December 31, 2010 
+2018-10-13 19:41:28,724 - INFO - End of year: 2011 
+2018-10-13 19:41:29,813 - INFO - Day: Thursday, December 30, 2010 
+2018-10-13 19:41:31,255 - INFO - Day: Wednesday, December 29, 2010 
+2018-10-13 19:41:32,655 - INFO - Day: Tuesday, December 28, 2010 
+2018-10-13 19:41:34,686 - INFO - Day: Monday, December 27, 2010 
+2018-10-13 19:41:37,291 - INFO - Day: Sunday, December 26, 2010 
+2018-10-13 19:41:37,546 - INFO - End of week: 71 
+2018-10-13 19:41:38,884 - INFO - Day: Thursday, December 23, 2010 
+2018-10-13 19:41:42,925 - INFO - Day: Wednesday, December 22, 2010 
+2018-10-13 19:41:48,106 - INFO - Day: Tuesday, December 21, 2010 
+2018-10-13 19:41:53,211 - INFO - Day: Monday, December 20, 2010 
+2018-10-13 19:41:55,796 - INFO - Day: Sunday, December 19, 2010 
+2018-10-13 19:41:55,982 - INFO - End of week: 72 
+2018-10-13 19:41:56,542 - INFO - Day: Friday, December 24, 2010 
+2018-10-13 19:41:58,241 - INFO - Day: Thursday, December 16, 2010 
+2018-10-13 19:42:06,065 - INFO - Day: Wednesday, December 15, 2010 
+2018-10-13 19:42:15,040 - INFO - Day: Tuesday, December 14, 2010 
+2018-10-13 19:42:26,328 - INFO - Day: Monday, December 13, 2010 
+2018-10-13 19:42:29,323 - INFO - Day: Sunday, December 12, 2010 
+2018-10-13 19:42:29,600 - INFO - End of week: 73 
+2018-10-13 19:42:32,513 - INFO - Day: Thursday, December 9, 2010 
+2018-10-13 19:42:41,637 - INFO - Day: Wednesday, December 8, 2010 
+2018-10-13 19:42:51,042 - INFO - Day: Tuesday, December 7, 2010 
+2018-10-13 19:43:01,712 - INFO - Day: Monday, December 6, 2010 
+2018-10-13 19:43:05,000 - INFO - Day: Sunday, December 5, 2010 
+2018-10-13 19:43:05,573 - INFO - End of week: 74 
+2018-10-13 19:43:08,069 - INFO - Day: Friday, December 3, 2010 
+2018-10-13 19:43:17,111 - INFO - Day: Thursday, December 2, 2010 
+2018-10-13 19:43:27,476 - INFO - Day: Wednesday, December 1, 2010 
+2018-10-13 19:43:42,911 - INFO - Day: Tuesday, November 30, 2010 
+2018-10-13 19:43:58,318 - INFO - Day: Monday, November 29, 2010 
+2018-10-13 19:44:12,000 - INFO - Day: Sunday, November 28, 2010 
+2018-10-13 19:44:14,472 - INFO - End of week: 75 
+2018-10-13 19:44:15,718 - INFO - Day: Friday, November 26, 2010 
+2018-10-13 19:44:20,942 - INFO - Day: Thursday, November 25, 2010 
+2018-10-13 19:44:29,707 - INFO - Day: Wednesday, November 24, 2010 
+2018-10-13 19:44:50,834 - INFO - Day: Tuesday, November 23, 2010 
+2018-10-13 19:45:09,879 - INFO - Day: Monday, November 22, 2010 
+2018-10-13 19:45:13,667 - INFO - Day: Sunday, November 21, 2010 
+2018-10-13 19:45:14,206 - INFO - End of week: 76 
+2018-10-13 19:45:17,421 - INFO - Day: Thursday, November 18, 2010 
+2018-10-13 19:45:32,996 - INFO - Day: Wednesday, November 17, 2010 
+2018-10-13 19:45:52,671 - INFO - Day: Tuesday, November 16, 2010 
+2018-10-13 19:46:13,764 - INFO - Day: Monday, November 15, 2010 
+2018-10-13 19:46:27,830 - INFO - Day: Sunday, November 14, 2010 
+2018-10-13 19:46:31,840 - INFO - End of week: 77 
+2018-10-13 19:46:35,094 - INFO - Day: Thursday, November 11, 2010 
+2018-10-13 19:46:47,977 - INFO - Day: Wednesday, November 10, 2010 
+2018-10-13 19:47:12,275 - INFO - Day: Tuesday, November 9, 2010 
+2018-10-13 19:47:34,478 - INFO - Day: Monday, November 8, 2010 
+2018-10-13 19:47:50,276 - INFO - Day: Sunday, November 7, 2010 
+2018-10-13 19:47:51,398 - INFO - End of week: 78 
+2018-10-13 19:47:55,704 - INFO - Day: Thursday, November 4, 2010 
+2018-10-13 19:48:14,146 - INFO - Day: Wednesday, November 3, 2010 
+2018-10-13 19:48:28,455 - INFO - Day: Tuesday, November 2, 2010 
+2018-10-13 19:48:36,760 - INFO - Day: Monday, November 1, 2010 
+2018-10-13 19:48:53,633 - INFO - Day: Sunday, October 31, 2010 
+2018-10-13 19:48:56,199 - INFO - End of week: 79 
+2018-10-13 19:49:02,081 - INFO - Day: Thursday, October 28, 2010 
+2018-10-13 19:49:27,006 - INFO - Day: Wednesday, October 27, 2010 
+2018-10-13 19:49:52,847 - INFO - Day: Tuesday, October 26, 2010 
+2018-10-13 19:50:08,155 - INFO - Day: Monday, October 25, 2010 
+2018-10-13 19:50:17,950 - INFO - Day: Sunday, October 24, 2010 
+2018-10-13 19:50:20,778 - INFO - End of week: 80 
+2018-10-13 19:50:26,065 - INFO - Day: Thursday, October 21, 2010 
+2018-10-13 19:50:59,761 - INFO - Day: Wednesday, October 20, 2010 
+2018-10-13 19:51:21,913 - INFO - Day: Tuesday, October 19, 2010 
+2018-10-13 19:51:42,862 - INFO - Day: Monday, October 18, 2010 
+2018-10-13 19:51:54,571 - INFO - Day: Sunday, October 17, 2010 
+2018-10-13 19:51:59,634 - INFO - End of week: 81 
+2018-10-13 19:52:05,951 - INFO - Day: Wednesday, October 13, 2010 
+2018-10-13 19:52:32,918 - INFO - End of week: 82 
+2018-10-13 20:06:18,641 - INFO - Day: Friday, October 1, 2010 
+2018-10-13 20:06:23,520 - INFO - Day: Thursday, September 30, 2010 
+2018-10-13 20:06:29,343 - INFO - Day: Wednesday, September 29, 2010 
+2018-10-13 20:06:35,227 - INFO - Day: Tuesday, September 28, 2010 
+2018-10-13 20:06:40,680 - INFO - Day: Monday, September 27, 2010 
+2018-10-13 20:06:42,044 - INFO - Day: Sunday, September 26, 2010 
+2018-10-13 20:06:43,136 - INFO - End of week: 83 
+2018-10-13 20:06:45,802 - INFO - Day: Thursday, September 23, 2010 
+2018-10-13 20:06:50,151 - INFO - Day: Wednesday, September 22, 2010 
+2018-10-13 20:06:54,854 - INFO - Day: Tuesday, September 21, 2010 
+2018-10-13 20:07:00,522 - INFO - Day: Monday, September 20, 2010 
+2018-10-13 20:07:02,845 - INFO - Day: Sunday, September 19, 2010 
+2018-10-13 20:07:03,416 - INFO - End of week: 84 
+2018-10-13 20:07:06,136 - INFO - Day: Thursday, September 16, 2010 
+2018-10-13 20:07:13,324 - INFO - Day: Wednesday, September 15, 2010 
+2018-10-13 20:07:24,422 - INFO - Day: Tuesday, September 14, 2010 
+2018-10-13 20:07:36,323 - INFO - Day: Monday, September 13, 2010 
+2018-10-13 20:07:40,206 - INFO - Day: Sunday, September 12, 2010 
+2018-10-13 20:07:40,490 - INFO - End of week: 85 
+2018-10-13 20:07:43,865 - INFO - Day: Thursday, September 9, 2010 
+2018-10-13 20:07:56,118 - INFO - Day: Wednesday, September 8, 2010 
+2018-10-13 20:08:07,499 - INFO - Day: Tuesday, September 7, 2010 
+2018-10-13 20:08:14,923 - INFO - Day: Monday, September 6, 2010 
+2018-10-13 20:08:18,159 - INFO - End of week: 86 
+2018-10-13 20:08:20,312 - INFO - Day: Friday, September 3, 2010 
+2018-10-13 20:08:28,237 - INFO - Day: Thursday, September 2, 2010 
+2018-10-13 20:08:40,432 - INFO - Day: Wednesday, September 1, 2010 
+2018-10-13 20:08:53,352 - INFO - Day: Tuesday, August 31, 2010 
+2018-10-13 20:09:11,886 - INFO - Day: Monday, August 30, 2010 
+2018-10-13 20:09:23,874 - INFO - Day: Sunday, August 29, 2010 
+2018-10-13 20:09:26,151 - INFO - End of week: 87 
+2018-10-13 20:09:28,662 - INFO - Day: Thursday, August 26, 2010 
+2018-10-13 20:09:38,641 - INFO - Day: Wednesday, August 25, 2010 
+2018-10-13 20:09:46,547 - INFO - Day: Tuesday, August 24, 2010 
+2018-10-13 20:09:58,165 - INFO - Day: Monday, August 23, 2010 
+2018-10-13 20:10:03,686 - INFO - End of week: 88 
+2018-10-13 20:10:04,885 - INFO - Day: Friday, August 20, 2010 
+2018-10-13 20:10:10,951 - INFO - Day: Thursday, August 19, 2010 
+2018-10-13 20:10:27,998 - INFO - Day: Wednesday, August 18, 2010 
+2018-10-13 20:10:37,412 - INFO - Day: Tuesday, August 17, 2010 
+2018-10-13 20:10:52,164 - INFO - Day: Monday, August 16, 2010 
+2018-10-13 20:10:57,835 - INFO - Day: Sunday, August 15, 2010 
+2018-10-13 20:11:01,670 - INFO - End of week: 89 
+2018-10-13 20:11:05,124 - INFO - Day: Thursday, August 12, 2010 
+2018-10-13 20:11:20,479 - INFO - Day: Wednesday, August 11, 2010 
+2018-10-13 20:11:32,635 - INFO - Day: Tuesday, August 10, 2010 
+2018-10-13 20:11:50,390 - INFO - Day: Monday, August 9, 2010 
+2018-10-13 20:12:07,100 - INFO - Day: Sunday, August 8, 2010 
+2018-10-13 20:12:15,415 - INFO - End of week: 90 
+2018-10-13 20:12:17,839 - INFO - Day: Thursday, August 5, 2010 
+2018-10-13 20:12:31,565 - INFO - Day: Wednesday, August 4, 2010 
+2018-10-13 20:12:52,075 - INFO - Day: Tuesday, August 3, 2010 
+2018-10-13 20:13:09,314 - INFO - Day: Monday, August 2, 2010 
+2018-10-13 20:13:24,187 - INFO - Day: Sunday, August 1, 2010 
+2018-10-13 20:13:24,783 - INFO - End of week: 91 
+2018-10-13 20:13:31,312 - INFO - Day: Thursday, July 29, 2010 
+2018-10-13 20:13:58,316 - INFO - Day: Wednesday, July 28, 2010 
+2018-10-13 20:14:21,857 - INFO - Day: Tuesday, July 27, 2010 
+2018-10-13 20:14:33,080 - INFO - Day: Monday, July 26, 2010 
+2018-10-13 20:14:38,847 - INFO - Day: Sunday, July 25, 2010 
+2018-10-13 20:14:42,841 - INFO - End of week: 92 
+2018-10-13 20:14:46,629 - INFO - Day: Thursday, July 22, 2010 
+2018-10-13 20:15:13,738 - INFO - Day: Wednesday, July 21, 2010 
+2018-10-13 20:15:25,139 - INFO - Day: Tuesday, July 20, 2010 
+2018-10-13 20:15:46,245 - INFO - Day: Monday, July 19, 2010 
+2018-10-13 20:15:52,558 - INFO - Day: Sunday, July 18, 2010 
+2018-10-13 20:15:54,706 - INFO - End of week: 93 
+2018-10-13 20:15:58,203 - INFO - Day: Thursday, July 15, 2010 
+2018-10-13 20:16:22,507 - INFO - Day: Wednesday, July 14, 2010 
+2018-10-13 20:16:48,280 - INFO - Day: Tuesday, July 13, 2010 
+2018-10-13 20:17:21,548 - INFO - Day: Monday, July 12, 2010 
+2018-10-13 20:17:33,056 - INFO - Day: Sunday, July 11, 2010 
+2018-10-13 20:17:35,466 - INFO - End of week: 94 
+2018-10-13 20:31:37,084 - INFO - Day: Friday, July 23, 2010 
+2018-10-13 20:31:40,084 - INFO - Day: Thursday, July 22, 2010 
+2018-10-13 20:31:44,449 - INFO - Day: Wednesday, July 21, 2010 
+2018-10-13 20:31:46,807 - INFO - Day: Tuesday, July 20, 2010 
+2018-10-13 20:31:50,889 - INFO - Day: Monday, July 19, 2010 
+2018-10-13 20:31:52,094 - INFO - Day: Sunday, July 18, 2010 
+2018-10-13 20:31:52,567 - INFO - End of week: 95 
+2018-10-13 20:31:54,816 - INFO - Day: Thursday, July 15, 2010 
+2018-10-13 20:32:00,311 - INFO - Day: Wednesday, July 14, 2010 
+2018-10-13 20:32:08,925 - INFO - Day: Tuesday, July 13, 2010 
+2018-10-13 20:32:17,640 - INFO - Day: Monday, July 12, 2010 
+2018-10-13 20:32:20,455 - INFO - Day: Sunday, July 11, 2010 
+2018-10-13 20:32:21,016 - INFO - End of week: 96 
+2018-10-13 20:32:22,674 - INFO - Day: Friday, July 9, 2010 
+2018-10-13 20:32:30,755 - INFO - Day: Thursday, July 8, 2010 
+2018-10-13 20:32:43,185 - INFO - Day: Wednesday, July 7, 2010 
+2018-10-13 20:32:49,498 - INFO - Day: Tuesday, July 6, 2010 
+2018-10-13 20:32:54,087 - INFO - Day: Monday, July 5, 2010 
+2018-10-13 20:32:58,536 - INFO - Day: Sunday, July 4, 2010 
+2018-10-13 20:32:59,074 - INFO - End of week: 97 
+2018-10-13 20:33:02,241 - INFO - Day: Thursday, July 1, 2010 
+2018-10-13 20:33:13,846 - INFO - Day: Wednesday, June 30, 2010 
+2018-10-13 20:33:27,595 - INFO - Day: Tuesday, June 29, 2010 
+2018-10-13 20:33:37,293 - INFO - Day: Monday, June 28, 2010 
+2018-10-13 20:33:44,368 - INFO - Day: Sunday, June 27, 2010 
+2018-10-13 20:33:46,243 - INFO - End of week: 98 
+2018-10-13 20:33:48,903 - INFO - Day: Thursday, June 24, 2010 
+2018-10-13 20:33:58,939 - INFO - Day: Wednesday, June 23, 2010 
+2018-10-13 20:34:12,265 - INFO - Day: Tuesday, June 22, 2010 
+2018-10-13 20:34:21,794 - INFO - Day: Monday, June 21, 2010 
+2018-10-13 20:34:24,767 - INFO - Day: Sunday, June 20, 2010 
+2018-10-13 20:34:26,170 - INFO - End of week: 99 
+2018-10-13 20:34:27,680 - INFO - Day: Friday, June 18, 2010 
+2018-10-13 20:34:34,849 - INFO - Day: Thursday, June 17, 2010 
+2018-10-13 20:34:47,335 - INFO - Day: Wednesday, June 16, 2010 
+2018-10-13 20:35:02,624 - INFO - Day: Tuesday, June 15, 2010 
+2018-10-13 20:35:18,709 - INFO - Day: Monday, June 14, 2010 
+2018-10-13 20:35:25,823 - INFO - Day: Sunday, June 13, 2010 
+2018-10-13 20:35:28,432 - INFO - End of week: 100 
+2018-10-13 20:35:32,181 - INFO - Day: Thursday, June 10, 2010 
+2018-10-13 20:35:51,268 - INFO - Day: Wednesday, June 9, 2010 
+2018-10-13 20:36:06,344 - INFO - Day: Tuesday, June 8, 2010 
+2018-10-13 20:36:24,805 - INFO - Day: Monday, June 7, 2010 
+2018-10-13 20:36:34,625 - INFO - Day: Sunday, June 6, 2010 
+2018-10-13 20:36:35,673 - INFO - End of week: 101 
+2018-10-13 20:36:39,116 - INFO - Day: Thursday, June 3, 2010 
+2018-10-13 20:36:56,056 - INFO - Day: Wednesday, June 2, 2010 
+2018-10-13 20:37:11,002 - INFO - Day: Tuesday, June 1, 2010 
+2018-10-13 20:37:29,420 - INFO - Day: Monday, May 31, 2010 
+2018-10-13 20:37:48,928 - INFO - Day: Sunday, May 30, 2010 
+2018-10-13 20:37:52,345 - INFO - End of week: 102 
+2018-10-13 20:37:55,384 - INFO - Day: Thursday, May 27, 2010 
+2018-10-13 20:38:17,493 - INFO - Day: Wednesday, May 26, 2010 
+2018-10-13 20:38:40,095 - INFO - Day: Tuesday, May 25, 2010 
+2018-10-13 20:39:01,459 - INFO - Day: Monday, May 24, 2010 
+2018-10-13 20:39:07,682 - INFO - Day: Sunday, May 23, 2010 
+2018-10-13 20:39:09,113 - INFO - Day: Wednesday, May 12, 2010 
+2018-10-13 20:39:09,624 - INFO - End of week: 103 
+2018-10-13 20:39:12,842 - INFO - Day: Friday, May 21, 2010 
+2018-10-13 20:39:36,467 - INFO - Day: Thursday, May 20, 2010 
+2018-10-13 20:39:56,166 - INFO - Day: Wednesday, May 19, 2010 
+2018-10-13 20:40:19,919 - INFO - Day: Tuesday, May 18, 2010 
+2018-10-13 20:40:46,028 - INFO - Day: Monday, May 17, 2010 
+2018-10-13 20:40:54,079 - INFO - Day: Sunday, May 16, 2010 
+2018-10-13 20:41:00,071 - INFO - End of week: 104 
+2018-10-13 20:41:02,038 - INFO - Day: Friday, May 14, 2010 
+2018-10-13 20:41:13,872 - INFO - Day: Thursday, May 13, 2010 
+2018-10-13 20:41:37,015 - INFO - Day: Wednesday, May 12, 2010 
+2018-10-13 20:42:16,257 - INFO - Day: Tuesday, May 11, 2010 
+2018-10-13 20:42:35,176 - INFO - Day: Monday, May 10, 2010 
+2018-10-13 20:42:53,357 - INFO - Day: Sunday, May 9, 2010 
+2018-10-13 20:42:54,933 - INFO - End of week: 105 
+2018-10-13 20:42:59,370 - INFO - Day: Thursday, May 6, 2010 
+2018-10-13 20:43:20,630 - INFO - Day: Wednesday, May 5, 2010 
+2018-10-13 20:43:40,252 - INFO - Day: Tuesday, May 4, 2010 
+2018-10-13 20:43:59,293 - INFO - Day: Monday, May 3, 2010 
+2018-10-13 20:44:20,705 - INFO - Day: Sunday, May 2, 2010 
+2018-10-13 20:44:22,546 - INFO - End of week: 106 
+2018-10-13 20:58:43,644 - INFO - Day: Friday, April 30, 2010 
+2018-10-13 20:58:48,290 - INFO - Day: Thursday, April 29, 2010 
+2018-10-13 20:58:52,890 - INFO - Day: Wednesday, April 28, 2010 
+2018-10-13 20:58:56,539 - INFO - Day: Tuesday, April 27, 2010 
+2018-10-13 20:59:00,223 - INFO - Day: Monday, April 26, 2010 
+2018-10-13 20:59:00,603 - INFO - Day: Sunday, April 25, 2010 
+2018-10-13 20:59:01,350 - INFO - End of week: 107 
+2018-10-13 20:59:04,590 - INFO - Day: Thursday, April 22, 2010 
+2018-10-13 20:59:12,759 - INFO - Day: Wednesday, April 21, 2010 
+2018-10-13 20:59:17,902 - INFO - Day: Tuesday, April 20, 2010 
+2018-10-13 20:59:25,126 - INFO - Day: Monday, April 19, 2010 
+2018-10-13 20:59:27,938 - INFO - Day: Sunday, April 18, 2010 
+2018-10-13 20:59:28,580 - INFO - End of week: 108 
+2018-10-13 20:59:28,998 - INFO - Day: Saturday, April 24, 2010 
+2018-10-13 20:59:30,120 - INFO - Day: Friday, April 16, 2010 
+2018-10-13 20:59:35,697 - INFO - Day: Thursday, April 15, 2010 
+2018-10-13 20:59:42,509 - INFO - Day: Wednesday, April 14, 2010 
+2018-10-13 20:59:50,558 - INFO - Day: Tuesday, April 13, 2010 
+2018-10-13 20:59:59,813 - INFO - Day: Monday, April 12, 2010 
+2018-10-13 21:00:04,263 - INFO - Day: Sunday, April 11, 2010 
+2018-10-13 21:00:06,249 - INFO - End of week: 109 
+2018-10-13 21:00:09,278 - INFO - Day: Thursday, April 8, 2010 
+2018-10-13 21:00:20,782 - INFO - Day: Wednesday, April 7, 2010 
+2018-10-13 21:00:32,108 - INFO - Day: Tuesday, April 6, 2010 
+2018-10-13 21:00:38,182 - INFO - Day: Monday, April 5, 2010 
+2018-10-13 21:00:39,968 - INFO - Day: Sunday, April 4, 2010 
+2018-10-13 21:00:40,938 - INFO - End of week: 110 
+2018-10-13 21:00:42,043 - INFO - Day: Friday, April 2, 2010 
+2018-10-13 21:00:46,241 - INFO - Day: Thursday, April 1, 2010 
+2018-10-13 21:00:57,536 - INFO - Day: Wednesday, March 31, 2010 
+2018-10-13 21:01:02,965 - INFO - Day: Tuesday, March 30, 2010 
+2018-10-13 21:01:13,879 - INFO - Day: Monday, March 29, 2010 
+2018-10-13 21:01:24,317 - INFO - End of week: 111 
+2018-10-13 21:01:27,437 - INFO - Day: Thursday, March 25, 2010 
+2018-10-13 21:01:41,289 - INFO - Day: Wednesday, March 24, 2010 
+2018-10-13 21:01:54,167 - INFO - Day: Tuesday, March 23, 2010 
+2018-10-13 21:02:06,885 - INFO - Day: Monday, March 22, 2010 
+2018-10-13 21:02:10,129 - INFO - End of week: 112 
+2018-10-13 21:02:11,965 - INFO - Day: Friday, March 19, 2010 
+2018-10-13 21:02:22,416 - INFO - Day: Thursday, March 18, 2010 
+2018-10-13 21:02:40,723 - INFO - Day: Wednesday, March 17, 2010 
+2018-10-13 21:02:55,256 - INFO - Day: Tuesday, March 16, 2010 
+2018-10-13 21:03:14,965 - INFO - Day: Monday, March 15, 2010 
+2018-10-13 21:03:24,027 - INFO - Day: Sunday, March 14, 2010 
+2018-10-13 21:03:24,548 - INFO - End of week: 113 
+2018-10-13 21:03:26,417 - INFO - Day: Friday, March 12, 2010 
+2018-10-13 21:03:36,975 - INFO - Day: Thursday, March 11, 2010 
+2018-10-13 21:03:51,509 - INFO - Day: Wednesday, March 10, 2010 
+2018-10-13 21:04:15,081 - INFO - Day: Tuesday, March 9, 2010 
+2018-10-13 21:04:32,169 - INFO - Day: Monday, March 8, 2010 
+2018-10-13 21:04:41,992 - INFO - Day: Sunday, March 7, 2010 
+2018-10-13 21:04:47,474 - INFO - End of week: 114 
+2018-10-13 21:04:51,173 - INFO - Day: Thursday, March 4, 2010 
+2018-10-13 21:05:10,242 - INFO - Day: Wednesday, March 3, 2010 
+2018-10-13 21:05:29,999 - INFO - Day: Tuesday, March 2, 2010 
+2018-10-13 21:05:46,787 - INFO - Day: Monday, March 1, 2010 
+2018-10-13 21:06:14,370 - INFO - Day: Sunday, February 28, 2010 
+2018-10-13 21:06:17,885 - INFO - End of week: 115 
+2018-10-13 21:06:22,530 - INFO - Day: Thursday, February 25, 2010 
+2018-10-13 21:06:54,564 - INFO - Day: Wednesday, February 24, 2010 
+2018-10-13 21:07:21,860 - INFO - Day: Tuesday, February 23, 2010 
+2018-10-13 21:07:49,507 - INFO - Day: Monday, February 22, 2010 
+2018-10-13 21:07:55,039 - INFO - End of week: 116 
+2018-10-13 21:08:00,350 - INFO - Day: Thursday, February 18, 2010 
+2018-10-13 21:08:31,350 - INFO - Day: Wednesday, February 17, 2010 
+2018-10-13 21:08:57,655 - INFO - Day: Tuesday, February 16, 2010 
+2018-10-13 21:09:18,216 - INFO - Day: Monday, February 15, 2010 
+2018-10-13 21:09:29,172 - INFO - Day: Sunday, February 14, 2010 
+2018-10-13 21:09:32,868 - INFO - End of week: 117 
+2018-10-13 21:09:35,386 - INFO - Day: Thursday, February 11, 2010 
+2018-10-13 21:09:52,184 - INFO - Day: Wednesday, February 10, 2010 
+2018-10-13 21:10:12,357 - INFO - Day: Tuesday, February 9, 2010 
+2018-10-13 21:10:33,830 - INFO - Day: Monday, February 8, 2010 
+2018-10-13 21:10:42,396 - INFO - Day: Sunday, February 7, 2010 
+2018-10-13 21:10:49,904 - INFO - End of week: 118 
+2018-10-13 21:25:30,560 - INFO - Day: Friday, February 12, 2010 
+2018-10-13 21:25:33,662 - INFO - Day: Thursday, February 11, 2010 
+2018-10-13 21:25:37,134 - INFO - Day: Wednesday, February 10, 2010 
+2018-10-13 21:25:40,698 - INFO - Day: Tuesday, February 9, 2010 
+2018-10-13 21:25:44,540 - INFO - Day: Monday, February 8, 2010 
+2018-10-13 21:25:46,065 - INFO - Day: Sunday, February 7, 2010 
+2018-10-13 21:25:47,328 - INFO - End of week: 119 
+2018-10-13 21:25:49,433 - INFO - Day: Thursday, February 4, 2010 
+2018-10-13 21:25:53,810 - INFO - Day: Wednesday, February 3, 2010 
+2018-10-13 21:25:58,360 - INFO - Day: Tuesday, February 2, 2010 
+2018-10-13 21:26:03,153 - INFO - Day: Monday, February 1, 2010 
+2018-10-13 21:26:10,780 - INFO - Day: Sunday, January 31, 2010 
+2018-10-13 21:26:11,362 - INFO - End of week: 120 
+2018-10-13 21:26:13,057 - INFO - Day: Friday, January 29, 2010 
+2018-10-13 21:26:20,367 - INFO - Day: Thursday, January 28, 2010 
+2018-10-13 21:26:29,436 - INFO - Day: Wednesday, January 27, 2010 
+2018-10-13 21:26:38,701 - INFO - Day: Tuesday, January 26, 2010 
+2018-10-13 21:26:48,650 - INFO - Day: Monday, January 25, 2010 
+2018-10-13 21:26:50,791 - INFO - End of week: 121 
+2018-10-13 21:26:54,196 - INFO - Day: Thursday, January 21, 2010 
+2018-10-13 21:27:05,527 - INFO - Day: Wednesday, January 20, 2010 
+2018-10-13 21:27:18,863 - INFO - Day: Tuesday, January 19, 2010 
+2018-10-13 21:27:28,614 - INFO - Day: Monday, January 18, 2010 
+2018-10-13 21:27:32,188 - INFO - Day: Sunday, January 17, 2010 
+2018-10-13 21:27:33,777 - INFO - End of week: 122 
+2018-10-13 21:27:36,022 - INFO - Day: Friday, January 15, 2010 
+2018-10-13 21:27:47,276 - INFO - Day: Thursday, January 14, 2010 
+2018-10-13 21:27:56,256 - INFO - Day: Wednesday, January 13, 2010 
+2018-10-13 21:28:09,223 - INFO - Day: Tuesday, January 12, 2010 
+2018-10-13 21:28:18,415 - INFO - Day: Monday, January 11, 2010 
+2018-10-13 21:28:25,690 - INFO - Day: Sunday, January 10, 2010 
+2018-10-13 21:28:26,090 - INFO - End of week: 123 
+2018-10-13 21:28:31,870 - INFO - Day: Thursday, January 7, 2010 
+2018-10-13 21:28:59,024 - INFO - Day: Wednesday, January 6, 2010 
+2018-10-13 21:29:28,751 - INFO - Day: Tuesday, January 5, 2010 
+2018-10-13 21:29:48,608 - INFO - Day: Monday, January 4, 2010 
+2018-10-13 21:30:14,985 - INFO - Day: Sunday, January 3, 2010 
+2018-10-13 21:30:20,032 - INFO - End of week: 124 
+2018-10-13 21:30:22,220 - INFO - Day: Thursday, December 31, 2009 
+2018-10-13 21:30:22,220 - INFO - End of year: 2010 
+2018-10-13 21:30:27,810 - INFO - Day: Wednesday, December 30, 2009 
+2018-10-13 21:30:34,850 - INFO - Day: Tuesday, December 29, 2009 
+2018-10-13 21:30:44,947 - INFO - Day: Monday, December 28, 2009 
+2018-10-13 21:30:47,454 - INFO - Day: Sunday, December 27, 2009 
+2018-10-13 21:30:49,973 - INFO - End of week: 125 
+2018-10-13 21:30:52,375 - INFO - Day: Wednesday, December 23, 2009 
+2018-10-13 21:31:08,640 - INFO - Day: Tuesday, December 22, 2009 
+2018-10-13 21:31:25,432 - INFO - Day: Monday, December 21, 2009 
+2018-10-13 21:31:34,354 - INFO - Day: Sunday, December 20, 2009 
+2018-10-13 21:31:37,070 - INFO - End of week: 126 
+2018-10-13 21:31:39,577 - INFO - Day: Thursday, December 17, 2009 
+2018-10-13 21:31:56,115 - INFO - Day: Wednesday, December 16, 2009 
+2018-10-13 21:32:25,599 - INFO - Day: Tuesday, December 15, 2009 
+2018-10-13 21:32:55,945 - INFO - Day: Monday, December 14, 2009 
+2018-10-13 21:33:06,047 - INFO - Day: Sunday, December 13, 2009 
+2018-10-13 21:33:11,831 - INFO - End of week: 127 
+2018-10-13 21:33:15,048 - INFO - Day: Thursday, December 10, 2009 
+2018-10-13 21:33:40,175 - INFO - Day: Wednesday, December 9, 2009 
+2018-10-13 21:34:03,215 - INFO - Day: Tuesday, December 8, 2009 
+2018-10-13 21:34:27,726 - INFO - Day: Monday, December 7, 2009 
+2018-10-13 21:34:43,015 - INFO - Day: Sunday, December 6, 2009 
+2018-10-13 21:34:45,088 - INFO - End of week: 128 
+2018-10-13 21:34:47,906 - INFO - Day: Thursday, December 3, 2009 
+2018-10-13 21:35:10,342 - INFO - Day: Wednesday, December 2, 2009 
+2018-10-13 21:35:23,509 - INFO - Day: Tuesday, December 1, 2009 
+2018-10-13 21:35:51,487 - INFO - Day: Monday, November 30, 2009 
+2018-10-13 21:36:20,506 - INFO - Day: Sunday, November 29, 2009 
+2018-10-13 21:36:24,894 - INFO - End of week: 129 
+2018-10-13 21:36:26,813 - INFO - Day: Friday, November 27, 2009 
+2018-10-13 21:36:40,634 - INFO - Day: Thursday, November 26, 2009 
+2018-10-13 21:37:07,855 - INFO - Day: Wednesday, November 25, 2009 
+2018-10-13 21:37:38,743 - INFO - Day: Tuesday, November 24, 2009 
+2018-10-13 21:38:22,576 - INFO - Day: Monday, November 23, 2009 
+2018-10-13 21:38:36,260 - INFO - Day: Sunday, November 22, 2009 
+2018-10-13 21:38:37,160 - INFO - End of week: 130 
+2018-10-13 21:53:47,092 - INFO - Day: Friday, November 27, 2009 
+2018-10-13 21:53:49,344 - INFO - Day: Thursday, November 26, 2009 
+2018-10-13 21:53:53,799 - INFO - Day: Wednesday, November 25, 2009 
+2018-10-13 21:53:59,506 - INFO - Day: Tuesday, November 24, 2009 
+2018-10-13 21:54:07,147 - INFO - Day: Monday, November 23, 2009 
+2018-10-13 21:54:09,829 - INFO - Day: Sunday, November 22, 2009 
+2018-10-13 21:54:10,040 - INFO - End of week: 131 
+2018-10-13 21:54:10,964 - INFO - Day: Friday, November 20, 2009 
+2018-10-13 21:54:13,701 - INFO - Day: Thursday, November 19, 2009 
+2018-10-13 21:54:20,174 - INFO - Day: Wednesday, November 18, 2009 
+2018-10-13 21:54:25,206 - INFO - Day: Tuesday, November 17, 2009 
+2018-10-13 21:54:30,885 - INFO - Day: Monday, November 16, 2009 
+2018-10-13 21:54:35,567 - INFO - Day: Sunday, November 15, 2009 
+2018-10-13 21:54:37,107 - INFO - End of week: 132 
+2018-10-13 21:54:39,007 - INFO - Day: Thursday, November 12, 2009 
+2018-10-13 21:54:44,263 - INFO - Day: Wednesday, November 11, 2009 
+2018-10-13 21:54:49,374 - INFO - Day: Tuesday, November 10, 2009 
+2018-10-13 21:54:58,684 - INFO - Day: Monday, November 9, 2009 
+2018-10-13 21:55:03,530 - INFO - Day: Sunday, November 8, 2009 
+2018-10-13 21:55:05,367 - INFO - End of week: 133 
+2018-10-13 21:55:07,080 - INFO - Day: Thursday, November 5, 2009 
+2018-10-13 21:55:14,764 - INFO - Day: Wednesday, November 4, 2009 
+2018-10-13 21:55:22,305 - INFO - Day: Tuesday, November 3, 2009 
+2018-10-13 21:55:25,948 - INFO - Day: Monday, November 2, 2009 
+2018-10-13 21:55:33,701 - INFO - Day: Sunday, November 1, 2009 
+2018-10-13 21:55:34,702 - INFO - End of week: 134 
+2018-10-13 21:55:36,882 - INFO - Day: Friday, October 30, 2009 
+2018-10-13 21:55:50,045 - INFO - Day: Thursday, October 29, 2009 
+2018-10-13 21:56:04,297 - INFO - Day: Wednesday, October 28, 2009 
+2018-10-13 21:56:16,440 - INFO - Day: Tuesday, October 27, 2009 
+2018-10-13 21:56:23,304 - INFO - Day: Monday, October 26, 2009 
+2018-10-13 21:56:25,825 - INFO - End of week: 135 
+2018-10-13 21:56:29,984 - INFO - Day: Thursday, October 22, 2009 
+2018-10-13 21:56:43,865 - INFO - Day: Wednesday, October 21, 2009 
+2018-10-13 21:56:51,870 - INFO - Day: Tuesday, October 20, 2009 
+2018-10-13 21:57:04,822 - INFO - Day: Monday, October 19, 2009 
+2018-10-13 21:57:08,633 - INFO - Day: Sunday, October 18, 2009 
+2018-10-13 21:57:11,531 - INFO - End of week: 136 
+2018-10-13 21:57:16,062 - INFO - Day: Tuesday, October 13, 2009 
+2018-10-13 21:57:27,521 - INFO - End of week: 137 
+2018-10-13 21:57:27,862 - INFO - End of week: 138 
+2018-10-13 21:57:28,173 - INFO - End of week: 139 
+2018-10-13 21:57:28,484 - INFO - End of week: 140 
+2018-10-13 21:57:28,790 - INFO - End of week: 141 
+2018-10-13 21:57:29,095 - INFO - End of week: 142 
+2018-10-13 22:12:50,320 - INFO - End of week: 143 
+2018-10-13 22:12:50,337 - INFO - End of the history or some error
