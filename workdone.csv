@@ -3,4 +3,6 @@ Oct,6,5,scrapers
 Oct,7,3,scrapers
 Oct,12,5,scrapers + coursera (regression)
 Oct,14,3,refresh LM notes from class 
-Oct,14,2, exploratory analysis on forexfactory
+Oct,14,2,exploratory analysis on forexfactory
+Oct,15,1,dealing with dates and DST on data got from forexfactory
+Oct,18,1,dealing with dates and DST on data got from forexfactory
