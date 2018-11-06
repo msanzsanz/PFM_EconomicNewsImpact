@@ -4,13 +4,20 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "# Data curation \n",
+    "# Data curation - Forex Factory\n",
     "\n",
-    "## Forex factory obtained data\n",
     "\n",
-    "Data from https://www.forexfactory.com/ was get using our own scrapper. Thus, we need to make some sanity checks to ensure everything is as expected:\n",
+    "Data from https://www.forexfactory.com/ was gotten using our own scrapper. Thus, we need to make some sanity checks to ensure the downloaded data corresponds to the expected one.\n",
     "\n",
-    "1. No nan´s and no missing days\n",
+    "Checks to do:\n",
+    "\n",
+    "1. No missing weeks.\n",
+    "2. Same news released each year, with the same cadence.\n",
+    "\n",
+    "\n",
+    "Unknow questions:\n",
+    "\n",
+    "1. Does forexfactory set the same impact rate to \n",
     "\n"
    ]
   },
@@ -21,7 +28,7 @@
     "### Findings\n",
     "\n",
     "1. News might have a different impact degree depending on the month. \n",
-    "e.g. 'CB Consumer Confidence' for 2018. Always a high impact but in August for 2018.\n",
+    "e.g. 'CB Consumer Confidence' for 2018. Always tagged as with \"high\" impact for 2018, but in August.\n",
     "\n",
     "\n",
     "----------\n",
@@ -30,7 +37,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 1,
+   "execution_count": 37,
    "metadata": {},
    "outputs": [
     {
@@ -45,6 +52,7 @@
     "import pandas as pd\n",
     "import numpy as np\n",
     "import pytz\n",
+    "import path\n",
     "\n",
     "%pylab inline"
    ]
@@ -73,7 +81,7 @@
    "metadata": {},
    "source": [
     "### Initial exploratory analysis, just for 2017 \n",
-    "Let´s explore what we´ve got from forexfactory.com"
+    "Let´s explore what we´ve obtained from forexfactory.com"
    ]
   },
   {
@@ -566,7 +574,7 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Our news of interest are those with higher expected impact on the market. Let´s see how many of them we do have"
+    "Our news of interest are those with higher expected impact on the market. Let´s see how many of them do we have"
    ]
   },
   {
@@ -638,14 +646,293 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Hmmm, not that many..\n",
-    "\n",
-    "Also, pay attention to 'CB Consumer Confidence'. It seems to be a monthly new, but one entry is missing..."
+    "Hmmm, not that many..."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "We need to know which meassure unit is used per each macroeconomic new, so that we can compute the error rate"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 260,
+   "execution_count": 34,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "new\n",
+       "ADP Non-Farm Employment Change      250K\n",
+       "Advance GDP q/q                     3.0%\n",
+       "Average Hourly Earnings m/m         0.3%\n",
+       "Building Permits                   1.30M\n",
+       "CB Consumer Confidence             122.1\n",
+       "CPI m/m                             0.4%\n",
+       "Core CPI m/m                        0.1%\n",
+       "Core Durable Goods Orders m/m      -0.1%\n",
+       "Core Retail Sales m/m               1.0%\n",
+       "Crude Oil Inventories              -7.4M\n",
+       "Federal Funds Rate                <1.50%\n",
+       "Final GDP q/q                       3.2%\n",
+       "ISM Manufacturing PMI               59.7\n",
+       "ISM Non-Manufacturing PMI           55.9\n",
+       "Non-Farm Employment Change          148K\n",
+       "PPI m/m                             0.4%\n",
+       "Philly Fed Manufacturing Index      22.0\n",
+       "Prelim GDP q/q                      3.3%\n",
+       "Prelim UoM Consumer Sentiment       98.0\n",
+       "Retail Sales m/m                    0.8%\n",
+       "Unemployment Claims                 250K\n",
+       "Unemployment Rate                   4.1%\n",
+       "Name: actual, dtype: object"
+      ]
+     },
+     "execution_count": 34,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ff_2017_USA_high.groupby('new').actual.first()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "'0.3' - 100%\n",
+    "1    - x"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "200.00000000000003"
+      ]
+     },
+     "execution_count": 83,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "abs(0.9-0.3)*100/abs(0.3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 94,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def get_type(value):\n",
+    "\n",
+    "    if value.find('K') != -1: return 'K'\n",
+    "    elif value.find('M') != -1: return 'M'\n",
+    "    elif value.find('%') != -1: return '%'\n",
+    "    elif value.find('<') != -1: return '<'\n",
+    "    else: return 'F'\n",
+    "    \n",
+    "    \n",
+    "def compute_error(forecasted, actual, fftype):\n",
+    "    \n",
+    "    magnitude = 1\n",
+    "    if fftype == 'K' : magnitude = 1000\n",
+    "    elif fftype == 'M': magnitude = 1000000\n",
+    "        \n",
+    "    f = float(forecasted.split(fftype)[0]) * magnitude\n",
+    "    a = float(actual.split(fftype)[0]) * magnitude\n",
+    "    diff_per = abs(a-f)*100/abs(f)\n",
+    "    \n",
+    "    sign = 1 if f >= a else -1\n",
+    "    \n",
+    "    return diff_per * sign\n",
+    " "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 95,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'%'"
+      ]
+     },
+     "execution_count": 95,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "get_type('<1.5%')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 100,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "50.0"
+      ]
+     },
+     "execution_count": 100,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "compute_error('0.8%', '0.4%', '%')"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "invalid syntax (<ipython-input-41-999e9ae9008a>, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  File \u001b[0;32m\"<ipython-input-41-999e9ae9008a>\"\u001b[0;36m, line \u001b[0;32m1\u001b[0m\n\u001b[0;31m    abs(250k - 251k)\u001b[0m\n\u001b[0m           ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m invalid syntax\n"
+     ]
+    }
+   ],
+   "source": [
+    "abs(250k - 251k)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "new\n",
+       "ADP Non-Farm Employment Change    13\n",
+       "Advance GDP q/q                    4\n",
+       "Average Hourly Earnings m/m       13\n",
+       "Building Permits                  12\n",
+       "CB Consumer Confidence            12\n",
+       "CPI m/m                           12\n",
+       "Core CPI m/m                      12\n",
+       "Core Durable Goods Orders m/m     12\n",
+       "Core Retail Sales m/m             12\n",
+       "Crude Oil Inventories             53\n",
+       "Federal Funds Rate                 6\n",
+       "Final GDP q/q                      4\n",
+       "ISM Manufacturing PMI             13\n",
+       "ISM Non-Manufacturing PMI         13\n",
+       "Non-Farm Employment Change        13\n",
+       "PPI m/m                           12\n",
+       "Philly Fed Manufacturing Index     4\n",
+       "Prelim GDP q/q                     4\n",
+       "Prelim UoM Consumer Sentiment      4\n",
+       "Retail Sales m/m                  12\n",
+       "Unemployment Claims               51\n",
+       "Unemployment Rate                 13\n",
+       "Name: impact, dtype: int64"
+      ]
+     },
+     "execution_count": 18,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ff_2017_USA_high.groupby('new').impact.count()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "new\n",
+       "Advance GDP Price Index q/q          4\n",
+       "Capacity Utilization Rate           12\n",
+       "Chicago PMI                         12\n",
+       "Core PCE Price Index m/m            12\n",
+       "Core PPI m/m                        12\n",
+       "Current Account                      4\n",
+       "Durable Goods Orders m/m            12\n",
+       "Empire State Manufacturing Index    12\n",
+       "Employment Cost Index q/q            4\n",
+       "Existing Home Sales                 12\n",
+       "Factory Orders m/m                  12\n",
+       "Federal Funds Rate                   2\n",
+       "Housing Starts                      12\n",
+       "Import Prices m/m                   12\n",
+       "Industrial Production m/m           12\n",
+       "JOLTS Job Openings                  10\n",
+       "New Home Sales                      12\n",
+       "Pending Home Sales m/m              12\n",
+       "Personal Spending m/m               12\n",
+       "Philly Fed Manufacturing Index       8\n",
+       "Prelim Nonfarm Productivity q/q      4\n",
+       "Prelim Unit Labor Costs q/q          4\n",
+       "Prelim UoM Consumer Sentiment        8\n",
+       "Revised Nonfarm Productivity q/q     2\n",
+       "Revised UoM Consumer Sentiment      12\n",
+       "Trade Balance                       11\n",
+       "Unemployment Claims                  2\n",
+       "Name: impact, dtype: int64"
+      ]
+     },
+     "execution_count": 30,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "ff_2017_USA_medium.groupby('new').impact.count()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
    "metadata": {},
    "outputs": [
     {
@@ -682,155 +969,134 @@
        "  </thead>\n",
        "  <tbody>\n",
        "    <tr>\n",
-       "      <th>119</th>\n",
-       "      <td>2018-09-25 10:00:00</td>\n",
-       "      <td>138.4</td>\n",
+       "      <th>259</th>\n",
+       "      <td>2017-12-13 00:00:00 3:00pm</td>\n",
+       "      <td>&lt;1.50%</td>\n",
        "      <td>USD</td>\n",
-       "      <td>132.2</td>\n",
-       "      <td>better</td>\n",
-       "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>134.7</td>\n",
-       "      <td>better</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>477</th>\n",
-       "      <td>2018-08-28 10:00:00</td>\n",
-       "      <td>133.4</td>\n",
-       "      <td>USD</td>\n",
-       "      <td>126.6</td>\n",
-       "      <td>better</td>\n",
-       "      <td>Medium</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>127.9</td>\n",
-       "      <td>better</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>800</th>\n",
-       "      <td>2018-07-31 10:00:00</td>\n",
-       "      <td>127.4</td>\n",
-       "      <td>USD</td>\n",
-       "      <td>126.5</td>\n",
-       "      <td>better</td>\n",
-       "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>127.1</td>\n",
-       "      <td>better</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>1181</th>\n",
-       "      <td>2018-06-26 10:00:00</td>\n",
-       "      <td>126.4</td>\n",
-       "      <td>USD</td>\n",
-       "      <td>127.6</td>\n",
-       "      <td>worse</td>\n",
-       "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>128.8</td>\n",
-       "      <td>better</td>\n",
-       "    </tr>\n",
-       "    <tr>\n",
-       "      <th>1531</th>\n",
-       "      <td>2018-05-29 10:00:00</td>\n",
-       "      <td>128.0</td>\n",
-       "      <td>USD</td>\n",
-       "      <td>128.2</td>\n",
+       "      <td>&lt;1.50%</td>\n",
        "      <td>accurate</td>\n",
        "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>125.6</td>\n",
-       "      <td>worse</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>2027</th>\n",
-       "      <td>2018-04-24 10:00:00</td>\n",
-       "      <td>128.7</td>\n",
+       "      <th>852</th>\n",
+       "      <td>2017-11-01 00:00:00 2:00pm</td>\n",
+       "      <td>&lt;1.25%</td>\n",
        "      <td>USD</td>\n",
-       "      <td>126.0</td>\n",
-       "      <td>better</td>\n",
-       "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>127.0</td>\n",
-       "      <td>worse</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
+       "      <td>Medium</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>2356</th>\n",
-       "      <td>2018-03-27 10:00:00</td>\n",
-       "      <td>127.7</td>\n",
+       "      <th>1369</th>\n",
+       "      <td>2017-09-20 00:00:00 2:00pm</td>\n",
+       "      <td>&lt;1.25%</td>\n",
        "      <td>USD</td>\n",
-       "      <td>131.2</td>\n",
-       "      <td>worse</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
        "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>130.0</td>\n",
-       "      <td>worse</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>2713</th>\n",
-       "      <td>2018-02-27 11:00:00</td>\n",
-       "      <td>130.8</td>\n",
+       "      <th>2044</th>\n",
+       "      <td>2017-07-26 00:00:00 2:00pm</td>\n",
+       "      <td>&lt;1.25%</td>\n",
        "      <td>USD</td>\n",
-       "      <td>126.2</td>\n",
-       "      <td>better</td>\n",
-       "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>124.3</td>\n",
-       "      <td>worse</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
+       "      <td>Medium</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
        "    </tr>\n",
        "    <tr>\n",
-       "      <th>3080</th>\n",
-       "      <td>2018-01-30 11:00:00</td>\n",
-       "      <td>125.4</td>\n",
+       "      <th>2536</th>\n",
+       "      <td>2017-06-14 00:00:00 2:00pm</td>\n",
+       "      <td>&lt;1.25%</td>\n",
        "      <td>USD</td>\n",
-       "      <td>123.2</td>\n",
-       "      <td>better</td>\n",
+       "      <td>&lt;1.25%</td>\n",
+       "      <td>accurate</td>\n",
        "      <td>High</td>\n",
-       "      <td>CB Consumer Confidence</td>\n",
-       "      <td>123.1</td>\n",
-       "      <td>better</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;1.00%</td>\n",
+       "      <td>accurate</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3081</th>\n",
+       "      <td>2017-05-03 00:00:00 2:00pm</td>\n",
+       "      <td>&lt;1.00%</td>\n",
+       "      <td>USD</td>\n",
+       "      <td>&lt;1.00%</td>\n",
+       "      <td>accurate</td>\n",
+       "      <td>High</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;1.00%</td>\n",
+       "      <td>accurate</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>3706</th>\n",
+       "      <td>2017-03-15 00:00:00 2:00pm</td>\n",
+       "      <td>&lt;1.00%</td>\n",
+       "      <td>USD</td>\n",
+       "      <td>&lt;1.00%</td>\n",
+       "      <td>accurate</td>\n",
+       "      <td>High</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;0.75%</td>\n",
+       "      <td>accurate</td>\n",
+       "    </tr>\n",
+       "    <tr>\n",
+       "      <th>4277</th>\n",
+       "      <td>2017-02-01 00:00:00 3:00pm</td>\n",
+       "      <td>&lt;0.75%</td>\n",
+       "      <td>USD</td>\n",
+       "      <td>&lt;0.75%</td>\n",
+       "      <td>accurate</td>\n",
+       "      <td>High</td>\n",
+       "      <td>Federal Funds Rate</td>\n",
+       "      <td>&lt;0.75%</td>\n",
+       "      <td>accurate</td>\n",
        "    </tr>\n",
        "  </tbody>\n",
        "</table>\n",
        "</div>"
       ],
       "text/plain": [
-       "               date_time actual country forecast forecast_error  impact  \\\n",
-       "119  2018-09-25 10:00:00  138.4     USD    132.2         better    High   \n",
-       "477  2018-08-28 10:00:00  133.4     USD    126.6         better  Medium   \n",
-       "800  2018-07-31 10:00:00  127.4     USD    126.5         better    High   \n",
-       "1181 2018-06-26 10:00:00  126.4     USD    127.6          worse    High   \n",
-       "1531 2018-05-29 10:00:00  128.0     USD    128.2       accurate    High   \n",
-       "2027 2018-04-24 10:00:00  128.7     USD    126.0         better    High   \n",
-       "2356 2018-03-27 10:00:00  127.7     USD    131.2          worse    High   \n",
-       "2713 2018-02-27 11:00:00  130.8     USD    126.2         better    High   \n",
-       "3080 2018-01-30 11:00:00  125.4     USD    123.2         better    High   \n",
+       "                       date_time  actual country forecast forecast_error  \\\n",
+       "259   2017-12-13 00:00:00 3:00pm  <1.50%     USD   <1.50%       accurate   \n",
+       "852   2017-11-01 00:00:00 2:00pm  <1.25%     USD   <1.25%       accurate   \n",
+       "1369  2017-09-20 00:00:00 2:00pm  <1.25%     USD   <1.25%       accurate   \n",
+       "2044  2017-07-26 00:00:00 2:00pm  <1.25%     USD   <1.25%       accurate   \n",
+       "2536  2017-06-14 00:00:00 2:00pm  <1.25%     USD   <1.25%       accurate   \n",
+       "3081  2017-05-03 00:00:00 2:00pm  <1.00%     USD   <1.00%       accurate   \n",
+       "3706  2017-03-15 00:00:00 2:00pm  <1.00%     USD   <1.00%       accurate   \n",
+       "4277  2017-02-01 00:00:00 3:00pm  <0.75%     USD   <0.75%       accurate   \n",
        "\n",
-       "                         new previous previous_error  \n",
-       "119   CB Consumer Confidence    134.7         better  \n",
-       "477   CB Consumer Confidence    127.9         better  \n",
-       "800   CB Consumer Confidence    127.1         better  \n",
-       "1181  CB Consumer Confidence    128.8         better  \n",
-       "1531  CB Consumer Confidence    125.6          worse  \n",
-       "2027  CB Consumer Confidence    127.0          worse  \n",
-       "2356  CB Consumer Confidence    130.0          worse  \n",
-       "2713  CB Consumer Confidence    124.3          worse  \n",
-       "3080  CB Consumer Confidence    123.1         better  "
+       "      impact                 new previous previous_error  \n",
+       "259     High  Federal Funds Rate   <1.25%       accurate  \n",
+       "852   Medium  Federal Funds Rate   <1.25%       accurate  \n",
+       "1369    High  Federal Funds Rate   <1.25%       accurate  \n",
+       "2044  Medium  Federal Funds Rate   <1.25%       accurate  \n",
+       "2536    High  Federal Funds Rate   <1.00%       accurate  \n",
+       "3081    High  Federal Funds Rate   <1.00%       accurate  \n",
+       "3706    High  Federal Funds Rate   <0.75%       accurate  \n",
+       "4277    High  Federal Funds Rate   <0.75%       accurate  "
       ]
      },
-     "execution_count": 260,
+     "execution_count": 55,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "ff_2018_USA[ff_2018_USA['new'] == 'CB Consumer Confidence']"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Interesting.... The news might have a different impact degree depending on the month !"
+    "ff_2017_USA[ff_2017_USA['new'] == 'Federal Funds Rate']"
    ]
   },
   {
@@ -842,38 +1108,38 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 261,
+   "execution_count": 26,
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
        "forecast_error\n",
-       "accurate    222\n",
-       "better      219\n",
-       "worse       214\n",
+       "accurate    307\n",
+       "better      294\n",
+       "worse       287\n",
        "Name: impact, dtype: int64"
       ]
      },
-     "execution_count": 261,
+     "execution_count": 26,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "ff_2018_USA.groupby('forecast_error').impact.count()"
+    "ff_2017_USA.groupby('forecast_error').impact.count()"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Cool, >60% forexfactory.com publishes non-accurate forecasts !"
+    "Cool, forexfactory.com publishes non-accurate forecasts around 2/3 of the times !"
    ]
   },
   {
    "cell_type": "code",
-   "execution_count": 262,
+   "execution_count": 27,
    "metadata": {},
    "outputs": [
     {
@@ -909,14 +1175,14 @@
        "      <td>High</td>\n",
        "      <td>ADP Non-Farm Employment Change</td>\n",
        "      <td>accurate</td>\n",
-       "      <td>1</td>\n",
+       "      <td>3</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>1</th>\n",
        "      <td>High</td>\n",
        "      <td>ADP Non-Farm Employment Change</td>\n",
        "      <td>better</td>\n",
-       "      <td>4</td>\n",
+       "      <td>7</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>2</th>\n",
@@ -930,7 +1196,7 @@
        "      <td>High</td>\n",
        "      <td>Advance GDP q/q</td>\n",
        "      <td>better</td>\n",
-       "      <td>1</td>\n",
+       "      <td>2</td>\n",
        "    </tr>\n",
        "    <tr>\n",
        "      <th>4</th>\n",
@@ -945,21 +1211,41 @@
       ],
       "text/plain": [
        "  impact                             new forecast_error  previous\n",
-       "0   High  ADP Non-Farm Employment Change       accurate         1\n",
-       "1   High  ADP Non-Farm Employment Change         better         4\n",
+       "0   High  ADP Non-Farm Employment Change       accurate         3\n",
+       "1   High  ADP Non-Farm Employment Change         better         7\n",
        "2   High  ADP Non-Farm Employment Change          worse         3\n",
-       "3   High                 Advance GDP q/q         better         1\n",
+       "3   High                 Advance GDP q/q         better         2\n",
        "4   High                 Advance GDP q/q          worse         2"
       ]
      },
-     "execution_count": 262,
+     "execution_count": 27,
      "metadata": {},
      "output_type": "execute_result"
     }
    ],
    "source": [
-    "ff_2018_summary = ff_2018_USA.groupby(['impact', 'new', 'forecast_error']).previous.count().reset_index()\n",
-    "ff_2018_summary.head()"
+    "ff_2017_summary = ff_2017_USA.groupby(['impact', 'new', 'forecast_error']).previous.count().reset_index()\n",
+    "ff_2017_summary.head()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "197"
+      ]
+     },
+     "execution_count": 28,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "len(ff_2017_summary)"
    ]
   },
   {

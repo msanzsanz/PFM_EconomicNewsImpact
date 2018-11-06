@@ -6,3 +6,6 @@ Oct,14,3,refresh LM notes from class
 Oct,14,2,exploratory analysis on forexfactory
 Oct,15,1,dealing with dates and DST on data got from forexfactory
 Oct,18,1,dealing with dates and DST on data got from forexfactory
+Nov,3,3,bug in forex factory solved + data curation script
+Nov,4,9,fix issues in the ff scrapper + data curation for ff + DTS understanding
+Nov,5,4,data curation for forexite
