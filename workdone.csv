@@ -9,3 +9,4 @@ Oct,18,1,dealing with dates and DST on data got from forexfactory
 Nov,3,3,bug in forex factory solved + data curation script
 Nov,4,9,fix issues in the ff scrapper + data curation for ff + DTS understanding
 Nov,5,4,data curation for forexite
+Nov,6,9,feature extraction

@@ -93,68 +93,131 @@ def apply_dts_flag(row):
     return row['datetime'] + pd.DateOffset(hours=row['dts_flag'])
 
 
-
 def group_forexite_by_freq(df_pair, frequency='5Min'):
-    # We need to add a column with the UTC datetime, so that we can join the rate exchange with news publication
+    # We need to add a column with the GMT datetime, so that we can join the rate exchange with news publication
     df_pair['datetime'] = df_pair['<DTYYYYMMDD>'] + df_pair['<TIME>']
-    df_pair['datetime_utc'] = pd.to_datetime(df_pair['datetime'], format='%Y%m%d%H%M%S', errors='raise', utc=True)
-    df_pair = df_pair.set_index('datetime_utc')
+    df_pair['datetime_gmt'] = pd.to_datetime(df_pair['datetime'], format='%Y%m%d%H%M%S', errors='raise')
+    df_pair['datetime_gmt'] = df_pair['datetime_gmt'].dt.tz_localize('GMT').dt.tz_convert('GMT')
+    df_pair = df_pair.set_index('datetime_gmt')
 
     # Remove undesired columns
     df_pair = df_pair.drop(['<DTYYYYMMDD>', '<TIME>', '<VOL>', 'datetime'], axis=1)
     df_pair.columns = ['pair', 'open', 'high', 'low', 'close']
 
     # Group by 5-min window size
-    df_pair = df_pair.groupby(pd.Grouper(freq=frequency)).agg(
+    # IMP: it´s needed to specify the variable "closed". Otherwise, the group is not taking into account the last min
+    df_pair = df_pair.groupby(pd.Grouper(freq=frequency, closed='right', label='left')).agg(
         {'open': 'first', 'high': 'max', 'low': 'min', 'close': 'last'})
 
     # GroupBy could have created some nan rows if data from forexite contains windows GAPS
     df_pair = df_pair.dropna()
 
-    # Create features of interest
-    for field in ['high', 'low']:
+    # Replace strings by int so that we can compute pips
+    for field in ['high', 'low', 'close']:
         df_pair[field] = df_pair[field].apply(lambda x: format(x, '.4f'))
         df_pair[field] = df_pair[field].str.replace('.', '')
         df_pair[field] = df_pair[field].astype(int)
 
-    df_pair['volatility'] = abs(df_pair['high'] - df_pair['low'])
-    df_pair['direction'] = np.where(df_pair['close'] > df_pair['open'], 'up', 'down')
-
-    # Drop undesired columns to join
-    df_pair = df_pair.drop(['low', 'high'], axis=1)
-
     return df_pair
 
 
-def fe_joined_with_forexite(df_features, df_pair, snapshots):
+def fe_joined_with_forexite(df_features, df_pair, snapshots, freq=5):
     try:
 
         # Expand the forexfactory dataframe with as many snapshots as requested
+        last_column_name = '_released'
+        df_features[last_column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=freq)
+        df_features = df_features.set_index(last_column_name).join(df_pair)
+        df_features = df_features.reset_index(drop=True)
+        df_features.rename({'open': 'open' + last_column_name, \
+                            'high': 'high' + last_column_name, \
+                            'low': 'low' + last_column_name, \
+                            'close': 'close' + last_column_name}, axis='columns', inplace='True')
+
         for snapshot in snapshots:
-            column_name = 'after_' + str(snapshot)
-            df_features[column_name] = df_features['datetime_utc'] + pd.DateOffset(minutes=snapshot)
+            column_name = '_' + str(snapshot)
+            df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=snapshot - freq)
             df_features = df_features.set_index(column_name).join(df_pair)
             df_features = df_features.reset_index(drop=True)
-            
 
+            df_features['volatility'] = abs(df_features['high'] - df_features['low'])
+            df_features['direction'] = np.where(df_features['close'] > df_features['close' + last_column_name], 'up',
+                                                'down')
+            df_features['pips_diff'] = abs(df_features['close_released'] - df_features['close'])
 
-            df_features = df_features.rename({'open': 'open_' + str(snapshot), \
-                                              'close': 'close_' + str(snapshot), \
-                                              'volatility': 'volatility_' + str(snapshot), \
-                                              'direction': 'direction_' + str(snapshot)}, axis='columns')
+            # Drop undesired columns to join
+            df_features = df_features.drop(['low', 'high', 'open'], axis=1)
+
+            df_features.rename({'close': 'close' + column_name, \
+                                'volatility': 'volatility' + column_name, \
+                                'direction': 'direction' + column_name, \
+                                'pips_diff': 'pips_diff' + column_name}, \
+                               inplace=True, axis='columns')
+
+            last_column_name = column_name
 
         # Some news are not published on the o´clock time (i.e. neither 2:00 nor 2:30, but 1:59)
         # These are corner cases and occur < 3% of the times on low-impact news, so we are going to remove them for now.
         logging.info(
             'Unable to get currency values for {} of the news'.format(len(df_features[df_features.isnull().any(1)])))
         logging.info(df_features[df_features.isnull().any(1)].values)
-        df_features.dropna(inplace=True)
+        df_features = df_features.dropna()
 
         return df_features
 
     except BaseException as e:
         logging.error('Error while extracting features from the currency pair')
-        logging.error('exception: {}'.format(e.message))
+        logging.error('exception: {}'.format(e))
+        return pd.DataFrame()
+
+
+def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq=5):
+    try:
+
+        # Expand the forexfactory dataframe with as many snapshots as requested
+        last_column_name = '_released'
+        df_features[last_column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=freq)
+        df_features = df_features.set_index(last_column_name).join(df_pair)
+        df_features = df_features.reset_index(drop=True)
+        df_features.rename({'open': 'open' + last_column_name, \
+                            'high': 'high' + last_column_name, \
+                            'low': 'low' + last_column_name, \
+                            'close': 'close' + last_column_name}, axis='columns', inplace='True')
+
+        # Some news are not published on the o´clock time (i.e. neither 2:00 nor 2:30, but 1:59)
+        # These are corner cases and occur < 3% of the times on low-impact news, so we are going to remove them for now.
+        logging.info(
+            'Unable to get currency values for {} of the news'.format(len(df_features[df_features.isnull().any(1)])))
+        logging.info(df_features[df_features.isnull().any(1)].values)
+        df_features = df_features.dropna()
+
+        for snapshot in snapshots:
+            column_name = '_' + str(snapshot)
+            df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=snapshot-freq)
+            df_features = df_features.set_index(column_name).join(df_pair)
+            df_features = df_features.reset_index(drop=True)
+
+            df_features['volatility'] = abs(df_features['high'] - df_features['low'])
+            df_features['direction'] = np.where(df_features['close'] > df_features['close' + last_column_name], 'up',
+                                                'down')
+            df_features['pips_diff'] = abs(df_features['close_released'] - df_features['close'])
+
+            # Drop undesired columns to join
+            df_features = df_features.drop(['low', 'high', 'open'], axis=1)
+
+            df_features.rename({'close': 'close' + column_name, \
+                                'volatility': 'volatility' + column_name, \
+                                'direction': 'direction' + column_name, \
+                                'pips_diff': 'pips_diff' + column_name}, \
+                               inplace=True, axis='columns')
+
+            last_column_name = column_name
+
+        return df_features
+
+    except BaseException as e:
+        logging.error('Error while extracting features from the currency pair')
+        logging.error('exception: {}'.format(e))
         return pd.DataFrame()
 
 
@@ -181,7 +244,7 @@ def fe_forexfactory(year, df, currency):
         # We do that in 2 steps. First, compute dst flag. Second, add +1h whenever the flag is set to 1.
         df['dts_flag'] = add_dts_flag(df)
         df['datetime'] = df.apply(apply_dts_flag, axis=1)
-        df['datetime_utc'] = df['datetime'].dt.tz_localize('US/Eastern').dt.tz_convert('UTC')
+        df['datetime_gmt'] = df['datetime'].dt.tz_localize('US/Eastern').dt.tz_convert('GMT')
 
         # Compute the error, in %, between actual values and forecasted
         df['forecast_error_ratio'] = df.apply(compute_diff, axis=1)
@@ -210,6 +273,23 @@ def fe_forexfactory(year, df, currency):
         return pd.DataFrame()
 
 
+def read_df_dukascopy(filename):
+    df_pair = pd.read_csv(filename, header=0, sep=',')
+    df_pair.columns = ['datetime_gmt', 'open', 'high', 'low', 'close', 'volume']
+    df_pair['datetime_gmt'] = pd.to_datetime(df_pair['datetime_gmt'], format='%d.%m.%Y %H:%M:%S.000', errors='raise')
+    df_pair['datetime_gmt'] = df_pair['datetime_gmt'].dt.tz_localize('GMT')
+    df_pair = df_pair.set_index('datetime_gmt')
+    df_pair = df_pair.drop('volume', axis=1)
+
+    # Replace strings by int so that we can compute pips
+    for field in ['high', 'low', 'close']:
+        df_pair[field] = df_pair[field].apply(lambda x: format(x, '.4f'))
+        df_pair[field] = df_pair[field].str.replace('.', '')
+        df_pair[field] = df_pair[field].astype(int)
+
+    return df_pair
+
+
 if __name__ == '__main__':
     '''
     Run this using the command 'python `script_name`.py 
@@ -232,11 +312,13 @@ if __name__ == '__main__':
 
     all_years_df = pd.DataFrame([])
 
-    # Read the dataframe as scrapped from forexite. Just one file for all years
-    pair_file = currency_pair + '.txt.zip'
-    df_pair = pd.read_csv(input_path + pair_file, compression='zip', header=0, sep=',', \
-                          dtype={'<DTYYYYMMDD>': 'str', '<TIME>': 'str'})
-    df_pair = group_forexite_by_freq(df_pair)
+    # Read the dataframe from dukascopy. Just one file for all years
+    df_pair = read_df_dukascopy(input_path + currency_pair + '.zip')
+
+    # pair_file = currency_pair + '.txt.zip'
+    # df_pair = pd.read_csv(input_path + pair_file, compression='zip', header=0, sep=',', \
+    #                      dtype={'<DTYYYYMMDD>': 'str', '<TIME>': 'str'})
+    # df_pair = group_forexite_by_freq(df_pair)
 
     # Merge features
     for year in range(year_start, year_end + 1):
@@ -249,16 +331,17 @@ if __name__ == '__main__':
 
         # Feature extraction from forexfactory data
         df_features = fe_forexfactory(year, df_ff, currency_news)
-        df_features.to_csv(output_path + csv_prefix_ff + str(year) + '_curated.csv')
+        df_features.to_csv(output_path + csv_prefix_ff + str(year) + '_curated.csv', index=False)
 
         if len(df_features) != 0:
 
             # Feature extraction from the pair exchange value
-            df_features = fe_joined_with_forexite(df_features, df_pair, snapshots)
+            df_features = fe_joined_with_dukascopy(df_features, df_pair, snapshots)
             if len(df_features) != 0:
 
                 # Save processed dataframe to disk
-                df_features.to_csv(output_path + csv_prefix_out + '_' + str(year) + '.csv')
+                #df_features = df_features.convert_objects(convert_numeric=True)
+                df_features.to_csv(output_path + csv_prefix_out + '_' + str(year) + '.csv', index=False)
                 all_years_df = all_years_df.append(df_features)
 
             else:
@@ -269,6 +352,8 @@ if __name__ == '__main__':
 
         logging.info('Processed year: {} for news from: {} in the pair: {}'.format(year, currency_news, currency_pair))
 
-        all_years_df.to_csv(output_path + csv_prefix_out + '_' + str(year_start) + '_' + str(year_end) + '.csv')
 
-        logging.info('End')
+        all_years_df.to_csv(output_path + csv_prefix_out + '_' + str(year_start) + '_' + str(year_end) + '.csv',
+                            index=False)
+
+    logging.info('End')

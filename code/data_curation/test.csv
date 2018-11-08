@@ -1,4 +1,4 @@
-,index,actual,country,datetime,forecast,forecast_error,impact,new,previous,previous_error,week,dst_flag,datetime_utc,open,high,low,close
+,index,actual,country,datetime,forecast,forecast_error,impact,new,previous,previous_error,week,dst_flag,datetime_gmt,open,high,low,close
 0,2017-01-03 14:50:00+00:00,54.3,USD,2017-01-03 09:45:00,54.2,accurate,Low,Final Manufacturing PMI,54.2,accurate,1,0,2017-01-03 14:45:00+00:00,1.0383,1.0387,1.0383,1.0386
 1,2017-01-03 15:05:00+00:00,54.7,USD,2017-01-03 10:00:00,53.7,better,High,ISM Manufacturing PMI,53.2,accurate,1,0,2017-01-03 15:00:00+00:00,1.0388,1.0388,1.0385,1.0386
 2,2017-01-03 15:05:00+00:00,0.9%,USD,2017-01-03 10:00:00,0.5%,better,Low,Construction Spending m/m,0.6%,accurate,1,0,2017-01-03 15:00:00+00:00,1.0388,1.0388,1.0385,1.0386

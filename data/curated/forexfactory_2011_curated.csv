@@ -1,0 +1,789 @@
+actual,country,datetime,forecast,forecast_error,impact,new,previous,previous_error,week,datetime_gmt,forecast_error_ratio,year,quarter,month,day_name
+-3.4%,USD,2011-12-27 09:00:00,-3.2%,worse,Medium,S&P/CS Composite-20 HPI y/y,-3.5%,accurate,52,2011-12-27 14:00:00+00:00,-6.25,2011,4,12,Tuesday
+3,USD,2011-12-27 09:59:00,6,worse,Low,Richmond Manufacturing Index,0,accurate,52,2011-12-27 14:59:00+00:00,-50.0,2011,4,12,Tuesday
+64.5,USD,2011-12-27 10:00:00,58.5,better,High,CB Consumer Confidence,55.2,worse,52,2011-12-27 15:00:00+00:00,10.26,2011,4,12,Tuesday
+381K,USD,2011-12-29 08:30:00,372K,worse,High,Unemployment Claims,366K,accurate,52,2011-12-29 13:30:00+00:00,2.42,2011,4,12,Thursday
+62.5,USD,2011-12-29 09:45:00,60.4,better,Medium,Chicago PMI,62.6,accurate,52,2011-12-29 14:45:00+00:00,3.48,2011,4,12,Thursday
+7.3%,USD,2011-12-29 10:00:00,1.7%,better,High,Pending Home Sales m/m,10.4%,accurate,52,2011-12-29 15:00:00+00:00,329.41,2011,4,12,Thursday
+-81B,USD,2011-12-29 10:30:00,-88B,accurate,Low,Natural Gas Storage,-100B,accurate,52,2011-12-29 15:30:00+00:00,7.95,2011,4,12,Thursday
+3.9M,USD,2011-12-29 11:00:00,-2.9M,accurate,Medium,Crude Oil Inventories,-10.6M,accurate,52,2011-12-29 16:00:00+00:00,234.48,2011,4,12,Thursday
+21,USD,2011-12-19 10:00:00,21,accurate,Low,NAHB Housing Market Index,19,worse,51,2011-12-19 15:00:00+00:00,0.0,2011,4,12,Monday
+0.68M,USD,2011-12-20 08:30:00,0.63M,better,High,Building Permits,0.64M,accurate,51,2011-12-20 13:30:00+00:00,7.94,2011,4,12,Tuesday
+0.69M,USD,2011-12-20 08:30:00,0.64M,better,Medium,Housing Starts,0.63M,accurate,51,2011-12-20 13:30:00+00:00,7.81,2011,4,12,Tuesday
+4.42M,USD,2011-12-21 10:00:00,5.04M,worse,High,Existing Home Sales,4.25M,worse,51,2011-12-21 15:00:00+00:00,-12.3,2011,4,12,Wednesday
+-10.6M,USD,2011-12-21 10:30:00,-2.8M,accurate,Medium,Crude Oil Inventories,-1.9M,accurate,51,2011-12-21 15:30:00+00:00,-278.57,2011,4,12,Wednesday
+364K,USD,2011-12-22 08:30:00,376K,better,High,Unemployment Claims,368K,accurate,51,2011-12-22 13:30:00+00:00,-3.19,2011,4,12,Thursday
+1.8%,USD,2011-12-22 08:30:00,2.0%,worse,Medium,Final GDP q/q,2.0%,accurate,51,2011-12-22 13:30:00+00:00,-10.0,2011,4,12,Thursday
+2.6%,USD,2011-12-22 08:30:00,2.5%,accurate,Low,Final GDP Price Index q/q,2.5%,accurate,51,2011-12-22 13:30:00+00:00,4.0,2011,4,12,Thursday
+69.9,USD,2011-12-22 09:55:00,68.1,better,Medium,Revised UoM Consumer Sentiment,67.7,accurate,51,2011-12-22 14:55:00+00:00,2.64,2011,4,12,Thursday
+0.5%,USD,2011-12-22 10:00:00,0.3%,better,Low,CB Leading Index m/m,0.9%,accurate,51,2011-12-22 15:00:00+00:00,66.67,2011,4,12,Thursday
+-0.2%,USD,2011-12-22 10:00:00,0.3%,worse,Low,HPI m/m,0.4%,worse,51,2011-12-22 15:00:00+00:00,-166.67,2011,4,12,Thursday
+-100B,USD,2011-12-22 10:30:00,-103B,accurate,Low,Natural Gas Storage,-102B,accurate,51,2011-12-22 15:30:00+00:00,2.91,2011,4,12,Thursday
+0.3%,USD,2011-12-23 08:30:00,0.5%,worse,High,Core Durable Goods Orders m/m,1.5%,better,51,2011-12-23 13:30:00+00:00,-40.0,2011,4,12,Friday
+0.1%,USD,2011-12-23 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,51,2011-12-23 13:30:00+00:00,0.0,2011,4,12,Friday
+3.8%,USD,2011-12-23 08:30:00,2.2%,better,Medium,Durable Goods Orders m/m,0.0%,better,51,2011-12-23 13:30:00+00:00,72.73,2011,4,12,Friday
+0.1%,USD,2011-12-23 08:30:00,0.3%,worse,Medium,Personal Spending m/m,0.1%,accurate,51,2011-12-23 13:30:00+00:00,-66.67,2011,4,12,Friday
+0.1%,USD,2011-12-23 08:30:00,0.3%,worse,Low,Personal Income m/m,0.4%,accurate,51,2011-12-23 13:30:00+00:00,-66.67,2011,4,12,Friday
+315K,USD,2011-12-23 10:00:00,314K,accurate,High,New Home Sales,310K,better,51,2011-12-23 15:00:00+00:00,0.32,2011,4,12,Friday
+-137.3B,USD,2011-12-12 14:00:00,-138.5B,accurate,Medium,Federal Budget Balance,-98.5B,accurate,50,2011-12-12 19:00:00+00:00,0.87,2011,4,12,Monday
+92.0,USD,2011-12-13 07:30:00,91.6,accurate,Low,NFIB Small Business Index,90.2,accurate,50,2011-12-13 12:30:00+00:00,0.44,2011,4,12,Tuesday
+0.2%,USD,2011-12-13 08:30:00,0.5%,worse,High,Core Retail Sales m/m,0.6%,accurate,50,2011-12-13 13:30:00+00:00,-60.0,2011,4,12,Tuesday
+0.2%,USD,2011-12-13 08:30:00,0.6%,worse,High,Retail Sales m/m,0.6%,better,50,2011-12-13 13:30:00+00:00,-66.67,2011,4,12,Tuesday
+0.8%,USD,2011-12-13 10:00:00,0.7%,worse,Medium,Business Inventories m/m,0.0%,accurate,50,2011-12-13 15:00:00+00:00,14.29,2011,4,12,Tuesday
+42.8,USD,2011-12-13 10:00:00,42.5,accurate,Low,IBD/TIPP Economic Optimism,40.6,accurate,50,2011-12-13 15:00:00+00:00,0.71,2011,4,12,Tuesday
+<0.25%,USD,2011-12-13 14:13:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,50,2011-12-13 19:13:00+00:00,0.0,2011,4,12,Tuesday
+0.7%,USD,2011-12-14 08:30:00,1.0%,worse,Medium,Import Prices m/m,-0.5%,accurate,50,2011-12-14 13:30:00+00:00,-30.0,2011,4,12,Wednesday
+-1.9M,USD,2011-12-14 10:30:00,-2.2M,accurate,Medium,Crude Oil Inventories,1.3M,accurate,50,2011-12-14 15:30:00+00:00,13.64,2011,4,12,Wednesday
+0.3%,USD,2011-12-15 08:30:00,0.3%,accurate,High,PPI m/m,-0.3%,accurate,50,2011-12-15 13:30:00+00:00,0.0,2011,4,12,Thursday
+366K,USD,2011-12-15 08:30:00,389K,better,High,Unemployment Claims,385K,accurate,50,2011-12-15 13:30:00+00:00,-5.91,2011,4,12,Thursday
+0.1%,USD,2011-12-15 08:30:00,0.2%,worse,Medium,Core PPI m/m,0.0%,accurate,50,2011-12-15 13:30:00+00:00,-50.0,2011,4,12,Thursday
+-110B,USD,2011-12-15 08:30:00,-108B,accurate,Medium,Current Account,-125B,worse,50,2011-12-15 13:30:00+00:00,-1.85,2011,4,12,Thursday
+9.5,USD,2011-12-15 08:30:00,3.1,better,Medium,Empire State Manufacturing Index,0.6,accurate,50,2011-12-15 13:30:00+00:00,206.45,2011,4,12,Thursday
+4.8B,USD,2011-12-15 09:00:00,53.4B,worse,High,TIC Long-Term Purchases,68.3B,accurate,50,2011-12-15 14:00:00+00:00,-91.01,2011,4,12,Thursday
+77.8%,USD,2011-12-15 09:15:00,77.9%,accurate,Medium,Capacity Utilization Rate,78.0%,better,50,2011-12-15 14:15:00+00:00,-0.13,2011,4,12,Thursday
+-0.2%,USD,2011-12-15 09:15:00,0.3%,worse,Medium,Industrial Production m/m,0.7%,accurate,50,2011-12-15 14:15:00+00:00,-166.67,2011,4,12,Thursday
+10.3,USD,2011-12-15 10:00:00,5.1,better,High,Philly Fed Manufacturing Index,3.6,accurate,50,2011-12-15 15:00:00+00:00,101.96,2011,4,12,Thursday
+-102B,USD,2011-12-15 10:30:00,-89B,accurate,Low,Natural Gas Storage,-20B,accurate,50,2011-12-15 15:30:00+00:00,-14.61,2011,4,12,Thursday
+0.2%,USD,2011-12-16 08:30:00,0.1%,better,High,Core CPI m/m,0.1%,accurate,50,2011-12-16 13:30:00+00:00,100.0,2011,4,12,Friday
+0.0%,USD,2011-12-16 08:30:00,0.1%,worse,Medium,CPI m/m,-0.1%,accurate,50,2011-12-16 13:30:00+00:00,-100.0,2011,4,12,Friday
+52.0,USD,2011-12-05 10:00:00,53.6,worse,High,ISM Non-Manufacturing PMI,52.9,accurate,49,2011-12-05 15:00:00+00:00,-2.99,2011,4,12,Monday
+-0.4%,USD,2011-12-05 10:00:00,-0.2%,worse,Medium,Factory Orders m/m,-0.1%,worse,49,2011-12-05 15:00:00+00:00,-100.0,2011,4,12,Monday
+1.3M,USD,2011-12-07 10:30:00,-0.8M,accurate,Medium,Crude Oil Inventories,3.9M,accurate,49,2011-12-07 15:30:00+00:00,262.5,2011,4,12,Wednesday
+7.6B,USD,2011-12-07 15:00:00,7.0B,better,Low,Consumer Credit m/m,6.9B,worse,49,2011-12-07 20:00:00+00:00,8.57,2011,4,12,Wednesday
+381K,USD,2011-12-08 08:30:00,397K,better,High,Unemployment Claims,404K,accurate,49,2011-12-08 13:30:00+00:00,-4.03,2011,4,12,Thursday
+1.6%,USD,2011-12-08 10:00:00,0.4%,worse,Low,Final Wholesale Inventories m/m,0.0%,worse,49,2011-12-08 15:00:00+00:00,300.0,2011,4,12,Thursday
+-20B,USD,2011-12-08 10:30:00,-10B,accurate,Low,Natural Gas Storage,-1B,accurate,49,2011-12-08 15:30:00+00:00,-100.0,2011,4,12,Thursday
+-43.5B,USD,2011-12-09 08:30:00,-43.5B,accurate,High,Trade Balance,-44.2B,worse,49,2011-12-09 13:30:00+00:00,0.0,2011,4,12,Friday
+67.7,USD,2011-12-09 09:55:00,65.6,better,High,Prelim UoM Consumer Sentiment,64.1,accurate,49,2011-12-09 14:55:00+00:00,3.2,2011,4,12,Friday
+307K,USD,2011-11-28 10:00:00,313K,worse,High,New Home Sales,303K,worse,48,2011-11-28 15:00:00+00:00,-1.92,2011,4,11,Monday
+-3.6%,USD,2011-11-29 09:00:00,-3.0%,worse,Medium,S&P/CS Composite-20 HPI y/y,-3.8%,accurate,48,2011-11-29 14:00:00+00:00,-20.0,2011,4,11,Tuesday
+56.0,USD,2011-11-29 10:00:00,43.9,better,High,CB Consumer Confidence,40.9,better,48,2011-11-29 15:00:00+00:00,27.56,2011,4,11,Tuesday
+0.9%,USD,2011-11-29 10:00:00,0.1%,better,Low,HPI m/m,-0.2%,worse,48,2011-11-29 15:00:00+00:00,800.0,2011,4,11,Tuesday
+206K,USD,2011-11-30 08:15:00,131K,better,High,ADP Non-Farm Employment Change,130K,better,48,2011-11-30 13:15:00+00:00,57.25,2011,4,11,Wednesday
+2.3%,USD,2011-11-30 08:30:00,2.6%,better,Medium,Revised Nonfarm Productivity q/q,3.1%,accurate,48,2011-11-30 13:30:00+00:00,-11.54,2011,4,11,Wednesday
+-2.5%,USD,2011-11-30 08:30:00,-2.1%,worse,Low,Revised Unit Labor Costs q/q,-2.4%,accurate,48,2011-11-30 13:30:00+00:00,-19.05,2011,4,11,Wednesday
+62.6,USD,2011-11-30 09:45:00,58.5,better,Medium,Chicago PMI,58.4,accurate,48,2011-11-30 14:45:00+00:00,7.01,2011,4,11,Wednesday
+10.4%,USD,2011-11-30 10:00:00,1.4%,better,High,Pending Home Sales m/m,-4.6%,accurate,48,2011-11-30 15:00:00+00:00,642.86,2011,4,11,Wednesday
+3.9M,USD,2011-11-30 10:30:00,-0.2M,accurate,Medium,Crude Oil Inventories,-6.2M,accurate,48,2011-11-30 15:30:00+00:00,2050.0,2011,4,11,Wednesday
+402K,USD,2011-12-01 08:30:00,390K,worse,High,Unemployment Claims,396K,accurate,48,2011-12-01 13:30:00+00:00,3.08,2011,4,12,Thursday
+52.7,USD,2011-12-01 10:00:00,51.6,better,High,ISM Manufacturing PMI,50.8,accurate,48,2011-12-01 15:00:00+00:00,2.13,2011,4,12,Thursday
+0.8%,USD,2011-12-01 10:00:00,0.4%,better,Low,Construction Spending m/m,0.2%,accurate,48,2011-12-01 15:00:00+00:00,100.0,2011,4,12,Thursday
+45.0,USD,2011-12-01 10:00:00,45.2,accurate,Low,ISM Manufacturing Prices,41.0,accurate,48,2011-12-01 15:00:00+00:00,-0.44,2011,4,12,Thursday
+-1B,USD,2011-12-01 10:30:00,11B,accurate,Low,Natural Gas Storage,9B,accurate,48,2011-12-01 15:30:00+00:00,-109.09,2011,4,12,Thursday
+13.6M,USD,2011-12-01 00:00:00,13.4M,better,Low,Total Vehicle Sales,13.3M,accurate,48,2011-12-01 05:00:00+00:00,1.49,2011,4,12,Thursday
+120K,USD,2011-12-02 08:30:00,126K,accurate,High,Non-Farm Employment Change,100K,better,48,2011-12-02 13:30:00+00:00,-4.76,2011,4,12,Friday
+8.6%,USD,2011-12-02 08:30:00,9.0%,better,High,Unemployment Rate,9.0%,accurate,48,2011-12-02 13:30:00+00:00,-4.44,2011,4,12,Friday
+-0.1%,USD,2011-12-02 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.3%,better,48,2011-12-02 13:30:00+00:00,-150.0,2011,4,12,Friday
+4.97M,USD,2011-11-21 10:00:00,4.82M,better,High,Existing Home Sales,4.90M,accurate,47,2011-11-21 15:00:00+00:00,3.11,2011,4,11,Monday
+2.0%,USD,2011-11-22 08:30:00,2.4%,worse,High,Prelim GDP q/q,2.5%,accurate,47,2011-11-22 13:30:00+00:00,-16.67,2011,4,11,Tuesday
+2.5%,USD,2011-11-22 08:30:00,2.5%,accurate,Low,Prelim GDP Price Index q/q,2.5%,accurate,47,2011-11-22 13:30:00+00:00,0.0,2011,4,11,Tuesday
+0,USD,2011-11-22 09:59:00,-2,better,Low,Richmond Manufacturing Index,-6,accurate,47,2011-11-22 14:59:00+00:00,100.0,2011,4,11,Tuesday
+0.7%,USD,2011-11-23 08:30:00,0.1%,better,High,Core Durable Goods Orders m/m,0.6%,worse,47,2011-11-23 13:30:00+00:00,600.0,2011,4,11,Wednesday
+393K,USD,2011-11-23 08:30:00,389K,accurate,High,Unemployment Claims,391K,accurate,47,2011-11-23 13:30:00+00:00,1.03,2011,4,11,Wednesday
+0.1%,USD,2011-11-23 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.0%,accurate,47,2011-11-23 13:30:00+00:00,0.0,2011,4,11,Wednesday
+-0.7%,USD,2011-11-23 08:30:00,-1.1%,better,Medium,Durable Goods Orders m/m,-1.5%,worse,47,2011-11-23 13:30:00+00:00,36.36,2011,4,11,Wednesday
+0.1%,USD,2011-11-23 08:30:00,0.4%,worse,Medium,Personal Spending m/m,0.7%,better,47,2011-11-23 13:30:00+00:00,-75.0,2011,4,11,Wednesday
+0.4%,USD,2011-11-23 08:30:00,0.3%,better,Low,Personal Income m/m,0.1%,accurate,47,2011-11-23 13:30:00+00:00,33.33,2011,4,11,Wednesday
+64.1,USD,2011-11-23 09:55:00,64.6,accurate,Medium,Revised UoM Consumer Sentiment,64.2,accurate,47,2011-11-23 14:55:00+00:00,-0.77,2011,4,11,Wednesday
+-6.2M,USD,2011-11-23 10:30:00,-0.3M,accurate,Medium,Crude Oil Inventories,-1.1M,accurate,47,2011-11-23 15:30:00+00:00,-1966.67,2011,4,11,Wednesday
+9B,USD,2011-11-23 12:00:00,17B,accurate,Low,Natural Gas Storage,19B,accurate,47,2011-11-23 17:00:00+00:00,-47.06,2011,4,11,Wednesday
+0.6%,USD,2011-11-15 08:30:00,0.2%,better,High,Core Retail Sales m/m,0.5%,worse,46,2011-11-15 13:30:00+00:00,200.0,2011,4,11,Tuesday
+-0.3%,USD,2011-11-15 08:30:00,-0.1%,worse,High,PPI m/m,0.8%,accurate,46,2011-11-15 13:30:00+00:00,-200.0,2011,4,11,Tuesday
+0.5%,USD,2011-11-15 08:30:00,0.3%,better,High,Retail Sales m/m,1.1%,accurate,46,2011-11-15 13:30:00+00:00,66.67,2011,4,11,Tuesday
+0.0%,USD,2011-11-15 08:30:00,0.1%,worse,Medium,Core PPI m/m,0.2%,accurate,46,2011-11-15 13:30:00+00:00,-100.0,2011,4,11,Tuesday
+0.6,USD,2011-11-15 08:30:00,-2.0,better,Medium,Empire State Manufacturing Index,-8.5,accurate,46,2011-11-15 13:30:00+00:00,130.0,2011,4,11,Tuesday
+0.0%,USD,2011-11-15 10:00:00,0.2%,better,Medium,Business Inventories m/m,0.4%,better,46,2011-11-15 15:00:00+00:00,-100.0,2011,4,11,Tuesday
+0.1%,USD,2011-11-16 08:30:00,0.1%,accurate,High,Core CPI m/m,0.1%,accurate,46,2011-11-16 13:30:00+00:00,0.0,2011,4,11,Wednesday
+-0.1%,USD,2011-11-16 08:30:00,0.0%,worse,Medium,CPI m/m,0.3%,accurate,46,2011-11-16 13:30:00+00:00,-100.0,2011,4,11,Wednesday
+68.6B,USD,2011-11-16 09:00:00,63.4B,better,High,TIC Long-Term Purchases,58.0B,accurate,46,2011-11-16 14:00:00+00:00,8.2,2011,4,11,Wednesday
+77.8%,USD,2011-11-16 09:15:00,77.6%,better,Medium,Capacity Utilization Rate,77.3%,accurate,46,2011-11-16 14:15:00+00:00,0.26,2011,4,11,Wednesday
+0.7%,USD,2011-11-16 09:15:00,0.4%,better,Medium,Industrial Production m/m,-0.1%,worse,46,2011-11-16 14:15:00+00:00,75.0,2011,4,11,Wednesday
+20,USD,2011-11-16 10:00:00,17,better,Low,NAHB Housing Market Index,17,worse,46,2011-11-16 15:00:00+00:00,17.65,2011,4,11,Wednesday
+-1.1M,USD,2011-11-16 10:30:00,-1.3M,accurate,Medium,Crude Oil Inventories,-1.4M,accurate,46,2011-11-16 15:30:00+00:00,15.38,2011,4,11,Wednesday
+0.65M,USD,2011-11-17 08:30:00,0.60M,better,High,Building Permits,0.59M,accurate,46,2011-11-17 13:30:00+00:00,8.33,2011,4,11,Thursday
+388K,USD,2011-11-17 08:30:00,396K,better,High,Unemployment Claims,393K,accurate,46,2011-11-17 13:30:00+00:00,-2.02,2011,4,11,Thursday
+0.63M,USD,2011-11-17 08:30:00,0.61M,accurate,Medium,Housing Starts,0.63M,worse,46,2011-11-17 13:30:00+00:00,3.28,2011,4,11,Thursday
+3.6,USD,2011-11-17 10:00:00,8.7,worse,High,Philly Fed Manufacturing Index,8.7,accurate,46,2011-11-17 15:00:00+00:00,-58.62,2011,4,11,Thursday
+19B,USD,2011-11-17 10:30:00,25B,accurate,Low,Natural Gas Storage,37B,accurate,46,2011-11-17 15:30:00+00:00,-24.0,2011,4,11,Thursday
+0.9%,USD,2011-11-18 10:00:00,0.5%,better,Low,CB Leading Index m/m,0.1%,worse,46,2011-11-18 15:00:00+00:00,80.0,2011,4,11,Friday
+7.4B,USD,2011-11-07 15:00:00,5.1B,better,Low,Consumer Credit m/m,-9.7B,accurate,45,2011-11-07 20:00:00+00:00,45.1,2011,4,11,Monday
+90.2,USD,2011-11-08 07:30:00,90.0,accurate,Low,NFIB Small Business Index,88.9,accurate,45,2011-11-08 12:30:00+00:00,0.22,2011,4,11,Tuesday
+40.6,USD,2011-11-08 10:00:00,42.5,worse,Low,IBD/TIPP Economic Optimism,40.3,accurate,45,2011-11-08 15:00:00+00:00,-4.47,2011,4,11,Tuesday
+-0.1%,USD,2011-11-09 10:00:00,0.5%,better,Low,Final Wholesale Inventories m/m,0.1%,better,45,2011-11-09 15:00:00+00:00,-120.0,2011,4,11,Wednesday
+-1.4M,USD,2011-11-09 10:30:00,0.7M,accurate,Medium,Crude Oil Inventories,1.8M,accurate,45,2011-11-09 15:30:00+00:00,-300.0,2011,4,11,Wednesday
+-43.1B,USD,2011-11-10 08:30:00,-46.1B,better,High,Trade Balance,-44.9B,accurate,45,2011-11-10 13:30:00+00:00,6.51,2011,4,11,Thursday
+390K,USD,2011-11-10 08:30:00,401K,better,High,Unemployment Claims,400K,accurate,45,2011-11-10 13:30:00+00:00,-2.74,2011,4,11,Thursday
+-0.6%,USD,2011-11-10 08:30:00,0.1%,worse,Medium,Import Prices m/m,0.0%,worse,45,2011-11-10 13:30:00+00:00,-700.0,2011,4,11,Thursday
+37B,USD,2011-11-10 10:30:00,31B,accurate,Low,Natural Gas Storage,78B,accurate,45,2011-11-10 15:30:00+00:00,19.35,2011,4,11,Thursday
+-98.5B,USD,2011-11-10 14:00:00,-107.5B,better,Medium,Federal Budget Balance,-61.5B,better,45,2011-11-10 19:00:00+00:00,8.37,2011,4,11,Thursday
+64.2,USD,2011-11-11 09:55:00,61.3,better,High,Prelim UoM Consumer Sentiment,60.9,better,45,2011-11-11 14:55:00+00:00,4.73,2011,4,11,Friday
+58.4,USD,2011-10-31 09:45:00,59.2,worse,Medium,Chicago PMI,60.4,accurate,44,2011-10-31 13:45:00+00:00,-1.35,2011,4,10,Monday
+50.8,USD,2011-11-01 10:00:00,52.1,worse,High,ISM Manufacturing PMI,51.6,accurate,44,2011-11-01 14:00:00+00:00,-2.5,2011,4,11,Tuesday
+0.2%,USD,2011-11-01 10:00:00,0.4%,accurate,Low,Construction Spending m/m,1.6%,accurate,44,2011-11-01 14:00:00+00:00,-50.0,2011,4,11,Tuesday
+41.0,USD,2011-11-01 10:00:00,55.1,worse,Low,ISM Manufacturing Prices,56.0,accurate,44,2011-11-01 14:00:00+00:00,-25.59,2011,4,11,Tuesday
+13.3M,USD,2011-11-01 01:00:00,13.1M,better,Low,Total Vehicle Sales,13.1M,accurate,44,2011-11-01 05:00:00+00:00,1.53,2011,4,11,Tuesday
+110K,USD,2011-11-02 08:15:00,102K,better,High,ADP Non-Farm Employment Change,116K,better,44,2011-11-02 12:15:00+00:00,7.84,2011,4,11,Wednesday
+1.8M,USD,2011-11-02 10:30:00,1.4M,accurate,Medium,Crude Oil Inventories,4.7M,accurate,44,2011-11-02 14:30:00+00:00,28.57,2011,4,11,Wednesday
+<0.25%,USD,2011-11-02 12:32:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,44,2011-11-02 16:32:00+00:00,0.0,2011,4,11,Wednesday
+397K,USD,2011-11-03 08:30:00,401K,accurate,High,Unemployment Claims,406K,accurate,44,2011-11-03 12:30:00+00:00,-1.0,2011,4,11,Thursday
+3.1%,USD,2011-11-03 08:30:00,2.6%,worse,Medium,Prelim Nonfarm Productivity q/q,-0.7%,better,44,2011-11-03 12:30:00+00:00,19.23,2011,4,11,Thursday
+-2.4%,USD,2011-11-03 08:30:00,-0.8%,worse,Medium,Prelim Unit Labor Costs q/q,3.3%,better,44,2011-11-03 12:30:00+00:00,-200.0,2011,4,11,Thursday
+52.9,USD,2011-11-03 10:00:00,53.7,worse,High,ISM Non-Manufacturing PMI,53.0,accurate,44,2011-11-03 14:00:00+00:00,-1.49,2011,4,11,Thursday
+0.3%,USD,2011-11-03 10:00:00,0.0%,better,Medium,Factory Orders m/m,0.1%,better,44,2011-11-03 14:00:00+00:00,300.0,2011,4,11,Thursday
+78B,USD,2011-11-03 10:30:00,71B,accurate,Low,Natural Gas Storage,92B,accurate,44,2011-11-03 14:30:00+00:00,9.86,2011,4,11,Thursday
+80K,USD,2011-11-04 08:30:00,97K,worse,High,Non-Farm Employment Change,158K,better,44,2011-11-04 12:30:00+00:00,-17.53,2011,4,11,Friday
+9.0%,USD,2011-11-04 08:30:00,9.1%,better,High,Unemployment Rate,9.1%,accurate,44,2011-11-04 12:30:00+00:00,-1.1,2011,4,11,Friday
+0.2%,USD,2011-11-04 08:30:00,0.2%,accurate,Medium,Average Hourly Earnings m/m,0.3%,better,44,2011-11-04 12:30:00+00:00,0.0,2011,4,11,Friday
+-3.8%,USD,2011-10-25 09:00:00,-3.6%,worse,Medium,S&P/CS Composite-20 HPI y/y,-4.2%,accurate,43,2011-10-25 13:00:00+00:00,-5.56,2011,4,10,Tuesday
+-6,USD,2011-10-25 09:59:00,2,worse,Low,Richmond Manufacturing Index,-6,accurate,43,2011-10-25 13:59:00+00:00,-400.0,2011,4,10,Tuesday
+39.8,USD,2011-10-25 10:00:00,46.1,worse,High,CB Consumer Confidence,46.4,better,43,2011-10-25 14:00:00+00:00,-13.67,2011,4,10,Tuesday
+-0.1%,USD,2011-10-25 10:00:00,0.1%,worse,Low,HPI m/m,0.0%,worse,43,2011-10-25 14:00:00+00:00,-200.0,2011,4,10,Tuesday
+1.7%,USD,2011-10-26 08:30:00,0.5%,better,High,Core Durable Goods Orders m/m,-0.4%,worse,43,2011-10-26 12:30:00+00:00,240.0,2011,4,10,Wednesday
+-0.8%,USD,2011-10-26 08:30:00,-0.7%,accurate,Medium,Durable Goods Orders m/m,-0.1%,accurate,43,2011-10-26 12:30:00+00:00,-14.29,2011,4,10,Wednesday
+313K,USD,2011-10-26 10:00:00,302K,better,High,New Home Sales,296K,accurate,43,2011-10-26 14:00:00+00:00,3.64,2011,4,10,Wednesday
+4.7M,USD,2011-10-26 10:30:00,0.5M,accurate,Medium,Crude Oil Inventories,-4.7M,accurate,43,2011-10-26 14:30:00+00:00,840.0,2011,4,10,Wednesday
+2.5%,USD,2011-10-27 08:30:00,2.4%,better,High,Advance GDP q/q,1.3%,accurate,43,2011-10-27 12:30:00+00:00,4.17,2011,4,10,Thursday
+402K,USD,2011-10-27 08:30:00,400K,accurate,High,Unemployment Claims,404K,accurate,43,2011-10-27 12:30:00+00:00,0.5,2011,4,10,Thursday
+2.5%,USD,2011-10-27 08:30:00,2.4%,accurate,Medium,Advance GDP Price Index q/q,2.5%,better,43,2011-10-27 12:30:00+00:00,4.17,2011,4,10,Thursday
+-4.6%,USD,2011-10-27 10:00:00,0.2%,worse,High,Pending Home Sales m/m,-1.2%,accurate,43,2011-10-27 14:00:00+00:00,-2400.0,2011,4,10,Thursday
+92B,USD,2011-10-27 10:30:00,88B,accurate,Low,Natural Gas Storage,103B,accurate,43,2011-10-27 14:30:00+00:00,4.55,2011,4,10,Thursday
+0.0%,USD,2011-10-28 08:30:00,0.1%,worse,Medium,Core PCE Price Index m/m,0.2%,better,43,2011-10-28 12:30:00+00:00,-100.0,2011,4,10,Friday
+0.3%,USD,2011-10-28 08:30:00,0.6%,worse,Medium,Employment Cost Index q/q,0.7%,accurate,43,2011-10-28 12:30:00+00:00,-50.0,2011,4,10,Friday
+0.6%,USD,2011-10-28 08:30:00,0.6%,accurate,Medium,Personal Spending m/m,0.2%,accurate,43,2011-10-28 12:30:00+00:00,0.0,2011,4,10,Friday
+0.1%,USD,2011-10-28 08:30:00,0.4%,worse,Low,Personal Income m/m,-0.1%,accurate,43,2011-10-28 12:30:00+00:00,-75.0,2011,4,10,Friday
+60.9,USD,2011-10-28 09:55:00,58.1,better,Medium,Revised UoM Consumer Sentiment,57.5,accurate,43,2011-10-28 13:55:00+00:00,4.82,2011,4,10,Friday
+-8.5,USD,2011-10-17 08:30:00,-3.9,worse,Medium,Empire State Manufacturing Index,-8.8,accurate,42,2011-10-17 12:30:00+00:00,-117.95,2011,4,10,Monday
+77.4%,USD,2011-10-17 09:15:00,77.5%,accurate,Medium,Capacity Utilization Rate,77.3%,accurate,42,2011-10-17 13:15:00+00:00,-0.13,2011,4,10,Monday
+0.2%,USD,2011-10-17 09:15:00,0.2%,accurate,Medium,Industrial Production m/m,0.0%,worse,42,2011-10-17 13:15:00+00:00,0.0,2011,4,10,Monday
+0.8%,USD,2011-10-18 08:30:00,0.2%,better,High,PPI m/m,0.0%,accurate,42,2011-10-18 12:30:00+00:00,300.0,2011,4,10,Tuesday
+0.2%,USD,2011-10-18 08:30:00,0.1%,better,Medium,Core PPI m/m,0.1%,accurate,42,2011-10-18 12:30:00+00:00,100.0,2011,4,10,Tuesday
+57.9B,USD,2011-10-18 09:00:00,27.8B,better,High,TIC Long-Term Purchases,9.1B,accurate,42,2011-10-18 13:00:00+00:00,108.27,2011,4,10,Tuesday
+18,USD,2011-10-18 10:00:00,15,better,Low,NAHB Housing Market Index,14,accurate,42,2011-10-18 14:00:00+00:00,20.0,2011,4,10,Tuesday
+0.59M,USD,2011-10-19 08:30:00,0.61M,accurate,High,Building Permits,0.63M,accurate,42,2011-10-19 12:30:00+00:00,-3.28,2011,4,10,Wednesday
+0.1%,USD,2011-10-19 08:30:00,0.2%,worse,High,Core CPI m/m,0.2%,accurate,42,2011-10-19 12:30:00+00:00,-50.0,2011,4,10,Wednesday
+0.3%,USD,2011-10-19 08:30:00,0.3%,accurate,Medium,CPI m/m,0.4%,accurate,42,2011-10-19 12:30:00+00:00,0.0,2011,4,10,Wednesday
+0.66M,USD,2011-10-19 08:30:00,0.59M,better,Medium,Housing Starts,0.57M,accurate,42,2011-10-19 12:30:00+00:00,11.86,2011,4,10,Wednesday
+-4.7M,USD,2011-10-19 10:30:00,1.3M,accurate,Medium,Crude Oil Inventories,1.3M,accurate,42,2011-10-19 14:30:00+00:00,-461.54,2011,4,10,Wednesday
+403K,USD,2011-10-20 08:30:00,401K,accurate,High,Unemployment Claims,409K,worse,42,2011-10-20 12:30:00+00:00,0.5,2011,4,10,Thursday
+4.91M,USD,2011-10-20 10:00:00,4.94M,worse,High,Existing Home Sales,5.06M,better,42,2011-10-20 14:00:00+00:00,-0.61,2011,4,10,Thursday
+8.7,USD,2011-10-20 10:00:00,-9.0,better,High,Philly Fed Manufacturing Index,-17.5,accurate,42,2011-10-20 14:00:00+00:00,196.67,2011,4,10,Thursday
+0.2%,USD,2011-10-20 10:00:00,0.3%,worse,Low,CB Leading Index m/m,0.3%,accurate,42,2011-10-20 14:00:00+00:00,-33.33,2011,4,10,Thursday
+103B,USD,2011-10-20 10:30:00,111B,accurate,Low,Natural Gas Storage,112B,accurate,42,2011-10-20 14:30:00+00:00,-7.21,2011,4,10,Thursday
+88.9,USD,2011-10-11 07:30:00,88.8,accurate,Low,NFIB Small Business Index,88.1,accurate,41,2011-10-11 11:30:00+00:00,0.11,2011,4,10,Tuesday
+40.3,USD,2011-10-11 10:00:00,43.2,worse,Low,IBD/TIPP Economic Optimism,39.9,accurate,41,2011-10-11 14:00:00+00:00,-6.71,2011,4,10,Tuesday
+-45.6B,USD,2011-10-13 08:30:00,-46.0B,accurate,High,Trade Balance,-45.6B,worse,41,2011-10-13 12:30:00+00:00,0.87,2011,4,10,Thursday
+404K,USD,2011-10-13 08:30:00,406K,accurate,High,Unemployment Claims,405K,accurate,41,2011-10-13 12:30:00+00:00,-0.49,2011,4,10,Thursday
+112B,USD,2011-10-13 10:30:00,103B,accurate,Low,Natural Gas Storage,97B,accurate,41,2011-10-13 14:30:00+00:00,8.74,2011,4,10,Thursday
+1.3M,USD,2011-10-13 11:00:00,0.4M,accurate,Medium,Crude Oil Inventories,-4.7M,accurate,41,2011-10-13 15:00:00+00:00,225.0,2011,4,10,Thursday
+0.6%,USD,2011-10-14 08:30:00,0.2%,better,High,Core Retail Sales m/m,0.5%,better,41,2011-10-14 12:30:00+00:00,200.0,2011,4,10,Friday
+1.1%,USD,2011-10-14 08:30:00,0.5%,better,High,Retail Sales m/m,0.3%,better,41,2011-10-14 12:30:00+00:00,120.0,2011,4,10,Friday
+0.3%,USD,2011-10-14 08:30:00,-0.3%,better,Medium,Import Prices m/m,-0.2%,better,41,2011-10-14 12:30:00+00:00,200.0,2011,4,10,Friday
+57.5,USD,2011-10-14 09:55:00,60.2,worse,High,Prelim UoM Consumer Sentiment,59.4,better,41,2011-10-14 13:55:00+00:00,-4.49,2011,4,10,Friday
+0.5%,USD,2011-10-14 10:00:00,0.4%,worse,Medium,Business Inventories m/m,0.5%,worse,41,2011-10-14 14:00:00+00:00,25.0,2011,4,10,Friday
+-64.6B,USD,2011-10-14 13:53:00,-65.0B,accurate,Medium,Federal Budget Balance,-134.1B,accurate,41,2011-10-14 17:53:00+00:00,0.62,2011,4,10,Friday
+51.6,USD,2011-10-03 10:00:00,50.5,better,High,ISM Manufacturing PMI,50.6,accurate,40,2011-10-03 14:00:00+00:00,2.18,2011,4,10,Monday
+1.4%,USD,2011-10-03 10:00:00,-0.1%,better,Low,Construction Spending m/m,-1.4%,accurate,40,2011-10-03 14:00:00+00:00,1500.0,2011,4,10,Monday
+56.0,USD,2011-10-03 10:00:00,54.3,better,Low,ISM Manufacturing Prices,55.5,accurate,40,2011-10-03 14:00:00+00:00,3.13,2011,4,10,Monday
+13.1M,USD,2011-10-03 01:00:00,12.3M,better,Low,Total Vehicle Sales,12.1M,accurate,40,2011-10-03 05:00:00+00:00,6.5,2011,4,10,Monday
+-0.2%,USD,2011-10-04 10:00:00,0.2%,worse,Medium,Factory Orders m/m,2.1%,worse,40,2011-10-04 14:00:00+00:00,-200.0,2011,4,10,Tuesday
+91K,USD,2011-10-05 08:15:00,76K,better,High,ADP Non-Farm Employment Change,89K,accurate,40,2011-10-05 12:15:00+00:00,19.74,2011,4,10,Wednesday
+53.0,USD,2011-10-05 10:00:00,53.0,accurate,High,ISM Non-Manufacturing PMI,53.3,accurate,40,2011-10-05 14:00:00+00:00,0.0,2011,4,10,Wednesday
+-4.7M,USD,2011-10-05 10:30:00,1.0M,accurate,Medium,Crude Oil Inventories,1.9M,accurate,40,2011-10-05 14:30:00+00:00,-570.0,2011,4,10,Wednesday
+401K,USD,2011-10-06 08:30:00,411K,better,High,Unemployment Claims,395K,accurate,40,2011-10-06 12:30:00+00:00,-2.43,2011,4,10,Thursday
+97B,USD,2011-10-06 10:30:00,98B,accurate,Low,Natural Gas Storage,111B,accurate,40,2011-10-06 14:30:00+00:00,-1.02,2011,4,10,Thursday
+103K,USD,2011-10-07 08:30:00,55K,better,High,Non-Farm Employment Change,57K,better,40,2011-10-07 12:30:00+00:00,87.27,2011,4,10,Friday
+9.1%,USD,2011-10-07 08:30:00,9.1%,accurate,High,Unemployment Rate,9.1%,accurate,40,2011-10-07 12:30:00+00:00,0.0,2011,4,10,Friday
+0.2%,USD,2011-10-07 08:30:00,0.2%,accurate,Medium,Average Hourly Earnings m/m,-0.2%,worse,40,2011-10-07 12:30:00+00:00,0.0,2011,4,10,Friday
+0.4%,USD,2011-10-07 10:00:00,0.6%,better,Low,Final Wholesale Inventories m/m,0.8%,accurate,40,2011-10-07 14:00:00+00:00,-33.33,2011,4,10,Friday
+-9.5B,USD,2011-10-07 15:00:00,8.0B,worse,Low,Consumer Credit m/m,11.9B,accurate,40,2011-10-07 19:00:00+00:00,-218.75,2011,4,10,Friday
+295K,USD,2011-09-26 10:00:00,296K,accurate,High,New Home Sales,302K,better,39,2011-09-26 14:00:00+00:00,-0.34,2011,3,9,Monday
+-4.1%,USD,2011-09-27 09:00:00,-4.4%,better,Medium,S&P/CS Composite-20 HPI y/y,-4.4%,accurate,39,2011-09-27 13:00:00+00:00,6.82,2011,3,9,Tuesday
+-6,USD,2011-09-27 09:59:00,-8,better,Low,Richmond Manufacturing Index,-10,accurate,39,2011-09-27 13:59:00+00:00,25.0,2011,3,9,Tuesday
+45.4,USD,2011-09-27 10:00:00,46.2,worse,High,CB Consumer Confidence,45.2,better,39,2011-09-27 14:00:00+00:00,-1.73,2011,3,9,Tuesday
+-0.1%,USD,2011-09-28 08:30:00,0.1%,worse,High,Core Durable Goods Orders m/m,2.0%,better,39,2011-09-28 12:30:00+00:00,-200.0,2011,3,9,Wednesday
+-0.1%,USD,2011-09-28 08:30:00,-0.2%,accurate,Medium,Durable Goods Orders m/m,4.1%,accurate,39,2011-09-28 12:30:00+00:00,50.0,2011,3,9,Wednesday
+1.9M,USD,2011-09-28 10:30:00,1.1M,accurate,Medium,Crude Oil Inventories,-7.3M,accurate,39,2011-09-28 14:30:00+00:00,72.73,2011,3,9,Wednesday
+391K,USD,2011-09-29 08:30:00,420K,better,High,Unemployment Claims,428K,worse,39,2011-09-29 12:30:00+00:00,-6.9,2011,3,9,Thursday
+1.3%,USD,2011-09-29 08:30:00,1.2%,better,Medium,Final GDP q/q,1.0%,accurate,39,2011-09-29 12:30:00+00:00,8.33,2011,3,9,Thursday
+2.5%,USD,2011-09-29 08:30:00,2.4%,accurate,Low,Final GDP Price Index q/q,2.4%,accurate,39,2011-09-29 12:30:00+00:00,4.17,2011,3,9,Thursday
+-1.2%,USD,2011-09-29 10:00:00,-1.7%,better,High,Pending Home Sales m/m,-1.3%,accurate,39,2011-09-29 14:00:00+00:00,29.41,2011,3,9,Thursday
+111B,USD,2011-09-29 10:30:00,97B,accurate,Low,Natural Gas Storage,89B,accurate,39,2011-09-29 14:30:00+00:00,14.43,2011,3,9,Thursday
+0.1%,USD,2011-09-30 08:30:00,0.2%,worse,Medium,Core PCE Price Index m/m,0.2%,accurate,39,2011-09-30 12:30:00+00:00,-50.0,2011,3,9,Friday
+0.2%,USD,2011-09-30 08:30:00,0.2%,accurate,Medium,Personal Spending m/m,0.7%,worse,39,2011-09-30 12:30:00+00:00,0.0,2011,3,9,Friday
+-0.1%,USD,2011-09-30 08:30:00,0.1%,worse,Low,Personal Income m/m,0.1%,worse,39,2011-09-30 12:30:00+00:00,-200.0,2011,3,9,Friday
+60.4,USD,2011-09-30 09:45:00,55.8,better,Medium,Chicago PMI,56.5,accurate,39,2011-09-30 13:45:00+00:00,8.24,2011,3,9,Friday
+59.4,USD,2011-09-30 09:55:00,57.9,better,Medium,Revised UoM Consumer Sentiment,57.8,accurate,39,2011-09-30 13:55:00+00:00,2.59,2011,3,9,Friday
+14,USD,2011-09-19 10:00:00,15,worse,Low,NAHB Housing Market Index,15,accurate,38,2011-09-19 14:00:00+00:00,-6.67,2011,3,9,Monday
+0.62M,USD,2011-09-20 08:30:00,0.60M,accurate,High,Building Permits,0.60M,accurate,38,2011-09-20 12:30:00+00:00,3.33,2011,3,9,Tuesday
+0.57M,USD,2011-09-20 08:30:00,0.59M,accurate,Medium,Housing Starts,0.60M,accurate,38,2011-09-20 12:30:00+00:00,-3.39,2011,3,9,Tuesday
+5.03M,USD,2011-09-21 10:00:00,4.76M,better,High,Existing Home Sales,4.67M,accurate,38,2011-09-21 14:00:00+00:00,5.67,2011,3,9,Wednesday
+-7.3M,USD,2011-09-21 10:30:00,-1.6M,accurate,Medium,Crude Oil Inventories,-6.7M,accurate,38,2011-09-21 14:30:00+00:00,-356.25,2011,3,9,Wednesday
+<0.25%,USD,2011-09-21 14:23:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,38,2011-09-21 18:23:00+00:00,0.0,2011,3,9,Wednesday
+423K,USD,2011-09-22 08:30:00,419K,accurate,High,Unemployment Claims,432K,accurate,38,2011-09-22 12:30:00+00:00,0.95,2011,3,9,Thursday
+0.3%,USD,2011-09-22 10:00:00,0.2%,better,Low,CB Leading Index m/m,0.6%,better,38,2011-09-22 14:00:00+00:00,50.0,2011,3,9,Thursday
+0.8%,USD,2011-09-22 10:00:00,0.0%,better,Low,HPI m/m,0.7%,worse,38,2011-09-22 14:00:00+00:00,800.0,2011,3,9,Thursday
+89B,USD,2011-09-22 10:30:00,91B,accurate,Low,Natural Gas Storage,87B,accurate,38,2011-09-22 14:30:00+00:00,-2.2,2011,3,9,Thursday
+88.1,USD,2011-09-13 07:30:00,88.0,accurate,Low,NFIB Small Business Index,89.9,accurate,37,2011-09-13 11:30:00+00:00,0.11,2011,3,9,Tuesday
+-0.4%,USD,2011-09-13 08:30:00,-0.7%,better,Medium,Import Prices m/m,0.3%,accurate,37,2011-09-13 12:30:00+00:00,42.86,2011,3,9,Tuesday
+39.9,USD,2011-09-13 10:00:00,36.5,better,Low,IBD/TIPP Economic Optimism,35.8,accurate,37,2011-09-13 14:00:00+00:00,9.32,2011,3,9,Tuesday
+-134.2B,USD,2011-09-13 13:54:00,-128.4B,worse,Medium,Federal Budget Balance,-129.4B,accurate,37,2011-09-13 17:54:00+00:00,-4.52,2011,3,9,Tuesday
+0.1%,USD,2011-09-14 08:30:00,0.2%,worse,High,Core Retail Sales m/m,0.3%,worse,37,2011-09-14 12:30:00+00:00,-50.0,2011,3,9,Wednesday
+0.0%,USD,2011-09-14 08:30:00,-0.1%,better,High,PPI m/m,0.2%,accurate,37,2011-09-14 12:30:00+00:00,100.0,2011,3,9,Wednesday
+0.0%,USD,2011-09-14 08:30:00,0.2%,worse,High,Retail Sales m/m,0.3%,worse,37,2011-09-14 12:30:00+00:00,-100.0,2011,3,9,Wednesday
+0.1%,USD,2011-09-14 08:30:00,0.2%,worse,Medium,Core PPI m/m,0.4%,accurate,37,2011-09-14 12:30:00+00:00,-50.0,2011,3,9,Wednesday
+0.4%,USD,2011-09-14 10:00:00,0.4%,accurate,Medium,Business Inventories m/m,0.4%,worse,37,2011-09-14 14:00:00+00:00,0.0,2011,3,9,Wednesday
+-6.7M,USD,2011-09-14 10:30:00,-3.1M,accurate,Medium,Crude Oil Inventories,-4.0M,accurate,37,2011-09-14 14:30:00+00:00,-116.13,2011,3,9,Wednesday
+0.2%,USD,2011-09-15 08:30:00,0.2%,accurate,High,Core CPI m/m,0.2%,accurate,37,2011-09-15 12:30:00+00:00,0.0,2011,3,9,Thursday
+428K,USD,2011-09-15 08:30:00,410K,worse,High,Unemployment Claims,417K,accurate,37,2011-09-15 12:30:00+00:00,4.39,2011,3,9,Thursday
+0.4%,USD,2011-09-15 08:30:00,0.2%,better,Medium,CPI m/m,0.5%,accurate,37,2011-09-15 12:30:00+00:00,100.0,2011,3,9,Thursday
+-118B,USD,2011-09-15 08:30:00,-122B,better,Medium,Current Account,-120B,accurate,37,2011-09-15 12:30:00+00:00,3.28,2011,3,9,Thursday
+-8.8,USD,2011-09-15 08:30:00,-3.9,worse,Medium,Empire State Manufacturing Index,-7.7,accurate,37,2011-09-15 12:30:00+00:00,-125.64,2011,3,9,Thursday
+77.4%,USD,2011-09-15 09:15:00,77.5%,accurate,Medium,Capacity Utilization Rate,77.3%,worse,37,2011-09-15 13:15:00+00:00,-0.13,2011,3,9,Thursday
+0.2%,USD,2011-09-15 09:15:00,0.1%,better,Medium,Industrial Production m/m,0.9%,accurate,37,2011-09-15 13:15:00+00:00,100.0,2011,3,9,Thursday
+-17.5,USD,2011-09-15 10:00:00,-14.7,worse,High,Philly Fed Manufacturing Index,-30.7,accurate,37,2011-09-15 14:00:00+00:00,-19.05,2011,3,9,Thursday
+87B,USD,2011-09-15 10:30:00,85B,accurate,Low,Natural Gas Storage,64B,accurate,37,2011-09-15 14:30:00+00:00,2.35,2011,3,9,Thursday
+9.5B,USD,2011-09-16 09:00:00,31.3B,worse,High,TIC Long-Term Purchases,3.4B,accurate,37,2011-09-16 13:00:00+00:00,-69.65,2011,3,9,Friday
+57.8,USD,2011-09-16 09:55:00,57.3,accurate,High,Prelim UoM Consumer Sentiment,55.7,better,37,2011-09-16 13:55:00+00:00,0.87,2011,3,9,Friday
+53.3,USD,2011-09-06 10:00:00,51.2,better,High,ISM Non-Manufacturing PMI,52.7,accurate,36,2011-09-06 14:00:00+00:00,4.1,2011,3,9,Tuesday
+-44.8B,USD,2011-09-08 08:30:00,-50.6B,better,High,Trade Balance,-51.6B,better,36,2011-09-08 12:30:00+00:00,11.46,2011,3,9,Thursday
+414K,USD,2011-09-08 08:30:00,407K,worse,High,Unemployment Claims,412K,accurate,36,2011-09-08 12:30:00+00:00,1.72,2011,3,9,Thursday
+64B,USD,2011-09-08 10:30:00,60B,accurate,Low,Natural Gas Storage,55B,accurate,36,2011-09-08 14:30:00+00:00,6.67,2011,3,9,Thursday
+-4.0M,USD,2011-09-08 11:00:00,-1.9M,accurate,Medium,Crude Oil Inventories,5.3M,accurate,36,2011-09-08 15:00:00+00:00,-110.53,2011,3,9,Thursday
+12.0B,USD,2011-09-08 15:00:00,6.3B,better,Low,Consumer Credit m/m,11.3B,worse,36,2011-09-08 19:00:00+00:00,90.48,2011,3,9,Thursday
+0.8%,USD,2011-09-09 10:00:00,0.8%,accurate,Low,Final Wholesale Inventories m/m,0.6%,accurate,36,2011-09-09 14:00:00+00:00,0.0,2011,3,9,Friday
+0.2%,USD,2011-08-29 08:30:00,0.2%,accurate,Medium,Core PCE Price Index m/m,0.2%,better,35,2011-08-29 12:30:00+00:00,0.0,2011,3,8,Monday
+0.8%,USD,2011-08-29 08:30:00,0.5%,better,Medium,Personal Spending m/m,-0.1%,better,35,2011-08-29 12:30:00+00:00,60.0,2011,3,8,Monday
+0.3%,USD,2011-08-29 08:30:00,0.3%,accurate,Low,Personal Income m/m,0.2%,better,35,2011-08-29 12:30:00+00:00,0.0,2011,3,8,Monday
+-1.3%,USD,2011-08-29 10:00:00,-0.8%,worse,High,Pending Home Sales m/m,2.4%,accurate,35,2011-08-29 14:00:00+00:00,-62.5,2011,3,8,Monday
+-4.5%,USD,2011-08-30 09:00:00,-4.7%,better,Medium,S&P/CS Composite-20 HPI y/y,-4.6%,accurate,35,2011-08-30 13:00:00+00:00,4.26,2011,3,8,Tuesday
+44.5,USD,2011-08-30 10:00:00,52.1,worse,High,CB Consumer Confidence,59.2,accurate,35,2011-08-30 14:00:00+00:00,-14.59,2011,3,8,Tuesday
+91K,USD,2011-08-31 08:15:00,102K,worse,High,ADP Non-Farm Employment Change,109K,accurate,35,2011-08-31 12:15:00+00:00,-10.78,2011,3,8,Wednesday
+56.5,USD,2011-08-31 09:45:00,54.3,better,Medium,Chicago PMI,58.8,accurate,35,2011-08-31 13:45:00+00:00,4.05,2011,3,8,Wednesday
+2.4%,USD,2011-08-31 10:00:00,1.8%,better,Medium,Factory Orders m/m,-0.4%,better,35,2011-08-31 14:00:00+00:00,33.33,2011,3,8,Wednesday
+5.3M,USD,2011-08-31 10:30:00,0.5M,accurate,Medium,Crude Oil Inventories,-2.2M,accurate,35,2011-08-31 14:30:00+00:00,960.0,2011,3,8,Wednesday
+409K,USD,2011-09-01 08:30:00,409K,accurate,High,Unemployment Claims,421K,accurate,35,2011-09-01 12:30:00+00:00,0.0,2011,3,9,Thursday
+-0.7%,USD,2011-09-01 08:30:00,-0.4%,better,Medium,Revised Nonfarm Productivity q/q,-0.3%,accurate,35,2011-09-01 12:30:00+00:00,-75.0,2011,3,9,Thursday
+3.3%,USD,2011-09-01 08:30:00,2.3%,better,Low,Revised Unit Labor Costs q/q,2.2%,accurate,35,2011-09-01 12:30:00+00:00,43.48,2011,3,9,Thursday
+50.6,USD,2011-09-01 10:00:00,48.7,better,High,ISM Manufacturing PMI,50.9,accurate,35,2011-09-01 14:00:00+00:00,3.9,2011,3,9,Thursday
+-1.3%,USD,2011-09-01 10:00:00,0.2%,worse,Low,Construction Spending m/m,1.6%,better,35,2011-09-01 14:00:00+00:00,-750.0,2011,3,9,Thursday
+55.5,USD,2011-09-01 10:00:00,55.1,better,Low,ISM Manufacturing Prices,59.0,accurate,35,2011-09-01 14:00:00+00:00,0.73,2011,3,9,Thursday
+55B,USD,2011-09-01 10:30:00,61B,accurate,Low,Natural Gas Storage,73B,accurate,35,2011-09-01 14:30:00+00:00,-9.84,2011,3,9,Thursday
+12.1M,USD,2011-09-01 01:00:00,12.1M,accurate,Low,Total Vehicle Sales,12.2M,accurate,35,2011-09-01 05:00:00+00:00,0.0,2011,3,9,Thursday
+0K,USD,2011-09-02 08:30:00,74K,worse,High,Non-Farm Employment Change,85K,worse,35,2011-09-02 12:30:00+00:00,-100.0,2011,3,9,Friday
+9.1%,USD,2011-09-02 08:30:00,9.1%,accurate,High,Unemployment Rate,9.1%,accurate,35,2011-09-02 12:30:00+00:00,0.0,2011,3,9,Friday
+-0.1%,USD,2011-09-02 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.5%,better,35,2011-09-02 12:30:00+00:00,-150.0,2011,3,9,Friday
+298K,USD,2011-08-23 10:00:00,313K,worse,High,New Home Sales,300K,worse,34,2011-08-23 14:00:00+00:00,-4.79,2011,3,8,Tuesday
+-10,USD,2011-08-23 10:00:00,-7,worse,Low,Richmond Manufacturing Index,-1,accurate,34,2011-08-23 14:00:00+00:00,-42.86,2011,3,8,Tuesday
+0.7%,USD,2011-08-24 08:30:00,-0.3%,better,High,Core Durable Goods Orders m/m,0.6%,better,34,2011-08-24 12:30:00+00:00,333.33,2011,3,8,Wednesday
+4.0%,USD,2011-08-24 08:30:00,2.1%,better,Medium,Durable Goods Orders m/m,-1.3%,better,34,2011-08-24 12:30:00+00:00,90.48,2011,3,8,Wednesday
+0.9%,USD,2011-08-24 10:00:00,0.2%,better,Low,HPI m/m,0.4%,accurate,34,2011-08-24 14:00:00+00:00,350.0,2011,3,8,Wednesday
+-2.2M,USD,2011-08-24 10:30:00,0.7M,accurate,Medium,Crude Oil Inventories,4.2M,accurate,34,2011-08-24 14:30:00+00:00,-414.29,2011,3,8,Wednesday
+417K,USD,2011-08-25 08:30:00,403K,worse,High,Unemployment Claims,412K,accurate,34,2011-08-25 12:30:00+00:00,3.47,2011,3,8,Thursday
+73B,USD,2011-08-25 10:30:00,75B,accurate,Low,Natural Gas Storage,50B,accurate,34,2011-08-25 14:30:00+00:00,-2.67,2011,3,8,Thursday
+1.0%,USD,2011-08-26 08:30:00,1.1%,worse,High,Prelim GDP q/q,1.3%,accurate,34,2011-08-26 12:30:00+00:00,-9.09,2011,3,8,Friday
+2.4%,USD,2011-08-26 08:30:00,2.3%,accurate,Low,Prelim GDP Price Index q/q,2.3%,accurate,34,2011-08-26 12:30:00+00:00,4.35,2011,3,8,Friday
+55.7,USD,2011-08-26 09:55:00,56.2,accurate,Medium,Revised UoM Consumer Sentiment,54.9,accurate,34,2011-08-26 13:55:00+00:00,-0.89,2011,3,8,Friday
+-7.7,USD,2011-08-15 08:30:00,0.5,worse,Medium,Empire State Manufacturing Index,-3.8,accurate,33,2011-08-15 12:30:00+00:00,-1640.0,2011,3,8,Monday
+3.7B,USD,2011-08-15 09:00:00,30.4B,worse,High,TIC Long-Term Purchases,24.2B,accurate,33,2011-08-15 13:00:00+00:00,-87.83,2011,3,8,Monday
+15,USD,2011-08-15 10:00:00,15,accurate,Low,NAHB Housing Market Index,15,accurate,33,2011-08-15 14:00:00+00:00,0.0,2011,3,8,Monday
+0.60M,USD,2011-08-16 08:30:00,0.61M,accurate,High,Building Permits,0.62M,accurate,33,2011-08-16 12:30:00+00:00,-1.64,2011,3,8,Tuesday
+0.60M,USD,2011-08-16 08:30:00,0.60M,accurate,Medium,Housing Starts,0.61M,accurate,33,2011-08-16 12:30:00+00:00,0.0,2011,3,8,Tuesday
+0.3%,USD,2011-08-16 08:30:00,0.0%,better,Medium,Import Prices m/m,-0.6%,accurate,33,2011-08-16 12:30:00+00:00,300.0,2011,3,8,Tuesday
+77.5%,USD,2011-08-16 09:15:00,77.0%,better,Medium,Capacity Utilization Rate,76.9%,better,33,2011-08-16 13:15:00+00:00,0.65,2011,3,8,Tuesday
+0.9%,USD,2011-08-16 09:15:00,0.5%,better,Medium,Industrial Production m/m,0.4%,better,33,2011-08-16 13:15:00+00:00,80.0,2011,3,8,Tuesday
+0.2%,USD,2011-08-17 08:30:00,0.0%,better,High,PPI m/m,-0.4%,accurate,33,2011-08-17 12:30:00+00:00,200.0,2011,3,8,Wednesday
+0.4%,USD,2011-08-17 08:30:00,0.2%,better,Medium,Core PPI m/m,0.3%,accurate,33,2011-08-17 12:30:00+00:00,100.0,2011,3,8,Wednesday
+4.2M,USD,2011-08-17 10:30:00,-0.4M,accurate,Medium,Crude Oil Inventories,-5.2M,accurate,33,2011-08-17 14:30:00+00:00,1150.0,2011,3,8,Wednesday
+0.2%,USD,2011-08-18 08:30:00,0.2%,accurate,High,Core CPI m/m,0.3%,accurate,33,2011-08-18 12:30:00+00:00,0.0,2011,3,8,Thursday
+408K,USD,2011-08-18 08:30:00,402K,worse,High,Unemployment Claims,399K,accurate,33,2011-08-18 12:30:00+00:00,1.49,2011,3,8,Thursday
+0.5%,USD,2011-08-18 08:30:00,0.2%,better,Medium,CPI m/m,-0.2%,accurate,33,2011-08-18 12:30:00+00:00,150.0,2011,3,8,Thursday
+4.67M,USD,2011-08-18 10:00:00,4.91M,worse,High,Existing Home Sales,4.84M,better,33,2011-08-18 14:00:00+00:00,-4.89,2011,3,8,Thursday
+-30.7,USD,2011-08-18 10:00:00,4.0,worse,High,Philly Fed Manufacturing Index,3.2,accurate,33,2011-08-18 14:00:00+00:00,-867.5,2011,3,8,Thursday
+0.5%,USD,2011-08-18 10:00:00,0.2%,better,Low,CB Leading Index m/m,0.3%,accurate,33,2011-08-18 14:00:00+00:00,150.0,2011,3,8,Thursday
+50B,USD,2011-08-18 10:30:00,49B,accurate,Low,Natural Gas Storage,25B,accurate,33,2011-08-18 14:30:00+00:00,2.04,2011,3,8,Thursday
+89.9,USD,2011-08-09 07:30:00,89.8,accurate,Low,NFIB Small Business Index,90.8,accurate,32,2011-08-09 11:30:00+00:00,0.11,2011,3,8,Tuesday
+-0.3%,USD,2011-08-09 08:30:00,-0.6%,worse,Medium,Prelim Nonfarm Productivity q/q,1.8%,worse,32,2011-08-09 12:30:00+00:00,50.0,2011,3,8,Tuesday
+2.2%,USD,2011-08-09 08:30:00,2.1%,accurate,Medium,Prelim Unit Labor Costs q/q,0.7%,worse,32,2011-08-09 12:30:00+00:00,4.76,2011,3,8,Tuesday
+<0.25%,USD,2011-08-09 14:19:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,32,2011-08-09 18:19:00+00:00,0.0,2011,3,8,Tuesday
+0.6%,USD,2011-08-10 10:00:00,0.9%,better,Low,Final Wholesale Inventories m/m,1.7%,better,32,2011-08-10 14:00:00+00:00,-33.33,2011,3,8,Wednesday
+-5.2M,USD,2011-08-10 10:30:00,1.7M,accurate,Medium,Crude Oil Inventories,1.0M,accurate,32,2011-08-10 14:30:00+00:00,-405.88,2011,3,8,Wednesday
+-129.4B,USD,2011-08-10 13:57:00,-137.4B,better,Medium,Federal Budget Balance,-43.1B,accurate,32,2011-08-10 17:57:00+00:00,5.82,2011,3,8,Wednesday
+-53.1B,USD,2011-08-11 08:30:00,-47.9B,worse,High,Trade Balance,-50.8B,accurate,32,2011-08-11 12:30:00+00:00,-10.86,2011,3,8,Thursday
+395K,USD,2011-08-11 08:30:00,401K,better,High,Unemployment Claims,402K,accurate,32,2011-08-11 12:30:00+00:00,-1.5,2011,3,8,Thursday
+25B,USD,2011-08-11 10:30:00,33B,accurate,Low,Natural Gas Storage,44B,accurate,32,2011-08-11 14:30:00+00:00,-24.24,2011,3,8,Thursday
+0.5%,USD,2011-08-12 08:30:00,0.2%,better,High,Core Retail Sales m/m,0.2%,better,32,2011-08-12 12:30:00+00:00,150.0,2011,3,8,Friday
+0.5%,USD,2011-08-12 08:30:00,0.4%,better,High,Retail Sales m/m,0.3%,better,32,2011-08-12 12:30:00+00:00,25.0,2011,3,8,Friday
+54.9,USD,2011-08-12 09:55:00,63.2,worse,High,Prelim UoM Consumer Sentiment,63.7,accurate,32,2011-08-12 13:55:00+00:00,-13.13,2011,3,8,Friday
+0.3%,USD,2011-08-12 10:00:00,0.6%,better,Medium,Business Inventories m/m,0.9%,better,32,2011-08-12 14:00:00+00:00,-50.0,2011,3,8,Friday
+50.9,USD,2011-08-01 10:00:00,55.0,worse,High,ISM Manufacturing PMI,55.3,accurate,31,2011-08-01 14:00:00+00:00,-7.45,2011,3,8,Monday
+0.2%,USD,2011-08-01 10:00:00,-0.1%,better,Low,Construction Spending m/m,0.3%,better,31,2011-08-01 14:00:00+00:00,300.0,2011,3,8,Monday
+59.0,USD,2011-08-01 10:00:00,64.4,worse,Low,ISM Manufacturing Prices,68.0,accurate,31,2011-08-01 14:00:00+00:00,-8.39,2011,3,8,Monday
+0.1%,USD,2011-08-02 08:30:00,0.2%,worse,Medium,Core PCE Price Index m/m,0.2%,worse,31,2011-08-02 12:30:00+00:00,-50.0,2011,3,8,Tuesday
+-0.2%,USD,2011-08-02 08:30:00,0.2%,worse,Medium,Personal Spending m/m,0.1%,better,31,2011-08-02 12:30:00+00:00,-200.0,2011,3,8,Tuesday
+0.1%,USD,2011-08-02 08:30:00,0.3%,worse,Low,Personal Income m/m,0.2%,worse,31,2011-08-02 12:30:00+00:00,-66.67,2011,3,8,Tuesday
+12.2M,USD,2011-08-02 01:00:00,11.9M,better,Low,Total Vehicle Sales,11.5M,accurate,31,2011-08-02 05:00:00+00:00,2.52,2011,3,8,Tuesday
+114K,USD,2011-08-03 08:15:00,101K,better,High,ADP Non-Farm Employment Change,145K,worse,31,2011-08-03 12:15:00+00:00,12.87,2011,3,8,Wednesday
+52.7,USD,2011-08-03 10:00:00,53.8,worse,High,ISM Non-Manufacturing PMI,53.3,accurate,31,2011-08-03 14:00:00+00:00,-2.04,2011,3,8,Wednesday
+-0.8%,USD,2011-08-03 10:00:00,-0.4%,worse,Medium,Factory Orders m/m,0.6%,worse,31,2011-08-03 14:00:00+00:00,-100.0,2011,3,8,Wednesday
+1.0M,USD,2011-08-03 10:30:00,1.3M,accurate,Medium,Crude Oil Inventories,2.3M,accurate,31,2011-08-03 14:30:00+00:00,-23.08,2011,3,8,Wednesday
+400K,USD,2011-08-04 08:30:00,404K,accurate,High,Unemployment Claims,401K,accurate,31,2011-08-04 12:30:00+00:00,-0.99,2011,3,8,Thursday
+44B,USD,2011-08-04 10:30:00,39B,accurate,Low,Natural Gas Storage,43B,accurate,31,2011-08-04 14:30:00+00:00,12.82,2011,3,8,Thursday
+117K,USD,2011-08-05 08:30:00,89K,better,High,Non-Farm Employment Change,46K,better,31,2011-08-05 12:30:00+00:00,31.46,2011,3,8,Friday
+9.1%,USD,2011-08-05 08:30:00,9.2%,better,High,Unemployment Rate,9.2%,accurate,31,2011-08-05 12:30:00+00:00,-1.09,2011,3,8,Friday
+0.4%,USD,2011-08-05 08:30:00,0.2%,better,Medium,Average Hourly Earnings m/m,0.0%,accurate,31,2011-08-05 12:30:00+00:00,100.0,2011,3,8,Friday
+15.5B,USD,2011-08-05 15:00:00,5.0B,better,Low,Consumer Credit m/m,5.1B,accurate,31,2011-08-05 19:00:00+00:00,210.0,2011,3,8,Friday
+35.8,USD,2011-08-05 17:30:00,43.1,worse,Low,IBD/TIPP Economic Optimism,41.4,accurate,31,2011-08-05 21:30:00+00:00,-16.94,2011,3,8,Friday
+-4.5%,USD,2011-07-26 09:00:00,-4.6%,accurate,Medium,S&P/CS Composite-20 HPI y/y,-4.2%,worse,30,2011-07-26 13:00:00+00:00,2.17,2011,3,7,Tuesday
+59.5,USD,2011-07-26 10:00:00,57.1,better,High,CB Consumer Confidence,57.6,worse,30,2011-07-26 14:00:00+00:00,4.2,2011,3,7,Tuesday
+312K,USD,2011-07-26 10:00:00,321K,worse,High,New Home Sales,315K,worse,30,2011-07-26 14:00:00+00:00,-2.8,2011,3,7,Tuesday
+-1,USD,2011-07-26 10:00:00,5,worse,Low,Richmond Manufacturing Index,3,accurate,30,2011-07-26 14:00:00+00:00,-120.0,2011,3,7,Tuesday
+0.1%,USD,2011-07-27 08:30:00,0.5%,worse,High,Core Durable Goods Orders m/m,0.7%,accurate,30,2011-07-27 12:30:00+00:00,-80.0,2011,3,7,Wednesday
+-2.1%,USD,2011-07-27 08:30:00,0.4%,worse,Medium,Durable Goods Orders m/m,1.9%,accurate,30,2011-07-27 12:30:00+00:00,-625.0,2011,3,7,Wednesday
+2.3M,USD,2011-07-27 10:30:00,-1.2M,accurate,Medium,Crude Oil Inventories,-3.7M,accurate,30,2011-07-27 14:30:00+00:00,291.67,2011,3,7,Wednesday
+398K,USD,2011-07-28 08:30:00,413K,better,High,Unemployment Claims,422K,accurate,30,2011-07-28 12:30:00+00:00,-3.63,2011,3,7,Thursday
+2.4%,USD,2011-07-28 10:00:00,-1.5%,better,High,Pending Home Sales m/m,8.2%,accurate,30,2011-07-28 14:00:00+00:00,260.0,2011,3,7,Thursday
+43B,USD,2011-07-28 10:30:00,38B,accurate,Low,Natural Gas Storage,60B,accurate,30,2011-07-28 14:30:00+00:00,13.16,2011,3,7,Thursday
+1.3%,USD,2011-07-29 08:30:00,1.7%,worse,High,Advance GDP q/q,1.9%,better,30,2011-07-29 12:30:00+00:00,-23.53,2011,3,7,Friday
+2.3%,USD,2011-07-29 08:30:00,2.0%,better,Medium,Advance GDP Price Index q/q,2.0%,accurate,30,2011-07-29 12:30:00+00:00,15.0,2011,3,7,Friday
+0.7%,USD,2011-07-29 08:30:00,0.5%,better,Medium,Employment Cost Index q/q,0.6%,accurate,30,2011-07-29 12:30:00+00:00,40.0,2011,3,7,Friday
+58.8,USD,2011-07-29 09:45:00,60.1,worse,Medium,Chicago PMI,61.1,accurate,30,2011-07-29 13:45:00+00:00,-2.16,2011,3,7,Friday
+63.7,USD,2011-07-29 09:55:00,64.1,accurate,Medium,Revised UoM Consumer Sentiment,63.8,accurate,30,2011-07-29 13:55:00+00:00,-0.62,2011,3,7,Friday
+23.6B,USD,2011-07-18 09:00:00,48.4B,worse,High,TIC Long-Term Purchases,30.6B,accurate,29,2011-07-18 13:00:00+00:00,-51.24,2011,3,7,Monday
+15,USD,2011-07-18 10:00:00,15,accurate,Low,NAHB Housing Market Index,13,accurate,29,2011-07-18 14:00:00+00:00,0.0,2011,3,7,Monday
+0.62M,USD,2011-07-19 08:30:00,0.61M,accurate,High,Building Permits,0.61M,accurate,29,2011-07-19 12:30:00+00:00,1.64,2011,3,7,Tuesday
+0.63M,USD,2011-07-19 08:30:00,0.58M,better,Medium,Housing Starts,0.55M,accurate,29,2011-07-19 12:30:00+00:00,8.62,2011,3,7,Tuesday
+4.77M,USD,2011-07-20 10:00:00,4.92M,worse,High,Existing Home Sales,4.81M,accurate,29,2011-07-20 14:00:00+00:00,-3.05,2011,3,7,Wednesday
+-3.7M,USD,2011-07-20 10:30:00,-1.5M,accurate,Medium,Crude Oil Inventories,-3.1M,accurate,29,2011-07-20 14:30:00+00:00,-146.67,2011,3,7,Wednesday
+418K,USD,2011-07-21 08:30:00,409K,worse,High,Unemployment Claims,408K,accurate,29,2011-07-21 12:30:00+00:00,2.2,2011,3,7,Thursday
+3.2,USD,2011-07-21 10:00:00,2.7,better,High,Philly Fed Manufacturing Index,-7.7,accurate,29,2011-07-21 14:00:00+00:00,18.52,2011,3,7,Thursday
+0.3%,USD,2011-07-21 10:00:00,0.2%,better,Low,CB Leading Index m/m,0.8%,accurate,29,2011-07-21 14:00:00+00:00,50.0,2011,3,7,Thursday
+0.4%,USD,2011-07-21 10:00:00,0.4%,accurate,Low,HPI m/m,0.2%,worse,29,2011-07-21 14:00:00+00:00,0.0,2011,3,7,Thursday
+60B,USD,2011-07-21 10:30:00,67B,accurate,Low,Natural Gas Storage,84B,accurate,29,2011-07-21 14:30:00+00:00,-10.45,2011,3,7,Thursday
+90.8,USD,2011-07-12 07:30:00,91.3,accurate,Low,NFIB Small Business Index,90.9,accurate,28,2011-07-12 11:30:00+00:00,-0.55,2011,3,7,Tuesday
+-50.2B,USD,2011-07-12 08:30:00,-44.1B,worse,High,Trade Balance,-43.6B,accurate,28,2011-07-12 12:30:00+00:00,-13.83,2011,3,7,Tuesday
+41.4,USD,2011-07-12 10:00:00,45.7,worse,Low,IBD/TIPP Economic Optimism,44.6,accurate,28,2011-07-12 14:00:00+00:00,-9.41,2011,3,7,Tuesday
+-0.5%,USD,2011-07-13 08:30:00,-0.7%,better,Medium,Import Prices m/m,0.1%,accurate,28,2011-07-13 12:30:00+00:00,28.57,2011,3,7,Wednesday
+-3.1M,USD,2011-07-13 10:30:00,-2.3M,accurate,Medium,Crude Oil Inventories,-0.9M,accurate,28,2011-07-13 14:30:00+00:00,-34.78,2011,3,7,Wednesday
+-43.1B,USD,2011-07-13 14:00:00,-68.0B,better,Medium,Federal Budget Balance,-57.6B,accurate,28,2011-07-13 18:00:00+00:00,36.62,2011,3,7,Wednesday
+0.0%,USD,2011-07-14 08:30:00,0.1%,worse,High,Core Retail Sales m/m,0.2%,worse,28,2011-07-14 12:30:00+00:00,-100.0,2011,3,7,Thursday
+-0.4%,USD,2011-07-14 08:30:00,-0.2%,worse,High,PPI m/m,0.2%,accurate,28,2011-07-14 12:30:00+00:00,-100.0,2011,3,7,Thursday
+0.1%,USD,2011-07-14 08:30:00,-0.1%,better,High,Retail Sales m/m,-0.1%,better,28,2011-07-14 12:30:00+00:00,200.0,2011,3,7,Thursday
+405K,USD,2011-07-14 08:30:00,413K,better,High,Unemployment Claims,427K,worse,28,2011-07-14 12:30:00+00:00,-1.94,2011,3,7,Thursday
+0.3%,USD,2011-07-14 08:30:00,0.2%,better,Medium,Core PPI m/m,0.2%,accurate,28,2011-07-14 12:30:00+00:00,50.0,2011,3,7,Thursday
+1.0%,USD,2011-07-14 10:00:00,0.7%,worse,Medium,Business Inventories m/m,1.0%,worse,28,2011-07-14 14:00:00+00:00,42.86,2011,3,7,Thursday
+84B,USD,2011-07-14 10:30:00,79B,accurate,Low,Natural Gas Storage,95B,accurate,28,2011-07-14 14:30:00+00:00,6.33,2011,3,7,Thursday
+0.3%,USD,2011-07-15 08:30:00,0.2%,better,High,Core CPI m/m,0.3%,accurate,28,2011-07-15 12:30:00+00:00,50.0,2011,3,7,Friday
+-0.2%,USD,2011-07-15 08:30:00,-0.1%,worse,Medium,CPI m/m,0.2%,accurate,28,2011-07-15 12:30:00+00:00,-100.0,2011,3,7,Friday
+-3.8,USD,2011-07-15 08:30:00,4.5,worse,Medium,Empire State Manufacturing Index,-7.8,accurate,28,2011-07-15 12:30:00+00:00,-184.44,2011,3,7,Friday
+76.7%,USD,2011-07-15 09:15:00,77.0%,worse,Medium,Capacity Utilization Rate,76.7%,accurate,28,2011-07-15 13:15:00+00:00,-0.39,2011,3,7,Friday
+0.2%,USD,2011-07-15 09:15:00,0.4%,worse,Medium,Industrial Production m/m,-0.1%,worse,28,2011-07-15 13:15:00+00:00,-50.0,2011,3,7,Friday
+63.8,USD,2011-07-15 09:55:00,72.5,worse,High,Prelim UoM Consumer Sentiment,71.5,accurate,28,2011-07-15 13:55:00+00:00,-12.0,2011,3,7,Friday
+0.8%,USD,2011-07-05 10:00:00,1.1%,worse,Medium,Factory Orders m/m,-0.9%,better,27,2011-07-05 14:00:00+00:00,-27.27,2011,3,7,Tuesday
+53.3,USD,2011-07-06 10:00:00,53.9,worse,High,ISM Non-Manufacturing PMI,54.6,accurate,27,2011-07-06 14:00:00+00:00,-1.11,2011,3,7,Wednesday
+157K,USD,2011-07-07 08:15:00,67K,better,High,ADP Non-Farm Employment Change,36K,accurate,27,2011-07-07 12:15:00+00:00,134.33,2011,3,7,Thursday
+418K,USD,2011-07-07 08:30:00,421K,accurate,High,Unemployment Claims,432K,accurate,27,2011-07-07 12:30:00+00:00,-0.71,2011,3,7,Thursday
+95B,USD,2011-07-07 10:30:00,80B,accurate,Low,Natural Gas Storage,78B,accurate,27,2011-07-07 14:30:00+00:00,18.75,2011,3,7,Thursday
+-0.9M,USD,2011-07-07 11:00:00,-2.4M,accurate,Medium,Crude Oil Inventories,-4.4M,accurate,27,2011-07-07 15:00:00+00:00,62.5,2011,3,7,Thursday
+18K,USD,2011-07-08 08:30:00,97K,worse,High,Non-Farm Employment Change,25K,worse,27,2011-07-08 12:30:00+00:00,-81.44,2011,3,7,Friday
+9.2%,USD,2011-07-08 08:30:00,9.1%,worse,High,Unemployment Rate,9.1%,accurate,27,2011-07-08 12:30:00+00:00,1.1,2011,3,7,Friday
+0.0%,USD,2011-07-08 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.3%,accurate,27,2011-07-08 12:30:00+00:00,-100.0,2011,3,7,Friday
+1.8%,USD,2011-07-08 10:00:00,0.6%,worse,Medium,Final Wholesale Inventories m/m,1.1%,worse,27,2011-07-08 14:00:00+00:00,200.0,2011,3,7,Friday
+5.1B,USD,2011-07-08 15:00:00,5.1B,accurate,Low,Consumer Credit m/m,5.7B,worse,27,2011-07-08 19:00:00+00:00,0.0,2011,3,7,Friday
+0.3%,USD,2011-06-27 08:30:00,0.2%,better,Medium,Core PCE Price Index m/m,0.2%,accurate,26,2011-06-27 12:30:00+00:00,50.0,2011,2,6,Monday
+0.0%,USD,2011-06-27 08:30:00,0.2%,worse,Medium,Personal Spending m/m,0.3%,worse,26,2011-06-27 12:30:00+00:00,-100.0,2011,2,6,Monday
+0.3%,USD,2011-06-27 08:30:00,0.4%,worse,Low,Personal Income m/m,0.3%,worse,26,2011-06-27 12:30:00+00:00,-25.0,2011,2,6,Monday
+-4.0%,USD,2011-06-28 09:00:00,-3.9%,accurate,Medium,S&P/CS Composite-20 HPI y/y,-3.8%,worse,26,2011-06-28 13:00:00+00:00,-2.56,2011,2,6,Tuesday
+58.5,USD,2011-06-28 09:43:00,60.8,worse,High,CB Consumer Confidence,61.7,better,26,2011-06-28 13:43:00+00:00,-3.78,2011,2,6,Tuesday
+3,USD,2011-06-28 10:00:00,2,better,Low,Richmond Manufacturing Index,-6,accurate,26,2011-06-28 14:00:00+00:00,50.0,2011,2,6,Tuesday
+8.2%,USD,2011-06-29 10:00:00,2.4%,better,High,Pending Home Sales m/m,-11.3%,better,26,2011-06-29 14:00:00+00:00,241.67,2011,2,6,Wednesday
+-4.4M,USD,2011-06-29 10:30:00,-1.5M,accurate,Medium,Crude Oil Inventories,-1.7M,accurate,26,2011-06-29 14:30:00+00:00,-193.33,2011,2,6,Wednesday
+428K,USD,2011-06-30 08:30:00,419K,worse,High,Unemployment Claims,429K,accurate,26,2011-06-30 12:30:00+00:00,2.15,2011,2,6,Thursday
+61.1,USD,2011-06-30 09:45:00,54.1,better,Medium,Chicago PMI,56.6,accurate,26,2011-06-30 13:45:00+00:00,12.94,2011,2,6,Thursday
+78B,USD,2011-06-30 10:30:00,80B,accurate,Low,Natural Gas Storage,98B,accurate,26,2011-06-30 14:30:00+00:00,-2.5,2011,2,6,Thursday
+71.5,USD,2011-07-01 09:55:00,72.0,accurate,Medium,Revised UoM Consumer Sentiment,71.8,accurate,26,2011-07-01 13:55:00+00:00,-0.69,2011,3,7,Friday
+55.3,USD,2011-07-01 10:00:00,51.9,better,High,ISM Manufacturing PMI,53.5,accurate,26,2011-07-01 14:00:00+00:00,6.55,2011,3,7,Friday
+-0.6%,USD,2011-07-01 10:00:00,0.1%,worse,Low,Construction Spending m/m,-0.6%,worse,26,2011-07-01 14:00:00+00:00,-700.0,2011,3,7,Friday
+68.0,USD,2011-07-01 10:00:00,72.3,worse,Low,ISM Manufacturing Prices,76.5,accurate,26,2011-07-01 14:00:00+00:00,-5.95,2011,3,7,Friday
+11.5M,USD,2011-07-01 01:00:00,12.0M,worse,Low,Total Vehicle Sales,11.8M,accurate,26,2011-07-01 05:00:00+00:00,-4.17,2011,3,7,Friday
+4.81M,USD,2011-06-21 10:00:00,4.82M,accurate,High,Existing Home Sales,5.00M,worse,25,2011-06-21 14:00:00+00:00,-0.21,2011,2,6,Tuesday
+0.8%,USD,2011-06-22 10:07:00,-0.2%,better,Low,HPI m/m,-0.4%,worse,25,2011-06-22 14:07:00+00:00,500.0,2011,2,6,Wednesday
+-1.7M,USD,2011-06-22 10:30:00,-0.1M,accurate,Medium,Crude Oil Inventories,-3.4M,accurate,25,2011-06-22 14:30:00+00:00,-1600.0,2011,2,6,Wednesday
+<0.25%,USD,2011-06-22 12:27:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,25,2011-06-22 16:27:00+00:00,0.0,2011,2,6,Wednesday
+429K,USD,2011-06-23 08:30:00,414K,worse,High,Unemployment Claims,420K,worse,25,2011-06-23 12:30:00+00:00,3.62,2011,2,6,Thursday
+319K,USD,2011-06-23 10:00:00,311K,better,High,New Home Sales,326K,better,25,2011-06-23 14:00:00+00:00,2.57,2011,2,6,Thursday
+98B,USD,2011-06-23 10:30:00,91B,accurate,Low,Natural Gas Storage,69B,accurate,25,2011-06-23 14:30:00+00:00,7.69,2011,2,6,Thursday
+0.6%,USD,2011-06-24 08:30:00,1.0%,worse,High,Core Durable Goods Orders m/m,-0.4%,better,25,2011-06-24 12:30:00+00:00,-40.0,2011,2,6,Friday
+1.9%,USD,2011-06-24 08:30:00,1.6%,better,Medium,Durable Goods Orders m/m,-2.7%,better,25,2011-06-24 12:30:00+00:00,18.75,2011,2,6,Friday
+1.9%,USD,2011-06-24 08:30:00,1.9%,accurate,Medium,Final GDP q/q,1.8%,accurate,25,2011-06-24 12:30:00+00:00,0.0,2011,2,6,Friday
+2.0%,USD,2011-06-24 08:30:00,1.9%,accurate,Low,Final GDP Price Index q/q,1.9%,accurate,25,2011-06-24 12:30:00+00:00,5.26,2011,2,6,Friday
+90.9,USD,2011-06-14 07:30:00,90.6,accurate,Low,NFIB Small Business Index,91.2,accurate,24,2011-06-14 11:30:00+00:00,0.33,2011,2,6,Tuesday
+0.3%,USD,2011-06-14 08:30:00,0.3%,accurate,High,Core Retail Sales m/m,0.5%,worse,24,2011-06-14 12:30:00+00:00,0.0,2011,2,6,Tuesday
+0.2%,USD,2011-06-14 08:30:00,0.1%,better,High,PPI m/m,0.8%,accurate,24,2011-06-14 12:30:00+00:00,100.0,2011,2,6,Tuesday
+-0.2%,USD,2011-06-14 08:30:00,-0.3%,better,High,Retail Sales m/m,0.3%,worse,24,2011-06-14 12:30:00+00:00,33.33,2011,2,6,Tuesday
+0.2%,USD,2011-06-14 08:30:00,0.2%,accurate,Medium,Core PPI m/m,0.3%,accurate,24,2011-06-14 12:30:00+00:00,0.0,2011,2,6,Tuesday
+0.8%,USD,2011-06-14 10:00:00,0.9%,better,Medium,Business Inventories m/m,1.3%,worse,24,2011-06-14 14:00:00+00:00,-11.11,2011,2,6,Tuesday
+0.3%,USD,2011-06-15 08:30:00,0.2%,better,High,Core CPI m/m,0.2%,accurate,24,2011-06-15 12:30:00+00:00,50.0,2011,2,6,Wednesday
+0.2%,USD,2011-06-15 08:30:00,0.2%,accurate,Medium,CPI m/m,0.4%,accurate,24,2011-06-15 12:30:00+00:00,0.0,2011,2,6,Wednesday
+-7.8,USD,2011-06-15 08:30:00,13.0,worse,Medium,Empire State Manufacturing Index,11.9,accurate,24,2011-06-15 12:30:00+00:00,-160.0,2011,2,6,Wednesday
+30.6B,USD,2011-06-15 09:00:00,45.3B,worse,High,TIC Long-Term Purchases,24.0B,accurate,24,2011-06-15 13:00:00+00:00,-32.45,2011,2,6,Wednesday
+76.7%,USD,2011-06-15 09:15:00,77.1%,worse,Medium,Capacity Utilization Rate,76.7%,worse,24,2011-06-15 13:15:00+00:00,-0.52,2011,2,6,Wednesday
+0.1%,USD,2011-06-15 09:15:00,0.3%,worse,Medium,Industrial Production m/m,0.0%,accurate,24,2011-06-15 13:15:00+00:00,-66.67,2011,2,6,Wednesday
+13,USD,2011-06-15 10:00:00,16,worse,Low,NAHB Housing Market Index,16,accurate,24,2011-06-15 14:00:00+00:00,-18.75,2011,2,6,Wednesday
+-3.4M,USD,2011-06-15 10:30:00,-0.9M,accurate,Medium,Crude Oil Inventories,-4.8M,accurate,24,2011-06-15 14:30:00+00:00,-277.78,2011,2,6,Wednesday
+0.61M,USD,2011-06-16 08:30:00,0.55M,better,High,Building Permits,0.56M,accurate,24,2011-06-16 12:30:00+00:00,10.91,2011,2,6,Thursday
+414K,USD,2011-06-16 08:30:00,421K,better,High,Unemployment Claims,430K,accurate,24,2011-06-16 12:30:00+00:00,-1.66,2011,2,6,Thursday
+-119B,USD,2011-06-16 08:30:00,-126B,better,Medium,Current Account,-112B,accurate,24,2011-06-16 12:30:00+00:00,5.56,2011,2,6,Thursday
+0.56M,USD,2011-06-16 08:30:00,0.54M,accurate,Medium,Housing Starts,0.54M,accurate,24,2011-06-16 12:30:00+00:00,3.7,2011,2,6,Thursday
+-7.7,USD,2011-06-16 10:00:00,7.1,worse,High,Philly Fed Manufacturing Index,3.9,accurate,24,2011-06-16 14:00:00+00:00,-208.45,2011,2,6,Thursday
+69B,USD,2011-06-16 10:30:00,65B,accurate,Low,Natural Gas Storage,80B,accurate,24,2011-06-16 14:30:00+00:00,6.15,2011,2,6,Thursday
+71.8,USD,2011-06-17 09:55:00,74.2,worse,High,Prelim UoM Consumer Sentiment,74.3,better,24,2011-06-17 13:55:00+00:00,-3.23,2011,2,6,Friday
+0.8%,USD,2011-06-17 10:00:00,0.3%,better,Low,CB Leading Index m/m,-0.4%,worse,24,2011-06-17 14:00:00+00:00,166.67,2011,2,6,Friday
+44.6,USD,2011-06-07 10:00:00,42.1,better,Low,IBD/TIPP Economic Optimism,42.8,accurate,23,2011-06-07 14:00:00+00:00,5.94,2011,2,6,Tuesday
+6.2B,USD,2011-06-07 15:00:00,5.2B,better,Low,Consumer Credit m/m,4.8B,worse,23,2011-06-07 19:00:00+00:00,19.23,2011,2,6,Tuesday
+-4.8M,USD,2011-06-08 10:30:00,-1.4M,accurate,Medium,Crude Oil Inventories,2.9M,accurate,23,2011-06-08 14:30:00+00:00,-242.86,2011,2,6,Wednesday
+-43.7B,USD,2011-06-09 08:30:00,-48.6B,better,High,Trade Balance,-46.8B,better,23,2011-06-09 12:30:00+00:00,10.08,2011,2,6,Thursday
+427K,USD,2011-06-09 08:30:00,424K,accurate,High,Unemployment Claims,426K,accurate,23,2011-06-09 12:30:00+00:00,0.71,2011,2,6,Thursday
+0.8%,USD,2011-06-09 10:00:00,1.0%,better,Low,Final Wholesale Inventories m/m,1.3%,worse,23,2011-06-09 14:00:00+00:00,-20.0,2011,2,6,Thursday
+80B,USD,2011-06-09 10:30:00,77B,accurate,Low,Natural Gas Storage,83B,accurate,23,2011-06-09 14:30:00+00:00,3.9,2011,2,6,Thursday
+0.2%,USD,2011-06-10 08:30:00,-0.6%,better,Medium,Import Prices m/m,2.1%,accurate,23,2011-06-10 12:30:00+00:00,133.33,2011,2,6,Friday
+-57.6B,USD,2011-06-10 14:00:00,-123.2B,better,Medium,Federal Budget Balance,-40.4B,accurate,23,2011-06-10 18:00:00+00:00,53.25,2011,2,6,Friday
+-3.6%,USD,2011-05-31 09:00:00,-3.4%,worse,Medium,S&P/CS Composite-20 HPI y/y,-3.4%,accurate,22,2011-05-31 13:00:00+00:00,-5.88,2011,2,5,Tuesday
+56.6,USD,2011-05-31 09:45:00,63.8,worse,Medium,Chicago PMI,67.6,accurate,22,2011-05-31 13:45:00+00:00,-11.29,2011,2,5,Tuesday
+60.8,USD,2011-05-31 10:00:00,66.3,worse,High,CB Consumer Confidence,66.0,better,22,2011-05-31 14:00:00+00:00,-8.3,2011,2,5,Tuesday
+38K,USD,2011-06-01 08:15:00,177K,worse,High,ADP Non-Farm Employment Change,177K,accurate,22,2011-06-01 12:15:00+00:00,-78.53,2011,2,6,Wednesday
+53.5,USD,2011-06-01 10:00:00,58.1,worse,High,ISM Manufacturing PMI,60.4,accurate,22,2011-06-01 14:00:00+00:00,-7.92,2011,2,6,Wednesday
+0.4%,USD,2011-06-01 10:00:00,0.4%,accurate,Low,Construction Spending m/m,0.1%,worse,22,2011-06-01 14:00:00+00:00,0.0,2011,2,6,Wednesday
+76.5,USD,2011-06-01 10:00:00,81.9,worse,Low,ISM Manufacturing Prices,85.5,accurate,22,2011-06-01 14:00:00+00:00,-6.59,2011,2,6,Wednesday
+11.8M,USD,2011-06-01 01:00:00,12.9M,worse,Low,Total Vehicle Sales,13.2M,accurate,22,2011-06-01 05:00:00+00:00,-8.53,2011,2,6,Wednesday
+422K,USD,2011-06-02 08:30:00,416K,worse,High,Unemployment Claims,428K,accurate,22,2011-06-02 12:30:00+00:00,1.44,2011,2,6,Thursday
+1.8%,USD,2011-06-02 08:30:00,1.8%,accurate,Medium,Revised Nonfarm Productivity q/q,1.6%,accurate,22,2011-06-02 12:30:00+00:00,0.0,2011,2,6,Thursday
+0.7%,USD,2011-06-02 08:30:00,0.8%,accurate,Low,Revised Unit Labor Costs q/q,1.0%,accurate,22,2011-06-02 12:30:00+00:00,-12.5,2011,2,6,Thursday
+-1.2%,USD,2011-06-02 10:00:00,-0.7%,worse,Medium,Factory Orders m/m,3.8%,better,22,2011-06-02 14:00:00+00:00,-71.43,2011,2,6,Thursday
+83B,USD,2011-06-02 10:30:00,92B,accurate,Low,Natural Gas Storage,105B,accurate,22,2011-06-02 14:30:00+00:00,-9.78,2011,2,6,Thursday
+2.9M,USD,2011-06-02 11:00:00,-1.5M,accurate,Medium,Crude Oil Inventories,0.6M,accurate,22,2011-06-02 15:00:00+00:00,293.33,2011,2,6,Thursday
+54K,USD,2011-06-03 08:30:00,161K,worse,High,Non-Farm Employment Change,232K,worse,22,2011-06-03 12:30:00+00:00,-66.46,2011,2,6,Friday
+9.1%,USD,2011-06-03 08:30:00,9.0%,worse,High,Unemployment Rate,9.0%,accurate,22,2011-06-03 12:30:00+00:00,1.11,2011,2,6,Friday
+0.3%,USD,2011-06-03 08:30:00,0.2%,better,Medium,Average Hourly Earnings m/m,0.1%,accurate,22,2011-06-03 12:30:00+00:00,50.0,2011,2,6,Friday
+54.6,USD,2011-06-03 10:00:00,53.8,better,High,ISM Non-Manufacturing PMI,52.8,accurate,22,2011-06-03 14:00:00+00:00,1.49,2011,2,6,Friday
+323K,USD,2011-05-24 10:00:00,305K,better,High,New Home Sales,301K,accurate,21,2011-05-24 14:00:00+00:00,5.9,2011,2,5,Tuesday
+-6,USD,2011-05-24 10:00:00,10,worse,Low,Richmond Manufacturing Index,10,accurate,21,2011-05-24 14:00:00+00:00,-160.0,2011,2,5,Tuesday
+-1.5%,USD,2011-05-25 08:30:00,0.7%,worse,High,Core Durable Goods Orders m/m,2.5%,better,21,2011-05-25 12:30:00+00:00,-314.29,2011,2,5,Wednesday
+-3.6%,USD,2011-05-25 08:30:00,-2.0%,worse,Medium,Durable Goods Orders m/m,4.4%,better,21,2011-05-25 12:30:00+00:00,-80.0,2011,2,5,Wednesday
+-0.3%,USD,2011-05-25 10:00:00,-0.7%,better,Low,HPI m/m,-1.5%,better,21,2011-05-25 14:00:00+00:00,57.14,2011,2,5,Wednesday
+0.6M,USD,2011-05-25 10:30:00,-1.6M,accurate,Medium,Crude Oil Inventories,0.0M,accurate,21,2011-05-25 14:30:00+00:00,137.5,2011,2,5,Wednesday
+1.8%,USD,2011-05-26 08:30:00,2.2%,worse,High,Prelim GDP q/q,1.8%,accurate,21,2011-05-26 12:30:00+00:00,-18.18,2011,2,5,Thursday
+424K,USD,2011-05-26 08:30:00,403K,worse,High,Unemployment Claims,414K,worse,21,2011-05-26 12:30:00+00:00,5.21,2011,2,5,Thursday
+1.9%,USD,2011-05-26 08:30:00,1.9%,accurate,Low,Prelim GDP Price Index q/q,1.9%,accurate,21,2011-05-26 12:30:00+00:00,0.0,2011,2,5,Thursday
+105B,USD,2011-05-26 10:30:00,93B,accurate,Low,Natural Gas Storage,92B,accurate,21,2011-05-26 14:30:00+00:00,12.9,2011,2,5,Thursday
+0.2%,USD,2011-05-27 08:30:00,0.2%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,21,2011-05-27 12:30:00+00:00,0.0,2011,2,5,Friday
+0.4%,USD,2011-05-27 08:30:00,0.5%,worse,Medium,Personal Spending m/m,0.5%,worse,21,2011-05-27 12:30:00+00:00,-20.0,2011,2,5,Friday
+0.4%,USD,2011-05-27 08:30:00,0.4%,accurate,Low,Personal Income m/m,0.4%,worse,21,2011-05-27 12:30:00+00:00,0.0,2011,2,5,Friday
+74.3,USD,2011-05-27 09:55:00,72.5,better,Medium,Revised UoM Consumer Sentiment,72.4,accurate,21,2011-05-27 13:55:00+00:00,2.48,2011,2,5,Friday
+-11.6%,USD,2011-05-27 10:00:00,-0.9%,worse,High,Pending Home Sales m/m,3.5%,worse,21,2011-05-27 14:00:00+00:00,-1188.89,2011,2,5,Friday
+11.9,USD,2011-05-16 08:30:00,20.7,worse,Medium,Empire State Manufacturing Index,21.7,accurate,20,2011-05-16 12:30:00+00:00,-42.51,2011,2,5,Monday
+24.0B,USD,2011-05-16 09:00:00,57.7B,worse,High,TIC Long-Term Purchases,27.2B,accurate,20,2011-05-16 13:00:00+00:00,-58.41,2011,2,5,Monday
+16,USD,2011-05-16 10:00:00,17,worse,Low,NAHB Housing Market Index,16,accurate,20,2011-05-16 14:00:00+00:00,-5.88,2011,2,5,Monday
+0.55M,USD,2011-05-17 08:30:00,0.59M,worse,High,Building Permits,0.57M,accurate,20,2011-05-17 12:30:00+00:00,-6.78,2011,2,5,Tuesday
+0.52M,USD,2011-05-17 08:30:00,0.58M,worse,Medium,Housing Starts,0.59M,better,20,2011-05-17 12:30:00+00:00,-10.34,2011,2,5,Tuesday
+76.9%,USD,2011-05-17 09:15:00,77.7%,worse,Medium,Capacity Utilization Rate,77.0%,worse,20,2011-05-17 13:15:00+00:00,-1.03,2011,2,5,Tuesday
+0.0%,USD,2011-05-17 09:15:00,0.5%,worse,Medium,Industrial Production m/m,0.7%,worse,20,2011-05-17 13:15:00+00:00,-100.0,2011,2,5,Tuesday
+0.0M,USD,2011-05-18 10:30:00,1.4M,accurate,Medium,Crude Oil Inventories,3.8M,accurate,20,2011-05-18 14:30:00+00:00,-100.0,2011,2,5,Wednesday
+409K,USD,2011-05-19 08:30:00,421K,better,High,Unemployment Claims,438K,accurate,20,2011-05-19 12:30:00+00:00,-2.85,2011,2,5,Thursday
+5.05M,USD,2011-05-19 10:00:00,5.21M,worse,High,Existing Home Sales,5.09M,accurate,20,2011-05-19 14:00:00+00:00,-3.07,2011,2,5,Thursday
+3.9,USD,2011-05-19 10:00:00,20.2,worse,High,Philly Fed Manufacturing Index,18.5,accurate,20,2011-05-19 14:00:00+00:00,-80.69,2011,2,5,Thursday
+-0.3%,USD,2011-05-19 10:00:00,0.2%,worse,Low,CB Leading Index m/m,0.7%,better,20,2011-05-19 14:00:00+00:00,-250.0,2011,2,5,Thursday
+92B,USD,2011-05-19 10:30:00,91B,accurate,Low,Natural Gas Storage,70B,accurate,20,2011-05-19 14:30:00+00:00,1.1,2011,2,5,Thursday
+91.2,USD,2011-05-10 07:30:00,91.9,accurate,Low,NFIB Small Business Index,91.9,accurate,19,2011-05-10 11:30:00+00:00,-0.76,2011,2,5,Tuesday
+2.2%,USD,2011-05-10 08:30:00,1.8%,better,Medium,Import Prices m/m,2.6%,accurate,19,2011-05-10 12:30:00+00:00,22.22,2011,2,5,Tuesday
+1.1%,USD,2011-05-10 10:00:00,1.0%,worse,Low,Final Wholesale Inventories m/m,1.0%,accurate,19,2011-05-10 14:00:00+00:00,10.0,2011,2,5,Tuesday
+42.8,USD,2011-05-10 10:00:00,41.5,better,Low,IBD/TIPP Economic Optimism,40.8,accurate,19,2011-05-10 14:00:00+00:00,3.13,2011,2,5,Tuesday
+-48.2B,USD,2011-05-11 08:30:00,-46.8B,worse,High,Trade Balance,-45.4B,accurate,19,2011-05-11 12:30:00+00:00,-2.99,2011,2,5,Wednesday
+3.8M,USD,2011-05-11 10:30:00,1.1M,accurate,Medium,Crude Oil Inventories,3.4M,accurate,19,2011-05-11 14:30:00+00:00,245.45,2011,2,5,Wednesday
+-40.5B,USD,2011-05-11 14:00:00,-50.5B,better,Medium,Federal Budget Balance,-188.2B,accurate,19,2011-05-11 18:00:00+00:00,19.8,2011,2,5,Wednesday
+0.6%,USD,2011-05-12 08:30:00,0.7%,worse,High,Core Retail Sales m/m,1.2%,better,19,2011-05-12 12:30:00+00:00,-14.29,2011,2,5,Thursday
+0.8%,USD,2011-05-12 08:30:00,0.6%,better,High,PPI m/m,0.7%,accurate,19,2011-05-12 12:30:00+00:00,33.33,2011,2,5,Thursday
+0.5%,USD,2011-05-12 08:30:00,0.5%,accurate,High,Retail Sales m/m,0.9%,better,19,2011-05-12 12:30:00+00:00,0.0,2011,2,5,Thursday
+434K,USD,2011-05-12 08:30:00,430K,accurate,High,Unemployment Claims,478K,accurate,19,2011-05-12 12:30:00+00:00,0.93,2011,2,5,Thursday
+0.3%,USD,2011-05-12 08:30:00,0.2%,better,Medium,Core PPI m/m,0.3%,accurate,19,2011-05-12 12:30:00+00:00,50.0,2011,2,5,Thursday
+1.0%,USD,2011-05-12 10:00:00,0.8%,worse,Medium,Business Inventories m/m,0.7%,worse,19,2011-05-12 14:00:00+00:00,25.0,2011,2,5,Thursday
+70B,USD,2011-05-12 10:30:00,69B,accurate,Low,Natural Gas Storage,72B,accurate,19,2011-05-12 14:30:00+00:00,1.45,2011,2,5,Thursday
+0.2%,USD,2011-05-13 08:30:00,0.2%,accurate,High,Core CPI m/m,0.1%,accurate,19,2011-05-13 12:30:00+00:00,0.0,2011,2,5,Friday
+0.4%,USD,2011-05-13 08:30:00,0.4%,accurate,Medium,CPI m/m,0.5%,accurate,19,2011-05-13 12:30:00+00:00,0.0,2011,2,5,Friday
+72.4,USD,2011-05-13 09:55:00,70.0,better,High,Prelim UoM Consumer Sentiment,69.8,accurate,19,2011-05-13 13:55:00+00:00,3.43,2011,2,5,Friday
+60.4,USD,2011-05-02 10:00:00,59.9,better,High,ISM Manufacturing PMI,61.2,accurate,18,2011-05-02 14:00:00+00:00,0.83,2011,2,5,Monday
+1.4%,USD,2011-05-02 10:00:00,0.4%,better,Low,Construction Spending m/m,-2.4%,worse,18,2011-05-02 14:00:00+00:00,250.0,2011,2,5,Monday
+85.5,USD,2011-05-02 10:00:00,83.3,better,Low,ISM Manufacturing Prices,85.0,accurate,18,2011-05-02 14:00:00+00:00,2.64,2011,2,5,Monday
+3.0%,USD,2011-05-03 10:00:00,1.9%,better,Medium,Factory Orders m/m,0.7%,better,18,2011-05-03 14:00:00+00:00,57.89,2011,2,5,Tuesday
+13.2M,USD,2011-05-03 01:00:00,13.0M,better,Low,Total Vehicle Sales,13.1M,accurate,18,2011-05-03 05:00:00+00:00,1.54,2011,2,5,Tuesday
+179K,USD,2011-05-04 08:15:00,200K,worse,High,ADP Non-Farm Employment Change,207K,accurate,18,2011-05-04 12:15:00+00:00,-10.5,2011,2,5,Wednesday
+52.8,USD,2011-05-04 10:00:00,57.9,worse,High,ISM Non-Manufacturing PMI,57.3,accurate,18,2011-05-04 14:00:00+00:00,-8.81,2011,2,5,Wednesday
+3.4M,USD,2011-05-04 10:30:00,1.9M,accurate,Medium,Crude Oil Inventories,6.2M,accurate,18,2011-05-04 14:30:00+00:00,78.95,2011,2,5,Wednesday
+474K,USD,2011-05-05 08:30:00,415K,worse,High,Unemployment Claims,431K,accurate,18,2011-05-05 12:30:00+00:00,14.22,2011,2,5,Thursday
+1.6%,USD,2011-05-05 08:30:00,1.1%,worse,Medium,Prelim Nonfarm Productivity q/q,2.6%,accurate,18,2011-05-05 12:30:00+00:00,45.45,2011,2,5,Thursday
+1.0%,USD,2011-05-05 08:30:00,0.8%,better,Medium,Prelim Unit Labor Costs q/q,-0.6%,accurate,18,2011-05-05 12:30:00+00:00,25.0,2011,2,5,Thursday
+72B,USD,2011-05-05 10:30:00,68B,accurate,Low,Natural Gas Storage,31B,accurate,18,2011-05-05 14:30:00+00:00,5.88,2011,2,5,Thursday
+244K,USD,2011-05-06 08:30:00,185K,better,High,Non-Farm Employment Change,221K,accurate,18,2011-05-06 12:30:00+00:00,31.89,2011,2,5,Friday
+9.0%,USD,2011-05-06 08:30:00,8.8%,worse,High,Unemployment Rate,8.8%,accurate,18,2011-05-06 12:30:00+00:00,2.27,2011,2,5,Friday
+0.1%,USD,2011-05-06 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.2%,better,18,2011-05-06 12:30:00+00:00,-50.0,2011,2,5,Friday
+6.0B,USD,2011-05-06 15:00:00,5.2B,better,Low,Consumer Credit m/m,7.6B,accurate,18,2011-05-06 19:00:00+00:00,15.38,2011,2,5,Friday
+300K,USD,2011-04-25 10:00:00,280K,better,High,New Home Sales,270K,better,17,2011-04-25 14:00:00+00:00,7.14,2011,2,4,Monday
+-3.3%,USD,2011-04-26 09:00:00,-3.2%,accurate,Medium,S&P/CS Composite-20 HPI y/y,-3.1%,accurate,17,2011-04-26 13:00:00+00:00,-3.12,2011,2,4,Tuesday
+65.4,USD,2011-04-26 10:00:00,64.6,better,High,CB Consumer Confidence,63.8,better,17,2011-04-26 14:00:00+00:00,1.24,2011,2,4,Tuesday
+10,USD,2011-04-26 10:00:00,20,worse,Low,Richmond Manufacturing Index,20,accurate,17,2011-04-26 14:00:00+00:00,-50.0,2011,2,4,Tuesday
+1.3%,USD,2011-04-27 08:30:00,1.7%,worse,High,Core Durable Goods Orders m/m,0.6%,better,17,2011-04-27 12:30:00+00:00,-23.53,2011,2,4,Wednesday
+2.5%,USD,2011-04-27 08:30:00,2.1%,better,Medium,Durable Goods Orders m/m,0.7%,better,17,2011-04-27 12:30:00+00:00,19.05,2011,2,4,Wednesday
+6.2M,USD,2011-04-27 10:30:00,1.4M,accurate,Medium,Crude Oil Inventories,-2.3M,accurate,17,2011-04-27 14:30:00+00:00,342.86,2011,2,4,Wednesday
+<0.25%,USD,2011-04-27 12:32:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,17,2011-04-27 16:32:00+00:00,0.0,2011,2,4,Wednesday
+1.8%,USD,2011-04-28 08:30:00,1.9%,worse,High,Advance GDP q/q,3.1%,worse,17,2011-04-28 12:30:00+00:00,-5.26,2011,2,4,Thursday
+429K,USD,2011-04-28 08:30:00,392K,worse,High,Unemployment Claims,404K,accurate,17,2011-04-28 12:30:00+00:00,9.44,2011,2,4,Thursday
+1.9%,USD,2011-04-28 08:30:00,2.2%,worse,Medium,Advance GDP Price Index q/q,0.4%,accurate,17,2011-04-28 12:30:00+00:00,-13.64,2011,2,4,Thursday
+5.1%,USD,2011-04-28 10:00:00,1.6%,better,High,Pending Home Sales m/m,0.7%,worse,17,2011-04-28 14:00:00+00:00,218.75,2011,2,4,Thursday
+31B,USD,2011-04-28 10:30:00,38B,accurate,Low,Natural Gas Storage,47B,accurate,17,2011-04-28 14:30:00+00:00,-18.42,2011,2,4,Thursday
+0.1%,USD,2011-04-29 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.2%,accurate,17,2011-04-29 12:30:00+00:00,0.0,2011,2,4,Friday
+0.6%,USD,2011-04-29 08:30:00,0.5%,better,Medium,Employment Cost Index q/q,0.4%,accurate,17,2011-04-29 12:30:00+00:00,20.0,2011,2,4,Friday
+0.6%,USD,2011-04-29 08:30:00,0.6%,accurate,Medium,Personal Spending m/m,0.9%,better,17,2011-04-29 12:30:00+00:00,0.0,2011,2,4,Friday
+0.5%,USD,2011-04-29 08:30:00,0.3%,better,Low,Personal Income m/m,0.4%,better,17,2011-04-29 12:30:00+00:00,66.67,2011,2,4,Friday
+67.6,USD,2011-04-29 09:45:00,68.7,worse,Medium,Chicago PMI,70.6,accurate,17,2011-04-29 13:45:00+00:00,-1.6,2011,2,4,Friday
+69.8,USD,2011-04-29 09:55:00,70.0,accurate,Medium,Revised UoM Consumer Sentiment,69.6,accurate,17,2011-04-29 13:55:00+00:00,-0.29,2011,2,4,Friday
+16,USD,2011-04-18 10:00:00,17,worse,Low,NAHB Housing Market Index,17,accurate,16,2011-04-18 14:00:00+00:00,-5.88,2011,2,4,Monday
+0.59M,USD,2011-04-19 08:30:00,0.55M,better,High,Building Permits,0.53M,accurate,16,2011-04-19 12:30:00+00:00,7.27,2011,2,4,Tuesday
+0.55M,USD,2011-04-19 08:30:00,0.53M,accurate,Medium,Housing Starts,0.51M,better,16,2011-04-19 12:30:00+00:00,3.77,2011,2,4,Tuesday
+5.10M,USD,2011-04-20 10:00:00,5.02M,better,High,Existing Home Sales,4.92M,better,16,2011-04-20 14:00:00+00:00,1.59,2011,2,4,Wednesday
+-2.3M,USD,2011-04-20 10:30:00,0.7M,accurate,Medium,Crude Oil Inventories,1.6M,accurate,16,2011-04-20 14:30:00+00:00,-428.57,2011,2,4,Wednesday
+403K,USD,2011-04-21 08:30:00,394K,worse,High,Unemployment Claims,416K,accurate,16,2011-04-21 12:30:00+00:00,2.28,2011,2,4,Thursday
+18.5,USD,2011-04-21 10:00:00,37.1,worse,High,Philly Fed Manufacturing Index,43.4,accurate,16,2011-04-21 14:00:00+00:00,-50.13,2011,2,4,Thursday
+0.4%,USD,2011-04-21 10:00:00,0.3%,better,Low,CB Leading Index m/m,1.0%,better,16,2011-04-21 14:00:00+00:00,33.33,2011,2,4,Thursday
+-1.6%,USD,2011-04-21 10:00:00,0.2%,worse,Low,HPI m/m,-1.0%,worse,16,2011-04-21 14:00:00+00:00,-900.0,2011,2,4,Thursday
+47B,USD,2011-04-21 10:30:00,53B,accurate,Low,Natural Gas Storage,28B,accurate,16,2011-04-21 14:30:00+00:00,-11.32,2011,2,4,Thursday
+91.9,USD,2011-04-12 07:30:00,95.0,worse,Low,NFIB Small Business Index,94.5,accurate,15,2011-04-12 11:30:00+00:00,-3.26,2011,2,4,Tuesday
+-45.8B,USD,2011-04-12 08:30:00,-44.1B,worse,High,Trade Balance,-47.0B,accurate,15,2011-04-12 12:30:00+00:00,-3.85,2011,2,4,Tuesday
+2.7%,USD,2011-04-12 08:30:00,2.1%,better,Medium,Import Prices m/m,1.4%,accurate,15,2011-04-12 12:30:00+00:00,28.57,2011,2,4,Tuesday
+40.8,USD,2011-04-12 10:00:00,45.7,worse,Low,IBD/TIPP Economic Optimism,43.0,accurate,15,2011-04-12 14:00:00+00:00,-10.72,2011,2,4,Tuesday
+-188.2B,USD,2011-04-12 14:00:00,-163.5B,worse,Medium,Federal Budget Balance,-222.5B,accurate,15,2011-04-12 18:00:00+00:00,-15.11,2011,2,4,Tuesday
+0.8%,USD,2011-04-13 08:30:00,0.7%,better,High,Core Retail Sales m/m,1.1%,better,15,2011-04-13 12:30:00+00:00,14.29,2011,2,4,Wednesday
+0.4%,USD,2011-04-13 08:30:00,0.6%,worse,High,Retail Sales m/m,1.1%,better,15,2011-04-13 12:30:00+00:00,-33.33,2011,2,4,Wednesday
+0.5%,USD,2011-04-13 10:00:00,0.8%,better,Medium,Business Inventories m/m,1.0%,worse,15,2011-04-13 14:00:00+00:00,-37.5,2011,2,4,Wednesday
+1.6M,USD,2011-04-13 10:30:00,0.9M,accurate,Medium,Crude Oil Inventories,2.0M,accurate,15,2011-04-13 14:30:00+00:00,77.78,2011,2,4,Wednesday
+0.7%,USD,2011-04-14 08:30:00,1.1%,worse,High,PPI m/m,1.6%,accurate,15,2011-04-14 12:30:00+00:00,-36.36,2011,2,4,Thursday
+412K,USD,2011-04-14 08:30:00,379K,worse,High,Unemployment Claims,385K,accurate,15,2011-04-14 12:30:00+00:00,8.71,2011,2,4,Thursday
+0.3%,USD,2011-04-14 08:30:00,0.2%,better,Medium,Core PPI m/m,0.2%,accurate,15,2011-04-14 12:30:00+00:00,50.0,2011,2,4,Thursday
+28B,USD,2011-04-14 10:30:00,34B,accurate,Low,Natural Gas Storage,-45B,accurate,15,2011-04-14 14:30:00+00:00,-17.65,2011,2,4,Thursday
+0.1%,USD,2011-04-15 08:30:00,0.2%,worse,High,Core CPI m/m,0.2%,accurate,15,2011-04-15 12:30:00+00:00,-50.0,2011,2,4,Friday
+0.5%,USD,2011-04-15 08:30:00,0.5%,accurate,Medium,CPI m/m,0.5%,accurate,15,2011-04-15 12:30:00+00:00,0.0,2011,2,4,Friday
+21.7,USD,2011-04-15 08:30:00,17.1,better,Medium,Empire State Manufacturing Index,17.5,accurate,15,2011-04-15 12:30:00+00:00,26.9,2011,2,4,Friday
+26.9B,USD,2011-04-15 09:00:00,59.4B,worse,High,TIC Long-Term Purchases,51.1B,accurate,15,2011-04-15 13:00:00+00:00,-54.71,2011,2,4,Friday
+77.4%,USD,2011-04-15 09:15:00,77.5%,accurate,Medium,Capacity Utilization Rate,76.9%,better,15,2011-04-15 13:15:00+00:00,-0.13,2011,2,4,Friday
+0.8%,USD,2011-04-15 09:15:00,0.5%,better,Medium,Industrial Production m/m,0.1%,better,15,2011-04-15 13:15:00+00:00,60.0,2011,2,4,Friday
+69.6,USD,2011-04-15 09:55:00,68.7,better,High,Prelim UoM Consumer Sentiment,67.5,worse,15,2011-04-15 13:55:00+00:00,1.31,2011,2,4,Friday
+57.3,USD,2011-04-05 10:00:00,59.8,worse,High,ISM Non-Manufacturing PMI,59.7,accurate,14,2011-04-05 14:00:00+00:00,-4.18,2011,2,4,Tuesday
+2.0M,USD,2011-04-06 10:30:00,1.3M,accurate,Medium,Crude Oil Inventories,2.9M,accurate,14,2011-04-06 14:30:00+00:00,53.85,2011,2,4,Wednesday
+382K,USD,2011-04-07 08:30:00,385K,accurate,High,Unemployment Claims,392K,accurate,14,2011-04-07 12:30:00+00:00,-0.78,2011,2,4,Thursday
+-45B,USD,2011-04-07 10:30:00,-51B,accurate,Low,Natural Gas Storage,12B,accurate,14,2011-04-07 14:30:00+00:00,11.76,2011,2,4,Thursday
+7.6B,USD,2011-04-07 15:00:00,4.8B,better,Low,Consumer Credit m/m,4.4B,worse,14,2011-04-07 19:00:00+00:00,58.33,2011,2,4,Thursday
+1.0%,USD,2011-04-08 10:00:00,1.1%,better,Low,Final Wholesale Inventories m/m,1.0%,better,14,2011-04-08 14:00:00+00:00,-9.09,2011,2,4,Friday
+0.2%,USD,2011-03-28 08:30:00,0.2%,accurate,Medium,Core PCE Price Index m/m,0.2%,better,13,2011-03-28 12:30:00+00:00,0.0,2011,1,3,Monday
+0.7%,USD,2011-03-28 08:30:00,0.6%,better,Medium,Personal Spending m/m,0.3%,better,13,2011-03-28 12:30:00+00:00,16.67,2011,1,3,Monday
+0.3%,USD,2011-03-28 08:30:00,0.5%,worse,Low,Personal Income m/m,1.2%,better,13,2011-03-28 12:30:00+00:00,-40.0,2011,1,3,Monday
+2.1%,USD,2011-03-28 10:00:00,-0.5%,better,High,Pending Home Sales m/m,-2.8%,accurate,13,2011-03-28 14:00:00+00:00,520.0,2011,1,3,Monday
+-3.1%,USD,2011-03-29 09:00:00,-3.1%,accurate,Medium,S&P/CS Composite-20 HPI y/y,-2.4%,accurate,13,2011-03-29 13:00:00+00:00,0.0,2011,1,3,Tuesday
+63.4,USD,2011-03-29 10:00:00,64.9,worse,High,CB Consumer Confidence,72.0,better,13,2011-03-29 14:00:00+00:00,-2.31,2011,1,3,Tuesday
+201K,USD,2011-03-30 08:15:00,205K,accurate,High,ADP Non-Farm Employment Change,208K,worse,13,2011-03-30 12:15:00+00:00,-1.95,2011,1,3,Wednesday
+2.9M,USD,2011-03-30 10:30:00,1.6M,accurate,Medium,Crude Oil Inventories,2.1M,accurate,13,2011-03-30 14:30:00+00:00,81.25,2011,1,3,Wednesday
+388K,USD,2011-03-31 08:30:00,379K,worse,High,Unemployment Claims,394K,worse,13,2011-03-31 12:30:00+00:00,2.37,2011,1,3,Thursday
+70.6,USD,2011-03-31 09:45:00,70.1,better,Medium,Chicago PMI,71.2,accurate,13,2011-03-31 13:45:00+00:00,0.71,2011,1,3,Thursday
+-0.1%,USD,2011-03-31 10:00:00,0.7%,worse,Medium,Factory Orders m/m,3.3%,better,13,2011-03-31 14:00:00+00:00,-114.29,2011,1,3,Thursday
+12B,USD,2011-03-31 10:30:00,-2B,accurate,Low,Natural Gas Storage,-6B,accurate,13,2011-03-31 14:30:00+00:00,700.0,2011,1,3,Thursday
+216K,USD,2011-04-01 08:30:00,191K,better,High,Non-Farm Employment Change,194K,accurate,13,2011-04-01 12:30:00+00:00,13.09,2011,2,4,Friday
+8.8%,USD,2011-04-01 08:30:00,8.9%,better,High,Unemployment Rate,8.9%,accurate,13,2011-04-01 12:30:00+00:00,-1.12,2011,2,4,Friday
+0.0%,USD,2011-04-01 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.0%,accurate,13,2011-04-01 12:30:00+00:00,-100.0,2011,2,4,Friday
+61.2,USD,2011-04-01 10:00:00,61.1,accurate,High,ISM Manufacturing PMI,61.4,accurate,13,2011-04-01 14:00:00+00:00,0.16,2011,2,4,Friday
+-1.4%,USD,2011-04-01 10:00:00,-0.1%,worse,Low,Construction Spending m/m,-1.8%,worse,13,2011-04-01 14:00:00+00:00,-1300.0,2011,2,4,Friday
+85.0,USD,2011-04-01 10:00:00,83.1,better,Low,ISM Manufacturing Prices,82.0,accurate,13,2011-04-01 14:00:00+00:00,2.29,2011,2,4,Friday
+13.1M,USD,2011-04-01 01:00:00,13.3M,worse,Low,Total Vehicle Sales,13.4M,accurate,13,2011-04-01 05:00:00+00:00,-1.5,2011,2,4,Friday
+4.88M,USD,2011-03-21 10:00:00,5.15M,worse,High,Existing Home Sales,5.40M,better,12,2011-03-21 14:00:00+00:00,-5.24,2011,1,3,Monday
+20,USD,2011-03-22 09:59:00,23,worse,Low,Richmond Manufacturing Index,25,accurate,12,2011-03-22 13:59:00+00:00,-13.04,2011,1,3,Tuesday
+-0.3%,USD,2011-03-22 10:00:00,-0.2%,worse,Low,HPI m/m,-1.0%,worse,12,2011-03-22 14:00:00+00:00,-50.0,2011,1,3,Tuesday
+250K,USD,2011-03-23 10:00:00,291K,worse,High,New Home Sales,301K,better,12,2011-03-23 14:00:00+00:00,-14.09,2011,1,3,Wednesday
+2.1M,USD,2011-03-23 10:30:00,2.0M,accurate,Medium,Crude Oil Inventories,1.7M,accurate,12,2011-03-23 14:30:00+00:00,5.0,2011,1,3,Wednesday
+-0.6%,USD,2011-03-24 08:30:00,2.1%,worse,High,Core Durable Goods Orders m/m,-3.0%,better,12,2011-03-24 12:30:00+00:00,-128.57,2011,1,3,Thursday
+382K,USD,2011-03-24 08:30:00,388K,better,High,Unemployment Claims,387K,accurate,12,2011-03-24 12:30:00+00:00,-1.55,2011,1,3,Thursday
+-0.9%,USD,2011-03-24 08:30:00,1.2%,worse,Medium,Durable Goods Orders m/m,3.6%,better,12,2011-03-24 12:30:00+00:00,-175.0,2011,1,3,Thursday
+-6B,USD,2011-03-24 10:30:00,-11B,accurate,Low,Natural Gas Storage,-56B,accurate,12,2011-03-24 14:30:00+00:00,45.45,2011,1,3,Thursday
+3.1%,USD,2011-03-25 08:30:00,3.0%,better,Medium,Final GDP q/q,2.8%,accurate,12,2011-03-25 12:30:00+00:00,3.33,2011,1,3,Friday
+0.4%,USD,2011-03-25 08:30:00,0.4%,accurate,Low,Final GDP Price Index q/q,0.4%,accurate,12,2011-03-25 12:30:00+00:00,0.0,2011,1,3,Friday
+67.5,USD,2011-03-25 09:55:00,68.1,worse,Medium,Revised UoM Consumer Sentiment,68.2,accurate,12,2011-03-25 13:55:00+00:00,-0.88,2011,1,3,Friday
+17.5,USD,2011-03-15 08:30:00,16.2,better,Medium,Empire State Manufacturing Index,15.4,accurate,11,2011-03-15 12:30:00+00:00,8.02,2011,1,3,Tuesday
+1.4%,USD,2011-03-15 08:30:00,0.9%,better,Medium,Import Prices m/m,1.3%,worse,11,2011-03-15 12:30:00+00:00,55.56,2011,1,3,Tuesday
+51.5B,USD,2011-03-15 09:00:00,59.3B,worse,High,TIC Long-Term Purchases,62.5B,worse,11,2011-03-15 13:00:00+00:00,-13.15,2011,1,3,Tuesday
+17,USD,2011-03-15 10:00:00,17,accurate,Low,NAHB Housing Market Index,16,accurate,11,2011-03-15 14:00:00+00:00,0.0,2011,1,3,Tuesday
+<0.25%,USD,2011-03-15 14:14:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,11,2011-03-15 18:14:00+00:00,0.0,2011,1,3,Tuesday
+0.52M,USD,2011-03-16 08:30:00,0.58M,worse,High,Building Permits,0.56M,accurate,11,2011-03-16 12:30:00+00:00,-10.34,2011,1,3,Wednesday
+1.6%,USD,2011-03-16 08:30:00,0.7%,better,High,PPI m/m,0.8%,accurate,11,2011-03-16 12:30:00+00:00,128.57,2011,1,3,Wednesday
+0.2%,USD,2011-03-16 08:30:00,0.2%,accurate,Medium,Core PPI m/m,0.5%,accurate,11,2011-03-16 12:30:00+00:00,0.0,2011,1,3,Wednesday
+-113B,USD,2011-03-16 08:30:00,-111B,accurate,Medium,Current Account,-126B,accurate,11,2011-03-16 12:30:00+00:00,-1.8,2011,1,3,Wednesday
+0.48M,USD,2011-03-16 08:30:00,0.58M,worse,Medium,Housing Starts,0.62M,accurate,11,2011-03-16 12:30:00+00:00,-17.24,2011,1,3,Wednesday
+1.7M,USD,2011-03-16 10:30:00,1.8M,accurate,Medium,Crude Oil Inventories,2.5M,accurate,11,2011-03-16 14:30:00+00:00,-5.56,2011,1,3,Wednesday
+0.2%,USD,2011-03-17 08:30:00,0.1%,better,High,Core CPI m/m,0.2%,accurate,11,2011-03-17 12:30:00+00:00,100.0,2011,1,3,Thursday
+385K,USD,2011-03-17 08:30:00,388K,accurate,High,Unemployment Claims,401K,accurate,11,2011-03-17 12:30:00+00:00,-0.77,2011,1,3,Thursday
+0.5%,USD,2011-03-17 08:30:00,0.5%,accurate,Medium,CPI m/m,0.4%,accurate,11,2011-03-17 12:30:00+00:00,0.0,2011,1,3,Thursday
+76.3%,USD,2011-03-17 09:15:00,76.6%,worse,Medium,Capacity Utilization Rate,76.4%,better,11,2011-03-17 13:15:00+00:00,-0.39,2011,1,3,Thursday
+-0.1%,USD,2011-03-17 09:15:00,0.7%,worse,Medium,Industrial Production m/m,0.3%,better,11,2011-03-17 13:15:00+00:00,-114.29,2011,1,3,Thursday
+43.4,USD,2011-03-17 10:00:00,29.9,better,High,Philly Fed Manufacturing Index,35.9,accurate,11,2011-03-17 14:00:00+00:00,45.15,2011,1,3,Thursday
+0.8%,USD,2011-03-17 10:00:00,0.9%,worse,Low,CB Leading Index m/m,0.1%,accurate,11,2011-03-17 14:00:00+00:00,-11.11,2011,1,3,Thursday
+-56B,USD,2011-03-17 10:30:00,-41B,accurate,Low,Natural Gas Storage,-71B,accurate,11,2011-03-17 14:30:00+00:00,-36.59,2011,1,3,Thursday
+5.0B,USD,2011-03-07 15:00:00,3.7B,better,Low,Consumer Credit m/m,4.1B,worse,10,2011-03-07 20:00:00+00:00,35.14,2011,1,3,Monday
+94.5,USD,2011-03-08 07:30:00,95.0,accurate,Low,NFIB Small Business Index,94.1,accurate,10,2011-03-08 12:30:00+00:00,-0.53,2011,1,3,Tuesday
+43.0,USD,2011-03-08 10:00:00,51.8,worse,Low,IBD/TIPP Economic Optimism,50.9,accurate,10,2011-03-08 15:00:00+00:00,-16.99,2011,1,3,Tuesday
+1.1%,USD,2011-03-09 10:00:00,0.9%,worse,Low,Final Wholesale Inventories m/m,1.3%,worse,10,2011-03-09 15:00:00+00:00,22.22,2011,1,3,Wednesday
+2.5M,USD,2011-03-09 10:30:00,0.8M,accurate,Medium,Crude Oil Inventories,-0.4M,accurate,10,2011-03-09 15:30:00+00:00,212.5,2011,1,3,Wednesday
+-46.3B,USD,2011-03-10 08:30:00,-41.4B,worse,High,Trade Balance,-40.3B,accurate,10,2011-03-10 13:30:00+00:00,-11.84,2011,1,3,Thursday
+397K,USD,2011-03-10 08:30:00,375K,worse,High,Unemployment Claims,371K,accurate,10,2011-03-10 13:30:00+00:00,5.87,2011,1,3,Thursday
+-71B,USD,2011-03-10 10:30:00,-72B,accurate,Low,Natural Gas Storage,-85B,accurate,10,2011-03-10 15:30:00+00:00,1.39,2011,1,3,Thursday
+-222.5B,USD,2011-03-10 14:00:00,-232.1B,better,Medium,Federal Budget Balance,-49.8B,accurate,10,2011-03-10 19:00:00+00:00,4.14,2011,1,3,Thursday
+0.7%,USD,2011-03-11 08:30:00,0.7%,accurate,High,Core Retail Sales m/m,0.6%,better,10,2011-03-11 13:30:00+00:00,0.0,2011,1,3,Friday
+1.0%,USD,2011-03-11 08:30:00,0.8%,better,High,Retail Sales m/m,0.7%,better,10,2011-03-11 13:30:00+00:00,25.0,2011,1,3,Friday
+68.2,USD,2011-03-11 09:55:00,77.0,worse,High,Prelim UoM Consumer Sentiment,77.5,better,10,2011-03-11 14:55:00+00:00,-11.43,2011,1,3,Friday
+0.9%,USD,2011-03-11 10:00:00,0.6%,worse,Medium,Business Inventories m/m,1.1%,worse,10,2011-03-11 15:00:00+00:00,50.0,2011,1,3,Friday
+0.1%,USD,2011-02-28 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.0%,accurate,9,2011-02-28 13:30:00+00:00,0.0,2011,1,2,Monday
+0.2%,USD,2011-02-28 08:30:00,0.5%,worse,Medium,Personal Spending m/m,0.5%,worse,9,2011-02-28 13:30:00+00:00,-60.0,2011,1,2,Monday
+1.0%,USD,2011-02-28 08:30:00,0.4%,better,Low,Personal Income m/m,0.4%,accurate,9,2011-02-28 13:30:00+00:00,150.0,2011,1,2,Monday
+71.2,USD,2011-02-28 09:45:00,67.9,better,Medium,Chicago PMI,68.8,accurate,9,2011-02-28 14:45:00+00:00,4.86,2011,1,2,Monday
+-2.8%,USD,2011-02-28 10:00:00,-2.2%,worse,High,Pending Home Sales m/m,-3.2%,worse,9,2011-02-28 15:00:00+00:00,-27.27,2011,1,2,Monday
+61.4,USD,2011-03-01 10:00:00,60.9,better,High,ISM Manufacturing PMI,60.8,accurate,9,2011-03-01 15:00:00+00:00,0.82,2011,1,3,Tuesday
+-0.7%,USD,2011-03-01 10:00:00,-0.4%,worse,Low,Construction Spending m/m,-1.6%,better,9,2011-03-01 15:00:00+00:00,-75.0,2011,1,3,Tuesday
+82.0,USD,2011-03-01 10:00:00,82.7,worse,Low,ISM Manufacturing Prices,81.5,accurate,9,2011-03-01 15:00:00+00:00,-0.85,2011,1,3,Tuesday
+13.4M,USD,2011-03-01 00:00:00,12.7M,better,Low,Total Vehicle Sales,12.6M,accurate,9,2011-03-01 05:00:00+00:00,5.51,2011,1,3,Tuesday
+217K,USD,2011-03-02 08:15:00,178K,better,High,ADP Non-Farm Employment Change,189K,accurate,9,2011-03-02 13:15:00+00:00,21.91,2011,1,3,Wednesday
+-0.4M,USD,2011-03-02 10:30:00,1.1M,accurate,Medium,Crude Oil Inventories,0.8M,accurate,9,2011-03-02 15:30:00+00:00,-136.36,2011,1,3,Wednesday
+368K,USD,2011-03-03 08:30:00,394K,better,High,Unemployment Claims,388K,accurate,9,2011-03-03 13:30:00+00:00,-6.6,2011,1,3,Thursday
+2.6%,USD,2011-03-03 08:30:00,2.6%,accurate,Medium,Revised Nonfarm Productivity q/q,2.6%,accurate,9,2011-03-03 13:30:00+00:00,0.0,2011,1,3,Thursday
+-0.6%,USD,2011-03-03 08:30:00,-0.6%,accurate,Low,Revised Unit Labor Costs q/q,-0.6%,accurate,9,2011-03-03 13:30:00+00:00,0.0,2011,1,3,Thursday
+59.7,USD,2011-03-03 10:00:00,59.6,accurate,High,ISM Non-Manufacturing PMI,59.4,accurate,9,2011-03-03 15:00:00+00:00,0.17,2011,1,3,Thursday
+-85B,USD,2011-03-03 10:30:00,-89B,accurate,Low,Natural Gas Storage,-81B,accurate,9,2011-03-03 15:30:00+00:00,4.49,2011,1,3,Thursday
+192K,USD,2011-03-04 08:30:00,191K,accurate,High,Non-Farm Employment Change,63K,better,9,2011-03-04 13:30:00+00:00,0.52,2011,1,3,Friday
+8.9%,USD,2011-03-04 08:30:00,9.1%,better,High,Unemployment Rate,9.0%,accurate,9,2011-03-04 13:30:00+00:00,-2.2,2011,1,3,Friday
+0.0%,USD,2011-03-04 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.4%,accurate,9,2011-03-04 13:30:00+00:00,-100.0,2011,1,3,Friday
+3.1%,USD,2011-03-04 10:00:00,2.1%,better,Medium,Factory Orders m/m,1.4%,better,9,2011-03-04 15:00:00+00:00,47.62,2011,1,3,Friday
+-2.4%,USD,2011-02-22 09:00:00,-2.2%,worse,Medium,S&P/CS Composite-20 HPI y/y,-1.6%,accurate,8,2011-02-22 14:00:00+00:00,-9.09,2011,1,2,Tuesday
+25,USD,2011-02-22 09:59:00,18,better,Low,Richmond Manufacturing Index,18,accurate,8,2011-02-22 14:59:00+00:00,38.89,2011,1,2,Tuesday
+70.4,USD,2011-02-22 10:00:00,65.1,better,High,CB Consumer Confidence,64.8,better,8,2011-02-22 15:00:00+00:00,8.14,2011,1,2,Tuesday
+5.36M,USD,2011-02-23 10:00:00,5.27M,better,High,Existing Home Sales,5.22M,worse,8,2011-02-23 15:00:00+00:00,1.71,2011,1,2,Wednesday
+-3.6%,USD,2011-02-24 08:30:00,0.4%,worse,High,Core Durable Goods Orders m/m,3.0%,better,8,2011-02-24 13:30:00+00:00,-1000.0,2011,1,2,Thursday
+391K,USD,2011-02-24 08:30:00,403K,better,High,Unemployment Claims,413K,accurate,8,2011-02-24 13:30:00+00:00,-2.98,2011,1,2,Thursday
+2.7%,USD,2011-02-24 08:30:00,2.5%,better,Medium,Durable Goods Orders m/m,-0.4%,better,8,2011-02-24 13:30:00+00:00,8.0,2011,1,2,Thursday
+284K,USD,2011-02-24 10:00:00,330K,worse,High,New Home Sales,325K,worse,8,2011-02-24 15:00:00+00:00,-13.94,2011,1,2,Thursday
+-0.3%,USD,2011-02-24 10:06:00,-0.2%,worse,Low,HPI m/m,-0.3%,worse,8,2011-02-24 15:06:00+00:00,-50.0,2011,1,2,Thursday
+-81B,USD,2011-02-24 10:30:00,-73B,accurate,Low,Natural Gas Storage,-233B,accurate,8,2011-02-24 15:30:00+00:00,-10.96,2011,1,2,Thursday
+0.8M,USD,2011-02-24 11:00:00,1.1M,accurate,Medium,Crude Oil Inventories,0.9M,accurate,8,2011-02-24 16:00:00+00:00,-27.27,2011,1,2,Thursday
+2.8%,USD,2011-02-25 08:30:00,3.3%,worse,High,Prelim GDP q/q,3.2%,accurate,8,2011-02-25 13:30:00+00:00,-15.15,2011,1,2,Friday
+0.4%,USD,2011-02-25 08:30:00,0.3%,accurate,Low,Prelim GDP Price Index q/q,0.3%,accurate,8,2011-02-25 13:30:00+00:00,33.33,2011,1,2,Friday
+77.5,USD,2011-02-25 09:55:00,75.5,better,Medium,Revised UoM Consumer Sentiment,75.1,accurate,8,2011-02-25 14:55:00+00:00,2.65,2011,1,2,Friday
+0.3%,USD,2011-02-15 08:30:00,0.6%,worse,High,Core Retail Sales m/m,0.3%,worse,7,2011-02-15 13:30:00+00:00,-50.0,2011,1,2,Tuesday
+0.3%,USD,2011-02-15 08:30:00,0.5%,worse,High,Retail Sales m/m,0.5%,worse,7,2011-02-15 13:30:00+00:00,-40.0,2011,1,2,Tuesday
+15.4,USD,2011-02-15 08:30:00,14.7,better,Medium,Empire State Manufacturing Index,11.9,accurate,7,2011-02-15 13:30:00+00:00,4.76,2011,1,2,Tuesday
+1.5%,USD,2011-02-15 08:30:00,0.9%,better,Medium,Import Prices m/m,1.2%,accurate,7,2011-02-15 13:30:00+00:00,66.67,2011,1,2,Tuesday
+65.9B,USD,2011-02-15 09:00:00,91.3B,worse,High,TIC Long-Term Purchases,85.1B,accurate,7,2011-02-15 14:00:00+00:00,-27.82,2011,1,2,Tuesday
+0.8%,USD,2011-02-15 10:00:00,0.7%,worse,Medium,Business Inventories m/m,0.4%,worse,7,2011-02-15 15:00:00+00:00,14.29,2011,1,2,Tuesday
+16,USD,2011-02-15 10:00:00,16,accurate,Low,NAHB Housing Market Index,16,accurate,7,2011-02-15 15:00:00+00:00,0.0,2011,1,2,Tuesday
+0.56M,USD,2011-02-16 08:30:00,0.57M,accurate,High,Building Permits,0.63M,accurate,7,2011-02-16 13:30:00+00:00,-1.75,2011,1,2,Wednesday
+0.8%,USD,2011-02-16 08:30:00,0.9%,worse,High,PPI m/m,1.1%,accurate,7,2011-02-16 13:30:00+00:00,-11.11,2011,1,2,Wednesday
+0.5%,USD,2011-02-16 08:30:00,0.2%,better,Medium,Core PPI m/m,0.2%,accurate,7,2011-02-16 13:30:00+00:00,150.0,2011,1,2,Wednesday
+0.60M,USD,2011-02-16 08:30:00,0.55M,better,Medium,Housing Starts,0.52M,accurate,7,2011-02-16 13:30:00+00:00,9.09,2011,1,2,Wednesday
+76.1%,USD,2011-02-16 09:15:00,76.4%,worse,Medium,Capacity Utilization Rate,76.2%,better,7,2011-02-16 14:15:00+00:00,-0.39,2011,1,2,Wednesday
+-0.1%,USD,2011-02-16 09:15:00,0.5%,worse,Medium,Industrial Production m/m,1.2%,better,7,2011-02-16 14:15:00+00:00,-120.0,2011,1,2,Wednesday
+0.9M,USD,2011-02-16 10:30:00,1.8M,accurate,Medium,Crude Oil Inventories,1.9M,accurate,7,2011-02-16 15:30:00+00:00,-50.0,2011,1,2,Wednesday
+0.2%,USD,2011-02-17 08:30:00,0.1%,better,High,Core CPI m/m,0.1%,accurate,7,2011-02-17 13:30:00+00:00,100.0,2011,1,2,Thursday
+410K,USD,2011-02-17 08:30:00,401K,worse,High,Unemployment Claims,385K,accurate,7,2011-02-17 13:30:00+00:00,2.24,2011,1,2,Thursday
+0.4%,USD,2011-02-17 08:30:00,0.3%,better,Medium,CPI m/m,0.5%,accurate,7,2011-02-17 13:30:00+00:00,33.33,2011,1,2,Thursday
+35.9,USD,2011-02-17 10:00:00,20.8,better,High,Philly Fed Manufacturing Index,19.3,accurate,7,2011-02-17 15:00:00+00:00,72.6,2011,1,2,Thursday
+0.1%,USD,2011-02-17 10:00:00,0.3%,worse,Low,CB Leading Index m/m,0.8%,worse,7,2011-02-17 15:00:00+00:00,-66.67,2011,1,2,Thursday
+-233B,USD,2011-02-17 10:30:00,-233B,accurate,Low,Natural Gas Storage,-209B,accurate,7,2011-02-17 15:30:00+00:00,0.0,2011,1,2,Thursday
+6.1B,USD,2011-02-07 15:00:00,2.2B,better,Low,Consumer Credit m/m,2.0B,better,6,2011-02-07 20:00:00+00:00,177.27,2011,1,2,Monday
+94.1,USD,2011-02-08 07:30:00,94.0,accurate,Low,NFIB Small Business Index,92.6,accurate,6,2011-02-08 12:30:00+00:00,0.11,2011,1,2,Tuesday
+50.9,USD,2011-02-08 10:00:00,52.8,worse,Low,IBD/TIPP Economic Optimism,51.9,accurate,6,2011-02-08 15:00:00+00:00,-3.6,2011,1,2,Tuesday
+1.9M,USD,2011-02-09 10:30:00,2.2M,accurate,Medium,Crude Oil Inventories,2.6M,accurate,6,2011-02-09 15:30:00+00:00,-13.64,2011,1,2,Wednesday
+383K,USD,2011-02-10 08:30:00,411K,better,High,Unemployment Claims,419K,accurate,6,2011-02-10 13:30:00+00:00,-6.81,2011,1,2,Thursday
+1.0%,USD,2011-02-10 10:00:00,0.7%,worse,Low,Final Wholesale Inventories m/m,0.0%,worse,6,2011-02-10 15:00:00+00:00,42.86,2011,1,2,Thursday
+-209B,USD,2011-02-10 10:30:00,-191B,accurate,Low,Natural Gas Storage,-189B,accurate,6,2011-02-10 15:30:00+00:00,-9.42,2011,1,2,Thursday
+-49.8B,USD,2011-02-10 13:55:00,-69.5B,better,Medium,Federal Budget Balance,-78.1B,accurate,6,2011-02-10 18:55:00+00:00,28.35,2011,1,2,Thursday
+-40.6B,USD,2011-02-11 08:30:00,-40.4B,accurate,High,Trade Balance,-38.3B,accurate,6,2011-02-11 13:30:00+00:00,-0.5,2011,1,2,Friday
+75.1,USD,2011-02-11 09:55:00,74.8,accurate,High,Prelim UoM Consumer Sentiment,74.2,better,6,2011-02-11 14:55:00+00:00,0.4,2011,1,2,Friday
+0.0%,USD,2011-01-31 08:30:00,0.1%,worse,Medium,Core PCE Price Index m/m,0.1%,accurate,5,2011-01-31 13:30:00+00:00,-100.0,2011,1,1,Monday
+0.7%,USD,2011-01-31 08:30:00,0.6%,better,Medium,Personal Spending m/m,0.3%,worse,5,2011-01-31 13:30:00+00:00,16.67,2011,1,1,Monday
+0.4%,USD,2011-01-31 08:30:00,0.5%,worse,Low,Personal Income m/m,0.4%,better,5,2011-01-31 13:30:00+00:00,-20.0,2011,1,1,Monday
+68.8,USD,2011-01-31 09:45:00,65.5,better,Medium,Chicago PMI,68.6,accurate,5,2011-01-31 14:45:00+00:00,5.04,2011,1,1,Monday
+60.8,USD,2011-02-01 10:00:00,57.8,better,High,ISM Manufacturing PMI,57.0,accurate,5,2011-02-01 15:00:00+00:00,5.19,2011,1,2,Tuesday
+-2.5%,USD,2011-02-01 10:00:00,0.1%,worse,Low,Construction Spending m/m,-0.2%,worse,5,2011-02-01 15:00:00+00:00,-2600.0,2011,1,2,Tuesday
+81.5,USD,2011-02-01 10:00:00,73.6,better,Low,ISM Manufacturing Prices,72.5,accurate,5,2011-02-01 15:00:00+00:00,10.73,2011,1,2,Tuesday
+12.6M,USD,2011-02-01 00:00:00,12.8M,worse,Low,Total Vehicle Sales,12.6M,accurate,5,2011-02-01 05:00:00+00:00,-1.56,2011,1,2,Tuesday
+187K,USD,2011-02-02 08:15:00,148K,better,High,ADP Non-Farm Employment Change,247K,worse,5,2011-02-02 13:15:00+00:00,26.35,2011,1,2,Wednesday
+2.6M,USD,2011-02-02 10:30:00,2.5M,accurate,Medium,Crude Oil Inventories,4.8M,accurate,5,2011-02-02 15:30:00+00:00,4.0,2011,1,2,Wednesday
+415K,USD,2011-02-03 08:30:00,420K,better,High,Unemployment Claims,457K,accurate,5,2011-02-03 13:30:00+00:00,-1.19,2011,1,2,Thursday
+2.6%,USD,2011-02-03 08:30:00,2.1%,worse,Medium,Prelim Nonfarm Productivity q/q,2.3%,worse,5,2011-02-03 13:30:00+00:00,23.81,2011,1,2,Thursday
+-0.6%,USD,2011-02-03 08:30:00,0.4%,worse,Medium,Prelim Unit Labor Costs q/q,-0.1%,accurate,5,2011-02-03 13:30:00+00:00,-250.0,2011,1,2,Thursday
+59.4,USD,2011-02-03 10:00:00,57.2,better,High,ISM Non-Manufacturing PMI,57.1,accurate,5,2011-02-03 15:00:00+00:00,3.85,2011,1,2,Thursday
+0.2%,USD,2011-02-03 10:00:00,-0.2%,better,Medium,Factory Orders m/m,1.3%,better,5,2011-02-03 15:00:00+00:00,200.0,2011,1,2,Thursday
+-189B,USD,2011-02-03 10:30:00,-185B,accurate,Low,Natural Gas Storage,-174B,accurate,5,2011-02-03 15:30:00+00:00,-2.16,2011,1,2,Thursday
+36K,USD,2011-02-04 08:30:00,138K,worse,High,Non-Farm Employment Change,121K,better,5,2011-02-04 13:30:00+00:00,-73.91,2011,1,2,Friday
+9.0%,USD,2011-02-04 08:30:00,9.5%,better,High,Unemployment Rate,9.4%,accurate,5,2011-02-04 13:30:00+00:00,-5.26,2011,1,2,Friday
+0.4%,USD,2011-02-04 08:30:00,0.2%,better,Medium,Average Hourly Earnings m/m,0.1%,accurate,5,2011-02-04 13:30:00+00:00,100.0,2011,1,2,Friday
+-1.6%,USD,2011-01-25 09:00:00,-1.4%,worse,Medium,S&P/CS Composite-20 HPI y/y,-0.8%,accurate,4,2011-01-25 14:00:00+00:00,-14.29,2011,1,1,Tuesday
+18,USD,2011-01-25 09:59:00,23,worse,Low,Richmond Manufacturing Index,25,accurate,4,2011-01-25 14:59:00+00:00,-21.74,2011,1,1,Tuesday
+60.6,USD,2011-01-25 10:00:00,54.4,better,High,CB Consumer Confidence,53.3,better,4,2011-01-25 15:00:00+00:00,11.4,2011,1,1,Tuesday
+0.0%,USD,2011-01-25 10:00:00,-0.1%,better,Low,HPI m/m,0.2%,worse,4,2011-01-25 15:00:00+00:00,100.0,2011,1,1,Tuesday
+329K,USD,2011-01-26 10:00:00,302K,better,High,New Home Sales,280K,worse,4,2011-01-26 15:00:00+00:00,8.94,2011,1,1,Wednesday
+4.8M,USD,2011-01-26 10:30:00,0.9M,accurate,Medium,Crude Oil Inventories,2.6M,accurate,4,2011-01-26 15:30:00+00:00,433.33,2011,1,1,Wednesday
+<0.25%,USD,2011-01-26 14:15:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,4,2011-01-26 19:15:00+00:00,0.0,2011,1,1,Wednesday
+0.5%,USD,2011-01-27 08:30:00,0.9%,worse,High,Core Durable Goods Orders m/m,4.5%,better,4,2011-01-27 13:30:00+00:00,-44.44,2011,1,1,Thursday
+454K,USD,2011-01-27 08:30:00,407K,worse,High,Unemployment Claims,403K,accurate,4,2011-01-27 13:30:00+00:00,11.55,2011,1,1,Thursday
+-2.5%,USD,2011-01-27 08:30:00,1.6%,worse,Medium,Durable Goods Orders m/m,-0.1%,better,4,2011-01-27 13:30:00+00:00,-256.25,2011,1,1,Thursday
+2.0%,USD,2011-01-27 10:00:00,0.9%,better,High,Pending Home Sales m/m,3.1%,worse,4,2011-01-27 15:00:00+00:00,122.22,2011,1,1,Thursday
+-174B,USD,2011-01-27 10:30:00,-121B,accurate,Low,Natural Gas Storage,-243B,accurate,4,2011-01-27 15:30:00+00:00,-43.8,2011,1,1,Thursday
+3.2%,USD,2011-01-28 08:30:00,3.5%,worse,High,Advance GDP q/q,2.6%,better,4,2011-01-28 13:30:00+00:00,-8.57,2011,1,1,Friday
+0.3%,USD,2011-01-28 08:30:00,1.7%,worse,Medium,Advance GDP Price Index q/q,2.1%,worse,4,2011-01-28 13:30:00+00:00,-82.35,2011,1,1,Friday
+0.4%,USD,2011-01-28 08:30:00,0.5%,worse,Medium,Employment Cost Index q/q,0.4%,accurate,4,2011-01-28 13:30:00+00:00,-20.0,2011,1,1,Friday
+74.2,USD,2011-01-28 09:55:00,73.1,better,Medium,Revised UoM Consumer Sentiment,72.7,accurate,4,2011-01-28 14:55:00+00:00,1.5,2011,1,1,Friday
+11.9,USD,2011-01-18 08:30:00,12.6,worse,Medium,Empire State Manufacturing Index,10.6,accurate,3,2011-01-18 13:30:00+00:00,-5.56,2011,1,1,Tuesday
+85.1B,USD,2011-01-18 09:00:00,43.4B,better,High,TIC Long-Term Purchases,28.9B,accurate,3,2011-01-18 14:00:00+00:00,96.08,2011,1,1,Tuesday
+16,USD,2011-01-18 10:00:00,17,worse,Low,NAHB Housing Market Index,16,accurate,3,2011-01-18 15:00:00+00:00,-5.88,2011,1,1,Tuesday
+0.64M,USD,2011-01-19 08:30:00,0.56M,better,High,Building Permits,0.54M,accurate,3,2011-01-19 13:30:00+00:00,14.29,2011,1,1,Wednesday
+0.53M,USD,2011-01-19 08:30:00,0.55M,accurate,Medium,Housing Starts,0.55M,accurate,3,2011-01-19 13:30:00+00:00,-3.64,2011,1,1,Wednesday
+404K,USD,2011-01-20 08:30:00,422K,better,High,Unemployment Claims,441K,accurate,3,2011-01-20 13:30:00+00:00,-4.27,2011,1,1,Thursday
+5.28M,USD,2011-01-20 10:00:00,4.88M,better,High,Existing Home Sales,4.70M,accurate,3,2011-01-20 15:00:00+00:00,8.2,2011,1,1,Thursday
+19.3,USD,2011-01-20 10:00:00,20.7,worse,High,Philly Fed Manufacturing Index,24.3,accurate,3,2011-01-20 15:00:00+00:00,-6.76,2011,1,1,Thursday
+1.0%,USD,2011-01-20 10:00:00,0.7%,better,Low,CB Leading Index m/m,1.1%,accurate,3,2011-01-20 15:00:00+00:00,42.86,2011,1,1,Thursday
+-243B,USD,2011-01-20 10:30:00,-223B,accurate,Low,Natural Gas Storage,-138B,accurate,3,2011-01-20 15:30:00+00:00,-8.97,2011,1,1,Thursday
+2.6M,USD,2011-01-20 11:00:00,-1.1M,accurate,Medium,Crude Oil Inventories,-2.2M,accurate,3,2011-01-20 16:00:00+00:00,336.36,2011,1,1,Thursday
+92.6,USD,2011-01-11 07:30:00,94.6,worse,Low,NFIB Small Business Index,93.2,accurate,2,2011-01-11 12:30:00+00:00,-2.11,2011,1,1,Tuesday
+-0.2%,USD,2011-01-11 10:00:00,1.1%,better,Low,Final Wholesale Inventories m/m,1.7%,better,2,2011-01-11 15:00:00+00:00,-118.18,2011,1,1,Tuesday
+51.9,USD,2011-01-11 19:22:00,47.1,better,Low,IBD/TIPP Economic Optimism,45.8,accurate,2,2011-01-12 00:22:00+00:00,10.19,2011,1,1,Tuesday
+1.1%,USD,2011-01-12 08:30:00,1.3%,worse,Medium,Import Prices m/m,1.5%,better,2,2011-01-12 13:30:00+00:00,-15.38,2011,1,1,Wednesday
+-2.2M,USD,2011-01-12 10:30:00,0.4M,accurate,Medium,Crude Oil Inventories,-4.2M,accurate,2,2011-01-12 15:30:00+00:00,-650.0,2011,1,1,Wednesday
+-80.0B,USD,2011-01-12 14:00:00,-81.1B,accurate,Medium,Federal Budget Balance,-150.4B,accurate,2,2011-01-12 19:00:00+00:00,1.36,2011,1,1,Wednesday
+1.1%,USD,2011-01-13 08:30:00,0.8%,better,High,PPI m/m,0.8%,accurate,2,2011-01-13 13:30:00+00:00,37.5,2011,1,1,Thursday
+-38.3B,USD,2011-01-13 08:30:00,-40.8B,better,High,Trade Balance,-38.4B,accurate,2,2011-01-13 13:30:00+00:00,6.13,2011,1,1,Thursday
+445K,USD,2011-01-13 08:30:00,405K,worse,High,Unemployment Claims,410K,accurate,2,2011-01-13 13:30:00+00:00,9.88,2011,1,1,Thursday
+0.2%,USD,2011-01-13 08:30:00,0.2%,accurate,Medium,Core PPI m/m,0.3%,accurate,2,2011-01-13 13:30:00+00:00,0.0,2011,1,1,Thursday
+-138B,USD,2011-01-13 10:30:00,-146B,accurate,Low,Natural Gas Storage,-135B,accurate,2,2011-01-13 15:30:00+00:00,5.48,2011,1,1,Thursday
+0.1%,USD,2011-01-14 08:30:00,0.1%,accurate,High,Core CPI m/m,0.1%,accurate,2,2011-01-14 13:30:00+00:00,0.0,2011,1,1,Friday
+0.5%,USD,2011-01-14 08:30:00,0.7%,worse,High,Core Retail Sales m/m,1.0%,worse,2,2011-01-14 13:30:00+00:00,-28.57,2011,1,1,Friday
+0.6%,USD,2011-01-14 08:30:00,0.8%,worse,High,Retail Sales m/m,0.8%,accurate,2,2011-01-14 13:30:00+00:00,-25.0,2011,1,1,Friday
+0.5%,USD,2011-01-14 08:30:00,0.4%,better,Medium,CPI m/m,0.1%,accurate,2,2011-01-14 13:30:00+00:00,25.0,2011,1,1,Friday
+76.0%,USD,2011-01-14 09:15:00,75.6%,better,Medium,Capacity Utilization Rate,75.4%,better,2,2011-01-14 14:15:00+00:00,0.53,2011,1,1,Friday
+0.8%,USD,2011-01-14 09:15:00,0.5%,better,Medium,Industrial Production m/m,0.3%,worse,2,2011-01-14 14:15:00+00:00,60.0,2011,1,1,Friday
+72.7,USD,2011-01-14 09:55:00,75.5,worse,High,Prelim UoM Consumer Sentiment,74.5,accurate,2,2011-01-14 14:55:00+00:00,-3.71,2011,1,1,Friday
+0.2%,USD,2011-01-14 10:00:00,0.7%,better,Medium,Business Inventories m/m,0.8%,worse,2,2011-01-14 15:00:00+00:00,-71.43,2011,1,1,Friday
+57.0,USD,2011-01-03 10:00:00,57.0,accurate,High,ISM Manufacturing PMI,56.6,accurate,1,2011-01-03 15:00:00+00:00,0.0,2011,1,1,Monday
+0.4%,USD,2011-01-03 10:00:00,0.2%,accurate,Low,Construction Spending m/m,0.7%,accurate,1,2011-01-03 15:00:00+00:00,100.0,2011,1,1,Monday
+72.5,USD,2011-01-03 10:00:00,71.2,better,Low,ISM Manufacturing Prices,69.5,accurate,1,2011-01-03 15:00:00+00:00,1.83,2011,1,1,Monday
+0.7%,USD,2011-01-04 10:00:00,-0.1%,better,Medium,Factory Orders m/m,-0.7%,better,1,2011-01-04 15:00:00+00:00,800.0,2011,1,1,Tuesday
+12.6M,USD,2011-01-04 00:00:00,12.3M,better,Low,Total Vehicle Sales,12.3M,accurate,1,2011-01-04 05:00:00+00:00,2.44,2011,1,1,Tuesday
+297K,USD,2011-01-05 08:15:00,101K,better,High,ADP Non-Farm Employment Change,92K,accurate,1,2011-01-05 13:15:00+00:00,194.06,2011,1,1,Wednesday
+57.1,USD,2011-01-05 10:00:00,55.6,better,High,ISM Non-Manufacturing PMI,55.0,accurate,1,2011-01-05 15:00:00+00:00,2.7,2011,1,1,Wednesday
+-4.2M,USD,2011-01-05 10:30:00,-1.4M,accurate,Medium,Crude Oil Inventories,-1.3M,accurate,1,2011-01-05 15:30:00+00:00,-200.0,2011,1,1,Wednesday
+409K,USD,2011-01-06 08:30:00,400K,worse,High,Unemployment Claims,391K,accurate,1,2011-01-06 13:30:00+00:00,2.25,2011,1,1,Thursday
+-135B,USD,2011-01-06 10:30:00,-135B,accurate,Low,Natural Gas Storage,-136B,accurate,1,2011-01-06 15:30:00+00:00,0.0,2011,1,1,Thursday
+103K,USD,2011-01-07 08:30:00,159K,worse,High,Non-Farm Employment Change,71K,better,1,2011-01-07 13:30:00+00:00,-35.22,2011,1,1,Friday
+9.4%,USD,2011-01-07 08:30:00,9.7%,better,High,Unemployment Rate,9.8%,accurate,1,2011-01-07 13:30:00+00:00,-3.09,2011,1,1,Friday
+0.1%,USD,2011-01-07 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.0%,accurate,1,2011-01-07 13:30:00+00:00,-50.0,2011,1,1,Friday
+1.3B,USD,2011-01-07 15:00:00,0.1B,better,Low,Consumer Credit m/m,7.0B,better,1,2011-01-07 20:00:00+00:00,1200.0,2011,1,1,Friday

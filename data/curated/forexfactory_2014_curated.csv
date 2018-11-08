@@ -1,0 +1,853 @@
+actual,country,datetime,forecast,forecast_error,impact,new,previous,previous_error,week,datetime_gmt,forecast_error_ratio,year,quarter,month,day_name
+4.5%,USD,2014-12-30 09:00:00,4.4%,accurate,Low,S&P/CS Composite-20 HPI y/y,4.8%,accurate,52,2014-12-30 14:00:00+00:00,2.27,2014,4,12,Tuesday
+92.6,USD,2014-12-30 10:00:00,94.6,worse,High,CB Consumer Confidence,91.0,better,52,2014-12-30 15:00:00+00:00,-2.11,2014,4,12,Tuesday
+298K,USD,2014-12-31 08:30:00,287K,worse,High,Unemployment Claims,281K,accurate,52,2014-12-31 13:30:00+00:00,3.83,2014,4,12,Wednesday
+58.3,USD,2014-12-31 09:45:00,60.2,worse,Medium,Chicago PMI,60.8,accurate,52,2014-12-31 14:45:00+00:00,-3.16,2014,4,12,Wednesday
+0.8%,USD,2014-12-31 10:00:00,0.6%,better,Medium,Pending Home Sales m/m,-1.2%,accurate,52,2014-12-31 15:00:00+00:00,33.33,2014,4,12,Wednesday
+-1.8M,USD,2014-12-31 10:30:00,0.2M,accurate,Medium,Crude Oil Inventories,7.3M,accurate,52,2014-12-31 15:30:00+00:00,-1000.0,2014,4,12,Wednesday
+-26B,USD,2014-12-31 12:00:00,-37B,accurate,Low,Natural Gas Storage,-49B,accurate,52,2014-12-31 17:00:00+00:00,29.73,2014,4,12,Wednesday
+4.93M,USD,2014-12-22 10:00:00,5.21M,worse,Medium,Existing Home Sales,5.25M,accurate,52,2014-12-22 15:00:00+00:00,-5.37,2014,4,12,Monday
+-0.4%,USD,2014-12-23 08:30:00,1.1%,worse,High,Core Durable Goods Orders m/m,-1.1%,worse,52,2014-12-23 13:30:00+00:00,-136.36,2014,4,12,Tuesday
+5.0%,USD,2014-12-23 08:30:00,4.3%,better,High,Final GDP q/q,3.9%,accurate,52,2014-12-23 13:30:00+00:00,16.28,2014,4,12,Tuesday
+-0.7%,USD,2014-12-23 08:30:00,3.0%,worse,Medium,Durable Goods Orders m/m,0.3%,accurate,52,2014-12-23 13:30:00+00:00,-123.33,2014,4,12,Tuesday
+1.4%,USD,2014-12-23 08:30:00,1.4%,accurate,Low,Final GDP Price Index q/q,1.4%,accurate,52,2014-12-23 13:30:00+00:00,0.0,2014,4,12,Tuesday
+0.6%,USD,2014-12-23 09:00:00,0.3%,better,Low,HPI m/m,0.0%,accurate,52,2014-12-23 14:00:00+00:00,100.0,2014,4,12,Tuesday
+93.6,USD,2014-12-23 09:55:00,93.5,accurate,Medium,Revised UoM Consumer Sentiment,93.8,accurate,52,2014-12-23 14:55:00+00:00,0.11,2014,4,12,Tuesday
+7,USD,2014-12-23 09:59:00,8,worse,Low,Richmond Manufacturing Index,4,accurate,52,2014-12-23 14:59:00+00:00,-12.5,2014,4,12,Tuesday
+438K,USD,2014-12-23 10:00:00,461K,worse,High,New Home Sales,445K,worse,52,2014-12-23 15:00:00+00:00,-4.99,2014,4,12,Tuesday
+0.0%,USD,2014-12-23 10:00:00,0.1%,worse,Medium,Core PCE Price Index m/m,0.2%,accurate,52,2014-12-23 15:00:00+00:00,-100.0,2014,4,12,Tuesday
+0.6%,USD,2014-12-23 10:00:00,0.5%,better,Medium,Personal Spending m/m,0.3%,better,52,2014-12-23 15:00:00+00:00,20.0,2014,4,12,Tuesday
+0.4%,USD,2014-12-23 10:00:00,0.6%,worse,Low,Personal Income m/m,0.3%,better,52,2014-12-23 15:00:00+00:00,-33.33,2014,4,12,Tuesday
+280K,USD,2014-12-24 08:30:00,291K,better,High,Unemployment Claims,289K,accurate,52,2014-12-24 13:30:00+00:00,-3.78,2014,4,12,Wednesday
+7.3M,USD,2014-12-24 10:30:00,-2.4M,accurate,Medium,Crude Oil Inventories,-0.8M,accurate,52,2014-12-24 15:30:00+00:00,404.17,2014,4,12,Wednesday
+-49B,USD,2014-12-24 12:00:00,-81B,accurate,Low,Natural Gas Storage,-64B,accurate,52,2014-12-24 17:00:00+00:00,39.51,2014,4,12,Wednesday
+-3.6,USD,2014-12-15 08:30:00,12.1,worse,Medium,Empire State Manufacturing Index,10.2,accurate,51,2014-12-15 13:30:00+00:00,-129.75,2014,4,12,Monday
+80.1%,USD,2014-12-15 09:15:00,79.4%,better,Medium,Capacity Utilization Rate,79.3%,better,51,2014-12-15 14:15:00+00:00,0.88,2014,4,12,Monday
+1.3%,USD,2014-12-15 09:15:00,0.8%,better,Medium,Industrial Production m/m,0.1%,better,51,2014-12-15 14:15:00+00:00,62.5,2014,4,12,Monday
+57,USD,2014-12-15 10:00:00,59,worse,Medium,NAHB Housing Market Index,58,accurate,51,2014-12-15 15:00:00+00:00,-3.39,2014,4,12,Monday
+-1.4B,USD,2014-12-15 16:00:00,72.8B,worse,Low,TIC Long-Term Purchases,164.3B,accurate,51,2014-12-15 21:00:00+00:00,-101.92,2014,4,12,Monday
+1.04M,USD,2014-12-16 08:30:00,1.06M,accurate,High,Building Permits,1.09M,accurate,51,2014-12-16 13:30:00+00:00,-1.89,2014,4,12,Tuesday
+1.03M,USD,2014-12-16 08:30:00,1.04M,accurate,Medium,Housing Starts,1.05M,better,51,2014-12-16 13:30:00+00:00,-0.96,2014,4,12,Tuesday
+53.7,USD,2014-12-16 09:45:00,56.1,worse,Medium,Flash Manufacturing PMI,54.8,accurate,51,2014-12-16 14:45:00+00:00,-4.28,2014,4,12,Tuesday
+-0.3%,USD,2014-12-17 08:30:00,-0.1%,worse,High,CPI m/m,0.0%,accurate,51,2014-12-17 13:30:00+00:00,-200.0,2014,4,12,Wednesday
+0.1%,USD,2014-12-17 08:30:00,0.1%,accurate,High,Core CPI m/m,0.2%,accurate,51,2014-12-17 13:30:00+00:00,0.0,2014,4,12,Wednesday
+-100B,USD,2014-12-17 08:30:00,-98B,accurate,Medium,Current Account,-98B,accurate,51,2014-12-17 13:30:00+00:00,-2.04,2014,4,12,Wednesday
+-0.8M,USD,2014-12-17 10:30:00,-2.6M,accurate,Medium,Crude Oil Inventories,1.5M,accurate,51,2014-12-17 15:30:00+00:00,69.23,2014,4,12,Wednesday
+<0.25%,USD,2014-12-17 14:00:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,51,2014-12-17 19:00:00+00:00,0.0,2014,4,12,Wednesday
+289K,USD,2014-12-18 08:30:00,297K,better,High,Unemployment Claims,295K,accurate,51,2014-12-18 13:30:00+00:00,-2.69,2014,4,12,Thursday
+53.6,USD,2014-12-18 09:45:00,57.1,worse,Low,Flash Services PMI,56.2,accurate,51,2014-12-18 14:45:00+00:00,-6.13,2014,4,12,Thursday
+24.5,USD,2014-12-18 10:00:00,26.3,worse,High,Philly Fed Manufacturing Index,40.8,accurate,51,2014-12-18 15:00:00+00:00,-6.84,2014,4,12,Thursday
+0.6%,USD,2014-12-18 10:00:00,0.6%,accurate,Low,CB Leading Index m/m,0.6%,worse,51,2014-12-18 15:00:00+00:00,0.0,2014,4,12,Thursday
+-64B,USD,2014-12-18 10:30:00,-61B,accurate,Low,Natural Gas Storage,-51B,accurate,51,2014-12-18 15:30:00+00:00,-4.92,2014,4,12,Thursday
+98.1,USD,2014-12-09 07:30:00,96.6,better,Low,NFIB Small Business Index,96.1,accurate,50,2014-12-09 12:30:00+00:00,1.55,2014,4,12,Tuesday
+4.83M,USD,2014-12-09 10:00:00,4.81M,accurate,Medium,JOLTS Job Openings,4.69M,accurate,50,2014-12-09 15:00:00+00:00,0.42,2014,4,12,Tuesday
+0.4%,USD,2014-12-09 10:00:00,0.1%,worse,Low,Final Wholesale Inventories m/m,0.4%,worse,50,2014-12-09 15:00:00+00:00,300.0,2014,4,12,Tuesday
+48.4,USD,2014-12-09 10:00:00,47.2,better,Low,IBD/TIPP Economic Optimism,46.4,accurate,50,2014-12-09 15:00:00+00:00,2.54,2014,4,12,Tuesday
+1.5M,USD,2014-12-10 10:30:00,-2.6M,accurate,Medium,Crude Oil Inventories,-3.7M,accurate,50,2014-12-10 15:30:00+00:00,157.69,2014,4,12,Wednesday
+-56.8B,USD,2014-12-10 14:00:00,-68.3B,better,Low,Federal Budget Balance,-121.7B,accurate,50,2014-12-10 19:00:00+00:00,16.84,2014,4,12,Wednesday
+0.5%,USD,2014-12-11 08:30:00,0.1%,better,High,Core Retail Sales m/m,0.4%,better,50,2014-12-11 13:30:00+00:00,400.0,2014,4,12,Thursday
+0.7%,USD,2014-12-11 08:30:00,0.4%,better,High,Retail Sales m/m,0.5%,better,50,2014-12-11 13:30:00+00:00,75.0,2014,4,12,Thursday
+294K,USD,2014-12-11 08:30:00,299K,better,High,Unemployment Claims,297K,accurate,50,2014-12-11 13:30:00+00:00,-1.67,2014,4,12,Thursday
+-1.5%,USD,2014-12-11 08:30:00,-1.7%,better,Medium,Import Prices m/m,-1.2%,accurate,50,2014-12-11 13:30:00+00:00,11.76,2014,4,12,Thursday
+0.2%,USD,2014-12-11 10:00:00,0.2%,accurate,Medium,Business Inventories m/m,0.3%,accurate,50,2014-12-11 15:00:00+00:00,0.0,2014,4,12,Thursday
+-51B,USD,2014-12-11 10:30:00,-45B,accurate,Low,Natural Gas Storage,-22B,accurate,50,2014-12-11 15:30:00+00:00,-13.33,2014,4,12,Thursday
+-0.2%,USD,2014-12-12 08:30:00,-0.1%,worse,High,PPI m/m,0.2%,accurate,50,2014-12-12 13:30:00+00:00,-100.0,2014,4,12,Friday
+0.0%,USD,2014-12-12 08:30:00,0.1%,worse,Medium,Core PPI m/m,0.4%,accurate,50,2014-12-12 13:30:00+00:00,-100.0,2014,4,12,Friday
+93.8,USD,2014-12-12 09:55:00,89.6,better,High,Prelim UoM Consumer Sentiment,88.8,worse,50,2014-12-12 14:55:00+00:00,4.69,2014,4,12,Friday
+54.8,USD,2014-12-01 09:45:00,55.0,accurate,Low,Final Manufacturing PMI,54.7,accurate,49,2014-12-01 14:45:00+00:00,-0.36,2014,4,12,Monday
+58.7,USD,2014-12-01 10:00:00,57.9,better,High,ISM Manufacturing PMI,59.0,accurate,49,2014-12-01 15:00:00+00:00,1.38,2014,4,12,Monday
+44.5,USD,2014-12-01 10:00:00,52.6,worse,Low,ISM Manufacturing Prices,53.5,accurate,49,2014-12-01 15:00:00+00:00,-15.4,2014,4,12,Monday
+1.1%,USD,2014-12-02 10:00:00,0.6%,better,Low,Construction Spending m/m,-0.1%,better,49,2014-12-02 15:00:00+00:00,83.33,2014,4,12,Tuesday
+17.2M,USD,2014-12-02 00:00:00,16.6M,better,Low,Total Vehicle Sales,16.5M,accurate,49,2014-12-02 05:00:00+00:00,3.61,2014,4,12,Tuesday
+208K,USD,2014-12-03 08:15:00,223K,worse,High,ADP Non-Farm Employment Change,233K,accurate,49,2014-12-03 13:15:00+00:00,-6.73,2014,4,12,Wednesday
+2.3%,USD,2014-12-03 08:30:00,2.3%,accurate,Medium,Revised Nonfarm Productivity q/q,2.0%,accurate,49,2014-12-03 13:30:00+00:00,0.0,2014,4,12,Wednesday
+-1.0%,USD,2014-12-03 08:30:00,0.3%,worse,Low,Revised Unit Labor Costs q/q,0.3%,accurate,49,2014-12-03 13:30:00+00:00,-433.33,2014,4,12,Wednesday
+56.2,USD,2014-12-03 09:45:00,56.3,accurate,Low,Final Services PMI,56.3,accurate,49,2014-12-03 14:45:00+00:00,-0.18,2014,4,12,Wednesday
+59.3,USD,2014-12-03 10:00:00,57.5,better,High,ISM Non-Manufacturing PMI,57.1,accurate,49,2014-12-03 15:00:00+00:00,3.13,2014,4,12,Wednesday
+-3.7M,USD,2014-12-03 10:30:00,1.1M,accurate,Medium,Crude Oil Inventories,1.9M,accurate,49,2014-12-03 15:30:00+00:00,-436.36,2014,4,12,Wednesday
+297K,USD,2014-12-04 08:30:00,296K,accurate,High,Unemployment Claims,314K,accurate,49,2014-12-04 13:30:00+00:00,0.34,2014,4,12,Thursday
+-22B,USD,2014-12-04 10:30:00,-51B,accurate,Low,Natural Gas Storage,-162B,accurate,49,2014-12-04 15:30:00+00:00,56.86,2014,4,12,Thursday
+321K,USD,2014-12-05 08:30:00,231K,better,High,Non-Farm Employment Change,243K,better,49,2014-12-05 13:30:00+00:00,38.96,2014,4,12,Friday
+-43.4B,USD,2014-12-05 08:30:00,-41.3B,worse,High,Trade Balance,-43.6B,accurate,49,2014-12-05 13:30:00+00:00,-5.08,2014,4,12,Friday
+5.8%,USD,2014-12-05 08:30:00,5.8%,accurate,High,Unemployment Rate,5.8%,accurate,49,2014-12-05 13:30:00+00:00,0.0,2014,4,12,Friday
+0.4%,USD,2014-12-05 08:30:00,0.2%,better,Medium,Average Hourly Earnings m/m,0.1%,accurate,49,2014-12-05 13:30:00+00:00,100.0,2014,4,12,Friday
+-0.7%,USD,2014-12-05 10:00:00,0.0%,worse,Medium,Factory Orders m/m,-0.5%,accurate,49,2014-12-05 15:00:00+00:00,-700.0,2014,4,12,Friday
+13.2B,USD,2014-12-05 15:00:00,16.5B,worse,Low,Consumer Credit m/m,15.4B,worse,49,2014-12-05 20:00:00+00:00,-20.0,2014,4,12,Friday
+56.3,USD,2014-11-24 09:45:00,57.3,worse,Low,Flash Services PMI,57.1,accurate,48,2014-11-24 14:45:00+00:00,-1.75,2014,4,11,Monday
+3.9%,USD,2014-11-25 08:30:00,3.3%,better,High,Prelim GDP q/q,3.5%,accurate,48,2014-11-25 13:30:00+00:00,18.18,2014,4,11,Tuesday
+1.4%,USD,2014-11-25 08:30:00,1.3%,accurate,Low,Prelim GDP Price Index q/q,1.3%,accurate,48,2014-11-25 13:30:00+00:00,7.69,2014,4,11,Tuesday
+4.9%,USD,2014-11-25 09:00:00,4.7%,better,Low,S&P/CS Composite-20 HPI y/y,5.6%,accurate,48,2014-11-25 14:00:00+00:00,4.26,2014,4,11,Tuesday
+0.0%,USD,2014-11-25 09:05:00,0.5%,worse,Low,HPI m/m,0.4%,worse,48,2014-11-25 14:05:00+00:00,-100.0,2014,4,11,Tuesday
+4,USD,2014-11-25 09:59:00,17,worse,Low,Richmond Manufacturing Index,20,accurate,48,2014-11-25 14:59:00+00:00,-76.47,2014,4,11,Tuesday
+88.7,USD,2014-11-25 10:00:00,95.9,worse,High,CB Consumer Confidence,94.1,worse,48,2014-11-25 15:00:00+00:00,-7.51,2014,4,11,Tuesday
+-0.9%,USD,2014-11-26 08:30:00,0.5%,worse,High,Core Durable Goods Orders m/m,-0.1%,accurate,48,2014-11-26 13:30:00+00:00,-280.0,2014,4,11,Wednesday
+313K,USD,2014-11-26 08:30:00,287K,worse,High,Unemployment Claims,292K,accurate,48,2014-11-26 13:30:00+00:00,9.06,2014,4,11,Wednesday
+0.2%,USD,2014-11-26 08:30:00,0.1%,better,Medium,Core PCE Price Index m/m,0.1%,accurate,48,2014-11-26 13:30:00+00:00,100.0,2014,4,11,Wednesday
+0.4%,USD,2014-11-26 08:30:00,-0.4%,better,Medium,Durable Goods Orders m/m,-1.1%,better,48,2014-11-26 13:30:00+00:00,200.0,2014,4,11,Wednesday
+0.2%,USD,2014-11-26 08:30:00,0.4%,worse,Medium,Personal Spending m/m,0.0%,better,48,2014-11-26 13:30:00+00:00,-50.0,2014,4,11,Wednesday
+0.2%,USD,2014-11-26 08:30:00,0.4%,worse,Low,Personal Income m/m,0.2%,accurate,48,2014-11-26 13:30:00+00:00,-50.0,2014,4,11,Wednesday
+60.8,USD,2014-11-26 09:45:00,63.1,worse,Medium,Chicago PMI,66.2,accurate,48,2014-11-26 14:45:00+00:00,-3.65,2014,4,11,Wednesday
+88.8,USD,2014-11-26 09:55:00,90.2,worse,Medium,Revised UoM Consumer Sentiment,89.4,accurate,48,2014-11-26 14:55:00+00:00,-1.55,2014,4,11,Wednesday
+458K,USD,2014-11-26 10:00:00,471K,worse,High,New Home Sales,455K,worse,48,2014-11-26 15:00:00+00:00,-2.76,2014,4,11,Wednesday
+-1.1%,USD,2014-11-26 10:00:00,0.9%,worse,Medium,Pending Home Sales m/m,0.6%,better,48,2014-11-26 15:00:00+00:00,-222.22,2014,4,11,Wednesday
+1.9M,USD,2014-11-26 10:30:00,0.4M,accurate,Medium,Crude Oil Inventories,2.6M,accurate,48,2014-11-26 15:30:00+00:00,375.0,2014,4,11,Wednesday
+-162B,USD,2014-11-26 12:00:00,-145B,accurate,Low,Natural Gas Storage,-17B,accurate,48,2014-11-26 17:00:00+00:00,-11.72,2014,4,11,Wednesday
+10.2,USD,2014-11-17 08:30:00,12.1,worse,Medium,Empire State Manufacturing Index,6.2,accurate,47,2014-11-17 13:30:00+00:00,-15.7,2014,4,11,Monday
+78.9%,USD,2014-11-17 09:15:00,79.3%,worse,Medium,Capacity Utilization Rate,79.2%,accurate,47,2014-11-17 14:15:00+00:00,-0.5,2014,4,11,Monday
+-0.1%,USD,2014-11-17 09:15:00,0.2%,worse,Medium,Industrial Production m/m,0.8%,worse,47,2014-11-17 14:15:00+00:00,-150.0,2014,4,11,Monday
+0.2%,USD,2014-11-18 08:30:00,-0.1%,better,High,PPI m/m,-0.1%,accurate,47,2014-11-18 13:30:00+00:00,300.0,2014,4,11,Tuesday
+0.4%,USD,2014-11-18 08:30:00,0.2%,better,Medium,Core PPI m/m,0.0%,accurate,47,2014-11-18 13:30:00+00:00,100.0,2014,4,11,Tuesday
+58,USD,2014-11-18 10:00:00,55,better,Medium,NAHB Housing Market Index,54,accurate,47,2014-11-18 15:00:00+00:00,5.45,2014,4,11,Tuesday
+164.3B,USD,2014-11-18 16:00:00,41.3B,better,Low,TIC Long-Term Purchases,52.1B,accurate,47,2014-11-18 21:00:00+00:00,297.82,2014,4,11,Tuesday
+1.08M,USD,2014-11-19 08:30:00,1.04M,better,High,Building Permits,1.03M,accurate,47,2014-11-19 13:30:00+00:00,3.85,2014,4,11,Wednesday
+1.01M,USD,2014-11-19 08:30:00,1.03M,accurate,Medium,Housing Starts,1.04M,accurate,47,2014-11-19 13:30:00+00:00,-1.94,2014,4,11,Wednesday
+2.6M,USD,2014-11-19 10:30:00,-0.7M,accurate,Medium,Crude Oil Inventories,-1.7M,accurate,47,2014-11-19 15:30:00+00:00,471.43,2014,4,11,Wednesday
+0.0%,USD,2014-11-20 08:30:00,-0.1%,better,High,CPI m/m,0.1%,accurate,47,2014-11-20 13:30:00+00:00,100.0,2014,4,11,Thursday
+0.2%,USD,2014-11-20 08:30:00,0.2%,accurate,High,Core CPI m/m,0.1%,accurate,47,2014-11-20 13:30:00+00:00,0.0,2014,4,11,Thursday
+291K,USD,2014-11-20 08:30:00,286K,worse,High,Unemployment Claims,293K,accurate,47,2014-11-20 13:30:00+00:00,1.75,2014,4,11,Thursday
+54.7,USD,2014-11-20 09:45:00,56.2,worse,Medium,Flash Manufacturing PMI,55.9,accurate,47,2014-11-20 14:45:00+00:00,-2.67,2014,4,11,Thursday
+40.8,USD,2014-11-20 10:00:00,18.9,better,High,Philly Fed Manufacturing Index,20.7,accurate,47,2014-11-20 15:00:00+00:00,115.87,2014,4,11,Thursday
+5.26M,USD,2014-11-20 10:00:00,5.16M,better,Medium,Existing Home Sales,5.18M,accurate,47,2014-11-20 15:00:00+00:00,1.94,2014,4,11,Thursday
+0.9%,USD,2014-11-20 10:00:00,0.6%,better,Low,CB Leading Index m/m,0.7%,worse,47,2014-11-20 15:00:00+00:00,50.0,2014,4,11,Thursday
+-17B,USD,2014-11-20 10:30:00,-12B,accurate,Low,Natural Gas Storage,40B,accurate,47,2014-11-20 15:30:00+00:00,-41.67,2014,4,11,Thursday
+96.1,USD,2014-11-11 07:30:00,95.1,better,Low,NFIB Small Business Index,95.3,accurate,46,2014-11-11 12:30:00+00:00,1.05,2014,4,11,Tuesday
+0.3%,USD,2014-11-12 10:00:00,0.3%,accurate,Low,Final Wholesale Inventories m/m,0.6%,better,46,2014-11-12 15:00:00+00:00,0.0,2014,4,11,Wednesday
+290K,USD,2014-11-13 08:30:00,282K,worse,High,Unemployment Claims,278K,accurate,46,2014-11-13 13:30:00+00:00,2.84,2014,4,11,Thursday
+4.74M,USD,2014-11-13 10:00:00,4.81M,worse,Medium,JOLTS Job Openings,4.85M,accurate,46,2014-11-13 15:00:00+00:00,-1.46,2014,4,11,Thursday
+-1.7M,USD,2014-11-13 11:00:00,0.7M,accurate,Medium,Crude Oil Inventories,0.5M,accurate,46,2014-11-13 16:00:00+00:00,-342.86,2014,4,11,Thursday
+-121.7B,USD,2014-11-13 13:59:00,-111.5B,worse,Low,Federal Budget Balance,105.8B,accurate,46,2014-11-13 18:59:00+00:00,-9.15,2014,4,11,Thursday
+0.3%,USD,2014-11-14 08:30:00,0.2%,better,High,Core Retail Sales m/m,0.0%,better,46,2014-11-14 13:30:00+00:00,50.0,2014,4,11,Friday
+0.3%,USD,2014-11-14 08:30:00,0.2%,better,High,Retail Sales m/m,-0.3%,accurate,46,2014-11-14 13:30:00+00:00,50.0,2014,4,11,Friday
+-1.3%,USD,2014-11-14 08:30:00,-1.7%,better,Medium,Import Prices m/m,-0.6%,accurate,46,2014-11-14 13:30:00+00:00,23.53,2014,4,11,Friday
+89.4,USD,2014-11-14 09:55:00,87.3,better,High,Prelim UoM Consumer Sentiment,86.9,accurate,46,2014-11-14 14:55:00+00:00,2.41,2014,4,11,Friday
+0.3%,USD,2014-11-14 10:00:00,0.3%,accurate,Medium,Business Inventories m/m,0.1%,better,46,2014-11-14 15:00:00+00:00,0.0,2014,4,11,Friday
+40B,USD,2014-11-14 10:30:00,37B,accurate,Low,Natural Gas Storage,91B,accurate,46,2014-11-14 15:30:00+00:00,8.11,2014,4,11,Friday
+55.9,USD,2014-11-03 09:45:00,56.1,accurate,Low,Final Manufacturing PMI,56.2,accurate,45,2014-11-03 14:45:00+00:00,-0.36,2014,4,11,Monday
+59.0,USD,2014-11-03 10:00:00,56.5,better,High,ISM Manufacturing PMI,56.6,accurate,45,2014-11-03 15:00:00+00:00,4.42,2014,4,11,Monday
+-0.4%,USD,2014-11-03 10:00:00,0.8%,worse,Low,Construction Spending m/m,-0.5%,better,45,2014-11-03 15:00:00+00:00,-150.0,2014,4,11,Monday
+53.5,USD,2014-11-03 10:00:00,58.3,worse,Low,ISM Manufacturing Prices,59.5,accurate,45,2014-11-03 15:00:00+00:00,-8.23,2014,4,11,Monday
+16.5M,USD,2014-11-03 00:00:00,16.6M,accurate,Low,Total Vehicle Sales,16.4M,accurate,45,2014-11-03 05:00:00+00:00,-0.6,2014,4,11,Monday
+-43.0B,USD,2014-11-04 08:30:00,-40.0B,worse,High,Trade Balance,-40.0B,accurate,45,2014-11-04 13:30:00+00:00,-7.5,2014,4,11,Tuesday
+-0.6%,USD,2014-11-04 10:00:00,-0.4%,worse,Medium,Factory Orders m/m,-10.0%,accurate,45,2014-11-04 15:00:00+00:00,-50.0,2014,4,11,Tuesday
+46.4,USD,2014-11-04 10:00:00,46.6,accurate,Low,IBD/TIPP Economic Optimism,45.2,accurate,45,2014-11-04 15:00:00+00:00,-0.43,2014,4,11,Tuesday
+230K,USD,2014-11-05 08:15:00,214K,better,High,ADP Non-Farm Employment Change,225K,better,45,2014-11-05 13:15:00+00:00,7.48,2014,4,11,Wednesday
+57.1,USD,2014-11-05 09:45:00,57.3,accurate,Low,Final Services PMI,57.3,accurate,45,2014-11-05 14:45:00+00:00,-0.35,2014,4,11,Wednesday
+57.1,USD,2014-11-05 10:00:00,58.2,worse,High,ISM Non-Manufacturing PMI,58.6,accurate,45,2014-11-05 15:00:00+00:00,-1.89,2014,4,11,Wednesday
+0.5M,USD,2014-11-05 10:30:00,1.8M,accurate,Medium,Crude Oil Inventories,2.1M,accurate,45,2014-11-05 15:30:00+00:00,-72.22,2014,4,11,Wednesday
+278K,USD,2014-11-06 08:30:00,285K,better,High,Unemployment Claims,288K,accurate,45,2014-11-06 13:30:00+00:00,-2.46,2014,4,11,Thursday
+2.0%,USD,2014-11-06 08:30:00,0.9%,worse,Medium,Prelim Nonfarm Productivity q/q,2.3%,better,45,2014-11-06 13:30:00+00:00,122.22,2014,4,11,Thursday
+0.3%,USD,2014-11-06 08:30:00,1.0%,worse,Medium,Prelim Unit Labor Costs q/q,-0.1%,worse,45,2014-11-06 13:30:00+00:00,-70.0,2014,4,11,Thursday
+91B,USD,2014-11-06 10:30:00,86B,accurate,Low,Natural Gas Storage,87B,accurate,45,2014-11-06 15:30:00+00:00,5.81,2014,4,11,Thursday
+214K,USD,2014-11-07 08:30:00,235K,worse,High,Non-Farm Employment Change,256K,better,45,2014-11-07 13:30:00+00:00,-8.94,2014,4,11,Friday
+5.8%,USD,2014-11-07 08:30:00,5.9%,better,High,Unemployment Rate,5.9%,accurate,45,2014-11-07 13:30:00+00:00,-1.69,2014,4,11,Friday
+0.1%,USD,2014-11-07 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.0%,accurate,45,2014-11-07 13:30:00+00:00,-50.0,2014,4,11,Friday
+15.9B,USD,2014-11-07 15:00:00,16.6B,worse,Low,Consumer Credit m/m,14.0B,better,45,2014-11-07 20:00:00+00:00,-4.22,2014,4,11,Friday
+57.3,USD,2014-10-27 09:45:00,57.9,worse,Low,Flash Services PMI,58.9,better,44,2014-10-27 13:45:00+00:00,-1.04,2014,4,10,Monday
+0.3%,USD,2014-10-27 10:00:00,1.1%,worse,Medium,Pending Home Sales m/m,-1.0%,accurate,44,2014-10-27 14:00:00+00:00,-72.73,2014,4,10,Monday
+-0.2%,USD,2014-10-28 08:30:00,0.5%,worse,High,Core Durable Goods Orders m/m,0.4%,worse,44,2014-10-28 12:30:00+00:00,-140.0,2014,4,10,Tuesday
+-1.3%,USD,2014-10-28 08:30:00,0.4%,worse,Medium,Durable Goods Orders m/m,-18.4%,worse,44,2014-10-28 12:30:00+00:00,-425.0,2014,4,10,Tuesday
+5.6%,USD,2014-10-28 09:00:00,5.7%,accurate,Low,S&P/CS Composite-20 HPI y/y,6.7%,accurate,44,2014-10-28 13:00:00+00:00,-1.75,2014,4,10,Tuesday
+20,USD,2014-10-28 09:59:00,11,better,Low,Richmond Manufacturing Index,14,accurate,44,2014-10-28 13:59:00+00:00,81.82,2014,4,10,Tuesday
+94.5,USD,2014-10-28 10:00:00,87.4,better,High,CB Consumer Confidence,89.0,better,44,2014-10-28 14:00:00+00:00,8.12,2014,4,10,Tuesday
+2.1M,USD,2014-10-29 10:30:00,3.3M,accurate,Medium,Crude Oil Inventories,7.1M,accurate,44,2014-10-29 14:30:00+00:00,-36.36,2014,4,10,Wednesday
+<0.25%,USD,2014-10-29 14:00:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,44,2014-10-29 18:00:00+00:00,0.0,2014,4,10,Wednesday
+3.5%,USD,2014-10-30 08:30:00,3.1%,better,High,Advance GDP q/q,4.6%,better,44,2014-10-30 12:30:00+00:00,12.9,2014,4,10,Thursday
+287K,USD,2014-10-30 08:30:00,284K,accurate,High,Unemployment Claims,284K,accurate,44,2014-10-30 12:30:00+00:00,1.06,2014,4,10,Thursday
+1.3%,USD,2014-10-30 08:30:00,2.0%,worse,Medium,Advance GDP Price Index q/q,2.1%,accurate,44,2014-10-30 12:30:00+00:00,-35.0,2014,4,10,Thursday
+87B,USD,2014-10-30 10:30:00,83B,accurate,Low,Natural Gas Storage,94B,accurate,44,2014-10-30 14:30:00+00:00,4.82,2014,4,10,Thursday
+0.1%,USD,2014-10-31 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,44,2014-10-31 12:30:00+00:00,0.0,2014,4,10,Friday
+0.7%,USD,2014-10-31 08:30:00,0.6%,better,Medium,Employment Cost Index q/q,0.7%,accurate,44,2014-10-31 12:30:00+00:00,16.67,2014,4,10,Friday
+-0.2%,USD,2014-10-31 08:30:00,0.2%,worse,Medium,Personal Spending m/m,0.5%,accurate,44,2014-10-31 12:30:00+00:00,-200.0,2014,4,10,Friday
+0.2%,USD,2014-10-31 08:30:00,0.3%,worse,Low,Personal Income m/m,0.3%,accurate,44,2014-10-31 12:30:00+00:00,-33.33,2014,4,10,Friday
+66.2,USD,2014-10-31 09:45:00,60.2,better,Medium,Chicago PMI,60.5,accurate,44,2014-10-31 13:45:00+00:00,9.97,2014,4,10,Friday
+86.9,USD,2014-10-31 09:55:00,86.4,accurate,Medium,Revised UoM Consumer Sentiment,86.4,accurate,44,2014-10-31 13:55:00+00:00,0.58,2014,4,10,Friday
+5.17M,USD,2014-10-21 10:00:00,5.11M,better,Medium,Existing Home Sales,5.05M,accurate,43,2014-10-21 14:00:00+00:00,1.17,2014,4,10,Tuesday
+0.1%,USD,2014-10-22 08:30:00,0.0%,better,High,CPI m/m,-0.2%,accurate,43,2014-10-22 12:30:00+00:00,100.0,2014,4,10,Wednesday
+0.1%,USD,2014-10-22 08:30:00,0.2%,worse,High,Core CPI m/m,0.0%,accurate,43,2014-10-22 12:30:00+00:00,-50.0,2014,4,10,Wednesday
+7.1M,USD,2014-10-22 10:30:00,2.8M,accurate,Medium,Crude Oil Inventories,8.9M,accurate,43,2014-10-22 14:30:00+00:00,153.57,2014,4,10,Wednesday
+283K,USD,2014-10-23 08:30:00,269K,worse,High,Unemployment Claims,266K,accurate,43,2014-10-23 12:30:00+00:00,5.2,2014,4,10,Thursday
+0.5%,USD,2014-10-23 09:00:00,0.4%,better,Low,HPI m/m,0.2%,better,43,2014-10-23 13:00:00+00:00,25.0,2014,4,10,Thursday
+56.2,USD,2014-10-23 09:45:00,57.2,worse,Medium,Flash Manufacturing PMI,57.5,worse,43,2014-10-23 13:45:00+00:00,-1.75,2014,4,10,Thursday
+0.8%,USD,2014-10-23 10:00:00,0.8%,accurate,Low,CB Leading Index m/m,0.0%,worse,43,2014-10-23 14:00:00+00:00,0.0,2014,4,10,Thursday
+94B,USD,2014-10-23 10:30:00,97B,accurate,Low,Natural Gas Storage,94B,accurate,43,2014-10-23 14:30:00+00:00,-3.09,2014,4,10,Thursday
+467K,USD,2014-10-24 10:00:00,473K,worse,High,New Home Sales,466K,worse,43,2014-10-24 14:00:00+00:00,-1.27,2014,4,10,Friday
+95.3,USD,2014-10-14 07:30:00,97.2,worse,Low,NFIB Small Business Index,96.1,accurate,42,2014-10-14 11:30:00+00:00,-1.95,2014,4,10,Tuesday
+-0.2%,USD,2014-10-15 08:30:00,0.2%,worse,High,Core Retail Sales m/m,0.3%,accurate,42,2014-10-15 12:30:00+00:00,-200.0,2014,4,10,Wednesday
+-0.1%,USD,2014-10-15 08:30:00,0.1%,worse,High,PPI m/m,0.0%,accurate,42,2014-10-15 12:30:00+00:00,-200.0,2014,4,10,Wednesday
+-0.3%,USD,2014-10-15 08:30:00,-0.1%,worse,High,Retail Sales m/m,0.6%,accurate,42,2014-10-15 12:30:00+00:00,-200.0,2014,4,10,Wednesday
+0.0%,USD,2014-10-15 08:30:00,0.1%,worse,Medium,Core PPI m/m,0.1%,accurate,42,2014-10-15 12:30:00+00:00,-100.0,2014,4,10,Wednesday
+6.2,USD,2014-10-15 08:30:00,20.3,worse,Medium,Empire State Manufacturing Index,27.5,accurate,42,2014-10-15 12:30:00+00:00,-69.46,2014,4,10,Wednesday
+0.2%,USD,2014-10-15 10:00:00,0.4%,better,Medium,Business Inventories m/m,0.4%,accurate,42,2014-10-15 14:00:00+00:00,-50.0,2014,4,10,Wednesday
+105.8B,USD,2014-10-15 10:55:00,82.3B,better,Low,Federal Budget Balance,-128.7B,accurate,42,2014-10-15 14:55:00+00:00,28.55,2014,4,10,Wednesday
+264K,USD,2014-10-16 08:30:00,286K,better,High,Unemployment Claims,287K,accurate,42,2014-10-16 12:30:00+00:00,-7.69,2014,4,10,Thursday
+1.0%,USD,2014-10-16 09:15:00,0.4%,better,High,Industrial Production m/m,-0.2%,worse,42,2014-10-16 13:15:00+00:00,150.0,2014,4,10,Thursday
+79.3%,USD,2014-10-16 09:15:00,79.0%,better,Medium,Capacity Utilization Rate,78.7%,accurate,42,2014-10-16 13:15:00+00:00,0.38,2014,4,10,Thursday
+20.7,USD,2014-10-16 09:59:00,19.9,better,High,Philly Fed Manufacturing Index,22.5,accurate,42,2014-10-16 13:59:00+00:00,4.02,2014,4,10,Thursday
+54,USD,2014-10-16 10:00:00,59,worse,Medium,NAHB Housing Market Index,59,accurate,42,2014-10-16 14:00:00+00:00,-8.47,2014,4,10,Thursday
+94B,USD,2014-10-16 10:30:00,91B,accurate,Low,Natural Gas Storage,105B,accurate,42,2014-10-16 14:30:00+00:00,3.3,2014,4,10,Thursday
+8.9M,USD,2014-10-16 11:00:00,2.3M,accurate,Medium,Crude Oil Inventories,5.0M,accurate,42,2014-10-16 15:00:00+00:00,286.96,2014,4,10,Thursday
+52.1B,USD,2014-10-16 16:00:00,23.3B,better,Low,TIC Long-Term Purchases,-18.6B,accurate,42,2014-10-16 20:00:00+00:00,123.61,2014,4,10,Thursday
+1.02M,USD,2014-10-17 08:30:00,1.04M,accurate,High,Building Permits,1.00M,accurate,42,2014-10-17 12:30:00+00:00,-1.92,2014,4,10,Friday
+1.02M,USD,2014-10-17 08:30:00,1.02M,accurate,Medium,Housing Starts,0.96M,accurate,42,2014-10-17 12:30:00+00:00,0.0,2014,4,10,Friday
+86.4,USD,2014-10-17 09:55:00,84.3,better,High,Prelim UoM Consumer Sentiment,84.6,accurate,42,2014-10-17 13:55:00+00:00,2.49,2014,4,10,Friday
+4.84M,USD,2014-10-07 10:00:00,4.71M,better,Medium,JOLTS Job Openings,4.61M,accurate,41,2014-10-07 14:00:00+00:00,2.76,2014,4,10,Tuesday
+45.2,USD,2014-10-07 10:00:00,46.3,worse,Low,IBD/TIPP Economic Optimism,45.2,accurate,41,2014-10-07 14:00:00+00:00,-2.38,2014,4,10,Tuesday
+13.5B,USD,2014-10-07 15:00:00,20.3B,worse,Low,Consumer Credit m/m,21.6B,worse,41,2014-10-07 19:00:00+00:00,-33.5,2014,4,10,Tuesday
+5.0M,USD,2014-10-08 10:30:00,2.1M,accurate,Medium,Crude Oil Inventories,-1.4M,accurate,41,2014-10-08 14:30:00+00:00,138.1,2014,4,10,Wednesday
+287K,USD,2014-10-09 08:30:00,291K,accurate,High,Unemployment Claims,288K,accurate,41,2014-10-09 12:30:00+00:00,-1.37,2014,4,10,Thursday
+0.7%,USD,2014-10-09 10:00:00,0.3%,worse,Low,Final Wholesale Inventories m/m,0.3%,worse,41,2014-10-09 14:00:00+00:00,133.33,2014,4,10,Thursday
+105B,USD,2014-10-09 10:30:00,108B,accurate,Low,Natural Gas Storage,112B,accurate,41,2014-10-09 14:30:00+00:00,-2.78,2014,4,10,Thursday
+-0.5%,USD,2014-10-10 08:30:00,-0.5%,accurate,Medium,Import Prices m/m,-0.6%,better,41,2014-10-10 12:30:00+00:00,0.0,2014,4,10,Friday
+0.1%,USD,2014-09-29 08:30:00,0.0%,better,Medium,Core PCE Price Index m/m,0.1%,accurate,40,2014-09-29 12:30:00+00:00,100.0,2014,3,9,Monday
+0.5%,USD,2014-09-29 08:30:00,0.5%,accurate,Medium,Personal Spending m/m,0.0%,better,40,2014-09-29 12:30:00+00:00,0.0,2014,3,9,Monday
+0.3%,USD,2014-09-29 08:30:00,0.3%,accurate,Low,Personal Income m/m,0.2%,accurate,40,2014-09-29 12:30:00+00:00,0.0,2014,3,9,Monday
+-1.0%,USD,2014-09-29 10:00:00,-0.4%,worse,Medium,Pending Home Sales m/m,3.2%,accurate,40,2014-09-29 14:00:00+00:00,-150.0,2014,3,9,Monday
+6.7%,USD,2014-09-30 09:00:00,7.5%,worse,Low,S&P/CS Composite-20 HPI y/y,8.1%,accurate,40,2014-09-30 13:00:00+00:00,-10.67,2014,3,9,Tuesday
+60.5,USD,2014-09-30 09:45:00,61.6,worse,Medium,Chicago PMI,64.3,accurate,40,2014-09-30 13:45:00+00:00,-1.79,2014,3,9,Tuesday
+86.0,USD,2014-09-30 10:00:00,92.2,worse,High,CB Consumer Confidence,93.4,better,40,2014-09-30 14:00:00+00:00,-6.72,2014,3,9,Tuesday
+213K,USD,2014-10-01 08:15:00,207K,accurate,High,ADP Non-Farm Employment Change,202K,accurate,40,2014-10-01 12:15:00+00:00,2.9,2014,4,10,Wednesday
+57.5,USD,2014-10-01 09:45:00,58.0,worse,Low,Final Manufacturing PMI,57.9,accurate,40,2014-10-01 13:45:00+00:00,-0.86,2014,4,10,Wednesday
+56.6,USD,2014-10-01 10:00:00,58.6,worse,High,ISM Manufacturing PMI,59.0,accurate,40,2014-10-01 14:00:00+00:00,-3.41,2014,4,10,Wednesday
+-0.8%,USD,2014-10-01 10:00:00,0.5%,worse,Low,Construction Spending m/m,1.2%,worse,40,2014-10-01 14:00:00+00:00,-260.0,2014,4,10,Wednesday
+59.5,USD,2014-10-01 10:00:00,56.8,better,Low,ISM Manufacturing Prices,58.0,accurate,40,2014-10-01 14:00:00+00:00,4.75,2014,4,10,Wednesday
+-1.4M,USD,2014-10-01 10:30:00,0.6M,accurate,Medium,Crude Oil Inventories,-4.3M,accurate,40,2014-10-01 14:30:00+00:00,-333.33,2014,4,10,Wednesday
+16.4M,USD,2014-10-01 01:00:00,16.9M,worse,Low,Total Vehicle Sales,17.5M,accurate,40,2014-10-01 05:00:00+00:00,-2.96,2014,4,10,Wednesday
+287K,USD,2014-10-02 08:30:00,299K,better,High,Unemployment Claims,295K,accurate,40,2014-10-02 12:30:00+00:00,-4.01,2014,4,10,Thursday
+-10.1%,USD,2014-10-02 10:00:00,-9.4%,worse,Medium,Factory Orders m/m,10.5%,accurate,40,2014-10-02 14:00:00+00:00,-7.45,2014,4,10,Thursday
+112B,USD,2014-10-02 10:30:00,107B,accurate,Low,Natural Gas Storage,97B,accurate,40,2014-10-02 14:30:00+00:00,4.67,2014,4,10,Thursday
+248K,USD,2014-10-03 08:30:00,216K,better,High,Non-Farm Employment Change,180K,better,40,2014-10-03 12:30:00+00:00,14.81,2014,4,10,Friday
+-40.1B,USD,2014-10-03 08:30:00,-41.0B,better,High,Trade Balance,-40.3B,accurate,40,2014-10-03 12:30:00+00:00,2.2,2014,4,10,Friday
+5.9%,USD,2014-10-03 08:30:00,6.1%,better,High,Unemployment Rate,6.1%,accurate,40,2014-10-03 12:30:00+00:00,-3.28,2014,4,10,Friday
+0.0%,USD,2014-10-03 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.3%,better,40,2014-10-03 12:30:00+00:00,-100.0,2014,4,10,Friday
+58.9,USD,2014-10-03 09:45:00,58.5,better,Low,Final Services PMI,58.5,accurate,40,2014-10-03 13:45:00+00:00,0.68,2014,4,10,Friday
+58.6,USD,2014-10-03 10:00:00,58.5,accurate,High,ISM Non-Manufacturing PMI,59.6,accurate,40,2014-10-03 14:00:00+00:00,0.17,2014,4,10,Friday
+5.05M,USD,2014-09-22 10:00:00,5.21M,worse,Medium,Existing Home Sales,5.14M,accurate,39,2014-09-22 14:00:00+00:00,-3.07,2014,3,9,Monday
+0.1%,USD,2014-09-23 09:00:00,0.4%,worse,Low,HPI m/m,0.3%,worse,39,2014-09-23 13:00:00+00:00,-75.0,2014,3,9,Tuesday
+57.9,USD,2014-09-23 09:45:00,58.1,accurate,Low,Flash Manufacturing PMI,57.9,accurate,39,2014-09-23 13:45:00+00:00,-0.34,2014,3,9,Tuesday
+14,USD,2014-09-23 09:59:00,10,better,Low,Richmond Manufacturing Index,12,accurate,39,2014-09-23 13:59:00+00:00,40.0,2014,3,9,Tuesday
+504K,USD,2014-09-24 10:00:00,432K,better,High,New Home Sales,427K,better,39,2014-09-24 14:00:00+00:00,16.67,2014,3,9,Wednesday
+-4.3M,USD,2014-09-24 10:30:00,0.7M,accurate,Medium,Crude Oil Inventories,3.7M,accurate,39,2014-09-24 14:30:00+00:00,-714.29,2014,3,9,Wednesday
+0.7%,USD,2014-09-25 08:30:00,0.7%,accurate,High,Core Durable Goods Orders m/m,-0.7%,accurate,39,2014-09-25 12:30:00+00:00,0.0,2014,3,9,Thursday
+-18.2%,USD,2014-09-25 08:30:00,-17.7%,worse,High,Durable Goods Orders m/m,22.6%,accurate,39,2014-09-25 12:30:00+00:00,-2.82,2014,3,9,Thursday
+293K,USD,2014-09-25 08:30:00,294K,accurate,High,Unemployment Claims,281K,accurate,39,2014-09-25 12:30:00+00:00,-0.34,2014,3,9,Thursday
+58.5,USD,2014-09-25 09:45:00,59.4,worse,Low,Flash Services PMI,59.5,better,39,2014-09-25 13:45:00+00:00,-1.52,2014,3,9,Thursday
+97B,USD,2014-09-25 10:30:00,98B,accurate,Low,Natural Gas Storage,90B,accurate,39,2014-09-25 14:30:00+00:00,-1.02,2014,3,9,Thursday
+4.6%,USD,2014-09-26 08:30:00,4.6%,accurate,High,Final GDP q/q,4.2%,accurate,39,2014-09-26 12:30:00+00:00,0.0,2014,3,9,Friday
+2.1%,USD,2014-09-26 08:30:00,2.1%,accurate,Low,Final GDP Price Index q/q,2.1%,accurate,39,2014-09-26 12:30:00+00:00,0.0,2014,3,9,Friday
+84.6,USD,2014-09-26 09:55:00,85.1,accurate,Medium,Revised UoM Consumer Sentiment,84.6,accurate,39,2014-09-26 13:55:00+00:00,-0.59,2014,3,9,Friday
+27.5,USD,2014-09-15 08:30:00,16.4,better,Medium,Empire State Manufacturing Index,14.7,accurate,38,2014-09-15 12:30:00+00:00,67.68,2014,3,9,Monday
+78.8%,USD,2014-09-15 09:15:00,79.3%,worse,Medium,Capacity Utilization Rate,79.1%,accurate,38,2014-09-15 13:15:00+00:00,-0.63,2014,3,9,Monday
+-0.1%,USD,2014-09-15 09:15:00,0.4%,worse,Medium,Industrial Production m/m,0.2%,worse,38,2014-09-15 13:15:00+00:00,-125.0,2014,3,9,Monday
+0.0%,USD,2014-09-16 08:30:00,0.1%,worse,High,PPI m/m,0.1%,accurate,38,2014-09-16 12:30:00+00:00,-100.0,2014,3,9,Tuesday
+0.1%,USD,2014-09-16 08:30:00,0.1%,accurate,Medium,Core PPI m/m,0.2%,accurate,38,2014-09-16 12:30:00+00:00,0.0,2014,3,9,Tuesday
+-18.6B,USD,2014-09-16 16:00:00,24.3B,worse,Medium,TIC Long-Term Purchases,-18.7B,accurate,38,2014-09-16 20:00:00+00:00,-176.54,2014,3,9,Tuesday
+-0.2%,USD,2014-09-17 08:30:00,0.1%,worse,High,CPI m/m,0.1%,accurate,38,2014-09-17 12:30:00+00:00,-300.0,2014,3,9,Wednesday
+0.0%,USD,2014-09-17 08:30:00,0.2%,worse,High,Core CPI m/m,0.1%,accurate,38,2014-09-17 12:30:00+00:00,-100.0,2014,3,9,Wednesday
+-99B,USD,2014-09-17 08:30:00,-114B,better,Medium,Current Account,-102B,better,38,2014-09-17 12:30:00+00:00,13.16,2014,3,9,Wednesday
+59,USD,2014-09-17 10:00:00,56,better,Medium,NAHB Housing Market Index,55,accurate,38,2014-09-17 14:00:00+00:00,5.36,2014,3,9,Wednesday
+3.7M,USD,2014-09-17 10:30:00,-0.9M,accurate,Medium,Crude Oil Inventories,-1.0M,accurate,38,2014-09-17 14:30:00+00:00,511.11,2014,3,9,Wednesday
+<0.25%,USD,2014-09-17 14:00:00,<0.25%,accurate,High,Federal Funds Rate,<0.25%,accurate,38,2014-09-17 18:00:00+00:00,0.0,2014,3,9,Wednesday
+1.00M,USD,2014-09-18 08:30:00,1.04M,worse,High,Building Permits,1.06M,accurate,38,2014-09-18 12:30:00+00:00,-3.85,2014,3,9,Thursday
+280K,USD,2014-09-18 08:30:00,312K,better,High,Unemployment Claims,316K,accurate,38,2014-09-18 12:30:00+00:00,-10.26,2014,3,9,Thursday
+0.96M,USD,2014-09-18 08:30:00,1.04M,worse,Medium,Housing Starts,1.12M,better,38,2014-09-18 12:30:00+00:00,-7.69,2014,3,9,Thursday
+22.5,USD,2014-09-18 10:00:00,22.8,worse,High,Philly Fed Manufacturing Index,28.0,accurate,38,2014-09-18 14:00:00+00:00,-1.32,2014,3,9,Thursday
+90B,USD,2014-09-18 10:30:00,91B,accurate,Low,Natural Gas Storage,92B,accurate,38,2014-09-18 14:30:00+00:00,-1.1,2014,3,9,Thursday
+0.2%,USD,2014-09-19 10:00:00,0.4%,worse,Low,CB Leading Index m/m,1.1%,better,38,2014-09-19 14:00:00+00:00,-50.0,2014,3,9,Friday
+26.0B,USD,2014-09-08 15:00:00,17.4B,better,Low,Consumer Credit m/m,18.8B,better,37,2014-09-08 19:00:00+00:00,49.43,2014,3,9,Monday
+96.1,USD,2014-09-09 07:30:00,95.9,accurate,Low,NFIB Small Business Index,95.7,accurate,37,2014-09-09 11:30:00+00:00,0.21,2014,3,9,Tuesday
+4.67M,USD,2014-09-09 10:00:00,4.72M,accurate,Medium,JOLTS Job Openings,4.68M,accurate,37,2014-09-09 14:00:00+00:00,-1.06,2014,3,9,Tuesday
+0.1%,USD,2014-09-10 10:00:00,0.5%,better,Low,Final Wholesale Inventories m/m,0.2%,better,37,2014-09-10 14:00:00+00:00,-80.0,2014,3,9,Wednesday
+-1.0M,USD,2014-09-10 10:30:00,-1.0M,accurate,Medium,Crude Oil Inventories,-0.9M,accurate,37,2014-09-10 14:30:00+00:00,0.0,2014,3,9,Wednesday
+315K,USD,2014-09-11 08:30:00,306K,worse,High,Unemployment Claims,304K,accurate,37,2014-09-11 12:30:00+00:00,2.94,2014,3,9,Thursday
+92B,USD,2014-09-11 10:30:00,84B,accurate,Low,Natural Gas Storage,79B,accurate,37,2014-09-11 14:30:00+00:00,9.52,2014,3,9,Thursday
+-128.7B,USD,2014-09-11 14:00:00,-132.8B,better,Low,Federal Budget Balance,-94.6B,accurate,37,2014-09-11 18:00:00+00:00,3.09,2014,3,9,Thursday
+0.3%,USD,2014-09-12 08:30:00,0.2%,better,High,Core Retail Sales m/m,0.3%,better,37,2014-09-12 12:30:00+00:00,50.0,2014,3,9,Friday
+0.6%,USD,2014-09-12 08:30:00,0.3%,better,High,Retail Sales m/m,0.3%,better,37,2014-09-12 12:30:00+00:00,100.0,2014,3,9,Friday
+-0.9%,USD,2014-09-12 08:30:00,-0.8%,accurate,Medium,Import Prices m/m,-0.3%,accurate,37,2014-09-12 12:30:00+00:00,-12.5,2014,3,9,Friday
+84.6,USD,2014-09-12 09:55:00,83.2,better,High,Prelim UoM Consumer Sentiment,82.5,better,37,2014-09-12 13:55:00+00:00,1.68,2014,3,9,Friday
+0.4%,USD,2014-09-12 10:00:00,0.5%,better,Medium,Business Inventories m/m,0.4%,accurate,37,2014-09-12 14:00:00+00:00,-20.0,2014,3,9,Friday
+57.9,USD,2014-09-02 09:45:00,58.0,accurate,Low,Final Manufacturing PMI,58.0,accurate,36,2014-09-02 13:45:00+00:00,-0.17,2014,3,9,Tuesday
+59.0,USD,2014-09-02 10:00:00,57.0,better,High,ISM Manufacturing PMI,57.1,accurate,36,2014-09-02 14:00:00+00:00,3.51,2014,3,9,Tuesday
+1.8%,USD,2014-09-02 10:00:00,0.9%,better,Low,Construction Spending m/m,-0.9%,better,36,2014-09-02 14:00:00+00:00,100.0,2014,3,9,Tuesday
+45.2,USD,2014-09-02 10:00:00,46.2,worse,Low,IBD/TIPP Economic Optimism,44.5,accurate,36,2014-09-02 14:00:00+00:00,-2.16,2014,3,9,Tuesday
+58.0,USD,2014-09-02 10:00:00,59.0,worse,Low,ISM Manufacturing Prices,59.5,accurate,36,2014-09-02 14:00:00+00:00,-1.69,2014,3,9,Tuesday
+10.5%,USD,2014-09-03 10:00:00,10.9%,worse,Medium,Factory Orders m/m,1.5%,better,36,2014-09-03 14:00:00+00:00,-3.67,2014,3,9,Wednesday
+17.5M,USD,2014-09-03 01:00:00,16.5M,better,Low,Total Vehicle Sales,16.5M,accurate,36,2014-09-03 05:00:00+00:00,6.06,2014,3,9,Wednesday
+204K,USD,2014-09-04 08:15:00,218K,worse,High,ADP Non-Farm Employment Change,212K,accurate,36,2014-09-04 12:15:00+00:00,-6.42,2014,3,9,Thursday
+-40.5B,USD,2014-09-04 08:30:00,-42.5B,better,High,Trade Balance,-40.8B,accurate,36,2014-09-04 12:30:00+00:00,4.71,2014,3,9,Thursday
+302K,USD,2014-09-04 08:30:00,298K,accurate,High,Unemployment Claims,298K,accurate,36,2014-09-04 12:30:00+00:00,1.34,2014,3,9,Thursday
+2.3%,USD,2014-09-04 08:30:00,2.5%,better,Medium,Revised Nonfarm Productivity q/q,2.5%,accurate,36,2014-09-04 12:30:00+00:00,-8.0,2014,3,9,Thursday
+-0.1%,USD,2014-09-04 08:30:00,0.6%,worse,Low,Revised Unit Labor Costs q/q,0.6%,accurate,36,2014-09-04 12:30:00+00:00,-116.67,2014,3,9,Thursday
+59.5,USD,2014-09-04 09:45:00,58.5,better,Low,Final Services PMI,58.5,accurate,36,2014-09-04 13:45:00+00:00,1.71,2014,3,9,Thursday
+59.6,USD,2014-09-04 10:00:00,57.3,better,High,ISM Non-Manufacturing PMI,58.7,accurate,36,2014-09-04 14:00:00+00:00,4.01,2014,3,9,Thursday
+79B,USD,2014-09-04 10:30:00,72B,accurate,Low,Natural Gas Storage,75B,accurate,36,2014-09-04 14:30:00+00:00,9.72,2014,3,9,Thursday
+-0.9M,USD,2014-09-04 11:00:00,-0.9M,accurate,Medium,Crude Oil Inventories,-2.1M,accurate,36,2014-09-04 15:00:00+00:00,0.0,2014,3,9,Thursday
+142K,USD,2014-09-05 08:30:00,226K,worse,High,Non-Farm Employment Change,212K,accurate,36,2014-09-05 12:30:00+00:00,-37.17,2014,3,9,Friday
+6.1%,USD,2014-09-05 08:30:00,6.1%,accurate,High,Unemployment Rate,6.2%,accurate,36,2014-09-05 12:30:00+00:00,0.0,2014,3,9,Friday
+0.2%,USD,2014-09-05 08:30:00,0.2%,accurate,Medium,Average Hourly Earnings m/m,0.1%,better,36,2014-09-05 12:30:00+00:00,0.0,2014,3,9,Friday
+58.5,USD,2014-08-25 09:45:00,59.2,worse,Low,Flash Services PMI,60.8,accurate,35,2014-08-25 13:45:00+00:00,-1.18,2014,3,8,Monday
+412K,USD,2014-08-25 10:00:00,426K,worse,High,New Home Sales,422K,better,35,2014-08-25 14:00:00+00:00,-3.29,2014,3,8,Monday
+-0.8%,USD,2014-08-26 08:30:00,0.5%,worse,High,Core Durable Goods Orders m/m,1.9%,better,35,2014-08-26 12:30:00+00:00,-260.0,2014,3,8,Tuesday
+22.6%,USD,2014-08-26 08:30:00,7.8%,better,Medium,Durable Goods Orders m/m,1.7%,better,35,2014-08-26 12:30:00+00:00,189.74,2014,3,8,Tuesday
+0.4%,USD,2014-08-26 09:00:00,0.3%,better,Low,HPI m/m,0.2%,worse,35,2014-08-26 13:00:00+00:00,33.33,2014,3,8,Tuesday
+8.1%,USD,2014-08-26 09:00:00,8.2%,accurate,Low,S&P/CS Composite-20 HPI y/y,9.4%,accurate,35,2014-08-26 13:00:00+00:00,-1.22,2014,3,8,Tuesday
+12,USD,2014-08-26 09:59:00,8,better,Low,Richmond Manufacturing Index,7,accurate,35,2014-08-26 13:59:00+00:00,50.0,2014,3,8,Tuesday
+92.4,USD,2014-08-26 10:00:00,89.1,better,High,CB Consumer Confidence,90.3,worse,35,2014-08-26 14:00:00+00:00,3.7,2014,3,8,Tuesday
+-2.1M,USD,2014-08-27 10:30:00,1.1M,accurate,Medium,Crude Oil Inventories,-4.5M,accurate,35,2014-08-27 14:30:00+00:00,-290.91,2014,3,8,Wednesday
+4.2%,USD,2014-08-28 08:30:00,3.9%,better,High,Prelim GDP q/q,4.0%,accurate,35,2014-08-28 12:30:00+00:00,7.69,2014,3,8,Thursday
+298K,USD,2014-08-28 08:30:00,299K,accurate,High,Unemployment Claims,299K,accurate,35,2014-08-28 12:30:00+00:00,-0.33,2014,3,8,Thursday
+2.1%,USD,2014-08-28 08:30:00,2.0%,accurate,Low,Prelim GDP Price Index q/q,2.0%,accurate,35,2014-08-28 12:30:00+00:00,5.0,2014,3,8,Thursday
+3.3%,USD,2014-08-28 10:00:00,0.6%,better,High,Pending Home Sales m/m,-1.3%,worse,35,2014-08-28 14:00:00+00:00,450.0,2014,3,8,Thursday
+75B,USD,2014-08-28 10:30:00,79B,accurate,Low,Natural Gas Storage,88B,accurate,35,2014-08-28 14:30:00+00:00,-5.06,2014,3,8,Thursday
+0.1%,USD,2014-08-29 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,35,2014-08-29 12:30:00+00:00,0.0,2014,3,8,Friday
+-0.1%,USD,2014-08-29 08:30:00,0.2%,worse,Medium,Personal Spending m/m,0.4%,accurate,35,2014-08-29 12:30:00+00:00,-150.0,2014,3,8,Friday
+0.2%,USD,2014-08-29 08:30:00,0.3%,worse,Low,Personal Income m/m,0.5%,better,35,2014-08-29 12:30:00+00:00,-33.33,2014,3,8,Friday
+64.3,USD,2014-08-29 09:45:00,56.8,better,High,Chicago PMI,52.6,accurate,35,2014-08-29 13:45:00+00:00,13.2,2014,3,8,Friday
+82.5,USD,2014-08-29 09:55:00,80.2,better,Medium,Revised UoM Consumer Sentiment,79.2,accurate,35,2014-08-29 13:55:00+00:00,2.87,2014,3,8,Friday
+55,USD,2014-08-18 10:00:00,53,better,Medium,NAHB Housing Market Index,53,accurate,34,2014-08-18 14:00:00+00:00,3.77,2014,3,8,Monday
+1.05M,USD,2014-08-19 08:30:00,1.00M,better,High,Building Permits,0.97M,accurate,34,2014-08-19 12:30:00+00:00,5.0,2014,3,8,Tuesday
+0.1%,USD,2014-08-19 08:30:00,0.1%,accurate,High,CPI m/m,0.3%,accurate,34,2014-08-19 12:30:00+00:00,0.0,2014,3,8,Tuesday
+0.1%,USD,2014-08-19 08:30:00,0.2%,worse,High,Core CPI m/m,0.1%,accurate,34,2014-08-19 12:30:00+00:00,-50.0,2014,3,8,Tuesday
+1.09M,USD,2014-08-19 08:30:00,0.97M,better,Medium,Housing Starts,0.95M,better,34,2014-08-19 12:30:00+00:00,12.37,2014,3,8,Tuesday
+-4.5M,USD,2014-08-20 10:30:00,-1.3M,accurate,Medium,Crude Oil Inventories,1.4M,accurate,34,2014-08-20 14:30:00+00:00,-246.15,2014,3,8,Wednesday
+298K,USD,2014-08-21 08:30:00,302K,accurate,High,Unemployment Claims,312K,accurate,34,2014-08-21 12:30:00+00:00,-1.32,2014,3,8,Thursday
+58.0,USD,2014-08-21 09:45:00,55.7,better,Medium,Flash Manufacturing PMI,55.8,worse,34,2014-08-21 13:45:00+00:00,4.13,2014,3,8,Thursday
+28.0,USD,2014-08-21 10:00:00,19.7,better,High,Philly Fed Manufacturing Index,23.9,accurate,34,2014-08-21 14:00:00+00:00,42.13,2014,3,8,Thursday
+5.15M,USD,2014-08-21 10:00:00,5.01M,better,Medium,Existing Home Sales,5.03M,accurate,34,2014-08-21 14:00:00+00:00,2.79,2014,3,8,Thursday
+0.9%,USD,2014-08-21 10:00:00,0.6%,better,Low,CB Leading Index m/m,0.6%,better,34,2014-08-21 14:00:00+00:00,50.0,2014,3,8,Thursday
+88B,USD,2014-08-21 10:30:00,83B,accurate,Low,Natural Gas Storage,78B,accurate,34,2014-08-21 14:30:00+00:00,6.02,2014,3,8,Thursday
+95.7,USD,2014-08-12 07:30:00,96.3,accurate,Low,NFIB Small Business Index,95.0,accurate,33,2014-08-12 11:30:00+00:00,-0.62,2014,3,8,Tuesday
+4.67M,USD,2014-08-12 10:00:00,4.74M,worse,Medium,JOLTS Job Openings,4.58M,accurate,33,2014-08-12 14:00:00+00:00,-1.48,2014,3,8,Tuesday
+-94.6B,USD,2014-08-12 13:55:00,-98.2B,better,Low,Federal Budget Balance,70.5B,accurate,33,2014-08-12 17:55:00+00:00,3.67,2014,3,8,Tuesday
+0.1%,USD,2014-08-13 08:30:00,0.4%,worse,High,Core Retail Sales m/m,0.4%,accurate,33,2014-08-13 12:30:00+00:00,-75.0,2014,3,8,Wednesday
+0.0%,USD,2014-08-13 08:30:00,0.2%,worse,High,Retail Sales m/m,0.2%,accurate,33,2014-08-13 12:30:00+00:00,-100.0,2014,3,8,Wednesday
+0.4%,USD,2014-08-13 10:00:00,0.4%,accurate,Medium,Business Inventories m/m,0.5%,accurate,33,2014-08-13 14:00:00+00:00,0.0,2014,3,8,Wednesday
+1.4M,USD,2014-08-13 10:30:00,-0.8M,accurate,Medium,Crude Oil Inventories,-1.8M,accurate,33,2014-08-13 14:30:00+00:00,275.0,2014,3,8,Wednesday
+311K,USD,2014-08-14 08:30:00,307K,accurate,High,Unemployment Claims,290K,accurate,33,2014-08-14 12:30:00+00:00,1.3,2014,3,8,Thursday
+-0.2%,USD,2014-08-14 08:30:00,-0.2%,accurate,Medium,Import Prices m/m,0.1%,accurate,33,2014-08-14 12:30:00+00:00,0.0,2014,3,8,Thursday
+78B,USD,2014-08-14 10:30:00,81B,accurate,Low,Natural Gas Storage,82B,accurate,33,2014-08-14 14:30:00+00:00,-3.7,2014,3,8,Thursday
+0.1%,USD,2014-08-15 08:30:00,0.1%,accurate,High,PPI m/m,0.4%,accurate,33,2014-08-15 12:30:00+00:00,0.0,2014,3,8,Friday
+0.2%,USD,2014-08-15 08:30:00,0.2%,accurate,Medium,Core PPI m/m,0.2%,accurate,33,2014-08-15 12:30:00+00:00,0.0,2014,3,8,Friday
+14.7,USD,2014-08-15 08:30:00,20.3,worse,Medium,Empire State Manufacturing Index,25.6,accurate,33,2014-08-15 12:30:00+00:00,-27.59,2014,3,8,Friday
+-18.7B,USD,2014-08-15 09:00:00,27.3B,worse,Medium,TIC Long-Term Purchases,18.6B,accurate,33,2014-08-15 13:00:00+00:00,-168.5,2014,3,8,Friday
+79.2%,USD,2014-08-15 09:15:00,79.2%,accurate,Medium,Capacity Utilization Rate,79.1%,accurate,33,2014-08-15 13:15:00+00:00,0.0,2014,3,8,Friday
+0.4%,USD,2014-08-15 09:15:00,0.3%,better,Medium,Industrial Production m/m,0.4%,better,33,2014-08-15 13:15:00+00:00,33.33,2014,3,8,Friday
+79.2,USD,2014-08-15 09:55:00,82.7,worse,High,Prelim UoM Consumer Sentiment,81.8,accurate,33,2014-08-15 13:55:00+00:00,-4.23,2014,3,8,Friday
+60.8,USD,2014-08-05 09:45:00,61.0,accurate,Low,Final Services PMI,61.0,accurate,32,2014-08-05 13:45:00+00:00,-0.33,2014,3,8,Tuesday
+58.7,USD,2014-08-05 10:00:00,56.6,better,High,ISM Non-Manufacturing PMI,56.0,accurate,32,2014-08-05 14:00:00+00:00,3.71,2014,3,8,Tuesday
+1.1%,USD,2014-08-05 10:00:00,0.6%,better,Medium,Factory Orders m/m,-0.6%,accurate,32,2014-08-05 14:00:00+00:00,83.33,2014,3,8,Tuesday
+44.5,USD,2014-08-05 10:00:00,46.2,worse,Low,IBD/TIPP Economic Optimism,45.6,accurate,32,2014-08-05 14:00:00+00:00,-3.68,2014,3,8,Tuesday
+-41.5B,USD,2014-08-06 08:30:00,-44.2B,better,High,Trade Balance,-44.7B,accurate,32,2014-08-06 12:30:00+00:00,6.11,2014,3,8,Wednesday
+-1.8M,USD,2014-08-06 10:30:00,-1.1M,accurate,Medium,Crude Oil Inventories,-3.7M,accurate,32,2014-08-06 14:30:00+00:00,-63.64,2014,3,8,Wednesday
+289K,USD,2014-08-07 08:30:00,305K,better,High,Unemployment Claims,303K,accurate,32,2014-08-07 12:30:00+00:00,-5.25,2014,3,8,Thursday
+82B,USD,2014-08-07 10:30:00,89B,accurate,Low,Natural Gas Storage,88B,accurate,32,2014-08-07 14:30:00+00:00,-7.87,2014,3,8,Thursday
+17.3B,USD,2014-08-07 15:00:00,18.3B,worse,Low,Consumer Credit m/m,19.6B,accurate,32,2014-08-07 19:00:00+00:00,-5.46,2014,3,8,Thursday
+2.5%,USD,2014-08-08 08:30:00,1.4%,worse,Medium,Prelim Nonfarm Productivity q/q,-3.2%,better,32,2014-08-08 12:30:00+00:00,78.57,2014,3,8,Friday
+0.6%,USD,2014-08-08 08:30:00,1.3%,worse,Medium,Prelim Unit Labor Costs q/q,5.7%,better,32,2014-08-08 12:30:00+00:00,-53.85,2014,3,8,Friday
+0.3%,USD,2014-08-08 10:00:00,0.6%,better,Low,Final Wholesale Inventories m/m,0.3%,better,32,2014-08-08 14:00:00+00:00,-50.0,2014,3,8,Friday
+61.0,USD,2014-07-28 09:45:00,62.3,worse,Low,Flash Services PMI,61.0,accurate,31,2014-07-28 13:45:00+00:00,-2.09,2014,3,7,Monday
+-1.1%,USD,2014-07-28 10:00:00,-0.2%,worse,High,Pending Home Sales m/m,6.0%,accurate,31,2014-07-28 14:00:00+00:00,-450.0,2014,3,7,Monday
+9.3%,USD,2014-07-29 09:00:00,9.8%,worse,Medium,S&P/CS Composite-20 HPI y/y,10.8%,accurate,31,2014-07-29 13:00:00+00:00,-5.1,2014,3,7,Tuesday
+90.9,USD,2014-07-29 10:00:00,85.5,better,High,CB Consumer Confidence,86.4,better,31,2014-07-29 14:00:00+00:00,6.32,2014,3,7,Tuesday
+218K,USD,2014-07-30 08:15:00,234K,worse,High,ADP Non-Farm Employment Change,281K,accurate,31,2014-07-30 12:15:00+00:00,-6.84,2014,3,7,Wednesday
+4.0%,USD,2014-07-30 08:30:00,3.1%,better,High,Advance GDP q/q,-2.9%,worse,31,2014-07-30 12:30:00+00:00,29.03,2014,3,7,Wednesday
+2.0%,USD,2014-07-30 08:30:00,1.8%,better,Medium,Advance GDP Price Index q/q,1.3%,accurate,31,2014-07-30 12:30:00+00:00,11.11,2014,3,7,Wednesday
+-3.7M,USD,2014-07-30 10:30:00,-0.5M,accurate,Medium,Crude Oil Inventories,-4.0M,accurate,31,2014-07-30 14:30:00+00:00,-640.0,2014,3,7,Wednesday
+<0.25%,USD,2014-07-30 14:00:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,31,2014-07-30 18:00:00+00:00,0.0,2014,3,7,Wednesday
+302K,USD,2014-07-31 08:30:00,303K,accurate,High,Unemployment Claims,279K,better,31,2014-07-31 12:30:00+00:00,-0.33,2014,3,7,Thursday
+0.7%,USD,2014-07-31 08:30:00,0.5%,better,Medium,Employment Cost Index q/q,0.3%,accurate,31,2014-07-31 12:30:00+00:00,40.0,2014,3,7,Thursday
+52.6,USD,2014-07-31 09:45:00,63.2,worse,Medium,Chicago PMI,62.6,accurate,31,2014-07-31 13:45:00+00:00,-16.77,2014,3,7,Thursday
+88B,USD,2014-07-31 10:30:00,92B,accurate,Low,Natural Gas Storage,90B,accurate,31,2014-07-31 14:30:00+00:00,-4.35,2014,3,7,Thursday
+209K,USD,2014-08-01 08:30:00,231K,worse,High,Non-Farm Employment Change,298K,better,31,2014-08-01 12:30:00+00:00,-9.52,2014,3,8,Friday
+6.2%,USD,2014-08-01 08:30:00,6.1%,worse,High,Unemployment Rate,6.1%,accurate,31,2014-08-01 12:30:00+00:00,1.64,2014,3,8,Friday
+0.0%,USD,2014-08-01 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.2%,accurate,31,2014-08-01 12:30:00+00:00,-100.0,2014,3,8,Friday
+0.1%,USD,2014-08-01 08:30:00,0.2%,worse,Medium,Core PCE Price Index m/m,0.2%,accurate,31,2014-08-01 12:30:00+00:00,-50.0,2014,3,8,Friday
+0.4%,USD,2014-08-01 08:30:00,0.5%,worse,Medium,Personal Spending m/m,0.3%,better,31,2014-08-01 12:30:00+00:00,-20.0,2014,3,8,Friday
+0.4%,USD,2014-08-01 08:30:00,0.4%,accurate,Low,Personal Income m/m,0.4%,accurate,31,2014-08-01 12:30:00+00:00,0.0,2014,3,8,Friday
+55.8,USD,2014-08-01 09:45:00,56.3,worse,Low,Final Manufacturing PMI,56.3,accurate,31,2014-08-01 13:45:00+00:00,-0.89,2014,3,8,Friday
+81.8,USD,2014-08-01 09:55:00,81.5,accurate,Medium,Revised UoM Consumer Sentiment,81.3,accurate,31,2014-08-01 13:55:00+00:00,0.37,2014,3,8,Friday
+57.1,USD,2014-08-01 10:00:00,56.1,better,High,ISM Manufacturing PMI,55.3,accurate,31,2014-08-01 14:00:00+00:00,1.78,2014,3,8,Friday
+-1.8%,USD,2014-08-01 10:00:00,0.4%,worse,Low,Construction Spending m/m,0.8%,better,31,2014-08-01 14:00:00+00:00,-550.0,2014,3,8,Friday
+59.5,USD,2014-08-01 10:00:00,58.6,better,Low,ISM Manufacturing Prices,58.0,accurate,31,2014-08-01 14:00:00+00:00,1.54,2014,3,8,Friday
+16.5M,USD,2014-08-01 01:00:00,16.8M,worse,Low,Total Vehicle Sales,17.0M,accurate,31,2014-08-01 05:00:00+00:00,-1.79,2014,3,8,Friday
+0.1%,USD,2014-07-22 08:30:00,0.2%,worse,High,Core CPI m/m,0.3%,accurate,30,2014-07-22 12:30:00+00:00,-50.0,2014,3,7,Tuesday
+0.3%,USD,2014-07-22 08:30:00,0.3%,accurate,Medium,CPI m/m,0.4%,accurate,30,2014-07-22 12:30:00+00:00,0.0,2014,3,7,Tuesday
+0.4%,USD,2014-07-22 09:02:00,0.4%,accurate,Low,HPI m/m,0.1%,better,30,2014-07-22 13:02:00+00:00,0.0,2014,3,7,Tuesday
+7,USD,2014-07-22 09:59:00,5,better,Low,Richmond Manufacturing Index,3,accurate,30,2014-07-22 13:59:00+00:00,40.0,2014,3,7,Tuesday
+5.04M,USD,2014-07-22 10:00:00,4.98M,better,High,Existing Home Sales,4.91M,accurate,30,2014-07-22 14:00:00+00:00,1.2,2014,3,7,Tuesday
+-4.0M,USD,2014-07-23 10:30:00,-2.1M,accurate,Medium,Crude Oil Inventories,-7.5M,accurate,30,2014-07-23 14:30:00+00:00,-90.48,2014,3,7,Wednesday
+284K,USD,2014-07-24 08:30:00,310K,better,High,Unemployment Claims,303K,accurate,30,2014-07-24 12:30:00+00:00,-8.39,2014,3,7,Thursday
+56.3,USD,2014-07-24 09:45:00,57.5,worse,Medium,Flash Manufacturing PMI,57.3,accurate,30,2014-07-24 13:45:00+00:00,-2.09,2014,3,7,Thursday
+406K,USD,2014-07-24 10:00:00,485K,worse,High,New Home Sales,442K,worse,30,2014-07-24 14:00:00+00:00,-16.29,2014,3,7,Thursday
+90B,USD,2014-07-24 10:30:00,95B,accurate,Low,Natural Gas Storage,107B,accurate,30,2014-07-24 14:30:00+00:00,-5.26,2014,3,7,Thursday
+0.8%,USD,2014-07-25 08:30:00,0.6%,better,High,Core Durable Goods Orders m/m,0.0%,accurate,30,2014-07-25 12:30:00+00:00,33.33,2014,3,7,Friday
+0.7%,USD,2014-07-25 08:30:00,0.4%,better,Medium,Durable Goods Orders m/m,-0.9%,accurate,30,2014-07-25 12:30:00+00:00,75.0,2014,3,7,Friday
+0.4%,USD,2014-07-15 08:30:00,0.5%,worse,High,Core Retail Sales m/m,0.4%,better,29,2014-07-15 12:30:00+00:00,-20.0,2014,3,7,Tuesday
+0.2%,USD,2014-07-15 08:30:00,0.6%,worse,High,Retail Sales m/m,0.5%,better,29,2014-07-15 12:30:00+00:00,-66.67,2014,3,7,Tuesday
+25.6,USD,2014-07-15 08:30:00,17.2,better,Medium,Empire State Manufacturing Index,19.3,accurate,29,2014-07-15 12:30:00+00:00,48.84,2014,3,7,Tuesday
+0.1%,USD,2014-07-15 08:30:00,0.5%,worse,Medium,Import Prices m/m,0.3%,better,29,2014-07-15 12:30:00+00:00,-80.0,2014,3,7,Tuesday
+0.5%,USD,2014-07-15 10:00:00,0.6%,better,Medium,Business Inventories m/m,0.6%,accurate,29,2014-07-15 14:00:00+00:00,-16.67,2014,3,7,Tuesday
+0.4%,USD,2014-07-16 08:30:00,0.2%,better,High,PPI m/m,-0.2%,accurate,29,2014-07-16 12:30:00+00:00,100.0,2014,3,7,Wednesday
+0.2%,USD,2014-07-16 08:30:00,0.2%,accurate,Medium,Core PPI m/m,-0.1%,accurate,29,2014-07-16 12:30:00+00:00,0.0,2014,3,7,Wednesday
+19.4B,USD,2014-07-16 09:00:00,27.4B,worse,Medium,TIC Long-Term Purchases,-41.2B,worse,29,2014-07-16 13:00:00+00:00,-29.2,2014,3,7,Wednesday
+79.1%,USD,2014-07-16 09:15:00,79.4%,worse,Medium,Capacity Utilization Rate,79.1%,accurate,29,2014-07-16 13:15:00+00:00,-0.38,2014,3,7,Wednesday
+0.2%,USD,2014-07-16 09:15:00,0.4%,worse,Medium,Industrial Production m/m,0.5%,worse,29,2014-07-16 13:15:00+00:00,-50.0,2014,3,7,Wednesday
+53,USD,2014-07-16 10:00:00,51,better,Medium,NAHB Housing Market Index,49,accurate,29,2014-07-16 14:00:00+00:00,3.92,2014,3,7,Wednesday
+-7.5M,USD,2014-07-16 10:30:00,-2.1M,accurate,Medium,Crude Oil Inventories,-2.4M,accurate,29,2014-07-16 14:30:00+00:00,-257.14,2014,3,7,Wednesday
+0.96M,USD,2014-07-17 08:30:00,1.04M,worse,High,Building Permits,1.01M,accurate,29,2014-07-17 12:30:00+00:00,-7.69,2014,3,7,Thursday
+302K,USD,2014-07-17 08:30:00,310K,better,High,Unemployment Claims,305K,accurate,29,2014-07-17 12:30:00+00:00,-2.58,2014,3,7,Thursday
+0.89M,USD,2014-07-17 08:30:00,1.02M,worse,Medium,Housing Starts,0.99M,accurate,29,2014-07-17 12:30:00+00:00,-12.75,2014,3,7,Thursday
+23.9,USD,2014-07-17 10:00:00,15.6,better,High,Philly Fed Manufacturing Index,17.8,accurate,29,2014-07-17 14:00:00+00:00,53.21,2014,3,7,Thursday
+107B,USD,2014-07-17 10:30:00,99B,accurate,Low,Natural Gas Storage,93B,accurate,29,2014-07-17 14:30:00+00:00,8.08,2014,3,7,Thursday
+81.3,USD,2014-07-18 09:55:00,83.5,worse,High,Prelim UoM Consumer Sentiment,82.5,better,29,2014-07-18 13:55:00+00:00,-2.63,2014,3,7,Friday
+0.3%,USD,2014-07-18 10:00:00,0.6%,worse,Low,CB Leading Index m/m,0.7%,better,29,2014-07-18 14:00:00+00:00,-50.0,2014,3,7,Friday
+95.0,USD,2014-07-08 07:30:00,97.3,worse,Low,NFIB Small Business Index,96.6,accurate,28,2014-07-08 11:30:00+00:00,-2.36,2014,3,7,Tuesday
+4.64M,USD,2014-07-08 10:00:00,4.53M,better,Medium,JOLTS Job Openings,4.46M,accurate,28,2014-07-08 14:00:00+00:00,2.43,2014,3,7,Tuesday
+19.6B,USD,2014-07-08 15:00:00,21.3B,worse,Low,Consumer Credit m/m,26.1B,worse,28,2014-07-08 19:00:00+00:00,-7.98,2014,3,7,Tuesday
+-2.4M,USD,2014-07-09 10:30:00,-1.7M,accurate,Medium,Crude Oil Inventories,-3.2M,accurate,28,2014-07-09 14:30:00+00:00,-41.18,2014,3,7,Wednesday
+304K,USD,2014-07-10 08:30:00,316K,better,High,Unemployment Claims,315K,accurate,28,2014-07-10 12:30:00+00:00,-3.8,2014,3,7,Thursday
+0.5%,USD,2014-07-10 10:00:00,0.6%,better,Low,Final Wholesale Inventories m/m,1.0%,better,28,2014-07-10 14:00:00+00:00,-16.67,2014,3,7,Thursday
+93B,USD,2014-07-10 10:30:00,92B,accurate,Low,Natural Gas Storage,100B,accurate,28,2014-07-10 14:30:00+00:00,1.09,2014,3,7,Thursday
+70.5B,USD,2014-07-11 13:01:00,79.5B,worse,Low,Federal Budget Balance,-130.0B,accurate,28,2014-07-11 17:01:00+00:00,-11.32,2014,3,7,Friday
+62.6,USD,2014-06-30 09:45:00,63.2,worse,Medium,Chicago PMI,65.5,accurate,27,2014-06-30 13:45:00+00:00,-0.95,2014,2,6,Monday
+6.1%,USD,2014-06-30 10:00:00,1.4%,better,High,Pending Home Sales m/m,0.5%,accurate,27,2014-06-30 14:00:00+00:00,335.71,2014,2,6,Monday
+57.3,USD,2014-07-01 09:45:00,57.5,accurate,Low,Final Manufacturing PMI,57.5,accurate,27,2014-07-01 13:45:00+00:00,-0.35,2014,3,7,Tuesday
+55.3,USD,2014-07-01 10:00:00,55.6,accurate,High,ISM Manufacturing PMI,55.4,accurate,27,2014-07-01 14:00:00+00:00,-0.54,2014,3,7,Tuesday
+0.1%,USD,2014-07-01 10:00:00,0.5%,worse,Low,Construction Spending m/m,0.8%,better,27,2014-07-01 14:00:00+00:00,-80.0,2014,3,7,Tuesday
+45.6,USD,2014-07-01 10:00:00,48.9,worse,Low,IBD/TIPP Economic Optimism,47.7,accurate,27,2014-07-01 14:00:00+00:00,-6.75,2014,3,7,Tuesday
+58.0,USD,2014-07-01 10:00:00,60.0,worse,Low,ISM Manufacturing Prices,60.0,accurate,27,2014-07-01 14:00:00+00:00,-3.33,2014,3,7,Tuesday
+17.0M,USD,2014-07-01 01:00:00,16.5M,better,Low,Total Vehicle Sales,16.8M,accurate,27,2014-07-01 05:00:00+00:00,3.03,2014,3,7,Tuesday
+281K,USD,2014-07-02 08:15:00,207K,better,High,ADP Non-Farm Employment Change,179K,accurate,27,2014-07-02 12:15:00+00:00,35.75,2014,3,7,Wednesday
+-0.5%,USD,2014-07-02 10:00:00,-0.4%,accurate,Medium,Factory Orders m/m,0.8%,accurate,27,2014-07-02 14:00:00+00:00,-25.0,2014,3,7,Wednesday
+-3.2M,USD,2014-07-02 10:30:00,-2.2M,accurate,Medium,Crude Oil Inventories,1.7M,accurate,27,2014-07-02 14:30:00+00:00,-45.45,2014,3,7,Wednesday
+288K,USD,2014-07-03 08:30:00,214K,better,High,Non-Farm Employment Change,224K,better,27,2014-07-03 12:30:00+00:00,34.58,2014,3,7,Thursday
+-44.4B,USD,2014-07-03 08:30:00,-45.1B,accurate,High,Trade Balance,-47.0B,accurate,27,2014-07-03 12:30:00+00:00,1.55,2014,3,7,Thursday
+315K,USD,2014-07-03 08:30:00,314K,accurate,High,Unemployment Claims,313K,accurate,27,2014-07-03 12:30:00+00:00,0.32,2014,3,7,Thursday
+6.1%,USD,2014-07-03 08:30:00,6.3%,better,High,Unemployment Rate,6.3%,accurate,27,2014-07-03 12:30:00+00:00,-3.17,2014,3,7,Thursday
+0.2%,USD,2014-07-03 08:30:00,0.2%,accurate,Medium,Average Hourly Earnings m/m,0.2%,accurate,27,2014-07-03 12:30:00+00:00,0.0,2014,3,7,Thursday
+61.0,USD,2014-07-03 09:45:00,61.1,accurate,Low,Final Services PMI,61.2,accurate,27,2014-07-03 13:45:00+00:00,-0.16,2014,3,7,Thursday
+56.0,USD,2014-07-03 10:00:00,56.2,accurate,High,ISM Non-Manufacturing PMI,56.3,accurate,27,2014-07-03 14:00:00+00:00,-0.36,2014,3,7,Thursday
+100B,USD,2014-07-03 10:30:00,100B,accurate,Low,Natural Gas Storage,110B,accurate,27,2014-07-03 14:30:00+00:00,0.0,2014,3,7,Thursday
+57.5,USD,2014-06-23 09:45:00,56.1,better,Medium,Flash Manufacturing PMI,56.4,accurate,26,2014-06-23 13:45:00+00:00,2.5,2014,2,6,Monday
+4.89M,USD,2014-06-23 10:00:00,4.74M,better,High,Existing Home Sales,4.66M,accurate,26,2014-06-23 14:00:00+00:00,3.16,2014,2,6,Monday
+10.8%,USD,2014-06-24 09:00:00,11.7%,worse,Medium,S&P/CS Composite-20 HPI y/y,12.4%,accurate,26,2014-06-24 13:00:00+00:00,-7.69,2014,2,6,Tuesday
+0.0%,USD,2014-06-24 09:03:00,0.6%,worse,Low,HPI m/m,0.7%,accurate,26,2014-06-24 13:03:00+00:00,-100.0,2014,2,6,Tuesday
+3,USD,2014-06-24 09:59:00,6,worse,Low,Richmond Manufacturing Index,7,accurate,26,2014-06-24 13:59:00+00:00,-50.0,2014,2,6,Tuesday
+85.2,USD,2014-06-24 10:00:00,83.6,better,High,CB Consumer Confidence,82.2,worse,26,2014-06-24 14:00:00+00:00,1.91,2014,2,6,Tuesday
+504K,USD,2014-06-24 10:00:00,442K,better,High,New Home Sales,425K,worse,26,2014-06-24 14:00:00+00:00,14.03,2014,2,6,Tuesday
+-0.1%,USD,2014-06-25 08:30:00,0.3%,worse,High,Core Durable Goods Orders m/m,0.3%,better,26,2014-06-25 12:30:00+00:00,-133.33,2014,2,6,Wednesday
+-2.9%,USD,2014-06-25 08:30:00,-1.8%,worse,High,Final GDP q/q,-1.0%,accurate,26,2014-06-25 12:30:00+00:00,-61.11,2014,2,6,Wednesday
+-1.0%,USD,2014-06-25 08:30:00,-0.1%,worse,Medium,Durable Goods Orders m/m,0.6%,worse,26,2014-06-25 12:30:00+00:00,-900.0,2014,2,6,Wednesday
+1.3%,USD,2014-06-25 08:30:00,1.3%,accurate,Low,Final GDP Price Index q/q,1.3%,accurate,26,2014-06-25 12:30:00+00:00,0.0,2014,2,6,Wednesday
+61.2,USD,2014-06-25 09:45:00,58.6,better,Low,Flash Services PMI,58.1,accurate,26,2014-06-25 13:45:00+00:00,4.44,2014,2,6,Wednesday
+1.7M,USD,2014-06-25 10:30:00,-1.2M,accurate,Medium,Crude Oil Inventories,-0.6M,accurate,26,2014-06-25 14:30:00+00:00,241.67,2014,2,6,Wednesday
+312K,USD,2014-06-26 08:30:00,314K,accurate,High,Unemployment Claims,314K,accurate,26,2014-06-26 12:30:00+00:00,-0.64,2014,2,6,Thursday
+0.2%,USD,2014-06-26 08:30:00,0.2%,accurate,Medium,Core PCE Price Index m/m,0.2%,accurate,26,2014-06-26 12:30:00+00:00,0.0,2014,2,6,Thursday
+0.2%,USD,2014-06-26 08:30:00,0.4%,worse,Medium,Personal Spending m/m,0.0%,better,26,2014-06-26 12:30:00+00:00,-50.0,2014,2,6,Thursday
+0.4%,USD,2014-06-26 08:30:00,0.5%,worse,Low,Personal Income m/m,0.3%,accurate,26,2014-06-26 12:30:00+00:00,-20.0,2014,2,6,Thursday
+110B,USD,2014-06-26 10:30:00,101B,accurate,Low,Natural Gas Storage,113B,accurate,26,2014-06-26 14:30:00+00:00,8.91,2014,2,6,Thursday
+82.5,USD,2014-06-27 09:55:00,82.2,accurate,Medium,Revised UoM Consumer Sentiment,81.2,accurate,26,2014-06-27 13:55:00+00:00,0.36,2014,2,6,Friday
+19.3,USD,2014-06-16 08:30:00,15.2,better,Medium,Empire State Manufacturing Index,19.0,accurate,25,2014-06-16 12:30:00+00:00,26.97,2014,2,6,Monday
+-24.2B,USD,2014-06-16 09:00:00,41.3B,worse,Medium,TIC Long-Term Purchases,4.1B,accurate,25,2014-06-16 13:00:00+00:00,-158.6,2014,2,6,Monday
+79.1%,USD,2014-06-16 09:15:00,78.9%,better,Medium,Capacity Utilization Rate,78.9%,better,25,2014-06-16 13:15:00+00:00,0.25,2014,2,6,Monday
+0.6%,USD,2014-06-16 09:15:00,0.6%,accurate,Medium,Industrial Production m/m,-0.3%,better,25,2014-06-16 13:15:00+00:00,0.0,2014,2,6,Monday
+49,USD,2014-06-16 10:00:00,47,better,Medium,NAHB Housing Market Index,45,accurate,25,2014-06-16 14:00:00+00:00,4.26,2014,2,6,Monday
+0.99M,USD,2014-06-17 08:30:00,1.07M,worse,High,Building Permits,1.06M,accurate,25,2014-06-17 12:30:00+00:00,-7.48,2014,2,6,Tuesday
+0.3%,USD,2014-06-17 08:30:00,0.2%,better,High,Core CPI m/m,0.2%,accurate,25,2014-06-17 12:30:00+00:00,50.0,2014,2,6,Tuesday
+0.4%,USD,2014-06-17 08:30:00,0.2%,better,Medium,CPI m/m,0.3%,accurate,25,2014-06-17 12:30:00+00:00,100.0,2014,2,6,Tuesday
+1.00M,USD,2014-06-17 08:30:00,1.04M,worse,Medium,Housing Starts,1.07M,accurate,25,2014-06-17 12:30:00+00:00,-3.85,2014,2,6,Tuesday
+-111B,USD,2014-06-18 08:30:00,-96B,worse,Medium,Current Account,-87B,worse,25,2014-06-18 12:30:00+00:00,-15.62,2014,2,6,Wednesday
+-0.6M,USD,2014-06-18 10:30:00,-0.6M,accurate,Medium,Crude Oil Inventories,-2.6M,accurate,25,2014-06-18 14:30:00+00:00,0.0,2014,2,6,Wednesday
+<0.25%,USD,2014-06-18 14:00:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,25,2014-06-18 18:00:00+00:00,0.0,2014,2,6,Wednesday
+312K,USD,2014-06-19 08:30:00,316K,accurate,High,Unemployment Claims,318K,accurate,25,2014-06-19 12:30:00+00:00,-1.27,2014,2,6,Thursday
+17.8,USD,2014-06-19 10:00:00,14.3,better,High,Philly Fed Manufacturing Index,15.4,accurate,25,2014-06-19 14:00:00+00:00,24.48,2014,2,6,Thursday
+0.5%,USD,2014-06-19 10:00:00,0.6%,worse,Low,CB Leading Index m/m,0.3%,worse,25,2014-06-19 14:00:00+00:00,-16.67,2014,2,6,Thursday
+113B,USD,2014-06-19 10:30:00,112B,accurate,Low,Natural Gas Storage,107B,accurate,25,2014-06-19 14:30:00+00:00,0.89,2014,2,6,Thursday
+96.6,USD,2014-06-10 07:30:00,96.1,accurate,Low,NFIB Small Business Index,95.2,accurate,24,2014-06-10 11:30:00+00:00,0.52,2014,2,6,Tuesday
+4.46M,USD,2014-06-10 10:00:00,4.04M,better,Medium,JOLTS Job Openings,4.17M,better,24,2014-06-10 14:00:00+00:00,10.4,2014,2,6,Tuesday
+1.1%,USD,2014-06-10 10:00:00,0.6%,worse,Low,Final Wholesale Inventories m/m,1.1%,accurate,24,2014-06-10 14:00:00+00:00,83.33,2014,2,6,Tuesday
+-2.6M,USD,2014-06-11 10:30:00,-1.3M,accurate,Medium,Crude Oil Inventories,-3.4M,accurate,24,2014-06-11 14:30:00+00:00,-100.0,2014,2,6,Wednesday
+-130.0B,USD,2014-06-11 14:00:00,-132.8B,accurate,Medium,Federal Budget Balance,106.9B,accurate,24,2014-06-11 18:00:00+00:00,2.11,2014,2,6,Wednesday
+0.1%,USD,2014-06-12 08:30:00,0.4%,worse,High,Core Retail Sales m/m,0.4%,better,24,2014-06-12 12:30:00+00:00,-75.0,2014,2,6,Thursday
+0.3%,USD,2014-06-12 08:30:00,0.5%,worse,High,Retail Sales m/m,0.5%,better,24,2014-06-12 12:30:00+00:00,-40.0,2014,2,6,Thursday
+317K,USD,2014-06-12 08:30:00,306K,worse,High,Unemployment Claims,313K,accurate,24,2014-06-12 12:30:00+00:00,3.59,2014,2,6,Thursday
+0.1%,USD,2014-06-12 08:30:00,0.2%,accurate,Medium,Import Prices m/m,-0.5%,accurate,24,2014-06-12 12:30:00+00:00,-50.0,2014,2,6,Thursday
+0.6%,USD,2014-06-12 10:00:00,0.4%,worse,Medium,Business Inventories m/m,0.4%,accurate,24,2014-06-12 14:00:00+00:00,50.0,2014,2,6,Thursday
+107B,USD,2014-06-12 10:30:00,111B,accurate,Low,Natural Gas Storage,119B,accurate,24,2014-06-12 14:30:00+00:00,-3.6,2014,2,6,Thursday
+-0.2%,USD,2014-06-13 08:30:00,0.1%,worse,High,PPI m/m,0.6%,accurate,24,2014-06-13 12:30:00+00:00,-300.0,2014,2,6,Friday
+-0.1%,USD,2014-06-13 08:30:00,0.2%,worse,Medium,Core PPI m/m,0.5%,accurate,24,2014-06-13 12:30:00+00:00,-150.0,2014,2,6,Friday
+81.2,USD,2014-06-13 09:55:00,83.2,worse,High,Prelim UoM Consumer Sentiment,81.9,accurate,24,2014-06-13 13:55:00+00:00,-2.4,2014,2,6,Friday
+56.4,USD,2014-06-02 09:45:00,56.2,accurate,Low,Final Manufacturing PMI,56.2,accurate,23,2014-06-02 13:45:00+00:00,0.36,2014,2,6,Monday
+55.4,USD,2014-06-02 10:00:00,55.7,accurate,High,ISM Manufacturing PMI,54.9,accurate,23,2014-06-02 14:00:00+00:00,-0.54,2014,2,6,Monday
+0.2%,USD,2014-06-02 10:00:00,0.8%,worse,Low,Construction Spending m/m,0.6%,better,23,2014-06-02 14:00:00+00:00,-75.0,2014,2,6,Monday
+60.0,USD,2014-06-02 10:00:00,56.8,better,Low,ISM Manufacturing Prices,56.5,accurate,23,2014-06-02 14:00:00+00:00,5.63,2014,2,6,Monday
+0.7%,USD,2014-06-03 10:00:00,0.6%,accurate,Medium,Factory Orders m/m,1.5%,better,23,2014-06-03 14:00:00+00:00,16.67,2014,2,6,Tuesday
+47.7,USD,2014-06-03 10:00:00,46.5,better,Low,IBD/TIPP Economic Optimism,45.8,accurate,23,2014-06-03 14:00:00+00:00,2.58,2014,2,6,Tuesday
+16.8M,USD,2014-06-03 01:00:00,16.0M,better,Low,Total Vehicle Sales,16.0M,accurate,23,2014-06-03 05:00:00+00:00,5.0,2014,2,6,Tuesday
+179K,USD,2014-06-04 08:15:00,217K,worse,High,ADP Non-Farm Employment Change,215K,accurate,23,2014-06-04 12:15:00+00:00,-17.51,2014,2,6,Wednesday
+-47.2B,USD,2014-06-04 08:30:00,-40.8B,worse,High,Trade Balance,-44.2B,worse,23,2014-06-04 12:30:00+00:00,-15.69,2014,2,6,Wednesday
+-3.2%,USD,2014-06-04 08:30:00,-2.2%,better,Medium,Revised Nonfarm Productivity q/q,-1.7%,accurate,23,2014-06-04 12:30:00+00:00,-45.45,2014,2,6,Wednesday
+5.7%,USD,2014-06-04 08:30:00,4.8%,better,Low,Revised Unit Labor Costs q/q,4.2%,accurate,23,2014-06-04 12:30:00+00:00,18.75,2014,2,6,Wednesday
+58.1,USD,2014-06-04 09:45:00,58.4,accurate,Low,Final Services PMI,58.4,accurate,23,2014-06-04 13:45:00+00:00,-0.51,2014,2,6,Wednesday
+56.3,USD,2014-06-04 10:00:00,55.6,better,High,ISM Non-Manufacturing PMI,55.2,accurate,23,2014-06-04 14:00:00+00:00,1.26,2014,2,6,Wednesday
+-3.4M,USD,2014-06-04 10:30:00,-0.2M,accurate,Medium,Crude Oil Inventories,1.7M,accurate,23,2014-06-04 14:30:00+00:00,-1600.0,2014,2,6,Wednesday
+312K,USD,2014-06-05 08:30:00,309K,accurate,High,Unemployment Claims,304K,accurate,23,2014-06-05 12:30:00+00:00,0.97,2014,2,6,Thursday
+119B,USD,2014-06-05 10:30:00,116B,accurate,Low,Natural Gas Storage,114B,accurate,23,2014-06-05 14:30:00+00:00,2.59,2014,2,6,Thursday
+217K,USD,2014-06-06 08:30:00,214K,accurate,High,Non-Farm Employment Change,282K,accurate,23,2014-06-06 12:30:00+00:00,1.4,2014,2,6,Friday
+6.3%,USD,2014-06-06 08:30:00,6.4%,better,High,Unemployment Rate,6.3%,accurate,23,2014-06-06 12:30:00+00:00,-1.56,2014,2,6,Friday
+0.2%,USD,2014-06-06 08:30:00,0.2%,accurate,Medium,Average Hourly Earnings m/m,0.0%,accurate,23,2014-06-06 12:30:00+00:00,0.0,2014,2,6,Friday
+26.8B,USD,2014-06-06 15:00:00,15.3B,better,Low,Consumer Credit m/m,19.5B,better,23,2014-06-06 19:00:00+00:00,75.16,2014,2,6,Friday
+0.1%,USD,2014-05-27 08:30:00,0.2%,accurate,High,Core Durable Goods Orders m/m,2.4%,better,22,2014-05-27 12:30:00+00:00,-50.0,2014,2,5,Tuesday
+0.8%,USD,2014-05-27 08:30:00,-0.5%,better,Medium,Durable Goods Orders m/m,2.9%,better,22,2014-05-27 12:30:00+00:00,260.0,2014,2,5,Tuesday
+12.4%,USD,2014-05-27 09:00:00,11.9%,better,Medium,S&P/CS Composite-20 HPI y/y,12.9%,accurate,22,2014-05-27 13:00:00+00:00,4.2,2014,2,5,Tuesday
+0.7%,USD,2014-05-27 09:05:00,0.5%,better,Low,HPI m/m,0.6%,accurate,22,2014-05-27 13:05:00+00:00,40.0,2014,2,5,Tuesday
+58.4,USD,2014-05-27 09:45:00,55.6,better,Low,Flash Services PMI,55.0,better,22,2014-05-27 13:45:00+00:00,5.04,2014,2,5,Tuesday
+7,USD,2014-05-27 09:59:00,5,better,Low,Richmond Manufacturing Index,7,accurate,22,2014-05-27 13:59:00+00:00,40.0,2014,2,5,Tuesday
+83.0,USD,2014-05-27 10:00:00,83.2,accurate,High,CB Consumer Confidence,81.7,worse,22,2014-05-27 14:00:00+00:00,-0.24,2014,2,5,Tuesday
+-1.0%,USD,2014-05-29 08:30:00,-0.6%,worse,High,Prelim GDP q/q,0.1%,accurate,22,2014-05-29 12:30:00+00:00,-66.67,2014,2,5,Thursday
+300K,USD,2014-05-29 08:30:00,321K,better,High,Unemployment Claims,327K,accurate,22,2014-05-29 12:30:00+00:00,-6.54,2014,2,5,Thursday
+1.3%,USD,2014-05-29 08:30:00,1.3%,accurate,Low,Prelim GDP Price Index q/q,1.3%,accurate,22,2014-05-29 12:30:00+00:00,0.0,2014,2,5,Thursday
+0.4%,USD,2014-05-29 10:00:00,1.1%,worse,High,Pending Home Sales m/m,3.4%,accurate,22,2014-05-29 14:00:00+00:00,-63.64,2014,2,5,Thursday
+114B,USD,2014-05-29 10:30:00,110B,accurate,Low,Natural Gas Storage,106B,accurate,22,2014-05-29 14:30:00+00:00,3.64,2014,2,5,Thursday
+1.7M,USD,2014-05-29 11:00:00,-0.1M,accurate,Medium,Crude Oil Inventories,-7.2M,accurate,22,2014-05-29 15:00:00+00:00,1800.0,2014,2,5,Thursday
+0.2%,USD,2014-05-30 08:30:00,0.2%,accurate,Medium,Core PCE Price Index m/m,0.2%,accurate,22,2014-05-30 12:30:00+00:00,0.0,2014,2,5,Friday
+-0.1%,USD,2014-05-30 08:30:00,0.2%,worse,Medium,Personal Spending m/m,1.0%,better,22,2014-05-30 12:30:00+00:00,-150.0,2014,2,5,Friday
+0.3%,USD,2014-05-30 08:30:00,0.3%,accurate,Low,Personal Income m/m,0.5%,accurate,22,2014-05-30 12:30:00+00:00,0.0,2014,2,5,Friday
+65.5,USD,2014-05-30 09:43:00,60.8,better,Medium,Chicago PMI,63.0,accurate,22,2014-05-30 13:43:00+00:00,7.73,2014,2,5,Friday
+81.9,USD,2014-05-30 09:55:00,82.9,worse,Medium,Revised UoM Consumer Sentiment,81.8,accurate,22,2014-05-30 13:55:00+00:00,-1.21,2014,2,5,Friday
+-7.2M,USD,2014-05-21 10:30:00,-0.1M,accurate,Medium,Crude Oil Inventories,0.9M,accurate,21,2014-05-21 14:30:00+00:00,-7100.0,2014,2,5,Wednesday
+326K,USD,2014-05-22 08:30:00,312K,worse,High,Unemployment Claims,298K,accurate,21,2014-05-22 12:30:00+00:00,4.49,2014,2,5,Thursday
+56.2,USD,2014-05-22 09:45:00,55.6,better,Medium,Flash Manufacturing PMI,55.4,accurate,21,2014-05-22 13:45:00+00:00,1.08,2014,2,5,Thursday
+4.65M,USD,2014-05-22 10:00:00,4.71M,worse,High,Existing Home Sales,4.59M,accurate,21,2014-05-22 14:00:00+00:00,-1.27,2014,2,5,Thursday
+0.4%,USD,2014-05-22 10:00:00,0.4%,accurate,Low,CB Leading Index m/m,1.0%,better,21,2014-05-22 14:00:00+00:00,0.0,2014,2,5,Thursday
+106B,USD,2014-05-22 10:30:00,104B,accurate,Low,Natural Gas Storage,105B,accurate,21,2014-05-22 14:30:00+00:00,1.92,2014,2,5,Thursday
+433K,USD,2014-05-23 10:00:00,426K,better,High,New Home Sales,407K,better,21,2014-05-23 14:00:00+00:00,1.64,2014,2,5,Friday
+106.9B,USD,2014-05-12 13:59:00,112.6B,worse,Medium,Federal Budget Balance,-36.9B,accurate,20,2014-05-12 17:59:00+00:00,-5.06,2014,2,5,Monday
+95.2,USD,2014-05-13 07:30:00,94.6,accurate,Low,NFIB Small Business Index,93.4,accurate,20,2014-05-13 11:30:00+00:00,0.63,2014,2,5,Tuesday
+0.0%,USD,2014-05-13 08:30:00,0.6%,worse,High,Core Retail Sales m/m,1.0%,better,20,2014-05-13 12:30:00+00:00,-100.0,2014,2,5,Tuesday
+0.1%,USD,2014-05-13 08:30:00,0.5%,worse,High,Retail Sales m/m,1.5%,better,20,2014-05-13 12:30:00+00:00,-80.0,2014,2,5,Tuesday
+-0.4%,USD,2014-05-13 08:30:00,0.4%,worse,Medium,Import Prices m/m,0.4%,worse,20,2014-05-13 12:30:00+00:00,-200.0,2014,2,5,Tuesday
+0.4%,USD,2014-05-13 10:00:00,0.4%,accurate,Medium,Business Inventories m/m,0.5%,worse,20,2014-05-13 14:00:00+00:00,0.0,2014,2,5,Tuesday
+0.6%,USD,2014-05-14 08:30:00,0.2%,better,High,PPI m/m,0.5%,accurate,20,2014-05-14 12:30:00+00:00,200.0,2014,2,5,Wednesday
+0.5%,USD,2014-05-14 08:30:00,0.2%,better,Medium,Core PPI m/m,0.6%,accurate,20,2014-05-14 12:30:00+00:00,150.0,2014,2,5,Wednesday
+0.9M,USD,2014-05-14 10:30:00,-0.4M,accurate,Medium,Crude Oil Inventories,-1.8M,accurate,20,2014-05-14 14:30:00+00:00,325.0,2014,2,5,Wednesday
+0.2%,USD,2014-05-15 08:30:00,0.1%,better,High,Core CPI m/m,0.2%,accurate,20,2014-05-15 12:30:00+00:00,100.0,2014,2,5,Thursday
+297K,USD,2014-05-15 08:30:00,321K,better,High,Unemployment Claims,321K,accurate,20,2014-05-15 12:30:00+00:00,-7.48,2014,2,5,Thursday
+0.3%,USD,2014-05-15 08:30:00,0.3%,accurate,Medium,CPI m/m,0.2%,accurate,20,2014-05-15 12:30:00+00:00,0.0,2014,2,5,Thursday
+19.0,USD,2014-05-15 08:30:00,5.5,better,Medium,Empire State Manufacturing Index,1.3,accurate,20,2014-05-15 12:30:00+00:00,245.45,2014,2,5,Thursday
+4.0B,USD,2014-05-15 09:00:00,32.3B,worse,Medium,TIC Long-Term Purchases,90.3B,better,20,2014-05-15 13:00:00+00:00,-87.62,2014,2,5,Thursday
+78.6%,USD,2014-05-15 09:15:00,79.2%,worse,Medium,Capacity Utilization Rate,79.3%,accurate,20,2014-05-15 13:15:00+00:00,-0.76,2014,2,5,Thursday
+-0.6%,USD,2014-05-15 09:15:00,0.4%,worse,Medium,Industrial Production m/m,0.9%,better,20,2014-05-15 13:15:00+00:00,-250.0,2014,2,5,Thursday
+15.4,USD,2014-05-15 10:00:00,13.9,better,High,Philly Fed Manufacturing Index,16.6,accurate,20,2014-05-15 14:00:00+00:00,10.79,2014,2,5,Thursday
+45,USD,2014-05-15 10:00:00,49,worse,Medium,NAHB Housing Market Index,46,worse,20,2014-05-15 14:00:00+00:00,-8.16,2014,2,5,Thursday
+105B,USD,2014-05-15 10:30:00,99B,accurate,Low,Natural Gas Storage,74B,accurate,20,2014-05-15 14:30:00+00:00,6.06,2014,2,5,Thursday
+1.08M,USD,2014-05-16 08:30:00,1.01M,better,High,Building Permits,1.00M,accurate,20,2014-05-16 12:30:00+00:00,6.93,2014,2,5,Friday
+1.07M,USD,2014-05-16 08:30:00,0.98M,better,Medium,Housing Starts,0.95M,accurate,20,2014-05-16 12:30:00+00:00,9.18,2014,2,5,Friday
+81.8,USD,2014-05-16 09:55:00,84.7,worse,High,Prelim UoM Consumer Sentiment,84.1,better,20,2014-05-16 13:55:00+00:00,-3.42,2014,2,5,Friday
+55.0,USD,2014-05-05 09:45:00,54.2,better,Low,Final Services PMI,54.2,accurate,19,2014-05-05 13:45:00+00:00,1.48,2014,2,5,Monday
+55.2,USD,2014-05-05 10:00:00,54.3,better,High,ISM Non-Manufacturing PMI,53.1,accurate,19,2014-05-05 14:00:00+00:00,1.66,2014,2,5,Monday
+-40.4B,USD,2014-05-06 08:30:00,-40.1B,accurate,High,Trade Balance,-41.9B,accurate,19,2014-05-06 12:30:00+00:00,-0.75,2014,2,5,Tuesday
+45.8,USD,2014-05-06 10:00:00,47.6,worse,Low,IBD/TIPP Economic Optimism,48.0,accurate,19,2014-05-06 14:00:00+00:00,-3.78,2014,2,5,Tuesday
+-1.7%,USD,2014-05-07 08:30:00,-0.9%,better,Medium,Prelim Nonfarm Productivity q/q,1.8%,better,19,2014-05-07 12:30:00+00:00,-88.89,2014,2,5,Wednesday
+4.2%,USD,2014-05-07 08:30:00,2.3%,better,Medium,Prelim Unit Labor Costs q/q,-0.1%,better,19,2014-05-07 12:30:00+00:00,82.61,2014,2,5,Wednesday
+-1.8M,USD,2014-05-07 10:30:00,0.9M,accurate,Medium,Crude Oil Inventories,1.7M,accurate,19,2014-05-07 14:30:00+00:00,-300.0,2014,2,5,Wednesday
+17.5B,USD,2014-05-07 15:00:00,15.4B,better,Low,Consumer Credit m/m,13.0B,worse,19,2014-05-07 19:00:00+00:00,13.64,2014,2,5,Wednesday
+319K,USD,2014-05-08 08:30:00,328K,better,High,Unemployment Claims,345K,accurate,19,2014-05-08 12:30:00+00:00,-2.74,2014,2,5,Thursday
+74B,USD,2014-05-08 10:30:00,71B,accurate,Low,Natural Gas Storage,82B,accurate,19,2014-05-08 14:30:00+00:00,4.23,2014,2,5,Thursday
+4.01M,USD,2014-05-09 10:00:00,4.21M,worse,High,JOLTS Job Openings,4.13M,accurate,19,2014-05-09 14:00:00+00:00,-4.75,2014,2,5,Friday
+1.1%,USD,2014-05-09 10:00:00,0.5%,worse,Low,Final Wholesale Inventories m/m,0.7%,worse,19,2014-05-09 14:00:00+00:00,120.0,2014,2,5,Friday
+3.4%,USD,2014-04-28 10:00:00,1.0%,better,High,Pending Home Sales m/m,-0.5%,better,18,2014-04-28 14:00:00+00:00,240.0,2014,2,4,Monday
+12.9%,USD,2014-04-29 09:00:00,12.9%,accurate,Medium,S&P/CS Composite-20 HPI y/y,13.2%,accurate,18,2014-04-29 13:00:00+00:00,0.0,2014,2,4,Tuesday
+82.3,USD,2014-04-29 10:00:00,82.9,worse,High,CB Consumer Confidence,83.9,better,18,2014-04-29 14:00:00+00:00,-0.72,2014,2,4,Tuesday
+220K,USD,2014-04-30 08:15:00,203K,better,High,ADP Non-Farm Employment Change,209K,better,18,2014-04-30 12:15:00+00:00,8.37,2014,2,4,Wednesday
+0.1%,USD,2014-04-30 08:30:00,1.2%,worse,High,Advance GDP q/q,2.6%,worse,18,2014-04-30 12:30:00+00:00,-91.67,2014,2,4,Wednesday
+1.3%,USD,2014-04-30 08:30:00,1.6%,worse,Medium,Advance GDP Price Index q/q,1.6%,better,18,2014-04-30 12:30:00+00:00,-18.75,2014,2,4,Wednesday
+0.3%,USD,2014-04-30 08:30:00,0.5%,worse,Medium,Employment Cost Index q/q,0.5%,accurate,18,2014-04-30 12:30:00+00:00,-40.0,2014,2,4,Wednesday
+63.0,USD,2014-04-30 09:41:00,56.6,better,Medium,Chicago PMI,55.9,accurate,18,2014-04-30 13:41:00+00:00,11.31,2014,2,4,Wednesday
+1.7M,USD,2014-04-30 10:30:00,1.3M,accurate,Medium,Crude Oil Inventories,3.5M,accurate,18,2014-04-30 14:30:00+00:00,30.77,2014,2,4,Wednesday
+<0.25%,USD,2014-04-30 14:00:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,18,2014-04-30 18:00:00+00:00,0.0,2014,2,4,Wednesday
+344K,USD,2014-05-01 08:30:00,317K,worse,High,Unemployment Claims,330K,accurate,18,2014-05-01 12:30:00+00:00,8.52,2014,2,5,Thursday
+0.2%,USD,2014-05-01 08:30:00,0.1%,better,Medium,Core PCE Price Index m/m,0.1%,accurate,18,2014-05-01 12:30:00+00:00,100.0,2014,2,5,Thursday
+0.9%,USD,2014-05-01 08:30:00,0.7%,better,Medium,Personal Spending m/m,0.5%,better,18,2014-05-01 12:30:00+00:00,28.57,2014,2,5,Thursday
+0.5%,USD,2014-05-01 08:30:00,0.4%,better,Low,Personal Income m/m,0.4%,better,18,2014-05-01 12:30:00+00:00,25.0,2014,2,5,Thursday
+55.4,USD,2014-05-01 09:45:00,55.8,worse,Low,Final Manufacturing PMI,55.4,accurate,18,2014-05-01 13:45:00+00:00,-0.72,2014,2,5,Thursday
+54.9,USD,2014-05-01 10:00:00,54.3,better,High,ISM Manufacturing PMI,53.7,accurate,18,2014-05-01 14:00:00+00:00,1.1,2014,2,5,Thursday
+0.2%,USD,2014-05-01 10:00:00,0.5%,worse,Low,Construction Spending m/m,-0.2%,worse,18,2014-05-01 14:00:00+00:00,-60.0,2014,2,5,Thursday
+56.5,USD,2014-05-01 10:00:00,59.4,worse,Low,ISM Manufacturing Prices,59.0,accurate,18,2014-05-01 14:00:00+00:00,-4.88,2014,2,5,Thursday
+82B,USD,2014-05-01 10:30:00,75B,accurate,Low,Natural Gas Storage,49B,accurate,18,2014-05-01 14:30:00+00:00,9.33,2014,2,5,Thursday
+16.0M,USD,2014-05-01 01:00:00,16.2M,worse,Low,Total Vehicle Sales,16.4M,accurate,18,2014-05-01 05:00:00+00:00,-1.23,2014,2,5,Thursday
+288K,USD,2014-05-02 08:30:00,216K,better,High,Non-Farm Employment Change,203K,better,18,2014-05-02 12:30:00+00:00,33.33,2014,2,5,Friday
+6.3%,USD,2014-05-02 08:30:00,6.6%,better,High,Unemployment Rate,6.7%,accurate,18,2014-05-02 12:30:00+00:00,-4.55,2014,2,5,Friday
+0.0%,USD,2014-05-02 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.1%,better,18,2014-05-02 12:30:00+00:00,-100.0,2014,2,5,Friday
+1.1%,USD,2014-05-02 10:00:00,1.5%,worse,Medium,Factory Orders m/m,1.5%,accurate,18,2014-05-02 14:00:00+00:00,-26.67,2014,2,5,Friday
+0.8%,USD,2014-04-21 10:00:00,0.8%,accurate,Low,CB Leading Index m/m,0.5%,accurate,17,2014-04-21 14:00:00+00:00,0.0,2014,2,4,Monday
+0.6%,USD,2014-04-22 09:04:00,0.6%,accurate,Low,HPI m/m,0.4%,worse,17,2014-04-22 13:04:00+00:00,0.0,2014,2,4,Tuesday
+7,USD,2014-04-22 09:59:00,0,better,Low,Richmond Manufacturing Index,-7,accurate,17,2014-04-22 13:59:00+00:00,700.0,2014,2,4,Tuesday
+4.59M,USD,2014-04-22 10:00:00,4.57M,accurate,High,Existing Home Sales,4.60M,accurate,17,2014-04-22 14:00:00+00:00,0.44,2014,2,4,Tuesday
+55.4,USD,2014-04-23 09:45:00,56.2,worse,Medium,Flash Manufacturing PMI,55.5,accurate,17,2014-04-23 13:45:00+00:00,-1.42,2014,2,4,Wednesday
+384K,USD,2014-04-23 10:00:00,455K,worse,High,New Home Sales,449K,better,17,2014-04-23 14:00:00+00:00,-15.6,2014,2,4,Wednesday
+3.5M,USD,2014-04-23 10:30:00,2.6M,accurate,Medium,Crude Oil Inventories,10.0M,accurate,17,2014-04-23 14:30:00+00:00,34.62,2014,2,4,Wednesday
+2.0%,USD,2014-04-24 08:30:00,0.6%,better,High,Core Durable Goods Orders m/m,0.1%,accurate,17,2014-04-24 12:30:00+00:00,233.33,2014,2,4,Thursday
+329K,USD,2014-04-24 08:30:00,309K,worse,High,Unemployment Claims,305K,accurate,17,2014-04-24 12:30:00+00:00,6.47,2014,2,4,Thursday
+2.6%,USD,2014-04-24 08:30:00,2.1%,better,Medium,Durable Goods Orders m/m,2.1%,accurate,17,2014-04-24 12:30:00+00:00,23.81,2014,2,4,Thursday
+49B,USD,2014-04-24 10:30:00,40B,accurate,Low,Natural Gas Storage,24B,accurate,17,2014-04-24 14:30:00+00:00,22.5,2014,2,4,Thursday
+54.2,USD,2014-04-25 09:45:00,56.2,worse,Low,Flash Services PMI,55.5,accurate,17,2014-04-25 13:45:00+00:00,-3.56,2014,2,4,Friday
+84.1,USD,2014-04-25 09:55:00,83.2,better,Medium,Revised UoM Consumer Sentiment,82.6,accurate,17,2014-04-25 13:55:00+00:00,1.08,2014,2,4,Friday
+0.7%,USD,2014-04-14 08:30:00,0.5%,better,High,Core Retail Sales m/m,0.3%,accurate,16,2014-04-14 12:30:00+00:00,40.0,2014,2,4,Monday
+1.1%,USD,2014-04-14 08:30:00,0.8%,better,High,Retail Sales m/m,0.7%,better,16,2014-04-14 12:30:00+00:00,37.5,2014,2,4,Monday
+0.4%,USD,2014-04-14 10:00:00,0.5%,better,Medium,Business Inventories m/m,0.4%,accurate,16,2014-04-14 14:00:00+00:00,-20.0,2014,2,4,Monday
+0.2%,USD,2014-04-15 08:30:00,0.1%,better,High,Core CPI m/m,0.1%,accurate,16,2014-04-15 12:30:00+00:00,100.0,2014,2,4,Tuesday
+0.2%,USD,2014-04-15 08:30:00,0.1%,better,Medium,CPI m/m,0.1%,accurate,16,2014-04-15 12:30:00+00:00,100.0,2014,2,4,Tuesday
+1.3,USD,2014-04-15 08:30:00,8.2,worse,Medium,Empire State Manufacturing Index,5.6,accurate,16,2014-04-15 12:30:00+00:00,-84.15,2014,2,4,Tuesday
+85.7B,USD,2014-04-15 09:00:00,31.6B,better,Medium,TIC Long-Term Purchases,7.7B,accurate,16,2014-04-15 13:00:00+00:00,171.2,2014,2,4,Tuesday
+47,USD,2014-04-15 10:00:00,50,worse,Medium,NAHB Housing Market Index,46,worse,16,2014-04-15 14:00:00+00:00,-6.0,2014,2,4,Tuesday
+0.99M,USD,2014-04-16 08:30:00,1.00M,accurate,High,Building Permits,1.01M,accurate,16,2014-04-16 12:30:00+00:00,-1.0,2014,2,4,Wednesday
+0.95M,USD,2014-04-16 08:30:00,0.97M,accurate,Medium,Housing Starts,0.92M,accurate,16,2014-04-16 12:30:00+00:00,-2.06,2014,2,4,Wednesday
+79.2%,USD,2014-04-16 09:15:00,78.8%,better,Medium,Capacity Utilization Rate,78.8%,accurate,16,2014-04-16 13:15:00+00:00,0.51,2014,2,4,Wednesday
+0.7%,USD,2014-04-16 09:15:00,0.5%,better,Medium,Industrial Production m/m,1.2%,better,16,2014-04-16 13:15:00+00:00,40.0,2014,2,4,Wednesday
+10.0M,USD,2014-04-16 10:30:00,1.3M,accurate,Medium,Crude Oil Inventories,4.0M,accurate,16,2014-04-16 14:30:00+00:00,669.23,2014,2,4,Wednesday
+304K,USD,2014-04-17 08:30:00,316K,better,High,Unemployment Claims,302K,accurate,16,2014-04-17 12:30:00+00:00,-3.8,2014,2,4,Thursday
+16.6,USD,2014-04-17 10:00:00,9.6,better,High,Philly Fed Manufacturing Index,9.0,accurate,16,2014-04-17 14:00:00+00:00,72.92,2014,2,4,Thursday
+24B,USD,2014-04-17 10:30:00,35B,accurate,Low,Natural Gas Storage,4B,accurate,16,2014-04-17 14:30:00+00:00,-31.43,2014,2,4,Thursday
+16.5B,USD,2014-04-07 15:00:00,14.1B,better,Low,Consumer Credit m/m,13.8B,accurate,15,2014-04-07 19:00:00+00:00,17.02,2014,2,4,Monday
+93.4,USD,2014-04-08 07:30:00,92.3,better,Low,NFIB Small Business Index,91.4,accurate,15,2014-04-08 11:30:00+00:00,1.19,2014,2,4,Tuesday
+4.17M,USD,2014-04-08 10:00:00,3.99M,better,High,JOLTS Job Openings,3.87M,worse,15,2014-04-08 14:00:00+00:00,4.51,2014,2,4,Tuesday
+0.5%,USD,2014-04-09 10:00:00,0.5%,accurate,Low,Final Wholesale Inventories m/m,0.8%,worse,15,2014-04-09 14:00:00+00:00,0.0,2014,2,4,Wednesday
+4.0M,USD,2014-04-09 10:30:00,1.0M,accurate,Medium,Crude Oil Inventories,-2.4M,accurate,15,2014-04-09 14:30:00+00:00,300.0,2014,2,4,Wednesday
+300K,USD,2014-04-10 08:30:00,314K,better,High,Unemployment Claims,332K,worse,15,2014-04-10 12:30:00+00:00,-4.46,2014,2,4,Thursday
+0.6%,USD,2014-04-10 08:30:00,0.2%,better,Medium,Import Prices m/m,0.9%,accurate,15,2014-04-10 12:30:00+00:00,200.0,2014,2,4,Thursday
+4B,USD,2014-04-10 10:30:00,15B,accurate,Low,Natural Gas Storage,-74B,accurate,15,2014-04-10 14:30:00+00:00,-73.33,2014,2,4,Thursday
+-36.9B,USD,2014-04-10 13:59:00,-76.5B,better,Medium,Federal Budget Balance,-193.5B,accurate,15,2014-04-10 17:59:00+00:00,51.76,2014,2,4,Thursday
+0.5%,USD,2014-04-11 08:30:00,0.1%,better,High,PPI m/m,-0.1%,accurate,15,2014-04-11 12:30:00+00:00,400.0,2014,2,4,Friday
+0.6%,USD,2014-04-11 08:30:00,0.2%,better,Medium,Core PPI m/m,-0.2%,accurate,15,2014-04-11 12:30:00+00:00,200.0,2014,2,4,Friday
+82.6,USD,2014-04-11 09:55:00,81.2,better,High,Prelim UoM Consumer Sentiment,80.0,accurate,15,2014-04-11 13:55:00+00:00,1.72,2014,2,4,Friday
+55.9,USD,2014-03-31 09:45:00,59.2,worse,Medium,Chicago PMI,59.8,accurate,14,2014-03-31 13:45:00+00:00,-5.57,2014,1,3,Monday
+55.5,USD,2014-04-01 09:45:00,55.9,worse,Low,Final Manufacturing PMI,55.5,accurate,14,2014-04-01 13:45:00+00:00,-0.72,2014,2,4,Tuesday
+53.7,USD,2014-04-01 10:00:00,54.2,worse,High,ISM Manufacturing PMI,53.2,accurate,14,2014-04-01 14:00:00+00:00,-0.92,2014,2,4,Tuesday
+0.1%,USD,2014-04-01 10:00:00,0.2%,accurate,Low,Construction Spending m/m,-0.2%,worse,14,2014-04-01 14:00:00+00:00,-50.0,2014,2,4,Tuesday
+48.0,USD,2014-04-01 10:00:00,46.3,better,Low,IBD/TIPP Economic Optimism,45.1,accurate,14,2014-04-01 14:00:00+00:00,3.67,2014,2,4,Tuesday
+59.0,USD,2014-04-01 10:00:00,59.2,accurate,Low,ISM Manufacturing Prices,60.0,accurate,14,2014-04-01 14:00:00+00:00,-0.34,2014,2,4,Tuesday
+16.4M,USD,2014-04-01 01:00:00,15.8M,better,Low,Total Vehicle Sales,15.3M,accurate,14,2014-04-01 05:00:00+00:00,3.8,2014,2,4,Tuesday
+191K,USD,2014-04-02 08:15:00,192K,accurate,High,ADP Non-Farm Employment Change,178K,better,14,2014-04-02 12:15:00+00:00,-0.52,2014,2,4,Wednesday
+1.6%,USD,2014-04-02 10:00:00,1.3%,better,Medium,Factory Orders m/m,-1.0%,worse,14,2014-04-02 14:00:00+00:00,23.08,2014,2,4,Wednesday
+-2.4M,USD,2014-04-02 10:30:00,1.3M,accurate,Medium,Crude Oil Inventories,6.6M,accurate,14,2014-04-02 14:30:00+00:00,-284.62,2014,2,4,Wednesday
+-42.3B,USD,2014-04-03 08:30:00,-38.3B,worse,High,Trade Balance,-39.3B,accurate,14,2014-04-03 12:30:00+00:00,-10.44,2014,2,4,Thursday
+326K,USD,2014-04-03 08:30:00,319K,worse,High,Unemployment Claims,310K,accurate,14,2014-04-03 12:30:00+00:00,2.19,2014,2,4,Thursday
+55.3,USD,2014-04-03 09:45:00,55.5,accurate,Low,Final Services PMI,55.5,accurate,14,2014-04-03 13:45:00+00:00,-0.36,2014,2,4,Thursday
+53.1,USD,2014-04-03 10:00:00,53.5,worse,High,ISM Non-Manufacturing PMI,51.6,accurate,14,2014-04-03 14:00:00+00:00,-0.75,2014,2,4,Thursday
+-74B,USD,2014-04-03 10:30:00,-75B,accurate,Low,Natural Gas Storage,-57B,accurate,14,2014-04-03 14:30:00+00:00,1.33,2014,2,4,Thursday
+192K,USD,2014-04-04 08:30:00,199K,worse,High,Non-Farm Employment Change,197K,better,14,2014-04-04 12:30:00+00:00,-3.52,2014,2,4,Friday
+6.7%,USD,2014-04-04 08:30:00,6.6%,worse,High,Unemployment Rate,6.7%,accurate,14,2014-04-04 12:30:00+00:00,1.52,2014,2,4,Friday
+0.0%,USD,2014-04-04 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.4%,accurate,14,2014-04-04 12:30:00+00:00,-100.0,2014,2,4,Friday
+55.5,USD,2014-03-24 09:45:00,56.6,worse,Medium,Flash Manufacturing PMI,57.1,better,13,2014-03-24 13:45:00+00:00,-1.94,2014,1,3,Monday
+13.2%,USD,2014-03-25 09:00:00,13.3%,accurate,Medium,S&P/CS Composite-20 HPI y/y,13.4%,accurate,13,2014-03-25 13:00:00+00:00,-0.75,2014,1,3,Tuesday
+0.5%,USD,2014-03-25 09:00:00,0.7%,worse,Low,HPI m/m,0.7%,worse,13,2014-03-25 13:00:00+00:00,-28.57,2014,1,3,Tuesday
+-7,USD,2014-03-25 09:59:00,-1,worse,Low,Richmond Manufacturing Index,-6,accurate,13,2014-03-25 13:59:00+00:00,-600.0,2014,1,3,Tuesday
+82.3,USD,2014-03-25 10:00:00,78.7,better,High,CB Consumer Confidence,78.3,accurate,13,2014-03-25 14:00:00+00:00,4.57,2014,1,3,Tuesday
+440K,USD,2014-03-25 10:00:00,447K,worse,High,New Home Sales,455K,worse,13,2014-03-25 14:00:00+00:00,-1.57,2014,1,3,Tuesday
+0.2%,USD,2014-03-26 08:30:00,0.3%,accurate,High,Core Durable Goods Orders m/m,0.9%,worse,13,2014-03-26 12:30:00+00:00,-33.33,2014,1,3,Wednesday
+2.2%,USD,2014-03-26 08:30:00,1.1%,better,Medium,Durable Goods Orders m/m,-1.3%,worse,13,2014-03-26 12:30:00+00:00,100.0,2014,1,3,Wednesday
+55.5,USD,2014-03-26 09:45:00,54.2,better,Low,Flash Services PMI,53.3,better,13,2014-03-26 13:45:00+00:00,2.4,2014,1,3,Wednesday
+6.6M,USD,2014-03-26 10:30:00,2.9M,accurate,Medium,Crude Oil Inventories,5.9M,accurate,13,2014-03-26 14:30:00+00:00,127.59,2014,1,3,Wednesday
+311K,USD,2014-03-27 08:30:00,326K,better,High,Unemployment Claims,321K,accurate,13,2014-03-27 12:30:00+00:00,-4.6,2014,1,3,Thursday
+2.6%,USD,2014-03-27 08:30:00,2.7%,worse,Medium,Final GDP q/q,2.4%,accurate,13,2014-03-27 12:30:00+00:00,-3.7,2014,1,3,Thursday
+1.6%,USD,2014-03-27 08:30:00,1.6%,accurate,Low,Final GDP Price Index q/q,1.6%,accurate,13,2014-03-27 12:30:00+00:00,0.0,2014,1,3,Thursday
+-0.8%,USD,2014-03-27 10:00:00,0.1%,worse,High,Pending Home Sales m/m,-0.2%,worse,13,2014-03-27 14:00:00+00:00,-900.0,2014,1,3,Thursday
+-57B,USD,2014-03-27 10:30:00,-49B,accurate,Low,Natural Gas Storage,-48B,accurate,13,2014-03-27 14:30:00+00:00,-16.33,2014,1,3,Thursday
+0.1%,USD,2014-03-28 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,13,2014-03-28 12:30:00+00:00,0.0,2014,1,3,Friday
+0.3%,USD,2014-03-28 08:30:00,0.3%,accurate,Medium,Personal Spending m/m,0.2%,worse,13,2014-03-28 12:30:00+00:00,0.0,2014,1,3,Friday
+0.3%,USD,2014-03-28 08:30:00,0.4%,worse,Low,Personal Income m/m,0.3%,accurate,13,2014-03-28 12:30:00+00:00,-25.0,2014,1,3,Friday
+80.0,USD,2014-03-28 09:55:00,80.6,worse,Medium,Revised UoM Consumer Sentiment,79.9,accurate,13,2014-03-28 13:55:00+00:00,-0.74,2014,1,3,Friday
+5.6,USD,2014-03-17 08:30:00,6.6,worse,Medium,Empire State Manufacturing Index,4.5,accurate,12,2014-03-17 12:30:00+00:00,-15.15,2014,1,3,Monday
+78.8%,USD,2014-03-17 09:15:00,78.7%,accurate,Medium,Capacity Utilization Rate,78.5%,accurate,12,2014-03-17 13:15:00+00:00,0.13,2014,1,3,Monday
+0.6%,USD,2014-03-17 09:15:00,0.2%,better,Medium,Industrial Production m/m,-0.2%,better,12,2014-03-17 13:15:00+00:00,200.0,2014,1,3,Monday
+47,USD,2014-03-17 10:00:00,50,worse,Medium,NAHB Housing Market Index,46,accurate,12,2014-03-17 14:00:00+00:00,-6.0,2014,1,3,Monday
+1.02M,USD,2014-03-18 08:30:00,0.97M,better,High,Building Permits,0.95M,accurate,12,2014-03-18 12:30:00+00:00,5.15,2014,1,3,Tuesday
+0.1%,USD,2014-03-18 08:30:00,0.1%,accurate,High,Core CPI m/m,0.1%,accurate,12,2014-03-18 12:30:00+00:00,0.0,2014,1,3,Tuesday
+0.1%,USD,2014-03-18 08:30:00,0.1%,accurate,Medium,CPI m/m,0.1%,accurate,12,2014-03-18 12:30:00+00:00,0.0,2014,1,3,Tuesday
+0.91M,USD,2014-03-18 08:30:00,0.92M,accurate,Medium,Housing Starts,0.91M,better,12,2014-03-18 12:30:00+00:00,-1.09,2014,1,3,Tuesday
+7.3B,USD,2014-03-18 09:00:00,23.4B,worse,Medium,TIC Long-Term Purchases,-45.9B,accurate,12,2014-03-18 13:00:00+00:00,-68.8,2014,1,3,Tuesday
+-81B,USD,2014-03-19 08:30:00,-88B,better,Medium,Current Account,-96B,accurate,12,2014-03-19 12:30:00+00:00,7.95,2014,1,3,Wednesday
+5.9M,USD,2014-03-19 10:30:00,2.4M,accurate,Medium,Crude Oil Inventories,6.2M,accurate,12,2014-03-19 14:30:00+00:00,145.83,2014,1,3,Wednesday
+<0.25%,USD,2014-03-19 14:00:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,12,2014-03-19 18:00:00+00:00,0.0,2014,1,3,Wednesday
+320K,USD,2014-03-20 08:30:00,327K,better,High,Unemployment Claims,315K,accurate,12,2014-03-20 12:30:00+00:00,-2.14,2014,1,3,Thursday
+4.60M,USD,2014-03-20 10:00:00,4.65M,worse,High,Existing Home Sales,4.62M,accurate,12,2014-03-20 14:00:00+00:00,-1.08,2014,1,3,Thursday
+9.0,USD,2014-03-20 10:00:00,4.2,better,High,Philly Fed Manufacturing Index,-6.3,accurate,12,2014-03-20 14:00:00+00:00,114.29,2014,1,3,Thursday
+0.5%,USD,2014-03-20 10:00:00,0.3%,better,Low,CB Leading Index m/m,0.1%,worse,12,2014-03-20 14:00:00+00:00,66.67,2014,1,3,Thursday
+-48B,USD,2014-03-20 10:30:00,-58B,accurate,Low,Natural Gas Storage,-195B,accurate,12,2014-03-20 14:30:00+00:00,17.24,2014,1,3,Thursday
+91.4,USD,2014-03-11 07:30:00,95.3,worse,Low,NFIB Small Business Index,94.1,accurate,11,2014-03-11 11:30:00+00:00,-4.09,2014,1,3,Tuesday
+3.97M,USD,2014-03-11 10:00:00,4.02M,accurate,High,JOLTS Job Openings,3.91M,worse,11,2014-03-11 14:00:00+00:00,-1.24,2014,1,3,Tuesday
+0.6%,USD,2014-03-11 10:00:00,0.5%,worse,Low,Final Wholesale Inventories m/m,0.4%,worse,11,2014-03-11 14:00:00+00:00,20.0,2014,1,3,Tuesday
+6.2M,USD,2014-03-12 10:30:00,2.1M,accurate,Medium,Crude Oil Inventories,1.4M,accurate,11,2014-03-12 14:30:00+00:00,195.24,2014,1,3,Wednesday
+0.3%,USD,2014-03-13 08:30:00,0.2%,better,High,Core Retail Sales m/m,-0.3%,worse,11,2014-03-13 12:30:00+00:00,50.0,2014,1,3,Thursday
+0.3%,USD,2014-03-13 08:30:00,0.3%,accurate,High,Retail Sales m/m,-0.6%,worse,11,2014-03-13 12:30:00+00:00,0.0,2014,1,3,Thursday
+315K,USD,2014-03-13 08:30:00,334K,better,High,Unemployment Claims,324K,accurate,11,2014-03-13 12:30:00+00:00,-5.69,2014,1,3,Thursday
+0.9%,USD,2014-03-13 08:30:00,0.6%,better,Medium,Import Prices m/m,0.4%,better,11,2014-03-13 12:30:00+00:00,50.0,2014,1,3,Thursday
+0.4%,USD,2014-03-13 10:00:00,0.4%,accurate,Medium,Business Inventories m/m,0.5%,accurate,11,2014-03-13 14:00:00+00:00,0.0,2014,1,3,Thursday
+-195B,USD,2014-03-13 10:30:00,-199B,accurate,Low,Natural Gas Storage,-152B,accurate,11,2014-03-13 14:30:00+00:00,2.01,2014,1,3,Thursday
+-193.5B,USD,2014-03-13 13:52:00,-223.2B,better,Medium,Federal Budget Balance,-10.3B,accurate,11,2014-03-13 17:52:00+00:00,13.31,2014,1,3,Thursday
+-0.1%,USD,2014-03-14 08:30:00,0.2%,worse,High,PPI m/m,0.2%,accurate,11,2014-03-14 12:30:00+00:00,-150.0,2014,1,3,Friday
+-0.2%,USD,2014-03-14 08:30:00,0.1%,worse,Medium,Core PPI m/m,0.2%,accurate,11,2014-03-14 12:30:00+00:00,-300.0,2014,1,3,Friday
+79.9,USD,2014-03-14 09:55:00,81.9,worse,High,Prelim UoM Consumer Sentiment,81.6,accurate,11,2014-03-14 13:55:00+00:00,-2.44,2014,1,3,Friday
+0.1%,USD,2014-03-03 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,10,2014-03-03 13:30:00+00:00,0.0,2014,1,3,Monday
+0.4%,USD,2014-03-03 08:30:00,0.2%,better,Medium,Personal Spending m/m,0.1%,worse,10,2014-03-03 13:30:00+00:00,100.0,2014,1,3,Monday
+0.3%,USD,2014-03-03 08:30:00,0.2%,better,Low,Personal Income m/m,0.0%,accurate,10,2014-03-03 13:30:00+00:00,50.0,2014,1,3,Monday
+57.1,USD,2014-03-03 09:00:00,56.7,better,Low,Final Manufacturing PMI,56.7,accurate,10,2014-03-03 14:00:00+00:00,0.71,2014,1,3,Monday
+53.2,USD,2014-03-03 10:00:00,52.3,better,High,ISM Manufacturing PMI,51.3,accurate,10,2014-03-03 15:00:00+00:00,1.72,2014,1,3,Monday
+0.1%,USD,2014-03-03 10:00:00,0.0%,accurate,Low,Construction Spending m/m,1.5%,better,10,2014-03-03 15:00:00+00:00,100.0,2014,1,3,Monday
+60.0,USD,2014-03-03 10:00:00,57.2,better,Low,ISM Manufacturing Prices,60.5,accurate,10,2014-03-03 15:00:00+00:00,4.9,2014,1,3,Monday
+15.3M,USD,2014-03-03 00:00:00,15.3M,accurate,Low,Total Vehicle Sales,15.2M,accurate,10,2014-03-03 05:00:00+00:00,0.0,2014,1,3,Monday
+45.1,USD,2014-03-04 10:00:00,45.6,worse,Low,IBD/TIPP Economic Optimism,44.9,accurate,10,2014-03-04 15:00:00+00:00,-1.1,2014,1,3,Tuesday
+139K,USD,2014-03-05 08:15:00,159K,worse,High,ADP Non-Farm Employment Change,127K,worse,10,2014-03-05 13:15:00+00:00,-12.58,2014,1,3,Wednesday
+53.3,USD,2014-03-05 09:00:00,52.7,better,Low,Final Services PMI,52.7,accurate,10,2014-03-05 14:00:00+00:00,1.14,2014,1,3,Wednesday
+51.6,USD,2014-03-05 09:57:00,53.8,worse,High,ISM Non-Manufacturing PMI,54.0,accurate,10,2014-03-05 14:57:00+00:00,-4.09,2014,1,3,Wednesday
+1.4M,USD,2014-03-05 10:30:00,0.9M,accurate,Medium,Crude Oil Inventories,0.1M,accurate,10,2014-03-05 15:30:00+00:00,55.56,2014,1,3,Wednesday
+323K,USD,2014-03-06 08:30:00,336K,better,High,Unemployment Claims,349K,accurate,10,2014-03-06 13:30:00+00:00,-3.87,2014,1,3,Thursday
+1.8%,USD,2014-03-06 08:30:00,2.6%,better,Medium,Revised Nonfarm Productivity q/q,3.2%,accurate,10,2014-03-06 13:30:00+00:00,-30.77,2014,1,3,Thursday
+-0.1%,USD,2014-03-06 08:30:00,-1.0%,better,Low,Revised Unit Labor Costs q/q,-1.6%,accurate,10,2014-03-06 13:30:00+00:00,90.0,2014,1,3,Thursday
+-0.7%,USD,2014-03-06 10:00:00,-0.4%,worse,Medium,Factory Orders m/m,-2.0%,worse,10,2014-03-06 15:00:00+00:00,-75.0,2014,1,3,Thursday
+-152B,USD,2014-03-06 10:30:00,-134B,accurate,Low,Natural Gas Storage,-95B,accurate,10,2014-03-06 15:30:00+00:00,-13.43,2014,1,3,Thursday
+175K,USD,2014-03-07 08:30:00,151K,better,High,Non-Farm Employment Change,129K,better,10,2014-03-07 13:30:00+00:00,15.89,2014,1,3,Friday
+-39.1B,USD,2014-03-07 08:30:00,-39.1B,accurate,High,Trade Balance,-39.0B,accurate,10,2014-03-07 13:30:00+00:00,0.0,2014,1,3,Friday
+6.7%,USD,2014-03-07 08:30:00,6.6%,worse,High,Unemployment Rate,6.6%,accurate,10,2014-03-07 13:30:00+00:00,1.52,2014,1,3,Friday
+0.4%,USD,2014-03-07 08:30:00,0.2%,better,Medium,Average Hourly Earnings m/m,0.2%,accurate,10,2014-03-07 13:30:00+00:00,100.0,2014,1,3,Friday
+13.7B,USD,2014-03-07 15:00:00,14.6B,worse,Low,Consumer Credit m/m,15.9B,worse,10,2014-03-07 20:00:00+00:00,-6.16,2014,1,3,Friday
+52.7,USD,2014-02-24 09:00:00,56.9,worse,Low,Flash Services PMI,56.7,accurate,9,2014-02-24 14:00:00+00:00,-7.38,2014,1,2,Monday
+13.4%,USD,2014-02-25 09:00:00,13.3%,accurate,Medium,S&P/CS Composite-20 HPI y/y,13.7%,accurate,9,2014-02-25 14:00:00+00:00,0.75,2014,1,2,Tuesday
+0.8%,USD,2014-02-25 09:00:00,0.4%,better,Low,HPI m/m,-0.1%,worse,9,2014-02-25 14:00:00+00:00,100.0,2014,1,2,Tuesday
+-6,USD,2014-02-25 09:59:00,13,worse,Low,Richmond Manufacturing Index,12,accurate,9,2014-02-25 14:59:00+00:00,-146.15,2014,1,2,Tuesday
+78.1,USD,2014-02-25 10:00:00,80.2,worse,High,CB Consumer Confidence,79.4,worse,9,2014-02-25 15:00:00+00:00,-2.62,2014,1,2,Tuesday
+468K,USD,2014-02-26 10:00:00,406K,better,High,New Home Sales,427K,better,9,2014-02-26 15:00:00+00:00,15.27,2014,1,2,Wednesday
+0.1M,USD,2014-02-26 10:30:00,1.1M,accurate,Medium,Crude Oil Inventories,1.0M,accurate,9,2014-02-26 15:30:00+00:00,-90.91,2014,1,2,Wednesday
+1.1%,USD,2014-02-27 08:30:00,-0.1%,better,High,Core Durable Goods Orders m/m,-1.3%,better,9,2014-02-27 13:30:00+00:00,1200.0,2014,1,2,Thursday
+348K,USD,2014-02-27 08:30:00,333K,worse,High,Unemployment Claims,334K,accurate,9,2014-02-27 13:30:00+00:00,4.5,2014,1,2,Thursday
+-1.0%,USD,2014-02-27 08:30:00,-0.7%,worse,Medium,Durable Goods Orders m/m,-4.2%,accurate,9,2014-02-27 13:30:00+00:00,-42.86,2014,1,2,Thursday
+-95B,USD,2014-02-27 10:30:00,-110B,accurate,Low,Natural Gas Storage,-250B,accurate,9,2014-02-27 15:30:00+00:00,13.64,2014,1,2,Thursday
+2.4%,USD,2014-02-28 08:30:00,2.6%,worse,High,Prelim GDP q/q,3.2%,accurate,9,2014-02-28 13:30:00+00:00,-7.69,2014,1,2,Friday
+1.6%,USD,2014-02-28 08:30:00,1.3%,better,Low,Prelim GDP Price Index q/q,1.3%,accurate,9,2014-02-28 13:30:00+00:00,23.08,2014,1,2,Friday
+59.8,USD,2014-02-28 09:45:00,57.9,better,High,Chicago PMI,59.6,accurate,9,2014-02-28 14:45:00+00:00,3.28,2014,1,2,Friday
+81.6,USD,2014-02-28 09:55:00,81.4,accurate,Medium,Revised UoM Consumer Sentiment,81.2,accurate,9,2014-02-28 14:55:00+00:00,0.25,2014,1,2,Friday
+0.1%,USD,2014-02-28 10:00:00,2.9%,worse,High,Pending Home Sales m/m,-5.8%,better,9,2014-02-28 15:00:00+00:00,-96.55,2014,1,2,Friday
+4.5,USD,2014-02-18 08:30:00,9.9,worse,Medium,Empire State Manufacturing Index,12.5,accurate,8,2014-02-18 13:30:00+00:00,-54.55,2014,1,2,Tuesday
+-45.9B,USD,2014-02-18 09:00:00,28.9B,worse,Medium,TIC Long-Term Purchases,-28.0B,accurate,8,2014-02-18 14:00:00+00:00,-258.82,2014,1,2,Tuesday
+46,USD,2014-02-18 10:00:00,56,worse,Medium,NAHB Housing Market Index,56,accurate,8,2014-02-18 15:00:00+00:00,-17.86,2014,1,2,Tuesday
+0.94M,USD,2014-02-19 08:30:00,0.98M,worse,High,Building Permits,0.99M,accurate,8,2014-02-19 13:30:00+00:00,-4.08,2014,1,2,Wednesday
+0.2%,USD,2014-02-19 08:30:00,0.2%,accurate,High,PPI m/m,0.1%,accurate,8,2014-02-19 13:30:00+00:00,0.0,2014,1,2,Wednesday
+0.2%,USD,2014-02-19 08:30:00,0.2%,accurate,Medium,Core PPI m/m,0.0%,accurate,8,2014-02-19 13:30:00+00:00,0.0,2014,1,2,Wednesday
+0.88M,USD,2014-02-19 08:30:00,0.95M,worse,Medium,Housing Starts,1.05M,better,8,2014-02-19 13:30:00+00:00,-7.37,2014,1,2,Wednesday
+0.1%,USD,2014-02-20 08:30:00,0.1%,accurate,High,Core CPI m/m,0.1%,accurate,8,2014-02-20 13:30:00+00:00,0.0,2014,1,2,Thursday
+336K,USD,2014-02-20 08:30:00,335K,accurate,High,Unemployment Claims,339K,accurate,8,2014-02-20 13:30:00+00:00,0.3,2014,1,2,Thursday
+0.1%,USD,2014-02-20 08:30:00,0.1%,accurate,Medium,CPI m/m,0.3%,accurate,8,2014-02-20 13:30:00+00:00,0.0,2014,1,2,Thursday
+56.7,USD,2014-02-20 09:00:00,53.6,better,Medium,Flash Manufacturing PMI,53.7,accurate,8,2014-02-20 14:00:00+00:00,5.78,2014,1,2,Thursday
+-6.3,USD,2014-02-20 10:00:00,9.2,worse,High,Philly Fed Manufacturing Index,9.4,accurate,8,2014-02-20 15:00:00+00:00,-168.48,2014,1,2,Thursday
+0.3%,USD,2014-02-20 10:00:00,0.5%,worse,Low,CB Leading Index m/m,0.0%,worse,8,2014-02-20 15:00:00+00:00,-40.0,2014,1,2,Thursday
+-250B,USD,2014-02-20 10:30:00,-255B,accurate,Low,Natural Gas Storage,-237B,accurate,8,2014-02-20 15:30:00+00:00,1.96,2014,1,2,Thursday
+1.0M,USD,2014-02-20 11:00:00,2.1M,accurate,Medium,Crude Oil Inventories,3.3M,accurate,8,2014-02-20 16:00:00+00:00,-52.38,2014,1,2,Thursday
+4.62M,USD,2014-02-21 10:00:00,4.73M,worse,High,Existing Home Sales,4.87M,accurate,8,2014-02-21 15:00:00+00:00,-2.33,2014,1,2,Friday
+94.1,USD,2014-02-11 07:30:00,93.6,accurate,Low,NFIB Small Business Index,93.9,accurate,7,2014-02-11 12:30:00+00:00,0.53,2014,1,2,Tuesday
+3.99M,USD,2014-02-11 10:00:00,4.04M,accurate,High,JOLTS Job Openings,4.03M,accurate,7,2014-02-11 15:00:00+00:00,-1.24,2014,1,2,Tuesday
+0.3%,USD,2014-02-11 10:00:00,0.5%,better,Low,Final Wholesale Inventories m/m,0.5%,accurate,7,2014-02-11 15:00:00+00:00,-40.0,2014,1,2,Tuesday
+3.3M,USD,2014-02-12 10:30:00,2.5M,accurate,Medium,Crude Oil Inventories,0.4M,accurate,7,2014-02-12 15:30:00+00:00,32.0,2014,1,2,Wednesday
+-10.4B,USD,2014-02-12 13:59:00,-16.4B,better,Medium,Federal Budget Balance,53.2B,accurate,7,2014-02-12 18:59:00+00:00,36.59,2014,1,2,Wednesday
+0.0%,USD,2014-02-13 08:30:00,0.1%,worse,High,Core Retail Sales m/m,0.3%,worse,7,2014-02-13 13:30:00+00:00,-100.0,2014,1,2,Thursday
+-0.4%,USD,2014-02-13 08:30:00,0.0%,worse,High,Retail Sales m/m,-0.1%,worse,7,2014-02-13 13:30:00+00:00,-400.0,2014,1,2,Thursday
+339K,USD,2014-02-13 08:30:00,331K,worse,High,Unemployment Claims,331K,accurate,7,2014-02-13 13:30:00+00:00,2.42,2014,1,2,Thursday
+0.5%,USD,2014-02-13 10:00:00,0.4%,worse,Medium,Business Inventories m/m,0.4%,accurate,7,2014-02-13 15:00:00+00:00,25.0,2014,1,2,Thursday
+-237B,USD,2014-02-13 10:30:00,-234B,accurate,Low,Natural Gas Storage,-262B,accurate,7,2014-02-13 15:30:00+00:00,-1.28,2014,1,2,Thursday
+0.1%,USD,2014-02-14 08:30:00,-0.1%,better,Medium,Import Prices m/m,0.2%,better,7,2014-02-14 13:30:00+00:00,200.0,2014,1,2,Friday
+78.5%,USD,2014-02-14 09:15:00,79.4%,worse,Medium,Capacity Utilization Rate,78.9%,worse,7,2014-02-14 14:15:00+00:00,-1.13,2014,1,2,Friday
+-0.3%,USD,2014-02-14 09:15:00,0.2%,worse,Medium,Industrial Production m/m,0.3%,accurate,7,2014-02-14 14:15:00+00:00,-250.0,2014,1,2,Friday
+81.2,USD,2014-02-14 09:55:00,80.6,better,High,Prelim UoM Consumer Sentiment,81.2,better,7,2014-02-14 14:55:00+00:00,0.74,2014,1,2,Friday
+53.7,USD,2014-02-03 09:00:00,53.8,accurate,Low,Final Manufacturing PMI,53.7,accurate,6,2014-02-03 14:00:00+00:00,-0.19,2014,1,2,Monday
+51.3,USD,2014-02-03 10:00:00,56.2,worse,High,ISM Manufacturing PMI,57.0,accurate,6,2014-02-03 15:00:00+00:00,-8.72,2014,1,2,Monday
+0.1%,USD,2014-02-03 10:00:00,0.3%,accurate,Low,Construction Spending m/m,0.8%,accurate,6,2014-02-03 15:00:00+00:00,-66.67,2014,1,2,Monday
+60.5,USD,2014-02-03 10:00:00,54.2,better,Low,ISM Manufacturing Prices,53.5,accurate,6,2014-02-03 15:00:00+00:00,11.62,2014,1,2,Monday
+15.2M,USD,2014-02-03 00:00:00,15.6M,worse,Low,Total Vehicle Sales,15.4M,accurate,6,2014-02-03 05:00:00+00:00,-2.56,2014,1,2,Monday
+-1.5%,USD,2014-02-04 10:00:00,-1.9%,better,Medium,Factory Orders m/m,1.5%,worse,6,2014-02-04 15:00:00+00:00,21.05,2014,1,2,Tuesday
+44.9,USD,2014-02-04 10:00:00,46.1,worse,Low,IBD/TIPP Economic Optimism,45.2,accurate,6,2014-02-04 15:00:00+00:00,-2.6,2014,1,2,Tuesday
+175K,USD,2014-02-05 08:15:00,191K,worse,High,ADP Non-Farm Employment Change,227K,worse,6,2014-02-05 13:15:00+00:00,-8.38,2014,1,2,Wednesday
+56.7,USD,2014-02-05 09:00:00,56.6,accurate,Low,Final Services PMI,56.6,accurate,6,2014-02-05 14:00:00+00:00,0.18,2014,1,2,Wednesday
+54.0,USD,2014-02-05 10:00:00,53.6,better,High,ISM Non-Manufacturing PMI,53.0,accurate,6,2014-02-05 15:00:00+00:00,0.75,2014,1,2,Wednesday
+0.4M,USD,2014-02-05 10:30:00,2.2M,accurate,Medium,Crude Oil Inventories,6.4M,accurate,6,2014-02-05 15:30:00+00:00,-81.82,2014,1,2,Wednesday
+-38.7B,USD,2014-02-06 08:30:00,-35.8B,worse,High,Trade Balance,-34.6B,accurate,6,2014-02-06 13:30:00+00:00,-8.1,2014,1,2,Thursday
+331K,USD,2014-02-06 08:30:00,337K,better,High,Unemployment Claims,351K,accurate,6,2014-02-06 13:30:00+00:00,-1.78,2014,1,2,Thursday
+3.2%,USD,2014-02-06 08:30:00,2.8%,worse,Medium,Prelim Nonfarm Productivity q/q,3.0%,worse,6,2014-02-06 13:30:00+00:00,14.29,2014,1,2,Thursday
+-1.6%,USD,2014-02-06 08:30:00,-0.7%,worse,Medium,Prelim Unit Labor Costs q/q,-1.4%,worse,6,2014-02-06 13:30:00+00:00,-128.57,2014,1,2,Thursday
+-262B,USD,2014-02-06 10:30:00,-270B,accurate,Low,Natural Gas Storage,-230B,accurate,6,2014-02-06 15:30:00+00:00,2.96,2014,1,2,Thursday
+113K,USD,2014-02-07 08:30:00,185K,worse,High,Non-Farm Employment Change,75K,accurate,6,2014-02-07 13:30:00+00:00,-38.92,2014,1,2,Friday
+6.6%,USD,2014-02-07 08:30:00,6.7%,better,High,Unemployment Rate,6.7%,accurate,6,2014-02-07 13:30:00+00:00,-1.49,2014,1,2,Friday
+0.2%,USD,2014-02-07 08:30:00,0.2%,accurate,Medium,Average Hourly Earnings m/m,0.0%,worse,6,2014-02-07 13:30:00+00:00,0.0,2014,1,2,Friday
+18.8B,USD,2014-02-07 15:00:00,12.4B,better,Low,Consumer Credit m/m,12.4B,accurate,6,2014-02-07 20:00:00+00:00,51.61,2014,1,2,Friday
+56.6,USD,2014-01-27 09:00:00,56.2,better,Low,Flash Services PMI,55.7,accurate,5,2014-01-27 14:00:00+00:00,0.71,2014,1,1,Monday
+414K,USD,2014-01-27 10:00:00,457K,worse,High,New Home Sales,445K,worse,5,2014-01-27 15:00:00+00:00,-9.41,2014,1,1,Monday
+-1.6%,USD,2014-01-28 08:30:00,0.7%,worse,High,Core Durable Goods Orders m/m,2.4%,better,5,2014-01-28 13:30:00+00:00,-328.57,2014,1,1,Tuesday
+-4.3%,USD,2014-01-28 08:30:00,1.9%,worse,Medium,Durable Goods Orders m/m,3.4%,accurate,5,2014-01-28 13:30:00+00:00,-326.32,2014,1,1,Tuesday
+13.7%,USD,2014-01-28 09:00:00,13.7%,accurate,Medium,S&P/CS Composite-20 HPI y/y,13.6%,accurate,5,2014-01-28 14:00:00+00:00,0.0,2014,1,1,Tuesday
+12,USD,2014-01-28 09:59:00,13,worse,Low,Richmond Manufacturing Index,13,accurate,5,2014-01-28 14:59:00+00:00,-7.69,2014,1,1,Tuesday
+80.7,USD,2014-01-28 10:00:00,78.3,better,High,CB Consumer Confidence,77.5,worse,5,2014-01-28 15:00:00+00:00,3.07,2014,1,1,Tuesday
+6.4M,USD,2014-01-29 10:30:00,2.2M,accurate,Medium,Crude Oil Inventories,1.0M,accurate,5,2014-01-29 15:30:00+00:00,190.91,2014,1,1,Wednesday
+<0.25%,USD,2014-01-29 14:00:00,<0.25%,accurate,Medium,Federal Funds Rate,<0.25%,accurate,5,2014-01-29 19:00:00+00:00,0.0,2014,1,1,Wednesday
+3.2%,USD,2014-01-30 08:30:00,3.3%,worse,High,Advance GDP q/q,4.1%,better,5,2014-01-30 13:30:00+00:00,-3.03,2014,1,1,Thursday
+348K,USD,2014-01-30 08:30:00,331K,worse,High,Unemployment Claims,329K,accurate,5,2014-01-30 13:30:00+00:00,5.14,2014,1,1,Thursday
+1.3%,USD,2014-01-30 08:30:00,1.2%,accurate,Medium,Advance GDP Price Index q/q,2.0%,accurate,5,2014-01-30 13:30:00+00:00,8.33,2014,1,1,Thursday
+-8.7%,USD,2014-01-30 10:00:00,-0.1%,worse,High,Pending Home Sales m/m,-0.3%,worse,5,2014-01-30 15:00:00+00:00,-8600.0,2014,1,1,Thursday
+-230B,USD,2014-01-30 10:30:00,-225B,accurate,Low,Natural Gas Storage,-107B,accurate,5,2014-01-30 15:30:00+00:00,-2.22,2014,1,1,Thursday
+0.1%,USD,2014-01-31 08:30:00,0.1%,accurate,Medium,Core PCE Price Index m/m,0.1%,accurate,5,2014-01-31 13:30:00+00:00,0.0,2014,1,1,Friday
+0.5%,USD,2014-01-31 08:30:00,0.4%,better,Medium,Employment Cost Index q/q,0.4%,accurate,5,2014-01-31 13:30:00+00:00,25.0,2014,1,1,Friday
+0.4%,USD,2014-01-31 08:30:00,0.2%,better,Medium,Personal Spending m/m,0.6%,better,5,2014-01-31 13:30:00+00:00,100.0,2014,1,1,Friday
+0.0%,USD,2014-01-31 08:30:00,0.2%,worse,Low,Personal Income m/m,0.2%,accurate,5,2014-01-31 13:30:00+00:00,-100.0,2014,1,1,Friday
+59.6,USD,2014-01-31 09:45:00,59.8,accurate,Medium,Chicago PMI,59.1,accurate,5,2014-01-31 14:45:00+00:00,-0.33,2014,1,1,Friday
+81.2,USD,2014-01-31 09:55:00,81.1,accurate,Medium,Revised UoM Consumer Sentiment,80.4,accurate,5,2014-01-31 14:55:00+00:00,0.12,2014,1,1,Friday
+326K,USD,2014-01-23 08:30:00,331K,better,High,Unemployment Claims,325K,accurate,4,2014-01-23 13:30:00+00:00,-1.51,2014,1,1,Thursday
+53.7,USD,2014-01-23 09:00:00,55.2,worse,Medium,Flash Manufacturing PMI,54.4,accurate,4,2014-01-23 14:00:00+00:00,-2.72,2014,1,1,Thursday
+0.1%,USD,2014-01-23 09:00:00,0.4%,worse,Low,HPI m/m,0.5%,accurate,4,2014-01-23 14:00:00+00:00,-75.0,2014,1,1,Thursday
+4.87M,USD,2014-01-23 10:00:00,4.94M,worse,High,Existing Home Sales,4.82M,worse,4,2014-01-23 15:00:00+00:00,-1.42,2014,1,1,Thursday
+0.1%,USD,2014-01-23 10:00:00,0.2%,worse,Low,CB Leading Index m/m,1.0%,better,4,2014-01-23 15:00:00+00:00,-50.0,2014,1,1,Thursday
+-107B,USD,2014-01-23 10:30:00,-112B,accurate,Low,Natural Gas Storage,-287B,accurate,4,2014-01-23 15:30:00+00:00,4.46,2014,1,1,Thursday
+1.0M,USD,2014-01-23 11:00:00,0.7M,accurate,Medium,Crude Oil Inventories,-7.7M,accurate,4,2014-01-23 16:00:00+00:00,42.86,2014,1,1,Thursday
+53.2B,USD,2014-01-13 14:00:00,44.3B,better,Medium,Federal Budget Balance,-135.2B,accurate,3,2014-01-13 19:00:00+00:00,20.09,2014,1,1,Monday
+93.9,USD,2014-01-14 07:30:00,93.2,accurate,Low,NFIB Small Business Index,92.5,accurate,3,2014-01-14 12:30:00+00:00,0.75,2014,1,1,Tuesday
+0.7%,USD,2014-01-14 08:30:00,0.4%,better,High,Core Retail Sales m/m,0.1%,worse,3,2014-01-14 13:30:00+00:00,75.0,2014,1,1,Tuesday
+0.2%,USD,2014-01-14 08:30:00,0.2%,accurate,High,Retail Sales m/m,0.4%,worse,3,2014-01-14 13:30:00+00:00,0.0,2014,1,1,Tuesday
+0.0%,USD,2014-01-14 08:30:00,0.3%,worse,Medium,Import Prices m/m,-0.9%,worse,3,2014-01-14 13:30:00+00:00,-100.0,2014,1,1,Tuesday
+0.4%,USD,2014-01-14 10:00:00,0.4%,accurate,Medium,Business Inventories m/m,0.8%,worse,3,2014-01-14 15:00:00+00:00,0.0,2014,1,1,Tuesday
+0.4%,USD,2014-01-15 08:30:00,0.5%,worse,High,PPI m/m,-0.1%,accurate,3,2014-01-15 13:30:00+00:00,-20.0,2014,1,1,Wednesday
+0.3%,USD,2014-01-15 08:30:00,0.1%,better,Medium,Core PPI m/m,0.1%,accurate,3,2014-01-15 13:30:00+00:00,200.0,2014,1,1,Wednesday
+12.5,USD,2014-01-15 08:30:00,3.2,better,Medium,Empire State Manufacturing Index,1.0,accurate,3,2014-01-15 13:30:00+00:00,290.62,2014,1,1,Wednesday
+-7.7M,USD,2014-01-15 10:30:00,-0.7M,accurate,Medium,Crude Oil Inventories,-2.7M,accurate,3,2014-01-15 15:30:00+00:00,-1000.0,2014,1,1,Wednesday
+0.1%,USD,2014-01-16 08:30:00,0.1%,accurate,High,Core CPI m/m,0.2%,accurate,3,2014-01-16 13:30:00+00:00,0.0,2014,1,1,Thursday
+326K,USD,2014-01-16 08:30:00,327K,accurate,High,Unemployment Claims,328K,accurate,3,2014-01-16 13:30:00+00:00,-0.31,2014,1,1,Thursday
+0.3%,USD,2014-01-16 08:30:00,0.3%,accurate,Medium,CPI m/m,0.0%,accurate,3,2014-01-16 13:30:00+00:00,0.0,2014,1,1,Thursday
+-29.3B,USD,2014-01-16 09:00:00,42.3B,worse,Medium,TIC Long-Term Purchases,28.7B,worse,3,2014-01-16 14:00:00+00:00,-169.27,2014,1,1,Thursday
+9.4,USD,2014-01-16 10:00:00,8.8,better,High,Philly Fed Manufacturing Index,7.0,accurate,3,2014-01-16 15:00:00+00:00,6.82,2014,1,1,Thursday
+56,USD,2014-01-16 10:00:00,58,worse,Medium,NAHB Housing Market Index,57,worse,3,2014-01-16 15:00:00+00:00,-3.45,2014,1,1,Thursday
+-287B,USD,2014-01-16 10:30:00,-296B,accurate,Low,Natural Gas Storage,-157B,accurate,3,2014-01-16 15:30:00+00:00,3.04,2014,1,1,Thursday
+0.99M,USD,2014-01-17 08:30:00,1.01M,accurate,High,Building Permits,1.02M,accurate,3,2014-01-17 13:30:00+00:00,-1.98,2014,1,1,Friday
+1.00M,USD,2014-01-17 08:30:00,0.99M,accurate,Medium,Housing Starts,1.11M,accurate,3,2014-01-17 13:30:00+00:00,1.01,2014,1,1,Friday
+79.2%,USD,2014-01-17 09:15:00,79.2%,accurate,Medium,Capacity Utilization Rate,79.1%,accurate,3,2014-01-17 14:15:00+00:00,0.0,2014,1,1,Friday
+0.3%,USD,2014-01-17 09:15:00,0.4%,worse,Medium,Industrial Production m/m,1.0%,worse,3,2014-01-17 14:15:00+00:00,-25.0,2014,1,1,Friday
+80.4,USD,2014-01-17 09:55:00,83.4,worse,High,Prelim UoM Consumer Sentiment,82.5,accurate,3,2014-01-17 14:55:00+00:00,-3.6,2014,1,1,Friday
+4.00M,USD,2014-01-17 10:00:00,3.97M,accurate,High,JOLTS Job Openings,3.93M,accurate,3,2014-01-17 15:00:00+00:00,0.76,2014,1,1,Friday
+55.7,USD,2014-01-06 09:00:00,56.0,accurate,Low,Final Services PMI,56.0,accurate,2,2014-01-06 14:00:00+00:00,-0.54,2014,1,1,Monday
+53.0,USD,2014-01-06 10:00:00,54.6,worse,High,ISM Non-Manufacturing PMI,53.9,accurate,2,2014-01-06 15:00:00+00:00,-2.93,2014,1,1,Monday
+1.8%,USD,2014-01-06 10:00:00,1.8%,accurate,Medium,Factory Orders m/m,-0.5%,better,2,2014-01-06 15:00:00+00:00,0.0,2014,1,1,Monday
+Pass,USD,2014-01-06 18:00:00,Pass,accurate,High,Fed Chairman Nomination Vote,,accurate,2,2014-01-06 23:00:00+00:00,0.0,2014,1,1,Monday
+-34.3B,USD,2014-01-07 08:30:00,-40.2B,better,High,Trade Balance,-39.3B,better,2,2014-01-07 13:30:00+00:00,14.68,2014,1,1,Tuesday
+238K,USD,2014-01-08 08:15:00,199K,better,High,ADP Non-Farm Employment Change,229K,better,2,2014-01-08 13:15:00+00:00,19.6,2014,1,1,Wednesday
+-2.7M,USD,2014-01-08 10:30:00,-1.6M,accurate,Medium,Crude Oil Inventories,-7.0M,accurate,2,2014-01-08 15:30:00+00:00,-68.75,2014,1,1,Wednesday
+12.3B,USD,2014-01-08 15:00:00,14.8B,worse,Low,Consumer Credit m/m,17.9B,worse,2,2014-01-08 20:00:00+00:00,-16.89,2014,1,1,Wednesday
+330K,USD,2014-01-09 08:30:00,337K,better,High,Unemployment Claims,345K,worse,2,2014-01-09 13:30:00+00:00,-2.08,2014,1,1,Thursday
+-157B,USD,2014-01-09 10:30:00,-147B,accurate,Low,Natural Gas Storage,-97B,accurate,2,2014-01-09 15:30:00+00:00,-6.8,2014,1,1,Thursday
+74K,USD,2014-01-10 08:30:00,196K,worse,High,Non-Farm Employment Change,241K,better,2,2014-01-10 13:30:00+00:00,-62.24,2014,1,1,Friday
+6.7%,USD,2014-01-10 08:30:00,7.0%,better,High,Unemployment Rate,7.0%,accurate,2,2014-01-10 13:30:00+00:00,-4.29,2014,1,1,Friday
+0.1%,USD,2014-01-10 08:30:00,0.2%,worse,Medium,Average Hourly Earnings m/m,0.2%,accurate,2,2014-01-10 13:30:00+00:00,-50.0,2014,1,1,Friday
+0.5%,USD,2014-01-10 10:00:00,0.4%,worse,Low,Final Wholesale Inventories m/m,1.3%,better,2,2014-01-10 15:00:00+00:00,25.0,2014,1,1,Friday
+45.2,USD,2014-01-10 10:00:00,45.3,accurate,Low,IBD/TIPP Economic Optimism,43.1,accurate,2,2014-01-10 15:00:00+00:00,-0.22,2014,1,1,Friday
+339K,USD,2014-01-02 08:30:00,334K,worse,High,Unemployment Claims,341K,accurate,1,2014-01-02 13:30:00+00:00,1.5,2014,1,1,Thursday
+55.0,USD,2014-01-02 09:00:00,54.4,better,Low,Final Manufacturing PMI,54.4,accurate,1,2014-01-02 14:00:00+00:00,1.1,2014,1,1,Thursday
+57.0,USD,2014-01-02 10:00:00,56.8,accurate,High,ISM Manufacturing PMI,57.3,accurate,1,2014-01-02 15:00:00+00:00,0.35,2014,1,1,Thursday
+1.0%,USD,2014-01-02 10:00:00,0.7%,better,Low,Construction Spending m/m,0.9%,accurate,1,2014-01-02 15:00:00+00:00,42.86,2014,1,1,Thursday
+53.5,USD,2014-01-02 10:00:00,53.0,better,Low,ISM Manufacturing Prices,52.5,accurate,1,2014-01-02 15:00:00+00:00,0.94,2014,1,1,Thursday
+-97B,USD,2014-01-03 10:30:00,-125B,accurate,Low,Natural Gas Storage,-177B,accurate,1,2014-01-03 15:30:00+00:00,22.4,2014,1,1,Friday
+-7.0M,USD,2014-01-03 11:00:00,-2.3M,accurate,Medium,Crude Oil Inventories,-4.7M,accurate,1,2014-01-03 16:00:00+00:00,-204.35,2014,1,1,Friday
+15.4M,USD,2014-01-03 00:00:00,16.0M,worse,Low,Total Vehicle Sales,16.4M,accurate,1,2014-01-03 05:00:00+00:00,-3.75,2014,1,1,Friday
