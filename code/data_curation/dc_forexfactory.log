@@ -1,435 +1,56 @@
-2018-11-08 21:21:42,813 - INFO - Processing year: 2007 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:43,812 - INFO - Unable to get currency values for 0 of the news
-2018-11-08 21:21:43,814 - INFO - []
-2018-11-08 21:21:44,073 - INFO - Processed year: 2007 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:44,134 - INFO - Processing year: 2008 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:44,440 - INFO - Unkown values appeared in the forecast - actual values: 2 times.
-
-2018-11-08 21:21:44,442 - INFO - [[135 '<0.25%' 'USD' Timestamp('2008-12-16 14:21:00') '0.50%' 'worse'
-  'High' 'Federal Funds Rate' '1.00%' 'accurate' 51 0
-  Timestamp('2008-12-16 19:21:00+0000', tz='GMT') 9999.0]
- [1103 'Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
+2018-11-11 10:12:15,272 - INFO - Processing year: 2007 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:16,333 - INFO - []
+2018-11-11 10:12:16,704 - INFO - Processed year: 2007 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:16,704 - INFO - Processing year: 2008 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:16,891 - INFO - These 3 news extracted from forexfactory have nan in some columns
+2018-11-11 10:12:16,894 - INFO - [[1103 'Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
   'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
-  Timestamp('2008-09-29 17:42:00+0000', tz='GMT') 9999.0]]
-2018-11-08 21:21:45,044 - INFO - Unable to get currency values for 13 of the news
-2018-11-08 21:21:45,048 - INFO - [['18' 'USD' Timestamp('2008-06-16 13:14:00') '19' 'worse' 'Low'
-  'NAHB Housing Market Index' '19' 'accurate' 25
-  Timestamp('2008-06-16 17:14:00+0000', tz='GMT') -5.26 2008 2 6 'Monday'
-  nan nan nan nan]
- ['2.00%' 'USD' Timestamp('2008-06-25 14:09:00') '2.00%' 'accurate'
-  'High' 'Federal Funds Rate' '2.00%' 'accurate' 26
-  Timestamp('2008-06-25 18:09:00+0000', tz='GMT') 0.0 2008 2 6
-  'Wednesday' nan nan nan nan]
- ['-16' 'USD' Timestamp('2008-07-22 10:02:00') '-9' 'worse' 'Low'
-  'Richmond Manufacturing Index' '-12' 'accurate' 30
-  Timestamp('2008-07-22 14:02:00+0000', tz='GMT') -77.78 2008 3 7
-  'Tuesday' nan nan nan nan]
- ['2.00%' 'USD' Timestamp('2008-08-05 14:13:00') '2.00%' 'accurate'
-  'High' 'Federal Funds Rate' '2.00%' 'accurate' 32
-  Timestamp('2008-08-05 18:13:00+0000', tz='GMT') 0.0 2008 3 8 'Tuesday'
-  nan nan nan nan]
- ['2.00%' 'USD' Timestamp('2008-09-16 14:14:00') '2.00%' 'accurate'
-  'High' 'Federal Funds Rate' '2.00%' 'accurate' 38
-  Timestamp('2008-09-16 18:14:00+0000', tz='GMT') 0.0 2008 3 9 'Tuesday'
-  nan nan nan nan]
- ['Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
-  'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40
-  Timestamp('2008-09-29 17:42:00+0000', tz='GMT') 9999.0 2008 3 9
-  'Monday' nan nan nan nan]
- ['Pass' 'USD' Timestamp('2008-10-01 21:35:00') 'Pass' 'accurate' 'High'
-  'Economic Stabilization Bill Vote' nan 'accurate' 40
-  Timestamp('2008-10-02 01:35:00+0000', tz='GMT') 0.0 2008 4 10
-  'Wednesday' 1.3959 13987.0 13958.0 13987.0]
- ['Pass' 'USD' Timestamp('2008-10-03 13:23:00') 'Pass' 'accurate' 'High'
-  'Economic Stabilization Bill Vote' nan 'accurate' 40
-  Timestamp('2008-10-03 17:23:00+0000', tz='GMT') 0.0 2008 4 10 'Friday'
-  nan nan nan nan]
- ['-26' 'USD' Timestamp('2008-10-28 10:03:00') '-21' 'worse' 'Low'
-  'Richmond Manufacturing Index' '-18' 'accurate' 44
-  Timestamp('2008-10-28 14:03:00+0000', tz='GMT') -23.81 2008 4 10
-  'Tuesday' nan nan nan nan]
- ['1.00%' 'USD' Timestamp('2008-10-29 14:18:00') '1.00%' 'accurate'
-  'High' 'Federal Funds Rate' '1.50%' 'accurate' 44
-  Timestamp('2008-10-29 18:18:00+0000', tz='GMT') 0.0 2008 4 10
-  'Wednesday' nan nan nan nan]
- ['-1.3%' 'USD' Timestamp('2008-11-25 10:38:00') '-0.7%' 'worse' 'Low'
-  'HPI m/m' '-0.8%' 'worse' 48
-  Timestamp('2008-11-25 15:38:00+0000', tz='GMT') -85.71 2008 4 11
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2008-12-16 14:21:00') '0.50%' 'worse' 'High'
-  'Federal Funds Rate' '1.00%' 'accurate' 51
-  Timestamp('2008-12-16 19:21:00+0000', tz='GMT') 9999.0 2008 4 12
-  'Tuesday' nan nan nan nan]
- ['-1.1%' 'USD' Timestamp('2008-12-23 10:02:00') '-1.3%' 'better' 'Low'
-  'HPI m/m' '-1.3%' 'accurate' 52
-  Timestamp('2008-12-23 15:02:00+0000', tz='GMT') 15.38 2008 4 12
-  'Tuesday' nan nan nan nan]]
-2018-11-08 21:21:45,309 - INFO - Processed year: 2008 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:45,437 - INFO - Processing year: 2009 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:46,297 - INFO - Unable to get currency values for 19 of the news
-2018-11-08 21:21:46,300 - INFO - [['4.74M' 'USD' Timestamp('2009-01-26 09:59:00') '4.40M' 'better' 'High'
-  'Existing Home Sales' '4.45M' 'worse' 5
-  Timestamp('2009-01-26 14:59:00+0000', tz='GMT') 7.73 2009 1 1 'Monday'
-  nan nan nan nan]
- ['-49' 'USD' Timestamp('2009-01-27 09:59:00') '-50' 'better' 'Low'
-  'Richmond Manufacturing Index' '-55' 'accurate' 5
-  Timestamp('2009-01-27 14:59:00+0000', tz='GMT') 2.0 2009 1 1 'Tuesday'
-  nan nan nan nan]
- ['0.1%' 'USD' Timestamp('2009-02-24 10:07:00') '-1.8%' 'better' 'Low'
-  'HPI m/m' '-2.2%' 'worse' 9
-  Timestamp('2009-02-24 15:07:00+0000', tz='GMT') 105.56 2009 1 2
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2009-03-18 14:17:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 12
-  Timestamp('2009-03-18 18:17:00+0000', tz='GMT') 0.0 2009 1 3
-  'Wednesday' nan nan nan nan]
- ['-20' 'USD' Timestamp('2009-03-24 09:59:00') '-52' 'better' 'Low'
-  'Richmond Manufacturing Index' '-51' 'accurate' 13
-  Timestamp('2009-03-24 13:59:00+0000', tz='GMT') 61.54 2009 1 3
-  'Tuesday' nan nan nan nan]
- ['0.7%' 'USD' Timestamp('2009-04-22 10:13:00') '-0.7%' 'better' 'Low'
-  'HPI m/m' '1.0%' 'worse' 17
-  Timestamp('2009-04-22 14:13:00+0000', tz='GMT') 200.0 2009 2 4
-  'Wednesday' nan nan nan nan]
- ['-9' 'USD' Timestamp('2009-04-28 09:59:00') '-18' 'better' 'Low'
-  'Richmond Manufacturing Index' '-20' 'accurate' 18
-  Timestamp('2009-04-28 13:59:00+0000', tz='GMT') 50.0 2009 2 4 'Tuesday'
-  nan nan nan nan]
- ['-1.1%' 'USD' Timestamp('2009-05-27 09:46:00') '0.2%' 'worse' 'Low'
-  'HPI m/m' '0.2%' 'worse' 22
-  Timestamp('2009-05-27 13:46:00+0000', tz='GMT') -650.0 2009 2 5
-  'Wednesday' nan nan nan nan]
- ['-2.2' 'USD' Timestamp('2009-06-18 09:59:00') '-17.6' 'better' 'High'
-  'Philly Fed Manufacturing Index' '-22.6' 'accurate' 25
-  Timestamp('2009-06-18 13:59:00+0000', tz='GMT') 87.5 2009 2 6
-  'Thursday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2009-06-24 14:18:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 26
-  Timestamp('2009-06-24 18:18:00+0000', tz='GMT') 0.0 2009 2 6
-  'Wednesday' nan nan nan nan]
- ['14' 'USD' Timestamp('2009-07-28 09:59:00') '8' 'better' 'Low'
-  'Richmond Manufacturing Index' '6' 'accurate' 31
-  Timestamp('2009-07-28 13:59:00+0000', tz='GMT') 75.0 2009 3 7 'Tuesday'
-  nan nan nan nan]
- ['0.5%' 'USD' Timestamp('2009-08-25 10:08:00') '0.4%' 'better' 'Low'
-  'HPI m/m' '0.6%' 'worse' 35
-  Timestamp('2009-08-25 14:08:00+0000', tz='GMT') 25.0 2009 3 8 'Tuesday'
-  nan nan nan nan]
- ['18.9' 'USD' Timestamp('2009-09-15 08:29:00') '14.7' 'better' 'Medium'
-  'Empire State Manufacturing Index' '12.1' 'accurate' 38
-  Timestamp('2009-09-15 12:29:00+0000', tz='GMT') 28.57 2009 3 9
-  'Tuesday' nan nan nan nan]
- ['14' 'USD' Timestamp('2009-09-22 09:59:00') '17' 'worse' 'Low'
-  'Richmond Manufacturing Index' '14' 'accurate' 39
-  Timestamp('2009-09-22 13:59:00+0000', tz='GMT') -17.65 2009 3 9
-  'Tuesday' nan nan nan nan]
- ['34.6' 'USD' Timestamp('2009-10-15 08:28:00') '18.2' 'better' 'Medium'
-  'Empire State Manufacturing Index' '18.9' 'accurate' 42
-  Timestamp('2009-10-15 12:28:00+0000', tz='GMT') 90.11 2009 4 10
-  'Thursday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2009-11-04 14:19:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 45
-  Timestamp('2009-11-04 19:19:00+0000', tz='GMT') 0.0 2009 4 11
-  'Wednesday' nan nan nan nan]
- ['1' 'USD' Timestamp('2009-11-24 09:59:00') '10' 'worse' 'Low'
-  'Richmond Manufacturing Index' '7' 'accurate' 48
-  Timestamp('2009-11-24 14:59:00+0000', tz='GMT') -90.0 2009 4 11
-  'Tuesday' nan nan nan nan]
- ['-4' 'USD' Timestamp('2009-12-22 09:59:00') '4' 'worse' 'Low'
-  'Richmond Manufacturing Index' '1' 'accurate' 52
-  Timestamp('2009-12-22 14:59:00+0000', tz='GMT') -200.0 2009 4 12
-  'Tuesday' nan nan nan nan]
- ['0.6%' 'USD' Timestamp('2009-12-22 10:02:00') '0.2%' 'better' 'Low'
-  'HPI m/m' '-0.4%' 'worse' 52
-  Timestamp('2009-12-22 15:02:00+0000', tz='GMT') 200.0 2009 4 12
-  'Tuesday' nan nan nan nan]]
-2018-11-08 21:21:46,599 - INFO - Processed year: 2009 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:46,769 - INFO - Processing year: 2010 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:47,654 - INFO - Unable to get currency values for 18 of the news
-2018-11-08 21:21:47,657 - INFO - [['-2' 'USD' Timestamp('2010-01-26 09:59:00') '0' 'worse' 'Low'
-  'Richmond Manufacturing Index' '-4' 'accurate' 5
-  Timestamp('2010-01-26 14:59:00+0000', tz='GMT') -200.0 2010 1 1
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2010-01-27 14:16:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 5
-  Timestamp('2010-01-27 19:16:00+0000', tz='GMT') 0.0 2010 1 1
-  'Wednesday' nan nan nan nan]
- ['Pass' 'USD' Timestamp('2010-01-28 15:59:00') 'Pass' 'accurate' 'High'
-  'Fed Chairman Nomination Vote' nan 'accurate' 5
-  Timestamp('2010-01-28 20:59:00+0000', tz='GMT') 0.0 2010 1 1 'Thursday'
-  nan nan nan nan]
- ['2' 'USD' Timestamp('2010-02-23 09:59:00') '0' 'better' 'Low'
-  'Richmond Manufacturing Index' '-2' 'accurate' 9
-  Timestamp('2010-02-23 14:59:00+0000', tz='GMT') 200.0 2010 1 2
-  'Tuesday' nan nan nan nan]
- ['-1.6%' 'USD' Timestamp('2010-02-25 10:02:00') '0.6%' 'worse' 'Low'
-  'HPI m/m' '0.4%' 'worse' 9
-  Timestamp('2010-02-25 15:02:00+0000', tz='GMT') -366.67 2010 1 2
-  'Thursday' nan nan nan nan]
- ['19.1B' 'USD' Timestamp('2010-03-15 08:58:00') '50.3B' 'worse' 'High'
-  'TIC Long-Term Purchases' '63.3B' 'accurate' 12
-  Timestamp('2010-03-15 12:58:00+0000', tz='GMT') -62.03 2010 1 3
-  'Monday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2010-03-16 14:13:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 12
-  Timestamp('2010-03-16 18:13:00+0000', tz='GMT') 0.0 2010 1 3 'Tuesday'
-  nan nan nan nan]
- ['6' 'USD' Timestamp('2010-03-23 09:58:00') '5' 'better' 'Low'
-  'Richmond Manufacturing Index' '2' 'accurate' 13
-  Timestamp('2010-03-23 13:58:00+0000', tz='GMT') 20.0 2010 1 3 'Tuesday'
-  nan nan nan nan]
- ['31.9' 'USD' Timestamp('2010-04-15 08:29:00') '24.0' 'better' 'Medium'
-  'Empire State Manufacturing Index' '22.9' 'accurate' 16
-  Timestamp('2010-04-15 12:29:00+0000', tz='GMT') 32.92 2010 2 4
-  'Thursday' nan nan nan nan]
- ['30' 'USD' Timestamp('2010-04-27 09:59:00') '7' 'better' 'Low'
-  'Richmond Manufacturing Index' '6' 'accurate' 18
-  Timestamp('2010-04-27 13:59:00+0000', tz='GMT') 328.57 2010 2 4
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2010-04-28 14:14:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 18
-  Timestamp('2010-04-28 18:14:00+0000', tz='GMT') 0.0 2010 2 4
-  'Wednesday' nan nan nan nan]
- ['26' 'USD' Timestamp('2010-05-25 09:59:00') '25' 'better' 'Low'
-  'Richmond Manufacturing Index' '30' 'accurate' 22
-  Timestamp('2010-05-25 13:59:00+0000', tz='GMT') 4.0 2010 2 5 'Tuesday'
-  nan nan nan nan]
- ['23' 'USD' Timestamp('2010-06-22 09:59:00') '21' 'better' 'Low'
-  'Richmond Manufacturing Index' '26' 'accurate' 26
-  Timestamp('2010-06-22 13:59:00+0000', tz='GMT') 9.52 2010 2 6 'Tuesday'
-  nan nan nan nan]
- ['11' 'USD' Timestamp('2010-08-24 10:02:00') '14' 'worse' 'Low'
-  'Richmond Manufacturing Index' '16' 'accurate' 35
-  Timestamp('2010-08-24 14:02:00+0000', tz='GMT') -21.43 2010 3 8
-  'Tuesday' nan nan nan nan]
- ['16' 'USD' Timestamp('2010-10-18 09:58:00') '14' 'better' 'Low'
-  'NAHB Housing Market Index' '13' 'accurate' 43
-  Timestamp('2010-10-18 13:58:00+0000', tz='GMT') 14.29 2010 4 10
-  'Monday' nan nan nan nan]
- ['5' 'USD' Timestamp('2010-10-26 09:59:00') '-1' 'better' 'Low'
-  'Richmond Manufacturing Index' '-2' 'accurate' 44
-  Timestamp('2010-10-26 13:59:00+0000', tz='GMT') 600.0 2010 4 10
-  'Tuesday' nan nan nan nan]
- ['9' 'USD' Timestamp('2010-11-23 09:59:00') '6' 'better' 'Low'
-  'Richmond Manufacturing Index' '5' 'accurate' 48
-  Timestamp('2010-11-23 14:59:00+0000', tz='GMT') 50.0 2010 4 11
-  'Tuesday' nan nan nan nan]
- ['25' 'USD' Timestamp('2010-12-28 09:59:00') '11' 'better' 'Low'
-  'Richmond Manufacturing Index' '9' 'accurate' 52
-  Timestamp('2010-12-28 14:59:00+0000', tz='GMT') 127.27 2010 4 12
-  'Tuesday' nan nan nan nan]]
-2018-11-08 21:21:47,950 - INFO - Processed year: 2010 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:48,168 - INFO - Processing year: 2011 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:49,075 - INFO - Unable to get currency values for 21 of the news
-2018-11-08 21:21:49,078 - INFO - [['51.9' 'USD' Timestamp('2011-01-11 19:22:00') '47.1' 'better' 'Low'
-  'IBD/TIPP Economic Optimism' '45.8' 'accurate' 2
-  Timestamp('2011-01-12 00:22:00+0000', tz='GMT') 10.19 2011 1 1
-  'Tuesday' nan nan nan nan]
- ['18' 'USD' Timestamp('2011-01-25 09:59:00') '23' 'worse' 'Low'
-  'Richmond Manufacturing Index' '25' 'accurate' 4
-  Timestamp('2011-01-25 14:59:00+0000', tz='GMT') -21.74 2011 1 1
-  'Tuesday' nan nan nan nan]
- ['25' 'USD' Timestamp('2011-02-22 09:59:00') '18' 'better' 'Low'
-  'Richmond Manufacturing Index' '18' 'accurate' 8
-  Timestamp('2011-02-22 14:59:00+0000', tz='GMT') 38.89 2011 1 2
-  'Tuesday' nan nan nan nan]
- ['-0.3%' 'USD' Timestamp('2011-02-24 10:06:00') '-0.2%' 'worse' 'Low'
-  'HPI m/m' '-0.3%' 'worse' 8
-  Timestamp('2011-02-24 15:06:00+0000', tz='GMT') -50.0 2011 1 2
-  'Thursday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-03-15 14:14:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 11
-  Timestamp('2011-03-15 18:14:00+0000', tz='GMT') 0.0 2011 1 3 'Tuesday'
-  nan nan nan nan]
- ['20' 'USD' Timestamp('2011-03-22 09:59:00') '23' 'worse' 'Low'
-  'Richmond Manufacturing Index' '25' 'accurate' 12
-  Timestamp('2011-03-22 13:59:00+0000', tz='GMT') -13.04 2011 1 3
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-04-27 12:32:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 17
-  Timestamp('2011-04-27 16:32:00+0000', tz='GMT') 0.0 2011 2 4
-  'Wednesday' nan nan nan nan]
- ['0.8%' 'USD' Timestamp('2011-06-22 10:07:00') '-0.2%' 'better' 'Low'
-  'HPI m/m' '-0.4%' 'worse' 25
-  Timestamp('2011-06-22 14:07:00+0000', tz='GMT') 500.0 2011 2 6
-  'Wednesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-06-22 12:27:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 25
-  Timestamp('2011-06-22 16:27:00+0000', tz='GMT') 0.0 2011 2 6
-  'Wednesday' nan nan nan nan]
- ['58.5' 'USD' Timestamp('2011-06-28 09:43:00') '60.8' 'worse' 'High'
-  'CB Consumer Confidence' '61.7' 'better' 26
-  Timestamp('2011-06-28 13:43:00+0000', tz='GMT') -3.78 2011 2 6
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-08-09 14:19:00') '<0.25%' 'accurate'
-  'High' 'Federal Funds Rate' '<0.25%' 'accurate' 32
-  Timestamp('2011-08-09 18:19:00+0000', tz='GMT') 0.0 2011 3 8 'Tuesday'
-  nan nan nan nan]
- ['-129.4B' 'USD' Timestamp('2011-08-10 13:57:00') '-137.4B' 'better'
-  'Medium' 'Federal Budget Balance' '-43.1B' 'accurate' 32
-  Timestamp('2011-08-10 17:57:00+0000', tz='GMT') 5.82 2011 3 8
-  'Wednesday' nan nan nan nan]
- ['-134.2B' 'USD' Timestamp('2011-09-13 13:54:00') '-128.4B' 'worse'
-  'Medium' 'Federal Budget Balance' '-129.4B' 'accurate' 37
-  Timestamp('2011-09-13 17:54:00+0000', tz='GMT') -4.52 2011 3 9
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-09-21 14:23:00') '<0.25%' 'accurate'
-  'Medium' 'Federal Funds Rate' '<0.25%' 'accurate' 38
-  Timestamp('2011-09-21 18:23:00+0000', tz='GMT') 0.0 2011 3 9
-  'Wednesday' nan nan nan nan]
- ['-6' 'USD' Timestamp('2011-09-27 09:59:00') '-8' 'better' 'Low'
-  'Richmond Manufacturing Index' '-10' 'accurate' 39
-  Timestamp('2011-09-27 13:59:00+0000', tz='GMT') 25.0 2011 3 9 'Tuesday'
-  nan nan nan nan]
- ['-64.6B' 'USD' Timestamp('2011-10-14 13:53:00') '-65.0B' 'accurate'
-  'Medium' 'Federal Budget Balance' '-134.1B' 'accurate' 41
-  Timestamp('2011-10-14 17:53:00+0000', tz='GMT') 0.62 2011 4 10 'Friday'
-  nan nan nan nan]
- ['-6' 'USD' Timestamp('2011-10-25 09:59:00') '2' 'worse' 'Low'
-  'Richmond Manufacturing Index' '-6' 'accurate' 43
-  Timestamp('2011-10-25 13:59:00+0000', tz='GMT') -400.0 2011 4 10
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-11-02 12:32:00') '<0.25%' 'accurate'
-  'Medium' 'Federal Funds Rate' '<0.25%' 'accurate' 44
-  Timestamp('2011-11-02 16:32:00+0000', tz='GMT') 0.0 2011 4 11
-  'Wednesday' nan nan nan nan]
- ['0' 'USD' Timestamp('2011-11-22 09:59:00') '-2' 'better' 'Low'
-  'Richmond Manufacturing Index' '-6' 'accurate' 47
-  Timestamp('2011-11-22 14:59:00+0000', tz='GMT') 100.0 2011 4 11
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2011-12-13 14:13:00') '<0.25%' 'accurate'
-  'Medium' 'Federal Funds Rate' '<0.25%' 'accurate' 50
-  Timestamp('2011-12-13 19:13:00+0000', tz='GMT') 0.0 2011 4 12 'Tuesday'
-  nan nan nan nan]
- ['3' 'USD' Timestamp('2011-12-27 09:59:00') '6' 'worse' 'Low'
-  'Richmond Manufacturing Index' '0' 'accurate' 52
-  Timestamp('2011-12-27 14:59:00+0000', tz='GMT') -50.0 2011 4 12
-  'Tuesday' nan nan nan nan]]
-2018-11-08 21:21:49,389 - INFO - Processed year: 2011 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:49,656 - INFO - Processing year: 2012 for news from: USD in the pair: EURUSD
-2018-11-08 21:21:50,546 - INFO - Unable to get currency values for 31 of the news
-2018-11-08 21:21:50,551 - INFO - [['-86.0B' 'USD' Timestamp('2012-01-12 13:57:00') '-79.0B' 'worse'
-  'Medium' 'Federal Budget Balance' '-137.3B' 'accurate' 2
-  Timestamp('2012-01-12 18:57:00+0000', tz='GMT') -8.86 2012 1 1
-  'Thursday' nan nan nan nan]
- ['59.8B' 'USD' Timestamp('2012-01-18 08:56:00') '27.3B' 'better' 'High'
-  'TIC Long-Term Purchases' '8.3B' 'better' 3
-  Timestamp('2012-01-18 13:56:00+0000', tz='GMT') 119.05 2012 1 1
-  'Wednesday' nan nan nan nan]
- ['12' 'USD' Timestamp('2012-01-24 09:59:00') '6' 'better' 'Low'
-  'Richmond Manufacturing Index' '3' 'accurate' 4
-  Timestamp('2012-01-24 14:59:00+0000', tz='GMT') 100.0 2012 1 1
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2012-01-25 12:28:00') '<0.25%' 'accurate'
-  'Medium' 'Federal Funds Rate' '<0.25%' 'accurate' 4
-  Timestamp('2012-01-25 17:28:00+0000', tz='GMT') 0.0 2012 1 1
-  'Wednesday' nan nan nan nan]
- ['-27.4B' 'USD' Timestamp('2012-02-10 13:59:00') '-58.5B' 'better'
-  'Medium' 'Federal Budget Balance' '-86.0B' 'accurate' 6
-  Timestamp('2012-02-10 18:59:00+0000', tz='GMT') 53.16 2012 1 2 'Friday'
-  nan nan nan nan]
- ['17.9B' 'USD' Timestamp('2012-02-15 08:54:00') '45.4B' 'worse' 'High'
-  'TIC Long-Term Purchases' '61.3B' 'accurate' 7
-  Timestamp('2012-02-15 13:54:00+0000', tz='GMT') -60.57 2012 1 2
-  'Wednesday' nan nan nan nan]
- ['20' 'USD' Timestamp('2012-02-28 09:59:00') '11' 'better' 'Low'
-  'Richmond Manufacturing Index' '12' 'accurate' 9
-  Timestamp('2012-02-28 14:59:00+0000', tz='GMT') 81.82 2012 1 2
-  'Tuesday' nan nan nan nan]
- ['-231.7B' 'USD' Timestamp('2012-03-12 13:59:00') '-229.2B' 'accurate'
-  'Medium' 'Federal Budget Balance' '-27.4B' 'accurate' 11
-  Timestamp('2012-03-12 17:59:00+0000', tz='GMT') -1.09 2012 1 3 'Monday'
-  nan nan nan nan]
- ['7' 'USD' Timestamp('2012-03-27 09:59:00') '18' 'worse' 'Low'
-  'Richmond Manufacturing Index' '20' 'accurate' 13
-  Timestamp('2012-03-27 13:59:00+0000', tz='GMT') -61.11 2012 1 3
-  'Tuesday' nan nan nan nan]
- ['-198.2B' 'USD' Timestamp('2012-04-11 13:54:00') '-202.5B' 'better'
-  'Medium' 'Federal Budget Balance' '-231.7B' 'accurate' 15
-  Timestamp('2012-04-11 17:54:00+0000', tz='GMT') 2.12 2012 2 4
-  'Wednesday' nan nan nan nan]
- ['10.1B' 'USD' Timestamp('2012-04-16 08:56:00') '40.7B' 'worse' 'High'
-  'TIC Long-Term Purchases' '102.4B' 'accurate' 16
-  Timestamp('2012-04-16 12:56:00+0000', tz='GMT') -75.18 2012 2 4
-  'Monday' nan nan nan nan]
- ['14' 'USD' Timestamp('2012-04-24 09:59:00') '7' 'better' 'Low'
-  'Richmond Manufacturing Index' '7' 'accurate' 17
-  Timestamp('2012-04-24 13:59:00+0000', tz='GMT') 100.0 2012 2 4
-  'Tuesday' nan nan nan nan]
- ['59.1B' 'USD' Timestamp('2012-05-10 13:59:00') '30.5B' 'better'
-  'Medium' 'Federal Budget Balance' '-198.2B' 'accurate' 19
-  Timestamp('2012-05-10 17:59:00+0000', tz='GMT') 93.77 2012 2 5
-  'Thursday' nan nan nan nan]
- ['-124.6B' 'USD' Timestamp('2012-06-12 13:59:00') '-112.7B' 'worse'
-  'Medium' 'Federal Budget Balance' '59.1B' 'accurate' 24
-  Timestamp('2012-06-12 17:59:00+0000', tz='GMT') -10.56 2012 2 6
-  'Tuesday' nan nan nan nan]
- ['25.6B' 'USD' Timestamp('2012-06-15 08:56:00') '45.3B' 'worse' 'Medium'
-  'TIC Long-Term Purchases' '36.0B' 'accurate' 24
-  Timestamp('2012-06-15 12:56:00+0000', tz='GMT') -43.49 2012 2 6
-  'Friday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2012-06-20 12:32:00') '<0.25%' 'accurate'
-  'Medium' 'Federal Funds Rate' '<0.25%' 'accurate' 25
-  Timestamp('2012-06-20 16:32:00+0000', tz='GMT') 0.0 2012 2 6
-  'Wednesday' nan nan nan nan]
- ['-3' 'USD' Timestamp('2012-06-26 09:59:00') '5' 'worse' 'Low'
-  'Richmond Manufacturing Index' '4' 'accurate' 26
-  Timestamp('2012-06-26 13:59:00+0000', tz='GMT') -160.0 2012 2 6
-  'Tuesday' nan nan nan nan]
- ['-59.7B' 'USD' Timestamp('2012-07-12 13:54:00') '-91.7B' 'better'
-  'Medium' 'Federal Budget Balance' '-124.6B' 'accurate' 28
-  Timestamp('2012-07-12 17:54:00+0000', tz='GMT') 34.9 2012 3 7
-  'Thursday' nan nan nan nan]
- ['-17' 'USD' Timestamp('2012-07-24 09:59:00') '0' 'worse' 'Low'
-  'Richmond Manufacturing Index' '-3' 'accurate' 30
-  Timestamp('2012-07-24 13:59:00+0000', tz='GMT') -1700.0 2012 3 7
-  'Tuesday' nan nan nan nan]
- ['<0.25%' 'USD' Timestamp('2012-08-01 14:13:00') '<0.25%' 'accurate'
-  'Medium' 'Federal Funds Rate' '<0.25%' 'accurate' 31
-  Timestamp('2012-08-01 18:13:00+0000', tz='GMT') 0.0 2012 3 8
-  'Wednesday' nan nan nan nan]
- ['-69.6B' 'USD' Timestamp('2012-08-10 13:59:00') '-103.0B' 'better'
-  'Medium' 'Federal Budget Balance' '-59.7B' 'accurate' 32
-  Timestamp('2012-08-10 17:59:00+0000', tz='GMT') 32.43 2012 3 8 'Friday'
-  nan nan nan nan]
- ['-9' 'USD' Timestamp('2012-08-28 09:59:00') '-11' 'better' 'Low'
-  'Richmond Manufacturing Index' '-17' 'accurate' 35
-  Timestamp('2012-08-28 13:59:00+0000', tz='GMT') 18.18 2012 3 8
-  'Tuesday' nan nan nan nan]
- ['-190.5B' 'USD' Timestamp('2012-09-13 13:54:00') '-156.1B' 'worse'
-  'Medium' 'Federal Budget Balance' '-69.6B' 'accurate' 37
-  Timestamp('2012-09-13 17:54:00+0000', tz='GMT') -22.04 2012 3 9
-  'Thursday' nan nan nan nan]
- ['67.0B' 'USD' Timestamp('2012-09-18 08:38:00') '37.3B' 'better'
-  'Medium' 'TIC Long-Term Purchases' '9.3B' 'accurate' 38
-  Timestamp('2012-09-18 12:38:00+0000', tz='GMT') 79.62 2012 3 9
-  'Tuesday' nan nan nan nan]
- ['4' 'USD' Timestamp('2012-09-25 09:59:00') '-6' 'better' 'Low'
-  'Richmond Manufacturing Index' '-9' 'accurate' 39
-  Timestamp('2012-09-25 13:59:00+0000', tz='GMT') 166.67 2012 3 9
-  'Tuesday' nan nan nan nan]
- ['75.0B' 'USD' Timestamp('2012-10-12 14:54:00') '59.0B' 'better'
-  'Medium' 'Federal Budget Balance' '-190.5B' 'accurate' 41
-  Timestamp('2012-10-12 18:54:00+0000', tz='GMT') 27.12 2012 4 10
-  'Friday' nan nan nan nan]
- ['-7' 'USD' Timestamp('2012-10-23 09:59:00') '3' 'worse' 'Low'
-  'Richmond Manufacturing Index' '4' 'accurate' 43
-  Timestamp('2012-10-23 13:59:00+0000', tz='GMT') -333.33 2012 4 10
-  'Tuesday' nan nan nan nan]
- ['0.1%' 'USD' Timestamp('2012-10-29 08:32:00') '0.1%' 'accurate'
-  'Medium' 'Core PCE Price Index m/m' '0.1%' 'accurate' 44
-  Timestamp('2012-10-29 12:32:00+0000', tz='GMT') 0.0 2012 4 10 'Monday'
-  nan nan nan nan]
- ['9' 'USD' Timestamp('2012-11-27 09:59:00') '-2' 'better' 'Low'
-  'Richmond Manufacturing Index' '-7' 'accurate' 48
-  Timestamp('2012-11-27 14:59:00+0000', tz='GMT') 550.0 2012 4 11
-  'Tuesday' nan nan nan nan]
- ['-172.1B' 'USD' Timestamp('2012-12-12 13:27:00') '-160.0B' 'worse'
-  'Medium' 'Federal Budget Balance' '-120.0B' 'accurate' 50
-  Timestamp('2012-12-12 18:27:00+0000', tz='GMT') -7.56 2012 4 12
-  'Wednesday' nan nan nan nan]
- ['5' 'USD' Timestamp('2012-12-26 09:59:00') '12' 'worse' 'Low'
-  'Richmond Manufacturing Index' '9' 'accurate' 52
-  Timestamp('2012-12-26 14:59:00+0000', tz='GMT') -58.33 2012 4 12
-  'Wednesday' nan nan nan nan]]
-2018-11-08 21:21:50,864 - INFO - Processed year: 2012 for news from: USD in the pair: EURUSD
+  Timestamp('2008-09-29 17:40:00+0000', tz='GMT')]
+ [1159 'Pass' 'USD' Timestamp('2008-10-01 21:35:00') 'Pass' 'accurate'
+  'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
+  Timestamp('2008-10-02 01:35:00+0000', tz='GMT')]
+ [1194 'Pass' 'USD' Timestamp('2008-10-03 13:23:00') 'Pass' 'accurate'
+  'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
+  Timestamp('2008-10-03 17:25:00+0000', tz='GMT')]]
+2018-11-11 10:12:17,648 - INFO - []
+2018-11-11 10:12:17,999 - INFO - Processed year: 2008 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:17,999 - INFO - Processing year: 2009 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:18,883 - INFO - []
+2018-11-11 10:12:19,249 - INFO - Processed year: 2009 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:19,249 - INFO - Processing year: 2010 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:19,424 - INFO - These 1 news extracted from forexfactory have nan in some columns
+2018-11-11 10:12:19,426 - INFO - [[4191 'Pass' 'USD' Timestamp('2010-01-28 15:59:00') 'Pass' 'accurate'
+  'High' 'Fed Chairman Nomination Vote' nan 'accurate' 5 0
+  Timestamp('2010-01-28 21:00:00+0000', tz='GMT')]]
+2018-11-11 10:12:20,166 - INFO - []
+2018-11-11 10:12:20,530 - INFO - Processed year: 2010 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:20,530 - INFO - Processing year: 2011 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:21,446 - INFO - []
+2018-11-11 10:12:21,824 - INFO - Processed year: 2011 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:21,824 - INFO - Processing year: 2012 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:22,734 - INFO - []
+2018-11-11 10:12:23,120 - INFO - Processed year: 2012 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:23,120 - INFO - Processing year: 2013 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:24,047 - INFO - []
+2018-11-11 10:12:24,445 - INFO - Processed year: 2013 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:24,446 - INFO - Processing year: 2014 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:24,629 - INFO - These 1 news extracted from forexfactory have nan in some columns
+2018-11-11 10:12:24,632 - INFO - [[4316 'Pass' 'USD' Timestamp('2014-01-06 18:00:00') 'Pass' 'accurate'
+  'High' 'Fed Chairman Nomination Vote' nan 'accurate' 2 0
+  Timestamp('2014-01-06 23:00:00+0000', tz='GMT')]]
+2018-11-11 10:12:25,413 - INFO - []
+2018-11-11 10:12:25,832 - INFO - Processed year: 2014 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:25,833 - INFO - Processing year: 2015 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:26,774 - INFO - []
+2018-11-11 10:12:27,194 - INFO - Processed year: 2015 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:27,195 - INFO - Processing year: 2016 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:28,171 - INFO - []
+2018-11-11 10:12:28,860 - INFO - Processed year: 2016 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:28,860 - INFO - Processing year: 2017 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:30,295 - INFO - []
+2018-11-11 10:12:30,745 - INFO - Processed year: 2017 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:30,746 - INFO - Processing year: 2018 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:31,651 - INFO - []
+2018-11-11 10:12:32,091 - INFO - Processed year: 2018 for news from: USD in the pair: EURUSD
+2018-11-11 10:12:32,091 - INFO - Adding z-score for deviation between forecast and actual
+2018-11-11 10:12:37,739 - INFO - End

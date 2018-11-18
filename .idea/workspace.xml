@@ -6,7 +6,19 @@
       <change beforePath="$PROJECT_DIR$/code/data_curation/data_familiarity.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/data_familiarity.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/data_curation/test.csv" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/test.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/data_curation/tests/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/tests/README.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2007_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2007_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2008_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2008_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2009_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2009_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2010_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2010_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2011_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2011_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2012_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2012_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2013_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2013_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2014_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2014_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2015_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2015_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2016_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2016_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2017_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2017_curated.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/forexfactory_2018_curated.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/forexfactory_2018_curated.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_2007.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/macroeconomic_news_2007.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_2007_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/macroeconomic_news_2007_2018.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_2008.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/macroeconomic_news_2008.csv" afterDir="false" />
@@ -20,24 +32,6 @@
       <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/macroeconomic_news_2016.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_2017.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/macroeconomic_news_2017.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/macroeconomic_news_2018.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/AUDJPY.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/AUDUSD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/CHFJPY.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/EURCAD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/EURCHF.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/EURGBP.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/EURJPY.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/EURUSD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/GBPCHF.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/GBPJPY.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/GBPUSD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/NZDJPY.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/NZDUSD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/USDCAD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/USDCHF.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/USDJPY.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/XAGUSD.txt.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/raw/XAUUSD.txt.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/workdone.csv" beforeDir="false" afterPath="$PROJECT_DIR$/workdone.csv" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +56,7 @@
         <counts>
           <entry key="ipynb" value="2" />
           <entry key="log" value="1" />
-          <entry key="py" value="60" />
+          <entry key="py" value="61" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -70,20 +64,20 @@
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="60" />
+          <entry key="Python" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="629" />
-          <entry key="py" value="10744" />
-          <entry key="txt" value="1810" />
+          <entry key="Python Console" value="855" />
+          <entry key="py" value="12315" />
+          <entry key="txt" value="1950" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1810" />
-          <entry key="Python" value="11373" />
+          <entry key="PLAIN_TEXT" value="1950" />
+          <entry key="Python" value="13170" />
         </counts>
       </usages-collector>
     </session>
@@ -93,10 +87,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="82" selection-start-line="82" selection-end-line="83" selection-end-column="20" />
+            <state relative-caret-position="3434">
+              <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+                <marker date="1541927515000" expanded="true" signature="8222:8566" ph="..." />
               </folding>
             </state>
           </provider>
@@ -105,8 +100,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data_curation/tests/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="250">
+              <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -122,18 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>apply</find>
-      <find>3</find>
-      <find>diff</find>
-      <find>0.</find>
-      <find>compute_pips_diff</find>
-      <find>drop</find>
-      <find>volati</find>
-      <find>2</find>
-      <find>%</find>
-      <find>compute_diff</find>
-      <find>fe_forexfactory</find>
-      <find>Excep</find>
       <find>groupb</find>
       <find>'UTC</find>
       <find>fe_joined_with_forexite</find>
@@ -149,9 +132,21 @@
       <find>df_pair</find>
       <find>to_c</find>
       <find>df_features</find>
-      <find>fe_joined_with_dukascopy</find>
       <find>dropna</find>
       <find>snapshot</find>
+      <find>index</find>
+      <find>fe_forexfactory</find>
+      <find>drop</find>
+      <find>nul</find>
+      <find>values ap</find>
+      <find>have nan</find>
+      <find>forecast</find>
+      <find>compute_diff</find>
+      <find>DataFra</find>
+      <find>forecast_error_ratio</find>
+      <find>fe_joined_with_dukascopy</find>
+      <find>compute_deviation</find>
+      <find>where</find>
     </findStrings>
     <replaceStrings>
       <replace>get_date_features</replace>
@@ -161,6 +156,7 @@
       <replace>add_dts_flag</replace>
       <replace>df_pair</replace>
       <replace>df</replace>
+      <replace>prediction_error</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -179,8 +175,8 @@
         <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" />
         <option value="$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
         <option value="$PROJECT_DIR$/data_cleaning/dc_forexfactory.py" />
-        <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
         <option value="$PROJECT_DIR$/code/data_curation/tests/README.txt" />
+        <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
       </list>
     </option>
   </component>
@@ -314,7 +310,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
-      <option name="PARAMETERS" value="2007 2018  &quot;../../data/raw/&quot; &quot;forexfactory_&quot; &quot;USD&quot; &quot;EURUSD&quot; &quot;[5,10,15,30,60,90,120]&quot; &quot;../../data/curated/&quot; &quot;macroeconomic_news&quot; &quot;dc_forexfactory.log&quot;" />
+      <option name="PARAMETERS" value="2007 2018  &quot;../../data/raw/&quot; &quot;forexfactory_&quot; &quot;USD&quot; &quot;EURUSD&quot; &quot;[5,10,15,30,60,90,120,180,240]&quot; &quot;../../data/curated/&quot; &quot;macroeconomic_news&quot; &quot;dc_forexfactory.log&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -376,8 +372,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22541603" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.28139183" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20726173" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27987897" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,8 +407,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
-          <line>271</line>
+          <line>304</line>
           <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
+          <line>60</line>
+          <option name="timeStamp" value="232" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -459,13 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -608,19 +607,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/data_curation/tests/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="73" column="4" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="18" />
+        <state relative-caret-position="250">
+          <caret line="86" column="38" selection-start-line="86" selection-start-column="38" selection-end-line="86" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="82" selection-start-line="82" selection-end-line="83" selection-end-column="20" />
+        <state relative-caret-position="3434">
+          <caret line="243" lean-forward="true" selection-start-line="243" selection-end-line="243" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+            <marker date="1541927515000" expanded="true" signature="8222:8566" ph="..." />
           </folding>
         </state>
       </provider>
