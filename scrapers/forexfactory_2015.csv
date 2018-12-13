@@ -1,0 +1,524 @@
+,actual,country,date,forecast,forecast_error,impact,new,previous,previous_error,time
+0,,CHF,2015-01-01 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+1,,EUR,2015-01-01 00:00:00,,,Non-Economic,French Bank Holiday,,,12:00am
+2,,EUR,2015-01-01 00:00:00,,,Non-Economic,German Bank Holiday,,,12:00am
+3,,EUR,2015-01-01 00:00:00,,,Non-Economic,Italian Bank Holiday,,,12:00am
+4,,GBP,2015-01-01 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+5,,CAD,2015-01-01 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+6,,USD,2015-01-01 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+7,,NZD,2015-01-01 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+8,56.2,AUD,2015-01-01 00:00:00,,,Low,AIG Manufacturing Index,57.3,,5:30pm
+9,,JPY,2015-01-01 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+10,51.5,CNY,2015-01-01 00:00:00,50.7,better,Medium,Caixin Manufacturing PMI,50.8,,8:45pm
+11,-5.9%,AUD,2015-01-02 00:00:00,,,Low,Commodity Prices y/y,-4.0%,worse,12:30am
+12,,CHF,2015-01-02 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+13,55.8,EUR,2015-01-02 00:00:00,56.4,worse,Low,Spanish Manufacturing PMI,56.1,,3:15am
+14,57.4,EUR,2015-01-02 00:00:00,58.6,worse,Low,Italian Manufacturing PMI,58.3,,3:45am
+15,58.8,EUR,2015-01-02 00:00:00,59.3,worse,Low,French Final Manufacturing PMI,59.3,,3:50am
+16,63.3,EUR,2015-01-02 00:00:00,63.3,,Low,German Final Manufacturing PMI,63.3,,3:55am
+17,60.6,EUR,2015-01-02 00:00:00,60.6,,Low,Final Manufacturing PMI,60.6,,4:00am
+18,56.3,GBP,2015-01-02 00:00:00,58.0,worse,High,Manufacturing PMI,58.2,,4:30am
+19,-5.9B,GBP,2015-01-02 00:00:00,-6.2B,better,Low,Housing Equity Withdrawal q/q,-5.8B,worse,4:36am
+20,2.2%,NZD,2015-01-02 00:00:00,,,Medium,GDT Price Index,-3.9%,,9:25am
+21,54.7,CAD,2015-01-02 00:00:00,,,Low,Manufacturing PMI,54.4,,9:30am
+22,55.1,USD,2015-01-02 00:00:00,55.0,,Low,Final Manufacturing PMI,55.0,,9:45am
+23,,JPY,2015-01-02 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+24,-61.5K,EUR,2015-01-03 00:00:00,-58.7K,,Medium,Spanish Unemployment Change,7.3K,,3:00am
+25,65.2,CHF,2015-01-03 00:00:00,64.6,better,Low,Manufacturing PMI,65.1,,3:30am
+26,-29K,EUR,2015-01-03 00:00:00,-13K,better,Low,German Unemployment Change,-20K,better,3:55am
+27,52.2,GBP,2015-01-03 00:00:00,52.8,worse,High,Construction PMI,53.1,,4:30am
+28,59.7,USD,2015-01-03 00:00:00,58.1,better,High,ISM Manufacturing PMI,58.2,,10:00am
+29,0.8%,USD,2015-01-03 00:00:00,0.6%,,Low,Construction Spending m/m,0.9%,worse,10:00am
+30,69.0,USD,2015-01-03 00:00:00,64.8,better,Low,ISM Manufacturing Prices,65.5,,10:00am
+31,17.9M,USD,2015-01-03 00:00:00,17.5M,better,Low,Total Vehicle Sales,17.5M,,12:00am
+32,,USD,2015-01-03 00:00:00,,,High,FOMC Meeting Minutes,,,2:00pm
+33,52.0,AUD,2015-01-03 00:00:00,,,Low,AIG Services Index,51.7,,5:30pm
+34,54.0,JPY,2015-01-03 00:00:00,54.2,,Low,Final Manufacturing PMI,54.2,,7:30pm
+35,53.9,CNY,2015-01-03 00:00:00,51.8,better,Medium,Caixin Services PMI,51.9,,8:45pm
+36,0.6%,GBP,2015-01-04 00:00:00,0.1%,better,Low,Nationwide HPI m/m,0.1%,,1:57am
+37,54.6,EUR,2015-01-04 00:00:00,54.7,,Low,Spanish Services PMI,54.4,,3:15am
+38,55.4,EUR,2015-01-04 00:00:00,54.7,better,Low,Italian Services PMI,54.7,,3:45am
+39,59.1,EUR,2015-01-04 00:00:00,59.4,,Low,French Final Services PMI,59.4,,3:50am
+40,55.8,EUR,2015-01-04 00:00:00,55.8,,Low,German Final Services PMI,55.8,,3:55am
+41,56.6,EUR,2015-01-04 00:00:00,56.5,,Low,Final Services PMI,56.5,,4:00am
+42,54.2,GBP,2015-01-04 00:00:00,54.1,,High,Services PMI,53.8,,4:30am
+43,4.9B,GBP,2015-01-04 00:00:00,4.9B,,Medium,Net Lending to Individuals m/m,4.7B,,4:30am
+44,0.1%,GBP,2015-01-04 00:00:00,0.4%,worse,Low,M4 Money Supply m/m,0.6%,,4:30am
+45,65K,GBP,2015-01-04 00:00:00,64K,,Low,Mortgage Approvals,65K,,4:30am
+46,1.53|1.8,EUR,2015-01-04 00:00:00,,,Low,Spanish 10-y Bond Auction,1.49|2.0,,4:51am
+47,0.79|1.4,EUR,2015-01-04 00:00:00,,,Low,French 10-y Bond Auction,0.36|1.9,,5:01am
+48,-3.6%,USD,2015-01-04 00:00:00,,,Low,Challenger Job Cuts y/y,30.1%,,7:30am
+49,250K,USD,2015-01-04 00:00:00,191K,better,High,ADP Non-Farm Employment Change,185K,,8:15am
+50,5.5%,CAD,2015-01-04 00:00:00,4.0%,better,Medium,RMPI m/m,3.8%,,8:30am
+51,1.4%,CAD,2015-01-04 00:00:00,0.8%,better,Low,IPPI m/m,1.1%,better,8:30am
+52,250K,USD,2015-01-04 00:00:00,241K,worse,High,Unemployment Claims,247K,,8:30am
+53,53.7,USD,2015-01-04 00:00:00,52.4,better,Low,Final Services PMI,52.4,,9:45am
+54,-206B,USD,2015-01-04 00:00:00,-221B,,Low,Natural Gas Storage,-112B,,10:30am
+55,-7.4M,USD,2015-01-04 00:00:00,-5.2M,,High,Crude Oil Inventories,-4.6M,,11:00am
+56,11.2%,JPY,2015-01-04 00:00:00,13.1%,worse,Low,Monetary Base y/y,13.2%,,6:50pm
+57,-0.6%,GBP,2015-01-04 00:00:00,,,Low,BRC Shop Price Index y/y,-0.1%,,7:01pm
+58,-0.63B,AUD,2015-01-04 00:00:00,0.55B,worse,High,Trade Balance,-0.30B,worse,7:30pm
+59,2.3%,EUR,2015-01-05 00:00:00,1.0%,better,Medium,German Retail Sales m/m,-1.0%,better,2:00am
+60,0.3%,EUR,2015-01-05 00:00:00,0.3%,,Low,French Prelim CPI m/m,0.1%,,2:45am
+61,53.0,EUR,2015-01-05 00:00:00,,,Low,Retail PMI,52.4,,4:10am
+62,1.4%,EUR,2015-01-05 00:00:00,1.4%,,High,CPI Flash Estimate y/y,1.5%,,5:00am
+63,0.9%,EUR,2015-01-05 00:00:00,1.0%,worse,Medium,Core CPI Flash Estimate y/y,0.9%,,5:00am
+64,0.6%,EUR,2015-01-05 00:00:00,0.3%,better,Low,PPI m/m,0.4%,,5:00am
+65,0.4%,EUR,2015-01-05 00:00:00,0.2%,better,Low,Italian Prelim CPI m/m,-0.2%,,5:00am
+66,78.6K,CAD,2015-01-05 00:00:00,1.8K,better,High,Employment Change,79.5K,,8:30am
+67,-2.5B,CAD,2015-01-05 00:00:00,-1.2B,worse,High,Trade Balance,-1.6B,,8:30am
+68,5.7%,CAD,2015-01-05 00:00:00,6.0%,better,High,Unemployment Rate,5.9%,,8:30am
+69,0.3%,USD,2015-01-05 00:00:00,0.3%,,High,Average Hourly Earnings m/m,0.1%,worse,8:30am
+70,148K,USD,2015-01-05 00:00:00,190K,worse,High,Non-Farm Employment Change,252K,better,8:30am
+71,4.1%,USD,2015-01-05 00:00:00,4.1%,,High,Unemployment Rate,4.1%,,8:30am
+72,-50.5B,USD,2015-01-05 00:00:00,-49.7B,worse,Low,Trade Balance,-48.9B,,8:30am
+73,60.4,CAD,2015-01-05 00:00:00,62.2,worse,Medium,Ivey PMI,63.0,,10:00am
+74,55.9,USD,2015-01-05 00:00:00,57.6,worse,High,ISM Non-Manufacturing PMI,57.4,,10:00am
+75,1.3%,USD,2015-01-05 00:00:00,1.1%,better,Low,Factory Orders m/m,0.4%,better,10:00am
+76,,USD,2015-01-05 00:00:00,,,Medium,FOMC Member Mester Speaks,,,12:30pm
+77,,USD,2015-01-06 00:00:00,,,Medium,FOMC Member Mester Speaks,,,10:15am
+78,,NZD,2015-12-24 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+79,,AUD,2015-12-24 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+80,,CHF,2015-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+81,,EUR,2015-12-25 00:00:00,,,Non-Economic,French Bank Holiday,,,12:00am
+82,,EUR,2015-12-25 00:00:00,,,Non-Economic,German Bank Holiday,,,12:00am
+83,,EUR,2015-12-25 00:00:00,,,Non-Economic,Italian Bank Holiday,,,12:00am
+84,,GBP,2015-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+85,,CAD,2015-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+86,,USD,2015-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+87,,NZD,2015-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+88,,AUD,2015-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+89,1.7%,JPY,2015-12-25 00:00:00,0.6%,better,Low,Household Spending y/y,0.0%,,6:30pm
+90,0.9%,JPY,2015-12-25 00:00:00,0.8%,better,Low,National Core CPI y/y,0.8%,,6:30pm
+91,0.8%,JPY,2015-12-25 00:00:00,0.7%,better,Low,Tokyo Core CPI y/y,0.6%,,6:30pm
+92,2.7%,JPY,2015-12-25 00:00:00,2.8%,better,Low,Unemployment Rate,2.8%,,6:30pm
+93,,JPY,2015-12-25 00:00:00,,,Low,Monetary Policy Meeting Minutes,,,6:50pm
+94,0.8%,JPY,2015-12-25 00:00:00,0.8%,,Low,SPPI y/y,0.8%,,6:50pm
+95,,JPY,2015-12-25 00:00:00,,,High,BOJ Gov Kuroda Speaks,,,11:00pm
+96,,CHF,2015-12-26 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+97,,EUR,2015-12-26 00:00:00,,,Non-Economic,German Bank Holiday,,,12:00am
+98,,EUR,2015-12-26 00:00:00,,,Non-Economic,Italian Bank Holiday,,,12:00am
+99,,GBP,2015-12-26 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+100,,CAD,2015-12-26 00:00:00,,,Non-Economic,Bank Holiday,,,12:00am
+101,6.4%,USD,2015-12-26 00:00:00,6.3%,,Low,S&P/CS Composite-20 HPI y/y,6.2%,,9:00am
+102,20,USD,2015-12-26 00:00:00,22,worse,Low,Richmond Manufacturing Index,30,,9:59am
+103,-0.4%,JPY,2015-12-27 00:00:00,-2.5%,better,Low,Housing Starts y/y,-4.8%,,12:00am
+104,1.67,CHF,2015-12-27 00:00:00,,,Medium,UBS Consumption Indicator,1.68,better,2:00am
+105,52.0,CHF,2015-12-27 00:00:00,,,Medium,Credit Suisse Economic Expectations,40.7,,4:00am
+106,122.1,USD,2015-12-27 00:00:00,128.2,worse,High,CB Consumer Confidence,128.6,worse,10:00am
+107,0.2%,USD,2015-12-27 00:00:00,-0.4%,better,Medium,Pending Home Sales m/m,3.5%,,10:00am
+108,,JPY,2015-12-27 00:00:00,,,Low,BOJ Summary of Opinions,,,6:50pm
+109,0.6%,JPY,2015-12-27 00:00:00,0.5%,better,Low,Prelim Industrial Production m/m,0.5%,,6:50pm
+110,2.2%,JPY,2015-12-27 00:00:00,1.1%,better,Low,Retail Sales y/y,-0.2%,,6:50pm
+111,0.6%,JPY,2015-12-28 00:00:00,0.5%,better,Low,BOJ Core CPI y/y,0.5%,,12:00am
+112,,EUR,2015-12-28 00:00:00,,,Low,ECB Economic Bulletin,,,4:00am
+113,39.5K,GBP,2015-12-28 00:00:00,40.6K,worse,Low,High Street Lending,40.4K,,4:30am
+114,1.86|1.8,EUR,2015-12-28 00:00:00,,,Low,Italian 10-y Bond Auction,1.73|1.6,,5:22am
+115,245K,USD,2015-12-28 00:00:00,240K,worse,High,Unemployment Claims,245K,,8:30am
+116,-69.7B,USD,2015-12-28 00:00:00,-67.7B,worse,Low,Goods Trade Balance,-68.1B,,8:30am
+117,0.7%,USD,2015-12-28 00:00:00,0.4%,worse,Low,Prelim Wholesale Inventories m/m,-0.5%,better,8:30am
+118,67.6,USD,2015-12-28 00:00:00,62.2,better,Medium,Chicago PMI,63.9,,9:45am
+119,-112B,USD,2015-12-28 00:00:00,-115B,,Low,Natural Gas Storage,-182B,,10:30am
+120,-4.6M,USD,2015-12-28 00:00:00,-3.9M,,High,Crude Oil Inventories,-6.5M,,11:00am
+121,0.5%,AUD,2015-12-28 00:00:00,0.4%,better,Low,Private Sector Credit m/m,0.4%,,7:30pm
+122,0.6%,EUR,2015-12-29 00:00:00,0.5%,better,Medium,German Prelim CPI m/m,0.3%,,12:00am
+123,1.2%,EUR,2015-12-29 00:00:00,1.5%,worse,Medium,Spanish Flash CPI y/y,1.7%,better,3:00am
+124,4.9%,EUR,2015-12-29 00:00:00,4.9%,,Medium,M3 Money Supply y/y,5.0%,,4:00am
+125,2.8%,EUR,2015-12-29 00:00:00,2.8%,,Low,Private Loans y/y,2.7%,,4:00am
+126,51.6,CNY,2015-12-30 00:00:00,51.6,,Medium,Manufacturing PMI,51.8,,7:42pm
+127,55.0,CNY,2015-12-30 00:00:00,,,Medium,Non-Manufacturing PMI,54.8,,7:42pm
+128,0.36T,JPY,2015-12-17 00:00:00,0.27T,better,Low,Trade Balance,0.35T,,6:50pm
+129,0.1%,AUD,2015-12-17 00:00:00,,,Low,New Motor Vehicle Sales m/m,0.0%,,7:30pm
+130,,AUD,2015-12-17 00:00:00,,,Medium,Mid-Year Economic and Fiscal Outlook,,,8:06pm
+131,4.95B,EUR,2015-12-18 00:00:00,3.23B,better,Low,Italian Trade Balance,3.99B,,4:00am
+132,1.5%,EUR,2015-12-18 00:00:00,1.5%,,Medium,Final CPI y/y,1.5%,,5:00am
+133,0.9%,EUR,2015-12-18 00:00:00,0.9%,,Low,Final Core CPI y/y,0.9%,,5:00am
+134,,EUR,2015-12-18 00:00:00,,,Low,German Buba Monthly Report,,,6:00am
+135,17,GBP,2015-12-18 00:00:00,14,better,Low,CBI Industrial Order Expectations,17,,6:00am
+136,20.81B,CAD,2015-12-18 00:00:00,18.02B,better,Medium,Foreign Securities Purchases,16.69B,,8:30am
+137,74,USD,2015-12-18 00:00:00,70,better,Low,NAHB Housing Market Index,69,worse,10:00am
+138,107.4,NZD,2015-12-18 00:00:00,,,Low,Westpac Consumer Sentiment,112.4,,4:00pm
+139,-37.8,NZD,2015-12-18 00:00:00,,,High,ANZ Business Confidence,-39.3,,7:00pm
+140,,AUD,2015-12-18 00:00:00,,,High,Monetary Policy Meeting Minutes,,,7:30pm
+141,,CHF,2015-12-19 00:00:00,,,Low,SECO Economic Forecasts,,,1:45am
+142,117.2,EUR,2015-12-19 00:00:00,117.6,worse,Medium,German Ifo Business Climate,117.6,,4:00am
+143,1.30M,USD,2015-12-19 00:00:00,1.27M,better,High,Building Permits,1.32M,,8:30am
+144,-101B,USD,2015-12-19 00:00:00,-116B,better,Medium,Current Account,-124B,,8:30am
+145,1.30M,USD,2015-12-19 00:00:00,1.25M,better,Medium,Housing Starts,1.26M,worse,8:30am
+146,-3.9%,NZD,2015-12-19 00:00:00,,,Medium,GDT Price Index,0.4%,,9:18am
+147,0.3%,AUD,2015-12-19 00:00:00,,,Low,CB Leading Index m/m,0.2%,,10:32am
+148,,USD,2015-12-19 00:00:00,,,Medium,FOMC Member Kashkari Speaks,,,1:00pm
+149,-4.68B,NZD,2015-12-19 00:00:00,-4.22B,worse,Medium,Current Account,-0.51B,,4:45pm
+150,-1193M,NZD,2015-12-19 00:00:00,-495M,worse,Medium,Trade Balance,-843M,better,4:45pm
+151,2.5%,NZD,2015-12-19 00:00:00,,,Low,Visitor Arrivals m/m,2.1%,better,4:45pm
+152,0.1%,AUD,2015-12-19 00:00:00,,,Low,MI Leading Index m/m,0.1%,,6:30pm
+153,9.1%,NZD,2015-12-19 00:00:00,,,Low,Credit Card Spending y/y,3.0%,,9:00pm
+154,0.3%,JPY,2015-12-19 00:00:00,0.4%,,Low,All Industries Activity m/m,-0.5%,,11:30pm
+155,0.1%,EUR,2015-12-20 00:00:00,0.2%,worse,Low,German PPI m/m,0.3%,,2:00am
+156,30.8B,EUR,2015-12-20 00:00:00,33.4B,worse,Low,Current Account,39.2B,better,4:00am
+157,20,GBP,2015-12-20 00:00:00,21,,Low,CBI Realized Sales,26,,6:00am
+158,,EUR,2015-12-20 00:00:00,,,Medium,German Buba President Weidmann Speaks,,,8:00am
+159,,GBP,2015-12-20 00:00:00,,,High,BOE Gov Carney Speaks,,,8:15am
+160,1.5%,CAD,2015-12-20 00:00:00,0.5%,better,Low,Wholesale Sales m/m,-1.1%,,8:30am
+161,,CHF,2015-12-20 00:00:00,,,Low,SNB Quarterly Bulletin,,,9:00am
+162,1.8%,CNY,2015-12-20 00:00:00,,,Low,CB Leading Index m/m,1.3%,,9:00am
+163,0.1,EUR,2015-12-20 00:00:00,2.0,worse,Low,Belgian NBB Business Climate,1.6,,9:00am
+164,5.81M,USD,2015-12-20 00:00:00,5.53M,better,Medium,Existing Home Sales,5.50M,,10:00am
+165,-6.5M,USD,2015-12-20 00:00:00,-3.6M,,High,Crude Oil Inventories,-5.1M,,10:30am
+166,,USD,2015-12-20 00:00:00,,,High,President Trump Speaks,,,3:00pm
+167,0.6%,NZD,2015-12-20 00:00:00,0.6%,,High,GDP q/q,1.0%,better,4:45pm
+168,-13,GBP,2015-12-20 00:00:00,-12,worse,Low,GfK Consumer Confidence,-12,,6:05pm
+169,,JPY,2015-12-20 00:00:00,,,High,Monetary Policy Statement,,,9:46pm
+170,-0.10%,JPY,2015-12-20 00:00:00,-0.10%,,Medium,BOJ Policy Rate,-0.10%,,9:46pm
+171,,JPY,2015-12-21 00:00:00,,,High,BOJ Press Conference,,,1:30am
+172,2.63B,CHF,2015-12-21 00:00:00,2.84B,worse,Low,Trade Balance,2.45B,better,2:00am
+173,,All,2015-12-21 00:00:00,,,Medium,OPEC-JMMC Meetings,,,12:00am
+174,8.1B,GBP,2015-12-21 00:00:00,8.3B,,Medium,Public Sector Net Borrowing,7.2B,,4:30am
+175,0.3%,CAD,2015-12-21 00:00:00,0.2%,better,High,CPI m/m,0.1%,,8:30am
+176,0.8%,CAD,2015-12-21 00:00:00,0.4%,better,High,Core Retail Sales m/m,0.4%,better,8:30am
+177,1.5%,CAD,2015-12-21 00:00:00,,,Medium,Common CPI y/y,1.6%,,8:30am
+178,1.9%,CAD,2015-12-21 00:00:00,,,Medium,Median CPI y/y,1.7%,,8:30am
+179,1.5%,CAD,2015-12-21 00:00:00,0.3%,better,Medium,Retail Sales m/m,0.2%,better,8:30am
+180,1.8%,CAD,2015-12-21 00:00:00,,,Medium,Trimmed CPI y/y,1.5%,,8:30am
+181,3.2%,USD,2015-12-21 00:00:00,3.3%,worse,High,Final GDP q/q,3.3%,,8:30am
+182,26.2,USD,2015-12-21 00:00:00,21.5,better,Medium,Philly Fed Manufacturing Index,22.7,,8:30am
+183,245K,USD,2015-12-21 00:00:00,232K,worse,Medium,Unemployment Claims,225K,,8:30am
+184,2.1%,USD,2015-12-21 00:00:00,2.1%,,Low,Final GDP Price Index q/q,2.1%,,8:30am
+185,-0.1%,CAD,2015-12-21 00:00:00,,,Low,Core CPI m/m,0.3%,,8:32am
+186,59.2K,CAD,2015-12-21 00:00:00,,,Low,ADP Non-Farm Employment Change,5.4K,better,8:36am
+187,0.5%,USD,2015-12-21 00:00:00,0.4%,better,Low,HPI m/m,0.5%,better,9:00am
+188,1,EUR,2015-12-21 00:00:00,0,better,Low,Consumer Confidence,0,,10:00am
+189,0.4%,USD,2015-12-21 00:00:00,0.4%,,Low,CB Leading Index m/m,1.2%,,10:00am
+190,-182B,USD,2015-12-21 00:00:00,-160B,,Low,Natural Gas Storage,-69B,,10:30am
+191,10.8,EUR,2015-12-22 00:00:00,10.7,,Low,German GfK Consumer Climate,10.7,,2:00am
+192,0.8%,EUR,2015-12-22 00:00:00,0.7%,better,Low,German Import Prices m/m,0.6%,,2:00am
+193,2.2%,EUR,2015-12-22 00:00:00,1.4%,better,Low,French Consumer Spending m/m,-2.1%,worse,2:45am
+194,111.3,CHF,2015-12-22 00:00:00,110.3,better,Medium,KOF Economic Barometer,110.4,,3:00am
+195,-22.8B,GBP,2015-12-22 00:00:00,-21.5B,worse,High,Current Account,-25.8B,worse,4:30am
+196,0.4%,GBP,2015-12-22 00:00:00,0.4%,,Medium,Final GDP q/q,0.4%,,4:30am
+197,0.3%,GBP,2015-12-22 00:00:00,0.3%,,Low,Index of Services 3m/3m,0.4%,,4:30am
+198,0.5%,GBP,2015-12-22 00:00:00,0.2%,better,Low,Revised Business Investment q/q,0.2%,,4:30am
+199,0.0%,CAD,2015-12-22 00:00:00,0.2%,worse,High,GDP m/m,0.2%,,8:30am
+200,-0.1%,USD,2015-12-22 00:00:00,0.5%,worse,High,Core Durable Goods Orders m/m,0.9%,better,8:30am
+201,0.1%,USD,2015-12-22 00:00:00,0.1%,,Medium,Core PCE Price Index m/m,0.2%,,8:30am
+202,1.3%,USD,2015-12-22 00:00:00,2.1%,worse,Medium,Durable Goods Orders m/m,-0.8%,better,8:30am
+203,0.6%,USD,2015-12-22 00:00:00,0.5%,better,Medium,Personal Spending m/m,0.2%,worse,8:30am
+204,0.3%,USD,2015-12-22 00:00:00,0.4%,worse,Low,Personal Income m/m,0.4%,,8:30am
+205,733K,USD,2015-12-22 00:00:00,654K,better,Medium,New Home Sales,624K,worse,10:00am
+206,95.9,USD,2015-12-22 00:00:00,97.1,worse,Medium,Revised UoM Consumer Sentiment,96.8,,10:00am
+207,2.7%,USD,2015-12-22 00:00:00,,,Low,Revised UoM Inflation Expectations,2.8%,,10:00am
+208,9.7,JPY,2015-12-10 00:00:00,10.1,worse,Low,BSI Manufacturing Index,9.4,,6:50pm
+209,4.0%,JPY,2015-12-10 00:00:00,4.1%,worse,Low,M2 Money Stock y/y,4.1%,,6:50pm
+210,-2.6%,GBP,2015-12-10 00:00:00,,,Low,Rightmove HPI m/m,-0.8%,,7:01pm
+211,46.9%,JPY,2015-12-11 00:00:00,,,Low,Prelim Machine Tool Orders y/y,49.8%,,1:04am
+212,9.1%,CNY,2015-12-11 00:00:00,8.9%,,Low,M2 Money Supply y/y,8.8%,,4:00am
+213,1120B,CNY,2015-12-11 00:00:00,800B,better,Low,New Loans,663B,,4:00am
+214,-1.0%,EUR,2015-12-11 00:00:00,-0.1%,worse,Low,Italian Retail Sales m/m,0.8%,worse,4:00am
+215,6.00M,USD,2015-12-11 00:00:00,6.03M,,Low,JOLTS Job Openings,6.18M,better,10:00am
+216,2.38|2.4,USD,2015-12-11 00:00:00,,,Low,10-y Bond Auction,2.31|2.5,,1:01pm
+217,3.5%,JPY,2015-12-11 00:00:00,3.3%,better,Low,PPI y/y,3.4%,,6:50pm
+218,-0.2%,AUD,2015-12-11 00:00:00,0.6%,worse,Medium,HPI q/q,1.9%,,7:30pm
+219,6,AUD,2015-12-11 00:00:00,,,Medium,NAB Business Confidence,9,better,7:30pm
+220,0.3%,JPY,2015-12-11 00:00:00,0.2%,,Low,Tertiary Industry Activity m/m,-0.2%,,11:30pm
+221,0.3%,EUR,2015-12-12 00:00:00,0.2%,better,Low,French Final Private Payrolls q/q,0.2%,,1:30am
+222,3.1%,GBP,2015-12-12 00:00:00,3.0%,better,High,CPI y/y,3.0%,,4:30am
+223,1.8%,GBP,2015-12-12 00:00:00,1.6%,better,Medium,PPI Input m/m,1.0%,,4:30am
+224,3.9%,GBP,2015-12-12 00:00:00,4.1%,worse,Medium,RPI y/y,4.0%,,4:30am
+225,2.7%,GBP,2015-12-12 00:00:00,2.7%,,Low,Core CPI y/y,2.7%,,4:30am
+226,4.5%,GBP,2015-12-12 00:00:00,5.2%,worse,Low,HPI y/y,4.8%,worse,4:30am
+227,0.3%,GBP,2015-12-12 00:00:00,0.2%,,Low,PPI Output m/m,0.2%,,4:30am
+228,17.4,EUR,2015-12-12 00:00:00,17.9,worse,Medium,German ZEW Economic Sentiment,18.7,,5:00am
+229,29.0,EUR,2015-12-12 00:00:00,30.2,worse,Low,ZEW Economic Sentiment,30.9,,5:00am
+230,107.5,USD,2015-12-12 00:00:00,104.6,better,Low,NFIB Small Business Index,103.8,,6:00am
+231,0.4%,USD,2015-12-12 00:00:00,0.4%,,High,PPI m/m,0.4%,,8:30am
+232,0.3%,USD,2015-12-12 00:00:00,0.2%,better,Medium,Core PPI m/m,0.4%,,8:30am
+233,2.80|2.5,USD,2015-12-12 00:00:00,,,Low,30-y Bond Auction,2.80|2.2,,1:01pm
+234,,EUR,2015-12-12 00:00:00,,,High,ECB President Draghi Speaks,,,2:00pm
+235,-138.5B,USD,2015-12-12 00:00:00,-135.2B,worse,Low,Federal Budget Balance,-63.2B,,2:00pm
+236,-0.4%,NZD,2015-12-12 00:00:00,,,Low,FPI m/m,-1.1%,,4:45pm
+237,,AUD,2015-12-12 00:00:00,,,High,RBA Gov Lowe Speaks,,,5:15pm
+238,3.6%,AUD,2015-12-12 00:00:00,,,Low,Westpac Consumer Sentiment,-1.7%,,6:30pm
+239,5.0%,JPY,2015-12-12 00:00:00,3.1%,better,Low,Core Machinery Orders m/m,-8.1%,,6:50pm
+240,,AUD,2015-12-12 00:00:00,,,Medium,RBA Assist Gov Kent Speaks,,,7:00pm
+241,1.6%,AUD,2015-12-13 00:00:00,,,Low,HIA New Home Sales m/m,-6.1%,,1:04am
+242,0.3%,EUR,2015-12-13 00:00:00,0.3%,,Low,German Final CPI m/m,0.3%,,2:00am
+243,0.5%,EUR,2015-12-13 00:00:00,0.2%,better,Low,German WPI m/m,0.0%,,2:00am
+244,0.5%,EUR,2015-12-13 00:00:00,0.7%,worse,Low,Italian Industrial Production m/m,-1.3%,,4:00am
+245,2.5%,GBP,2015-12-13 00:00:00,2.5%,,High,Average Earnings Index 3m/y,2.3%,better,4:30am
+246,5.9K,GBP,2015-12-13 00:00:00,3.3K,worse,Medium,Claimant Count Change,6.5K,worse,4:30am
+247,4.3%,GBP,2015-12-13 00:00:00,4.2%,worse,Medium,Unemployment Rate,4.3%,,4:30am
+248,0.4%,EUR,2015-12-13 00:00:00,0.4%,,Low,Employment Change q/q,0.4%,,5:00am
+249,0.2%,EUR,2015-12-13 00:00:00,0.0%,better,Low,Industrial Production m/m,-0.5%,better,5:00am
+250,0.4%,USD,2015-12-13 00:00:00,0.4%,,High,CPI m/m,0.1%,,8:30am
+251,0.1%,USD,2015-12-13 00:00:00,0.2%,worse,High,Core CPI m/m,0.2%,,8:30am
+252,-5.1M,USD,2015-12-13 00:00:00,-3.6M,,High,Crude Oil Inventories,-5.6M,,10:30am
+253,,USD,2015-12-13 00:00:00,,,High,FOMC Economic Projections,,,2:00pm
+254,,USD,2015-12-13 00:00:00,,,High,FOMC Statement,,,2:00pm
+255,<1.50%,USD,2015-12-13 00:00:00,<1.50%,,High,Federal Funds Rate,<1.25%,,2:00pm
+256,,USD,2015-12-13 00:00:00,,,High,FOMC Press Conference,,,2:30pm
+257,,USD,2015-12-13 00:00:00,,,High,President Trump Speaks,,,3:00pm
+258,,USD,2015-12-13 00:00:00,,,Medium,FOMC Member Brainard Speaks,,,6:00pm
+259,3.7%,AUD,2015-12-13 00:00:00,,,Low,MI Inflation Expectations,3.7%,,7:00pm
+260,0%,GBP,2015-12-13 00:00:00,0%,,Low,RICS House Price Balance,1%,,7:01pm
+261,61.6K,AUD,2015-12-13 00:00:00,18.1K,better,High,Employment Change,7.8K,better,7:30pm
+262,5.4%,AUD,2015-12-13 00:00:00,5.4%,,High,Unemployment Rate,5.4%,,7:30pm
+263,54.2,JPY,2015-12-13 00:00:00,54.0,,Low,Flash Manufacturing PMI,53.6,,7:30pm
+264,6.1%,CNY,2015-12-13 00:00:00,6.1%,,High,Industrial Production y/y,6.2%,,9:00pm
+265,7.2%,CNY,2015-12-13 00:00:00,7.2%,,Medium,Fixed Asset Investment ytd/y,7.3%,,9:00pm
+266,9.8%,CNY,2015-12-13 00:00:00,,,Low,Foreign Direct Investment ytd/y,1.9%,,9:00pm
+267,10.2%,CNY,2015-12-13 00:00:00,10.3%,,Low,Retail Sales y/y,10.0%,,9:00pm
+268,0.5%,JPY,2015-12-13 00:00:00,0.5%,,Low,Revised Industrial Production m/m,0.5%,,11:32pm
+269,0.1%,EUR,2015-12-14 00:00:00,0.1%,,Low,French Final CPI m/m,0.1%,,2:45am
+270,59.3,EUR,2015-12-14 00:00:00,57.2,better,Medium,French Flash Manufacturing PMI,57.7,,3:00am
+271,59.4,EUR,2015-12-14 00:00:00,59.8,worse,Medium,French Flash Services PMI,60.4,,3:00am
+272,0.6%,CHF,2015-12-14 00:00:00,0.3%,better,Medium,PPI m/m,0.5%,,3:15am
+273,-0.75%,CHF,2015-12-14 00:00:00,-0.75%,,High,Libor Rate,-0.75%,,3:30am
+274,,CHF,2015-12-14 00:00:00,,,High,SNB Monetary Policy Assessment,,,3:30am
+275,63.3,EUR,2015-12-14 00:00:00,62.1,better,Medium,German Flash Manufacturing PMI,62.5,,3:30am
+276,55.8,EUR,2015-12-14 00:00:00,54.6,better,Medium,German Flash Services PMI,54.3,worse,3:30am
+277,60.6,EUR,2015-12-14 00:00:00,59.8,better,Medium,Flash Manufacturing PMI,60.1,,4:00am
+278,56.5,EUR,2015-12-14 00:00:00,56.0,better,Medium,Flash Services PMI,56.2,,4:00am
+279,,CHF,2015-12-14 00:00:00,,,High,SNB Press Conference,,,4:30am
+280,1.1%,GBP,2015-12-14 00:00:00,0.4%,better,High,Retail Sales m/m,0.5%,better,4:30am
+281,1.49|2.0,EUR,2015-12-14 00:00:00,,,Low,Spanish 10-y Bond Auction,1.41|1.5,,4:47am
+282,0-0-9,GBP,2015-12-14 00:00:00,0-0-9,,High,MPC Official Bank Rate Votes,7-0-2,,7:00am
+283,,GBP,2015-12-14 00:00:00,,,High,Monetary Policy Summary,,,7:00am
+284,0.50%,GBP,2015-12-14 00:00:00,0.50%,,High,Official Bank Rate,0.50%,,7:00am
+285,0-0-9,GBP,2015-12-14 00:00:00,0-0-9,,Medium,MPC Asset Purchase Facility Votes,0-0-9,,7:00am
+286,435B,GBP,2015-12-14 00:00:00,435B,,Low,Asset Purchase Facility,435B,,7:00am
+287,0.00%,EUR,2015-12-14 00:00:00,0.00%,,High,Main Refinancing Rate,0.00%,,7:45am
+288,0.1%,CAD,2015-12-14 00:00:00,0.2%,worse,Medium,NHPI m/m,0.2%,,8:30am
+289,,EUR,2015-12-14 00:00:00,,,High,ECB Press Conference,,,8:30am
+290,1.0%,USD,2015-12-14 00:00:00,0.6%,better,High,Core Retail Sales m/m,0.4%,better,8:30am
+291,0.8%,USD,2015-12-14 00:00:00,0.3%,better,High,Retail Sales m/m,0.5%,better,8:30am
+292,0.7%,USD,2015-12-14 00:00:00,0.7%,,Medium,Import Prices m/m,0.1%,,8:30am
+293,225K,USD,2015-12-14 00:00:00,237K,better,Medium,Unemployment Claims,236K,,8:30am
+294,-0.2%,GBP,2015-12-14 00:00:00,,,Low,CB Leading Index m/m,-0.2%,,9:30am
+295,55.0,USD,2015-12-14 00:00:00,54.0,better,Low,Flash Manufacturing PMI,53.9,,9:45am
+296,52.4,USD,2015-12-14 00:00:00,54.8,worse,Low,Flash Services PMI,54.5,,9:45am
+297,-0.1%,USD,2015-12-14 00:00:00,-0.1%,,Low,Business Inventories m/m,0.0%,,10:00am
+298,-69B,USD,2015-12-14 00:00:00,-55B,,Low,Natural Gas Storage,2B,,10:30am
+299,,CAD,2015-12-14 00:00:00,,,High,BOC Gov Poloz Speaks,,,12:25pm
+300,57.7,NZD,2015-12-14 00:00:00,,,Low,Business NZ Manufacturing Index,57.3,,4:30pm
+301,25,JPY,2015-12-14 00:00:00,24,better,Medium,Tankan Manufacturing Index,22,,6:50pm
+302,23,JPY,2015-12-14 00:00:00,24,worse,Medium,Tankan Non-Manufacturing Index,23,,6:50pm
+303,19.0B,EUR,2015-12-15 00:00:00,24.4B,worse,Low,Trade Balance,24.5B,worse,5:00am
+304,,GBP,2015-12-15 00:00:00,,,Low,BOE Quarterly Bulletin,,,7:00am
+305,,GBP,2015-12-15 00:00:00,,,Medium,MPC Member Haldane Speaks,,,8:15am
+306,-0.4%,CAD,2015-12-15 00:00:00,0.9%,worse,Medium,Manufacturing Sales m/m,0.4%,,8:30am
+307,18.0,USD,2015-12-15 00:00:00,18.8,worse,Medium,Empire State Manufacturing Index,19.4,,8:30am
+308,77.1%,USD,2015-12-15 00:00:00,77.2%,,Medium,Capacity Utilization Rate,77.0%,,9:15am
+309,0.2%,USD,2015-12-15 00:00:00,0.3%,worse,Medium,Industrial Production m/m,1.2%,better,9:15am
+310,23.2B,USD,2015-12-15 00:00:00,57.6B,worse,Low,TIC Long-Term Purchases,80.9B,,4:00pm
+311,13.2%,JPY,2015-12-03 00:00:00,13.2%,,Low,Monetary Base y/y,14.5%,,6:50pm
+312,0.2%,AUD,2015-12-03 00:00:00,,,Low,MI Inflation Gauge m/m,0.3%,,7:00pm
+313,-0.2%,AUD,2015-12-03 00:00:00,0.3%,worse,Medium,Company Operating Profits q/q,-3.3%,better,7:30pm
+314,1.5%,AUD,2015-12-03 00:00:00,,,Low,ANZ Job Advertisements m/m,1.5%,,7:30pm
+315,44.9,JPY,2015-12-04 00:00:00,44.8,,Low,Consumer Confidence,44.5,,12:00am
+316,7.3K,EUR,2015-12-04 00:00:00,54.3K,better,Medium,Spanish Unemployment Change,56.8K,,3:00am
+317,31.1,EUR,2015-12-04 00:00:00,32.3,worse,Low,Sentix Investor Confidence,34.0,,4:30am
+318,53.1,GBP,2015-12-04 00:00:00,51.2,better,High,Construction PMI,50.8,,4:30am
+319,0.4%,EUR,2015-12-04 00:00:00,0.4%,,Low,PPI m/m,0.5%,worse,5:00am
+320,,EUR,2015-12-04 00:00:00,,,Medium,Eurogroup Meetings,,,12:00am
+321,-0.1%,USD,2015-12-04 00:00:00,-0.3%,better,Medium,Factory Orders m/m,1.7%,better,10:00am
+322,51.7,AUD,2015-12-04 00:00:00,,,Low,AIG Services Index,51.4,,5:30pm
+323,-0.9%,NZD,2015-12-04 00:00:00,,,Low,ANZ Commodity Prices m/m,-0.3%,,7:00pm
+324,0.6%,GBP,2015-12-04 00:00:00,,,Low,BRC Retail Sales Monitor y/y,-1.0%,,7:01pm
+325,,NZD,2015-12-04 00:00:00,,,High,RBNZ Gov Spencer Speaks,,,7:15pm
+326,-9.1B,AUD,2015-12-04 00:00:00,-8.8B,worse,High,Current Account,-9.7B,,7:30pm
+327,0.5%,AUD,2015-12-04 00:00:00,0.3%,better,High,Retail Sales m/m,0.1%,better,7:30pm
+328,51.9,CNY,2015-12-04 00:00:00,51.5,better,Medium,Caixin Services PMI,51.2,,8:45pm
+329,,AUD,2015-12-04 00:00:00,,,High,RBA Rate Statement,,,10:30pm
+330,1.50%,AUD,2015-12-04 00:00:00,1.50%,,Medium,Cash Rate,1.50%,,10:30pm
+331,0.06|3.7,JPY,2015-12-04 00:00:00,,,Low,10-y Bond Auction,0.06|4.6,,10:45pm
+332,0.5%,JPY,2015-12-05 00:00:00,0.5%,,Low,BOJ Core CPI y/y,0.5%,,12:00am
+333,54.4,EUR,2015-12-05 00:00:00,55.2,worse,Low,Spanish Services PMI,54.6,,3:15am
+334,54.7,EUR,2015-12-05 00:00:00,53.4,better,Low,Italian Services PMI,52.1,,3:45am
+335,60.4,EUR,2015-12-05 00:00:00,60.2,,Low,French Final Services PMI,60.2,,3:50am
+336,54.3,EUR,2015-12-05 00:00:00,54.9,worse,Low,German Final Services PMI,54.9,,3:55am
+337,56.2,EUR,2015-12-05 00:00:00,56.2,,Low,Final Services PMI,56.2,,4:00am
+338,53.8,GBP,2015-12-05 00:00:00,55.2,worse,High,Services PMI,55.6,,4:30am
+339,,GBP,2015-12-05 00:00:00,,,Low,FPC Meeting Minutes,,,4:30am
+340,-1.1%,EUR,2015-12-05 00:00:00,-0.6%,worse,Low,Retail Sales m/m,0.8%,better,5:00am
+341,,EUR,2015-12-05 00:00:00,,,Low,ECOFIN Meetings,,,12:00am
+342,-1.5B,CAD,2015-12-05 00:00:00,-2.3B,better,High,Trade Balance,-3.4B,worse,8:30am
+343,-48.7B,USD,2015-12-05 00:00:00,-46.2B,worse,Medium,Trade Balance,-44.9B,worse,8:30am
+344,0.4%,NZD,2015-12-05 00:00:00,,,Medium,GDT Price Index,-3.4%,,9:40am
+345,54.5,USD,2015-12-05 00:00:00,55.4,worse,Low,Final Services PMI,54.7,,9:45am
+346,57.4,USD,2015-12-05 00:00:00,59.2,worse,High,ISM Non-Manufacturing PMI,60.1,,10:00am
+347,0.6%,AUD,2015-12-05 00:00:00,0.7%,worse,High,GDP q/q,0.9%,better,7:30pm
+348,0.5%,EUR,2015-12-06 00:00:00,-0.2%,better,Low,German Factory Orders m/m,1.2%,better,2:00am
+349,-0.1%,CHF,2015-12-06 00:00:00,0.0%,worse,Low,CPI m/m,0.1%,,3:15am
+350,52.4,EUR,2015-12-06 00:00:00,,,Low,Retail PMI,51.1,,4:10am
+351,0.30|1.1,EUR,2015-12-06 00:00:00,,,Low,German 10-y Bond Auction,0.36|1.2,,5:42am
+352,190K,USD,2015-12-06 00:00:00,189K,,High,ADP Non-Farm Employment Change,235K,,8:15am
+353,-0.6%,CAD,2015-12-06 00:00:00,-0.4%,better,Medium,Labor Productivity q/q,-0.2%,better,8:30am
+354,3.0%,USD,2015-12-06 00:00:00,3.3%,better,Low,Revised Nonfarm Productivity q/q,3.0%,,8:30am
+355,-0.2%,USD,2015-12-06 00:00:00,0.2%,worse,Low,Revised Unit Labor Costs q/q,0.5%,,8:30am
+356,51.9,USD,2015-12-06 00:00:00,54.6,worse,Low,IBD/TIPP Economic Optimism,53.6,,9:59am
+357,,CAD,2015-12-06 00:00:00,,,High,BOC Rate Statement,,,10:00am
+358,1.00%,CAD,2015-12-06 00:00:00,1.00%,,High,Overnight Rate,1.00%,,10:00am
+359,-5.6M,USD,2015-12-06 00:00:00,-3.2M,,High,Crude Oil Inventories,-3.4M,,10:30am
+360,57.5,AUD,2015-12-06 00:00:00,,,Low,AIG Construction Index,53.2,,5:30pm
+361,0.11B,AUD,2015-12-06 00:00:00,1.37B,worse,High,Trade Balance,1.60B,worse,7:30pm
+362,,AUD,2015-12-06 00:00:00,,,Low,RBA Bulletin,,,7:30pm
+363,0.85|4.4,JPY,2015-12-06 00:00:00,,,Low,30-y Bond Auction,0.79|3.4,,10:45pm
+364,106.1%,JPY,2015-12-07 00:00:00,106.2%,,Low,Leading Indicators,106.4%,,12:00am
+365,3.0%,CHF,2015-12-07 00:00:00,3.1%,better,Low,Unemployment Rate,3.1%,,1:45am
+366,-1.4%,EUR,2015-12-07 00:00:00,0.9%,worse,Low,German Industrial Production m/m,-0.9%,better,2:00am
+367,-5.0B,EUR,2015-12-07 00:00:00,-4.7B,worse,Low,French Trade Balance,-4.6B,,2:45am
+368,738B,CHF,2015-12-07 00:00:00,,,Low,Foreign Currency Reserves,742B,,3:00am
+369,0.5%,GBP,2015-12-07 00:00:00,0.2%,better,Medium,Halifax HPI m/m,0.3%,,3:30am
+370,11.2%,EUR,2015-12-07 00:00:00,11.2%,,Low,Italian Quarterly Unemployment Rate,11.2%,,4:00am
+371,1.41|1.5,EUR,2015-12-07 00:00:00,,,Low,Spanish 10-y Bond Auction,1.54|1.5,,4:47am
+372,0.6%,EUR,2015-12-07 00:00:00,0.6%,,Low,Revised GDP q/q,0.6%,,5:00am
+373,0.36|1.9,EUR,2015-12-07 00:00:00,,,Low,French 10-y Bond Auction,0.76|1.6,,5:03am
+374,1.81|1.7,GBP,2015-12-07 00:00:00,,,Low,30-y Bond Auction,1.87|2.0,,5:37am
+375,30.1%,USD,2015-12-07 00:00:00,,,Low,Challenger Job Cuts y/y,-3.0%,,7:30am
+376,3.5%,CAD,2015-12-07 00:00:00,1.7%,better,Medium,Building Permits m/m,4.9%,better,8:30am
+377,236K,USD,2015-12-07 00:00:00,239K,,High,Unemployment Claims,238K,,8:30am
+378,63.0,CAD,2015-12-07 00:00:00,62.7,,Medium,Ivey PMI,63.8,,10:00am
+379,2B,USD,2015-12-07 00:00:00,-5B,,Low,Natural Gas Storage,-33B,,10:30am
+380,,EUR,2015-12-07 00:00:00,,,High,ECB President Draghi Speaks,,,11:00am
+381,20.5B,USD,2015-12-07 00:00:00,17.4B,better,Low,Consumer Credit m/m,19.2B,worse,3:00pm
+382,0.5%,NZD,2015-12-07 00:00:00,,,Low,Manufacturing Sales q/q,3.4%,worse,4:45pm
+383,0.6%,JPY,2015-12-07 00:00:00,0.4%,better,Medium,Final GDP q/q,0.3%,,6:50pm
+384,2.7%,JPY,2015-12-07 00:00:00,2.8%,worse,Low,Bank Lending y/y,2.8%,,6:50pm
+385,2.44T,JPY,2015-12-07 00:00:00,1.93T,better,Low,Current Account,1.84T,,6:50pm
+386,0.1%,JPY,2015-12-07 00:00:00,0.1%,,Low,Final GDP Price Index y/y,0.1%,,6:50pm
+387,0.6%,JPY,2015-12-07 00:00:00,0.8%,worse,Low,Average Cash Earnings y/y,0.9%,,7:00pm
+388,-0.6%,AUD,2015-12-07 00:00:00,-2.2%,better,Medium,Home Loans m/m,-2.5%,worse,7:30pm
+389,264B,CNY,2015-12-07 00:00:00,238B,better,Medium,Trade Balance,254B,,10:13pm
+390,40.2B,CNY,2015-12-07 00:00:00,34.9B,better,Low,USD-Denominated Trade Balance,38.2B,,10:36pm
+391,55.1,JPY,2015-12-08 00:00:00,52.1,better,Low,Economy Watchers Sentiment,52.2,,12:00am
+392,,EUR,2015-12-08 00:00:00,,,Non-Economic,Italian Bank Holiday,,,12:00am
+393,19.9B,EUR,2015-12-08 00:00:00,22.0B,worse,Low,German Trade Balance,21.9B,,2:00am
+394,-77.1B,EUR,2015-12-08 00:00:00,,,Low,French Gov Budget Balance,-76.3B,,2:45am
+395,1.9%,EUR,2015-12-08 00:00:00,-0.1%,better,Low,French Industrial Production m/m,0.8%,better,2:45am
+396,0.1%,GBP,2015-12-08 00:00:00,0.1%,,High,Manufacturing Production m/m,0.7%,,4:30am
+397,-10.8B,GBP,2015-12-08 00:00:00,-11.5B,better,Medium,Goods Trade Balance,-10.5B,better,4:30am
+398,-1.7%,GBP,2015-12-08 00:00:00,0.2%,worse,Low,Construction Output m/m,-1.6%,,4:30am
+399,2.9%,GBP,2015-12-08 00:00:00,,,Low,Consumer Inflation Expectations,2.8%,,4:30am
+400,0.0%,GBP,2015-12-08 00:00:00,0.0%,,Low,Industrial Production m/m,0.7%,,4:30am
+401,0.5%,GBP,2015-12-08 00:00:00,,,Low,NIESR GDP Estimate,0.5%,,7:06am
+402,252K,CAD,2015-12-08 00:00:00,214K,better,Low,Housing Starts,223K,,8:13am
+403,85.0%,CAD,2015-12-08 00:00:00,84.8%,better,Low,Capacity Utilization Rate,84.3%,worse,8:30am
+404,0.2%,USD,2015-12-08 00:00:00,0.3%,worse,High,Average Hourly Earnings m/m,-0.1%,worse,8:30am
+405,228K,USD,2015-12-08 00:00:00,198K,better,High,Non-Farm Employment Change,244K,worse,8:30am
+406,4.1%,USD,2015-12-08 00:00:00,4.1%,,High,Unemployment Rate,4.1%,,8:30am
+407,96.8,USD,2015-12-08 00:00:00,99.0,worse,Medium,Prelim UoM Consumer Sentiment,98.5,better,10:00am
+408,-0.5%,USD,2015-12-08 00:00:00,-0.4%,better,Low,Final Wholesale Inventories m/m,-0.4%,,10:00am
+409,2.8%,USD,2015-12-08 00:00:00,,,Low,Prelim UoM Inflation Expectations,2.5%,,10:00am
+410,1.7%,CNY,2015-12-08 00:00:00,1.8%,worse,Medium,CPI y/y,1.9%,,8:30pm
+411,5.8%,CNY,2015-12-08 00:00:00,5.8%,,Medium,PPI y/y,6.9%,,8:30pm
+412,0.8%,JPY,2015-11-26 00:00:00,0.9%,worse,Low,SPPI y/y,0.9%,,6:50pm
+413,,GBP,2015-11-27 00:00:00,,,Medium,MPC Member Haldane Speaks,,,9:30am
+414,685K,USD,2015-11-27 00:00:00,627K,better,Medium,New Home Sales,645K,worse,10:00am
+415,,USD,2015-11-27 00:00:00,,,Medium,FOMC Member Kashkari Speaks,,,6:30pm
+416,,USD,2015-11-27 00:00:00,,,Medium,FOMC Member Dudley Speaks,,,7:00pm
+417,0.6%,EUR,2015-11-28 00:00:00,0.4%,better,Low,German Import Prices m/m,0.9%,,2:00am
+418,,GBP,2015-11-28 00:00:00,,,High,Bank Stress Test Results,,,2:00am
+419,,GBP,2015-11-28 00:00:00,,,Medium,BOE Financial Stability Report,,,2:00am
+420,,GBP,2015-11-28 00:00:00,,,Low,FPC Statement,,,2:00am
+421,,GBP,2015-11-28 00:00:00,,,High,BOE Gov Carney Speaks,,,2:30am
+422,5.0%,EUR,2015-11-28 00:00:00,5.1%,,Medium,M3 Money Supply y/y,5.2%,,4:00am
+423,2.7%,EUR,2015-11-28 00:00:00,2.8%,worse,Low,Private Loans y/y,2.7%,,4:00am
+424,10.7,EUR,2015-11-28 00:00:00,10.8,,Low,German GfK Consumer Climate,10.7,,7:00am
+425,3.8%,CAD,2015-11-28 00:00:00,3.0%,better,Medium,RMPI m/m,-0.2%,,8:30am
+426,1.0%,CAD,2015-11-28 00:00:00,0.5%,better,Low,IPPI m/m,-0.3%,,8:30am
+427,-68.3B,USD,2015-11-28 00:00:00,-65.0B,worse,Low,Goods Trade Balance,-64.1B,,8:30am
+428,-0.4%,USD,2015-11-28 00:00:00,0.5%,better,Low,Prelim Wholesale Inventories m/m,0.1%,better,8:30am
+429,0.3%,USD,2015-11-28 00:00:00,0.6%,worse,Low,HPI m/m,0.8%,better,9:00am
+430,6.2%,USD,2015-11-28 00:00:00,6.0%,better,Low,S&P/CS Composite-20 HPI y/y,5.8%,,9:00am
+431,,USD,2015-11-28 00:00:00,,,Medium,FOMC Member Dudley Speaks,,,9:15am
+432,,USD,2015-11-28 00:00:00,,,High,Fed Chair Powell Testifies,,,9:45am
+433,30,USD,2015-11-28 00:00:00,14,better,Low,Richmond Manufacturing Index,12,,9:59am
+434,129.5,USD,2015-11-28 00:00:00,123.9,better,High,CB Consumer Confidence,126.2,,10:00am
+435,,USD,2015-11-28 00:00:00,,,Medium,FOMC Member Harker Speaks,,,10:15am
+436,,CAD,2015-11-28 00:00:00,,,Low,BOC Financial System Review,,,10:30am
+437,,CAD,2015-11-28 00:00:00,,,High,BOC Gov Poloz Speaks,,,11:30am
+438,,NZD,2015-11-28 00:00:00,,,High,RBNZ Financial Stability Report,,,3:00pm
+439,,USD,2015-11-28 00:00:00,,,High,Treasury Sec Mnuchin Speaks,,,3:45pm
+440,-0.2%,JPY,2015-11-28 00:00:00,0.1%,worse,Low,Retail Sales y/y,2.3%,,6:50pm
+441,,NZD,2015-11-28 00:00:00,,,High,RBNZ Gov Spencer Speaks,,,7:00pm
+442,-0.1%,GBP,2015-11-28 00:00:00,,,Low,BRC Shop Price Index y/y,-0.1%,,7:01pm
+443,1.54,CHF,2015-11-29 00:00:00,,,Low,UBS Consumption Indicator,1.51,worse,2:00am
+444,0.3%,EUR,2015-11-29 00:00:00,0.3%,,Medium,German Prelim CPI m/m,0.0%,,12:00am
+445,-1.9%,EUR,2015-11-29 00:00:00,0.0%,worse,Low,French Consumer Spending m/m,1.0%,better,2:45am
+446,0.5%,EUR,2015-11-29 00:00:00,0.5%,,Low,French Prelim GDP q/q,0.5%,,2:45am
+447,1.6%,EUR,2015-11-29 00:00:00,1.7%,worse,Medium,Spanish Flash CPI y/y,1.6%,,3:00am
+448,40.7,CHF,2015-11-29 00:00:00,,,Low,Credit Suisse Economic Expectations,32.0,,4:00am
+449,,All,2015-11-29 00:00:00,,,High,OPEC Meetings,,,12:00am
+450,4.8B,GBP,2015-11-29 00:00:00,4.3B,better,Medium,Net Lending to Individuals m/m,5.2B,worse,4:30am
+451,0.6%,GBP,2015-11-29 00:00:00,0.3%,better,Low,M4 Money Supply m/m,-0.1%,,4:30am
+452,65K,GBP,2015-11-29 00:00:00,65K,,Low,Mortgage Approvals,66K,,4:30am
+453,,EUR,2015-11-29 00:00:00,,,Low,ECB Financial Stability Review,,,5:00am
+454,1.73|1.6,EUR,2015-11-29 00:00:00,,,Low,Italian 10-y Bond Auction,1.86|1.4,,5:12am
+455,3.3%,USD,2015-11-29 00:00:00,3.3%,,High,Prelim GDP q/q,3.0%,,8:30am
+456,,USD,2015-11-29 00:00:00,,,Medium,FOMC Member Dudley Speaks,,,8:30am
+457,2.1%,USD,2015-11-29 00:00:00,2.2%,,Low,Prelim GDP Price Index q/q,2.2%,,8:30am
+458,,GBP,2015-11-29 00:00:00,,,High,BOE Gov Carney Speaks,,,9:00am
+459,,GBP,2015-11-29 00:00:00,,,Medium,MPC Member Ramsden Speaks,,,9:45am
+460,,USD,2015-11-29 00:00:00,,,High,Fed Chair Yellen Testifies,,,10:00am
+461,3.5%,USD,2015-11-29 00:00:00,1.1%,better,Medium,Pending Home Sales m/m,-0.4%,worse,10:00am
+462,-3.4M,USD,2015-11-29 00:00:00,-2.5M,,High,Crude Oil Inventories,-1.9M,,10:30am
+463,,USD,2015-11-29 00:00:00,,,Low,Beige Book,,,2:00pm
+464,-9.6%,NZD,2015-11-29 00:00:00,,,Low,Building Consents m/m,-2.5%,,4:45pm
+465,0.5%,JPY,2015-11-29 00:00:00,1.9%,worse,Low,Prelim Industrial Production m/m,-1.0%,better,6:50pm
+466,-12,GBP,2015-11-29 00:00:00,-9,worse,Low,GfK Consumer Confidence,-10,,6:55pm
+467,-39.3,NZD,2015-11-29 00:00:00,,,High,ANZ Business Confidence,-10.1,,7:00pm
+468,1.0%,AUD,2015-11-29 00:00:00,1.1%,,High,Private Capital Expenditure q/q,1.1%,better,7:30pm
+469,0.9%,AUD,2015-11-29 00:00:00,-0.9%,better,Medium,Building Approvals m/m,0.6%,worse,7:30pm
+470,0.4%,AUD,2015-11-29 00:00:00,0.4%,,Low,Private Sector Credit m/m,0.3%,,7:30pm
+471,51.8,CNY,2015-11-29 00:00:00,51.5,,Medium,Manufacturing PMI,51.6,,8:00pm
+472,54.8,CNY,2015-11-29 00:00:00,,,Medium,Non-Manufacturing PMI,54.3,,8:00pm
+473,-4.8%,JPY,2015-11-30 00:00:00,-2.6%,worse,Low,Housing Starts y/y,-2.9%,,12:02am
+474,0.6%,CHF,2015-11-30 00:00:00,0.6%,,Low,GDP q/q,0.4%,better,1:45am
+475,-1.2%,EUR,2015-11-30 00:00:00,0.3%,worse,Medium,German Retail Sales m/m,0.5%,,2:00am
+476,0.1%,GBP,2015-11-30 00:00:00,0.2%,,Low,Nationwide HPI m/m,0.2%,,2:00am
+477,0.1%,EUR,2015-11-30 00:00:00,0.1%,,Low,French Prelim CPI m/m,0.1%,,2:45am
+478,110.3,CHF,2015-11-30 00:00:00,109.5,better,Medium,KOF Economic Barometer,109.8,better,3:00am
+479,-3.0%,CHF,2015-11-30 00:00:00,0.3%,worse,Low,Retail Sales y/y,0.5%,better,3:15am
+480,-18K,EUR,2015-11-30 00:00:00,-10K,better,Low,German Unemployment Change,-12K,,3:55am
+481,11.1%,EUR,2015-11-30 00:00:00,11.1%,,Low,Italian Monthly Unemployment Rate,11.1%,,4:00am
+482,1.5%,EUR,2015-11-30 00:00:00,1.6%,worse,High,CPI Flash Estimate y/y,1.4%,,5:00am
+483,0.9%,EUR,2015-11-30 00:00:00,1.0%,worse,Medium,Core CPI Flash Estimate y/y,0.9%,,5:00am
+484,-0.2%,EUR,2015-11-30 00:00:00,0.1%,worse,Low,Italian Prelim CPI m/m,-0.2%,,5:00am
+485,8.8%,EUR,2015-11-30 00:00:00,8.9%,better,Low,Unemployment Rate,8.9%,,5:00am
+486,-19.3B,CAD,2015-11-30 00:00:00,-20.0B,better,Medium,Current Account,-15.6B,better,8:30am
+487,238K,USD,2015-11-30 00:00:00,241K,,High,Unemployment Claims,240K,,8:30am
+488,0.2%,USD,2015-11-30 00:00:00,0.2%,,Medium,Core PCE Price Index m/m,0.2%,better,8:30am
+489,0.3%,USD,2015-11-30 00:00:00,0.2%,better,Medium,Personal Spending m/m,0.9%,worse,8:30am
+490,0.4%,USD,2015-11-30 00:00:00,0.3%,better,Low,Personal Income m/m,0.4%,,8:30am
+491,63.9,USD,2015-11-30 00:00:00,62.2,better,Medium,Chicago PMI,66.2,,9:45am
+492,-33B,USD,2015-11-30 00:00:00,-37B,,Low,Natural Gas Storage,-46B,,10:30am
+493,,USD,2015-11-30 00:00:00,,,Medium,FOMC Member Quarles Speaks,,,12:30pm
+494,,USD,2015-11-30 00:00:00,,,Medium,FOMC Member Kaplan Speaks,,,1:00pm
+495,0.7%,NZD,2015-11-30 00:00:00,1.3%,worse,Low,Overseas Trade Index q/q,1.4%,,4:45pm
+496,57.3,AUD,2015-11-30 00:00:00,,,Low,AIG Manufacturing Index,51.1,,5:30pm
+497,0.0%,JPY,2015-11-30 00:00:00,-0.2%,better,Low,Household Spending y/y,-0.3%,,6:30pm
+498,0.8%,JPY,2015-11-30 00:00:00,0.8%,,Low,National Core CPI y/y,0.7%,,6:30pm
+499,0.6%,JPY,2015-11-30 00:00:00,0.6%,,Low,Tokyo Core CPI y/y,0.6%,,6:30pm
+500,2.8%,JPY,2015-11-30 00:00:00,2.8%,,Low,Unemployment Rate,2.8%,,6:30pm
+501,4.2%,JPY,2015-11-30 00:00:00,3.3%,better,Low,Capital Spending q/y,1.5%,,6:50pm
+502,53.6,JPY,2015-11-30 00:00:00,53.8,,Low,Final Manufacturing PMI,53.8,,7:30pm
+503,50.8,CNY,2015-11-30 00:00:00,51.2,worse,Medium,Caixin Manufacturing PMI,51.0,,8:45pm
+504,-3.3%,AUD,2015-12-01 00:00:00,,,Low,Commodity Prices y/y,10.9%,better,12:30am
+505,56.1,EUR,2015-12-01 00:00:00,56.6,worse,Low,Spanish Manufacturing PMI,55.8,,3:15am
+506,65.1,CHF,2015-12-01 00:00:00,62.6,better,Low,Manufacturing PMI,62.0,,3:30am
+507,58.3,EUR,2015-12-01 00:00:00,58.4,,Low,Italian Manufacturing PMI,57.8,,3:45am
+508,57.7,EUR,2015-12-01 00:00:00,57.5,,Low,French Final Manufacturing PMI,57.5,,3:50am
+509,62.5,EUR,2015-12-01 00:00:00,62.5,,Low,German Final Manufacturing PMI,62.5,,3:55am
+510,60.1,EUR,2015-12-01 00:00:00,60.0,,Low,Final Manufacturing PMI,60.0,,4:00am
+511,58.2,GBP,2015-12-01 00:00:00,56.6,better,High,Manufacturing PMI,56.6,,4:30am
+512,79.5K,CAD,2015-12-01 00:00:00,10.2K,better,High,Employment Change,35.3K,,8:30am
+513,0.2%,CAD,2015-12-01 00:00:00,0.1%,better,High,GDP m/m,-0.1%,,8:30am
+514,5.9%,CAD,2015-12-01 00:00:00,6.2%,better,High,Unemployment Rate,6.3%,,8:30am
+515,54.4,CAD,2015-12-01 00:00:00,,,Low,Manufacturing PMI,54.3,,9:30am
+516,,USD,2015-12-01 00:00:00,,,Medium,FOMC Member Kaplan Speaks,,,9:30am
+517,53.9,USD,2015-12-01 00:00:00,53.8,,Low,Final Manufacturing PMI,53.8,,9:45am
+518,58.2,USD,2015-12-01 00:00:00,58.4,,High,ISM Manufacturing PMI,58.7,,10:00am
+519,1.4%,USD,2015-12-01 00:00:00,0.5%,better,Low,Construction Spending m/m,0.3%,,10:00am
+520,65.5,USD,2015-12-01 00:00:00,67.0,worse,Low,ISM Manufacturing Prices,68.5,,10:00am
+521,,USD,2015-12-01 00:00:00,,,Medium,FOMC Member Harker Speaks,,,10:15am
+522,17.5M,USD,2015-12-01 00:00:00,17.5M,,Low,Total Vehicle Sales,18.1M,,12:00am
