@@ -1,8 +1,8 @@
-2018-12-13 21:35:41,494 - INFO - Processing year: 2007 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:43,194 - INFO - Processed year: 2007 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:43,195 - INFO - Processing year: 2008 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:43,375 - ERROR - These 3 news extracted from forexfactory have nan in some columns
-2018-12-13 21:35:43,377 - ERROR - [[1103 'Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
+2018-12-14 20:31:14,983 - INFO - Processing year: 2007 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:16,785 - INFO - Processed year: 2007 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:16,785 - INFO - Processing year: 2008 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:16,961 - ERROR - These 3 news extracted from forexfactory have nan in some columns
+2018-12-14 20:31:16,963 - ERROR - [[1103 'Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
   'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
   Timestamp('2008-09-29 17:40:00+0000', tz='GMT')]
  [1159 'Pass' 'USD' Timestamp('2008-10-01 21:35:00') 'Pass' 'accurate'
@@ -11,39 +11,39 @@
  [1194 'Pass' 'USD' Timestamp('2008-10-03 13:23:00') 'Pass' 'accurate'
   'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
   Timestamp('2008-10-03 17:25:00+0000', tz='GMT')]]
-2018-12-13 21:35:43,378 - ERROR - Removed these rows from the dataframe
-2018-12-13 21:35:44,862 - INFO - Processed year: 2008 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:44,863 - INFO - Processing year: 2009 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:46,461 - INFO - Processed year: 2009 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:46,461 - INFO - Processing year: 2010 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:46,630 - ERROR - These 1 news extracted from forexfactory have nan in some columns
-2018-12-13 21:35:46,631 - ERROR - [[4191 'Pass' 'USD' Timestamp('2010-01-28 15:59:00') 'Pass' 'accurate'
+2018-12-14 20:31:16,964 - ERROR - Removed these rows from the dataframe
+2018-12-14 20:31:18,577 - INFO - Processed year: 2008 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:18,577 - INFO - Processing year: 2009 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:20,332 - INFO - Processed year: 2009 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:20,332 - INFO - Processing year: 2010 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:20,504 - ERROR - These 1 news extracted from forexfactory have nan in some columns
+2018-12-14 20:31:20,506 - ERROR - [[4191 'Pass' 'USD' Timestamp('2010-01-28 15:59:00') 'Pass' 'accurate'
   'High' 'Fed Chairman Nomination Vote' nan 'accurate' 5 0
   Timestamp('2010-01-28 21:00:00+0000', tz='GMT')]]
-2018-12-13 21:35:46,632 - ERROR - Removed these rows from the dataframe
-2018-12-13 21:35:48,069 - INFO - Processed year: 2010 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:48,069 - INFO - Processing year: 2011 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:49,649 - INFO - Processed year: 2011 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:49,649 - INFO - Processing year: 2012 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:51,349 - INFO - Processed year: 2012 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:51,349 - INFO - Processing year: 2013 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:53,053 - INFO - Processed year: 2013 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:53,054 - INFO - Processing year: 2014 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:53,227 - ERROR - These 1 news extracted from forexfactory have nan in some columns
-2018-12-13 21:35:53,229 - ERROR - [[4316 'Pass' 'USD' Timestamp('2014-01-06 18:00:00') 'Pass' 'accurate'
+2018-12-14 20:31:20,506 - ERROR - Removed these rows from the dataframe
+2018-12-14 20:31:22,140 - INFO - Processed year: 2010 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:22,141 - INFO - Processing year: 2011 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:23,951 - INFO - Processed year: 2011 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:23,951 - INFO - Processing year: 2012 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:25,830 - INFO - Processed year: 2012 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:25,831 - INFO - Processing year: 2013 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:27,702 - INFO - Processed year: 2013 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:27,702 - INFO - Processing year: 2014 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:27,877 - ERROR - These 1 news extracted from forexfactory have nan in some columns
+2018-12-14 20:31:27,880 - ERROR - [[4316 'Pass' 'USD' Timestamp('2014-01-06 18:00:00') 'Pass' 'accurate'
   'High' 'Fed Chairman Nomination Vote' nan 'accurate' 2 0
   Timestamp('2014-01-06 23:00:00+0000', tz='GMT')]]
-2018-12-13 21:35:53,230 - ERROR - Removed these rows from the dataframe
-2018-12-13 21:35:54,752 - INFO - Processed year: 2014 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:54,752 - INFO - Processing year: 2015 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:56,580 - INFO - Processed year: 2015 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:56,580 - INFO - Processing year: 2016 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:58,600 - INFO - Processed year: 2016 for news from: USD in the pair: EURUSD
-2018-12-13 21:35:58,600 - INFO - Processing year: 2017 for news from: USD in the pair: EURUSD
-2018-12-13 21:36:00,586 - INFO - Processed year: 2017 for news from: USD in the pair: EURUSD
-2018-12-13 21:36:00,587 - INFO - Processing year: 2018 for news from: USD in the pair: EURUSD
-2018-12-13 21:36:02,481 - INFO - Processed year: 2018 for news from: USD in the pair: EURUSD
-2018-12-13 21:36:02,481 - INFO - Compute deviation with actual values from the previous publication
-2018-12-13 21:36:14,226 - INFO - Adding z-score for deviation between forecast and actual
-2018-12-13 21:36:23,581 - INFO - Adding z-score for deviation between forecast and actual, including previous values
-2018-12-13 21:36:34,770 - INFO - End
+2018-12-14 20:31:27,880 - ERROR - Removed these rows from the dataframe
+2018-12-14 20:31:29,629 - INFO - Processed year: 2014 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:29,630 - INFO - Processing year: 2015 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:31,555 - INFO - Processed year: 2015 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:31,556 - INFO - Processing year: 2016 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:33,490 - INFO - Processed year: 2016 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:33,490 - INFO - Processing year: 2017 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:35,447 - INFO - Processed year: 2017 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:35,447 - INFO - Processing year: 2018 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:37,302 - INFO - Processed year: 2018 for news from: USD in the pair: EURUSD
+2018-12-14 20:31:37,302 - INFO - Compute deviation with actual values from the previous publication
+2018-12-14 20:31:49,582 - INFO - Adding z-score for deviation between forecast and actual
+2018-12-14 20:31:59,325 - INFO - Adding z-score for deviation between forecast and actual, including previous values
+2018-12-14 20:32:11,704 - INFO - End

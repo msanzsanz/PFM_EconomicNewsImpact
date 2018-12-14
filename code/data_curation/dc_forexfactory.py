@@ -187,10 +187,11 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
     try:
 
         # Expand the forexfactory dataframe with as many snapshots as requested
-        # before / after the publication of the new
+        # after the publication of the new
         for snapshot in snapshots:
             column_name = '_' + str(snapshot) + '_after'
-            df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=snapshot - freq)
+            offset = snapshot - freq
+            df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=offset)
 
             df_features = df_features.set_index(column_name).join(df_pair)
             df_features = df_features.reset_index(drop=True)
@@ -214,10 +215,10 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
                                 'pips_candle': 'pips_candle' + column_name}, \
                                inplace=True, axis='columns')
 
-
+        # before the publication of the new
         for snapshot in snapshots:
             column_name = '_' + str(snapshot) + '_before'
-            df_features[column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=snapshot + freq)
+            df_features[column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=snapshot)
 
             df_features = df_features.set_index(column_name).join(df_pair)
             df_features = df_features.reset_index(drop=True)
@@ -447,7 +448,7 @@ if __name__ == '__main__':
                 logging.error('fe_joined_with_dukascopy: rows with nan fields')
                 logging.error(df_features[df_features.isnull().any(1)].values)
 
-            # Feature extraction from the pair exchange value
+            # Add the pair change pre - post new´s publication
             df_features = fe_joined_with_dukascopy(df_features, df_pair, snapshots_5m, 5)
             df_features = fe_joined_with_dukascopy(df_features, df_pair_15Min, snapshots_15m, 15)
             df_features = fe_joined_with_dukascopy(df_features, df_pair_30Min, snapshots_30m, 30)

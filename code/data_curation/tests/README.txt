@@ -34,14 +34,18 @@ My processed data: dukascopy
 window-size: 5 minutes
 
             close
+
 11:55       1.1411
-12:25       1.1415
+12:15
+12:20
+12:25       1.1414
 12:30       1.1417
 12:35       1.1422
 12:40       1.1411
 12:55       1.1430 *
 13:55       1.1380 **
 14:55       1.1379
+
 
 
 MANUAL CHECK WINTER_TIME, DTS OFF ---
