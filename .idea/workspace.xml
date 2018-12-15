@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/data_curation/tests/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/tests/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_cleaning/sanity_check_data_cleaning.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning/sanity_check_data_cleaning.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/groupednews_USD_pair_EURUSD_2007.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/impact_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/macroeconomic_news_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/baseline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/baseline.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,25 +48,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="855" />
-          <entry key="py" value="12414" />
+          <entry key="py" value="12599" />
           <entry key="txt" value="1989" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="1989" />
-          <entry key="Python" value="13269" />
+          <entry key="Python" value="13454" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-385">
-              <caret line="185" column="28" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -73,7 +74,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data_curation/tests/README.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
@@ -93,7 +94,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>utc</find>
       <find>dts_flag</find>
       <find>group_forexite_by_freq</find>
       <find>add_dts_flag</find>
@@ -116,12 +116,13 @@
       <find>DataFra</find>
       <find>forecast_error_ratio</find>
       <find>compute_deviation</find>
-      <find>where</find>
       <find>read_df_dukascopy</find>
       <find>df_pair</find>
       <find>DateOffset</find>
       <find>dukas</find>
       <find>right</find>
+      <find>round</find>
+      <find>where</find>
       <find>fe_joined_with_dukascopy</find>
     </findStrings>
     <replaceStrings>
@@ -300,7 +301,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
-      <option name="PARAMETERS" value="2007 2018  &quot;../../data/raw/&quot; &quot;forexfactory_&quot; &quot;USD&quot; &quot;EURUSD&quot; &quot;[5,10,15]&quot; &quot;[30,45,60]&quot; &quot;[90,120,150,180,210,240]&quot; &quot;../../data/curated/&quot; &quot;macroeconomic_news&quot; &quot;dc_forexfactory.log&quot;" />
+      <option name="PARAMETERS" value="2007 2018  &quot;../../data/raw/&quot; &quot;forexfactory_&quot; &quot;USD&quot; &quot;EURUSD&quot; &quot;[5,10,15]&quot; &quot;[30,45,60]&quot; &quot;[90,120,150,180,210,240]&quot; &quot;../../data/curated/&quot; &quot;features_rounded&quot; &quot;dc_forexfactory.log&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -362,7 +363,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17397882" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11649016" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39788198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -397,7 +398,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
-          <line>305</line>
+          <line>328</line>
           <option name="timeStamp" value="203" />
         </line-breakpoint>
       </breakpoints>
@@ -619,20 +620,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-385">
-          <caret line="185" column="28" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/code/data_curation/tests/README.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
           <caret line="41" column="18" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="192" column="32" selection-start-line="192" selection-start-column="32" selection-end-line="192" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

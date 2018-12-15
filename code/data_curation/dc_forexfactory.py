@@ -189,16 +189,29 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
         # Expand the forexfactory dataframe with as many snapshots as requested
         # after the publication of the new
         for snapshot in snapshots:
-            column_name = '_' + str(snapshot) + '_after'
             offset = snapshot - freq
+            column_name = '_' + str(offset) + '_' + str(snapshot) + '_after'
             df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=offset)
+
+            # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
+            # We rounded them to the closest 15 min candle.
+            round_freq = str(freq) + 'min'
+            df_features[column_name] = df_features[column_name].dt.round(round_freq)
 
             df_features = df_features.set_index(column_name).join(df_pair)
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = np.where(df_features['close'] > df_features['open'], 'up', 'down')
-            df_features['direction_agg'] = np.where(df_features['close'] > df_features['close_released'], 'up', 'down')
+            df_features['direction_candle'] = np.where(df_features['close'] == df_features['open'], 'same',
+                                                       np.where(df_features['close'] > df_features['open'],
+                                                                'up',
+                                                                'down')
+                                                       )
+            df_features['direction_agg'] = np.where(df_features['close'] == df_features['close_released'], 'same',
+                                                    np.where(df_features['close'] > df_features['close_released'],
+                                                             'up',
+                                                             'down')
+                                                    )
             df_features['pips_agg'] = df_features['close'] - df_features['close_released']
             df_features['pips_candle'] = df_features['close'] - df_features['open']
 
@@ -217,14 +230,24 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
 
         # before the publication of the new
         for snapshot in snapshots:
-            column_name = '_' + str(snapshot) + '_before'
+            offset = snapshot - freq
+            column_name = '_' + str(snapshot) + '_' + str(offset) +'_before'
             df_features[column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=snapshot)
+
+            # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
+            # We rounded them to the closest 15 min candle.
+            round_freq = str(freq) + 'min'
+            df_features[column_name] = df_features[column_name].dt.round(round_freq)
 
             df_features = df_features.set_index(column_name).join(df_pair)
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = np.where(df_features['close'] > df_features['open'], 'up','down')
+            df_features['direction_candle'] = np.where(df_features['close'] == df_features['open'], 'same',
+                                                       np.where(df_features['close'] > df_features['open'],
+                                                                'up',
+                                                                'down')
+                                                       )
             df_features['pips_candle'] = df_features['close'] - df_features['open']
 
             # Drop undesired columns
