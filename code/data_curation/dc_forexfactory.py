@@ -3,7 +3,6 @@ import sys, ast
 import pandas as pd
 import numpy as np
 import pytz
-import datetime
 
 
 def set_logger(log_file):
@@ -202,12 +201,12 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = np.where(df_features['close'] == df_features['open'], 'same',
+            df_features['direction_candle'] = np.where(abs(df_features['close'] - df_features['open']) < SAME_TH, 'same',
                                                        np.where(df_features['close'] > df_features['open'],
                                                                 'up',
                                                                 'down')
                                                        )
-            df_features['direction_agg'] = np.where(df_features['close'] == df_features['close_released'], 'same',
+            df_features['direction_agg'] = np.where(abs(df_features['close'] - df_features['close_released']) < SAME_TH, 'same',
                                                     np.where(df_features['close'] > df_features['close_released'],
                                                              'up',
                                                              'down')
@@ -243,12 +242,18 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = np.where(df_features['close'] == df_features['open'], 'same',
+            df_features['direction_candle'] = np.where(abs(df_features['close'] - df_features['open']) < SAME_TH, 'same',
                                                        np.where(df_features['close'] > df_features['open'],
                                                                 'up',
                                                                 'down')
                                                        )
             df_features['pips_candle'] = df_features['close'] - df_features['open']
+            df_features['direction_agg'] = np.where(abs(df_features['close'] - df_features['close_released']) < SAME_TH, 'same',
+                                                    np.where(df_features['close'] > df_features['close_released'],
+                                                             'down',
+                                                             'up')
+                                                    )
+            df_features['pips_agg'] =  df_features['close_released'] - df_features['close']
 
             # Drop undesired columns
             df_features = df_features.drop(['open'], axis=1)
@@ -258,6 +263,8 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
                                 'high': 'high' + column_name, \
                                 'volatility': 'volatility' + column_name, \
                                 'direction_candle': 'direction_candle' + column_name, \
+                                'direction_agg': 'direction_agg' + column_name, \
+                                'pips_agg': 'pips_agg' + column_name,
                                 'pips_candle': 'pips_candle' + column_name}, \
                                inplace=True, axis='columns')
 
@@ -468,7 +475,7 @@ if __name__ == '__main__':
                                 'close': 'close' + last_column_name}, axis='columns', inplace='True')
 
             if len(df_features[df_features.isnull().any(1)]) > 0:
-                logging.error('fe_joined_with_dukascopy: rows with nan fields')
+                logging.error('Rows with nan fields when getting market data when the news were released')
                 logging.error(df_features[df_features.isnull().any(1)].values)
 
             # Add the pair change pre - post new´s publication
