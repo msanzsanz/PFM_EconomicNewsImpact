@@ -6,7 +6,10 @@
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/curated/features_rounded_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/features_rounded_news_USD_pair_EURUSD_2007_2018.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_cleaning/outliers_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/data_cleaning/outliers_exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/.ipynb_checkpoints/baseline-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/.ipynb_checkpoints/baseline-checkpoint.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/baseline.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/baseline.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_sweeps.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models_sweeps.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_sweeps.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="AWS_Setup_for_sklearn" value="1" />
           <entry key="csv" value="1" />
           <entry key="ipynb" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="76" />
+          <entry key="py" value="78" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -41,48 +45,51 @@
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="76" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="78" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="Python Console" value="1226" />
-          <entry key="py" value="17751" />
+          <entry key="AWS_Setup_for_sklearn" value="136" />
+          <entry key="Python Console" value="1413" />
+          <entry key="py" value="20122" />
           <entry key="txt" value="1989" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="1989" />
-          <entry key="Python" value="18977" />
+          <entry key="PLAIN_TEXT" value="2125" />
+          <entry key="Python" value="21535" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="203" selection-start-line="203" selection-end-line="212" selection-end-column="53" />
+            <state relative-caret-position="137">
+              <caret line="407" column="72" lean-forward="true" selection-start-line="407" selection-start-column="72" selection-end-line="407" selection-end-column="72" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+                <marker date="1545577881000" expanded="true" signature="6374:6753" ph="..." />
+                <marker date="1545577881000" expanded="true" signature="6821:6826" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3611">
-              <caret line="249" column="118" selection-start-line="249" selection-start-column="95" selection-end-line="249" selection-end-column="118" />
+            <state relative-caret-position="151">
+              <caret line="189" column="46" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="46" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1545492537000" expanded="true" signature="2426:3748" ph="..." />
-                <marker date="1545492537000" expanded="true" signature="3788:6373" ph="..." />
+                <element signature="e#0#10#0" expanded="true" />
+                <marker date="1545599319000" expanded="true" signature="2724:4047" ph="..." />
+                <marker date="1545599319000" expanded="true" signature="4105:6725" ph="..." />
               </folding>
             </state>
           </provider>
@@ -99,36 +106,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>convert_categorical_to_numerical_news</find>
-      <find>buy_sell_sweep</find>
-      <find>len(</find>
-      <find>COLUMNS_TO_AGG</find>
-      <find>apply_weights</find>
-      <find>COLUMNS_IMPACT</find>
-      <find>predict_columns</find>
-      <find>COLUMS_TO_PREDICT</find>
-      <find>sweep_buy_sell</find>
+      <find>volati</find>
+      <find>compute_direction</find>
       <find>get_dynamic_market_fields_after</find>
-      <find>.info</find>
-      <find>snapshots_30m</find>
-      <find>_60</find>
-      <find>df_results</find>
-      <find>get_class_performance</find>
-      <find>get_dynamic_market_fields_before</find>
-      <find>prº</find>
-      <find>reset</find>
-      <find>append</find>
-      <find>range</find>
-      <find>direction</find>
-      <find>&lt; 10</find>
+      <find>COLUMNS_MARKET_REACTION_ALL</find>
+      <find>logg</find>
+      <find>open</find>
+      <find>rounde</find>
+      <find>base_output_path</find>
+      <find>to_csv</find>
+      <find>forecast_error_ratio</find>
+      <find>xgb</find>
+      <find>X c</find>
+      <find>.fit(X, y)</find>
+      <find>accu</find>
+      <find>100</find>
+      <find>df_news</find>
+      <find>for ne</find>
+      <find>dire</find>
+      <find>convert_categorical_to_numerical_news</find>
+      <find>apply_news_grouping</find>
+      <find>columns_to_predict</find>
+      <find>COLUMS_TO_PREDICT_PREFIX</find>
+      <find>2</find>
+      <find>= 2</find>
       <find>get_clf_performance</find>
-      <find>before_data</find>
-      <find>low</find>
-      <find>SAME_TH</find>
-      <find>'up</find>
-      <find>fe_joined_with_dukascopy</find>
-      <find>up'</find>
-      <find>COLUMNS_MARKET_REACTION</find>
+      <find>market_basic</find>
+      <find>market_variable</find>
+      <find>market_variables</find>
+      <find>4</find>
+      <find>time.t</find>
     </findStrings>
     <replaceStrings>
       <replace>get_date_features</replace>
@@ -143,6 +150,10 @@
       <replace>columns_to_predict</replace>
       <replace>forecast_error_ratio</replace>
       <replace>'sweep_buy_sell':</replace>
+      <replace>DIR_TH</replace>
+      <replace>200</replace>
+      <replace>clf_impact_degree</replace>
+      <replace>sweeps_market_variables</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -162,13 +173,14 @@
         <option value="$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
         <option value="$PROJECT_DIR$/data_cleaning/dc_forexfactory.py" />
         <option value="$PROJECT_DIR$/code/data_curation/tests/README.txt" />
-        <option value="$PROJECT_DIR$/models/models_sweeps.py" />
         <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
+        <option value="$PROJECT_DIR$/AWS_Setup_for_sklearn" />
+        <option value="$PROJECT_DIR$/models/models_sweeps.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="18" />
     <option name="y" value="23" />
     <option name="width" value="1263" />
     <option name="height" value="753" />
@@ -247,7 +259,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dc_forexfactory.py">
+  <component name="RunManager" selected="Python.models_sweeps.py">
     <configuration default="true" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="PFM_EconomicNewsImpact" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -362,7 +374,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/models_sweeps.py" />
-      <option name="PARAMETERS" value="15_60,30_60 ALL_NO_1_1_1 ../data/curated/features_rounded_news_USD_pair_EURUSD_2007_2018.csv models_sweeps.log 5,10,15,20,25,30  45,60  60,90,120,150,180,210,240" />
+      <option name="PARAMETERS" value="15_60,30_60,30_90,30_120,60_120,60_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,HIGH_NO_1_1_1,HIGH_YES_1_1_1 market_basic excluded ../data/curated/features_rounded_news_USD_pair_EURUSD_2007_2018.csv 5,10,15,20,25,30  45,60  60,90,120,150,180,210,240 ../data/curated/ models_sweeps.log" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -396,23 +408,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="23" width="1263" height="753" extended-state="0" />
+    <frame x="0" y="23" width="1281" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10225443" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.21028744" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5763994" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.40735295" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2632353" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.26172465" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2602941" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.34341908" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.18235295" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -439,13 +451,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
-          <line>335</line>
+          <line>337</line>
           <option name="timeStamp" value="203" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>342</line>
-          <option name="timeStamp" value="327" />
+          <line>401</line>
+          <option name="timeStamp" value="355" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -687,13 +699,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/label.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/reshape/concat.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -701,24 +706,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3611">
-          <caret line="249" column="118" selection-start-line="249" selection-start-column="95" selection-end-line="249" selection-end-column="118" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1545492537000" expanded="true" signature="2426:3748" ph="..." />
-            <marker date="1545492537000" expanded="true" signature="3788:6373" ph="..." />
-          </folding>
+        <state relative-caret-position="379">
+          <caret line="1165" selection-start-line="1165" selection-end-line="1165" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/sklearn/preprocessing/label.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AWS_Setup_for_sklearn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="203" selection-start-line="203" selection-end-line="212" selection-end-column="53" />
+        <state relative-caret-position="137">
+          <caret line="407" column="72" lean-forward="true" selection-start-line="407" selection-start-column="72" selection-end-line="407" selection-end-column="72" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
+            <marker date="1545577881000" expanded="true" signature="6374:6753" ph="..." />
+            <marker date="1545577881000" expanded="true" signature="6821:6826" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="189" column="46" selection-start-line="189" selection-start-column="26" selection-end-line="189" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1545599319000" expanded="true" signature="2724:4047" ph="..." />
+            <marker date="1545599319000" expanded="true" signature="4105:6725" ph="..." />
           </folding>
         </state>
       </provider>

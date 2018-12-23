@@ -181,6 +181,22 @@ def group_forexite_by_freq(df_pair, frequency='5Min'):
 
     return df_pair
 
+def compute_direction(row, field_previous, field_current):
+
+    value_previous = row[field_previous]
+    value_current = row[field_current]
+
+    out = 0
+    sign = np.where(value_current >= value_previous, 1, -1)
+
+    if abs(value_previous - value_current) < 5:
+        out = 0
+    elif abs(value_previous - value_current) > 20:
+        out = 2
+    elif abs(value_previous - value_current) > 10:
+        out = 1
+
+    return  out * sign
 
 def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
     try:
@@ -201,16 +217,9 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = np.where(abs(df_features['close'] - df_features['open']) < SAME_TH, 'same',
-                                                       np.where(df_features['close'] > df_features['open'],
-                                                                'up',
-                                                                'down')
-                                                       )
-            df_features['direction_agg'] = np.where(abs(df_features['close'] - df_features['close_released']) < SAME_TH, 'same',
-                                                    np.where(df_features['close'] > df_features['close_released'],
-                                                             'up',
-                                                             'down')
-                                                    )
+            df_features['direction_candle'] = df_features.apply(lambda row: compute_direction(row, 'open', 'close'), axis=1)
+            df_features['direction_agg'] = df_features.apply(lambda row: compute_direction(row, 'close_released', 'close'), axis=1)
+
             df_features['pips_agg'] = df_features['close'] - df_features['close_released']
             df_features['pips_candle'] = df_features['close'] - df_features['open']
 
@@ -242,17 +251,10 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = np.where(abs(df_features['close'] - df_features['open']) < SAME_TH, 'same',
-                                                       np.where(df_features['close'] > df_features['open'],
-                                                                'up',
-                                                                'down')
-                                                       )
+            df_features['direction_candle'] = df_features.apply(lambda row: compute_direction(row, 'open', 'close'), axis=1)
+            df_features['direction_agg'] = df_features.apply(lambda row: compute_direction(row, 'close', 'close_released'), axis=1)
+
             df_features['pips_candle'] = df_features['close'] - df_features['open']
-            df_features['direction_agg'] = np.where(abs(df_features['close'] - df_features['close_released']) < SAME_TH, 'same',
-                                                    np.where(df_features['close'] > df_features['close_released'],
-                                                             'down',
-                                                             'up')
-                                                    )
             df_features['pips_agg'] =  df_features['close_released'] - df_features['close']
 
             # Drop undesired columns

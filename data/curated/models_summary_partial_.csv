@@ -1,0 +1,6 @@
+,accuracy_test,before_data,elapsed_time,market_variables,model,model_type,params,score,sweep_buy_sell,sweep_news_agg
+0,0.2739938080495356,included,107.56142282485962,market_all,knn,clf,{'n_neighbors': 71},0.2559984520123839,15_60,ALL_NO_1_1_1
+1,0.3862229102167183,included,67.14999485015869,market_all,tree,clf,"{'max_depth': 3, 'min_samples_leaf': 10}",0.39125386996904027,15_60,ALL_NO_1_1_1
+2,0.4195046439628483,included,455.9588530063629,market_all,forest,clf,"{'max_depth': 6, 'min_samples_leaf': 10}",0.4022832817337461,15_60,ALL_NO_1_1_1
+3,0.4311145510835913,included,9470.272057771683,market_all,xgb,clf,"{'learning_rate': 0.01, 'max_depth': 10, 'subsample': 0.5}",0.3978328173374613,15_60,ALL_NO_1_1_1
+4,0.4102167182662539,included,290.85833978652954,market_all,gradientBoosting,clf,{},0.38409442724458204,15_60,ALL_NO_1_1_1
