@@ -1,0 +1,65 @@
+2018-12-23 22:48:06,103 - INFO - #########################
+2018-12-23 22:48:06,103 - INFO - 
+2018-12-23 22:48:06,103 - INFO - Starting a new sweep grouping News: ALL_YES_3_2_1
+2018-12-23 22:48:41,467 - INFO - Starting a new sweep for market variables: market_basic
+2018-12-23 22:48:41,467 - INFO - Starting a new sweep, features before the publication are: excluded
+2018-12-23 22:48:41,467 - INFO - Starting a new sweep for delay in between buying-selling: 15_60
+2018-12-23 22:48:41,467 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'direction_agg_10_15_after', 'datetime', 'direction_agg_30_60_after', 'pips_agg_30_60_after']
+2018-12-23 22:48:41,752 - INFO - X columns for the model: ['forecast_error_ratio', 'new_id', 'volatility_5_10_after', 'direction_agg_5_10_after', 'fe_accurate', 'pips_agg_10_15_after', 'num_news', 'fe_worse', 'pe_better', 'pe_accurate', 'High', 'volatility_0_5_after', 'fe_better', 'forecast_error_ratio_zscore', 'pips_agg_5_10_after', 'Medium', 'volatility_10_15_after', 'pe_worse', 'previous_error_ratio', 'total_error_ratio_zscore', 'total_error_ratio', 'direction_agg_0_5_after', 'pips_agg_0_5_after', 'Low', 'direction_agg_10_15_after']
+2018-12-23 22:48:41,792 - INFO - Starting KNeighborsClassifier
+2018-12-23 22:49:05,137 - INFO - Starting DecisionTreeClassifier
+2018-12-23 22:49:12,926 - INFO - Starting RandomForestClassifier
+2018-12-23 22:58:25,956 - INFO - Starting XGBClassifier
+2018-12-23 22:59:27,524 - INFO - Starting GradientBoostingClassifier
+2018-12-23 23:00:48,303 - INFO - Starting AdaBoostClassifier
+2018-12-23 23:01:06,781 - INFO - sweep done in: 12.42 min
+2018-12-23 23:01:06,784 - INFO - Starting a new sweep for delay in between buying-selling: 30_60
+2018-12-23 23:01:06,784 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'direction_agg_25_30_after', 'datetime', 'direction_agg_30_60_after', 'pips_agg_30_60_after']
+2018-12-23 23:01:07,109 - INFO - X columns for the model: ['new_id', 'volatility_5_10_after', 'direction_agg_5_10_after', 'fe_accurate', 'pips_agg_10_15_after', 'volatility_20_25_after', 'pips_agg_15_20_after', 'pe_accurate', 'forecast_error_ratio_zscore', 'volatility_10_15_after', 'pe_worse', 'total_error_ratio_zscore', 'Low', 'pe_better', 'direction_agg_10_15_after', 'direction_agg_15_20_after', 'forecast_error_ratio', 'pips_agg_25_30_after', 'num_news', 'fe_worse', 'High', 'volatility_0_5_after', 'direction_agg_20_25_after', 'direction_agg_25_30_after', 'fe_better', 'pips_agg_5_10_after', 'pips_agg_20_25_after', 'Medium', 'volatility_15_20_after', 'total_error_ratio', 'volatility_25_30_after', 'direction_agg_0_5_after', 'pips_agg_0_5_after', 'previous_error_ratio']
+2018-12-23 23:01:07,164 - INFO - Starting KNeighborsClassifier
+2018-12-23 23:01:36,849 - INFO - Starting DecisionTreeClassifier
+2018-12-23 23:01:46,663 - INFO - Starting RandomForestClassifier
+2018-12-23 23:10:53,426 - INFO - Starting XGBClassifier
+2018-12-23 23:12:07,254 - INFO - Starting GradientBoostingClassifier
+2018-12-23 23:13:41,921 - INFO - Starting AdaBoostClassifier
+2018-12-23 23:14:03,065 - INFO - sweep done in: 12.94 min
+2018-12-23 23:14:03,068 - INFO - Starting a new sweep for delay in between buying-selling: 30_90
+2018-12-23 23:14:03,068 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'direction_agg_25_30_after', 'datetime', 'direction_agg_60_90_after', 'pips_agg_60_90_after']
+2018-12-23 23:14:03,374 - INFO - X columns for the model: ['new_id', 'volatility_5_10_after', 'direction_agg_5_10_after', 'fe_accurate', 'pips_agg_10_15_after', 'volatility_20_25_after', 'pips_agg_15_20_after', 'pe_accurate', 'forecast_error_ratio_zscore', 'volatility_10_15_after', 'pe_worse', 'total_error_ratio_zscore', 'Low', 'pe_better', 'direction_agg_10_15_after', 'direction_agg_15_20_after', 'forecast_error_ratio', 'pips_agg_25_30_after', 'num_news', 'fe_worse', 'High', 'volatility_0_5_after', 'direction_agg_20_25_after', 'direction_agg_25_30_after', 'fe_better', 'pips_agg_5_10_after', 'pips_agg_20_25_after', 'Medium', 'volatility_15_20_after', 'total_error_ratio', 'volatility_25_30_after', 'direction_agg_0_5_after', 'pips_agg_0_5_after', 'previous_error_ratio']
+2018-12-23 23:14:03,442 - INFO - Starting KNeighborsClassifier
+2018-12-23 23:14:34,203 - INFO - Starting DecisionTreeClassifier
+2018-12-23 23:14:43,647 - INFO - Starting RandomForestClassifier
+2018-12-23 23:23:04,740 - INFO - Starting XGBClassifier
+2018-12-23 23:24:20,254 - INFO - Starting GradientBoostingClassifier
+2018-12-23 23:25:55,077 - INFO - Starting AdaBoostClassifier
+2018-12-23 23:26:16,019 - INFO - sweep done in: 12.22 min
+2018-12-23 23:26:16,022 - INFO - Starting a new sweep for delay in between buying-selling: 30_120
+2018-12-23 23:26:16,022 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'direction_agg_25_30_after', 'datetime', 'direction_agg_90_120_after', 'pips_agg_90_120_after']
+2018-12-23 23:26:16,311 - INFO - X columns for the model: ['new_id', 'volatility_5_10_after', 'direction_agg_5_10_after', 'fe_accurate', 'pips_agg_10_15_after', 'volatility_20_25_after', 'pips_agg_15_20_after', 'pe_accurate', 'forecast_error_ratio_zscore', 'volatility_10_15_after', 'pe_worse', 'total_error_ratio_zscore', 'Low', 'pe_better', 'direction_agg_10_15_after', 'direction_agg_15_20_after', 'forecast_error_ratio', 'pips_agg_25_30_after', 'num_news', 'fe_worse', 'High', 'volatility_0_5_after', 'direction_agg_20_25_after', 'direction_agg_25_30_after', 'fe_better', 'pips_agg_5_10_after', 'pips_agg_20_25_after', 'Medium', 'volatility_15_20_after', 'total_error_ratio', 'volatility_25_30_after', 'direction_agg_0_5_after', 'pips_agg_0_5_after', 'previous_error_ratio']
+2018-12-23 23:26:16,358 - INFO - Starting KNeighborsClassifier
+2018-12-23 23:26:47,524 - INFO - Starting DecisionTreeClassifier
+2018-12-23 23:26:56,911 - INFO - Starting RandomForestClassifier
+2018-12-23 23:35:12,437 - INFO - Starting XGBClassifier
+2018-12-23 23:36:25,615 - INFO - Starting GradientBoostingClassifier
+2018-12-23 23:38:02,160 - INFO - Starting AdaBoostClassifier
+2018-12-23 23:38:23,707 - INFO - sweep done in: 12.13 min
+2018-12-23 23:38:23,719 - INFO - Starting a new sweep for delay in between buying-selling: 60_120
+2018-12-23 23:38:23,720 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'direction_agg_25_30_after', 'volatility_30_45_after', 'pips_agg_30_45_after', 'direction_agg_30_45_after', 'volatility_45_60_after', 'pips_agg_45_60_after', 'direction_agg_45_60_after', 'volatility_30_60_after', 'pips_agg_30_60_after', 'direction_agg_30_60_after', 'datetime', 'direction_agg_90_120_after', 'pips_agg_90_120_after']
+2018-12-23 23:38:24,221 - INFO - X columns for the model: ['new_id', 'volatility_5_10_after', 'direction_agg_5_10_after', 'fe_accurate', 'pips_agg_10_15_after', 'volatility_20_25_after', 'volatility_30_60_after', 'pips_agg_15_20_after', 'pe_accurate', 'pips_agg_30_60_after', 'forecast_error_ratio_zscore', 'volatility_45_60_after', 'direction_agg_30_60_after', 'volatility_10_15_after', 'pe_worse', 'total_error_ratio_zscore', 'Low', 'pe_better', 'direction_agg_10_15_after', 'direction_agg_15_20_after', 'forecast_error_ratio', 'pips_agg_25_30_after', 'pips_agg_45_60_after', 'num_news', 'fe_worse', 'High', 'volatility_0_5_after', 'direction_agg_20_25_after', 'direction_agg_25_30_after', 'fe_better', 'pips_agg_5_10_after', 'pips_agg_20_25_after', 'Medium', 'volatility_30_45_after', 'direction_agg_30_45_after', 'direction_agg_45_60_after', 'volatility_15_20_after', 'total_error_ratio', 'volatility_25_30_after', 'direction_agg_0_5_after', 'pips_agg_0_5_after', 'previous_error_ratio', 'pips_agg_30_45_after']
+2018-12-23 23:38:24,282 - INFO - Starting KNeighborsClassifier
+2018-12-23 23:39:10,094 - INFO - Starting DecisionTreeClassifier
+2018-12-23 23:39:21,712 - INFO - Starting RandomForestClassifier
+2018-12-23 23:48:21,071 - INFO - Starting XGBClassifier
+2018-12-23 23:49:52,890 - INFO - Starting GradientBoostingClassifier
+2018-12-23 23:51:52,529 - INFO - Starting AdaBoostClassifier
+2018-12-23 23:52:16,954 - INFO - sweep done in: 13.89 min
+2018-12-23 23:52:16,957 - INFO - Starting a new sweep for delay in between buying-selling: 60_240
+2018-12-23 23:52:16,957 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'direction_agg_25_30_after', 'volatility_30_45_after', 'pips_agg_30_45_after', 'direction_agg_30_45_after', 'volatility_45_60_after', 'pips_agg_45_60_after', 'direction_agg_45_60_after', 'volatility_30_60_after', 'pips_agg_30_60_after', 'direction_agg_30_60_after', 'datetime', 'direction_agg_210_240_after', 'pips_agg_210_240_after']
+2018-12-23 23:52:17,283 - INFO - X columns for the model: ['new_id', 'volatility_5_10_after', 'direction_agg_5_10_after', 'fe_accurate', 'pips_agg_10_15_after', 'volatility_20_25_after', 'volatility_30_60_after', 'pips_agg_15_20_after', 'pe_accurate', 'pips_agg_30_60_after', 'forecast_error_ratio_zscore', 'volatility_45_60_after', 'direction_agg_30_60_after', 'volatility_10_15_after', 'pe_worse', 'total_error_ratio_zscore', 'Low', 'pe_better', 'direction_agg_10_15_after', 'direction_agg_15_20_after', 'forecast_error_ratio', 'pips_agg_25_30_after', 'pips_agg_45_60_after', 'num_news', 'fe_worse', 'High', 'volatility_0_5_after', 'direction_agg_20_25_after', 'direction_agg_25_30_after', 'fe_better', 'pips_agg_5_10_after', 'pips_agg_20_25_after', 'Medium', 'volatility_30_45_after', 'direction_agg_30_45_after', 'direction_agg_45_60_after', 'volatility_15_20_after', 'total_error_ratio', 'volatility_25_30_after', 'direction_agg_0_5_after', 'pips_agg_0_5_after', 'previous_error_ratio', 'pips_agg_30_45_after']
+2018-12-23 23:52:17,347 - INFO - Starting KNeighborsClassifier
+2018-12-23 23:53:09,096 - INFO - Starting DecisionTreeClassifier
+2018-12-23 23:53:21,511 - INFO - Starting RandomForestClassifier
+2018-12-24 00:02:27,130 - INFO - Starting XGBClassifier
+2018-12-24 00:03:56,399 - INFO - Starting GradientBoostingClassifier
+2018-12-24 00:05:52,469 - INFO - Starting AdaBoostClassifier
+2018-12-24 00:06:16,295 - INFO - sweep done in: 13.99 min

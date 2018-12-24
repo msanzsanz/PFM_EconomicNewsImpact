@@ -1,7 +1,7 @@
 import sys
 
 import pandas as pd
-import numpy as np
+import shutil
 import os
 import logging
 
@@ -94,22 +94,27 @@ def convert_categorical_to_numerical_news(df_news):
     return df_news
 
 
-def apply_weights(row, field_value, high_weight, medium_weight, low_weight):
+def apply_weights(row, field_value, impact_filter, high_weight, medium_weight, low_weight):
     # values: 3_3
     # high: 0_1
     # medium: 1_0
     # low: 0_0
 
-    values = row[field_value]
-    is_high = row[FIELD_HIGH]
-    is_medium = row[FIELD_MEDIUM]
-    is_low = row[FIELD_LOW]
+    if impact_filter == 'ALL':
+        values = row[field_value]
+        is_high = row[FIELD_HIGH]
+        is_medium = row[FIELD_MEDIUM]
+        is_low = row[FIELD_LOW]
 
-    weights_high = [e * high_weight for e in is_high]
-    weights_medium = [e * medium_weight for e in is_medium]
-    weights_low = [e * low_weight for e in is_low]
+        weights_high = [e * high_weight for e in is_high]
+        weights_medium = [e * medium_weight for e in is_medium]
+        weights_low = [e * low_weight for e in is_low]
 
-    out = sum([a * b + a * c + a * d for a, b, c, d in zip(values, weights_high, weights_medium, weights_low)])
+        out = sum([a * b + a * c + a * d for a, b, c, d in zip(values, weights_high, weights_medium, weights_low)])
+    else:
+        values = row[field_value]
+        out = sum(values)
+
     return out
 
 
@@ -133,35 +138,57 @@ def apply_news_grouping(group_type, df, base_output_path):
 
     if impact_filter != 'ALL':
         df_news = df_news[df_news['impact'] == impact_filter]
+        column_names_for_impact = [impact_filter]
+    else:
+        column_names_for_impact = COLUMNS_IMPACT
 
     df_news = convert_categorical_to_numerical_news(df_news)
 
-    df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
-                                               'forecast_error_ratio': lambda x: list(x),
-                                               'forecast_error_ratio_zscore': lambda x: list(x),
-                                               'previous_error_ratio': lambda x: list(x),
-                                               'total_error_ratio': lambda x: list(x),
-                                               'total_error_ratio_zscore': lambda x: list(x),
-                                               'fe_accurate': lambda x: list(x),
-                                               'fe_better': lambda x: list(x),
-                                               'fe_worse': lambda x: list(x),
-                                               'pe_accurate': lambda x: list(x),
-                                               'pe_better': lambda x: list(x),
-                                               'pe_worse': lambda x: list(x),
-                                               'High': lambda x: list(x),
-                                               'Low': lambda x: list(x),
-                                               'Medium': lambda x: list(x)
-                                               }).reset_index()
+    if impact_filter == 'ALL':
+        df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
+                                                       'forecast_error_ratio': lambda x: list(x),
+                                                       'forecast_error_ratio_zscore': lambda x: list(x),
+                                                       'previous_error_ratio': lambda x: list(x),
+                                                       'total_error_ratio': lambda x: list(x),
+                                                       'total_error_ratio_zscore': lambda x: list(x),
+                                                       'fe_accurate': lambda x: list(x),
+                                                       'fe_better': lambda x: list(x),
+                                                       'fe_worse': lambda x: list(x),
+                                                       'pe_accurate': lambda x: list(x),
+                                                       'pe_better': lambda x: list(x),
+                                                       'pe_worse': lambda x: list(x),
+                                                       'High': lambda x: list(x),
+                                                       'Low': lambda x: list(x),
+                                                       'Medium': lambda x: list(x)
+                                                       }).reset_index()
+
+    else:
+        df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
+                                                   'forecast_error_ratio': lambda x: list(x),
+                                                   'forecast_error_ratio_zscore': lambda x: list(x),
+                                                   'previous_error_ratio': lambda x: list(x),
+                                                   'total_error_ratio': lambda x: list(x),
+                                                   'total_error_ratio_zscore': lambda x: list(x),
+                                                   'fe_accurate': lambda x: list(x),
+                                                   'fe_better': lambda x: list(x),
+                                                   'fe_worse': lambda x: list(x),
+                                                   'pe_accurate': lambda x: list(x),
+                                                   'pe_better': lambda x: list(x),
+                                                   'pe_worse': lambda x: list(x),
+                                                   impact_filter: lambda x: list(x)
+                                                   }).reset_index()
 
     df_news['num_news'] = df_news['new_id'].apply(lambda x: len(x))
     df_news['new_id'] = df_news['new_id'].apply(lambda x: ['_'.join(x)])
     df_news['new_id'] = df_news['new_id'].apply(lambda x: x[0])
 
     for field in COLUMNS_TO_AGG:
-        df_news[field] = df_news.apply(lambda row: apply_weights(row, field, high_weight, medium_weight, low_weight),
+        df_news[field] = df_news.apply(lambda row: apply_weights(row, field, impact_filter, high_weight,
+                                                                 medium_weight, low_weight),
                                        axis=1)
 
-    for field in COLUMNS_IMPACT:
+
+    for field in column_names_for_impact:
         df_news[field] = df_news[field].apply(lambda x: sum(x))
 
     if standalone_filter == 'YES':
@@ -194,7 +221,7 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
 
     clf_kn.fit(X_train, y_train)
     y_predict = clf_kn.predict(X_test)
-    acc = accuracy_score(y_predict, y_test)
+    acc = format(accuracy_score(y_predict, y_test), '.2f')
     total_time = format((time.time() - time_init) / 60, '.2f')
 
     df_results = df_results.append({'model_type': 'clf', 'model': 'knn',
@@ -233,10 +260,10 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
     # RandomForest
     logging.info('Starting RandomForestClassifier')
     time_init = time.time()
-    clf_rf = GridSearchCV(RandomForestClassifier(n_estimators=200, oob_score=True, random_state=RANDOM_STATE),
+    clf_rf = GridSearchCV(RandomForestClassifier(n_estimators=200, random_state=RANDOM_STATE),
                           param_grid={"min_samples_leaf": [10, 20, 30, 50, 100, 150, 200, 250],
                                       'max_depth': range(2, 7),
-                                      'n_estimators': [100, 200, 500]},
+                                      'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
                           cv=5)
 
@@ -261,7 +288,7 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
     clf_XGB = GridSearchCV(xgb.XGBClassifier(n_estimators=200, random_state=RANDOM_STATE),
                            #param_grid={'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
                            #            'max_depth': [3, 5, 10]},
-                           param_grid={'n_estimators': [100, 200, 500]},
+                           param_grid={'n_estimators': [10, 50, 100, 200]},
                            scoring="accuracy",
                            cv=5)
 
@@ -284,7 +311,7 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
     logging.info('Starting GradientBoostingClassifier')
     time_init = time.time()
     clf_gb = GridSearchCV(GradientBoostingClassifier(n_estimators=200, random_state=RANDOM_STATE),
-                          param_grid={'n_estimators': [10, 200, 500]},
+                          param_grid={'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
                           cv=5)
 
@@ -307,13 +334,13 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
     logging.info('Starting AdaBoostClassifier')
     time_init = time.time()
     clf_ada = GridSearchCV(AdaBoostClassifier(n_estimators=200, random_state=RANDOM_STATE),
-                          param_grid={'n_estimators': [10, 200, 500]},
+                          param_grid={'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
                           cv=5)
 
     clf_ada.fit(X_train, y_train)
     y_predict = clf_ada.predict(X_test)
-    acc = accuracy_score(y_predict, y_test)
+    acc = format(accuracy_score(y_predict, y_test), '.2f')
     total_time = format((time.time() - time_init) / 60, '.2f')
 
     df_results = df_results.append({'model_type': 'clf', 'model': 'AdaBoostClassifier',
@@ -380,8 +407,7 @@ if __name__ == '__main__':
     Run this script using the command 'python `script_name`.py 
     '''
 
-    sweeps_when_buy_sell = list(
-        sys.argv[1].split(','))  # e.g 15_60, meaning predict after 60 min using info up to 15 min
+    sweeps_when_buy_sell = list(sys.argv[1].split(','))  # e.g 15_60, predict after 60 min using info up to 15 min
     sweeps_how_agg_news = list(sys.argv[2].split(','))  # e.g. ALL_NO_1_1_1, HIGH_YES_1_0_0
     sweeps_market_variables = list(sys.argv[3].split(','))
     sweeps_include_data_before_release = list(sys.argv[4].split(','))
@@ -392,17 +418,22 @@ if __name__ == '__main__':
     snapshots_30m = list(sys.argv[8].split(','))
 
     base_output_path = sys.argv[9]
-    log_file = sys.argv[10]
+    exp_name = sys.argv[10]
 
     snapshots_5m = [int(e) for e in snapshots_5m]
     snapshots_15m = [int(e) for e in snapshots_15m]
     snapshots_30m = [int(e) for e in snapshots_30m]
 
-    set_logger(os.path.join(base_output_path, log_file))
+    set_logger(os.path.join(base_output_path,exp_name + '.log'))
 
     df = pd.read_csv(data_path)
     df_results = pd.DataFrame(columns=['model_type', 'sweeps_market_variables', 'sweep_news_agg', 'sweep_buy_sell',
                                        'before_data', 'score', 'params', 'accuracy_test', 'elapsed_time'])
+
+    partial_results_path = os.path.join(base_output_path, 'partial_results')
+
+    shutil.rmtree(partial_results_path, ignore_errors=True)
+    os.mkdir(partial_results_path)
 
     for sweep_how_agg_news in sweeps_how_agg_news:
 
@@ -424,6 +455,10 @@ if __name__ == '__main__':
 
                     logging.info(
                         'Starting a new sweep for delay in between buying-selling: {}'.format(sweep_when_buy_sell))
+
+                    sweep_name = sweep_how_agg_news + '-' + sweep_market_variables \
+                                 + '-' + sweep_include_data_before_release + '-' \
+                                 + sweep_when_buy_sell
 
                     start_time = time.time()
                     buy_delay = int(sweep_when_buy_sell.split('_')[0])
@@ -456,9 +491,7 @@ if __name__ == '__main__':
                         df_market = df_market.drop_duplicates()
                         df_news_sweep = df_news.merge(df_market, on='datetime', how='left')
 
-                        df_news.to_csv(os.path.join(base_output_path, 'grouped_news_' +
-                                                    sweep_how_agg_news + '_' + sweep_market_variables + '_' + sweep_include_data_before_release + '_' +
-                                                    sweep_when_buy_sell + '.csv'))
+                        df_news.to_csv(os.path.join(base_output_path, sweep_name + '.csv'))
 
                         df_results = pd.concat([df_results, clf_impact_degree(df_news_sweep,
                                                                               sweep_market_variables,
@@ -471,12 +504,13 @@ if __name__ == '__main__':
                         logging.info('sweep done in: {} min'.format(total_time))
 
                         # Save the data computed so far in case the program crashes
-                        df_results.to_csv(os.path.join(base_output_path, 'models_summary_partial.csv'))
+
+                        df_results.to_csv(os.path.join(partial_results_path, sweep_name + '_summary_partial.csv'))
 
                     else:
                         logging.error('sweep not allowed. Buy delay: {} - Sell after: {}'.format(buy_delay, sell_after))
                         logging.error(
                             'Buy delay should be within the 5 min snapshots and Sell delay should be within the 30 min snapshots')
 
-    df_results.to_csv(os.path.join(base_output_path, 'models_summary.csv'))
-    os.remove(os.path.join(base_output_path, 'models_summary_partial.csv'))
+    df_results.to_csv(os.path.join(base_output_path, exp_name + '_models_performance.csv'))
+    shutil.rmtree(partial_results_path, ignore_errors=True)

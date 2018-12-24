@@ -6,3 +6,6 @@ sudo pip3 install pandas
 sudo pip3 install scikit-learn
 sudo pip3 install xgboost
 
+https://github.com/scikit-learn/scikit-learn/issues/10449
+@matth I had the same issue as yours. I changed NumPy from 1.14.0 to 1.12.1 and it works fine for me. Hope it helps.
+

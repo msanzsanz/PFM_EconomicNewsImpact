@@ -1,0 +1,31 @@
+,accuracy_test,before_data,elapsed_time,model,model_type,params,score,sweep_buy_sell,sweep_news_agg,sweeps_market_variables
+0,0.36095965103598693,excluded,0.42,knn,clf,{'n_neighbors': 71},0.35,15_60,ALL_YES_1_1_1,market_basic
+1,0.38495092693565974,excluded,0.13,tree,clf,"{'max_depth': 5, 'min_samples_leaf': 250}",0.41,15_60,ALL_YES_1_1_1,market_basic
+2,0.3925845147219193,excluded,9.23,forest,clf,"{'max_depth': 4, 'min_samples_leaf': 30, 'n_estimators': 10}",0.41,15_60,ALL_YES_1_1_1,market_basic
+3,0.37840785169029445,excluded,1.03,xgb,clf,{'n_estimators': 10},0.40,15_60,ALL_YES_1_1_1,market_basic
+4,0.37404580152671757,excluded,1.32,gradientBoosting,clf,{'n_estimators': 10},0.39,15_60,ALL_YES_1_1_1,market_basic
+5,0.3751363140676118,excluded,0.31,AdaBoostClassifier,clf,{'n_estimators': 10},0.39,15_60,ALL_YES_1_1_1,market_basic
+0,0.4198473282442748,excluded,0.55,knn,clf,{'n_neighbors': 61},0.42,30_60,ALL_YES_1_1_1,market_basic
+1,0.4830970556161396,excluded,0.17,tree,clf,"{'max_depth': 3, 'min_samples_leaf': 250}",0.48,30_60,ALL_YES_1_1_1,market_basic
+2,0.48636859323882226,excluded,9.06,forest,clf,"{'max_depth': 6, 'min_samples_leaf': 10, 'n_estimators': 200}",0.49,30_60,ALL_YES_1_1_1,market_basic
+3,0.4798255179934569,excluded,1.23,xgb,clf,{'n_estimators': 50},0.49,30_60,ALL_YES_1_1_1,market_basic
+4,0.4732824427480916,excluded,1.56,gradientBoosting,clf,{'n_estimators': 10},0.49,30_60,ALL_YES_1_1_1,market_basic
+5,0.440567066521265,excluded,0.33,AdaBoostClassifier,clf,{'n_estimators': 10},0.45,30_60,ALL_YES_1_1_1,market_basic
+0,0.35659760087241005,excluded,0.57,knn,clf,{'n_neighbors': 31},0.37,30_90,ALL_YES_1_1_1,market_basic
+1,0.39912758996728465,excluded,0.16,tree,clf,"{'max_depth': 4, 'min_samples_leaf': 150}",0.43,30_90,ALL_YES_1_1_1,market_basic
+2,0.42420937840785167,excluded,8.29,forest,clf,"{'max_depth': 6, 'min_samples_leaf': 50, 'n_estimators': 200}",0.44,30_90,ALL_YES_1_1_1,market_basic
+3,0.41657579062159217,excluded,1.26,xgb,clf,{'n_estimators': 50},0.43,30_90,ALL_YES_1_1_1,market_basic
+4,0.4133042529989095,excluded,1.60,gradientBoosting,clf,{'n_estimators': 50},0.44,30_90,ALL_YES_1_1_1,market_basic
+5,0.39912758996728465,excluded,0.34,AdaBoostClassifier,clf,{'n_estimators': 50},0.41,30_90,ALL_YES_1_1_1,market_basic
+0,0.34023991275899673,excluded,0.58,knn,clf,{'n_neighbors': 61},0.35,30_120,ALL_YES_1_1_1,market_basic
+1,0.3914940021810251,excluded,0.15,tree,clf,"{'max_depth': 5, 'min_samples_leaf': 150}",0.40,30_120,ALL_YES_1_1_1,market_basic
+2,0.4100327153762268,excluded,8.23,forest,clf,"{'max_depth': 6, 'min_samples_leaf': 10, 'n_estimators': 200}",0.41,30_120,ALL_YES_1_1_1,market_basic
+3,0.40021810250817885,excluded,1.22,xgb,clf,{'n_estimators': 10},0.40,30_120,ALL_YES_1_1_1,market_basic
+4,0.4089422028353326,excluded,1.58,gradientBoosting,clf,{'n_estimators': 10},0.40,30_120,ALL_YES_1_1_1,market_basic
+5,0.38386041439476554,excluded,0.35,AdaBoostClassifier,clf,{'n_estimators': 10},0.39,30_120,ALL_YES_1_1_1,market_basic
+0,0.4372955288985823,excluded,0.85,knn,clf,{'n_neighbors': 11},0.46,60_120,ALL_YES_1_1_1,market_basic
+1,0.49727371864776443,excluded,0.19,tree,clf,"{'max_depth': 4, 'min_samples_leaf': 150}",0.51,60_120,ALL_YES_1_1_1,market_basic
+2,0.4961832061068702,excluded,8.96,forest,clf,"{'max_depth': 6, 'min_samples_leaf': 50, 'n_estimators': 200}",0.54,60_120,ALL_YES_1_1_1,market_basic
+3,0.504907306434024,excluded,1.53,xgb,clf,{'n_estimators': 50},0.53,60_120,ALL_YES_1_1_1,market_basic
+4,0.4994547437295529,excluded,1.98,gradientBoosting,clf,{'n_estimators': 10},0.52,60_120,ALL_YES_1_1_1,market_basic
+5,0.4776444929116685,excluded,0.41,AdaBoostClassifier,clf,{'n_estimators': 10},0.51,60_120,ALL_YES_1_1_1,market_basic
