@@ -2,77 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/models/run_models.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AWS_Setup_for_sklearn" beforeDir="false" afterPath="$PROJECT_DIR$/AWS_Setup_for_sklearn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/High_NO_1_1_1-market_basic-excluded-15_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/High_NO_1_1_1-market_basic-excluded-30_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/High_NO_1_1_1-market_basic-excluded-30_90.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/all_included_ALL_NO_1_1_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/basic_excluded_High_NO_1_1_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/basic_excluded_High_NO_1_1_1_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_all-included-15_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_basic-excluded-15_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_basic-excluded-30_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_basic-excluded-30_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_basic-excluded-30_90.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_basic-excluded-60_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_1_1_1-market_basic-excluded-60_240.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_3_2_1-market_basic-excluded-15_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_3_2_1-market_basic-excluded-30_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_3_2_1-market_basic-excluded-30_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_3_2_1-market_basic-excluded-30_90.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_3_2_1-market_basic-excluded-60_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_NO_3_2_1-market_basic-excluded-60_240.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_1_1_1-market_basic-excluded-15_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_1_1_1-market_basic-excluded-30_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_1_1_1-market_basic-excluded-30_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_1_1_1-market_basic-excluded-30_90.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_1_1_1-market_basic-excluded-60_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_1_1_1-market_basic-excluded-60_240.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_3_2_1-market_basic-excluded-15_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_3_2_1-market_basic-excluded-30_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_3_2_1-market_basic-excluded-30_60.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_3_2_1-market_basic-excluded-30_90.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_3_2_1-market_basic-excluded-60_120.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/grouped_news_ALL_YES_3_2_1-market_basic-excluded-60_240.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_summary.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps_ALL_NO_1_1_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps_ALL_NO_3_2_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps_ALL_YES_1_1_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps_ALL_YES_3_2_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps_HIGH_NO_1_1_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/models_sweeps_HIGH_YES_1_1_1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/partial_results/High_NO_1_1_1-market_basic-excluded-15_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_1_1_1-market_basic-excluded-15_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_1_1_1-market_basic-excluded-30_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_1_1_1-market_basic-excluded-30_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_1_1_1-market_basic-excluded-30_90_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_1_1_1-market_basic-excluded-60_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_1_1_1-market_basic-excluded-60_240_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_3_2_1-market_basic-excluded-15_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_3_2_1-market_basic-excluded-30_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_3_2_1-market_basic-excluded-30_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_3_2_1-market_basic-excluded-30_90_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_3_2_1-market_basic-excluded-60_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_NO_3_2_1-market_basic-excluded-60_240_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_1_1_1-market_basic-excluded-15_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_1_1_1-market_basic-excluded-30_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_1_1_1-market_basic-excluded-30_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_1_1_1-market_basic-excluded-30_90_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_1_1_1-market_basic-excluded-60_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_1_1_1-market_basic-excluded-60_240_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_3_2_1-market_basic-excluded-15_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_3_2_1-market_basic-excluded-30_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_3_2_1-market_basic-excluded-30_60_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_3_2_1-market_basic-excluded-30_90_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_3_2_1-market_basic-excluded-60_120_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/to_remove/grouped_news_ALL_YES_3_2_1-market_basic-excluded-60_240_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/.ipynb_checkpoints/analysis_baseline_clf_models-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/.ipynb_checkpoints/analysis_baseline_clf_models-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/sweeps_all_features_basic_grips.log" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/sweeps_all_features_basic_grips.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/analysis_baseline_clf_models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/analysis_baseline_clf_models.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models_sweeps.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_sweeps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/models/run.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,8 +48,8 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="AWS_Setup_for_sklearn" value="198" />
-          <entry key="Python Console" value="1541" />
-          <entry key="py" value="21649" />
+          <entry key="Python Console" value="1552" />
+          <entry key="py" value="21696" />
           <entry key="sh" value="719" />
           <entry key="txt" value="1989" />
         </counts>
@@ -124,7 +57,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="2906" />
-          <entry key="Python" value="23190" />
+          <entry key="Python" value="23248" />
         </counts>
       </usages-collector>
     </session>
@@ -148,12 +81,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="199" column="36" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="36" />
+            <state relative-caret-position="117">
+              <caret line="240" selection-start-line="240" selection-end-line="240" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1545775797000" expanded="true" signature="2719:4191" ph="..." />
-                <marker date="1545775797000" expanded="true" signature="8405:8723" ph="..." />
+                <marker date="1545777290000" expanded="true" signature="2719:4191" ph="..." />
+                <marker date="1545777290000" expanded="true" signature="8405:8664" ph="..." />
               </folding>
             </state>
           </provider>
@@ -197,8 +130,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>models_sweeps_</find>
-      <find>sweep_grid</find>
       <find>basi</find>
       <find>'basic</find>
       <find>included</find>
@@ -222,11 +153,13 @@
       <find>random_state</find>
       <find>RANDO</find>
       <find>= 2</find>
-      <find>PREDICTED_VALUES</find>
       <find>zip</find>
       <find>confusion_matrix</find>
-      <find>get_prediction_rates</find>
       <find>conf_matrix</find>
+      <find>PREDICTED_VALUES</find>
+      <find>predicted</find>
+      <find>get_prediction_rates</find>
+      <find>append</find>
     </findStrings>
     <replaceStrings>
       <replace>get_date_features</replace>
@@ -554,8 +487,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>202</line>
-          <option name="timeStamp" value="363" />
+          <line>209</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="365" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -565,6 +503,11 @@
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>conf_matrix[-2][-2]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>df_ff</expression-string>
         <language-id>Python</language-id>
@@ -853,12 +796,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="199" column="36" selection-start-line="199" selection-start-column="25" selection-end-line="199" selection-end-column="36" />
+        <state relative-caret-position="117">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1545775797000" expanded="true" signature="2719:4191" ph="..." />
-            <marker date="1545775797000" expanded="true" signature="8405:8723" ph="..." />
+            <marker date="1545777290000" expanded="true" signature="2719:4191" ph="..." />
+            <marker date="1545777290000" expanded="true" signature="8405:8664" ph="..." />
           </folding>
         </state>
       </provider>

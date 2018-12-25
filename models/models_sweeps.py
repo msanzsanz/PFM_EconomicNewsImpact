@@ -202,10 +202,10 @@ def get_prediction_rates(conf_matrix):
     correctly_predicted = []
     total_true = []
 
-    for predict in PREDICTED_VALUES:
+    for i in PREDICTED_VALUES:
 
-        correctly_predicted = correctly_predicted.append(conf_matrix[predict][predict])
-        total_true = total_true.append(conf_matrix['All'][predict])
+        correctly_predicted.append(conf_matrix[i][i])
+        total_true.append(conf_matrix['All'][i])
 
     return [a*100/b for a,b in zip(correctly_predicted, total_true)]
 
