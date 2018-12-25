@@ -1,7 +1,0 @@
-,accuracy_test,before_data,elapsed_time,model,model_type,params,score,sweep_buy_sell,sweep_news_agg,sweeps_market_variables
-0,0.32430340557275544,excluded,0.51,knn,clf,{'n_neighbors': 31},0.30,15_60,ALL_NO_3_2_1,market_basic
-1,0.3862229102167183,excluded,0.19,tree,clf,"{'max_depth': 3, 'min_samples_leaf': 10}",0.39,15_60,ALL_NO_3_2_1,market_basic
-2,0.4102167182662539,excluded,11.78,forest,clf,"{'max_depth': 6, 'min_samples_leaf': 200, 'n_estimators': 50}",0.40,15_60,ALL_NO_3_2_1,market_basic
-3,0.4148606811145511,excluded,1.45,xgb,clf,{'n_estimators': 50},0.39,15_60,ALL_NO_3_2_1,market_basic
-4,0.413312693498452,excluded,2.10,gradientBoosting,clf,{'n_estimators': 50},0.39,15_60,ALL_NO_3_2_1,market_basic
-5,0.37229102167182665,excluded,0.42,AdaBoostClassifier,clf,{'n_estimators': 10},0.39,15_60,ALL_NO_3_2_1,market_basic

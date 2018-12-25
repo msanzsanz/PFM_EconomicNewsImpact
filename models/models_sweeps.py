@@ -9,7 +9,6 @@ import time as time
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
 from sklearn.svm import SVC
@@ -59,6 +58,9 @@ COLUMNS_IMPACT = [FIELD_HIGH, FIELD_MEDIUM, FIELD_LOW]
 
 TEST_SIZE = 0.20
 RANDOM_STATE = 42
+CROSS_VAL = 5
+
+PREDICTED_VALUES = [-2, -1, 0, 1, 2]
 
 
 ##################################################################
@@ -118,7 +120,7 @@ def apply_weights(row, field_value, impact_filter, high_weight, medium_weight, l
     return out
 
 
-def apply_news_grouping(group_type, df, base_output_path):
+def group_news_by_datetime(group_type, df):
     # ALL_NO_1_1_1, where
     #
     # f1: [ALL, HIGH, MEDIUM, LOW
@@ -146,21 +148,21 @@ def apply_news_grouping(group_type, df, base_output_path):
 
     if impact_filter == 'ALL':
         df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
-                                                       'forecast_error_ratio': lambda x: list(x),
-                                                       'forecast_error_ratio_zscore': lambda x: list(x),
-                                                       'previous_error_ratio': lambda x: list(x),
-                                                       'total_error_ratio': lambda x: list(x),
-                                                       'total_error_ratio_zscore': lambda x: list(x),
-                                                       'fe_accurate': lambda x: list(x),
-                                                       'fe_better': lambda x: list(x),
-                                                       'fe_worse': lambda x: list(x),
-                                                       'pe_accurate': lambda x: list(x),
-                                                       'pe_better': lambda x: list(x),
-                                                       'pe_worse': lambda x: list(x),
-                                                       'High': lambda x: list(x),
-                                                       'Low': lambda x: list(x),
-                                                       'Medium': lambda x: list(x)
-                                                       }).reset_index()
+                                                   'forecast_error_ratio': lambda x: list(x),
+                                                   'forecast_error_ratio_zscore': lambda x: list(x),
+                                                   'previous_error_ratio': lambda x: list(x),
+                                                   'total_error_ratio': lambda x: list(x),
+                                                   'total_error_ratio_zscore': lambda x: list(x),
+                                                   'fe_accurate': lambda x: list(x),
+                                                   'fe_better': lambda x: list(x),
+                                                   'fe_worse': lambda x: list(x),
+                                                   'pe_accurate': lambda x: list(x),
+                                                   'pe_better': lambda x: list(x),
+                                                   'pe_worse': lambda x: list(x),
+                                                   'High': lambda x: list(x),
+                                                   'Low': lambda x: list(x),
+                                                   'Medium': lambda x: list(x)
+                                                   }).reset_index()
 
     else:
         df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
@@ -187,7 +189,6 @@ def apply_news_grouping(group_type, df, base_output_path):
                                                                  medium_weight, low_weight),
                                        axis=1)
 
-
     for field in column_names_for_impact:
         df_news[field] = df_news[field].apply(lambda x: sum(x))
 
@@ -196,8 +197,52 @@ def apply_news_grouping(group_type, df, base_output_path):
 
     return df_news
 
+def get_prediction_rates(conf_matrix):
 
-def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data, sweep_buy_sell, columns_to_predict):
+    correctly_predicted = []
+    total_true = []
+
+    for predict in PREDICTED_VALUES:
+
+        correctly_predicted = correctly_predicted.append(conf_matrix[predict][predict])
+        total_true = total_true.append(conf_matrix['All'][predict])
+
+    return [a*100/b for a,b in zip(correctly_predicted, total_true)]
+
+
+def model_fit_and_predict(clf_model, model_name, X_train, y_train, X_test, y_test,
+                          sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                          df_results):
+    time_init = time.time()
+
+    clf_model.fit(X_train, y_train)
+    y_predict = clf_model.predict(X_test)
+    acc = format(accuracy_score(y_predict, y_test), '.2f')
+    total_time = format((time.time() - time_init) / 60, '.2f')
+
+    conf_matrix = pd.crosstab(y_test, y_predict, rownames=['True'], colnames=['Predicted'],margins=True)
+    per_correctly_predicted = get_prediction_rates(conf_matrix)
+
+
+    df_results = df_results.append({'model_type': 'clf',
+                                    'model': model_name,
+                                    'sweeps_market_variables': sweeps_market_variables,
+                                    'sweep_news_agg': sweeps_new,
+                                    'sweep_buy_sell': sweep_buy_sell,
+                                    'before_data': before_data,
+                                    'sweep_grid': sweep_grid,
+                                    'best_score': format(clf_model.best_score_, '.2f'),
+                                    'best_params': str(clf_model.best_params_),
+                                    'accuracy_test': acc,
+                                    'accuracy_per_class': print(per_correctly_predicted),
+                                    'elapsed_time': total_time},
+                                   ignore_index=True)
+
+    return df_results
+
+
+def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweeps_new, before_data, sweep_buy_sell,
+                                         columns_to_predict):
     df_results = pd.DataFrame(columns=['model', 'sweeps_market_variables',
                                        'sweep_news_agg', 'sweep_buy_sell',
                                        'score', 'params'])
@@ -213,25 +258,37 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
 
     # KNeighborsClassifier
     logging.info('Starting KNeighborsClassifier')
-    time_init = time.time()
     clf_kn = GridSearchCV(KNeighborsClassifier(n_neighbors=1),
                           param_grid={"n_neighbors": range(1, 100, 10)},
                           scoring="accuracy",
-                          cv=5)
+                          cv=CROSS_VAL)
 
-    clf_kn.fit(X_train, y_train)
-    y_predict = clf_kn.predict(X_test)
-    acc = format(accuracy_score(y_predict, y_test), '.2f')
-    total_time = format((time.time() - time_init) / 60, '.2f')
+    df_results = model_fit_and_predict(clf_kn, 'kn', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
-    df_results = df_results.append({'model_type': 'clf', 'model': 'knn',
-                                    'sweeps_market_variables': sweeps_market_variables,
-                                    'sweep_news_agg': sweeps_new,
-                                    'sweep_buy_sell': sweep_buy_sell,
-                                    'before_data': before_data, 'score': format(clf_kn.best_score_, '.2f'),
-                                    'params': str(clf_kn.best_params_),
-                                    'accuracy_test': acc, 'elapsed_time': total_time},
-                                   ignore_index=True)
+    # SVC - rbf
+    logging.info('Starting SVC - rbf')
+    clf_svc = GridSearchCV(SVC(kernel="rbf"),
+                           param_grid={"C": [1, 3, 5], "gamma": range(1, 5)},
+                           scoring="accuracy",
+                           cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(clf_svc, 'svc-rbf', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # SVC - poly
+    logging.info('Starting SVC - Poly')
+    clf_poly = GridSearchCV(SVC(kernel="poly"),
+                            #param_grid={"C": [1, 3, 5], "degree": [2, 3], "gamma": 'scale'},
+                            param_grid={},
+                            scoring="accuracy",
+                            cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     # DecisionTree
     logging.info('Starting DecisionTreeClassifier')
@@ -240,22 +297,11 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
                           param_grid={'min_samples_leaf': [10, 20, 30, 50, 100, 150, 200, 250],
                                       'max_depth': range(2, 7)},
                           scoring="accuracy",
-                          cv=5)
+                          cv=CROSS_VAL)
 
-    clf_dt.fit(X_train, y_train)
-    y_predict = clf_dt.predict(X_test)
-    acc = accuracy_score(y_predict, y_test)
-    total_time = format((time.time() - time_init) / 60, '.2f')
-
-    df_results = df_results.append({'model_type': 'clf', 'model': 'tree',
-                                    'sweeps_market_variables': sweeps_market_variables,
-                                    'sweep_news_agg': sweeps_new,
-                                    'sweep_buy_sell': sweep_buy_sell,
-                                    'before_data': before_data,
-                                    'score': format(clf_dt.best_score_, '.2f'),
-                                    'params': str(clf_dt.best_params_),
-                                    'accuracy_test': acc, 'elapsed_time': total_time},
-                                   ignore_index=True)
+    df_results = model_fit_and_predict(clf_dt, 'dtree', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     # RandomForest
     logging.info('Starting RandomForestClassifier')
@@ -265,47 +311,25 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
                                       'max_depth': range(2, 7),
                                       'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
-                          cv=5)
+                          cv=CROSS_VAL)
 
-    clf_rf.fit(X_train, y_train)
-    y_predict = clf_rf.predict(X_test)
-    acc = accuracy_score(y_predict, y_test)
-    total_time = format((time.time() - time_init) / 60, '.2f')
-
-    df_results = df_results.append({'model_type': 'clf', 'model': 'forest',
-                                    'sweeps_market_variables': sweeps_market_variables,
-                                    'sweep_news_agg': sweeps_new,
-                                    'sweep_buy_sell': sweep_buy_sell,
-                                    'before_data': before_data,
-                                    'score': format(clf_rf.best_score_, '.2f'),
-                                    'params': str(clf_rf.best_params_),
-                                    'accuracy_test': acc, 'elapsed_time': total_time},
-                                   ignore_index=True)
+    df_results = model_fit_and_predict(clf_rf, 'rforest', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     # XGBoost
     logging.info('Starting XGBClassifier')
     time_init = time.time()
     clf_XGB = GridSearchCV(xgb.XGBClassifier(n_estimators=200, random_state=RANDOM_STATE),
-                           #param_grid={'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
+                           # param_grid={'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
                            #            'max_depth': [3, 5, 10]},
                            param_grid={'n_estimators': [10, 50, 100, 200]},
                            scoring="accuracy",
-                           cv=5)
+                           cv=CROSS_VAL)
 
-    clf_XGB.fit(X_train, y_train)
-    y_predict = clf_XGB.predict(X_test)
-    acc = accuracy_score(y_predict, y_test)
-    total_time = format((time.time() - time_init) / 60, '.2f')
-
-    df_results = df_results.append({'model_type': 'clf', 'model': 'xgb',
-                                    'sweeps_market_variables': sweeps_market_variables,
-                                    'sweep_news_agg': sweeps_new,
-                                    'sweep_buy_sell': sweep_buy_sell,
-                                    'before_data': before_data,
-                                    'score': format(clf_XGB.best_score_, '.2f'),
-                                    'params': str(clf_XGB.best_params_),
-                                    'accuracy_test': acc, 'elapsed_time': total_time},
-                                   ignore_index=True)
+    df_results = model_fit_and_predict(clf_XGB, 'xgb', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     # GradientBoosting
     logging.info('Starting GradientBoostingClassifier')
@@ -313,45 +337,23 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
     clf_gb = GridSearchCV(GradientBoostingClassifier(n_estimators=200, random_state=RANDOM_STATE),
                           param_grid={'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
-                          cv=5)
+                          cv=CROSS_VAL)
 
-    clf_gb.fit(X_train, y_train)
-    y_predict = clf_gb.predict(X_test)
-    acc = accuracy_score(y_predict, y_test)
-    total_time = format((time.time() - time_init) / 60, '.2f')
-
-    df_results = df_results.append({'model_type': 'clf', 'model': 'gradientBoosting',
-                                    'sweeps_market_variables': sweeps_market_variables,
-                                    'sweep_news_agg': sweeps_new,
-                                    'sweep_buy_sell': sweep_buy_sell,
-                                    'before_data': before_data,
-                                    'score': format(clf_gb.best_score_, '.2f'),
-                                    'params': str(clf_gb.best_params_),
-                                    'accuracy_test': acc, 'elapsed_time': total_time},
-                                   ignore_index=True)
+    df_results = model_fit_and_predict(clf_gb,'gboosting', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     # AdaBoost
     logging.info('Starting AdaBoostClassifier')
     time_init = time.time()
     clf_ada = GridSearchCV(AdaBoostClassifier(n_estimators=200, random_state=RANDOM_STATE),
-                          param_grid={'n_estimators': [10, 50, 100, 200]},
-                          scoring="accuracy",
-                          cv=5)
+                           param_grid={'n_estimators': [10, 50, 100, 200]},
+                           scoring="accuracy",
+                           cv=CROSS_VAL)
 
-    clf_ada.fit(X_train, y_train)
-    y_predict = clf_ada.predict(X_test)
-    acc = format(accuracy_score(y_predict, y_test), '.2f')
-    total_time = format((time.time() - time_init) / 60, '.2f')
-
-    df_results = df_results.append({'model_type': 'clf', 'model': 'AdaBoostClassifier',
-                                    'sweeps_market_variables': sweeps_market_variables,
-                                    'sweep_news_agg': sweeps_new,
-                                    'sweep_buy_sell': sweep_buy_sell,
-                                    'before_data': before_data,
-                                    'score': format(clf_ada.best_score_, '.2f'),
-                                    'params': str(clf_ada.best_params_),
-                                    'accuracy_test': acc, 'elapsed_time': total_time},
-                                   ignore_index=True)
+    df_results = model_fit_and_predict(clf_ada, 'ada', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     return df_results
 
@@ -359,10 +361,13 @@ def clf_impact_degree(df_news, sweeps_market_variables, sweeps_new, before_data,
 def get_dynamic_market_fields_after(snapshots_5m, snapshots_15m, snapshots_30m, sweeps_market_variables):
     dynamic_market_fields = []
 
-    if sweeps_market_variables == 'market_all':
+    if sweeps_market_variables == 'all':
         column_names = COLUMNS_MARKET_REACTION_ALL
-    elif sweeps_market_variables == 'market_basic':
+    elif sweeps_market_variables == 'basic':
         column_names = COLUMNS_MARKET_REACTION_BASIC
+    else:
+        logging.error('option for market fields sweep is not supported')
+        exit(-1)
 
     for snapshot in snapshots_5m:
         tmp = [column + '_' + str(snapshot - 5) + '_' + str(snapshot) + '_after' for column in column_names]
@@ -382,10 +387,13 @@ def get_dynamic_market_fields_after(snapshots_5m, snapshots_15m, snapshots_30m, 
 def get_dynamic_market_fields_before(snapshots_5m, snapshots_15m, snapshots_30m, sweeps_market_variables):
     dynamic_market_fields = []
 
-    if sweeps_market_variables == 'market_all':
+    if sweeps_market_variables == 'all':
         column_names = COLUMNS_MARKET_REACTION_ALL
-    elif sweeps_market_variables == 'market_basic':
+    elif sweeps_market_variables == 'basic':
         column_names = COLUMNS_MARKET_REACTION_BASIC
+    else:
+        logging.error('option for market fields sweep is not supported')
+        exit(-1)
 
     for snapshot in snapshots_5m:
         tmp = [column + '_' + str(snapshot) + '_' + str(snapshot - 5) + '_before' for column in column_names]
@@ -411,24 +419,26 @@ if __name__ == '__main__':
     sweeps_how_agg_news = list(sys.argv[2].split(','))  # e.g. ALL_NO_1_1_1, HIGH_YES_1_0_0
     sweeps_market_variables = list(sys.argv[3].split(','))
     sweeps_include_data_before_release = list(sys.argv[4].split(','))
+    sweeps_grid_mode = list(sys.argv[5].split(','))
 
-    data_path = sys.argv[5]
-    snapshots_5m = list(sys.argv[6].split(','))
-    snapshots_15m = list(sys.argv[7].split(','))
-    snapshots_30m = list(sys.argv[8].split(','))
+    data_path = sys.argv[6]
+    snapshots_5m = list(sys.argv[7].split(','))
+    snapshots_15m = list(sys.argv[8].split(','))
+    snapshots_30m = list(sys.argv[9].split(','))
 
-    base_output_path = sys.argv[9]
-    exp_name = sys.argv[10]
+    base_output_path = sys.argv[10]
+    exp_name = sys.argv[11]
 
     snapshots_5m = [int(e) for e in snapshots_5m]
     snapshots_15m = [int(e) for e in snapshots_15m]
     snapshots_30m = [int(e) for e in snapshots_30m]
 
-    set_logger(os.path.join(base_output_path,exp_name + '.log'))
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
 
     df = pd.read_csv(data_path)
-    df_results = pd.DataFrame(columns=['model_type', 'sweeps_market_variables', 'sweep_news_agg', 'sweep_buy_sell',
-                                       'before_data', 'score', 'params', 'accuracy_test', 'elapsed_time'])
+    df_results = pd.DataFrame(columns=['model_type', 'model', 'sweeps_market_variables', 'sweep_news_agg',
+                                       'sweep_buy_sell','before_data', 'sweep_grid', 'best_score', 'best_params', 'accuracy_test',
+                                       'accuracy_per_class', 'elapsed_time'])
 
     partial_results_path = os.path.join(base_output_path, 'partial_results')
 
@@ -441,7 +451,7 @@ if __name__ == '__main__':
         logging.info('')
         logging.info('Starting a new sweep grouping News: {}'.format(sweep_how_agg_news))
 
-        df_news = apply_news_grouping(sweep_how_agg_news, df, base_output_path)
+        df_news = group_news_by_datetime(sweep_how_agg_news, df)
 
         for sweep_market_variables in sweeps_market_variables:
 
@@ -456,61 +466,66 @@ if __name__ == '__main__':
                     logging.info(
                         'Starting a new sweep for delay in between buying-selling: {}'.format(sweep_when_buy_sell))
 
-                    sweep_name = sweep_how_agg_news + '-' + sweep_market_variables \
-                                 + '-' + sweep_include_data_before_release + '-' \
-                                 + sweep_when_buy_sell
+                    for sweep_grid in sweeps_grid_mode:
 
-                    start_time = time.time()
-                    buy_delay = int(sweep_when_buy_sell.split('_')[0])
-                    sell_after = int(sweep_when_buy_sell.split('_')[1])
+                        logging.info(
+                            'Starting a new sweep for grid mode: {}'.format(sweep_grid))
 
-                    if sell_after in snapshots_30m:
+                        sweep_name = sweep_how_agg_news + '-' + sweep_market_variables \
+                                     + '-' + sweep_include_data_before_release + '-' \
+                                     + sweep_when_buy_sell + '-' + sweep_grid
 
-                        predict_at = '_' + str(sell_after - 30) + '_' + str(sell_after) + '_after'
+                        start_time = time.time()
+                        buy_delay = int(sweep_when_buy_sell.split('_')[0])
+                        sell_after = int(sweep_when_buy_sell.split('_')[1])
 
-                        columns_to_predict = [column_name + predict_at for column_name in COLUMS_TO_PREDICT_PREFIX]
+                        if sell_after in snapshots_30m:
 
-                        snapshots_5m_tmp = [e for e in snapshots_5m if e <= buy_delay]
-                        snapshots_15m_tmp = [e for e in snapshots_15m if e <= buy_delay]
-                        snapshots_30m_tmp = [e for e in snapshots_30m if e <= buy_delay]
-                        market_fields_after = get_dynamic_market_fields_after(snapshots_5m_tmp, snapshots_15m_tmp,
-                                                                              snapshots_30m_tmp, sweep_market_variables)
+                            predict_at = '_' + str(sell_after - 30) + '_' + str(sell_after) + '_after'
 
-                        if sweep_include_data_before_release == 'included':
-                            market_fields_before = get_dynamic_market_fields_before(snapshots_5m, snapshots_15m,
-                                                                                    snapshots_30m,
-                                                                                    sweep_market_variables)
+                            columns_to_predict = [column_name + predict_at for column_name in COLUMS_TO_PREDICT_PREFIX]
+
+                            snapshots_5m_tmp = [e for e in snapshots_5m if e <= buy_delay]
+                            snapshots_15m_tmp = [e for e in snapshots_15m if e <= buy_delay]
+                            snapshots_30m_tmp = [e for e in snapshots_30m if e <= buy_delay]
+                            market_fields_after = get_dynamic_market_fields_after(snapshots_5m_tmp, snapshots_15m_tmp,
+                                                                                  snapshots_30m_tmp, sweep_market_variables)
+
+                            if sweep_include_data_before_release == 'included':
+                                market_fields_before = get_dynamic_market_fields_before(snapshots_5m, snapshots_15m,
+                                                                                        snapshots_30m,
+                                                                                        sweep_market_variables)
+                            else:
+                                market_fields_before = []
+
+                            market_fields = market_fields_after + market_fields_before + ['datetime'] + columns_to_predict
+
+                            logging.info('List of dynamic market fields: {}'.format(market_fields))
+
+                            df_market = df[market_fields].copy()
+                            df_market = df_market.drop_duplicates()
+                            df_news_sweep = df_news.merge(df_market, on='datetime', how='left')
+
+                            df_news_sweep.to_csv(os.path.join(base_output_path, sweep_name + '.csv'))
+
+                            if sweep_grid == 'basic':
+                                df_results = pd.concat([df_results, run_classification_models_basic_grid(
+                                    df_news_sweep,
+                                    sweep_market_variables,
+                                    sweep_how_agg_news,
+                                    sweep_include_data_before_release,
+                                    sweep_when_buy_sell,
+                                    columns_to_predict)])
+
+                            total_time = format((time.time() - start_time) / 60, '.2f')
+                            logging.info('sweep done in: {} min'.format(total_time))
+
+                            # Save the data computed so far in case the program crashes
+                            df_results.to_csv(os.path.join(partial_results_path, sweep_name + '_summary_partial.csv'))
+
                         else:
-                            market_fields_before = []
-
-                        market_fields = market_fields_after + market_fields_before + ['datetime'] + columns_to_predict
-
-                        logging.info('List of dynamic market fields: {}'.format(market_fields))
-
-                        df_market = df[market_fields].copy()
-                        df_market = df_market.drop_duplicates()
-                        df_news_sweep = df_news.merge(df_market, on='datetime', how='left')
-
-                        df_news.to_csv(os.path.join(base_output_path, sweep_name + '.csv'))
-
-                        df_results = pd.concat([df_results, clf_impact_degree(df_news_sweep,
-                                                                              sweep_market_variables,
-                                                                              sweep_how_agg_news,
-                                                                              sweep_include_data_before_release,
-                                                                              sweep_when_buy_sell,
-                                                                              columns_to_predict)])
-
-                        total_time = format((time.time() - start_time) / 60, '.2f')
-                        logging.info('sweep done in: {} min'.format(total_time))
-
-                        # Save the data computed so far in case the program crashes
-
-                        df_results.to_csv(os.path.join(partial_results_path, sweep_name + '_summary_partial.csv'))
-
-                    else:
-                        logging.error('sweep not allowed. Buy delay: {} - Sell after: {}'.format(buy_delay, sell_after))
-                        logging.error(
-                            'Buy delay should be within the 5 min snapshots and Sell delay should be within the 30 min snapshots')
+                            logging.error('sweep not allowed. Buy delay: {} - Sell after: {}'.format(buy_delay, sell_after))
+                            logging.error('Sell delay should be in the list of 30min snapshots')
 
     df_results.to_csv(os.path.join(base_output_path, exp_name + '_models_performance.csv'))
-    shutil.rmtree(partial_results_path, ignore_errors=True)
+    #shutil.rmtree(partial_results_path, ignore_errors=True)
