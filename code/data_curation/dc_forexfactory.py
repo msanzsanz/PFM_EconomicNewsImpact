@@ -5,7 +5,20 @@ import numpy as np
 import pytz
 
 
+
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to activate the logging mechanism
+#
+#   INPUT PARAMETERS:
+#
+#       log_file:   path + file to store program logs
+#
+########################################################################################################################
 def set_logger(log_file):
+
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s',
                         filename=log_file,
@@ -17,6 +30,17 @@ def set_logger(log_file):
     logging.getLogger('').addHandler(console)
 
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to activate the logging mechanism
+#
+#   INPUT PARAMETERS:
+#
+#       log_file:   path + file to store program logs
+#
+########################################################################################################################
 def compute_diff(row, forecasted_field, actual_field, error_field):
     try:
 
@@ -79,55 +103,31 @@ def compute_diff(row, forecasted_field, actual_field, error_field):
     return diff
 
 
-def compute_diff_old(row):
-    try:
 
-        forecasted = row['forecast']
-        actual = row['actual']
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       forexfactory.com has a interesting way to handle Daylight saving time (DST) ...
+#       Basically, it seems that store the data in their servers without accounting for DST. Therefore, they adjust
+#       the time on the website ONLY during visualization only when the DST flag is enabled.
+#
+#       When the DST flag is enabled?
+#
+#           1. Manually by users activating it on settings menu.
+#           2. By default whenever users connect to forexfactory.com from a country that is currently on DST
+#
+#       Thus, if the scrapper is ran with DST = off, we need to compute that +1h before merging this data with the
+#       market data
+#
+#   INPUT PARAMETERS:
+#
+#       log_file:   path + file to store program logs
+#
+########################################################################################################################
 
-        if (forecasted == actual):
-            diff = 0
-        else:
-            if forecasted[0] == '-':
-                start = 1
-            else:
-                start = 0
+def add_dst_flag(df):
 
-            starts_digit = forecasted[start].isdigit()
-            ends_digit = forecasted[-1].isdigit()
-
-            if not starts_digit:
-                forecasted = forecasted[start + 1:]
-                actual = actual[start + 1:]
-
-            if not ends_digit:
-                forecasted = forecasted[0:-1]
-                actual = actual[0:-1]
-
-            forecasted_float = float(forecasted)
-            actual_float = float(actual)
-
-            if forecasted_float == 0:
-                if abs(actual_float) >= 1:
-                    diff = actual_float * 100
-                elif abs(actual_float) >= 0.1:
-                    diff = actual_float * 1000
-                elif abs(actual_float) >= 0.01:
-                    diff = actual_float * 10000
-                else:
-                    diff = 9999
-            else:
-                diff_per = abs(actual_float - forecasted_float) * 100 / abs(forecasted_float)
-                sign = 1 if actual_float >= forecasted_float else -1
-                diff = diff_per * sign
-
-    except:
-        diff = 9999
-
-    return diff
-
-
-def add_dts_flag(df):
     # Create a list of start and end dates for US in each year, in UTC time
     dst_changes_utc = pytz.timezone('US/Eastern')._utc_transition_times[1:]
 
@@ -136,6 +136,7 @@ def add_dts_flag(df):
                    dst_changes_utc]
 
     flag_list = []
+
     for index, row in df['datetime'].iteritems():
         # Isolate the start and end dates for DST in each year
         dst_dates_in_year = [date for date in dst_changes if date.year == row.year]
@@ -154,32 +155,27 @@ def apply_dts_flag(row):
     return row['datetime'] + pd.DateOffset(hours=row['dts_flag'])
 
 
-def group_forexite_by_freq(df_pair, frequency='5Min'):
-    # We need to add a column with the GMT datetime, so that we can join the rate exchange with news publication
-    df_pair['datetime'] = df_pair['<DTYYYYMMDD>'] + df_pair['<TIME>']
-    df_pair['datetime_gmt'] = pd.to_datetime(df_pair['datetime'], format='%Y%m%d%H%M%S', errors='raise')
-    df_pair['datetime_gmt'] = df_pair['datetime_gmt'].dt.tz_localize('GMT').dt.tz_convert('GMT')
-    df_pair = df_pair.set_index('datetime_gmt')
-
-    # Remove undesired columns
-    df_pair = df_pair.drop(['<DTYYYYMMDD>', '<TIME>', '<VOL>', 'datetime'], axis=1)
-    df_pair.columns = ['pair', 'open', 'high', 'low', 'close']
-
-    # Group by 5-min window size
-    # IMP: it´s needed to specify the variable "closed". Otherwise, the group is not taking into account the last min
-    df_pair = df_pair.groupby(pd.Grouper(freq=frequency, closed='right', label='left')).agg(
-        {'open': 'first', 'high': 'max', 'low': 'min', 'close': 'last'})
-
-    # GroupBy could have created some nan rows if data from forexite contains windows GAPS
-    df_pair = df_pair.dropna()
-
-    # Replace strings by int so that we can compute pips
-    for field in ['high', 'low', 'close']:
-        df_pair[field] = df_pair[field].apply(lambda x: format(x, '.4f'))
-        df_pair[field] = df_pair[field].str.replace('.', '')
-        df_pair[field] = df_pair[field].astype(int)
-
-    return df_pair
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Function to classify the new release based on the market impact
+#
+#           -2: USD decreases w.r.t EUR in > 20 pips
+#           -1: USD decreases w.r.t EUR in 5-20 pips
+#           0: almost no impact
+#           1: USD increases w.r.t EUR in 5-20 pips
+#           1: USD increases w.r.t EUR in > 20 pips
+#
+#   INPUT PARAMETERS:
+#
+#       row:                dataframe row
+#       field_previous      field of the row containing previous value
+#       field_current       field of the row containing current value
+#
+#       Note: Columns names are passed as i/p as we are going to compute the market reaction at different snapshots
+#
+########################################################################################################################
 
 def compute_direction(row, field_previous, field_current):
 
@@ -193,16 +189,32 @@ def compute_direction(row, field_previous, field_current):
         out = 0
     elif abs(value_previous - value_current) > 20:
         out = 2
-    elif abs(value_previous - value_current) > 10:
+    else:
         out = 1
 
     return  out * sign
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Function to merge both sources of data, for every snapshot of interest
+#
+#
+#   INPUT PARAMETERS:
+#
+#       df_features         dataframe for forexfactory data
+#       df_pair             dataframe for dukascopy data
+#       snapshots           array of snapshots to loop
+#       freq                window-size
+#
+#
+########################################################################################################################
 def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
     try:
 
         # Expand the forexfactory dataframe with as many snapshots as requested
-        # after the publication of the new
+        # After the publication of the new
         for snapshot in snapshots:
             offset = snapshot - freq
             column_name = '_' + str(offset) + '_' + str(snapshot) + '_after'
@@ -236,7 +248,7 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
                                 'pips_candle': 'pips_candle' + column_name}, \
                                inplace=True, axis='columns')
 
-        # before the publication of the new
+        # Before the publication of the new
         for snapshot in snapshots:
             offset = snapshot - freq
             column_name = '_' + str(snapshot) + '_' + str(offset) +'_before'
@@ -278,6 +290,23 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
         logging.error('exception: {}'.format(e))
         return pd.DataFrame()
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Whenever a new is published, governments can also correct previous publications.
+#       We need to take this into account, as we could have 2 deviations:
+#
+#           1. Deviation from the forecasted value
+#           2. Plus positive/negative correction of the previous data
+#
+#
+#   INPUT PARAMETERS:
+#
+#       df         dataframe for forexfactory data
+#
+#
+########################################################################################################################
 def compute_previous_error_ratio(df):
 
     # Unique list of news
@@ -289,7 +318,8 @@ def compute_previous_error_ratio(df):
         df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index()
         df_temp.drop(columns=['index'], axis=1, inplace=True)
         df_temp['previous_value'] = df_temp['actual'].shift().fillna(df_temp['previous'])
-        df_temp['previous_error_ratio'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value', 'previous', 'previous_error'), axis=1)
+        df_temp['previous_error_ratio'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value',
+                                                                                 'previous', 'previous_error'), axis=1)
         df_temp['previous_error_ratio'] = df_temp['previous_error_ratio'].round(2)
 
         # We have used 9999 to flag those times when we have not been able to compute error rate
@@ -306,6 +336,18 @@ def compute_previous_error_ratio(df):
     return df_out
 
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Function to normalize deviation errors based on the previous 5 releases
+#
+#   INPUT PARAMETERS:
+#
+#       df         dataframe for forexfactory data
+#
+#
+########################################################################################################################
 def compute_deviation(df, field_name, size=5):
     # Unique list of news
     news_list = df['new'].unique()
@@ -331,17 +373,38 @@ def compute_deviation(df, field_name, size=5):
     return df_out
 
 
-def fe_forexfactory(year, ff_file, currency, freq='5min'):
+########################################################################################################################
+#
+#   DESCRIPTION: 
+#
+#       Front-end to clean the raw data scrapped from forexfactory.com
+#
+#   INPUT PARAMETERS:
+#
+#       year:           year of the scrapped data
+#       ff_file:        path of the file containing the scrapped data
+#       currency:       three-letter abbreviation for the news of interest. E.g. USD for United States dollar news
+#       dst_correction: "ON" if the scrapper was run when DST was off
+#                       "OFF" otherwise
+#       freq:           [optional] window-size of the market data
+#
+########################################################################################################################
+
+def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
+    
     df = pd.read_csv(input_path + ff_file)
     weeks = len(df.week.unique())
 
-    # 2018 is still not finished
-    # ForexFactory does not publish the first week of 2007
+    # Check that the raw data contains 52 weeks.
+    # Two exceptions:
+    #   - By the time this code was written, 2018 is still not finished
+    #   - ForexFactory does not publish the first week of 2007
+    #
     if weeks == 52 or year == 2018 or year == 2007:
 
         df['datetime'] = pd.to_datetime(df['datetime'])
 
-        # Filter_macro_economic_news
+        # Filter by macro-economic newss
         df = df[df['forecast'].notnull()]
 
         # Filter currency of interest
@@ -353,26 +416,30 @@ def fe_forexfactory(year, ff_file, currency, freq='5min'):
 
         # When DST is off, we need to add +1h to forexfactory.com values during winter tz
         # We do that in 2 steps. First, compute dst flag. Second, add +1h whenever the flag is set to 1.
-        df['dts_flag'] = add_dts_flag(df)
-        df['datetime'] = df.apply(apply_dts_flag, axis=1)
+        if dst_correction == 'ON':
+            df['dts_flag'] = add_dst_flag(df)
+            df['datetime'] = df.apply(apply_dts_flag, axis=1)
+
         df['datetime_gmt'] = df['datetime'].dt.tz_localize('US/Eastern').dt.tz_convert('GMT')
 
         # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
         # We rounded them to the closest 5 min candle.
         df['datetime_gmt'] = df['datetime_gmt'].dt.round(freq)
 
+        # Log raws with missing data
         if len(df[df.isnull().any(1)]) != 0:
             logging.error('These {} news extracted from forexfactory have nan in some columns'.format(
                 len(df[df.isnull().any(1)])))
             logging.error(df[df.isnull().any(1)].values)
-            logging.error('Removed these rows from the dataframe')
+            
             df = df.dropna()
+            logging.error('Removed these rows from the dataframe')
 
         # Compute the error, in %, between actual values and the forecasted ones
         df['forecast_error_ratio'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual', 'forecast_error'), axis=1)
         df['forecast_error_ratio'] = df['forecast_error_ratio'].round(2)
 
-        # We have used 9999 to flag those times when we have not been able to compute error rate
+        # We have used the encoding 9999 to flag whenever we have not been able to compute error rate
         errors_found = len(df[df['forecast_error_ratio'] == 9999])
         if errors_found != 0:
             logging.error(
@@ -394,8 +461,20 @@ def fe_forexfactory(year, ff_file, currency, freq='5min'):
         logging.error('Error {}: this dataset does not have the expected 52 weeks\n'.format(year))
         return pd.DataFrame()
 
+########################################################################################################################
+#
+#   DESCRIPTION: 
+#
+#       Front-end to clean the raw data downloaded from dukascopy.com
+#
+#   INPUT PARAMETERS:
+#
+#       filename:   path + filename of the raw data file
+#
+########################################################################################################################
 
-def read_df_dukascopy(filename):
+def fe_forexfactory(filename):
+
     df_pair = pd.read_csv(filename, header=0, sep=',')
     df_pair.columns = ['datetime_gmt', 'open', 'high', 'low', 'close', 'volume']
     df_pair['datetime_gmt'] = pd.to_datetime(df_pair['datetime_gmt'], format='%d.%m.%Y %H:%M:%S.000', errors='raise')
@@ -411,12 +490,44 @@ def read_df_dukascopy(filename):
 
     return df_pair
 
+########################################################################################################################
+#
+#   SCOPE:
+#
+#       This script processes the data scrapped from forexfactory.com and downloaded from dukascopy.com
+#
+#   INPUT PARAMETERS:
+#
+#       year_start:     first year to process
+#       year_end:       last year to process
+#       input_path:     path containing the raw data scrapped from Forexfactory and downloaded from Dukascopy
+#       csv_prefix_ff:  prefix for Forexfactory raw data files
+#                       Naming convention for the scrapper: <csv_prefix_ff>_<year>.csv
+#
+#       currency_news:  three-letter abbreviation for the news of interest. E.g. USD for United States dollar news
+#       currency_pair:  six-letter abbreviation for the pair of interest. E.f. EURUSD for euro-american dollar
+#       snapshots_5m:   array of required snapshots for 5min candles
+#       snapshots_15m:  array of required snapshots for 15min candles
+#       snapshots_30m:  array of required snapshots for 30min candles
+#       dst_correction: "ON" if the scrapper was run when DST was off
+#                       "OFF" otherwise
+#       output_path:    path to store the dataframe with the processed data
+#       csv_prefix_out: prefix to use for naming the processed data
+#       log_file:       path to the log file, including filename
+#
+#
+#   INVOCATION EXAMPLE:
+#
+#       python 2007 2018 ./../data/raw/ forexfactory USD EURUSD [5,10,15,20,25,30] [45,60] [60,90,120,180,210,240] \
+#               ../../data/curated/ features dc_forexfactory.log
+#
+#
+########################################################################################################################
 
 if __name__ == '__main__':
-    '''
-    Run this script using the command 'python `script_name`.py 
-    '''
-    # i/p
+
+
+    # Read i/p
     year_start = int(sys.argv[1])
     year_end = int(sys.argv[2])
     input_path = str(sys.argv[3])
@@ -426,29 +537,36 @@ if __name__ == '__main__':
     snapshots_5m = ast.literal_eval(sys.argv[7])
     snapshots_15m = ast.literal_eval(sys.argv[8])
     snapshots_30m = ast.literal_eval(sys.argv[9])
+    dst_correction = str(sys.argv[10])
+    output_path = sys.argv[11]
+    csv_prefix_out = sys.argv[12]
+    log_file = sys.argv[13]
 
-    # o/p
-    output_path = sys.argv[10]
-    csv_prefix_out = sys.argv[11]
-    log_file = sys.argv[12]
-
+    # Create log file
     set_logger(log_file)
 
+    # Create an empty dataframe for the processed data
     all_years_df = pd.DataFrame([])
 
     # Read the dataframe from dukascopy. Just one file for all years
-    df_pair = read_df_dukascopy(input_path + currency_pair + '.zip')
+    df_pair = fe_forexfactory(input_path + currency_pair + '.zip')
 
-    # Group by 15-min window size
+    # Group the historical data from dukascopy into 15-min windows
     df_pair_15Min = df_pair.groupby(pd.Grouper(freq='15Min', closed='right', label='left')).agg(
-        {'open': 'first', 'high': 'max', 'low': 'min', 'close': 'last'})
+                                                        {'open': 'first',
+                                                         'high': 'max',
+                                                         'low': 'min',
+                                                         'close': 'last'})
 
-    # GroupBy could have created some nan rows if data contains windows GAPS
+    # GroupBy could have created some nan rows if data contains windows GAPS, so we eliminate them
     df_pair_15Min = df_pair_15Min.dropna()
 
-    # Group by 30-min window size
+    # Do the same for 30-min windows
     df_pair_30Min = df_pair.groupby(pd.Grouper(freq='30Min', closed='right', label='left')).agg(
-        {'open': 'first', 'high': 'max', 'low': 'min', 'close': 'last'})
+                                                         {'open': 'first',
+                                                          'high': 'max',
+                                                          'low': 'min',
+                                                          'close': 'last'})
     df_pair_30Min = df_pair_30Min.dropna()
 
 
@@ -461,12 +579,13 @@ if __name__ == '__main__':
         ff_file = csv_prefix_ff + str(year) + '.csv'
 
         # Feature extraction from forexfactory data
-        df_features = fe_forexfactory(year, ff_file, currency_news)
-        #df_features.to_csv(output_path + csv_prefix_ff + str(year) + '_curated.csv', index=False)
+        df_features = fe_forexfactory(year, ff_file, currency_news, dst_correction)
 
         if len(df_features) != 0:
 
-            # Expand forexfactory dataframe with the 5min candle when the news were published
+            # Expand forexfactory´s dataframe with the information of exchange rate for when each new is released
+            # Note that each candle from dukascopy is right handled closed so, for getting the status of the market
+            # at 09:00 am, we need to merge the dataframe with the candle at 08:55
             last_column_name = '_released'
             df_features[last_column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=5)
             df_features = df_features.set_index(last_column_name).join(df_pair)
@@ -476,19 +595,20 @@ if __name__ == '__main__':
                                 'low': 'low' + last_column_name, \
                                 'close': 'close' + last_column_name}, axis='columns', inplace='True')
 
+            # We log any occurence when we don´t have market data 
             if len(df_features[df_features.isnull().any(1)]) > 0:
                 logging.error('Rows with nan fields when getting market data when the news were released')
                 logging.error(df_features[df_features.isnull().any(1)].values)
 
-            # Add the pair change pre - post new´s publication
+            # We also extract market information some time before the news are released.
+            # Why?, To validate our intuition that high volatility before the release of news could be a useful
+            # feature to predict market impact.
             df_features = fe_joined_with_dukascopy(df_features, df_pair, snapshots_5m, 5)
             df_features = fe_joined_with_dukascopy(df_features, df_pair_15Min, snapshots_15m, 15)
             df_features = fe_joined_with_dukascopy(df_features, df_pair_30Min, snapshots_30m, 30)
             if len(df_features) != 0:
 
-                # Save processed dataframe to disk
-                # df_features = df_features.convert_objects(convert_numeric=True)
-                #df_features.to_csv(output_path + csv_prefix_out + '_' + str(year) + '.csv', index=False)
+                # Append procesed data 
                 all_years_df = all_years_df.append(df_features)
 
             else:
