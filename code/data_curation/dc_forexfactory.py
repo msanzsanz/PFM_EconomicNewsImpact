@@ -43,7 +43,7 @@ def set_logger(log_file):
 #       log_file:   path + file to store program logs
 #
 ########################################################################################################################
-def compute_diff(row, forecasted_field, actual_field, error_field):
+def compute_diff_old(row, forecasted_field, actual_field, error_field):
     try:
 
         forecasted = row[forecasted_field]
@@ -113,7 +113,39 @@ def compute_diff(row, forecasted_field, actual_field, error_field):
     return diff
 
 
+def compute_diff(row, forecasted_field, actual_field, error_field):
+    try:
 
+        forecasted = row[forecasted_field]
+        actual = row[actual_field]
+
+        values = [forecasted, actual]
+
+        # Eliminate non-digits characters at the start of the value
+        for pos, val in enumerate(values):
+            i = 0
+            while not val[i].isdigit() and val[i] != '-':
+                i = i + 1
+
+            values[pos] = val[i:]
+
+        # Eliminate non-digits characters at the end of the value
+        for pos, val in enumerate(values):
+            i = -1
+            while not val[i].isdigit():
+                i = i - 1
+
+            if i != -1: values[pos] = val[0:i + 1]
+
+        forecasted_float = float(values[0])
+        actual_float = float(values[1])
+
+        diff = actual_float - forecasted_float
+
+    except:
+        diff = 9999
+
+    return diff
 ########################################################################################################################
 #
 #   DESCRIPTION:
@@ -363,7 +395,7 @@ def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
 #
 #
 ########################################################################################################################
-def compute_previous_error_ratio(df):
+def compute_previous_error_diff(df):
 
     # Unique list of news
     news_list = df['new'].unique()
@@ -374,18 +406,18 @@ def compute_previous_error_ratio(df):
         df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index()
         df_temp.drop(columns=['index'], axis=1, inplace=True)
         df_temp['previous_value'] = df_temp['actual'].shift().fillna(df_temp['previous'])
-        df_temp['previous_error_ratio'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value',
+        df_temp['previous_error_diff'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value',
                                                                                  'previous', 'previous_error'), axis=1)
-        df_temp['previous_error_ratio'] = df_temp['previous_error_ratio'].round(2)
+        df_temp['previous_error_diff'] = df_temp['previous_error_diff'].round(2)
 
         # We have used 9999 to flag those times when we have not been able to compute error rate
-        errors_found = len(df_temp[df_temp['previous_error_ratio'] == 9999])
+        errors_found = len(df_temp[df_temp['previous_error_diff'] == 9999])
         if errors_found != 0:
             logging.error(
                 'Unkown values appeared when computing previous error ratio values: {} times.\n'.format(errors_found))
-            logging.error(df[df['previous_error_ratio'] == 9999].values)
+            logging.error(df[df['previous_error_diff'] == 9999].values)
 
-        df_temp['total_error_ratio'] = df_temp['forecast_error_ratio'] + df_temp ['previous_error_ratio']
+        df_temp['total_error_diff'] = df_temp['forecast_error_diff'] + df_temp ['previous_error_diff']
 
         df_out = df_out.append(df_temp)
 
@@ -396,7 +428,7 @@ def compute_previous_error_ratio(df):
 #
 #   DESCRIPTION:
 #
-#       Function to normalize deviation errors based on the previous 5 releases
+#       Function to compute z-scores based on the previous 5 releases
 #
 #   INPUT PARAMETERS:
 #
@@ -411,19 +443,36 @@ def compute_deviation(df, field_name, size=5):
 
     for new in news_list:
         # sort by ascending datetime
-        df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index()
+        df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index().copy()
         df_temp.drop(columns=['index'], axis=1, inplace=True)
+
+        total_rows = len(df_temp)
+
         field_mean = field_name + '_mean'
         field_std = field_name + '_std'
         field_zscore = field_name + '_zscore'
+        field_
+        field_outlier = field_name + '_outlier'
 
         # compute mean and std of the last events
-        df_temp[field_mean] = df_temp[field_name].rolling(window=size, min_periods=1).mean()
-        df_temp[field_std] = df_temp[field_name].rolling(window=size, min_periods=1).std().fillna(1)
+        df_temp[field_mean] = df_temp[field_name].shift().rolling(window=size, min_periods=1).mean()
+        df_temp[field_std] = df_temp[field_name].shift().rolling(window=size, min_periods=1).std().fillna(1)
         df_temp[field_zscore] = ((df_temp[field_name] - df_temp[field_mean]) /
                                          df_temp[field_std]).fillna(0)
 
         df_temp[field_zscore] = df_temp[field_zscore].apply(lambda x: format(x,'.2f'))
+
+        upper_quantile = np.percentile(df_temp[field_name], 75)
+        lower_quantile = np.percentile(df_temp[field_name], 25)
+        iqr = upper_quantile - lower_quantile
+
+        inner_fence_up = upper_quantile + iqr * 1.5
+        inner_fence_down = lower_quantile - iqr * 1.5
+
+        outer_fence_up = upper_quantile + iqr * 3
+        outer_fence_down = lower_quantile - iqr * 3
+
+        df_temp[field_outlier] = df_temp[field_name].apply(lambda x: 'NORMAL' if x >= lower_quantile and x <= upper_quantile)
 
 
         df_out = df_out.append(df_temp)
@@ -494,15 +543,15 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
             logging.error('Removed these rows from the dataframe')
 
         # Compute the error, in %, between actual values and the forecasted ones
-        df['forecast_error_ratio'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual', 'forecast_error'), axis=1)
-        df['forecast_error_ratio'] = df['forecast_error_ratio'].round(2)
+        df['forecast_error_diff'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual', 'forecast_error'), axis=1)
+        df['forecast_error_diff'] = df['forecast_error_diff'].round(2)
 
         # We have used the encoding 9999 to flag whenever we have not been able to compute error rate
-        errors_found = len(df[df['forecast_error_ratio'] == 9999])
+        errors_found = len(df[df['forecast_error_diff'] == 9999])
         if errors_found != 0:
             logging.error(
                 'Unkown values appeared in the forecast - actual values: {} times.\n'.format(errors_found))
-            logging.error(df[df['forecast_error_ratio'] == 9999].values)
+            logging.error(df[df['forecast_error_diff'] == 9999].values)
 
         # Add categorical values related with datetime
         df['year'] = df['datetime'].dt.year
@@ -752,13 +801,13 @@ if __name__ == '__main__':
         logging.info('Processed year: {} for news from: {} in the pair: {}'.format(year, currency_news, currency_pair))
 
     logging.info('Compute deviation with actual values from the previous publication')
-    all_years_df = compute_previous_error_ratio(all_years_df)
+    all_years_df = compute_previous_error_diff(all_years_df)
 
     logging.info('Adding z-score for deviation between forecast and actual')
-    all_years_df = compute_deviation(all_years_df, 'forecast_error_ratio')
+    all_years_df = compute_deviation(all_years_df, 'forecast_error_diff')
 
     logging.info('Adding z-score for deviation between forecast and actual, including previous values')
-    all_years_df = compute_deviation(all_years_df, 'total_error_ratio')
+    all_years_df = compute_deviation(all_years_df, 'total_error_diff')
 
     all_years_df.to_csv(output_path + csv_prefix_out + \
                         '_news_' + currency_news + '_pair_' + \

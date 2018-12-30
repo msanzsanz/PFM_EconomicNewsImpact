@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData">
+    <serverData>
+      <paths name="edi-vf-3-3.ad.cirrus.com">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/usr/local/mnt/vega_scratch/scratch/msanz/TFM" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
