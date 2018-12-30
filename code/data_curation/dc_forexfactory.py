@@ -5,6 +5,8 @@ import numpy as np
 import pytz
 
 
+SNAPSHOT_OFFSET_BEFORE_RELEASE = 60
+CANDLE_SIZE = 5
 
 ########################################################################################################################
 #
@@ -74,6 +76,11 @@ def compute_diff(row, forecasted_field, actual_field, error_field):
 
         else:
             # we cannot divide by zero, so be handle this special case
+            # We consider a 100% error rate whenever:
+            #   forecast is 0 and actual is 1
+            #   forecast is 0.0 and actual is 0.1
+            #   forecast is 0.01 and actual is 0.01
+            #
             if forecasted_float == 0:
                 if actual_float == 0:
                     diff = 0
@@ -84,6 +91,9 @@ def compute_diff(row, forecasted_field, actual_field, error_field):
                 elif abs(actual_float) >= 0.01:
                     diff = actual_float * 10000
                 else:
+                    # Data has been explored to ensure there are no values < 0.01
+                    # Nevertheless, we log it as an ERROR if it happens
+                    logging.error('Diff between actual-forecasted cannot be computed ! ')
                     diff = 9999
             else:
                 diff_per = abs(actual_float - forecasted_float) * 100 / abs(forecasted_float)
@@ -162,9 +172,9 @@ def apply_dts_flag(row):
 #       Function to classify the new release based on the market impact
 #
 #           -2: USD decreases w.r.t EUR in > 20 pips
-#           -1: USD decreases w.r.t EUR in 5-20 pips
+#           -1: USD decreases w.r.t EUR in 10-20 pips
 #           0: almost no impact
-#           1: USD increases w.r.t EUR in 5-20 pips
+#           1: USD increases w.r.t EUR in 10-20 pips
 #           1: USD increases w.r.t EUR in > 20 pips
 #
 #   INPUT PARAMETERS:
@@ -185,7 +195,7 @@ def compute_direction(row, field_previous, field_current):
     out = 0
     sign = np.where(value_current >= value_previous, 1, -1)
 
-    if abs(value_previous - value_current) < 5:
+    if abs(value_previous - value_current) < 10:
         out = 0
     elif abs(value_previous - value_current) > 20:
         out = 2
@@ -193,6 +203,7 @@ def compute_direction(row, field_previous, field_current):
         out = 1
 
     return  out * sign
+
 
 ########################################################################################################################
 #
@@ -211,8 +222,8 @@ def compute_direction(row, field_previous, field_current):
 #
 ########################################################################################################################
 def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
-    try:
 
+    try:
         # Expand the forexfactory dataframe with as many snapshots as requested
         # After the publication of the new
         for snapshot in snapshots:
@@ -221,7 +232,52 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
             df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=offset)
 
             # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
-            # We rounded them to the closest 15 min candle.
+            # We rounded them to the closest window
+            round_freq = str(freq) + 'min'
+            df_features[column_name] = df_features[column_name].dt.round(round_freq)
+
+            df_features = df_features.set_index(column_name).join(df_pair)
+            df_features = df_features.reset_index(drop=True)
+
+            df_features['volatility'] = abs(df_features['high'] - df_features['low'])
+            df_features['direction_candle'] = df_features.apply(lambda row: compute_direction(row, 'open', 'close'), axis=1)
+            df_features['direction_agg'] = df_features.apply(lambda row: compute_direction(row, 'close_released', 'close'), axis=1)
+
+            df_features['pips_agg'] = df_features['close'] - df_features['close_released']
+            df_features['pips_candle'] = df_features['close'] - df_features['open']
+
+            # Drop undesired columns
+            df_features = df_features.drop(['open'], axis=1)
+
+            df_features.rename({'close': 'close' + column_name,
+                                'low': 'low' + column_name,
+                                'high': 'high' + column_name, \
+                                'volatility': 'volatility' + column_name, \
+                                'direction_candle': 'direction_candle' + column_name, \
+                                'direction_agg': 'direction_agg' + column_name, \
+                                'pips_agg': 'pips_agg' + column_name,
+                                'pips_candle': 'pips_candle' + column_name}, \
+                               inplace=True, axis='columns')
+
+        return df_features
+
+    except BaseException as e:
+        logging.error('Error while extracting features from the currency pair')
+        logging.error('exception: {}'.format(e))
+        return pd.DataFrame()
+
+def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
+
+    try:
+        # Expand the forexfactory dataframe with as many snapshots as requested
+        # After the publication of the new
+        for snapshot in snapshots:
+            offset = snapshot - freq
+            column_name = '_' + str(offset) + '_' + str(snapshot) + '_after'
+            df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=offset)
+
+            # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
+            # We rounded them to the closest window
             round_freq = str(freq) + 'min'
             df_features[column_name] = df_features[column_name].dt.round(round_freq)
 
@@ -367,6 +423,8 @@ def compute_deviation(df, field_name, size=5):
         df_temp[field_zscore] = ((df_temp[field_name] - df_temp[field_mean]) /
                                          df_temp[field_std]).fillna(0)
 
+        df_temp[field_zscore] = df_temp[field_zscore].apply(lambda x: format(x,'.2f'))
+
 
         df_out = df_out.append(df_temp)
 
@@ -386,7 +444,7 @@ def compute_deviation(df, field_name, size=5):
 #       currency:       three-letter abbreviation for the news of interest. E.g. USD for United States dollar news
 #       dst_correction: "ON" if the scrapper was run when DST was off
 #                       "OFF" otherwise
-#       freq:           [optional] window-size of the market data
+#       freq:           [optional] window-size of how the market data was downloaded from dukascopy
 #
 ########################################################################################################################
 
@@ -461,6 +519,69 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
         logging.error('Error {}: this dataset does not have the expected 52 weeks\n'.format(year))
         return pd.DataFrame()
 
+
+def get_market_information_after(df, snapshot_at):
+
+    df_local = df.copy()
+
+    sufix = '_0_' + str(snapshot_at) + '_after'
+    window_size = snapshot_at // CANDLE_SIZE
+
+    column_high = 'high' + sufix
+    column_low = 'low' + sufix
+    column_open = 'open' + sufix
+    column_volatility = 'volatility' + sufix
+    column_pips = 'pips_agg' + sufix
+    column_direction = 'direction_agg' + sufix
+
+    # rolling function counts for the current row. Shift jumps as many rows as indicated
+    df_local[column_high] = df_local['high'].rolling(window=window_size, min_periods=1).max()
+    df_local[column_low] = df_local['low'].rolling(window=window_size, min_periods=1).min()
+
+    df_local[column_volatility] = df_local[column_high] - df_local[column_low]
+    df_local[column_volatility] = df_local[column_volatility].astype(int)
+
+    df_local[column_open] = df_local['open'].shift(window_size - 1).fillna(df_local['open'])
+    df_local[column_pips] = df_local[column_open] - df_local['open']
+    df_local[column_pips] = df_local[column_pips].astype(int)
+
+    #df_local[column_direction] = df_local.apply(lambda row: compute_direction(row, 'open', column_open), axis=1)
+
+    # Drop undesired columns
+    df_local = df_local.drop([column_high, column_low, column_open, 'open', 'high', 'low', 'close'], axis=1)
+
+    return df_local
+
+def get_market_information_before (df_pair, snapshot_at):
+
+    df = df_pair.copy()
+    sufix = '_' + str(snapshot_at) + '_0_before'
+    window_size = snapshot_at // CANDLE_SIZE
+
+    column_high = 'high' + sufix
+    column_low = 'low' + sufix
+    column_open = 'open' + sufix
+    column_volatility = 'volatility' + sufix
+    column_pips = 'pips_agg' + sufix
+    column_direction = 'direction_agg' + sufix
+
+    # rolling function counts for the current row. Shift jumps as many rows as indicated
+    df[column_high] = df['high'].rolling(window=window_size, min_periods=1).max()
+    df[column_low] = df['low'].rolling(window=window_size, min_periods=1).min()
+    df[column_volatility] = df[column_high] - df[column_low]
+    df[column_volatility] = df[column_volatility].astype(int)
+
+    df[column_open] = df['open'].shift(window_size-1).fillna(df['open'])
+    df[column_pips] = df['open'] - df[column_open]
+    df[column_pips] = df[column_pips].astype(int)
+
+    #df[column_direction] = df.apply(lambda row: compute_direction(row, column_open, 'open'), axis=1)
+
+    # Drop undesired columns
+    df = df.drop([column_high, column_low, column_open, 'open', 'high', 'low', 'close'], axis=1)
+
+    return df
+
 ########################################################################################################################
 #
 #   DESCRIPTION: 
@@ -473,7 +594,7 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
 #
 ########################################################################################################################
 
-def fe_forexfactory(filename):
+def fe_dukascopy(filename):
 
     df_pair = pd.read_csv(filename, header=0, sep=',')
     df_pair.columns = ['datetime_gmt', 'open', 'high', 'low', 'close', 'volume']
@@ -489,6 +610,26 @@ def fe_forexfactory(filename):
         df_pair[field] = df_pair[field].astype(int)
 
     return df_pair
+
+
+def add_features_from_snapshots(df_features, df_pair):
+
+    # Create a copy of the dataframe reversed
+    df_pair_reverse = df_pair[::-1].copy()
+
+    # We  extract market information some time before the news are released.
+    # Why?, To validate our intuition that high volatility before the release of news could be a useful
+    # feature to predict market impact
+    df_pair_before_release = get_market_information_before(df_pair, SNAPSHOT_OFFSET_BEFORE_RELEASE)
+    df_features = df_features.set_index('datetime_gmt').join(df_pair_before_release)
+    df_features = df_features.reset_index(drop=False)
+
+    for snapshot in snapshots_after:
+        df_pair_snapshot = get_market_information_after(df_pair_reverse, snapshot)
+        df_features = df_features.set_index('datetime_gmt').join(df_pair_snapshot)
+        df_features = df_features.reset_index(drop=False)
+
+    return df_features
 
 ########################################################################################################################
 #
@@ -506,7 +647,7 @@ def fe_forexfactory(filename):
 #
 #       currency_news:  three-letter abbreviation for the news of interest. E.g. USD for United States dollar news
 #       currency_pair:  six-letter abbreviation for the pair of interest. E.f. EURUSD for euro-american dollar
-#       snapshots_5m:   array of required snapshots for 5min candles
+#       candles_5m:   array of required snapshots for 5min candles
 #       snapshots_15m:  array of required snapshots for 15min candles
 #       snapshots_30m:  array of required snapshots for 30min candles
 #       dst_correction: "ON" if the scrapper was run when DST was off
@@ -534,13 +675,12 @@ if __name__ == '__main__':
     csv_prefix_ff = sys.argv[4]
     currency_news = sys.argv[5]
     currency_pair = sys.argv[6]
-    snapshots_5m = ast.literal_eval(sys.argv[7])
-    snapshots_15m = ast.literal_eval(sys.argv[8])
-    snapshots_30m = ast.literal_eval(sys.argv[9])
-    dst_correction = str(sys.argv[10])
-    output_path = sys.argv[11]
-    csv_prefix_out = sys.argv[12]
-    log_file = sys.argv[13]
+    candles_5m = ast.literal_eval(sys.argv[7])
+    snapshots_after = ast.literal_eval(sys.argv[8])
+    dst_correction = str(sys.argv[9])
+    output_path = sys.argv[10]
+    csv_prefix_out = sys.argv[11]
+    log_file = sys.argv[12]
 
     # Create log file
     set_logger(log_file)
@@ -549,25 +689,18 @@ if __name__ == '__main__':
     all_years_df = pd.DataFrame([])
 
     # Read the dataframe from dukascopy. Just one file for all years
-    df_pair = fe_forexfactory(input_path + currency_pair + '.zip')
+    logging.info('Reading dukascopy file...')
+    df_pair = fe_dukascopy(input_path + currency_pair + '.zip')
 
     # Group the historical data from dukascopy into 15-min windows
-    df_pair_15Min = df_pair.groupby(pd.Grouper(freq='15Min', closed='right', label='left')).agg(
-                                                        {'open': 'first',
-                                                         'high': 'max',
-                                                         'low': 'min',
-                                                         'close': 'last'})
-
-    # GroupBy could have created some nan rows if data contains windows GAPS, so we eliminate them
-    df_pair_15Min = df_pair_15Min.dropna()
-
-    # Do the same for 30-min windows
-    df_pair_30Min = df_pair.groupby(pd.Grouper(freq='30Min', closed='right', label='left')).agg(
-                                                         {'open': 'first',
-                                                          'high': 'max',
-                                                          'low': 'min',
-                                                          'close': 'last'})
-    df_pair_30Min = df_pair_30Min.dropna()
+    # df_pair_15Min = df_pair.groupby(pd.Grouper(freq='15Min', closed='right', label='left')).agg(
+    #                                                     {'open': 'first',
+    #                                                      'high': 'max',
+    #                                                      'low': 'min',
+    #                                                      'close': 'last'})
+    # 
+    # # GroupBy could have created some nan rows if data contains windows GAPS, so we eliminate them
+    # df_pair_15Min = df_pair_15Min.dropna()
 
 
     # Merge features
@@ -580,6 +713,9 @@ if __name__ == '__main__':
 
         # Feature extraction from forexfactory data
         df_features = fe_forexfactory(year, ff_file, currency_news, dst_correction)
+
+        # Add market information for the requested snapshots
+        df_features = add_features_from_snapshots(df_features, df_pair)
 
         if len(df_features) != 0:
 
@@ -600,12 +736,8 @@ if __name__ == '__main__':
                 logging.error('Rows with nan fields when getting market data when the news were released')
                 logging.error(df_features[df_features.isnull().any(1)].values)
 
-            # We also extract market information some time before the news are released.
-            # Why?, To validate our intuition that high volatility before the release of news could be a useful
-            # feature to predict market impact.
-            df_features = fe_joined_with_dukascopy(df_features, df_pair, snapshots_5m, 5)
-            df_features = fe_joined_with_dukascopy(df_features, df_pair_15Min, snapshots_15m, 15)
-            df_features = fe_joined_with_dukascopy(df_features, df_pair_30Min, snapshots_30m, 30)
+            df_features = fe_joined_with_dukascopy(df_features, df_pair, candles_5m, 5)
+            
             if len(df_features) != 0:
 
                 # Append procesed data 

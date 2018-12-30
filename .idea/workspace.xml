@@ -3,7 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/.ipynb_checkpoints/Manual_checks-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/ALL_NO_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/ALL_NO_3_2_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/ALL_YES_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/ALL_YES_3_2_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/Exploratory_analisys.twb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/High_NO_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/High_YES_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/all-included-ALL_NO_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/all-included-ALL_NO_3_2_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/all-included-ALL_YES_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/all-included-ALL_YES_3_2_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/all-included-High_NO_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/all-included-High_YES_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2007_2018.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/features_rounded_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/models_performance/all_included_ALL_NO_1_1_1_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/models_summary_partial_.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/models_summary_partial__.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/sweeps_all_features_basic_grips.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_sweeps.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_sweeps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/run_models.sh" beforeDir="false" afterPath="$PROJECT_DIR$/models/run_models.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/dailyfx.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/errors_dailyfx.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/errors_forexfactory.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/forexfactory.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/forexfactory_2015.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/forexfactory_2016.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/forexfactory_2017.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/forexfactory_2018.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/geckodriver.log" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +48,13 @@
     <session id="1053039148">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -30,7 +64,7 @@
           <entry key="ipynb" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="78" />
+          <entry key="py" value="86" />
           <entry key="sh" value="3" />
           <entry key="txt" value="3" />
         </counts>
@@ -40,49 +74,49 @@
           <entry key="IPNB" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="78" />
+          <entry key="Python" value="86" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="AWS_Setup_for_sklearn" value="198" />
-          <entry key="Python Console" value="1552" />
-          <entry key="py" value="28056" />
-          <entry key="sh" value="719" />
+          <entry key="Python Console" value="1673" />
+          <entry key="py" value="32316" />
+          <entry key="sh" value="792" />
           <entry key="txt" value="1989" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2906" />
-          <entry key="Python" value="29608" />
+          <entry key="PLAIN_TEXT" value="2979" />
+          <entry key="Python" value="33989" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="-162">
+              <caret line="176" column="44" selection-start-line="176" selection-start-column="44" selection-end-line="176" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
+                <marker date="1546118026000" expanded="true" signature="25546:26384" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="240" selection-start-line="240" selection-end-line="240" />
+            <state relative-caret-position="114">
+              <caret line="449" column="38" selection-start-line="449" selection-start-column="18" selection-end-line="449" selection-end-column="38" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1545777290000" expanded="true" signature="2719:4191" ph="..." />
-                <marker date="1545777290000" expanded="true" signature="8405:8664" ph="..." />
+                <marker date="1546127280000" expanded="true" signature="18027:18152" ph="..." />
               </folding>
             </state>
           </provider>
@@ -91,7 +125,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="393">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
             </state>
           </provider>
@@ -100,8 +134,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/run_models.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+            <state relative-caret-position="30">
+              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -126,36 +160,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>apply_weights</find>
-      <find>model_fit_and_predict</find>
-      <find>exp_name</find>
-      <find>partial</find>
-      <find>4</find>
-      <find>run_classification_models_basic_grid</find>
-      <find>sweep_name</find>
-      <find>COLUMS_TO_PREDICT_PREFIX</find>
-      <find>fit</find>
-      <find>random_state</find>
-      <find>RANDO</find>
-      <find>= 2</find>
-      <find>zip</find>
-      <find>confusion_matrix</find>
-      <find>conf_matrix</find>
-      <find>PREDICTED_VALUES</find>
-      <find>predicted</find>
-      <find>get_prediction_rates</find>
-      <find>append</find>
-      <find>previous</find>
+      <find>set_logger</find>
+      <find>quarter</find>
+      <find>format</find>
+      <find>.f</find>
       <find>compute_deviation</find>
-      <find>log_file</find>
-      <find>freq</find>
-      <find>read_df_dukascopy</find>
-      <find>compute_diff_old</find>
-      <find>add_dst_flag</find>
-      <find>group_forexite_by_freq</find>
-      <find>fe_forexfactory</find>
-      <find>compute_direction</find>
-      <find>compute_previous_error_ratio</find>
+      <find>direction_</find>
+      <find>columns_to_predict[0]</find>
+      <find>add_class_to_predict</find>
+      <find>np.</find>
+      <find>20</find>
+      <find>COLUMS_TO_PREDICT_PREFIX</find>
+      <find>columns_to_predict</find>
+      <find>COLUMN_TO_PREDICT_REG_PREFIX</find>
+      <find>sweeps_market_variables</find>
+      <find>poly</find>
+      <find>'all</find>
+      <find>Star</find>
+      <find>model_fit_and_predict</find>
+      <find>df_results</find>
+      <find>run_classification_models_basic_grid</find>
+      <find>OUTPUT_COLUMNS</find>
+      <find>ALL</find>
+      <find>exp_name</find>
+      <find>convert_categorical_to_numerical_news</find>
+      <find>group_news_by_datetime</find>
+      <find>drop</find>
+      <find>get_prediction_rates</find>
+      <find>direction</find>
+      <find>conf_matrix</find>
+      <find>partial_results_path</find>
     </findStrings>
     <replaceStrings>
       <replace>get_date_features</replace>
@@ -164,7 +198,6 @@
       <replace>fe_forexfactory</replace>
       <replace>add_dts_flag</replace>
       <replace>df_pair</replace>
-      <replace>df</replace>
       <replace>prediction_error</replace>
       <replace>sweep_buy_sell</replace>
       <replace>columns_to_predict</replace>
@@ -179,6 +212,9 @@
       <replace>sweeps_market_variables</replace>
       <replace>all_included_</replace>
       <replace>included basic</replace>
+      <replace>df</replace>
+      <replace>add_market_information_before</replace>
+      <replace>candles_5m</replace>
       <replace>add_dst_flag</replace>
     </replaceStrings>
   </component>
@@ -201,17 +237,16 @@
         <option value="$PROJECT_DIR$/code/data_curation/tests/README.txt" />
         <option value="$PROJECT_DIR$/AWS_Setup_for_sklearn" />
         <option value="$PROJECT_DIR$/models/run.sh" />
+        <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
         <option value="$PROJECT_DIR$/models/run_models.sh" />
         <option value="$PROJECT_DIR$/models/models_sweeps.py" />
-        <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1263" />
-    <option name="height" value="753" />
+    <option name="width" value="1280" />
+    <option name="height" value="773" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -287,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dc_forexfactory.py">
+  <component name="RunManager" selected="Python.models_sweeps.py">
     <configuration default="true" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="PFM_EconomicNewsImpact" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,7 +395,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
-      <option name="PARAMETERS" value="2007 2018  &quot;../../data/raw/&quot; &quot;forexfactory_&quot; &quot;USD&quot; &quot;EURUSD&quot; &quot;[5,10,15,20,25,30]&quot; &quot;[45,60]&quot; &quot;[60,90,120,150,180,210,240]&quot; &quot;ON&quot; &quot;../../data/curated/&quot; &quot;features_rounded&quot; &quot;dc_forexfactory.log&quot;" />
+      <option name="PARAMETERS" value="2007 2018  &quot;../../data/raw/&quot; &quot;forexfactory_&quot; &quot;USD&quot; &quot;EURUSD&quot; &quot;[5,10,15,20,25,30]&quot; &quot;[45,60,90,120,150,180,210,240]&quot; &quot;ON&quot; &quot;../../data/curated/&quot; &quot;features&quot; &quot;dc_forexfactory.log&quot;" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -402,7 +437,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/models_sweeps.py" />
-      <option name="PARAMETERS" value="15_60,30_60,30_90,30_120,60_120,60_240  ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1   all included basic ../data/curated/features_rounded_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 45,60 60,90,120,150,180,210,240 ../data/curated/ sweeps_all_features_basic_grips" />
+      <option name="PARAMETERS" value="0_60,15_60,30_60,30_90,30_120,60_120,60_240  ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1   all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 45,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -436,23 +471,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1281" height="772" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.072222225" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1882353" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.11176471" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37885463" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.18649046" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2602941" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.2599119" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32205883" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.41116005" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,19 +513,14 @@
           <option name="timeStamp" value="71" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
-          <line>410</line>
-          <option name="timeStamp" value="203" />
+          <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
+          <line>377</line>
+          <option name="timeStamp" value="437" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>209</line>
-          <option name="timeStamp" value="364" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>240</line>
-          <option name="timeStamp" value="365" />
+          <line>290</line>
+          <option name="timeStamp" value="439" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -628,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="3191" selection-start-line="3191" selection-end-line="3191" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexes/accessors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="564">
@@ -653,13 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="142">
           <caret line="4386" selection-start-line="4386" selection-end-line="4386" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="1864" selection-start-line="1864" selection-end-line="1864" />
         </state>
       </provider>
     </entry>
@@ -692,20 +708,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
         </state>
       </provider>
     </entry>
@@ -758,10 +760,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/run.sh">
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/window.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="147">
+          <caret line="162" selection-start-line="162" selection-end-line="162" />
         </state>
       </provider>
     </entry>
@@ -772,31 +774,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/internals.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        <state relative-caret-position="143">
+          <caret line="5243" selection-start-line="5243" selection-end-line="5243" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1060" selection-start-line="1060" selection-end-line="1060" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="1326" selection-start-line="1326" selection-end-line="1326" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="176" column="44" selection-start-line="176" selection-start-column="44" selection-end-line="176" selection-end-column="44" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
-            <marker date="1545777290000" expanded="true" signature="2719:4191" ph="..." />
-            <marker date="1545777290000" expanded="true" signature="8405:8664" ph="..." />
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1546118026000" expanded="true" signature="25546:26384" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/run_models.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="30">
+          <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
+    <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="114">
+          <caret line="449" column="38" selection-start-line="449" selection-start-column="18" selection-end-line="449" selection-end-column="38" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
+            <marker date="1546127280000" expanded="true" signature="18027:18152" ph="..." />
           </folding>
         </state>
       </provider>

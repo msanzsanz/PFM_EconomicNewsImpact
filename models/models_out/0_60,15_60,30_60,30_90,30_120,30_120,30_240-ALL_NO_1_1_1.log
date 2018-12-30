@@ -1,0 +1,219 @@
+2018-12-30 00:48:10,218 - INFO - #########################
+2018-12-30 00:48:10,219 - INFO - 
+2018-12-30 00:48:10,219 - INFO - Starting a new sweep, grouping news by: ALL_NO_1_1_1
+2018-12-30 00:48:50,354 - INFO - Starting a new sweep with market features: all
+2018-12-30 00:48:50,354 - INFO - Starting a new sweep, features before the publication are: included
+2018-12-30 00:48:50,354 - INFO - Starting a new sweep, delay in between buying-selling is: 0_60
+2018-12-30 00:48:50,354 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 00:48:50,354 - INFO - List of dynamic market fields: ['volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_60_after']
+2018-12-30 00:48:51,220 - INFO - X columns for the model: ['total_error_ratio_zscore', 'week', 'pe_accurate', 'new_id', 'num_news', 'pips_agg_60_0_before', 'weekday', 'pe_worse', 'fe_worse', 'Low', 'Medium', 'fe_accurate', 'High', 'volatility_60_0_before', 'forecast_error_ratio_zscore', 'fe_better', 'year', 'pe_better']
+2018-12-30 00:48:51,272 - INFO - Starting KNeighborsClassifier
+2018-12-30 00:49:19,428 - INFO - Starting SVC - rbf
+2018-12-30 00:55:16,785 - INFO - There are no predictions for class -2
+2018-12-30 00:55:16,786 - INFO - There are no predictions for class -1
+2018-12-30 00:55:16,786 - INFO - There are no predictions for class 1
+2018-12-30 00:55:16,786 - INFO - There are no predictions for class 2
+2018-12-30 00:55:16,805 - INFO - Starting DecisionTreeClassifier
+2018-12-30 00:55:30,487 - INFO - There are no predictions for class -1
+2018-12-30 00:55:30,487 - INFO - There are no predictions for class 1
+2018-12-30 00:55:30,500 - INFO - Starting RandomForestClassifier
+2018-12-30 01:05:52,959 - INFO - There are no predictions for class -1
+2018-12-30 01:05:52,960 - INFO - There are no predictions for class 1
+2018-12-30 01:05:52,976 - INFO - Starting XGBClassifier
+2018-12-30 01:07:17,806 - INFO - Starting GradientBoostingClassifier
+2018-12-30 01:09:10,517 - INFO - Starting AdaBoostClassifier
+2018-12-30 01:09:35,532 - INFO - sweep done in: 20.75 min
+2018-12-30 01:09:35,534 - INFO - Starting a new sweep, delay in between buying-selling is: 15_60
+2018-12-30 01:09:35,534 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 01:09:35,535 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_60_after']
+2018-12-30 01:09:36,935 - INFO - X columns for the model: ['week', 'new_id', 'pips_candle_10_15_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'volatility_60_0_before', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'total_error_ratio_zscore', 'pe_accurate', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_candle_10_15_after', 'pips_agg_60_0_before', 'pe_worse', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'High', 'fe_better', 'volatility_5_10_after', 'year']
+2018-12-30 01:09:37,027 - INFO - Starting KNeighborsClassifier
+2018-12-30 01:10:53,303 - INFO - Starting SVC - rbf
+2018-12-30 01:18:08,700 - INFO - There are no predictions for class -2
+2018-12-30 01:18:08,700 - INFO - There are no predictions for class -1
+2018-12-30 01:18:08,701 - INFO - There are no predictions for class 1
+2018-12-30 01:18:08,701 - INFO - There are no predictions for class 2
+2018-12-30 01:18:08,711 - INFO - Starting DecisionTreeClassifier
+2018-12-30 01:18:28,033 - INFO - There are no predictions for class -1
+2018-12-30 01:18:28,034 - INFO - There are no predictions for class 1
+2018-12-30 01:18:28,048 - INFO - Starting RandomForestClassifier
+2018-12-30 01:30:11,581 - INFO - There are no predictions for class -1
+2018-12-30 01:30:11,582 - INFO - There are no predictions for class 1
+2018-12-30 01:30:11,599 - INFO - Starting XGBClassifier
+2018-12-30 01:32:24,046 - INFO - Starting GradientBoostingClassifier
+2018-12-30 01:35:20,974 - INFO - Starting AdaBoostClassifier
+2018-12-30 01:35:54,003 - INFO - There are no predictions for class -1
+2018-12-30 01:35:54,003 - INFO - There are no predictions for class 1
+2018-12-30 01:35:54,035 - INFO - sweep done in: 26.31 min
+2018-12-30 01:35:54,037 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2018-12-30 01:35:54,037 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 01:35:54,038 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'direction_candle_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'direction_candle_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'direction_candle_25_30_after', 'direction_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_60_after']
+2018-12-30 01:35:56,190 - INFO - X columns for the model: ['pips_candle_15_20_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'week', 'new_id', 'pips_candle_10_15_after', 'direction_candle_15_20_after', 'direction_agg_25_30_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'direction_candle_25_30_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'direction_agg_20_25_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'volatility_60_0_before', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'pips_agg_20_25_after', 'total_error_ratio_zscore', 'pe_accurate', 'year', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_agg_15_20_after', 'direction_candle_20_25_after', 'direction_candle_10_15_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pe_worse', 'volatility_20_25_after', 'volatility_25_30_after', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'pips_candle_20_25_after', 'High', 'fe_better', 'volatility_5_10_after', 'pips_agg_25_30_after']
+2018-12-30 01:35:56,360 - INFO - Starting KNeighborsClassifier
+2018-12-30 01:38:13,041 - INFO - Starting SVC - rbf
+2018-12-30 01:48:09,391 - INFO - There are no predictions for class -2
+2018-12-30 01:48:09,392 - INFO - There are no predictions for class -1
+2018-12-30 01:48:09,393 - INFO - There are no predictions for class 1
+2018-12-30 01:48:09,393 - INFO - There are no predictions for class 2
+2018-12-30 01:48:09,409 - INFO - Starting DecisionTreeClassifier
+2018-12-30 01:48:36,037 - INFO - There are no predictions for class -1
+2018-12-30 01:48:36,050 - INFO - Starting RandomForestClassifier
+2018-12-30 02:01:20,374 - INFO - Starting XGBClassifier
+2018-12-30 02:04:31,103 - INFO - Starting GradientBoostingClassifier
+2018-12-30 02:08:51,372 - INFO - Starting AdaBoostClassifier
+2018-12-30 02:09:35,049 - INFO - sweep done in: 33.68 min
+2018-12-30 02:09:35,055 - INFO - Starting a new sweep, delay in between buying-selling is: 30_90
+2018-12-30 02:09:35,056 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 02:09:35,056 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'direction_candle_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'direction_candle_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'direction_candle_25_30_after', 'direction_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_90_after']
+2018-12-30 02:09:36,763 - INFO - X columns for the model: ['pips_candle_15_20_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'week', 'new_id', 'pips_candle_10_15_after', 'direction_candle_15_20_after', 'direction_agg_25_30_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'direction_candle_25_30_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'direction_agg_20_25_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'volatility_60_0_before', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'pips_agg_20_25_after', 'total_error_ratio_zscore', 'pe_accurate', 'year', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_agg_15_20_after', 'direction_candle_20_25_after', 'direction_candle_10_15_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pe_worse', 'volatility_20_25_after', 'volatility_25_30_after', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'pips_candle_20_25_after', 'High', 'fe_better', 'volatility_5_10_after', 'pips_agg_25_30_after']
+2018-12-30 02:09:36,894 - INFO - Starting KNeighborsClassifier
+2018-12-30 02:12:10,788 - INFO - Starting SVC - rbf
+2018-12-30 02:21:52,140 - INFO - There are no predictions for class -2
+2018-12-30 02:21:52,141 - INFO - There are no predictions for class -1
+2018-12-30 02:21:52,141 - INFO - There are no predictions for class 1
+2018-12-30 02:21:52,142 - INFO - There are no predictions for class 2
+2018-12-30 02:21:52,158 - INFO - Starting DecisionTreeClassifier
+2018-12-30 02:22:17,162 - INFO - There are no predictions for class -1
+2018-12-30 02:22:17,163 - INFO - There are no predictions for class 1
+2018-12-30 02:22:17,177 - INFO - Starting RandomForestClassifier
+2018-12-30 02:34:48,193 - INFO - There are no predictions for class -1
+2018-12-30 02:34:48,206 - INFO - Starting XGBClassifier
+2018-12-30 02:37:52,105 - INFO - Starting GradientBoostingClassifier
+2018-12-30 02:41:50,518 - INFO - Starting AdaBoostClassifier
+2018-12-30 02:42:32,302 - INFO - There are no predictions for class -1
+2018-12-30 02:42:32,303 - INFO - There are no predictions for class 1
+2018-12-30 02:42:32,332 - INFO - sweep done in: 32.95 min
+2018-12-30 02:42:32,336 - INFO - Starting a new sweep, delay in between buying-selling is: 30_120
+2018-12-30 02:42:32,336 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 02:42:32,336 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'direction_candle_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'direction_candle_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'direction_candle_25_30_after', 'direction_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_120_after']
+2018-12-30 02:42:34,263 - INFO - X columns for the model: ['pips_candle_15_20_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'week', 'new_id', 'pips_candle_10_15_after', 'direction_candle_15_20_after', 'direction_agg_25_30_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'direction_candle_25_30_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'direction_agg_20_25_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'volatility_60_0_before', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'pips_agg_20_25_after', 'total_error_ratio_zscore', 'pe_accurate', 'year', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_agg_15_20_after', 'direction_candle_20_25_after', 'direction_candle_10_15_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pe_worse', 'volatility_20_25_after', 'volatility_25_30_after', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'pips_candle_20_25_after', 'High', 'fe_better', 'volatility_5_10_after', 'pips_agg_25_30_after']
+2018-12-30 02:42:34,441 - INFO - Starting KNeighborsClassifier
+2018-12-30 02:44:54,695 - INFO - Starting SVC - rbf
+2018-12-30 02:54:33,457 - INFO - There are no predictions for class -2
+2018-12-30 02:54:33,457 - INFO - There are no predictions for class -1
+2018-12-30 02:54:33,458 - INFO - There are no predictions for class 1
+2018-12-30 02:54:33,458 - INFO - There are no predictions for class 2
+2018-12-30 02:54:33,466 - INFO - Starting DecisionTreeClassifier
+2018-12-30 02:55:00,250 - INFO - There are no predictions for class -1
+2018-12-30 02:55:00,251 - INFO - There are no predictions for class 1
+2018-12-30 02:55:00,268 - INFO - Starting RandomForestClassifier
+2018-12-30 03:07:32,638 - INFO - There are no predictions for class -1
+2018-12-30 03:07:32,638 - INFO - There are no predictions for class 1
+2018-12-30 03:07:32,647 - INFO - Starting XGBClassifier
+2018-12-30 03:10:32,573 - INFO - There are no predictions for class -1
+2018-12-30 03:10:32,573 - INFO - There are no predictions for class 1
+2018-12-30 03:10:32,590 - INFO - Starting GradientBoostingClassifier
+2018-12-30 03:14:29,368 - INFO - Starting AdaBoostClassifier
+2018-12-30 03:15:10,872 - INFO - There are no predictions for class -1
+2018-12-30 03:15:10,872 - INFO - There are no predictions for class 1
+2018-12-30 03:15:10,904 - INFO - sweep done in: 32.64 min
+2018-12-30 03:15:10,918 - INFO - Starting a new sweep, delay in between buying-selling is: 30_120
+2018-12-30 03:15:10,919 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 03:15:10,919 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'direction_candle_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'direction_candle_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'direction_candle_25_30_after', 'direction_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_120_after']
+2018-12-30 03:15:12,576 - INFO - X columns for the model: ['pips_candle_15_20_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'week', 'new_id', 'pips_candle_10_15_after', 'direction_candle_15_20_after', 'direction_agg_25_30_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'direction_candle_25_30_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'direction_agg_20_25_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'volatility_60_0_before', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'pips_agg_20_25_after', 'total_error_ratio_zscore', 'pe_accurate', 'year', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_agg_15_20_after', 'direction_candle_20_25_after', 'direction_candle_10_15_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pe_worse', 'volatility_20_25_after', 'volatility_25_30_after', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'pips_candle_20_25_after', 'High', 'fe_better', 'volatility_5_10_after', 'pips_agg_25_30_after']
+2018-12-30 03:15:12,713 - INFO - Starting KNeighborsClassifier
+2018-12-30 03:17:31,452 - INFO - Starting SVC - rbf
+2018-12-30 03:26:56,535 - INFO - There are no predictions for class -2
+2018-12-30 03:26:56,535 - INFO - There are no predictions for class -1
+2018-12-30 03:26:56,536 - INFO - There are no predictions for class 1
+2018-12-30 03:26:56,536 - INFO - There are no predictions for class 2
+2018-12-30 03:26:56,548 - INFO - Starting DecisionTreeClassifier
+2018-12-30 03:27:22,049 - INFO - There are no predictions for class -1
+2018-12-30 03:27:22,050 - INFO - There are no predictions for class 1
+2018-12-30 03:27:22,061 - INFO - Starting RandomForestClassifier
+2018-12-30 03:39:50,075 - INFO - There are no predictions for class -1
+2018-12-30 03:39:50,076 - INFO - There are no predictions for class 1
+2018-12-30 03:39:50,091 - INFO - Starting XGBClassifier
+2018-12-30 03:42:48,315 - INFO - There are no predictions for class -1
+2018-12-30 03:42:48,315 - INFO - There are no predictions for class 1
+2018-12-30 03:42:48,328 - INFO - Starting GradientBoostingClassifier
+2018-12-30 03:46:43,676 - INFO - Starting AdaBoostClassifier
+2018-12-30 03:47:26,864 - INFO - There are no predictions for class -1
+2018-12-30 03:47:26,864 - INFO - There are no predictions for class 1
+2018-12-30 03:47:26,892 - INFO - sweep done in: 32.27 min
+2018-12-30 03:47:26,895 - INFO - Starting a new sweep, delay in between buying-selling is: 30_240
+2018-12-30 03:47:26,896 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 03:47:26,896 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'direction_candle_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'direction_candle_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'direction_candle_25_30_after', 'direction_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_240_after']
+2018-12-30 03:47:28,690 - INFO - X columns for the model: ['pips_candle_15_20_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'week', 'new_id', 'pips_candle_10_15_after', 'direction_candle_15_20_after', 'direction_agg_25_30_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'direction_candle_25_30_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'direction_agg_20_25_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'volatility_60_0_before', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'pips_agg_20_25_after', 'total_error_ratio_zscore', 'pe_accurate', 'year', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_agg_15_20_after', 'direction_candle_20_25_after', 'direction_candle_10_15_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pe_worse', 'volatility_20_25_after', 'volatility_25_30_after', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'pips_candle_20_25_after', 'High', 'fe_better', 'volatility_5_10_after', 'pips_agg_25_30_after']
+2018-12-30 03:47:28,865 - INFO - Starting KNeighborsClassifier
+2018-12-30 03:49:59,893 - INFO - Starting SVC - rbf
+2018-12-30 03:59:38,107 - INFO - There are no predictions for class -2
+2018-12-30 03:59:38,107 - INFO - There are no predictions for class -1
+2018-12-30 03:59:38,108 - INFO - There are no predictions for class 1
+2018-12-30 03:59:38,108 - INFO - There are no predictions for class 2
+2018-12-30 03:59:38,126 - INFO - Starting DecisionTreeClassifier
+2018-12-30 04:00:03,000 - INFO - There are no predictions for class -1
+2018-12-30 04:00:03,001 - INFO - There are no predictions for class 1
+2018-12-30 04:00:03,009 - INFO - Starting RandomForestClassifier
+2018-12-30 04:12:30,315 - INFO - There are no predictions for class -1
+2018-12-30 04:12:30,316 - INFO - There are no predictions for class 1
+2018-12-30 04:12:30,327 - INFO - Starting XGBClassifier
+2018-12-30 04:15:32,986 - INFO - There are no predictions for class 1
+2018-12-30 04:15:33,001 - INFO - Starting GradientBoostingClassifier
+2018-12-30 04:19:27,494 - INFO - Starting AdaBoostClassifier
+2018-12-30 04:20:09,223 - INFO - sweep done in: 32.71 min
+2018-12-30 04:20:09,228 - INFO - Starting a new sweep, features before the publication are: excluded
+2018-12-30 04:20:09,229 - INFO - Starting a new sweep, delay in between buying-selling is: 0_60
+2018-12-30 04:20:09,229 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 04:20:09,229 - INFO - List of dynamic market fields: ['datetime', 'pips_agg_0_60_after']
+2018-12-30 04:20:10,071 - INFO - X columns for the model: ['total_error_ratio_zscore', 'pe_accurate', 'week', 'new_id', 'num_news', 'weekday', 'pe_worse', 'fe_worse', 'Low', 'Medium', 'fe_accurate', 'High', 'forecast_error_ratio_zscore', 'fe_better', 'year', 'pe_better']
+2018-12-30 04:20:10,158 - INFO - Starting KNeighborsClassifier
+2018-12-30 04:20:26,001 - INFO - There are no predictions for class -1
+2018-12-30 04:20:26,002 - INFO - There are no predictions for class 1
+2018-12-30 04:20:26,019 - INFO - Starting SVC - rbf
+2018-12-30 04:25:53,835 - INFO - There are no predictions for class -2
+2018-12-30 04:25:53,835 - INFO - There are no predictions for class -1
+2018-12-30 04:25:53,836 - INFO - There are no predictions for class 1
+2018-12-30 04:25:53,836 - INFO - There are no predictions for class 2
+2018-12-30 04:25:53,847 - INFO - Starting DecisionTreeClassifier
+2018-12-30 04:26:03,233 - INFO - There are no predictions for class -2
+2018-12-30 04:26:03,233 - INFO - There are no predictions for class -1
+2018-12-30 04:26:03,234 - INFO - There are no predictions for class 1
+2018-12-30 04:26:03,234 - INFO - There are no predictions for class 2
+2018-12-30 04:26:03,247 - INFO - Starting RandomForestClassifier
+2018-12-30 04:36:01,403 - INFO - There are no predictions for class -1
+2018-12-30 04:36:01,403 - INFO - There are no predictions for class 1
+2018-12-30 04:36:01,420 - INFO - Starting XGBClassifier
+2018-12-30 04:37:14,320 - INFO - Starting GradientBoostingClassifier
+2018-12-30 04:38:56,050 - INFO - Starting AdaBoostClassifier
+2018-12-30 04:39:18,672 - INFO - There are no predictions for class -1
+2018-12-30 04:39:18,672 - INFO - There are no predictions for class 1
+2018-12-30 04:39:18,702 - INFO - sweep done in: 19.16 min
+2018-12-30 04:39:18,708 - INFO - Starting a new sweep, delay in between buying-selling is: 15_60
+2018-12-30 04:39:18,708 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 04:39:18,709 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'datetime', 'pips_agg_0_60_after']
+2018-12-30 04:39:19,990 - INFO - X columns for the model: ['week', 'new_id', 'pips_candle_10_15_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'total_error_ratio_zscore', 'pe_accurate', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_candle_10_15_after', 'pe_worse', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'High', 'fe_better', 'volatility_5_10_after', 'year']
+2018-12-30 04:39:20,085 - INFO - Starting KNeighborsClassifier
+2018-12-30 04:40:23,634 - INFO - Starting SVC - rbf
+2018-12-30 04:47:20,301 - INFO - There are no predictions for class -2
+2018-12-30 04:47:20,301 - INFO - There are no predictions for class -1
+2018-12-30 04:47:20,302 - INFO - There are no predictions for class 1
+2018-12-30 04:47:20,302 - INFO - There are no predictions for class 2
+2018-12-30 04:47:20,315 - INFO - Starting DecisionTreeClassifier
+2018-12-30 04:47:36,687 - INFO - There are no predictions for class -1
+2018-12-30 04:47:36,687 - INFO - There are no predictions for class 1
+2018-12-30 04:47:36,696 - INFO - Starting RandomForestClassifier
+2018-12-30 04:58:49,444 - INFO - There are no predictions for class -1
+2018-12-30 04:58:49,444 - INFO - There are no predictions for class 1
+2018-12-30 04:58:49,457 - INFO - Starting XGBClassifier
+2018-12-30 05:00:53,559 - INFO - Starting GradientBoostingClassifier
+2018-12-30 05:03:30,179 - INFO - Starting AdaBoostClassifier
+2018-12-30 05:04:00,895 - INFO - There are no predictions for class -1
+2018-12-30 05:04:00,896 - INFO - There are no predictions for class 1
+2018-12-30 05:04:00,921 - INFO - sweep done in: 24.70 min
+2018-12-30 05:04:00,925 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2018-12-30 05:04:00,925 - INFO - Starting a new sweep for grid mode: basic
+2018-12-30 05:04:00,925 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'direction_candle_0_5_after', 'direction_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'direction_candle_5_10_after', 'direction_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'direction_candle_10_15_after', 'direction_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'direction_candle_15_20_after', 'direction_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'direction_candle_20_25_after', 'direction_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'direction_candle_25_30_after', 'direction_agg_25_30_after', 'datetime', 'pips_agg_0_60_after']
+2018-12-30 05:04:02,555 - INFO - X columns for the model: ['pips_candle_15_20_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'week', 'new_id', 'pips_candle_10_15_after', 'direction_candle_15_20_after', 'direction_agg_25_30_after', 'pips_agg_10_15_after', 'weekday', 'volatility_0_5_after', 'direction_candle_25_30_after', 'fe_worse', 'Low', 'volatility_10_15_after', 'direction_agg_20_25_after', 'Medium', 'fe_accurate', 'pips_agg_0_5_after', 'forecast_error_ratio_zscore', 'direction_candle_0_5_after', 'pips_agg_5_10_after', 'pe_better', 'direction_agg_5_10_after', 'pips_agg_20_25_after', 'total_error_ratio_zscore', 'pe_accurate', 'year', 'pips_candle_5_10_after', 'num_news', 'pips_candle_0_5_after', 'direction_agg_0_5_after', 'direction_agg_15_20_after', 'direction_candle_20_25_after', 'direction_candle_10_15_after', 'pips_candle_25_30_after', 'pe_worse', 'volatility_20_25_after', 'volatility_25_30_after', 'direction_candle_5_10_after', 'direction_agg_10_15_after', 'pips_candle_20_25_after', 'High', 'fe_better', 'volatility_5_10_after', 'pips_agg_25_30_after']
+2018-12-30 05:04:02,682 - INFO - Starting KNeighborsClassifier
+2018-12-30 05:06:02,925 - INFO - Starting SVC - rbf
+2018-12-30 05:14:06,272 - INFO - There are no predictions for class -2
+2018-12-30 05:14:06,273 - INFO - There are no predictions for class -1
+2018-12-30 05:14:06,273 - INFO - There are no predictions for class 1
+2018-12-30 05:14:06,273 - INFO - There are no predictions for class 2
+2018-12-30 05:14:06,280 - INFO - Starting DecisionTreeClassifier
+2018-12-30 05:14:20,002 - INFO - Starting RandomForestClassifier
+2018-12-30 05:21:14,084 - INFO - Starting XGBClassifier
+2018-12-30 05:22:52,119 - INFO - Starting GradientBoostingClassifier
+2018-12-30 05:24:25,389 - INFO - Starting AdaBoostClassifier
+2018-12-30 05:24:42,496 - INFO - sweep done in: 20.69 min
