@@ -20,28 +20,32 @@ from sklearn.ensemble import AdaBoostClassifier, AdaBoostRegressor
 from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor
 import xgboost as xgb
 
-COLUMNS_OF_INTEREST_NEWS = ['datetime',
+COLUMNS_OF_INTEREST_NEWS = ['datetime_gmt',
+                            'datetime',
+                            'forecast_error',
                             'impact',
                             'new',
-                            'datetime_gmt',
-                            'forecast_error',
                             'previous_error',
-                            'forecast_error_ratio_zscore',
-                            'total_error_ratio_zscore',
-                            'year',
                             'week',
-                            'weekday']
+                            'year',
+                            'weekday',
+                            'forecast_error_diff_deviation',
+                            'forecast_error_diff_outlier_class',
+                            'previous_error_diff_deviation',
+                            'previous_error_diff_outlier_class'
+                            ]
 
 
 COLUMNS_MARKET_REACTION_BEFORE = ['volatility', 'pips_agg']
 
-COLUMNS_MARKET_REACTION_AFTER_BASIC = ['volatility', 'pips_agg', 'pips_candle']
+COLUMNS_MARKET_REACTION_AFTER_BASIC = ['volatility', 'pips_agg']
 
-COLUMNS_MARKET_REACTION_AFTER_ALL = ['volatility', 'pips_agg', 'pips_candle',
-                                 'direction_candle', 'direction_agg']
+COLUMNS_MARKET_REACTION_AFTER_ALL = ['volatility', 'pips_agg', 'pips_candle']
 
-COLUMNS_TO_AGG = ['forecast_error_ratio_zscore',
-                  'total_error_ratio_zscore',
+COLUMNS_TO_AGG = ['forecast_error_diff_deviation',
+                  'forecast_error_diff_outlier_class',
+                  'previous_error_diff_deviation',
+                  'previous_error_diff_outlier_class'
                   'fe_accurate',
                   'fe_better',
                   'fe_worse',
@@ -62,7 +66,14 @@ TEST_SIZE = 0.20
 RANDOM_STATE = 42
 CROSS_VAL = 5
 
-PREDICTED_VALUES = [-2, -1, 0, 1, 2]
+THS_30 = 9
+THS_60 = 11
+THS_90 = 14
+THS_120 = 15
+THS_150 = 16
+THS_180 = 17
+THS_210 = 18
+THS_240 = 19
 
 OUTPUT_COLUMNS = ['model_type', 'model', 'sweeps_market_variables', 'sweep_news_agg',
                    'sweep_buy_sell','before_data', 'sweep_grid', 'best_score', 'best_params',
@@ -401,6 +412,45 @@ def get_dynamic_market_fields_after(candles_5m, snapshots_after, type):
 
     return dynamic_market_fields
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Function to classify the new release based on the market impact
+#
+#           -2: USD decreases w.r.t EUR in > 20 pips
+#           -1: USD decreases w.r.t EUR in 10-20 pips
+#           0: almost no impact
+#           1: USD increases w.r.t EUR in 10-20 pips
+#           1: USD increases w.r.t EUR in > 20 pips
+#
+#   INPUT PARAMETERS:
+#
+#       row:                dataframe row
+#       field_previous      field of the row containing previous value
+#       field_current       field of the row containing current value
+#
+#       Note: Columns names are passed as i/p as we are going to compute the market reaction at different snapshots
+#
+########################################################################################################################
+
+def compute_direction(row, field_previous, field_current):
+
+    value_previous = row[field_previous]
+    value_current = row[field_current]
+
+    out = 0
+    sign = np.where(value_current >= value_previous, 1, -1)
+
+    if abs(value_previous - value_current) < 10:
+        out = 0
+    elif abs(value_previous - value_current) > 20:
+        out = 2
+    else:
+        out = 1
+
+    return  out * sign
+
 
 def get_dynamic_market_fields_before():
 
@@ -409,15 +459,15 @@ def get_dynamic_market_fields_before():
 
     return dynamic_market_fields
 
-def get_class(x):
+def get_class(x, sell_after):
 
-    sign = np.where(x > 0 , 1, -1)
+    threshold = 'THS_' + str(sell_after)
 
-    if abs(x) < 10:
+    sign = np.where(x > threshold , 1, -1)
+
+    if abs(x) < threshold:
         out = 0
-    elif abs(x) > 20:
-        out = 2
-    else:
+    elif abs(x) > threshold:
         out = 1
 
     return out * sign
@@ -513,7 +563,7 @@ if __name__ == '__main__':
 
                             # we create the variable holding the classification to predict
                             df_market[columns_to_predict[0]] = df_market[columns_to_predict[1]].apply(
-                                                                            lambda x: get_class(x))
+                                                                            lambda x: get_class(x, sell_after))
 
                             df_news_sweep = df_news.merge(df_market, on='datetime', how='left')
 

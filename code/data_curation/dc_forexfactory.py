@@ -233,44 +233,6 @@ def apply_dts_flag(row):
     return row['datetime'] + pd.DateOffset(hours=row['dts_flag'])
 
 
-########################################################################################################################
-#
-#   DESCRIPTION:
-#
-#       Function to classify the new release based on the market impact
-#
-#           -2: USD decreases w.r.t EUR in > 20 pips
-#           -1: USD decreases w.r.t EUR in 10-20 pips
-#           0: almost no impact
-#           1: USD increases w.r.t EUR in 10-20 pips
-#           1: USD increases w.r.t EUR in > 20 pips
-#
-#   INPUT PARAMETERS:
-#
-#       row:                dataframe row
-#       field_previous      field of the row containing previous value
-#       field_current       field of the row containing current value
-#
-#       Note: Columns names are passed as i/p as we are going to compute the market reaction at different snapshots
-#
-########################################################################################################################
-
-def compute_direction(row, field_previous, field_current):
-
-    value_previous = row[field_previous]
-    value_current = row[field_current]
-
-    out = 0
-    sign = np.where(value_current >= value_previous, 1, -1)
-
-    if abs(value_previous - value_current) < 10:
-        out = 0
-    elif abs(value_previous - value_current) > 20:
-        out = 2
-    else:
-        out = 1
-
-    return  out * sign
 
 
 ########################################################################################################################
@@ -308,8 +270,6 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = df_features.apply(lambda row: compute_direction(row, 'open', 'close'), axis=1)
-            df_features['direction_agg'] = df_features.apply(lambda row: compute_direction(row, 'close_released', 'close'), axis=1)
 
             df_features['pips_agg'] = df_features['close'] - df_features['close_released']
             df_features['pips_candle'] = df_features['close'] - df_features['open']
@@ -321,8 +281,6 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
                                 'low': 'low' + column_name,
                                 'high': 'high' + column_name, \
                                 'volatility': 'volatility' + column_name, \
-                                'direction_candle': 'direction_candle' + column_name, \
-                                'direction_agg': 'direction_agg' + column_name, \
                                 'pips_agg': 'pips_agg' + column_name,
                                 'pips_candle': 'pips_candle' + column_name}, \
                                inplace=True, axis='columns')
@@ -353,8 +311,6 @@ def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = df_features.apply(lambda row: compute_direction(row, 'open', 'close'), axis=1)
-            df_features['direction_agg'] = df_features.apply(lambda row: compute_direction(row, 'close_released', 'close'), axis=1)
 
             df_features['pips_agg'] = df_features['close'] - df_features['close_released']
             df_features['pips_candle'] = df_features['close'] - df_features['open']
@@ -366,8 +322,6 @@ def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
                                 'low': 'low' + column_name,
                                 'high': 'high' + column_name, \
                                 'volatility': 'volatility' + column_name, \
-                                'direction_candle': 'direction_candle' + column_name, \
-                                'direction_agg': 'direction_agg' + column_name, \
                                 'pips_agg': 'pips_agg' + column_name,
                                 'pips_candle': 'pips_candle' + column_name}, \
                                inplace=True, axis='columns')
@@ -387,8 +341,7 @@ def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
             df_features = df_features.reset_index(drop=True)
 
             df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-            df_features['direction_candle'] = df_features.apply(lambda row: compute_direction(row, 'open', 'close'), axis=1)
-            df_features['direction_agg'] = df_features.apply(lambda row: compute_direction(row, 'close', 'close_released'), axis=1)
+
 
             df_features['pips_candle'] = df_features['close'] - df_features['open']
             df_features['pips_agg'] =  df_features['close_released'] - df_features['close']
@@ -400,8 +353,6 @@ def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
                                 'low': 'low' + column_name,
                                 'high': 'high' + column_name, \
                                 'volatility': 'volatility' + column_name, \
-                                'direction_candle': 'direction_candle' + column_name, \
-                                'direction_agg': 'direction_agg' + column_name, \
                                 'pips_agg': 'pips_agg' + column_name,
                                 'pips_candle': 'pips_candle' + column_name}, \
                                inplace=True, axis='columns')
@@ -484,19 +435,15 @@ def compute_deviation(df, field_name, size=5):
 
         total_rows = len(df_temp)
 
-        #field_mean = field_name + '_mean'
         field_std = field_name + '_std'
         field_dir_std = field_name + '_dir'
         field_deviation = field_name + '_deviation'
         field_uq = field_name + '_upper_quantile'
         field_lq = field_name + '_lower_quantile'
-        field_outlier = field_name + '_oulier_class'
+        field_outlier = field_name + '_outlier_class'
 
-        # compute mean and std of the last events
+        # compute std of the last events
         # We set min_periods to 5 for avoiding contaminating our data with the first scrapped entries
-        #df_temp[field_mean] = df_temp[field_name].shift().rolling(window=size, min_periods=size).mean()\
-        #                                                                                    .fillna(df_temp[field_name])
-
         df_temp[field_std] = df_temp[field_name].shift().rolling(window=size, min_periods=size).std()\
                                                                                             .fillna(df_temp[field_name])
 
@@ -528,7 +475,7 @@ def compute_deviation(df, field_name, size=5):
 
 
         # Drop undesired columns
-        #df_temp.drop(columns=[field_lq, field_uq, field_mean, field_std], axis=1, inplace=True)
+        df_temp.drop(columns=[field_lq, field_uq, field_std, field_dir_std], axis=1, inplace=True)
 
         df_out = df_out.append(df_temp)
 
@@ -686,7 +633,6 @@ def get_market_information_after(df, snapshot_at):
     column_open = 'open' + sufix
     column_volatility = 'volatility' + sufix
     column_pips = 'pips_agg' + sufix
-    column_direction = 'direction_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
     df_local[column_high] = df_local['high'].rolling(window=window_size, min_periods=1).max()
@@ -698,8 +644,6 @@ def get_market_information_after(df, snapshot_at):
     df_local[column_open] = df_local['open'].shift(window_size - 1).fillna(df_local['open'])
     df_local[column_pips] = df_local[column_open] - df_local['open']
     df_local[column_pips] = df_local[column_pips].astype(int)
-
-    #df_local[column_direction] = df_local.apply(lambda row: compute_direction(row, 'open', column_open), axis=1)
 
     # Drop undesired columns
     df_local = df_local.drop([column_high, column_low, column_open, 'open', 'high', 'low', 'close'], axis=1)
@@ -717,7 +661,6 @@ def get_market_information_before (df_pair, snapshot_at):
     column_open = 'open' + sufix
     column_volatility = 'volatility' + sufix
     column_pips = 'pips_agg' + sufix
-    column_direction = 'direction_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
     df[column_high] = df['high'].rolling(window=window_size, min_periods=1).max()
@@ -728,8 +671,6 @@ def get_market_information_before (df_pair, snapshot_at):
     df[column_open] = df['open'].shift(window_size-1).fillna(df['open'])
     df[column_pips] = df['open'] - df[column_open]
     df[column_pips] = df[column_pips].astype(int)
-
-    #df[column_direction] = df.apply(lambda row: compute_direction(row, column_open, 'open'), axis=1)
 
     # Drop undesired columns
     df = df.drop([column_high, column_low, column_open, 'open', 'high', 'low', 'close'], axis=1)
