@@ -32,6 +32,42 @@ def set_logger(log_file):
     logging.getLogger('').addHandler(console)
 
 
+def get_outlier_category(row, error_field, field_uq, field_lq):
+
+    upper_quantile = row[field_uq]
+    lower_quantile = row[field_lq]
+
+    # A minimum number of datapoints are needed to locate outliers
+    # The rolling windown will return nan if that minimum is not achieved
+    if np.isnan(upper_quantile):
+        category = 0
+
+    else:
+
+        diff_forecast_actual = row[error_field]
+
+        iqr = upper_quantile - lower_quantile
+
+        inner_fence_up = upper_quantile + iqr * 1.5
+        inner_fence_down = lower_quantile - iqr * 1.5
+
+        outer_fence_up = upper_quantile + iqr * 3
+        outer_fence_down = lower_quantile - iqr * 3
+
+        # We directly encode this features as numerical for avoiding having to do it before modeling
+        # 2: Extreme outlier, 1: outlier, 0: regular
+        if (diff_forecast_actual > outer_fence_up) or (diff_forecast_actual < outer_fence_down):
+            category = 2
+        elif (diff_forecast_actual > inner_fence_up) or (diff_forecast_actual < inner_fence_down):
+            category = 1
+        else:
+            category = 0
+
+    return  category
+
+
+
+
 ########################################################################################################################
 #
 #   DESCRIPTION:
@@ -448,36 +484,105 @@ def compute_deviation(df, field_name, size=5):
 
         total_rows = len(df_temp)
 
-        field_mean = field_name + '_mean'
+        #field_mean = field_name + '_mean'
         field_std = field_name + '_std'
-        field_zscore = field_name + '_zscore'
-        field_
-        field_outlier = field_name + '_outlier'
+        field_dir_std = field_name + '_dir'
+        field_deviation = field_name + '_deviation'
+        field_uq = field_name + '_upper_quantile'
+        field_lq = field_name + '_lower_quantile'
+        field_outlier = field_name + '_oulier_class'
 
         # compute mean and std of the last events
-        df_temp[field_mean] = df_temp[field_name].shift().rolling(window=size, min_periods=1).mean()
-        df_temp[field_std] = df_temp[field_name].shift().rolling(window=size, min_periods=1).std().fillna(1)
-        df_temp[field_zscore] = ((df_temp[field_name] - df_temp[field_mean]) /
-                                         df_temp[field_std]).fillna(0)
+        # We set min_periods to 5 for avoiding contaminating our data with the first scrapped entries
+        #df_temp[field_mean] = df_temp[field_name].shift().rolling(window=size, min_periods=size).mean()\
+        #                                                                                    .fillna(df_temp[field_name])
 
-        df_temp[field_zscore] = df_temp[field_zscore].apply(lambda x: format(x,'.2f'))
+        df_temp[field_std] = df_temp[field_name].shift().rolling(window=size, min_periods=size).std()\
+                                                                                            .fillna(df_temp[field_name])
 
-        upper_quantile = np.percentile(df_temp[field_name], 75)
-        lower_quantile = np.percentile(df_temp[field_name], 25)
-        iqr = upper_quantile - lower_quantile
+        df_temp[field_dir_std] = df_temp[field_name].shift().rolling(window=size, min_periods=0)\
+                                                                .apply(lambda window: get_direction(window, size),
+                                                                       raw=True)
 
-        inner_fence_up = upper_quantile + iqr * 1.5
-        inner_fence_down = lower_quantile - iqr * 1.5
 
-        outer_fence_up = upper_quantile + iqr * 3
-        outer_fence_down = lower_quantile - iqr * 3
 
-        df_temp[field_outlier] = df_temp[field_name].apply(lambda x: 'NORMAL' if x >= lower_quantile and x <= upper_quantile)
+        df_temp[field_deviation] = df_temp.apply(lambda row:compute_ratio(row, field_name, field_std, field_dir_std),
+                                                 axis=1)
 
+        df_temp[field_deviation] = df_temp[field_deviation].apply(lambda x: float(format(x, '.2f')))
+
+
+        df_temp[field_uq] = df_temp[field_name].shift().rolling(window=total_rows,min_periods=size)\
+                                                        .quantile(.75, interpolation = 'midpoint')\
+                                                        .fillna(df_temp[field_name])
+
+        df_temp[field_lq] = df_temp[field_name].shift().rolling(window=total_rows, min_periods=size) \
+                                                        .quantile(.25, interpolation='midpoint') \
+                                                        .fillna(df_temp[field_name])
+        df_temp[field_outlier] = df_temp.apply(lambda row: get_outlier_category(row, field_name, field_uq, field_lq),
+                                               axis=1)
+
+
+
+
+
+
+        # Drop undesired columns
+        #df_temp.drop(columns=[field_lq, field_uq, field_mean, field_std], axis=1, inplace=True)
 
         df_out = df_out.append(df_temp)
 
+
+    # Replace infinitive cases by a numeric value
+    #df_temp[field_zscore] = df_temp[field_zscore].replace(np.inf, 9999)
+    #max_zscore = max(df_temp[field_zscore])
+    #df_temp[field_zscore] = df_temp[field_zscore].replace(9999, max_zscore)
+
     return df_out
+
+def get_direction(array, size):
+
+    out = 1
+
+    if len(array) > 0:
+
+        if len(array) != size:
+            tmp = [array[-1]]
+
+        else:
+            tmp = [val/abs(val) for val in array]
+
+        value = sum(tmp)
+        if value >= 0:
+            out = 1
+
+        else: out = -1
+
+    return out
+
+
+
+def compute_ratio(row, field_value, field_std, field_dir_std):
+
+    value = row[field_value]
+    std = row[field_std]
+    sign = row[field_dir_std]
+
+    # First, id the std is pretty slow, we consider it as equal to zero
+    if std < 0.01:
+        std = 0
+
+    # Sign is a variable that captures whether the std in previous publications was positive or negative
+    # If this time the forecast was correct, but not before, this is a deviation from the past in the opposite direction
+    if value == 0:
+        out = std * sign * -1
+
+    elif std != 0:
+        out = value / std
+    else:
+        out = value
+
+    return out
 
 
 ########################################################################################################################
@@ -805,6 +910,9 @@ if __name__ == '__main__':
 
     logging.info('Adding z-score for deviation between forecast and actual')
     all_years_df = compute_deviation(all_years_df, 'forecast_error_diff')
+
+    logging.info('Adding z-score for corrections in previous published values')
+    all_years_df = compute_deviation(all_years_df, 'previous_error_diff')
 
     logging.info('Adding z-score for deviation between forecast and actual, including previous values')
     all_years_df = compute_deviation(all_years_df, 'total_error_diff')
