@@ -317,16 +317,16 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
                                        df_results)
 
     # SVC - poly
-    logging.info('Starting SVC - Poly')
-    clf_poly = GridSearchCV(SVC(kernel="poly", gamma="auto"),
+    #logging.info('Starting SVC - Poly')
+    #clf_poly = GridSearchCV(SVC(kernel="poly", gamma="auto"),
                              #param_grid={"C": [1, 3, 5], "degree": [2, 3] },
-                            param_grid={},
-                             scoring="accuracy",
-                             cv=CROSS_VAL)
+    #                        param_grid={},
+    #                         scoring="accuracy",
+    #                         cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
-                                       df_results)
+    #df_results = model_fit_and_predict(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
+    #                                   sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    #                                   df_results)
 
     # DecisionTree
     logging.info('Starting DecisionTreeClassifier')

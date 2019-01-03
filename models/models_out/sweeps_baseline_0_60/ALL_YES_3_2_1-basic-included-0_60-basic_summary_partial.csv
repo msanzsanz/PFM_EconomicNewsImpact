@@ -1,0 +1,22 @@
+,model_type,model,sweeps_market_variables,sweep_news_agg,sweep_buy_sell,before_data,sweep_grid,best_score,best_params,accuracy_test,accuracy_per_class,ocurrences_per_class,total_ocurrences,elapsed_time
+0,clf,kn,basic,ALL_YES_1_1_1,0_60,included,basic,0.55,{'n_neighbors': 81},0.53,"[7.555555555555555, 95.54140127388536, 7.6923076923076925]","[225, 471, 221]",917,0.47
+1,clf,svc-rbf,basic,ALL_YES_1_1_1,0_60,included,basic,0.53,"{'C': 1, 'gamma': 1}",0.51,"[0.0, 100.0, 0.0]","[225, 471, 221]",917,2.99
+2,clf,dtree,basic,ALL_YES_1_1_1,0_60,included,basic,0.54,"{'max_depth': 6, 'min_samples_leaf': 50}",0.52,"[18.666666666666668, 88.1104033970276, 8.597285067873303]","[225, 471, 221]",917,0.15
+3,clf,rforest,basic,ALL_YES_1_1_1,0_60,included,basic,0.54,"{'max_depth': 6, 'min_samples_leaf': 30, 'n_estimators': 100}",0.53,"[7.111111111111111, 98.51380042462846, 2.7149321266968327]","[225, 471, 221]",917,8.56
+4,clf,xgb,basic,ALL_YES_1_1_1,0_60,included,basic,0.54,{'n_estimators': 50},0.54,"[11.11111111111111, 93.63057324840764, 11.312217194570136]","[225, 471, 221]",917,0.66
+5,clf,gboosting,basic,ALL_YES_1_1_1,0_60,included,basic,0.54,{'n_estimators': 10},0.53,"[6.666666666666667, 97.45222929936305, 4.072398190045249]","[225, 471, 221]",917,0.89
+6,clf,ada,basic,ALL_YES_1_1_1,0_60,included,basic,0.53,{'n_estimators': 50},0.53,"[15.11111111111111, 88.53503184713375, 14.93212669683258]","[225, 471, 221]",917,0.31
+0,clf,kn,all,ALL_YES_1_1_1,0_60,included,basic,0.55,{'n_neighbors': 81},0.53,"[7.555555555555555, 95.54140127388536, 7.6923076923076925]","[225, 471, 221]",917,0.41
+1,clf,svc-rbf,all,ALL_YES_1_1_1,0_60,included,basic,0.53,"{'C': 1, 'gamma': 1}",0.51,"[0.0, 100.0, 0.0]","[225, 471, 221]",917,2.56
+2,clf,dtree,all,ALL_YES_1_1_1,0_60,included,basic,0.54,"{'max_depth': 6, 'min_samples_leaf': 50}",0.52,"[18.666666666666668, 88.1104033970276, 8.597285067873303]","[225, 471, 221]",917,0.13
+3,clf,rforest,all,ALL_YES_1_1_1,0_60,included,basic,0.54,"{'max_depth': 6, 'min_samples_leaf': 30, 'n_estimators': 100}",0.53,"[7.111111111111111, 98.51380042462846, 2.7149321266968327]","[225, 471, 221]",917,9.12
+4,clf,xgb,all,ALL_YES_1_1_1,0_60,included,basic,0.54,{'n_estimators': 50},0.54,"[11.11111111111111, 93.63057324840764, 11.312217194570136]","[225, 471, 221]",917,0.71
+5,clf,gboosting,all,ALL_YES_1_1_1,0_60,included,basic,0.54,{'n_estimators': 10},0.53,"[6.666666666666667, 97.45222929936305, 4.072398190045249]","[225, 471, 221]",917,0.97
+6,clf,ada,all,ALL_YES_1_1_1,0_60,included,basic,0.53,{'n_estimators': 50},0.53,"[15.11111111111111, 88.53503184713375, 14.93212669683258]","[225, 471, 221]",917,0.37
+0,clf,kn,basic,ALL_YES_3_2_1,0_60,included,basic,0.55,{'n_neighbors': 91},0.53,"[7.555555555555555, 96.39065817409767, 6.787330316742081]","[225, 471, 221]",917,0.70
+1,clf,svc-rbf,basic,ALL_YES_3_2_1,0_60,included,basic,0.53,"{'C': 1, 'gamma': 1}",0.51,"[0.0, 100.0, 0.0]","[225, 471, 221]",917,2.72
+2,clf,dtree,basic,ALL_YES_3_2_1,0_60,included,basic,0.53,"{'max_depth': 5, 'min_samples_leaf': 100}",0.51,"[11.11111111111111, 92.56900212314225, 3.167420814479638]","[225, 471, 221]",917,0.13
+3,clf,rforest,basic,ALL_YES_3_2_1,0_60,included,basic,0.54,"{'max_depth': 6, 'min_samples_leaf': 10, 'n_estimators': 100}",0.53,"[6.666666666666667, 97.45222929936305, 4.97737556561086]","[225, 471, 221]",917,8.77
+4,clf,xgb,basic,ALL_YES_3_2_1,0_60,included,basic,0.55,{'n_estimators': 10},0.54,"[10.666666666666666, 93.84288747346072, 11.764705882352942]","[225, 471, 221]",917,0.68
+5,clf,gboosting,basic,ALL_YES_3_2_1,0_60,included,basic,0.54,{'n_estimators': 10},0.52,"[6.222222222222222, 96.17834394904459, 5.429864253393665]","[225, 471, 221]",917,1.01
+6,clf,ada,basic,ALL_YES_3_2_1,0_60,included,basic,0.54,{'n_estimators': 50},0.54,"[17.77777777777778, 89.171974522293, 14.479638009049774]","[225, 471, 221]",917,0.41

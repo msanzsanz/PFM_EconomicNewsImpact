@@ -1,0 +1,8 @@
+,model_type,model,sweeps_market_variables,sweep_news_agg,sweep_buy_sell,before_data,sweep_grid,best_score,best_params,accuracy_test,accuracy_per_class,ocurrences_per_class,total_ocurrences,elapsed_time
+0,clf,kn,basic,ALL_YES_1_1_1,60_180,included,basic,0.66,{'n_neighbors': 51},0.66,"[40.30612244897959, 85.4043392504931, 41.58878504672897]","[196, 507, 214]",917,1.76
+1,clf,svc-rbf,basic,ALL_YES_1_1_1,60_180,included,basic,0.53,"{'C': 1, 'gamma': 1}",0.55,"[0.0, 100.0, 0.0]","[196, 507, 214]",917,3.72
+2,clf,dtree,basic,ALL_YES_1_1_1,60_180,included,basic,0.67,"{'max_depth': 3, 'min_samples_leaf': 100}",0.66,"[50.51020408163265, 84.02366863905326, 36.91588785046729]","[196, 507, 214]",917,0.26
+3,clf,rforest,basic,ALL_YES_1_1_1,60_180,included,basic,0.68,"{'max_depth': 5, 'min_samples_leaf': 50, 'n_estimators': 100}",0.66,"[45.40816326530612, 82.64299802761342, 44.85981308411215]","[196, 507, 214]",917,10.19
+4,clf,xgb,basic,ALL_YES_1_1_1,60_180,included,basic,0.68,{'n_estimators': 10},0.67,"[48.46938775510204, 81.85404339250493, 46.728971962616825]","[196, 507, 214]",917,1.04
+5,clf,gboosting,basic,ALL_YES_1_1_1,60_180,included,basic,0.68,{'n_estimators': 10},0.66,"[46.93877551020408, 82.44575936883629, 45.32710280373832]","[196, 507, 214]",917,1.42
+6,clf,ada,basic,ALL_YES_1_1_1,60_180,included,basic,0.66,{'n_estimators': 10},0.67,"[52.04081632653061, 77.90927021696253, 52.80373831775701]","[196, 507, 214]",917,0.49
