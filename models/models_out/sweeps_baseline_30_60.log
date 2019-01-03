@@ -1,0 +1,14 @@
+2019-01-03 07:23:23,331 - INFO - #########################
+2019-01-03 07:23:23,331 - INFO - 
+2019-01-03 07:23:23,332 - INFO - Starting a new sweep, grouping news by: ALL_YES_1_1_1
+2019-01-03 07:24:14,101 - INFO - Starting a new sweep with market features: basic
+2019-01-03 07:24:14,101 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-03 07:24:14,102 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2019-01-03 07:24:14,102 - INFO - Starting a new sweep for grid mode: basic
+2019-01-03 07:24:14,102 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_60_after']
+2019-01-03 07:24:15,063 - INFO - X columns for the model: ['volatility_10_15_after', 'fe_worse', 'volatility_5_10_after', 'Low', 'forecast_error_diff_outlier_class', 'volatility_20_25_after', 'year', 'fe_better', 'pe_better', 'pips_agg_20_25_after', 'previous_error_diff_deviation', 'Medium', 'volatility_25_30_after', 'pips_agg_10_15_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'previous_error_diff_outlier_class', 'High', 'pips_agg_25_30_after', 'volatility_60_0_before', 'volatility_0_5_after', 'pe_worse', 'num_news', 'fe_accurate', 'new_id', 'pips_agg_15_20_after', 'week', 'pe_accurate', 'weekday', 'forecast_error_diff_deviation', 'volatility_15_20_after', 'pips_agg_0_5_after']
+2019-01-03 07:24:15,134 - INFO - Starting KNeighborsClassifier
+2019-01-03 07:25:41,235 - INFO - Starting SVC - rbf
+2019-01-03 07:28:59,258 - INFO - There are no predictions for class 0
+2019-01-03 07:28:59,259 - INFO - There are no predictions for class 2
+2019-01-03 07:28:59,275 - INFO - Starting SVC - Poly

@@ -45,7 +45,7 @@ COLUMNS_MARKET_REACTION_AFTER_ALL = ['volatility', 'pips_agg', 'pips_candle']
 COLUMNS_TO_AGG = ['forecast_error_diff_deviation',
                   'forecast_error_diff_outlier_class',
                   'previous_error_diff_deviation',
-                  'previous_error_diff_outlier_class'
+                  'previous_error_diff_outlier_class',
                   'fe_accurate',
                   'fe_better',
                   'fe_worse',
@@ -74,6 +74,8 @@ THS_150 = 16
 THS_180 = 17
 THS_210 = 18
 THS_240 = 19
+
+PREDICTED_VALUES = [0,1,2]
 
 OUTPUT_COLUMNS = ['model_type', 'model', 'sweeps_market_variables', 'sweep_news_agg',
                    'sweep_buy_sell','before_data', 'sweep_grid', 'best_score', 'best_params',
@@ -170,10 +172,13 @@ def group_news_by_datetime(group_type, df):
 
     df_news = convert_categorical_to_numerical_news(df_news, group_type)
 
+
     if impact_filter == 'ALL':
         df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
-                                                   'forecast_error_ratio_zscore': lambda x: list(x),
-                                                   'total_error_ratio_zscore': lambda x: list(x),
+                                                   'forecast_error_diff_deviation': lambda x: list(x),
+                                                   'forecast_error_diff_outlier_class': lambda x: list(x),
+                                                   'previous_error_diff_deviation': lambda x: list(x),
+                                                   'previous_error_diff_outlier_class': lambda x: list(x),
                                                    'fe_accurate': lambda x: list(x),
                                                    'fe_better': lambda x: list(x),
                                                    'fe_worse': lambda x: list(x),
@@ -190,8 +195,10 @@ def group_news_by_datetime(group_type, df):
 
     else:
         df_news = df_news.groupby('datetime').agg({'new_id': lambda x: list(x),
-                                                   'forecast_error_ratio_zscore': lambda x: list(x),
-                                                   'total_error_ratio_zscore': lambda x: list(x),
+                                                   'forecast_error_diff_deviation': lambda x: list(x),
+                                                   'forecast_error_diff_outlier_class': lambda x: list(x),
+                                                   'previous_error_diff_deviation': lambda x: list(x),
+                                                   'previous_error_diff_outlier_class': lambda x: list(x),
                                                    'fe_accurate': lambda x: list(x),
                                                    'fe_better': lambda x: list(x),
                                                    'fe_worse': lambda x: list(x),
@@ -310,20 +317,19 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
                                        df_results)
 
     # SVC - poly
-    # logging.info('Starting SVC - Poly')
-    # clf_poly = GridSearchCV(SVC(kernel="poly", gamma='scale'),
-    #                         #param_grid={"C": [1, 3, 5], "degree": [2, 3], },
-    #                         param_grid={},
-    #                         scoring="accuracy",
-    #                         cv=CROSS_VAL)
+    logging.info('Starting SVC - Poly')
+    clf_poly = GridSearchCV(SVC(kernel="poly", gamma="auto"),
+                             #param_grid={"C": [1, 3, 5], "degree": [2, 3] },
+                            param_grid={},
+                             scoring="accuracy",
+                             cv=CROSS_VAL)
 
-    # df_results = model_fit_and_predict(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
-    #                                    sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
-    #                                    df_results)
+    df_results = model_fit_and_predict(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
+                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
 
     # DecisionTree
     logging.info('Starting DecisionTreeClassifier')
-    time_init = time.time()
     clf_dt = GridSearchCV(DecisionTreeClassifier(random_state=RANDOM_STATE),
                           param_grid={'min_samples_leaf': [10, 20, 30, 50, 100, 150, 200, 250],
                                       'max_depth': range(2, 7)},
@@ -336,7 +342,6 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
 
     # RandomForest
     logging.info('Starting RandomForestClassifier')
-    time_init = time.time()
     clf_rf = GridSearchCV(RandomForestClassifier(n_estimators=200, random_state=RANDOM_STATE),
                           param_grid={"min_samples_leaf": [10, 20, 30, 50, 100, 150, 200, 250],
                                       'max_depth': range(2, 7),
@@ -350,7 +355,6 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
 
     # XGBoost
     logging.info('Starting XGBClassifier')
-    time_init = time.time()
     clf_XGB = GridSearchCV(xgb.XGBClassifier(n_estimators=200, random_state=RANDOM_STATE),
                            # param_grid={'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
                            #            'max_depth': [3, 5, 10]},
@@ -364,7 +368,6 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
 
     # GradientBoosting
     logging.info('Starting GradientBoostingClassifier')
-    time_init = time.time()
     clf_gb = GridSearchCV(GradientBoostingClassifier(n_estimators=200, random_state=RANDOM_STATE),
                           param_grid={'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
@@ -376,7 +379,6 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
 
     # AdaBoost
     logging.info('Starting AdaBoostClassifier')
-    time_init = time.time()
     clf_ada = GridSearchCV(AdaBoostClassifier(n_estimators=200, random_state=RANDOM_STATE),
                            param_grid={'n_estimators': [10, 50, 100, 200]},
                            scoring="accuracy",
@@ -412,44 +414,8 @@ def get_dynamic_market_fields_after(candles_5m, snapshots_after, type):
 
     return dynamic_market_fields
 
-########################################################################################################################
-#
-#   DESCRIPTION:
-#
-#       Function to classify the new release based on the market impact
-#
-#           -2: USD decreases w.r.t EUR in > 20 pips
-#           -1: USD decreases w.r.t EUR in 10-20 pips
-#           0: almost no impact
-#           1: USD increases w.r.t EUR in 10-20 pips
-#           1: USD increases w.r.t EUR in > 20 pips
-#
-#   INPUT PARAMETERS:
-#
-#       row:                dataframe row
-#       field_previous      field of the row containing previous value
-#       field_current       field of the row containing current value
-#
-#       Note: Columns names are passed as i/p as we are going to compute the market reaction at different snapshots
-#
-########################################################################################################################
 
-def compute_direction(row, field_previous, field_current):
 
-    value_previous = row[field_previous]
-    value_current = row[field_current]
-
-    out = 0
-    sign = np.where(value_current >= value_previous, 1, -1)
-
-    if abs(value_previous - value_current) < 10:
-        out = 0
-    elif abs(value_previous - value_current) > 20:
-        out = 2
-    else:
-        out = 1
-
-    return  out * sign
 
 
 def get_dynamic_market_fields_before():
@@ -459,18 +425,41 @@ def get_dynamic_market_fields_before():
 
     return dynamic_market_fields
 
-def get_class(x, sell_after):
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Function to classify the new release based on the market impact
+#
+#           0: USD decreases w.r.t EUR in > THs value pips
+#           1: almost no impact
+#           2: USD increases w.r.t EUR in < THs value pips
+#
+#   INPUT PARAMETERS:
+#
+#       num_pips:           pips difference
+#       sell_after:         timestamp to sell
+#
+########################################################################################################################
 
-    threshold = 'THS_' + str(sell_after)
+def get_class(num_pips, sell_after):
 
-    sign = np.where(x > threshold , 1, -1)
+    if sell_after == 30: threshold = THS_30
+    elif sell_after == 60: threshold = THS_60
+    elif sell_after == 90: threshold = THS_90
+    elif sell_after == 120: threshold = THS_120
+    elif sell_after == 150: threshold = THS_150
+    elif sell_after == 180: threshold = THS_180
+    elif sell_after == 210: threshold = THS_210
+    elif sell_after == 240: threshold = THS_240
 
-    if abs(x) < threshold:
-        out = 0
-    elif abs(x) > threshold:
-        out = 1
+    if num_pips < threshold * -1 :
+        out = PREDICTED_VALUES[0]
+    elif num_pips > threshold:
+        out = PREDICTED_VALUES[2]
+    else: out = PREDICTED_VALUES[1]
 
-    return out * sign
+    return out
 
 if __name__ == '__main__':
 
@@ -496,9 +485,9 @@ if __name__ == '__main__':
     df = pd.read_csv(path_to_input_df)
     df_results = pd.DataFrame(columns=OUTPUT_COLUMNS)
 
-    partial_results_path = os.path.join(base_output_path, 'partial_results')
-    shutil.rmtree(partial_results_path, ignore_errors=True)
-    os.mkdir(partial_results_path)
+    partial_results_path = os.path.join(base_output_path, exp_name)
+    #shutil.rmtree(partial_results_path, ignore_errors=True)
+    #os.mkdir(partial_results_path)
 
     for sweep_how_agg_news in sweeps_how_agg_news:
 
@@ -589,4 +578,4 @@ if __name__ == '__main__':
                             logging.error('Sell delay should be in the list of 30min snapshots')
 
     df_results.to_csv(os.path.join(base_output_path, exp_name + '_models_performance.csv'))
-    shutil.rmtree(partial_results_path, ignore_errors=True)
+    #shutil.rmtree(partial_results_path, ignore_errors=True)

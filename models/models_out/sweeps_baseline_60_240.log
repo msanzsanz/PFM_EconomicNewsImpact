@@ -1,0 +1,14 @@
+2019-01-03 07:23:23,213 - INFO - #########################
+2019-01-03 07:23:23,214 - INFO - 
+2019-01-03 07:23:23,214 - INFO - Starting a new sweep, grouping news by: ALL_YES_1_1_1
+2019-01-03 07:24:14,094 - INFO - Starting a new sweep with market features: basic
+2019-01-03 07:24:14,094 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-03 07:24:14,094 - INFO - Starting a new sweep, delay in between buying-selling is: 60_240
+2019-01-03 07:24:14,095 - INFO - Starting a new sweep for grid mode: basic
+2019-01-03 07:24:14,095 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'volatility_0_45_after', 'pips_agg_0_45_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_240_after']
+2019-01-03 07:24:15,138 - INFO - X columns for the model: ['new_id', 'pe_accurate', 'pe_better', 'volatility_5_10_after', 'volatility_0_5_after', 'fe_worse', 'pips_agg_60_0_before', 'year', 'num_news', 'volatility_20_25_after', 'pips_agg_0_5_after', 'fe_accurate', 'pips_agg_5_10_after', 'volatility_10_15_after', 'fe_better', 'volatility_60_0_before', 'weekday', 'week', 'pips_agg_20_25_after', 'previous_error_diff_deviation', 'pips_agg_0_60_after', 'volatility_15_20_after', 'volatility_0_45_after', 'volatility_0_60_after', 'volatility_25_30_after', 'pips_agg_15_20_after', 'pips_agg_10_15_after', 'pe_worse', 'High', 'Low', 'forecast_error_diff_outlier_class', 'pips_agg_0_45_after', 'forecast_error_diff_deviation', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'Medium']
+2019-01-03 07:24:15,226 - INFO - Starting KNeighborsClassifier
+2019-01-03 07:25:57,906 - INFO - Starting SVC - rbf
+2019-01-03 07:29:23,049 - INFO - There are no predictions for class 0
+2019-01-03 07:29:23,050 - INFO - There are no predictions for class 2
+2019-01-03 07:29:23,063 - INFO - Starting SVC - Poly

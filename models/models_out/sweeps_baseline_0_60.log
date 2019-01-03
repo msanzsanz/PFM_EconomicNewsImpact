@@ -1,0 +1,14 @@
+2019-01-03 07:23:23,197 - INFO - #########################
+2019-01-03 07:23:23,198 - INFO - 
+2019-01-03 07:23:23,198 - INFO - Starting a new sweep, grouping news by: ALL_YES_1_1_1
+2019-01-03 07:24:14,740 - INFO - Starting a new sweep with market features: basic
+2019-01-03 07:24:14,741 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-03 07:24:14,741 - INFO - Starting a new sweep, delay in between buying-selling is: 0_60
+2019-01-03 07:24:14,741 - INFO - Starting a new sweep for grid mode: basic
+2019-01-03 07:24:14,749 - INFO - List of dynamic market fields: ['volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_60_after']
+2019-01-03 07:24:15,380 - INFO - X columns for the model: ['pe_worse', 'week', 'volatility_60_0_before', 'previous_error_diff_outlier_class', 'pips_agg_60_0_before', 'new_id', 'fe_worse', 'forecast_error_diff_deviation', 'Medium', 'fe_accurate', 'num_news', 'pe_better', 'year', 'weekday', 'Low', 'forecast_error_diff_outlier_class', 'pe_accurate', 'fe_better', 'High', 'previous_error_diff_deviation']
+2019-01-03 07:24:15,438 - INFO - Starting KNeighborsClassifier
+2019-01-03 07:24:46,658 - INFO - Starting SVC - rbf
+2019-01-03 07:27:37,049 - INFO - There are no predictions for class 0
+2019-01-03 07:27:37,050 - INFO - There are no predictions for class 2
+2019-01-03 07:27:37,061 - INFO - Starting SVC - Poly

@@ -2,10 +2,108 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2007_2018.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2015_2018.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/datafamiliarity.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/datafamiliarity.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-ALL_NO_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-ALL_NO_3_2_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-ALL_YES_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-ALL_YES_3_2_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-High_NO_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-High_YES_1_1_1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/0_60,15_60,30_60,30_90,30_120,30_120,30_240-High_YES_1_1_1_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-0_60-basic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-0_60-basic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_60-basic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_60-basic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_90-basic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_90-basic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-0_60-basic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-0_60-basic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_60-basic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_60-basic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_90-basic.csv" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_90-basic.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-excluded-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-excluded-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-excluded-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-excluded-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-excluded-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-excluded-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-excluded-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-excluded-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-excluded-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-excluded-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-excluded-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-excluded-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-excluded-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-excluded-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-excluded-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-excluded-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-excluded-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-15_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-30_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-30_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_ALL_YES_3_2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_High_NO_1_1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_High_YES_1_1_1.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/models_sweeps.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_sweeps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/nohup.out" beforeDir="false" afterPath="$PROJECT_DIR$/models/nohup.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/models/run.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,8 +134,8 @@
           <entry key="ipynb" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="90" />
-          <entry key="sh" value="3" />
+          <entry key="py" value="91" />
+          <entry key="sh" value="4" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -45,23 +143,23 @@
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="10" />
-          <entry key="Python" value="90" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="Python" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="AWS_Setup_for_sklearn" value="198" />
           <entry key="Python Console" value="1826" />
-          <entry key="py" value="36699" />
-          <entry key="sh" value="792" />
+          <entry key="py" value="36965" />
+          <entry key="sh" value="850" />
           <entry key="txt" value="1989" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="2979" />
-          <entry key="Python" value="38525" />
+          <entry key="PLAIN_TEXT" value="3037" />
+          <entry key="Python" value="38791" />
         </counts>
       </usages-collector>
     </session>
@@ -100,8 +198,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="450" column="99" selection-start-line="450" selection-start-column="90" selection-end-line="450" selection-end-column="99" />
+            <state relative-caret-position="186">
+              <caret line="138" column="97" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="97" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1546454567000" expanded="true" signature="1025:1026" ph="..." />
@@ -114,11 +212,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="55" column="37" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="37" />
+            <state relative-caret-position="482">
+              <caret line="339" column="61" selection-start-line="339" selection-start-column="61" selection-end-line="339" selection-end-column="61" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-                <marker date="1546454567000" expanded="true" signature="19657:19770" ph="..." />
+                <marker date="1546496515000" expanded="true" signature="19571:19759" ph="..." />
               </folding>
             </state>
           </provider>
@@ -127,26 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/run_models.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AWS_Setup_for_sklearn">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+            <state relative-caret-position="559">
+              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -162,36 +242,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>nan</find>
-      <find>_diff</find>
-      <find>compute_diff</find>
-      <find>forecast_err</find>
-      <find>get_outlier_category</find>
-      <find>size</find>
-      <find>compute_zscore</find>
-      <find>x</find>
-      <find>&gt; 0.1</find>
-      <find>forecast_error</find>
-      <find>window</find>
-      <find>get_dir</find>
-      <find>compute_deviation</find>
       <find>get_direction</find>
       <find>compute_ratio</find>
       <find>.drop</find>
       <find>_oulier</find>
       <find>where</find>
-      <find>PREDICTED_VALUES</find>
       <find>= 2</find>
-      <find>compute_direction</find>
       <find>compute_direc</find>
-      <find>run_classification_models_basic_grid</find>
+      <find>COLUMNS_MARKET_REACTION_BEFORE</find>
+      <find>direc</find>
+      <find>compute_direction</find>
+      <find>COLUMN_TO_PREDICT_CLF_PREFIX</find>
+      <find>market_fields_after</find>
       <find>COLUMNS_MARKET_REACTION_AFTER_ALL</find>
       <find>get_dynamic_market_fields_after</find>
-      <find>COLUMN_TO_PREDICT_CLF_PREFIX</find>
-      <find>COLUMNS_MARKET_REACTION_BEFORE</find>
+      <find>run_classification_models_basic_grid</find>
+      <find>base_output_path</find>
+      <find>COLUMNS_OF_INTEREST_NEWS</find>
+      <find>PREDICTED_VALUES</find>
+      <find>groupin</find>
+      <find>group_news_by_datetime</find>
+      <find>apply_weights</find>
+      <find>COLUMNS_TO_AGG</find>
+      <find>kne</find>
+      <find>model_fit_and_predict</find>
       <find>direction</find>
+      <find>get_</find>
       <find>get_class</find>
-      <find>direc</find>
+      <find>parti</find>
+      <find>partial_results_path</find>
+      <find>ploy</find>
     </findStrings>
     <replaceStrings>
       <replace>get_date_features</replace>
@@ -242,9 +322,9 @@
         <option value="$PROJECT_DIR$/data_cleaning/dc_forexfactory.py" />
         <option value="$PROJECT_DIR$/code/data_curation/tests/README.txt" />
         <option value="$PROJECT_DIR$/AWS_Setup_for_sklearn" />
-        <option value="$PROJECT_DIR$/models/run.sh" />
         <option value="$PROJECT_DIR$/models/run_models.sh" />
         <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
+        <option value="$PROJECT_DIR$/models/run.sh" />
         <option value="$PROJECT_DIR$/models/models_sweeps.py" />
       </list>
     </option>
@@ -256,9 +336,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-3" />
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="773" />
+    <option name="width" value="1296" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -469,7 +550,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/models_sweeps.py" />
-      <option name="PARAMETERS" value="0_60,15_60,30_60,30_90,30_120,60_120,60_240  ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1   all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 45,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline" />
+      <option name="PARAMETERS" value="30_60 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 45,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -506,13 +587,13 @@
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1429706" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09928515" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20998532" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32599118" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.06167401" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.24455959" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -555,23 +636,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>388</line>
+          <line>390</line>
           <option name="timeStamp" value="437" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>301</line>
-          <option name="timeStamp" value="439" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>465</line>
-          <option name="timeStamp" value="464" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
-          <line>569</line>
-          <option name="timeStamp" value="466" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -631,7 +697,6 @@
     <entry file="file:///anaconda3/lib/python3.6/_strptime.py" />
     <entry file="file:///anaconda3/lib/python3.6/shlex.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/bs4/element.py" />
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/groupby/groupby.py" />
     <entry file="file://$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
     <entry file="file://$PROJECT_DIR$/data_cleaning/dc_forexfactory.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/io/common.py" />
@@ -688,13 +753,6 @@
     </entry>
     <entry file="file:///anaconda3/lib/python3.6/logging/__init__.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/indexing.py" />
-    <entry file="file://$PROJECT_DIR$/models/run.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/run_models.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -731,10 +789,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/groupby/groupby.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="4657" selection-start-line="4657" selection-end-line="4657" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="450" column="99" selection-start-line="450" selection-start-column="90" selection-end-line="450" selection-end-column="99" />
+        <state relative-caret-position="186">
+          <caret line="138" column="97" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="97" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1546454567000" expanded="true" signature="1025:1026" ph="..." />
@@ -745,11 +817,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="32" selection-end-line="55" selection-end-column="37" />
+        <state relative-caret-position="482">
+          <caret line="339" column="61" selection-start-line="339" selection-start-column="61" selection-end-line="339" selection-end-column="61" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
-            <marker date="1546454567000" expanded="true" signature="19657:19770" ph="..." />
+            <marker date="1546496515000" expanded="true" signature="19571:19759" ph="..." />
           </folding>
         </state>
       </provider>
