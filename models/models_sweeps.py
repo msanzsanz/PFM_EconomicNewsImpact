@@ -9,10 +9,10 @@ import logging
 import time as time
 from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
 from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
-from sklearn.svm import SVC
+from sklearn.svm import SVC, SVR
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 from sklearn.ensemble import VotingClassifier
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
@@ -62,7 +62,7 @@ FIELD_LOW = 'Low'
 
 COLUMNS_IMPACT = [FIELD_HIGH, FIELD_MEDIUM, FIELD_LOW]
 
-TEST_SIZE = 0.20
+TEST_SIZE = 0.2
 RANDOM_STATE = 42
 CROSS_VAL = 5
 
@@ -77,9 +77,10 @@ THS_240 = 19
 
 PREDICTED_VALUES = [0,1,2]
 
-OUTPUT_COLUMNS = ['model_type', 'model', 'sweeps_market_variables', 'sweep_news_agg',
-                   'sweep_buy_sell','before_data', 'sweep_grid', 'best_score', 'best_params',
-                   'accuracy_test', 'accuracy_per_class', 'ocurrences_per_class','total_ocurrences', 'elapsed_time']
+OUTPUT_COLUMNS = ['model_type', 'model','sweeps_market_variables', 'sweep_news_agg','sweep_buy_sell','before_data',
+                  'sweep_grid','best_score','best_params','f1_microavg', 'precision_weighted', 'precision_EUR_down',
+                  'precision_EUR_same','precision_EUR_up','support_EUR_down','support_EUR_same','support_EUR_up',
+                  'report','elapsed_time']
 
 
 SNAPSHOT_OFFSET_BEFORE_RELEASE = 60
@@ -229,36 +230,18 @@ def group_news_by_datetime(group_type, df):
     return df_news
 
 
-def get_prediction_rates(conf_matrix):
-
-    correctly_predicted = []
-    total_true = []
-
-    for i in PREDICTED_VALUES:
-
-        try:
-            correctly_predicted.append(conf_matrix[i][i])
-        except:
-            logging.info('There are no predictions for class {}'.format(i))
-            correctly_predicted.append(0)
-
-        total_true.append(conf_matrix['All'][i])
-
-    return [a*100/b for a,b in zip(correctly_predicted, total_true)]
-
-
-def model_fit_and_predict(clf_model, model_name, X_train, y_train, X_test, y_test,
+def model_fit_and_classify(clf_model, model_name, X_train, y_train, X_test, y_test,
                           sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
                           df_results):
     time_init = time.time()
 
     clf_model.fit(X_train, y_train)
     y_predict = clf_model.predict(X_test)
-    acc = format(accuracy_score(y_predict, y_test), '.2f')
-    total_time = format((time.time() - time_init) / 60, '.2f')
 
-    conf_matrix = pd.crosstab(y_test, y_predict, rownames=['True'], colnames=['Predicted'],margins=True)
-    per_correctly_predicted = get_prediction_rates(conf_matrix)
+    clf_report = classification_report(y_test, y_predict, output_dict=True)
+
+
+    total_time = format((time.time() - time_init) / 60, '.2f')
 
 
     df_results = df_results.append({'model_type': 'clf',
@@ -270,24 +253,179 @@ def model_fit_and_predict(clf_model, model_name, X_train, y_train, X_test, y_tes
                                     'sweep_grid': sweep_grid,
                                     'best_score': format(clf_model.best_score_, '.2f'),
                                     'best_params': str(clf_model.best_params_),
-                                    'accuracy_test': acc,
-                                    'accuracy_per_class': per_correctly_predicted,
-                                    'ocurrences_per_class': [conf_matrix['All'][i] for i in PREDICTED_VALUES],
-                                    'total_ocurrences': sum([conf_matrix['All'][i] for i in PREDICTED_VALUES]),
+                                    'f1_microavg': format(clf_report['micro avg']['f1-score'], '.2f'),
+                                    'precision_weighted': format(clf_report['weighted avg']['precision'], '.2f'),
+                                    'precision_EUR_down': format(clf_report['0']['precision'], '.2f'),
+                                    'precision_EUR_same': format(clf_report['1']['precision'], '.2f'),
+                                    'precision_EUR_up': format(clf_report['2']['precision'], '.2f'),
+                                    'support_EUR_down': format(clf_report['0']['support'], '.2f'),
+                                    'support_EUR_same': format(clf_report['1']['support'], '.2f'),
+                                    'support_EUR_up': format(clf_report['2']['support'], '.2f'),
+                                    'report': str(clf_report),
                                     'elapsed_time': total_time},
                                    ignore_index=True)
 
     return df_results
 
 
-def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweeps_new, before_data, sweep_buy_sell,
+def model_fit_and_predict(reg_model, model_name, X_train, y_train, X_test, y_test,
+                          sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+                          df_results):
+
+    time_init = time.time()
+
+    reg_model.fit(X_train, y_train)
+    y_predict = reg_model.predict(X_test)
+
+    # MSE formula
+    # https://scikit-learn.org/stable/modules/model_evaluation.html#mean-squared-error
+    mse_test = np.sqrt(sum([diff**2 for diff in (y_test - y_predict)]) / len(y_test))
+
+
+    total_time = format((time.time() - time_init) / 60, '.2f')
+
+
+    df_results = df_results.append({'model_type': 'reg',
+                                    'model': model_name,
+                                    'sweeps_market_variables': sweeps_market_variables,
+                                    'sweep_news_agg': sweeps_new,
+                                    'sweep_buy_sell': sweep_buy_sell,
+                                    'before_data': before_data,
+                                    'sweep_grid': sweep_grid,
+                                    'best_score': format(np.sqrt(-reg_model.best_score_), '.2f'),
+                                    'best_params': str(reg_model.best_params_),
+                                    'f1_microavg': '',
+                                    'precision_weighted': '',
+                                    'precision_EUR_down': '',
+                                    'precision_EUR_same': '',
+                                    'precision_EUR_up': '',
+                                    'support_EUR_down': '',
+                                    'support_EUR_same': '',
+                                    'support_EUR_up': '',
+                                    'report': format(mse_test, '.2f'),
+                                    'elapsed_time': total_time},
+                                   ignore_index=True)
+
+    return df_results
+
+
+def run_models_basic_grid(df_news_sweep, sweep_market_feature, sweep_how_agg_news, sweep_include_data_before_release,
+                          sweep_when_buy_sell,columns_to_predict):
+
+    return pd.concat([run_classification_models_basic_grid(df_news_sweep,sweep_market_feature,sweep_how_agg_news,
+                                            sweep_include_data_before_release,sweep_when_buy_sell,columns_to_predict),
+                      run_regression_models_basic_grid(df_news_sweep, sweep_market_feature, sweep_how_agg_news,
+                                            sweep_include_data_before_release, sweep_when_buy_sell, columns_to_predict),
+                      ])
+
+
+def run_regression_models_basic_grid(df_news, sweep_market_variables, sweep_new, before_data, sweep_buy_sell,
                                          columns_to_predict):
 
     df_results = pd.DataFrame(columns = OUTPUT_COLUMNS)
 
     columns_of_model = list(set(df_news.columns) - set(columns_to_predict) - set(['datetime']))
 
-    logging.info('X columns for the model: {}'.format(columns_of_model))
+    logging.info('X columns for the regression model: {}'.format(columns_of_model))
+
+    X = df_news[columns_of_model].values
+    y = df_news[columns_to_predict[1]].values
+
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=TEST_SIZE, random_state=RANDOM_STATE)
+
+    # KNeighborsRegressor
+    logging.info('Starting KNeighborsRegressor')
+    reg_kn = GridSearchCV(KNeighborsRegressor(n_neighbors=1),
+                          param_grid={"n_neighbors": range(1, 200, 10)},
+                          scoring="neg_mean_squared_error",
+                          cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_kn, 'kn', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # SVR - rbf
+    logging.info('Starting SVR - rbf')
+    reg_svr = GridSearchCV(SVR(kernel="rbf"),
+                           param_grid={"C": [1, 3, 5], "gamma": range(1, 5)},
+                           scoring="neg_mean_squared_error",
+                           cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_svr, 'svr-rbf', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # DecisionTreeRegressor
+    logging.info('Starting DecisionTreeRegressor')
+    reg_dt = GridSearchCV(DecisionTreeRegressor(random_state=RANDOM_STATE),
+                          param_grid={'min_samples_leaf': [10, 20, 30, 50, 100, 150, 200, 250],
+                                      'max_depth': range(2, 8)},
+                          scoring="neg_mean_squared_error",
+                          cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_dt, 'dtree', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # RandomForest
+    logging.info('Starting RandomForestRegressor')
+    reg_rf = GridSearchCV(RandomForestRegressor(n_estimators=200, random_state=RANDOM_STATE),
+                          param_grid={"min_samples_leaf": [10, 20, 30, 50, 100, 150, 200, 250],
+                                      'max_depth': range(2, 8),
+                                      'n_estimators': [10, 50, 100, 200]},
+                          scoring="neg_mean_squared_error",
+                          cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_rf, 'rforest', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # XGBoost
+    logging.info('Starting XGBRegressor')
+    reg_XGB = GridSearchCV(xgb.XGBRegressor( random_state=RANDOM_STATE),
+                            param_grid={#'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
+                                       #'max_depth': [3, 5, 10],
+                                     'n_estimators': [10, 50, 100]},
+                           scoring="neg_mean_squared_error",
+                           cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_XGB, 'xgb', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # GradientBoostingRegressor
+    logging.info('Starting GradientBoostingRegressor')
+    reg_gb = GridSearchCV(GradientBoostingRegressor(n_estimators=200, random_state=RANDOM_STATE),
+                          param_grid={'n_estimators': [10, 50, 100, 200]},
+                          scoring="neg_mean_squared_error",
+                          cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_gb,'gboosting', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    # AdaBoost
+    logging.info('Starting AdaBoostRegressor')
+    reg_ada = GridSearchCV(AdaBoostRegressor(n_estimators=200, random_state=RANDOM_STATE),
+                           param_grid={'n_estimators': [10, 50, 100, 200]},
+                           scoring="neg_mean_squared_error",
+                           cv=CROSS_VAL)
+
+    df_results = model_fit_and_predict(reg_ada, 'ada', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
+                                       df_results)
+
+    return df_results
+
+
+def run_classification_models_basic_grid(df_news, sweep_market_variables, sweep_new, before_data, sweep_buy_sell,
+                                         columns_to_predict):
+
+    df_results = pd.DataFrame(columns = OUTPUT_COLUMNS)
+
+    columns_of_model = list(set(df_news.columns) - set(columns_to_predict) - set(['datetime']))
+
+    logging.info('X columns for the classification model: {}'.format(columns_of_model))
 
     X = df_news[columns_of_model].values
     y = df_news[columns_to_predict[0]].values
@@ -297,12 +435,12 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
     # KNeighborsClassifier
     logging.info('Starting KNeighborsClassifier')
     clf_kn = GridSearchCV(KNeighborsClassifier(n_neighbors=1),
-                          param_grid={"n_neighbors": range(1, 100, 10)},
+                          param_grid={"n_neighbors": range(1, 200, 10)},
                           scoring="accuracy",
                           cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_kn, 'kn', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_kn, 'kn', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     # SVC - rbf
@@ -312,8 +450,8 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
                            scoring="accuracy",
                            cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_svc, 'svc-rbf', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_svc, 'svc-rbf', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     # SVC - poly
@@ -324,46 +462,46 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
     #                         scoring="accuracy",
     #                         cv=CROSS_VAL)
 
-    #df_results = model_fit_and_predict(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
-    #                                   sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    #df_results = model_fit_and_classify(clf_poly, 'svc-poly', X_train, y_train, X_test, y_test,
+    #                                   sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
     #                                   df_results)
 
     # DecisionTree
     logging.info('Starting DecisionTreeClassifier')
     clf_dt = GridSearchCV(DecisionTreeClassifier(random_state=RANDOM_STATE),
                           param_grid={'min_samples_leaf': [10, 20, 30, 50, 100, 150, 200, 250],
-                                      'max_depth': range(2, 7)},
+                                      'max_depth': range(2, 8)},
                           scoring="accuracy",
                           cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_dt, 'dtree', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_dt, 'dtree', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     # RandomForest
     logging.info('Starting RandomForestClassifier')
     clf_rf = GridSearchCV(RandomForestClassifier(n_estimators=200, random_state=RANDOM_STATE),
                           param_grid={"min_samples_leaf": [10, 20, 30, 50, 100, 150, 200, 250],
-                                      'max_depth': range(2, 7),
+                                      'max_depth': range(2, 8),
                                       'n_estimators': [10, 50, 100, 200]},
                           scoring="accuracy",
                           cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_rf, 'rforest', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_rf, 'rforest', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     # XGBoost
     logging.info('Starting XGBClassifier')
-    clf_XGB = GridSearchCV(xgb.XGBClassifier(n_estimators=200, random_state=RANDOM_STATE),
-                           # param_grid={'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
-                           #            'max_depth': [3, 5, 10]},
-                           param_grid={'n_estimators': [10, 50, 100, 200]},
+    clf_XGB = GridSearchCV(xgb.XGBClassifier( random_state=RANDOM_STATE),
+                            param_grid={#'learning_rate': [0.01, 0.1, 0.5, 0.9], 'subsample': [0.3, 0.5, 0.9],
+                                       #'max_depth': [3, 5, 10],
+                                     'n_estimators': [10, 50, 100]},
                            scoring="accuracy",
                            cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_XGB, 'xgb', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_XGB, 'xgb', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     # GradientBoosting
@@ -373,8 +511,8 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
                           scoring="accuracy",
                           cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_gb,'gboosting', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_gb,'gboosting', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     # AdaBoost
@@ -384,8 +522,8 @@ def run_classification_models_basic_grid(df_news, sweeps_market_variables, sweep
                            scoring="accuracy",
                            cv=CROSS_VAL)
 
-    df_results = model_fit_and_predict(clf_ada, 'ada', X_train, y_train, X_test, y_test,
-                                       sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
+    df_results = model_fit_and_classify(clf_ada, 'ada', X_train, y_train, X_test, y_test,
+                                       sweep_market_variables, sweep_new, sweep_buy_sell, before_data, sweep_grid,
                                        df_results)
 
     return df_results
@@ -486,8 +624,8 @@ if __name__ == '__main__':
     df_results = pd.DataFrame(columns=OUTPUT_COLUMNS)
 
     partial_results_path = os.path.join(base_output_path, exp_name)
-    #shutil.rmtree(partial_results_path, ignore_errors=True)
-    #os.mkdir(partial_results_path)
+    shutil.rmtree(partial_results_path, ignore_errors=True)
+    os.mkdir(partial_results_path)
 
     for sweep_how_agg_news in sweeps_how_agg_news:
 
@@ -559,13 +697,14 @@ if __name__ == '__main__':
                             df_news_sweep.to_csv(os.path.join(base_output_path, sweep_name + '.csv'))
 
                             if sweep_grid == 'basic':
-                                df_results = pd.concat([df_results, run_classification_models_basic_grid(
+                                df_results = pd.concat([df_results, run_models_basic_grid(
                                     df_news_sweep,
                                     sweep_market_feature,
                                     sweep_how_agg_news,
                                     sweep_include_data_before_release,
                                     sweep_when_buy_sell,
                                     columns_to_predict)])
+
 
                             total_time = format((time.time() - start_time) / 60, '.2f')
                             logging.info('sweep done in: {} min'.format(total_time))
@@ -578,4 +717,4 @@ if __name__ == '__main__':
                             logging.error('Sell delay should be in the list of 30min snapshots')
 
     df_results.to_csv(os.path.join(base_output_path, exp_name + '_models_performance.csv'))
-    #shutil.rmtree(partial_results_path, ignore_errors=True)
+    shutil.rmtree(partial_results_path, ignore_errors=True)

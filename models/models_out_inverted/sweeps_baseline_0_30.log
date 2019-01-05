@@ -1,0 +1,90 @@
+2019-01-04 11:23:24,286 - INFO - #########################
+2019-01-04 11:23:24,286 - INFO - 
+2019-01-04 11:23:24,287 - INFO - Starting a new sweep, grouping news by: ALL_NO_1_1_1
+2019-01-04 11:24:22,146 - INFO - Starting a new sweep with market features: basic
+2019-01-04 11:24:22,147 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:24:22,147 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:24:22,147 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:24:22,147 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:24:22,148 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:24:22,148 - INFO - Starting a new sweep with market features: all
+2019-01-04 11:24:22,148 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:24:22,148 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:24:22,148 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:24:22,148 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:24:22,148 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:24:22,149 - INFO - #########################
+2019-01-04 11:24:22,149 - INFO - 
+2019-01-04 11:24:22,149 - INFO - Starting a new sweep, grouping news by: ALL_NO_3_2_1
+2019-01-04 11:25:18,241 - INFO - Starting a new sweep with market features: basic
+2019-01-04 11:25:18,241 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:25:18,241 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:25:18,242 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:25:18,242 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:25:18,242 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:25:18,242 - INFO - Starting a new sweep with market features: all
+2019-01-04 11:25:18,242 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:25:18,242 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:25:18,243 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:25:18,243 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:25:18,243 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:25:18,252 - INFO - #########################
+2019-01-04 11:25:18,252 - INFO - 
+2019-01-04 11:25:18,252 - INFO - Starting a new sweep, grouping news by: ALL_YES_1_1_1
+2019-01-04 11:26:15,869 - INFO - Starting a new sweep with market features: basic
+2019-01-04 11:26:15,869 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:26:15,869 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:26:15,870 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:26:15,870 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:26:15,870 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:26:15,870 - INFO - Starting a new sweep with market features: all
+2019-01-04 11:26:15,870 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:26:15,870 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:26:15,870 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:26:15,871 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:26:15,871 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:26:15,871 - INFO - #########################
+2019-01-04 11:26:15,889 - INFO - 
+2019-01-04 11:26:15,889 - INFO - Starting a new sweep, grouping news by: ALL_YES_3_2_1
+2019-01-04 11:27:18,115 - INFO - Starting a new sweep with market features: basic
+2019-01-04 11:27:18,115 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:27:18,115 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:27:18,117 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:27:18,117 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:27:18,117 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:27:18,117 - INFO - Starting a new sweep with market features: all
+2019-01-04 11:27:18,117 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:27:18,118 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:27:18,118 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:27:18,118 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:27:18,118 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:27:18,118 - INFO - #########################
+2019-01-04 11:27:18,118 - INFO - 
+2019-01-04 11:27:18,118 - INFO - Starting a new sweep, grouping news by: High_NO_1_1_1
+2019-01-04 11:27:33,354 - INFO - Starting a new sweep with market features: basic
+2019-01-04 11:27:33,355 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:27:33,355 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:27:33,355 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:27:33,355 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:27:33,355 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:27:33,355 - INFO - Starting a new sweep with market features: all
+2019-01-04 11:27:33,355 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:27:33,355 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:27:33,356 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:27:33,356 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:27:33,356 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:27:33,356 - INFO - #########################
+2019-01-04 11:27:33,356 - INFO - 
+2019-01-04 11:27:33,356 - INFO - Starting a new sweep, grouping news by: High_YES_1_1_1
+2019-01-04 11:27:48,136 - INFO - Starting a new sweep with market features: basic
+2019-01-04 11:27:48,136 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:27:48,136 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:27:48,137 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:27:48,137 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:27:48,137 - ERROR - Sell delay should be in the list of 30min snapshots
+2019-01-04 11:27:48,137 - INFO - Starting a new sweep with market features: all
+2019-01-04 11:27:48,137 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-04 11:27:48,137 - INFO - Starting a new sweep, delay in between buying-selling is: 0_30
+2019-01-04 11:27:48,137 - INFO - Starting a new sweep for grid mode: basic
+2019-01-04 11:27:48,137 - ERROR - sweep not allowed. Buy delay: 0 - Sell after: 30
+2019-01-04 11:27:48,138 - ERROR - Sell delay should be in the list of 30min snapshots
