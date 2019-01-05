@@ -754,7 +754,7 @@ def add_features_from_snapshots(df_features, df_pair):
 #
 #   INVOCATION EXAMPLE:
 #
-#       python 2007 2018 ./../data/raw/ forexfactory USD EURUSD [5,10,15,20,25,30] [45,60] [60,90,120,180,210,240] \
+#       python 2007 2018 ./../data/raw/ forexfactory USD EURUSD [5,10,15,20,25,30] [30,60,90,120,180,210,240] ON \
 #               ../../data/curated/ features dc_forexfactory.log
 #
 #
@@ -776,6 +776,7 @@ if __name__ == '__main__':
     output_path = sys.argv[10]
     csv_prefix_out = sys.argv[11]
     log_file = sys.argv[12]
+
 
     # Create log file
     set_logger(log_file)
@@ -865,3 +866,5 @@ if __name__ == '__main__':
                         index=False)
 
     logging.info('End')
+
+
