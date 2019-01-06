@@ -6,6 +6,17 @@ import pandas as pd
 import sys
 
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to activate the logging mechanism
+#
+#   INPUT PARAMETERS:
+#
+#       log_file:   path + filename to store the program logs
+#
+########################################################################################################################
 def set_logger():
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s',
@@ -18,20 +29,35 @@ def set_logger():
     logging.getLogger('').addHandler(console)
 
 
-def get_economic_calendar(start_link, end_link, week_number, ouput_path):
-
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to scrap, weekly, the economic information from https://www.forexfactory.com/calendar.php
+#
+#   INPUT PARAMETERS:
+#
+#       start_link:   parameter indicating the first week to scrap, formatted as expected by forexfactory
+#       end_link:     parameter indicating the last week to scrap, formatted as expected by forexfactory
+#       week_number:  parameter indicating week number associated to the end_link week
+#       output_path:  path to store the scrapped data
+#
+########################################################################################################################
+def get_economic_calendar(start_link, end_link, week_number, output_path):
     d = []
     d_new_year = []
     curr_year = end_link[-4:]
 
     while start_link != end_link:
 
-        # write to console current status
+        # Log current status
         logging.info('Scraping data for link: {}'.format(end_link))
 
-        baseURL = 'https://www.forexfactory.com/'
+        baseURL = 'https://www.forexfactory.com/calendar.php?'
         r = requests.get(baseURL + end_link)
 
+        # If the server does not have information for the requiered week, it automatically changes the url to
+        # a fixed one: https://www.forexfactory.com/calendar.php
         if r.url == 'https://www.forexfactory.com/calendar.php':
             logging.info('No more data available in the server')
             calendar_df = pd.DataFrame(d)
@@ -42,7 +68,7 @@ def get_economic_calendar(start_link, end_link, week_number, ouput_path):
         soup = BeautifulSoup(data, 'lxml')
 
         # Get the week coverage to check whether there is a change in the year
-        week = soup.find('li', class_= "calendar__options left" )
+        week = soup.find('li', class_="calendar__options left")
         week_text = week.text.strip()
 
         year_start = week_text.split('-')[0].rstrip()[-4:]
@@ -59,7 +85,7 @@ def get_economic_calendar(start_link, end_link, week_number, ouput_path):
 
             # Get date
             data = tr.select('td.calendar__cell.calendar__{}.{}'.format('date', 'date'))[0]
-            if data.text.strip() != '' : curr_date = data.text.strip()
+            if data.text.strip() != '': curr_date = data.text.strip()
 
             # Some days have events, so we skip them
             if tr['data-eventid'] != '':
@@ -93,7 +119,6 @@ def get_economic_calendar(start_link, end_link, week_number, ouput_path):
                             if data.find('span'):
                                 forecast_error = data.find('span')['class'][0]
 
-
                         elif field == 'forecast':
                             forecast = data.text.strip()
 
@@ -111,24 +136,23 @@ def get_economic_calendar(start_link, end_link, week_number, ouput_path):
                     if week_of_year_change:
                         if not is_january:
                             # A new dataframe is needed for the new year
-                            year = str(int(curr_year) -1)
+                            year = str(int(curr_year) - 1)
                             data_array = d_new_year
                             week_number = 52
                         else:
                             week_number = 1
 
-
-                    dt = datetime.strptime(year + ' ' + curr_date + ' '+ curr_time, '%Y %a%b %d %I:%M%p')
+                    dt = datetime.strptime(year + ' ' + curr_date + ' ' + curr_time, '%Y %a%b %d %I:%M%p')
                     data_array.append({'datetime': str(dt), 'week': week_number, 'new': event, 'country': currency, \
-                              'impact': impact, 'actual': actual, 'forecast_error': forecast_error, \
-                              'forecast': forecast, 'previous': previous,
-                              'previous_error': previous_error})
+                                       'impact': impact, 'actual': actual, 'forecast_error': forecast_error, \
+                                       'forecast': forecast, 'previous': previous,
+                                       'previous_error': previous_error})
 
-
-                except:
+                except Exception as e:
 
                     with open('errors_forexfactory.csv', 'a') as f:
                         f.write(end_link + '\n')
+                        f.write('Exception: ' + str(e) + '\n')
                         f.write(','.join([dt.strftime('%A, %B %d, %Y'), curr_time, currency, impact, event, \
                                           actual, forecast, previous, forecast_error, previous_error]))
 
@@ -145,11 +169,10 @@ def get_economic_calendar(start_link, end_link, week_number, ouput_path):
             d_new_year = []
             week_number = 53
 
-
         # get the link for the previous week
         end_link = soup.select('a.calendar__pagination.calendar__pagination--prev.prev')
         end_link = end_link[0]['href']
-        week_number = week_number -1
+        week_number = week_number - 1
 
     logging.info('End of the program')
     calendar_df = pd.DataFrame(d)
@@ -158,17 +181,36 @@ def get_economic_calendar(start_link, end_link, week_number, ouput_path):
     return 0
 
 
-if __name__ == '__main__':
-    '''
-    Run this using the command 'python `script_name`.py 
-    example: python forexfactory_scraper.py calendar.php?week=dec31.1900 calendar.php?week=oct28.2018
-    '''
+########################################################################################################################
+#
+#   SCOPE:
+#
+#       This script scrap the calendar information published at https://www.forexfactory.com/calendar.php
+#
+#   INPUT PARAMETERS:
+#
+#       start_link:   parameter indicating the first week to scrap, formatted as expected by forexfactory
+#       end_link:     parameter indicating the last week to scrap, formatted as expected by forexfactory
+#       week_number:  parameter indicating week number associated to the end_link week
+#       output_path:  path to store the scrapped data
+#
+#
+#   INVOCATION EXAMPLE:
+#
+#       python forexfactory_scraper.py week=oct21.2018 week=dec23.2018 52 ../data/raw
+#
+#
+########################################################################################################################
 
+if __name__ == '__main__':
+    # Create logger
     set_logger()
+
+    # Read input parameters
     start_week = sys.argv[1]
     end_week = sys.argv[2]
     week_number = int(sys.argv[3])
     output_path = sys.argv[4]
 
-
+    # Get data
     get_economic_calendar(start_week, end_week, week_number, output_path)

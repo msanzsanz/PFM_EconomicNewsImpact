@@ -4,9 +4,14 @@ import pandas as pd
 import numpy as np
 import pytz
 
-
+########################################################################################################################
+#
+#   GLOBAL CONFIGURATION VARIABLES
+#
+########################################################################################################################
 SNAPSHOT_OFFSET_BEFORE_RELEASE = 60
 CANDLE_SIZE = 5
+
 
 ########################################################################################################################
 #
@@ -16,11 +21,10 @@ CANDLE_SIZE = 5
 #
 #   INPUT PARAMETERS:
 #
-#       log_file:   path + file to store program logs
+#       log_file:   path + filename to store the program logs
 #
 ########################################################################################################################
 def set_logger(log_file):
-
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s - %(levelname)s - %(message)s',
                         filename=log_file,
@@ -32,124 +36,73 @@ def set_logger(log_file):
     logging.getLogger('').addHandler(console)
 
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to flag whether a given release is an outlier or not. This numerical encoding is used:
+#           Within Q1 - Q3 : 0
+#           Out of the Q1 - Q3 range but still not an outlier: 1
+#           Outlier: 2
+#           Extreme outlier: 3
+#
+#
+#   INPUT PARAMETERS:
+#
+#       row:                row from a dataframe
+#       error_field:        column name in the row holding the value to analyse
+#       field_uq:           column name in the row holding the upper quartile 
+#       field_lq:           column name in the row holding the lower quartile
+#
+########################################################################################################################
 def get_outlier_category(row, error_field, field_uq, field_lq):
+    upper_quartile = row[field_uq]
+    lower_quartile = row[field_lq]
 
-    upper_quantile = row[field_uq]
-    lower_quantile = row[field_lq]
-
-    # A minimum number of datapoints are needed to locate outliers
-    # The rolling windown will return nan if that minimum is not achieved
-    if np.isnan(upper_quantile):
+    # A minimum number of data-points are needed to locate outliers
+    # The rolling window will return nan if that minimum is not achieved
+    if np.isnan(upper_quartile):
         category = 0
 
     else:
 
         diff_forecast_actual = row[error_field]
+        iqr = upper_quartile - lower_quartile
 
-        iqr = upper_quantile - lower_quantile
+        inner_fence_up = upper_quartile + iqr * 1.5
+        inner_fence_down = lower_quartile - iqr * 1.5
 
-        inner_fence_up = upper_quantile + iqr * 1.5
-        inner_fence_down = lower_quantile - iqr * 1.5
-
-        outer_fence_up = upper_quantile + iqr * 3
-        outer_fence_down = lower_quantile - iqr * 3
+        outer_fence_up = upper_quartile + iqr * 3
+        outer_fence_down = lower_quartile - iqr * 3
 
         # We directly encode this features as numerical for avoiding having to do it before modeling
         # 2: Extreme outlier, 1: outlier, 0: regular
         if (diff_forecast_actual > outer_fence_up) or (diff_forecast_actual < outer_fence_down):
-            category = 2
+            category = 3
         elif (diff_forecast_actual > inner_fence_up) or (diff_forecast_actual < inner_fence_down):
+            category = 2
+        elif (diff_forecast_actual > upper_quartile) or (diff_forecast_actual < lower_quartile):
             category = 1
         else:
             category = 0
 
-    return  category
-
-
+    return category
 
 
 ########################################################################################################################
 #
 #   DESCRIPTION:
 #
-#       Method to activate the logging mechanism
+#       Method to compute the absolute difference between forecasted and actual values
 #
 #   INPUT PARAMETERS:
 #
-#       log_file:   path + file to store program logs
+#       row:                    row from the data-frame
+#       forecasted_field:       column name in the row holding the forecasted value 
+#       actual_field:           column name in the row holding the actual value 
 #
 ########################################################################################################################
-def compute_diff_old(row, forecasted_field, actual_field, error_field):
-    try:
-
-        forecasted = row[forecasted_field]
-        actual = row[actual_field]
-        forecast_error = row[error_field]
-
-        values = [forecasted, actual]
-
-        # Eliminate non-digits characters at the start of the value
-        for pos, val in enumerate(values):
-            i = 0
-            while not val[i].isdigit() and val[i] != '-':
-                i = i + 1
-
-            values[pos] = val[i:]
-
-        # Eliminate non-digits characters at the end of the value
-        for pos, val in enumerate(values):
-            i = -1
-            while not val[i].isdigit():
-                i = i - 1
-
-            if i != -1: values[pos] = val[0:i + 1]
-
-        forecasted_float = float(values[0])
-        actual_float = float(values[1])
-
-        if (values[0] == values[1]):
-            diff = 0
-
-        else:
-            # we cannot divide by zero, so be handle this special case
-            # We consider a 100% error rate whenever:
-            #   forecast is 0 and actual is 1
-            #   forecast is 0.0 and actual is 0.1
-            #   forecast is 0.01 and actual is 0.01
-            #
-            if forecasted_float == 0:
-                if actual_float == 0:
-                    diff = 0
-                elif abs(actual_float) >= 1:
-                    diff = actual_float * 100
-                elif abs(actual_float) >= 0.1:
-                    diff = actual_float * 1000
-                elif abs(actual_float) >= 0.01:
-                    diff = actual_float * 10000
-                else:
-                    # Data has been explored to ensure there are no values < 0.01
-                    # Nevertheless, we log it as an ERROR if it happens
-                    logging.error('Diff between actual-forecasted cannot be computed ! ')
-                    diff = 9999
-            else:
-                diff_per = abs(actual_float - forecasted_float) * 100 / abs(forecasted_float)
-                sign = 1 if actual_float < forecasted_float else -1
-                diff = diff_per * sign
-
-        # A positive diff does not mean a better value for the economy (e.g, more people unemployed is worst.
-        # For making the life easier to the ML algorithms, let´s modify the variable to always consider
-        # a positive diff as good to the market
-        if (diff < 0 and forecast_error == 'better') or \
-           (diff > 0 and forecast_error == 'worse'):
-               diff = diff * -1
-
-    except:
-        diff = 9999
-
-    return diff
-
-
-def compute_diff(row, forecasted_field, actual_field, error_field):
+def compute_diff(row, forecasted_field, actual_field):
     try:
 
         forecasted = row[forecasted_field]
@@ -182,30 +135,34 @@ def compute_diff(row, forecasted_field, actual_field, error_field):
         diff = 9999
 
     return diff
+
+
 ########################################################################################################################
 #
 #   DESCRIPTION:
 #
-#       forexfactory.com has a interesting way to handle Daylight saving time (DST) ...
-#       Basically, it seems that store the data in their servers without accounting for DST. Therefore, they adjust
-#       the time on the website ONLY during visualization only when the DST flag is enabled.
+#       Forexfactory.com has a interesting way to handle DST (Daylight saving time) ...
 #
-#       When the DST flag is enabled?
+#       Basically, they seem to store datetime fields without accounting for DST and, in the website, they add +1h 
+#       to the datetime retrieved from the server whenever DST in enabled.
+# 
+#       So, when/how the DST flag is enabled on their website? Two ways:
 #
-#           1. Manually by users activating it on settings menu.
+#           1. Manually by users activating it on settings menu (this configuration seems to be stored in a cookie for
+#              subsequent calls)
 #           2. By default whenever users connect to forexfactory.com from a country that is currently on DST
-#
-#       Thus, if the scrapper is ran with DST = off, we need to compute that +1h before merging this data with the
-#       market data
+#       
+#       Thus, as we want to scrap data from several years, we need to ensure that the DST flag is disabled and handle 
+#       DST periods manually ourselves. Otherwise forexfactory will incorrectly add +1h even to the months when DST is 
+#       off.
+#  
 #
 #   INPUT PARAMETERS:
 #
-#       log_file:   path + file to store program logs
+#       dataframe:   dataframe to compute the dst periods
 #
 ########################################################################################################################
-
-def add_dst_flag(df):
-
+def compute_dst_flag(df):
     # Create a list of start and end dates for US in each year, in UTC time
     dst_changes_utc = pytz.timezone('US/Eastern')._utc_transition_times[1:]
 
@@ -229,30 +186,38 @@ def add_dst_flag(df):
     return flag_list
 
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to apply the DST flag, by adding 1h if the flag is on or 0 otherwise
+#
+#   INPUT PARAMETERS:
+#
+#       row:   row of the dataframe
+#
+########################################################################################################################
 def apply_dts_flag(row):
     return row['datetime'] + pd.DateOffset(hours=row['dts_flag'])
 
 
-
-
 ########################################################################################################################
 #
 #   DESCRIPTION:
 #
-#       Function to merge both sources of data, for every snapshot of interest
-#
+#       Function to merge forexfactory and dukascopy features.
+#       The goal is to have one single dataframe holding news releases and the market reaction after their release,
+#       for different moments in time (snapshots)
 #
 #   INPUT PARAMETERS:
 #
-#       df_features         dataframe for forexfactory data
-#       df_pair             dataframe for dukascopy data
+#       df_features         dataframe holding forexfactory features
+#       df_pair             dataframe holding dukascopy features
 #       snapshots           array of snapshots to loop
-#       freq                window-size
-#
+#       freq                candle size of the data downloaded from dukascooy
 #
 ########################################################################################################################
 def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
-
     try:
         # Expand the forexfactory dataframe with as many snapshots as requested
         # After the publication of the new
@@ -292,88 +257,18 @@ def fe_joined_with_dukascopy(df_features, df_pair, snapshots, freq):
         logging.error('exception: {}'.format(e))
         return pd.DataFrame()
 
-def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
-
-    try:
-        # Expand the forexfactory dataframe with as many snapshots as requested
-        # After the publication of the new
-        for snapshot in snapshots:
-            offset = snapshot - freq
-            column_name = '_' + str(offset) + '_' + str(snapshot) + '_after'
-            df_features[column_name] = df_features['datetime_gmt'] + pd.DateOffset(minutes=offset)
-
-            # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
-            # We rounded them to the closest window
-            round_freq = str(freq) + 'min'
-            df_features[column_name] = df_features[column_name].dt.round(round_freq)
-
-            df_features = df_features.set_index(column_name).join(df_pair)
-            df_features = df_features.reset_index(drop=True)
-
-            df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-
-            df_features['pips_agg'] = df_features['close'] - df_features['close_released']
-            df_features['pips_candle'] = df_features['close'] - df_features['open']
-
-            # Drop undesired columns
-            df_features = df_features.drop(['open'], axis=1)
-
-            df_features.rename({'close': 'close' + column_name,
-                                'low': 'low' + column_name,
-                                'high': 'high' + column_name, \
-                                'volatility': 'volatility' + column_name, \
-                                'pips_agg': 'pips_agg' + column_name,
-                                'pips_candle': 'pips_candle' + column_name}, \
-                               inplace=True, axis='columns')
-
-        # Before the publication of the new
-        for snapshot in snapshots:
-            offset = snapshot - freq
-            column_name = '_' + str(snapshot) + '_' + str(offset) +'_before'
-            df_features[column_name] = df_features['datetime_gmt'] - pd.DateOffset(minutes=snapshot)
-
-            # Some news are not published at o´clocks (i.e. neither 2:00 nor 2:30, but 1:59)
-            # We rounded them to the closest 15 min candle.
-            round_freq = str(freq) + 'min'
-            df_features[column_name] = df_features[column_name].dt.round(round_freq)
-
-            df_features = df_features.set_index(column_name).join(df_pair)
-            df_features = df_features.reset_index(drop=True)
-
-            df_features['volatility'] = abs(df_features['high'] - df_features['low'])
-
-
-            df_features['pips_candle'] = df_features['close'] - df_features['open']
-            df_features['pips_agg'] =  df_features['close_released'] - df_features['close']
-
-            # Drop undesired columns
-            df_features = df_features.drop(['open'], axis=1)
-
-            df_features.rename({'close': 'close' + column_name,
-                                'low': 'low' + column_name,
-                                'high': 'high' + column_name, \
-                                'volatility': 'volatility' + column_name, \
-                                'pips_agg': 'pips_agg' + column_name,
-                                'pips_candle': 'pips_candle' + column_name}, \
-                               inplace=True, axis='columns')
-
-
-        return df_features
-
-    except BaseException as e:
-        logging.error('Error while extracting features from the currency pair')
-        logging.error('exception: {}'.format(e))
-        return pd.DataFrame()
 
 ########################################################################################################################
 #
 #   DESCRIPTION:
 #
-#       Whenever a new is published, governments can also correct previous publications.
-#       We need to take this into account, as we could have 2 deviations:
+#       During the release of the new, governments can also correct the value of the immediate previous publication.
+#       E.g. unemployment rate for the previous release was not accurate and needs to be corrected.
 #
-#           1. Deviation from the forecasted value
-#           2. Plus positive/negative correction of the previous data
+#       Thus, we need to take this into account, as the deviation rate has to take into account:
+#
+#           1. The deviation from the forecasted value
+#           2. The positive/negative correction of the previous data
 #
 #
 #   INPUT PARAMETERS:
@@ -383,7 +278,6 @@ def fe_joined_with_dukascopy_old(df_features, df_pair, snapshots, freq):
 #
 ########################################################################################################################
 def compute_previous_error_diff(df):
-
     # Unique list of news
     news_list = df['new'].unique()
     df_out = pd.DataFrame([])
@@ -393,8 +287,8 @@ def compute_previous_error_diff(df):
         df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index()
         df_temp.drop(columns=['index'], axis=1, inplace=True)
         df_temp['previous_value'] = df_temp['actual'].shift().fillna(df_temp['previous'])
-        df_temp['previous_error_diff'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value',
-                                                                                 'previous', 'previous_error'), axis=1)
+        df_temp['previous_error_diff'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value', 'previous'),
+                                                       axis=1)
         df_temp['previous_error_diff'] = df_temp['previous_error_diff'].round(2)
 
         # We have used 9999 to flag those times when we have not been able to compute error rate
@@ -404,7 +298,7 @@ def compute_previous_error_diff(df):
                 'Unkown values appeared when computing previous error ratio values: {} times.\n'.format(errors_found))
             logging.error(df[df['previous_error_diff'] == 9999].values)
 
-        df_temp['total_error_diff'] = df_temp['forecast_error_diff'] + df_temp ['previous_error_diff']
+        df_temp['total_error_diff'] = df_temp['forecast_error_diff'] + df_temp['previous_error_diff']
 
         df_out = df_out.append(df_temp)
 
@@ -415,80 +309,91 @@ def compute_previous_error_diff(df):
 #
 #   DESCRIPTION:
 #
-#       Function to compute z-scores based on the previous 5 releases
+#       Method to compute the ratio between the difference of forecasted and actual values and the standard deviation
+#       of this difference for the previous 5 events.
+#       It also expands the dataframe with a flag indicating whether the release is and outlier or not.
 #
 #   INPUT PARAMETERS:
 #
-#       df         dataframe for forexfactory data
+#       df              dataframe for forexfactory data
+#       field_name      column name of the feature for which to compute the ratio
+#       size            number of events to compute the std
 #
 #
 ########################################################################################################################
-def compute_deviation(df, field_name, size=5):
+def get_deviation_and_outlier(df, field_name, size=5):
     # Unique list of news
     news_list = df['new'].unique()
     df_out = pd.DataFrame([])
+
+    field_std = field_name + '_std'
+    field_dir_std = field_name + '_dir'
+    field_deviation = field_name + '_deviation'
+    field_uq = field_name + '_upper_quartile'
+    field_lq = field_name + '_lower_quartile'
+    field_outlier = field_name + '_outlier_class'
+    field_tmp = field_name + '_tmp'
 
     for new in news_list:
         # sort by ascending datetime
         df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index().copy()
         df_temp.drop(columns=['index'], axis=1, inplace=True)
 
+        # We consider all the previous releases
         total_rows = len(df_temp)
 
-        field_std = field_name + '_std'
-        field_dir_std = field_name + '_dir'
-        field_deviation = field_name + '_deviation'
-        field_uq = field_name + '_upper_quantile'
-        field_lq = field_name + '_lower_quantile'
-        field_outlier = field_name + '_outlier_class'
+        # First, we flag the outliers
+        df_temp[field_uq] = df_temp[field_name].shift().rolling(window=total_rows, min_periods=size) \
+            .quantile(.75, interpolation='midpoint') \
+            .fillna(df_temp[field_name])
 
-        # compute std of the last events
-        # We set min_periods to 5 for avoiding contaminating our data with the first scrapped entries
-        df_temp[field_std] = df_temp[field_name].shift().rolling(window=size, min_periods=size).std()\
-                                                                                            .fillna(df_temp[field_name])
+        df_temp[field_lq] = df_temp[field_name].shift().rolling(window=total_rows, min_periods=size) \
+            .quantile(.25, interpolation='midpoint') \
+            .fillna(df_temp[field_name])
 
-        df_temp[field_dir_std] = df_temp[field_name].shift().rolling(window=size, min_periods=0)\
-                                                                .apply(lambda window: get_direction(window, size),
-                                                                       raw=True)
+        df_temp[field_outlier] = df_temp.apply(lambda row: get_outlier_category(row, field_name, field_uq, field_lq),
+                                               axis=1)
 
+        # compute std of the last events, excluding outliers
+        median = df_temp[field_name].median()
+        df_temp[field_tmp] = np.where(df_temp[field_outlier] < 2, df_temp[field_name], median)
 
+        # We set the "min_periods" to 5, to avoid contaminating our data with the first scrapped entries
+        df_temp[field_std] = df_temp[field_tmp].shift().rolling(window=size, min_periods=size).std() \
+            .fillna(df_temp[field_tmp])
 
-        df_temp[field_deviation] = df_temp.apply(lambda row:compute_ratio(row, field_name, field_std, field_dir_std),
+        # By definition, std has no sign. We compute whether the last previous releases were positive or negative in avg
+        df_temp[field_dir_std] = df_temp[field_name].shift().rolling(window=size, min_periods=0) \
+            .apply(lambda window: get_direction(window, size), raw=True)
+
+        df_temp[field_deviation] = df_temp.apply(lambda row: compute_ratio(row, field_name, field_std, field_dir_std),
                                                  axis=1)
 
         df_temp[field_deviation] = df_temp[field_deviation].apply(lambda x: float(format(x, '.2f')))
 
-
-        df_temp[field_uq] = df_temp[field_name].shift().rolling(window=total_rows,min_periods=size)\
-                                                        .quantile(.75, interpolation = 'midpoint')\
-                                                        .fillna(df_temp[field_name])
-
-        df_temp[field_lq] = df_temp[field_name].shift().rolling(window=total_rows, min_periods=size) \
-                                                        .quantile(.25, interpolation='midpoint') \
-                                                        .fillna(df_temp[field_name])
-        df_temp[field_outlier] = df_temp.apply(lambda row: get_outlier_category(row, field_name, field_uq, field_lq),
-                                               axis=1)
-
-
-
-
-
-
         # Drop undesired columns
-        df_temp.drop(columns=[field_lq, field_uq, field_std, field_dir_std], axis=1, inplace=True)
+        df_temp.drop(columns=[field_lq, field_uq, field_std, field_tmp, field_dir_std], axis=1, inplace=True)
 
         df_out = df_out.append(df_temp)
 
-
-    # Replace infinitive cases by a numeric value
-    #df_temp[field_zscore] = df_temp[field_zscore].replace(np.inf, 9999)
-    #max_zscore = max(df_temp[field_zscore])
-    #df_temp[field_zscore] = df_temp[field_zscore].replace(9999, max_zscore)
-
     return df_out
 
-def get_direction(array, size):
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method that gets and array and returns the sign of the majority of its entries.
+#
+#   INPUT PARAMETERS:
+#
+#       array           array of numerical values
+#       size            minimum array size to compute the sign. If len(array) < size --> the method returns the sign of
+#                       number in the latest position.
+#
+#
+########################################################################################################################
+def get_direction(array, size):
     out = 1
 
     if len(array) > 0:
@@ -497,29 +402,42 @@ def get_direction(array, size):
             tmp = [array[-1]]
 
         else:
-            tmp = [val/abs(val) for val in array]
+            tmp = [val / abs(val) for val in array]
 
         value = sum(tmp)
         if value >= 0:
             out = 1
 
-        else: out = -1
+        else:
+            out = -1
 
     return out
 
 
-
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method that gets and array and returns the sign of the majority of its entries.
+#
+#   INPUT PARAMETERS:
+#
+#       array           array of numerical values
+#       size            minimum array size to compute the sign. If len(array) < size --> the method returns the sign of
+#                       number in the latest position.
+#
+#
+########################################################################################################################
 def compute_ratio(row, field_value, field_std, field_dir_std):
-
     value = row[field_value]
     std = row[field_std]
     sign = row[field_dir_std]
 
-    # First, id the std is pretty slow, we consider it as equal to zero
+    # First, if the std is pretty low, we consider it as equal to zero
     if std < 0.01:
         std = 0
 
-    # Sign is a variable that captures whether the std in previous publications was positive or negative
+    # Sign is a variable that captures whether the diff, for the previous 5 publications, was positive or negative
     # If this time the forecast was correct, but not before, this is a deviation from the past in the opposite direction
     if value == 0:
         out = std * sign * -1
@@ -550,7 +468,6 @@ def compute_ratio(row, field_value, field_std, field_dir_std):
 ########################################################################################################################
 
 def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
-    
     df = pd.read_csv(input_path + ff_file)
     weeks = len(df.week.unique())
 
@@ -576,7 +493,7 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
         # When DST is off, we need to add +1h to forexfactory.com values during winter tz
         # We do that in 2 steps. First, compute dst flag. Second, add +1h whenever the flag is set to 1.
         if dst_correction == 'ON':
-            df['dts_flag'] = add_dst_flag(df)
+            df['dts_flag'] = compute_dst_flag(df)
             df['datetime'] = df.apply(apply_dts_flag, axis=1)
 
         df['datetime_gmt'] = df['datetime'].dt.tz_localize('US/Eastern').dt.tz_convert('GMT')
@@ -590,12 +507,12 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
             logging.error('These {} news extracted from forexfactory have nan in some columns'.format(
                 len(df[df.isnull().any(1)])))
             logging.error(df[df.isnull().any(1)].values)
-            
+
             df = df.dropna()
             logging.error('Removed these rows from the dataframe')
 
         # Compute the error, in %, between actual values and the forecasted ones
-        df['forecast_error_diff'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual', 'forecast_error'), axis=1)
+        df['forecast_error_diff'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual'), axis=1)
         df['forecast_error_diff'] = df['forecast_error_diff'].round(2)
 
         # We have used the encoding 9999 to flag whenever we have not been able to compute error rate
@@ -621,8 +538,19 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
         return pd.DataFrame()
 
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to add to the dataframe the market reaction after the release of the new
+#
+#   INPUT PARAMETERS:
+#
+#       df:             dataframe to enhance
+#       snapshot_at:    number of minutes after the release
+#
+########################################################################################################################
 def get_market_information_after(df, snapshot_at):
-
     df_local = df.copy()
 
     sufix = '_0_' + str(snapshot_at) + '_after'
@@ -650,8 +578,20 @@ def get_market_information_after(df, snapshot_at):
 
     return df_local
 
-def get_market_information_before (df_pair, snapshot_at):
 
+########################################################################################################################
+#
+#   DESCRIPTION:
+#
+#       Method to add to the dataframe the market reaction before the release of the new
+#
+#   INPUT PARAMETERS:
+#
+#       df:             dataframe to enhance
+#       snapshot_at:    number of minutes before the release
+#
+########################################################################################################################
+def get_market_information_before(df_pair, snapshot_at):
     df = df_pair.copy()
     sufix = '_' + str(snapshot_at) + '_0_before'
     window_size = snapshot_at // CANDLE_SIZE
@@ -668,7 +608,7 @@ def get_market_information_before (df_pair, snapshot_at):
     df[column_volatility] = df[column_high] - df[column_low]
     df[column_volatility] = df[column_volatility].astype(int)
 
-    df[column_open] = df['open'].shift(window_size-1).fillna(df['open'])
+    df[column_open] = df['open'].shift(window_size - 1).fillna(df['open'])
     df[column_pips] = df['open'] - df[column_open]
     df[column_pips] = df[column_pips].astype(int)
 
@@ -676,6 +616,7 @@ def get_market_information_before (df_pair, snapshot_at):
     df = df.drop([column_high, column_low, column_open, 'open', 'high', 'low', 'close'], axis=1)
 
     return df
+
 
 ########################################################################################################################
 #
@@ -688,9 +629,7 @@ def get_market_information_before (df_pair, snapshot_at):
 #       filename:   path + filename of the raw data file
 #
 ########################################################################################################################
-
 def fe_dukascopy(filename):
-
     df_pair = pd.read_csv(filename, header=0, sep=',')
     df_pair.columns = ['datetime_gmt', 'open', 'high', 'low', 'close', 'volume']
     df_pair['datetime_gmt'] = pd.to_datetime(df_pair['datetime_gmt'], format='%d.%m.%Y %H:%M:%S.000', errors='raise')
@@ -708,7 +647,6 @@ def fe_dukascopy(filename):
 
 
 def add_features_from_snapshots(df_features, df_pair):
-
     # Create a copy of the dataframe reversed
     df_pair_reverse = df_pair[::-1].copy()
 
@@ -725,6 +663,7 @@ def add_features_from_snapshots(df_features, df_pair):
         df_features = df_features.reset_index(drop=False)
 
     return df_features
+
 
 ########################################################################################################################
 #
@@ -762,7 +701,6 @@ def add_features_from_snapshots(df_features, df_pair):
 
 if __name__ == '__main__':
 
-
     # Read i/p
     year_start = int(sys.argv[1])
     year_end = int(sys.argv[2])
@@ -776,7 +714,6 @@ if __name__ == '__main__':
     output_path = sys.argv[10]
     csv_prefix_out = sys.argv[11]
     log_file = sys.argv[12]
-
 
     # Create log file
     set_logger(log_file)
@@ -797,7 +734,6 @@ if __name__ == '__main__':
     # 
     # # GroupBy could have created some nan rows if data contains windows GAPS, so we eliminate them
     # df_pair_15Min = df_pair_15Min.dropna()
-
 
     # Merge features
     for year in range(year_start, year_end + 1):
@@ -833,7 +769,7 @@ if __name__ == '__main__':
                 logging.error(df_features[df_features.isnull().any(1)].values)
 
             df_features = fe_joined_with_dukascopy(df_features, df_pair, candles_5m, 5)
-            
+
             if len(df_features) != 0:
 
                 # Append procesed data 
@@ -850,14 +786,14 @@ if __name__ == '__main__':
     logging.info('Compute deviation with actual values from the previous publication')
     all_years_df = compute_previous_error_diff(all_years_df)
 
-    logging.info('Adding z-score for deviation between forecast and actual')
-    all_years_df = compute_deviation(all_years_df, 'forecast_error_diff')
+    logging.info('Adding deviation ratio + outlier flag between forecast and actual')
+    all_years_df = get_deviation_and_outlier(all_years_df, 'forecast_error_diff')
 
-    logging.info('Adding z-score for corrections in previous published values')
-    all_years_df = compute_deviation(all_years_df, 'previous_error_diff')
+    logging.info('Adding correction ratio + outlier flag for previous published values')
+    all_years_df = get_deviation_and_outlier(all_years_df, 'previous_error_diff')
 
-    logging.info('Adding z-score for deviation between forecast and actual, including previous values')
-    all_years_df = compute_deviation(all_years_df, 'total_error_diff')
+    logging.info('Adding deviation ratio + outlier flags for forecast and actual, including previous values')
+    all_years_df = get_deviation_and_outlier(all_years_df, 'total_error_diff')
 
     all_years_df.to_csv(output_path + csv_prefix_out + \
                         '_news_' + currency_news + '_pair_' + \
@@ -866,5 +802,3 @@ if __name__ == '__main__':
                         index=False)
 
     logging.info('End')
-
-

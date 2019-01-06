@@ -3,165 +3,108 @@
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/scrapers/forexfactory.log" beforeDir="false" afterPath="$PROJECT_DIR$/code/scrapers/forexfactory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/scrapers/forexfactory_scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/scrapers/forexfactory_scraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2007_2018.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/curated/features_news_USD_pair_EURUSD_2007_2018.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/analysis_baseline_clf_models.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/models/analysis_baseline_clf_models.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-all-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-basic-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-basic-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-basic-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-basic-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_NO_3_2_1-basic-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-all-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-basic-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-basic-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-basic-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-basic-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-basic-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/ALL_YES_3_2_1-basic-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_NO_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/High_YES_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_ALL_NO_1_1_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_ALL_NO_3_2_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_ALL_YES_1_1_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_ALL_YES_3_2_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_High_NO_1_1_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/look_up_table_High_YES_1_1_1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_NO_1_1_1-all-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_NO_1_1_1-basic-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_NO_3_2_1-all-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_NO_3_2_1-basic-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_YES_1_1_1-all-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_YES_1_1_1-basic-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_YES_3_2_1-all-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/ALL_YES_3_2_1-basic-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/High_NO_1_1_1-all-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/High_NO_1_1_1-basic-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/High_YES_1_1_1-all-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60/High_YES_1_1_1-basic-included-0_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_0_60_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_NO_1_1_1-all-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_NO_1_1_1-basic-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_NO_3_2_1-all-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_NO_3_2_1-basic-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_YES_1_1_1-all-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_YES_1_1_1-basic-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_YES_3_2_1-all-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/ALL_YES_3_2_1-basic-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/High_NO_1_1_1-all-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/High_NO_1_1_1-basic-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/High_YES_1_1_1-all-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60/High_YES_1_1_1-basic-included-30_60-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_60_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_NO_1_1_1-all-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_NO_1_1_1-basic-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_NO_3_2_1-all-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_NO_3_2_1-basic-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_YES_1_1_1-all-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_YES_1_1_1-basic-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_YES_3_2_1-all-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/ALL_YES_3_2_1-basic-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/High_NO_1_1_1-all-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/High_NO_1_1_1-basic-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/High_YES_1_1_1-all-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90/High_YES_1_1_1-basic-included-30_90-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_30_90_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_NO_1_1_1-all-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_NO_1_1_1-basic-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_NO_3_2_1-all-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_NO_3_2_1-basic-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_YES_1_1_1-all-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_YES_1_1_1-basic-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_YES_3_2_1-all-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/ALL_YES_3_2_1-basic-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/High_NO_1_1_1-all-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/High_NO_1_1_1-basic-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/High_YES_1_1_1-all-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120/High_YES_1_1_1-basic-included-60_120-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_120_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_NO_1_1_1-all-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_NO_1_1_1-basic-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_NO_3_2_1-all-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_NO_3_2_1-basic-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_YES_1_1_1-all-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_YES_1_1_1-basic-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_YES_3_2_1-all-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/ALL_YES_3_2_1-basic-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/High_NO_1_1_1-all-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/High_NO_1_1_1-basic-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/High_YES_1_1_1-all-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180/High_YES_1_1_1-basic-included-60_180-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_180_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/ALL_YES_1_1_1-all-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/ALL_YES_1_1_1-basic-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/ALL_YES_3_2_1-all-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/ALL_YES_3_2_1-basic-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/High_NO_1_1_1-all-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/High_NO_1_1_1-basic-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/High_YES_1_1_1-all-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240/High_YES_1_1_1-basic-included-60_240-basic_summary_partial.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_out/sweeps_baseline_60_240_models_performance.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/models_sweeps.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/models_sweeps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-all-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-all-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-all-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-basic-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-basic-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_NO_3_2_1-basic-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-all-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-all-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-all-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-basic-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-basic-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/ALL_YES_3_2_1-basic-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_NO_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-all-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-all-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-all-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-all-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-all-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-all-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-basic-included-0_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-basic-included-30_60-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-basic-included-30_90-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-basic-included-60_120-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-basic-included-60_180-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/High_YES_1_1_1-basic-included-60_240-basic.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/look_up_table_ALL_NO_1_1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/look_up_table_ALL_NO_3_2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/look_up_table_ALL_YES_1_1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/look_up_table_ALL_YES_3_2_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/look_up_table_High_NO_1_1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/look_up_table_High_YES_1_1_1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_0_30.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_0_30_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_0_60.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_0_60_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_30_60.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_30_60_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_30_90.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_30_90_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_60_120.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_60_120_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_60_180.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_60_180_models_performance.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_60_240.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/models_out_inverted/sweeps_baseline_60_240_models_performance.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/nohup.out" beforeDir="false" afterPath="$PROJECT_DIR$/models/nohup.out" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/run.sh" beforeDir="false" afterPath="$PROJECT_DIR$/models/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/dailyfx_scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scrapers/forexfactory_scraper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization/.~First_dashboard__7914.twbr" beforeDir="false" afterPath="$PROJECT_DIR$/visualization/.~First_dashboard__7914.twbr" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -192,7 +135,7 @@
           <entry key="ipynb" value="2" />
           <entry key="log" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="91" />
+          <entry key="py" value="95" />
           <entry key="sh" value="4" />
           <entry key="txt" value="3" />
         </counts>
@@ -202,22 +145,22 @@
           <entry key="IPNB" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="11" />
-          <entry key="Python" value="91" />
+          <entry key="Python" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="AWS_Setup_for_sklearn" value="198" />
-          <entry key="Python Console" value="1826" />
-          <entry key="py" value="37789" />
-          <entry key="sh" value="856" />
+          <entry key="Python Console" value="1854" />
+          <entry key="py" value="43308" />
+          <entry key="sh" value="870" />
           <entry key="txt" value="1989" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="3043" />
-          <entry key="Python" value="39615" />
+          <entry key="PLAIN_TEXT" value="3057" />
+          <entry key="Python" value="45162" />
         </counts>
       </usages-collector>
     </session>
@@ -256,12 +199,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="138" column="97" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="97" />
+            <state relative-caret-position="122">
+              <caret line="358" column="61" lean-forward="true" selection-start-line="358" selection-start-column="61" selection-end-line="358" selection-end-column="61" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1546454567000" expanded="true" signature="1025:1026" ph="..." />
-                <marker date="1546454567000" expanded="true" signature="19052:19329" ph="..." />
+                <marker date="1546778693000" expanded="true" signature="15516:15518" ph="..." />
               </folding>
             </state>
           </provider>
@@ -270,8 +212,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="507">
-              <caret line="689" lean-forward="true" selection-start-line="689" selection-end-line="689" />
+            <state relative-caret-position="-823">
+              <caret line="622" column="6" selection-start-line="622" selection-start-column="4" selection-end-line="622" selection-end-column="6" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
                 <marker date="1546674164000" expanded="true" signature="27308:27496" ph="..." />
@@ -283,8 +225,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/run.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="27" selection-start-line="20" selection-start-column="8" selection-end-line="27" />
+            <state relative-caret-position="49">
+              <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="298" />
             </state>
           </provider>
         </entry>
@@ -300,41 +242,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>ploy</find>
-      <find>poly</find>
-      <find>THS_60</find>
-      <find>PREDICTED_VALUES</find>
-      <find>format</find>
-      <find>predictions_per_class</find>
-      <find>get_per_by_class</find>
-      <find>'All</find>
-      <find>COLUMNS_OF_INTEREST_NEWS</find>
-      <find>group_news_by_datetime</find>
-      <find>TEST_SIZE</find>
-      <find>classification_report</find>
-      <find>OUTPUT_COLUMNS</find>
-      <find>get_prediction_rates</find>
-      <find>partial_results_path</find>
-      <find>Ada</find>
-      <find>agg</find>
-      <find>X_train</find>
-      <find>precision</find>
-      <find>columns_to_predict</find>
+      <find>fe_forexfactory</find>
+      <find>getEconomicCalendar</find>
+      <find>to_cs</find>
+      <find>error</find>
+      <find>USD</find>
+      <find>errors_forexfactory</find>
+      <find>&amp;</find>
+      <find>precisio</find>
+      <find>saved</find>
+      <find>dst_correction</find>
+      <find>ff_2017</find>
+      <find>week_number</find>
+      <find>ouput_path</find>
+      <find>week</find>
+      <find>error_field</find>
+      <find>add_dst_flag</find>
+      <find>apply_dts_flag</find>
+      <find>get_direction</find>
+      <find>compute_previous_error_diff</find>
+      <find>compute_diff</find>
+      <find>get_deviation_and_outlier</find>
+      <find>get_outlier_category</find>
+      <find>get_std_wo_ouliers</find>
+      <find>output_path</find>
+      <find>field_tmp</find>
+      <find>precision_weighted</find>
       <find>get_class</find>
-      <find>run_classification_models_basic_grid</find>
-      <find>model_fit_and_predict</find>
-      <find>svc</find>
-      <find>SVR</find>
-      <find>'report</find>
-      <find>run_regression_models_basic_grid</find>
-      <find>run_</find>
-      <find>run_models_basic_grid</find>
-      <find>snap</find>
+      <find>outlier</find>
+      <find>df</find>
+      <find>compute_ratio</find>
     </findStrings>
     <replaceStrings>
-      <replace>end_link</replace>
-      <replace>get_economic_calendar</replace>
-      <replace>fe_forexfactory</replace>
       <replace>add_dts_flag</replace>
       <replace>df_pair</replace>
       <replace>prediction_error</replace>
@@ -358,9 +297,12 @@
       <replace>forecast_error_diff</replace>
       <replace>total_error_diff</replace>
       <replace>compute_deviation</replace>
-      <replace>_outlier</replace>
       <replace>model_fit_and_classify</replace>
       <replace>sweep_market_variables</replace>
+      <replace>_outlier</replace>
+      <replace>lower_quartile</replace>
+      <replace>compute_dst_flag</replace>
+      <replace>get_deviation_and_outlier</replace>
       <replace>sweep_new</replace>
     </replaceStrings>
   </component>
@@ -378,14 +320,15 @@
         <option value="$PROJECT_DIR$/Scrapers/forexfactory_scraper.py" />
         <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper_selenium.py" />
         <option value="$PROJECT_DIR$/Scrapers/dailyfx_scraper.py" />
-        <option value="$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
         <option value="$PROJECT_DIR$/data_cleaning/dc_forexfactory.py" />
         <option value="$PROJECT_DIR$/code/data_curation/tests/README.txt" />
         <option value="$PROJECT_DIR$/AWS_Setup_for_sklearn" />
         <option value="$PROJECT_DIR$/models/run_models.sh" />
-        <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
-        <option value="$PROJECT_DIR$/models/run.sh" />
         <option value="$PROJECT_DIR$/models/models_sweeps.py" />
+        <option value="$PROJECT_DIR$/models/run.sh" />
+        <option value="$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
+        <option value="$PROJECT_DIR$/code/scrapers/forexfactory_scraper.py" />
+        <option value="$PROJECT_DIR$/code/data_curation/dc_forexfactory.py" />
       </list>
     </option>
   </component>
@@ -447,6 +390,12 @@
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="data_curation" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PFM_EconomicNewsImpact" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PFM_EconomicNewsImpact" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="scrapers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PFM_EconomicNewsImpact" type="b2602c69:ProjectViewProjectNode" />
@@ -582,13 +531,13 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scrapers" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/demo" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
-      <option name="PARAMETERS" value="&quot;calendar.php?week=dec31.1900&quot; &quot;calendar.php?week=oct21.2018&quot; 43" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -645,14 +594,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09928515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15011914" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32980332" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.02202643" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.076358296" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.17327459" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.12041116" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -697,6 +647,16 @@
           <url>file://$PROJECT_DIR$/models/models_sweeps.py</url>
           <line>528</line>
           <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/scrapers/forexfactory_scraper.py</url>
+          <line>124</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py</url>
+          <line>797</line>
+          <option name="timeStamp" value="480" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
@@ -750,13 +710,11 @@
     <entry file="file:///anaconda3/lib/python3.6/site-packages/selenium/webdriver/common/service.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/Scrapers/dailyfx_scraper_selenium.py" />
-    <entry file="file://$PROJECT_DIR$/scrapers/dailyfx_scraper.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py" />
     <entry file="file:///anaconda3/lib/python3.6/_bootlocale.py" />
     <entry file="file:///anaconda3/lib/python3.6/_strptime.py" />
     <entry file="file:///anaconda3/lib/python3.6/shlex.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/bs4/element.py" />
-    <entry file="file://$PROJECT_DIR$/scrapers/forexfactory_scraper.py" />
     <entry file="file://$PROJECT_DIR$/data_cleaning/dc_forexfactory.py" />
     <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/io/common.py" />
     <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.log">
@@ -794,7 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/window.py" />
     <entry file="file://$PROJECT_DIR$/AWS_Setup_for_sklearn">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -855,17 +812,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scrapers/dailyfx_scraper.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrapers/forexfactory_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/run.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="27" selection-start-line="20" selection-start-column="8" selection-end-line="27" />
+        <state relative-caret-position="49">
+          <caret line="19" selection-start-line="19" selection-end-line="26" selection-end-column="298" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/pandas/core/window.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="218" selection-start-line="218" selection-end-line="218" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/code/scrapers/forexfactory_scraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-553">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/models_sweeps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="507">
-          <caret line="689" lean-forward="true" selection-start-line="689" selection-end-line="689" />
+        <state relative-caret-position="-823">
+          <caret line="622" column="6" selection-start-line="622" selection-start-column="4" selection-end-line="622" selection-end-column="6" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
             <marker date="1546674164000" expanded="true" signature="27308:27496" ph="..." />
@@ -875,12 +859,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/data_curation/dc_forexfactory.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="138" column="97" selection-start-line="138" selection-start-column="93" selection-end-line="138" selection-end-column="97" />
+        <state relative-caret-position="122">
+          <caret line="358" column="61" lean-forward="true" selection-start-line="358" selection-start-column="61" selection-end-line="358" selection-end-column="61" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1546454567000" expanded="true" signature="1025:1026" ph="..." />
-            <marker date="1546454567000" expanded="true" signature="19052:19329" ph="..." />
+            <marker date="1546778693000" expanded="true" signature="15516:15518" ph="..." />
           </folding>
         </state>
       </provider>
