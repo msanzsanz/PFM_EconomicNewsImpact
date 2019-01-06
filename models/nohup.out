@@ -2661,3 +2661,87 @@ KeyError: "['volatility_0_45_after' 'pips_agg_0_45_after'] not in index"
 2019-01-06 08:29:12,478 - INFO - Starting GradientBoostingRegressor
 2019-01-06 08:29:16,768 - INFO - Starting AdaBoostRegressor
 2019-01-06 08:29:25,581 - INFO - sweep done in: 381.37 min
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_0_60.log'
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_30_90.log'
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_0_30.log'
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_60_180.log'
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_30_60.log'
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_60_120.log'
+Traceback (most recent call last):
+  File "models_sweeps.py", line 621, in <module>
+    set_logger(os.path.join(base_output_path, exp_name + '.log'))
+  File "models_sweeps.py", line 96, in set_logger
+    filemode='w')
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1808, in basicConfig
+    h = FileHandler(filename, mode)
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1032, in __init__
+    StreamHandler.__init__(self, self._open())
+  File "/anaconda3/lib/python3.6/logging/__init__.py", line 1061, in _open
+    return open(self.baseFilename, self.mode, encoding=self.encoding)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/models_out/sweeps_baseline_60_240.log'

@@ -51,7 +51,7 @@ def set_logger(log_file):
 #
 #       row:                row from a dataframe
 #       error_field:        column name in the row holding the value to analyse
-#       field_uq:           column name in the row holding the upper quartile 
+#       field_uq:           column name in the row holding the upper quartile
 #       field_lq:           column name in the row holding the lower quartile
 #
 ########################################################################################################################
@@ -98,8 +98,8 @@ def get_outlier_category(row, error_field, field_uq, field_lq):
 #   INPUT PARAMETERS:
 #
 #       row:                    row from the data-frame
-#       forecasted_field:       column name in the row holding the forecasted value 
-#       actual_field:           column name in the row holding the actual value 
+#       forecasted_field:       column name in the row holding the forecasted value
+#       actual_field:           column name in the row holding the actual value
 #
 ########################################################################################################################
 def compute_diff(row, forecasted_field, actual_field):
@@ -143,19 +143,19 @@ def compute_diff(row, forecasted_field, actual_field):
 #
 #       Forexfactory.com has a interesting way to handle DST (Daylight saving time) ...
 #
-#       Basically, they seem to store datetime fields without accounting for DST and, in the website, they add +1h 
+#       Basically, they seem to store datetime fields without accounting for DST and, in the website, they add +1h
 #       to the datetime retrieved from the server whenever DST in enabled.
-# 
+#
 #       So, when/how the DST flag is enabled on their website? Two ways:
 #
 #           1. Manually by users activating it on settings menu (this configuration seems to be stored in a cookie for
 #              subsequent calls)
 #           2. By default whenever users connect to forexfactory.com from a country that is currently on DST
-#       
-#       Thus, as we want to scrap data from several years, we need to ensure that the DST flag is disabled and handle 
-#       DST periods manually ourselves. Otherwise forexfactory will incorrectly add +1h even to the months when DST is 
+#
+#       Thus, as we want to scrap data from several years, we need to ensure that the DST flag is disabled and handle
+#       DST periods manually ourselves. Otherwise forexfactory will incorrectly add +1h even to the months when DST is
 #       off.
-#  
+#
 #
 #   INPUT PARAMETERS:
 #
@@ -452,7 +452,7 @@ def compute_ratio(row, field_value, field_std, field_dir_std):
 
 ########################################################################################################################
 #
-#   DESCRIPTION: 
+#   DESCRIPTION:
 #
 #       Front-end to clean the raw data scrapped from forexfactory.com
 #
@@ -620,7 +620,7 @@ def get_market_information_before(df_pair, snapshot_at):
 
 ########################################################################################################################
 #
-#   DESCRIPTION: 
+#   DESCRIPTION:
 #
 #       Front-end to clean the raw data downloaded from dukascopy.com
 #
@@ -731,7 +731,7 @@ if __name__ == '__main__':
     #                                                      'high': 'max',
     #                                                      'low': 'min',
     #                                                      'close': 'last'})
-    # 
+    #
     # # GroupBy could have created some nan rows if data contains windows GAPS, so we eliminate them
     # df_pair_15Min = df_pair_15Min.dropna()
 
@@ -763,7 +763,7 @@ if __name__ == '__main__':
                                 'low': 'low' + last_column_name, \
                                 'close': 'close' + last_column_name}, axis='columns', inplace='True')
 
-            # We log any occurence when we don´t have market data 
+            # We log any occurence when we don´t have market data
             if len(df_features[df_features.isnull().any(1)]) > 0:
                 logging.error('Rows with nan fields when getting market data when the news were released')
                 logging.error(df_features[df_features.isnull().any(1)].values)
@@ -772,7 +772,7 @@ if __name__ == '__main__':
 
             if len(df_features) != 0:
 
-                # Append procesed data 
+                # Append procesed data
                 all_years_df = all_years_df.append(df_features)
 
             else:
