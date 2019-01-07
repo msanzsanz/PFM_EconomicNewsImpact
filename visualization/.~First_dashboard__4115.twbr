@@ -12,8 +12,8 @@
   <datasources>
     <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
       <aliases enabled='yes' />
-      <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='5'>
-        <calculation class='tableau' formula='5' />
+      <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='8'>
+        <calculation class='tableau' formula='8' />
         <range max='20' min='1' />
       </column>
       <column caption='Select a New' datatype='string' name='[Year Parameter]' param-domain-type='list' role='measure' type='nominal' value='&quot;Unemployment Rate&quot;'>
@@ -1617,8 +1617,8 @@
         <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
       <datasource-dependencies datasource='Parameters'>
-        <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='5'>
-          <calculation class='tableau' formula='5' />
+        <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='8'>
+          <calculation class='tableau' formula='8' />
           <range max='20' min='1' />
         </column>
         <column caption='Select a New' datatype='string' name='[Year Parameter]' param-domain-type='list' role='measure' type='nominal' value='&quot;Unemployment Rate&quot;'>
@@ -1636,8 +1636,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='5'>
-              <calculation class='tableau' formula='5' />
+            <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='8'>
+              <calculation class='tableau' formula='8' />
               <range max='20' min='1' />
             </column>
             <column caption='Select a New' datatype='string' name='[Year Parameter]' param-domain-type='list' role='measure' type='nominal' value='&quot;Unemployment Rate&quot;'>
@@ -1655,7 +1655,9 @@
             <column caption='Forecast' datatype='string' name='[forecast]' role='dimension' type='nominal' />
             <column caption='Forecast Error Diff' datatype='real' name='[forecast_error_diff]' role='measure' type='quantitative' />
             <column caption='Forecast Error Diff Deviation' datatype='real' name='[forecast_error_diff_deviation]' role='measure' type='quantitative' />
+            <column caption='Impact' datatype='string' name='[impact]' role='dimension' type='nominal' />
             <column caption='New' datatype='string' name='[new]' role='dimension' type='nominal' />
+            <column-instance column='[impact]' derivation='None' name='[none:impact:nk]' pivot='key' type='nominal' />
             <column-instance column='[new]' derivation='None' name='[none:new:nk]' pivot='key' type='nominal' />
             <column-instance column='[forecast_error_diff]' derivation='Sum' name='[sum:forecast_error_diff:qk]' pivot='key' type='quantitative' />
             <column-instance column='[forecast_error_diff_deviation]' derivation='Sum' name='[sum:forecast_error_diff_deviation:qk]' pivot='key' type='quantitative' />
@@ -1675,6 +1677,7 @@
             </view>
             <mark class='Bar' />
             <encodings>
+              <color column='[federated.0ezbstz1mwp94y107v7v6009s0ke].[none:impact:nk]' />
               <tooltip column='[federated.0ezbstz1mwp94y107v7v6009s0ke].[attr:actual:nk]' />
               <tooltip column='[federated.0ezbstz1mwp94y107v7v6009s0ke].[attr:forecast:nk]' />
               <tooltip column='[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:forecast_error_diff:qk]' />
@@ -1693,8 +1696,8 @@
             <datasource name='Parameters' />
           </datasources>
           <datasource-dependencies datasource='Parameters'>
-            <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='5'>
-              <calculation class='tableau' formula='5' />
+            <column caption='Last N events' datatype='integer' name='[Datetime Gmt Parameter]' param-domain-type='range' role='measure' type='quantitative' value='8'>
+              <calculation class='tableau' formula='8' />
               <range max='20' min='1' />
             </column>
             <column caption='Select a New' datatype='string' name='[Year Parameter]' param-domain-type='list' role='measure' type='nominal' value='&quot;Unemployment Rate&quot;'>
@@ -1708,38 +1711,24 @@
             <column caption='Datetime' datatype='datetime' name='[datetime]' role='dimension' type='ordinal' />
             <column caption='New' datatype='string' name='[new]' role='dimension' type='nominal' />
             <column caption='Pips Agg 0 120 After' datatype='integer' name='[pips_agg_0_120_after]' role='measure' type='quantitative' />
-            <column caption='Pips Agg 0 150 After' datatype='integer' name='[pips_agg_0_150_after]' role='measure' type='quantitative' />
-            <column caption='Pips Agg 0 180 After' datatype='integer' name='[pips_agg_0_180_after]' role='measure' type='quantitative' />
-            <column caption='Pips Agg 0 210 After' datatype='integer' name='[pips_agg_0_210_after]' role='measure' type='quantitative' />
             <column caption='Pips Agg 0 240 After' datatype='integer' name='[pips_agg_0_240_after]' role='measure' type='quantitative' />
             <column caption='Pips Agg 0 45 After' datatype='integer' name='[pips_agg_0_45_after]' role='measure' type='quantitative' />
             <column caption='Pips Agg 0 60 After' datatype='integer' name='[pips_agg_0_60_after]' role='measure' type='quantitative' />
-            <column caption='Pips Agg 0 90 After' datatype='integer' name='[pips_agg_0_90_after]' role='measure' type='quantitative' />
             <column caption='Pips Agg 10 15 After' datatype='integer' name='[pips_agg_10_15_after]' role='measure' type='quantitative' />
             <column caption='Pips Agg 25 30 After' datatype='integer' name='[pips_agg_25_30_after]' role='measure' type='quantitative' />
             <column-instance column='[pips_agg_0_120_after]' derivation='Sum' name='[sum:pips_agg_0_120_after:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[pips_agg_0_150_after]' derivation='Sum' name='[sum:pips_agg_0_150_after:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[pips_agg_0_180_after]' derivation='Sum' name='[sum:pips_agg_0_180_after:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[pips_agg_0_210_after]' derivation='Sum' name='[sum:pips_agg_0_210_after:qk]' pivot='key' type='quantitative' />
             <column-instance column='[pips_agg_0_240_after]' derivation='Sum' name='[sum:pips_agg_0_240_after:qk]' pivot='key' type='quantitative' />
             <column-instance column='[pips_agg_0_45_after]' derivation='Sum' name='[sum:pips_agg_0_45_after:qk]' pivot='key' type='quantitative' />
             <column-instance column='[pips_agg_0_60_after]' derivation='Sum' name='[sum:pips_agg_0_60_after:qk]' pivot='key' type='quantitative' />
-            <column-instance column='[pips_agg_0_90_after]' derivation='Sum' name='[sum:pips_agg_0_90_after:qk]' pivot='key' type='quantitative' />
             <column-instance column='[pips_agg_10_15_after]' derivation='Sum' name='[sum:pips_agg_10_15_after:qk]' pivot='key' type='quantitative' />
             <column-instance column='[pips_agg_25_30_after]' derivation='Sum' name='[sum:pips_agg_25_30_after:qk]' pivot='key' type='quantitative' />
             <column-instance column='[datetime]' derivation='Day-Trunc' name='[tdy:datetime:ok]' pivot='key' type='ordinal' />
           </datasource-dependencies>
           <filter class='categorical' column='[federated.0ezbstz1mwp94y107v7v6009s0ke].[:Measure Names]'>
             <groupfilter function='union' user:op='manual'>
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_10_15_after:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_25_30_after:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_45_after:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_60_after:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_90_after:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_120_after:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_150_after:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_180_after:qk]&quot;' />
-              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_210_after:qk]&quot;' />
               <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.0ezbstz1mwp94y107v7v6009s0ke].[sum:pips_agg_0_240_after:qk]&quot;' />
             </groupfilter>
           </filter>
@@ -1856,6 +1845,7 @@
           <strip size='160'>
             <card mode='compact' param='[Parameters].[Year Parameter]' type='parameter' />
             <card mode='slider' param='[Parameters].[Datetime Gmt Parameter]' type='parameter' />
+            <card pane-specification-id='2' param='[federated.0ezbstz1mwp94y107v7v6009s0ke].[none:impact:nk]' type='color' />
           </strip>
         </edge>
       </cards>
@@ -1899,7 +1889,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='6' />
+      <active id='7' />
     </window>
   </windows>
 </workbook>

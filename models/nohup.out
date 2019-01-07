@@ -4851,3 +4851,448 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/wola/Documents/M
   'precision', 'predicted', average, warn_for)
 2019-01-07 13:15:54,858 - INFO - Starting DecisionTreeClassifier
 2019-01-07 13:16:00,087 - INFO - Starting RandomForestClassifier
+2019-01-07 13:20:21,004 - INFO - Starting XGBClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:20:24,402 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:20:29,175 - INFO - Starting GradientBoostingRegressor
+2019-01-07 13:20:30,405 - INFO - Starting GradientBoostingClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:20:39,029 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:20:56,297 - INFO - sweep done in: 26.80 min
+2019-01-07 13:20:56,303 - INFO - Starting a new sweep with market features: all
+2019-01-07 13:20:56,304 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:20:56,304 - INFO - Starting a new sweep, delay in between buying-selling is: 60_180
+2019-01-07 13:20:56,304 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:20:56,304 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_180_after']
+2019-01-07 13:20:56,832 - INFO - X columns for the classification model: ['volatility_25_30_after', 'pe_better', 'pips_candle_5_10_after', 'pips_candle_20_25_after', 'pips_candle_0_5_after', 'volatility_15_20_after', 'pips_agg_0_30_after', 'previous_error_diff_deviation', 'fe_accurate', 'volatility_0_60_after', 'pips_candle_10_15_after', 'week', 'High', 'pips_agg_20_25_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_5_10_after', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'forecast_error_diff_deviation', 'volatility_20_25_after', 'fe_better', 'pe_worse', 'weekday', 'pips_agg_10_15_after', 'volatility_5_10_after', 'pips_agg_25_30_after', 'year', 'num_news', 'new_id', 'volatility_0_30_after', 'pips_candle_25_30_after', 'pips_agg_0_5_after', 'volatility_0_5_after', 'volatility_60_0_before', 'fe_worse', 'pips_agg_0_60_after', 'pips_agg_60_0_before', 'pe_accurate', 'volatility_10_15_after']
+2019-01-07 13:20:56,880 - INFO - Starting KNeighborsClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:21:00,481 - INFO - Starting XGBRegressor
+2019-01-07 13:21:02,084 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:21:05,270 - INFO - Starting GradientBoostingRegressor
+2019-01-07 13:21:14,246 - INFO - X columns for the regression model: ['pips_agg_0_5_after', 'pips_agg_5_10_after', 'volatility_25_30_after', 'volatility_15_20_after', 'pe_worse', 'new_id', 'previous_error_diff_outlier_class', 'forecast_error_diff_outlier_class', 'fe_worse', 'pips_agg_25_30_after', 'fe_accurate', 'volatility_5_10_after', 'year', 'volatility_20_25_after', 'week', 'pips_agg_0_30_after', 'forecast_error_diff_deviation', 'num_news', 'fe_better', 'pips_agg_60_0_before', 'pe_better', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pe_accurate', 'pips_agg_10_15_after', 'High', 'volatility_10_15_after', 'pips_agg_20_25_after', 'volatility_0_5_after', 'volatility_0_30_after', 'volatility_60_0_before']
+2019-01-07 13:21:14,267 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:21:15,141 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:21:27,781 - INFO - sweep done in: 26.43 min
+2019-01-07 13:21:27,793 - INFO - Starting a new sweep with market features: all
+2019-01-07 13:21:27,794 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:21:27,794 - INFO - Starting a new sweep, delay in between buying-selling is: 60_240
+2019-01-07 13:21:27,794 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:21:27,794 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_240_after']
+2019-01-07 13:21:28,308 - INFO - X columns for the classification model: ['pips_agg_0_30_after', 'pe_worse', 'pips_agg_5_10_after', 'pe_better', 'week', 'pips_candle_25_30_after', 'volatility_25_30_after', 'forecast_error_diff_outlier_class', 'volatility_60_0_before', 'fe_worse', 'pips_candle_10_15_after', 'year', 'volatility_15_20_after', 'forecast_error_diff_deviation', 'num_news', 'High', 'volatility_0_5_after', 'pips_agg_60_0_before', 'new_id', 'pips_candle_5_10_after', 'pe_accurate', 'volatility_0_30_after', 'previous_error_diff_outlier_class', 'volatility_10_15_after', 'pips_candle_15_20_after', 'fe_better', 'volatility_5_10_after', 'pips_agg_0_5_after', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pips_agg_10_15_after', 'volatility_0_60_after', 'pips_agg_25_30_after', 'pips_candle_0_5_after', 'pips_agg_20_25_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'fe_accurate', 'pips_agg_0_60_after']
+2019-01-07 13:21:28,354 - INFO - Starting KNeighborsClassifier
+2019-01-07 13:21:34,848 - INFO - Starting XGBClassifier
+2019-01-07 13:21:34,867 - INFO - Starting SVC - rbf
+2019-01-07 13:21:41,627 - INFO - Starting SVR - rbf
+2019-01-07 13:21:45,150 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:22:03,629 - INFO - Starting DecisionTreeRegressor
+2019-01-07 13:22:08,381 - INFO - Starting SVC - rbf
+2019-01-07 13:22:08,991 - INFO - Starting RandomForestRegressor
+2019-01-07 13:22:20,180 - INFO - Starting AdaBoostClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:22:24,754 - INFO - Starting DecisionTreeClassifier
+2019-01-07 13:22:32,740 - INFO - X columns for the regression model: ['forecast_error_diff_deviation', 'pips_agg_5_10_after', 'pe_worse', 'fe_worse', 'fe_better', 'volatility_5_10_after', 'volatility_25_30_after', 'pips_agg_15_20_after', 'pips_agg_0_5_after', 'fe_accurate', 'new_id', 'pips_agg_10_15_after', 'pips_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_20_25_after', 'pe_better', 'forecast_error_diff_outlier_class', 'week', 'num_news', 'volatility_20_25_after', 'pe_accurate', 'High', 'volatility_0_30_after', 'previous_error_diff_deviation', 'weekday', 'previous_error_diff_outlier_class', 'volatility_0_5_after', 'year', 'pips_agg_60_0_before', 'volatility_10_15_after', 'pips_agg_0_30_after', 'volatility_15_20_after']
+2019-01-07 13:22:32,764 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:22:34,055 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:22:56,295 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:22:57,731 - INFO - Starting DecisionTreeClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:23:00,938 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:23:01,038 - INFO - Starting GradientBoostingRegressor
+2019-01-07 13:23:06,605 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:23:10,899 - INFO - Starting AdaBoostRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:23:20,791 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:23:26,082 - INFO - Starting RandomForestRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:23:29,443 - INFO - sweep done in: 25.90 min
+2019-01-07 13:23:29,449 - INFO - Starting a new sweep with market features: all
+2019-01-07 13:23:29,449 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:23:29,450 - INFO - Starting a new sweep, delay in between buying-selling is: 60_120
+2019-01-07 13:23:29,450 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:23:29,450 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_120_after']
+2019-01-07 13:23:30,100 - INFO - X columns for the classification model: ['pe_better', 'previous_error_diff_deviation', 'volatility_5_10_after', 'volatility_10_15_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'pips_candle_20_25_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'volatility_20_25_after', 'pips_candle_0_5_after', 'volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_60_0_before', 'volatility_15_20_after', 'pips_agg_10_15_after', 'fe_accurate', 'pips_agg_0_30_after', 'fe_better', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'pe_accurate', 'week', 'fe_worse', 'weekday', 'pips_agg_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'new_id', 'year', 'pips_agg_0_60_after', 'pe_worse', 'volatility_0_60_after', 'pips_candle_10_15_after', 'pips_candle_5_10_after', 'High', 'volatility_0_30_after', 'num_news']
+2019-01-07 13:23:30,166 - INFO - Starting KNeighborsClassifier
+2019-01-07 13:24:07,905 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:24:54,731 - INFO - Starting DecisionTreeClassifier
+2019-01-07 13:25:03,489 - INFO - Starting RandomForestClassifier
+2019-01-07 13:29:23,120 - INFO - Starting XGBClassifier
+2019-01-07 13:29:38,583 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:29:52,870 - INFO - Starting XGBClassifier
+2019-01-07 13:30:07,999 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:30:27,139 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:30:43,163 - INFO - X columns for the regression model: ['volatility_25_30_after', 'pe_better', 'pips_candle_5_10_after', 'pips_candle_20_25_after', 'pips_candle_0_5_after', 'volatility_15_20_after', 'pips_agg_0_30_after', 'previous_error_diff_deviation', 'fe_accurate', 'volatility_0_60_after', 'pips_candle_10_15_after', 'week', 'High', 'pips_agg_20_25_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_5_10_after', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'forecast_error_diff_deviation', 'volatility_20_25_after', 'fe_better', 'pe_worse', 'weekday', 'pips_agg_10_15_after', 'volatility_5_10_after', 'pips_agg_25_30_after', 'year', 'num_news', 'new_id', 'volatility_0_30_after', 'pips_candle_25_30_after', 'pips_agg_0_5_after', 'volatility_0_5_after', 'volatility_60_0_before', 'fe_worse', 'pips_agg_0_60_after', 'pips_agg_60_0_before', 'pe_accurate', 'volatility_10_15_after']
+2019-01-07 13:30:43,200 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:30:54,310 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:31:10,549 - INFO - X columns for the regression model: ['pips_agg_0_30_after', 'pe_worse', 'pips_agg_5_10_after', 'pe_better', 'week', 'pips_candle_25_30_after', 'volatility_25_30_after', 'forecast_error_diff_outlier_class', 'volatility_60_0_before', 'fe_worse', 'pips_candle_10_15_after', 'year', 'volatility_15_20_after', 'forecast_error_diff_deviation', 'num_news', 'High', 'volatility_0_5_after', 'pips_agg_60_0_before', 'new_id', 'pips_candle_5_10_after', 'pe_accurate', 'volatility_0_30_after', 'previous_error_diff_outlier_class', 'volatility_10_15_after', 'pips_candle_15_20_after', 'fe_better', 'volatility_5_10_after', 'pips_agg_0_5_after', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pips_agg_10_15_after', 'volatility_0_60_after', 'pips_agg_25_30_after', 'pips_candle_0_5_after', 'pips_agg_20_25_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'fe_accurate', 'pips_agg_0_60_after']
+2019-01-07 13:31:10,587 - INFO - Starting KNeighborsRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:31:16,321 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:31:19,838 - INFO - Starting SVR - rbf
+2019-01-07 13:31:19,931 - INFO - Starting GradientBoostingRegressor
+2019-01-07 13:31:27,089 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:31:40,926 - INFO - sweep done in: 17.89 min
+2019-01-07 13:31:40,933 - INFO - Starting a new sweep with market features: all
+2019-01-07 13:31:40,934 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:31:40,934 - INFO - Starting a new sweep, delay in between buying-selling is: 30_90
+2019-01-07 13:31:40,934 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:31:40,934 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_90_after']
+2019-01-07 13:31:41,341 - INFO - X columns for the classification model: ['pips_agg_0_5_after', 'pips_agg_5_10_after', 'volatility_25_30_after', 'volatility_15_20_after', 'pe_worse', 'pips_candle_20_25_after', 'new_id', 'previous_error_diff_outlier_class', 'forecast_error_diff_outlier_class', 'fe_worse', 'pips_agg_25_30_after', 'fe_accurate', 'volatility_5_10_after', 'year', 'volatility_20_25_after', 'week', 'pips_candle_25_30_after', 'pips_agg_0_30_after', 'forecast_error_diff_deviation', 'num_news', 'fe_better', 'pips_candle_0_5_after', 'pips_candle_15_20_after', 'pips_agg_60_0_before', 'pe_better', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pe_accurate', 'pips_candle_5_10_after', 'pips_candle_10_15_after', 'pips_agg_10_15_after', 'High', 'volatility_10_15_after', 'pips_agg_20_25_after', 'volatility_0_5_after', 'volatility_0_30_after', 'volatility_60_0_before']
+2019-01-07 13:31:41,369 - INFO - Starting KNeighborsClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:31:48,203 - INFO - Starting SVR - rbf
+2019-01-07 13:31:48,803 - INFO - Starting XGBClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:31:57,463 - INFO - Starting DecisionTreeRegressor
+2019-01-07 13:32:03,618 - INFO - Starting GradientBoostingClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:32:06,288 - INFO - Starting RandomForestRegressor
+2019-01-07 13:32:13,460 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:32:25,344 - INFO - Starting DecisionTreeRegressor
+2019-01-07 13:32:34,025 - INFO - Starting RandomForestRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:32:34,653 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:32:38,174 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:32:40,752 - INFO - Starting DecisionTreeClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:32:46,885 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:32:48,962 - INFO - Starting RandomForestClassifier
+2019-01-07 13:32:52,297 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:33:03,324 - INFO - sweep done in: 18.04 min
+2019-01-07 13:33:03,339 - INFO - Starting a new sweep with market features: all
+2019-01-07 13:33:03,340 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:33:03,340 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2019-01-07 13:33:03,340 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:33:03,340 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_60_after']
+2019-01-07 13:33:04,173 - INFO - X columns for the classification model: ['forecast_error_diff_deviation', 'pips_agg_5_10_after', 'pe_worse', 'fe_worse', 'fe_better', 'volatility_5_10_after', 'pips_candle_15_20_after', 'volatility_25_30_after', 'pips_agg_15_20_after', 'pips_agg_0_5_after', 'fe_accurate', 'new_id', 'pips_agg_10_15_after', 'pips_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_20_25_after', 'pe_better', 'forecast_error_diff_outlier_class', 'week', 'num_news', 'volatility_20_25_after', 'pe_accurate', 'pips_candle_0_5_after', 'High', 'volatility_0_30_after', 'pips_candle_10_15_after', 'previous_error_diff_deviation', 'weekday', 'pips_candle_25_30_after', 'previous_error_diff_outlier_class', 'volatility_0_5_after', 'pips_candle_5_10_after', 'year', 'pips_candle_20_25_after', 'pips_agg_60_0_before', 'volatility_10_15_after', 'pips_agg_0_30_after', 'volatility_15_20_after']
+2019-01-07 13:33:04,214 - INFO - Starting KNeighborsClassifier
+2019-01-07 13:33:11,981 - INFO - X columns for the regression model: ['pe_better', 'previous_error_diff_deviation', 'volatility_5_10_after', 'volatility_10_15_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'pips_candle_20_25_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'volatility_20_25_after', 'pips_candle_0_5_after', 'volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_60_0_before', 'volatility_15_20_after', 'pips_agg_10_15_after', 'fe_accurate', 'pips_agg_0_30_after', 'fe_better', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'pe_accurate', 'week', 'fe_worse', 'weekday', 'pips_agg_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'new_id', 'year', 'pips_agg_0_60_after', 'pe_worse', 'volatility_0_60_after', 'pips_candle_10_15_after', 'pips_candle_5_10_after', 'High', 'volatility_0_30_after', 'num_news']
+2019-01-07 13:33:12,017 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:33:37,188 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:33:49,009 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:34:05,653 - INFO - Starting DecisionTreeClassifier
+2019-01-07 13:34:12,383 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:34:27,144 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:34:35,755 - INFO - Starting RandomForestRegressor
+2019-01-07 13:38:48,033 - INFO - Starting XGBClassifier
+2019-01-07 13:38:58,847 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:39:36,096 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:39:49,187 - INFO - X columns for the regression model: ['pips_agg_0_5_after', 'pips_agg_5_10_after', 'volatility_25_30_after', 'volatility_15_20_after', 'pe_worse', 'pips_candle_20_25_after', 'new_id', 'previous_error_diff_outlier_class', 'forecast_error_diff_outlier_class', 'fe_worse', 'pips_agg_25_30_after', 'fe_accurate', 'volatility_5_10_after', 'year', 'volatility_20_25_after', 'week', 'pips_candle_25_30_after', 'pips_agg_0_30_after', 'forecast_error_diff_deviation', 'num_news', 'fe_better', 'pips_candle_0_5_after', 'pips_candle_15_20_after', 'pips_agg_60_0_before', 'pe_better', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pe_accurate', 'pips_candle_5_10_after', 'pips_candle_10_15_after', 'pips_agg_10_15_after', 'High', 'volatility_10_15_after', 'pips_agg_20_25_after', 'volatility_0_5_after', 'volatility_0_30_after', 'volatility_60_0_before']
+2019-01-07 13:39:49,216 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:40:05,860 - INFO - Starting XGBClassifier
+2019-01-07 13:40:16,974 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:40:20,467 - INFO - Starting SVR - rbf
+2019-01-07 13:40:42,990 - INFO - Starting DecisionTreeRegressor
+2019-01-07 13:40:49,101 - INFO - Starting RandomForestRegressor
+2019-01-07 13:40:53,217 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:41:06,174 - INFO - X columns for the regression model: ['forecast_error_diff_deviation', 'pips_agg_5_10_after', 'pe_worse', 'fe_worse', 'fe_better', 'volatility_5_10_after', 'pips_candle_15_20_after', 'volatility_25_30_after', 'pips_agg_15_20_after', 'pips_agg_0_5_after', 'fe_accurate', 'new_id', 'pips_agg_10_15_after', 'pips_agg_25_30_after', 'volatility_60_0_before', 'pips_agg_20_25_after', 'pe_better', 'forecast_error_diff_outlier_class', 'week', 'num_news', 'volatility_20_25_after', 'pe_accurate', 'pips_candle_0_5_after', 'High', 'volatility_0_30_after', 'pips_candle_10_15_after', 'previous_error_diff_deviation', 'weekday', 'pips_candle_25_30_after', 'previous_error_diff_outlier_class', 'volatility_0_5_after', 'pips_candle_5_10_after', 'year', 'pips_candle_20_25_after', 'pips_agg_60_0_before', 'volatility_10_15_after', 'pips_agg_0_30_after', 'volatility_15_20_after']
+2019-01-07 13:41:06,200 - INFO - Starting KNeighborsRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:41:37,267 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:41:59,289 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:42:05,294 - INFO - Starting RandomForestRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:47:09,392 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:47:15,130 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:47:26,686 - INFO - Starting AdaBoostRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:47:37,408 - INFO - Starting XGBRegressor
+2019-01-07 13:47:42,772 - INFO - Starting GradientBoostingRegressor
+2019-01-07 13:47:44,922 - INFO - sweep done in: 26.81 min
+2019-01-07 13:47:44,929 - INFO - #########################
+2019-01-07 13:47:44,930 - INFO - 
+2019-01-07 13:47:44,930 - INFO - Starting a new sweep, grouping news by: High_YES_1_1_1
+2019-01-07 13:47:54,192 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:47:54,722 - INFO - Starting a new sweep with market features: basic
+2019-01-07 13:47:54,722 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:47:54,722 - INFO - Starting a new sweep, delay in between buying-selling is: 60_180
+2019-01-07 13:47:54,722 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:47:54,722 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_180_after']
+2019-01-07 13:47:55,107 - INFO - X columns for the classification model: ['volatility_25_30_after', 'pe_better', 'volatility_15_20_after', 'pips_agg_0_30_after', 'previous_error_diff_deviation', 'fe_accurate', 'volatility_0_60_after', 'week', 'High', 'pips_agg_20_25_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_5_10_after', 'pips_agg_15_20_after', 'forecast_error_diff_deviation', 'volatility_20_25_after', 'fe_better', 'pe_worse', 'weekday', 'pips_agg_10_15_after', 'volatility_5_10_after', 'pips_agg_25_30_after', 'year', 'num_news', 'new_id', 'volatility_0_30_after', 'pips_agg_0_5_after', 'volatility_0_5_after', 'volatility_60_0_before', 'fe_worse', 'pips_agg_0_60_after', 'pips_agg_60_0_before', 'pe_accurate', 'volatility_10_15_after']
+2019-01-07 13:47:55,128 - INFO - Starting KNeighborsClassifier
+2019-01-07 13:48:10,216 - INFO - sweep done in: 26.71 min
+2019-01-07 13:48:10,224 - INFO - #########################
+2019-01-07 13:48:10,224 - INFO - 
+2019-01-07 13:48:10,224 - INFO - Starting a new sweep, grouping news by: High_YES_1_1_1
+2019-01-07 13:48:19,840 - INFO - Starting a new sweep with market features: basic
+2019-01-07 13:48:19,841 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:48:19,841 - INFO - Starting a new sweep, delay in between buying-selling is: 60_240
+2019-01-07 13:48:19,841 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:48:19,841 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_240_after']
+2019-01-07 13:48:20,279 - INFO - X columns for the classification model: ['pips_agg_0_30_after', 'pe_worse', 'pips_agg_5_10_after', 'pe_better', 'week', 'volatility_25_30_after', 'forecast_error_diff_outlier_class', 'volatility_60_0_before', 'fe_worse', 'year', 'volatility_15_20_after', 'forecast_error_diff_deviation', 'num_news', 'High', 'volatility_0_5_after', 'pips_agg_60_0_before', 'new_id', 'pe_accurate', 'volatility_0_30_after', 'previous_error_diff_outlier_class', 'volatility_10_15_after', 'fe_better', 'volatility_5_10_after', 'pips_agg_0_5_after', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pips_agg_10_15_after', 'volatility_0_60_after', 'pips_agg_25_30_after', 'pips_agg_20_25_after', 'volatility_20_25_after', 'fe_accurate', 'pips_agg_0_60_after']
+2019-01-07 13:48:20,311 - INFO - Starting KNeighborsClassifier
+2019-01-07 13:48:24,443 - INFO - Starting SVC - rbf
+2019-01-07 13:48:51,593 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:48:52,375 - INFO - Starting DecisionTreeClassifier
+2019-01-07 13:48:58,079 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:49:17,563 - INFO - Starting DecisionTreeClassifier
+2019-01-07 13:49:23,454 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:49:28,605 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:49:34,006 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:49:46,015 - INFO - Starting AdaBoostRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:50:09,789 - INFO - sweep done in: 26.67 min
+2019-01-07 13:50:09,846 - INFO - #########################
+2019-01-07 13:50:09,846 - INFO - 
+2019-01-07 13:50:09,846 - INFO - Starting a new sweep, grouping news by: High_YES_1_1_1
+2019-01-07 13:50:20,604 - INFO - Starting a new sweep with market features: basic
+2019-01-07 13:50:20,604 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 13:50:20,604 - INFO - Starting a new sweep, delay in between buying-selling is: 60_120
+2019-01-07 13:50:20,605 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 13:50:20,605 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_120_after']
+2019-01-07 13:50:20,999 - INFO - X columns for the classification model: ['pe_better', 'previous_error_diff_deviation', 'volatility_5_10_after', 'volatility_10_15_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'volatility_20_25_after', 'volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_60_0_before', 'volatility_15_20_after', 'pips_agg_10_15_after', 'fe_accurate', 'pips_agg_0_30_after', 'fe_better', 'pips_agg_15_20_after', 'pe_accurate', 'week', 'fe_worse', 'weekday', 'pips_agg_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'new_id', 'year', 'pips_agg_0_60_after', 'pe_worse', 'volatility_0_60_after', 'High', 'volatility_0_30_after', 'num_news']
+2019-01-07 13:50:21,029 - INFO - Starting KNeighborsClassifier
+2019-01-07 13:50:53,365 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 13:51:17,554 - INFO - Starting DecisionTreeClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:51:21,357 - INFO - Starting XGBRegressor
+2019-01-07 13:51:23,267 - INFO - Starting RandomForestClassifier
+2019-01-07 13:51:25,403 - INFO - Starting GradientBoostingRegressor
+2019-01-07 13:51:33,590 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:51:49,098 - INFO - sweep done in: 20.14 min
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:52:30,518 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:52:33,793 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:52:40,404 - INFO - Starting AdaBoostRegressor
+2019-01-07 13:52:55,982 - INFO - sweep done in: 19.88 min
+2019-01-07 13:53:58,352 - INFO - Starting XGBClassifier
+2019-01-07 13:54:05,661 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:54:15,269 - INFO - Starting XGBClassifier
+2019-01-07 13:54:22,151 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:54:28,177 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:54:36,972 - INFO - X columns for the regression model: ['volatility_25_30_after', 'pe_better', 'volatility_15_20_after', 'pips_agg_0_30_after', 'previous_error_diff_deviation', 'fe_accurate', 'volatility_0_60_after', 'week', 'High', 'pips_agg_20_25_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_5_10_after', 'pips_agg_15_20_after', 'forecast_error_diff_deviation', 'volatility_20_25_after', 'fe_better', 'pe_worse', 'weekday', 'pips_agg_10_15_after', 'volatility_5_10_after', 'pips_agg_25_30_after', 'year', 'num_news', 'new_id', 'volatility_0_30_after', 'pips_agg_0_5_after', 'volatility_0_5_after', 'volatility_60_0_before', 'fe_worse', 'pips_agg_0_60_after', 'pips_agg_60_0_before', 'pe_accurate', 'volatility_10_15_after']
+2019-01-07 13:54:36,987 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:54:44,351 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:54:52,970 - INFO - X columns for the regression model: ['pips_agg_0_30_after', 'pe_worse', 'pips_agg_5_10_after', 'pe_better', 'week', 'volatility_25_30_after', 'forecast_error_diff_outlier_class', 'volatility_60_0_before', 'fe_worse', 'year', 'volatility_15_20_after', 'forecast_error_diff_deviation', 'num_news', 'High', 'volatility_0_5_after', 'pips_agg_60_0_before', 'new_id', 'pe_accurate', 'volatility_0_30_after', 'previous_error_diff_outlier_class', 'volatility_10_15_after', 'fe_better', 'volatility_5_10_after', 'pips_agg_0_5_after', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pips_agg_10_15_after', 'volatility_0_60_after', 'pips_agg_25_30_after', 'pips_agg_20_25_after', 'volatility_20_25_after', 'fe_accurate', 'pips_agg_0_60_after']
+2019-01-07 13:54:52,986 - INFO - Starting KNeighborsRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:54:56,439 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:55:10,507 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:55:12,528 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:55:14,191 - INFO - Starting RandomForestRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:55:26,718 - INFO - Starting DecisionTreeRegressor
+2019-01-07 13:55:28,957 - INFO - Starting XGBClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:55:30,236 - INFO - Starting RandomForestRegressor
+2019-01-07 13:55:36,379 - INFO - Starting GradientBoostingClassifier
+2019-01-07 13:55:58,420 - INFO - Starting AdaBoostClassifier
+2019-01-07 13:56:07,075 - INFO - X columns for the regression model: ['pe_better', 'previous_error_diff_deviation', 'volatility_5_10_after', 'volatility_10_15_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'volatility_20_25_after', 'volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_60_0_before', 'volatility_15_20_after', 'pips_agg_10_15_after', 'fe_accurate', 'pips_agg_0_30_after', 'fe_better', 'pips_agg_15_20_after', 'pe_accurate', 'week', 'fe_worse', 'weekday', 'pips_agg_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'new_id', 'year', 'pips_agg_0_60_after', 'pe_worse', 'volatility_0_60_after', 'High', 'volatility_0_30_after', 'num_news']
+2019-01-07 13:56:07,093 - INFO - Starting KNeighborsRegressor
+2019-01-07 13:56:26,451 - INFO - Starting SVR - rbf
+2019-01-07 13:56:40,085 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 13:56:43,825 - INFO - Starting RandomForestRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:01:44,299 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:01:46,917 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:01:51,932 - INFO - Starting AdaBoostRegressor
+2019-01-07 14:02:01,274 - INFO - sweep done in: 14.11 min
+2019-01-07 14:02:01,280 - INFO - Starting a new sweep with market features: all
+2019-01-07 14:02:01,280 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 14:02:01,280 - INFO - Starting a new sweep, delay in between buying-selling is: 60_180
+2019-01-07 14:02:01,280 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 14:02:01,281 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_180_after']
+2019-01-07 14:02:01,525 - INFO - X columns for the classification model: ['volatility_25_30_after', 'pe_better', 'pips_candle_5_10_after', 'pips_candle_20_25_after', 'pips_candle_0_5_after', 'volatility_15_20_after', 'pips_agg_0_30_after', 'previous_error_diff_deviation', 'fe_accurate', 'volatility_0_60_after', 'pips_candle_10_15_after', 'week', 'High', 'pips_agg_20_25_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_5_10_after', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'forecast_error_diff_deviation', 'volatility_20_25_after', 'fe_better', 'pe_worse', 'weekday', 'pips_agg_10_15_after', 'volatility_5_10_after', 'pips_agg_25_30_after', 'year', 'num_news', 'new_id', 'volatility_0_30_after', 'pips_candle_25_30_after', 'pips_agg_0_5_after', 'volatility_0_5_after', 'volatility_60_0_before', 'fe_worse', 'pips_agg_0_60_after', 'pips_agg_60_0_before', 'pe_accurate', 'volatility_10_15_after']
+2019-01-07 14:02:01,543 - INFO - Starting KNeighborsClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:02:03,085 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:02:05,657 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:02:10,714 - INFO - Starting AdaBoostRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:02:18,596 - INFO - sweep done in: 13.98 min
+2019-01-07 14:02:18,601 - INFO - Starting a new sweep with market features: all
+2019-01-07 14:02:18,601 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 14:02:18,601 - INFO - Starting a new sweep, delay in between buying-selling is: 60_240
+2019-01-07 14:02:18,601 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 14:02:18,601 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_240_after']
+2019-01-07 14:02:18,861 - INFO - X columns for the classification model: ['pips_agg_0_30_after', 'pe_worse', 'pips_agg_5_10_after', 'pe_better', 'week', 'pips_candle_25_30_after', 'volatility_25_30_after', 'forecast_error_diff_outlier_class', 'volatility_60_0_before', 'fe_worse', 'pips_candle_10_15_after', 'year', 'volatility_15_20_after', 'forecast_error_diff_deviation', 'num_news', 'High', 'volatility_0_5_after', 'pips_agg_60_0_before', 'new_id', 'pips_candle_5_10_after', 'pe_accurate', 'volatility_0_30_after', 'previous_error_diff_outlier_class', 'volatility_10_15_after', 'pips_candle_15_20_after', 'fe_better', 'volatility_5_10_after', 'pips_agg_0_5_after', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pips_agg_10_15_after', 'volatility_0_60_after', 'pips_agg_25_30_after', 'pips_candle_0_5_after', 'pips_agg_20_25_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'fe_accurate', 'pips_agg_0_60_after']
+2019-01-07 14:02:18,879 - INFO - Starting KNeighborsClassifier
+2019-01-07 14:02:25,002 - INFO - Starting SVC - rbf
+2019-01-07 14:02:42,200 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 14:02:45,170 - INFO - Starting DecisionTreeClassifier
+2019-01-07 14:02:49,487 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 14:03:02,151 - INFO - Starting DecisionTreeClassifier
+2019-01-07 14:03:06,625 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:03:16,034 - INFO - Starting XGBRegressor
+2019-01-07 14:03:18,667 - INFO - Starting GradientBoostingRegressor
+2019-01-07 14:03:23,704 - INFO - Starting AdaBoostRegressor
+2019-01-07 14:03:33,846 - INFO - sweep done in: 13.22 min
+2019-01-07 14:03:33,850 - INFO - Starting a new sweep with market features: all
+2019-01-07 14:03:33,850 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-07 14:03:33,850 - INFO - Starting a new sweep, delay in between buying-selling is: 60_120
+2019-01-07 14:03:33,850 - INFO - Starting a new sweep for grid mode: basic
+2019-01-07 14:03:33,850 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_agg_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_agg_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_agg_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_agg_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_agg_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_agg_25_30_after', 'pips_candle_25_30_after', 'volatility_0_30_after', 'pips_agg_0_30_after', 'volatility_0_60_after', 'pips_agg_0_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_agg_0_120_after']
+2019-01-07 14:03:34,147 - INFO - X columns for the classification model: ['pe_better', 'previous_error_diff_deviation', 'volatility_5_10_after', 'volatility_10_15_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'pips_candle_20_25_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'volatility_20_25_after', 'pips_candle_0_5_after', 'volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_60_0_before', 'volatility_15_20_after', 'pips_agg_10_15_after', 'fe_accurate', 'pips_agg_0_30_after', 'fe_better', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'pe_accurate', 'week', 'fe_worse', 'weekday', 'pips_agg_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'new_id', 'year', 'pips_agg_0_60_after', 'pe_worse', 'volatility_0_60_after', 'pips_candle_10_15_after', 'pips_candle_5_10_after', 'High', 'volatility_0_30_after', 'num_news']
+2019-01-07 14:03:34,166 - INFO - Starting KNeighborsClassifier
+2019-01-07 14:03:57,609 - INFO - Starting SVC - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-07 14:04:16,393 - INFO - Starting DecisionTreeClassifier
+2019-01-07 14:04:20,744 - INFO - Starting RandomForestClassifier
+2019-01-07 14:06:44,945 - INFO - Starting XGBClassifier
+2019-01-07 14:06:53,417 - INFO - Starting GradientBoostingClassifier
+2019-01-07 14:07:03,558 - INFO - Starting XGBClassifier
+2019-01-07 14:07:11,410 - INFO - Starting GradientBoostingClassifier
+2019-01-07 14:07:18,807 - INFO - Starting AdaBoostClassifier
+2019-01-07 14:07:28,458 - INFO - X columns for the regression model: ['volatility_25_30_after', 'pe_better', 'pips_candle_5_10_after', 'pips_candle_20_25_after', 'pips_candle_0_5_after', 'volatility_15_20_after', 'pips_agg_0_30_after', 'previous_error_diff_deviation', 'fe_accurate', 'volatility_0_60_after', 'pips_candle_10_15_after', 'week', 'High', 'pips_agg_20_25_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_5_10_after', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'forecast_error_diff_deviation', 'volatility_20_25_after', 'fe_better', 'pe_worse', 'weekday', 'pips_agg_10_15_after', 'volatility_5_10_after', 'pips_agg_25_30_after', 'year', 'num_news', 'new_id', 'volatility_0_30_after', 'pips_candle_25_30_after', 'pips_agg_0_5_after', 'volatility_0_5_after', 'volatility_60_0_before', 'fe_worse', 'pips_agg_0_60_after', 'pips_agg_60_0_before', 'pe_accurate', 'volatility_10_15_after']
+2019-01-07 14:07:28,482 - INFO - Starting KNeighborsRegressor
+2019-01-07 14:07:36,862 - INFO - Starting AdaBoostClassifier
+2019-01-07 14:07:46,364 - INFO - X columns for the regression model: ['pips_agg_0_30_after', 'pe_worse', 'pips_agg_5_10_after', 'pe_better', 'week', 'pips_candle_25_30_after', 'volatility_25_30_after', 'forecast_error_diff_outlier_class', 'volatility_60_0_before', 'fe_worse', 'pips_candle_10_15_after', 'year', 'volatility_15_20_after', 'forecast_error_diff_deviation', 'num_news', 'High', 'volatility_0_5_after', 'pips_agg_60_0_before', 'new_id', 'pips_candle_5_10_after', 'pe_accurate', 'volatility_0_30_after', 'previous_error_diff_outlier_class', 'volatility_10_15_after', 'pips_candle_15_20_after', 'fe_better', 'volatility_5_10_after', 'pips_agg_0_5_after', 'weekday', 'pips_agg_15_20_after', 'previous_error_diff_deviation', 'pips_agg_10_15_after', 'volatility_0_60_after', 'pips_agg_25_30_after', 'pips_candle_0_5_after', 'pips_agg_20_25_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'fe_accurate', 'pips_agg_0_60_after']
+2019-01-07 14:07:46,382 - INFO - Starting KNeighborsRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:07:51,274 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:08:07,158 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:08:09,339 - INFO - Starting SVR - rbf
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:08:11,502 - INFO - Starting RandomForestRegressor
+2019-01-07 14:08:17,751 - INFO - Starting XGBClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:08:25,486 - INFO - Starting DecisionTreeRegressor
+2019-01-07 14:08:26,321 - INFO - Starting GradientBoostingClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:08:29,683 - INFO - Starting RandomForestRegressor
+2019-01-07 14:08:51,444 - INFO - Starting AdaBoostClassifier
+2019-01-07 14:09:00,489 - INFO - X columns for the regression model: ['pe_better', 'previous_error_diff_deviation', 'volatility_5_10_after', 'volatility_10_15_after', 'forecast_error_diff_outlier_class', 'previous_error_diff_outlier_class', 'pips_agg_25_30_after', 'pips_candle_20_25_after', 'pips_candle_25_30_after', 'pips_agg_60_0_before', 'pips_agg_5_10_after', 'volatility_20_25_after', 'pips_candle_0_5_after', 'volatility_0_5_after', 'pips_agg_0_5_after', 'volatility_60_0_before', 'volatility_15_20_after', 'pips_agg_10_15_after', 'fe_accurate', 'pips_agg_0_30_after', 'fe_better', 'pips_candle_15_20_after', 'pips_agg_15_20_after', 'pe_accurate', 'week', 'fe_worse', 'weekday', 'pips_agg_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'new_id', 'year', 'pips_agg_0_60_after', 'pe_worse', 'volatility_0_60_after', 'pips_candle_10_15_after', 'pips_candle_5_10_after', 'High', 'volatility_0_30_after', 'num_news']
+2019-01-07 14:09:00,508 - INFO - Starting KNeighborsRegressor
+2019-01-07 14:09:23,128 - INFO - Starting SVR - rbf
+2019-01-07 14:09:38,899 - INFO - Starting DecisionTreeRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:09:43,119 - INFO - Starting RandomForestRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:15:43,120 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:15:46,005 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:15:51,774 - INFO - Starting AdaBoostRegressor
+2019-01-07 14:16:01,228 - INFO - sweep done in: 14.00 min
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:16:01,437 - INFO - Starting XGBRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:16:03,959 - INFO - Starting GradientBoostingRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:16:08,296 - INFO - Starting AdaBoostRegressor
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:16:15,623 - INFO - sweep done in: 13.95 min
+/anaconda3/lib/python3.6/site-packages/sklearn/model_selection/_search.py:841: DeprecationWarning: The default of the `iid` parameter will change from True to False in version 0.22 and will be removed in 0.24. This will change numeric results when test-set sizes are unequal.
+  DeprecationWarning)
+2019-01-07 14:16:53,872 - INFO - Starting XGBRegressor
+2019-01-07 14:16:55,964 - INFO - Starting GradientBoostingRegressor
+2019-01-07 14:17:00,054 - INFO - Starting AdaBoostRegressor
+2019-01-07 14:17:07,922 - INFO - sweep done in: 13.57 min

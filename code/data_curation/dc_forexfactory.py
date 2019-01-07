@@ -100,13 +100,15 @@ def get_outlier_category(row, error_field, field_uq, field_lq):
 #       row:                    row from the data-frame
 #       forecasted_field:       column name in the row holding the forecasted value
 #       actual_field:           column name in the row holding the actual value
+#       direction_field:        column name in the row holding whether the deviation was better, worse or accurate
 #
 ########################################################################################################################
-def compute_diff(row, forecasted_field, actual_field):
+def compute_diff(row, forecasted_field, actual_field, impact_field):
     try:
 
         forecasted = row[forecasted_field]
         actual = row[actual_field]
+        impact = row[impact_field]
 
         values = [forecasted, actual]
 
@@ -130,6 +132,13 @@ def compute_diff(row, forecasted_field, actual_field):
         actual_float = float(values[1])
 
         diff = actual_float - forecasted_float
+
+        # It may happen that a negative impact means a positive new for the country
+        # i.e. having lower unemployment rate is good for the country
+        # Therefore, for making the life easier to models and visualization, we consider here that a possitive diff
+        # is always good for the country that publishes the new
+        if impact != 'better': diff = abs(diff) * -1 # worse or accurate
+        else: diff = abs(diff)
 
     except:
         diff = 9999
@@ -287,8 +296,8 @@ def compute_previous_error_diff(df):
         df_temp = df[df['new'] == new].sort_values(by='datetime_gmt', ascending=True).reset_index()
         df_temp.drop(columns=['index'], axis=1, inplace=True)
         df_temp['previous_value'] = df_temp['actual'].shift().fillna(df_temp['previous'])
-        df_temp['previous_error_diff'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value', 'previous'),
-                                                       axis=1)
+        df_temp['previous_error_diff'] = df_temp.apply(lambda row: compute_diff(row, 'previous_value', 'previous',
+                                                                                'previous_error'), axis=1)
         df_temp['previous_error_diff'] = df_temp['previous_error_diff'].round(2)
 
         # We have used 9999 to flag those times when we have not been able to compute error rate
@@ -520,7 +529,7 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
             logging.error('Removed these rows from the dataframe')
 
         # Compute the error, in %, between actual values and the forecasted ones
-        df['forecast_error_diff'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual'), axis=1)
+        df['forecast_error_diff'] = df.apply(lambda row: compute_diff(row, 'forecast', 'actual', 'forecast_error'), axis=1)
         df['forecast_error_diff'] = df['forecast_error_diff'].round(2)
 
         # We have used the encoding 9999 to flag whenever we have not been able to compute error rate
