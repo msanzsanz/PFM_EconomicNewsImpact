@@ -327,12 +327,12 @@ def get_deviation_and_outlier(df, field_name, size=5):
     df_out = pd.DataFrame([])
 
     field_std = field_name + '_std'
-    field_dir_std = field_name + '_dir'
     field_deviation = field_name + '_deviation'
     field_uq = field_name + '_upper_quartile'
     field_lq = field_name + '_lower_quartile'
     field_outlier = field_name + '_outlier_class'
     field_tmp = field_name + '_tmp'
+    field_mean = field_name + '_mean'
 
     for new in news_list:
         # sort by ascending datetime
@@ -362,17 +362,16 @@ def get_deviation_and_outlier(df, field_name, size=5):
         df_temp[field_std] = df_temp[field_tmp].shift().rolling(window=size, min_periods=size).std() \
             .fillna(df_temp[field_tmp])
 
-        # By definition, std has no sign. We compute whether the last previous releases were positive or negative in avg
-        df_temp[field_dir_std] = df_temp[field_name].shift().rolling(window=size, min_periods=0) \
-            .apply(lambda window: get_direction(window, size), raw=True)
+        df_temp[field_mean] = df_temp[field_tmp].shift().rolling(window=size, min_periods=size).std() \
+            .fillna(df_temp[field_tmp])
 
-        df_temp[field_deviation] = df_temp.apply(lambda row: compute_ratio(row, field_name, field_std, field_dir_std),
+        df_temp[field_deviation] = df_temp.apply(lambda row: compute_ratio(row, field_name, field_std, field_mean),
                                                  axis=1)
 
         df_temp[field_deviation] = df_temp[field_deviation].apply(lambda x: float(format(x, '.2f')))
 
         # Drop undesired columns
-        df_temp.drop(columns=[field_lq, field_uq, field_std, field_tmp, field_dir_std], axis=1, inplace=True)
+        #df_temp.drop(columns=[field_lq, field_uq, field_std, field_tmp, field_dir_std, field_mean], axis=1, inplace=True)
 
         df_out = df_out.append(df_temp)
 
@@ -428,24 +427,33 @@ def get_direction(array, size):
 #
 #
 ########################################################################################################################
-def compute_ratio(row, field_value, field_std, field_dir_std):
-    value = row[field_value]
-    std = row[field_std]
-    sign = row[field_dir_std]
+def compute_ratio(row, field_value, field_std, field_mean):
+    row_value = row[field_value]
+    row_std = row[field_std]
+    row_mean = row[field_mean]
 
     # First, if the std is pretty low, we consider it as equal to zero
-    if std < 0.01:
-        std = 0
+    if abs(row_std) < 0.01:
+        row_std = 0
 
-    # Sign is a variable that captures whether the diff, for the previous 5 publications, was positive or negative
-    # If this time the forecast was correct, but not before, this is a deviation from the past in the opposite direction
-    if value == 0:
-        out = std * sign * -1
+    # Same for the mean
+    if abs(row_mean) < 0.01:
+        row_mean = 0
 
-    elif std != 0:
-        out = value / std
+    # If no error was present, the ratio is equal to 0
+    if row_value == 0:
+        out = 0
+    elif row_std != 0:
+        out = row_value / row_std
     else:
-        out = value
+        # std is equal to 0 only when all previous values are equal to the mean.
+        # Thus, if current value is also equal to the mean, we need to return 1
+        if row_mean != 0:
+            out = row_value / row_mean
+        else:
+            if row_value < 0: out = row_value - 1
+            else: out = row_value + 1 # We add 1 as 1 represents usual deviation
+            logging.info('mean and std were zero but this value is != 0. Ratio: {}'.format(str(out)))
 
     return out
 
