@@ -1,0 +1,885 @@
+,actual,country,datetime,forecast,forecast_error,impact,new,previous,previous_error,week
+0,,JPY,2018-12-23 00:00:00,,,Non-Economic,Bank Holiday,,,52
+1,,EUR,2018-12-24 00:00:00,,,Non-Economic,German Bank Holiday,,,52
+2,,NZD,2018-12-24 00:00:00,,,Non-Economic,Bank Holiday,,,52
+3,,AUD,2018-12-24 00:00:00,,,Non-Economic,Bank Holiday,,,52
+4,1.2%,JPY,2018-12-24 18:50:00,1.3%,worse,Low,SPPI y/y,1.3%,,52
+5,,CHF,2018-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,52
+6,,EUR,2018-12-25 00:00:00,,,Non-Economic,French Bank Holiday,,,52
+7,,EUR,2018-12-25 00:00:00,,,Non-Economic,German Bank Holiday,,,52
+8,,EUR,2018-12-25 00:00:00,,,Non-Economic,Italian Bank Holiday,,,52
+9,,GBP,2018-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,52
+10,,CAD,2018-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,52
+11,,USD,2018-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,52
+12,,NZD,2018-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,52
+13,,AUD,2018-12-25 00:00:00,,,Non-Economic,Bank Holiday,,,52
+14,,JPY,2018-12-25 18:50:00,,,Low,Monetary Policy Meeting Minutes,,,52
+15,,JPY,2018-12-25 23:00:00,,,Medium,BOJ Gov Kuroda Speaks,,,52
+16,0.5%,JPY,2018-12-26 00:00:00,0.6%,worse,Low,BOJ Core CPI y/y,0.6%,,52
+17,,CHF,2018-12-26 00:00:00,,,Non-Economic,Bank Holiday,,,52
+18,,EUR,2018-12-26 00:00:00,,,Non-Economic,German Bank Holiday,,,52
+19,,EUR,2018-12-26 00:00:00,,,Non-Economic,Italian Bank Holiday,,,52
+20,,GBP,2018-12-26 00:00:00,,,Non-Economic,Bank Holiday,,,52
+21,,CAD,2018-12-26 00:00:00,,,Non-Economic,Bank Holiday,,,52
+22,5.0%,USD,2018-12-26 09:00:00,4.8%,better,Low,S&P/CS Composite-20 HPI y/y,5.2%,,52
+23,-8,USD,2018-12-26 09:59:00,16,worse,Low,Richmond Manufacturing Index,14,,52
+24,-0.6%,JPY,2018-12-27 00:00:00,-0.2%,worse,Low,Housing Starts y/y,0.3%,,52
+25,-22.2,CHF,2018-12-27 04:00:00,,,Low,Credit Suisse Economic Expectations,-42.3,,52
+26,,EUR,2018-12-27 04:00:00,,,Low,ECB Economic Bulletin,,,52
+27,216K,USD,2018-12-27 08:30:00,217K,,Low,Unemployment Claims,217K,,52
+28,0.3%,USD,2018-12-27 09:00:00,0.3%,,Low,HPI m/m,0.2%,,52
+29,128.1,USD,2018-12-27 10:00:00,133.7,worse,High,CB Consumer Confidence,136.4,better,52
+30,0.9%,JPY,2018-12-27 18:30:00,0.9%,,Low,Tokyo Core CPI y/y,1.0%,,52
+31,2.5%,JPY,2018-12-27 18:30:00,2.4%,worse,Low,Unemployment Rate,2.4%,,52
+32,,JPY,2018-12-27 18:50:00,,,Low,BOJ Summary of Opinions,,,52
+33,-1.1%,JPY,2018-12-27 18:50:00,-1.7%,better,Low,Prelim Industrial Production m/m,2.9%,,52
+34,1.4%,JPY,2018-12-27 18:50:00,2.1%,worse,Low,Retail Sales y/y,3.6%,,52
+35,0.1%,EUR,2018-12-28 00:00:00,0.3%,worse,Medium,German Prelim CPI m/m,0.1%,,52
+36,96.3,CHF,2018-12-28 03:00:00,98.7,worse,Medium,KOF Economic Barometer,98.9,worse,52
+37,1.2%,EUR,2018-12-28 03:00:00,1.6%,worse,Low,Spanish Flash CPI y/y,1.7%,,52
+38,39.4K,GBP,2018-12-28 04:30:00,38.9K,better,Low,High Street Lending,39.6K,,52
+39,2.70|1.5,EUR,2018-12-28 05:35:00,,,Low,Italian 10-y Bond Auction,3.24|1.4,,52
+40,65.4,USD,2018-12-28 09:45:00,61.4,better,Medium,Chicago PMI,66.4,,52
+41,-0.7%,USD,2018-12-28 10:00:00,0.9%,worse,Low,Pending Home Sales m/m,-2.6%,,52
+42,-48B,USD,2018-12-28 10:30:00,-50B,,Low,Natural Gas Storage,-141B,,52
+43,0.0M,USD,2018-12-28 11:00:00,-2.9M,,Low,Crude Oil Inventories,-0.5M,,52
+44,-1.5%,GBP,2018-12-16 19:01:00,,,Low,Rightmove HPI m/m,-1.7%,,51
+45,,AUD,2018-12-16 19:30:00,,,Medium,Mid-Year Economic and Fiscal Outlook,,,51
+46,3.78B,EUR,2018-12-17 04:08:00,1.89B,better,Low,Italian Trade Balance,1.27B,,51
+47,1.9%,EUR,2018-12-17 05:00:00,2.0%,worse,Low,Final CPI y/y,2.0%,,51
+48,1.0%,EUR,2018-12-17 05:00:00,1.0%,,Low,Final Core CPI y/y,1.0%,,51
+49,12.5B,EUR,2018-12-17 05:00:00,14.2B,worse,Low,Trade Balance,13.0B,worse,51
+50,,EUR,2018-12-17 06:00:00,,,Low,German Buba Monthly Report,,,51
+51,3.98B,CAD,2018-12-17 08:30:00,6.20B,worse,Low,Foreign Securities Purchases,7.76B,,51
+52,10.9,USD,2018-12-17 08:30:00,20.1,worse,Low,Empire State Manufacturing Index,23.3,,51
+53,56,USD,2018-12-17 10:00:00,61,worse,Low,NAHB Housing Market Index,60,,51
+54,-0.5%,AUD,2018-12-17 10:30:00,,,Low,CB Leading Index m/m,-0.1%,,51
+55,31.3B,USD,2018-12-17 16:00:00,22.3B,better,Low,TIC Long-Term Purchases,30.8B,,51
+56,-24.1,NZD,2018-12-17 19:00:00,,,Medium,ANZ Business Confidence,-37.1,,51
+57,,AUD,2018-12-17 19:30:00,,,Medium,Monetary Policy Meeting Minutes,,,51
+58,3.6%,AUD,2018-12-17 20:40:00,,,Low,HIA New Home Sales m/m,-0.8%,,51
+59,,CHF,2018-12-18 01:45:00,,,Low,SECO Economic Forecasts,,,51
+60,101.0,EUR,2018-12-18 04:00:00,101.8,worse,Medium,German Ifo Business Climate,102.0,,51
+61,-0.1%,CAD,2018-12-18 08:30:00,0.3%,worse,Low,Manufacturing Sales m/m,0.2%,,51
+62,1.33M,USD,2018-12-18 08:30:00,1.27M,better,Medium,Building Permits,1.27M,,51
+63,1.26M,USD,2018-12-18 08:30:00,1.23M,better,Low,Housing Starts,1.22M,,51
+64,1.7%,NZD,2018-12-18 09:26:00,,,Low,GDT Price Index,2.2%,,51
+65,109.1,NZD,2018-12-18 15:00:00,,,Medium,Westpac Consumer Sentiment,103.5,,51
+66,-6.15B,NZD,2018-12-18 16:45:00,-5.94B,worse,Medium,Current Account,-1.63B,,51
+67,-0.1%,AUD,2018-12-18 18:30:00,,,Low,MI Leading Index m/m,0.1%,,51
+68,-0.49T,JPY,2018-12-18 18:50:00,-0.31T,worse,Low,Trade Balance,-0.29T,,51
+69,0.1%,EUR,2018-12-19 02:00:00,-0.1%,better,Low,German PPI m/m,0.3%,,51
+70,2.3%,GBP,2018-12-19 04:30:00,2.3%,,High,CPI y/y,2.4%,,51
+71,-2.3%,GBP,2018-12-19 04:30:00,-2.9%,better,Medium,PPI Input m/m,0.8%,,51
+72,3.2%,GBP,2018-12-19 04:30:00,3.2%,,Medium,RPI y/y,3.3%,,51
+73,1.8%,GBP,2018-12-19 04:30:00,1.8%,,Low,Core CPI y/y,1.9%,,51
+74,2.7%,GBP,2018-12-19 04:30:00,3.3%,worse,Low,HPI y/y,3.0%,worse,51
+75,0.2%,GBP,2018-12-19 04:30:00,-0.1%,better,Low,PPI Output m/m,0.3%,,51
+76,8,GBP,2018-12-19 06:00:00,6,better,Low,CBI Industrial Order Expectations,10,,51
+77,-0.4%,CAD,2018-12-19 08:30:00,-0.4%,,High,CPI m/m,0.3%,,51
+78,1.9%,CAD,2018-12-19 08:30:00,1.9%,,Medium,Common CPI y/y,1.9%,,51
+79,1.9%,CAD,2018-12-19 08:30:00,2.0%,worse,Medium,Median CPI y/y,2.0%,,51
+80,1.9%,CAD,2018-12-19 08:30:00,2.1%,worse,Medium,Trimmed CPI y/y,2.1%,,51
+81,-125B,USD,2018-12-19 08:30:00,-125B,,Low,Current Account,-101B,,51
+82,-0.2%,CAD,2018-12-19 08:32:00,,,Low,Core CPI m/m,0.4%,,51
+83,-0.9,EUR,2018-12-19 08:59:00,-0.9,,Low,Belgian NBB Business Climate,0.4,,51
+84,,CHF,2018-12-19 09:00:00,,,Low,SNB Quarterly Bulletin,,,51
+85,1.4%,CNY,2018-12-19 09:00:00,,,Low,CB Leading Index m/m,1.2%,,51
+86,5.32M,USD,2018-12-19 10:00:00,5.20M,better,Low,Existing Home Sales,5.22M,,51
+87,-0.5M,USD,2018-12-19 10:30:00,-2.7M,,Low,Crude Oil Inventories,-1.2M,,51
+88,,USD,2018-12-19 14:00:00,,,High,FOMC Economic Projections,,,51
+89,,USD,2018-12-19 14:00:00,,,High,FOMC Statement,,,51
+90,<2.50%,USD,2018-12-19 14:00:00,<2.50%,,High,Federal Funds Rate,<2.25%,,51
+91,,USD,2018-12-19 14:30:00,,,High,FOMC Press Conference,,,51
+92,0.3%,NZD,2018-12-19 16:45:00,0.6%,worse,High,GDP q/q,1.0%,,51
+93,-861M,NZD,2018-12-19 16:45:00,-880M,better,Medium,Trade Balance,-1317M,worse,51
+94,37.0K,AUD,2018-12-19 19:30:00,20.0K,better,High,Employment Change,28.7K,worse,51
+95,5.1%,AUD,2018-12-19 19:30:00,5.0%,worse,High,Unemployment Rate,5.0%,,51
+96,6.1%,NZD,2018-12-19 21:00:00,,,Low,Credit Card Spending y/y,6.4%,,51
+97,,JPY,2018-12-19 21:52:00,,,High,Monetary Policy Statement,,,51
+98,-0.10%,JPY,2018-12-19 21:52:00,-0.10%,,Medium,BOJ Policy Rate,-0.10%,,51
+99,1.9%,JPY,2018-12-19 23:30:00,2.0%,,Low,All Industries Activity m/m,-1.0%,,51
+100,,JPY,2018-12-20 01:30:00,,,High,BOJ Press Conference,,,51
+101,4.74B,CHF,2018-12-20 02:00:00,3.20B,better,Low,Trade Balance,3.52B,worse,51
+102,23.0B,EUR,2018-12-20 04:00:00,18.4B,better,Low,Current Account,17.6B,better,51
+103,1.4%,GBP,2018-12-20 04:30:00,0.3%,better,High,Retail Sales m/m,-0.4%,better,51
+104,-13,GBP,2018-12-20 06:00:00,16,worse,Low,CBI Realized Sales,19,,51
+105,0-0-9,GBP,2018-12-20 07:00:00,0-0-9,,High,MPC Official Bank Rate Votes,0-0-9,,51
+106,,GBP,2018-12-20 07:00:00,,,High,Monetary Policy Summary,,,51
+107,0.75%,GBP,2018-12-20 07:00:00,0.75%,,Medium,Official Bank Rate,0.75%,,51
+108,435B,GBP,2018-12-20 07:00:00,435B,,Low,Asset Purchase Facility,435B,,51
+109,0-0-9,GBP,2018-12-20 07:03:00,0-0-9,,Low,MPC Asset Purchase Facility Votes,0-0-9,,51
+110,39.1K,CAD,2018-12-20 08:30:00,,,Low,ADP Non-Farm Employment Change,1.8K,better,51
+111,1.0%,CAD,2018-12-20 08:30:00,0.4%,better,Low,Wholesale Sales m/m,-0.7%,worse,51
+112,9.4,USD,2018-12-20 08:30:00,15.1,worse,Low,Philly Fed Manufacturing Index,12.9,,51
+113,214K,USD,2018-12-20 08:30:00,216K,,Low,Unemployment Claims,206K,,51
+114,0.2%,USD,2018-12-20 10:00:00,0.0%,better,Low,CB Leading Index m/m,-0.3%,worse,51
+115,-141B,USD,2018-12-20 10:30:00,-136B,,Low,Natural Gas Storage,-77B,,51
+116,0.9%,JPY,2018-12-20 18:30:00,1.0%,worse,Low,National Core CPI y/y,1.0%,,51
+117,-14,GBP,2018-12-20 19:01:00,-14,,Low,GfK Consumer Confidence,-13,,51
+118,10.4,EUR,2018-12-21 02:00:00,10.3,,Low,German GfK Consumer Climate,10.4,,51
+119,-1.0%,EUR,2018-12-21 02:00:00,,,Low,German Import Prices m/m,1.0%,,51
+120,-0.3%,EUR,2018-12-21 02:45:00,0.0%,worse,Low,French Consumer Spending m/m,0.9%,better,51
+121,-26.5B,GBP,2018-12-21 04:30:00,-21.7B,worse,High,Current Account,-20.0B,better,51
+122,0.6%,GBP,2018-12-21 04:30:00,0.6%,,Medium,Final GDP q/q,0.6%,,51
+123,6.3B,GBP,2018-12-21 04:30:00,7.0B,better,Medium,Public Sector Net Borrowing,5.6B,better,51
+124,-1.1%,GBP,2018-12-21 04:30:00,-1.2%,,Low,Revised Business Investment q/q,-1.2%,,51
+125,,GBP,2018-12-21 07:00:00,,,Low,BOE Quarterly Bulletin,,,51
+126,0.0%,CAD,2018-12-21 08:30:00,0.2%,worse,High,Core Retail Sales m/m,0.1%,,51
+127,0.3%,CAD,2018-12-21 08:30:00,0.2%,better,High,GDP m/m,-0.1%,,51
+128,0.3%,CAD,2018-12-21 08:30:00,0.4%,worse,Medium,Retail Sales m/m,0.1%,worse,51
+129,-0.3%,USD,2018-12-21 08:30:00,0.3%,worse,High,Core Durable Goods Orders m/m,0.2%,,51
+130,3.4%,USD,2018-12-21 08:30:00,3.5%,worse,High,Final GDP q/q,3.5%,,51
+131,0.8%,USD,2018-12-21 08:30:00,1.6%,worse,Medium,Durable Goods Orders m/m,-4.3%,,51
+132,1.8%,USD,2018-12-21 08:30:00,1.7%,,Low,Final GDP Price Index q/q,1.7%,,51
+133,-6,EUR,2018-12-21 09:48:00,-4,worse,Low,Consumer Confidence,-4,,51
+134,,CAD,2018-12-21 10:00:00,,,High,BOC Business Outlook Survey,,,51
+135,0.1%,USD,2018-12-21 10:00:00,0.2%,worse,Medium,Core PCE Price Index m/m,0.1%,,51
+136,0.4%,USD,2018-12-21 10:00:00,0.3%,better,Medium,Personal Spending m/m,0.8%,better,51
+137,98.3,USD,2018-12-21 10:00:00,97.6,better,Medium,Revised UoM Consumer Sentiment,97.5,,51
+138,0.2%,USD,2018-12-21 10:00:00,0.3%,worse,Low,Personal Income m/m,0.5%,,51
+139,2.7%,USD,2018-12-21 10:00:00,,,Low,Revised UoM Inflation Expectations,2.7%,,51
+140,,AUD,2018-12-09 16:35:00,,,Medium,RBA Assist Gov Kent Speaks,,,50
+141,2.0%,NZD,2018-12-09 16:45:00,,,Low,Manufacturing Sales q/q,1.8%,,50
+142,2.1%,JPY,2018-12-09 18:50:00,2.2%,worse,Low,Bank Lending y/y,2.2%,,50
+143,1.21T,JPY,2018-12-09 18:50:00,1.29T,worse,Low,Current Account,1.33T,,50
+144,-0.6%,JPY,2018-12-09 18:50:00,-0.5%,worse,Low,Final GDP q/q,-0.3%,,50
+145,-0.3%,JPY,2018-12-09 18:53:00,-0.3%,,Low,Final GDP Price Index y/y,-0.3%,,50
+146,2.2%,AUD,2018-12-09 19:30:00,-0.5%,better,Low,Home Loans m/m,-1.0%,,50
+147,51.0,JPY,2018-12-10 00:02:00,49.5,better,Low,Economy Watchers Sentiment,49.5,,50
+148,,CAD,2018-12-10 01:30:00,,,Medium,Gov Council Member Lane Speaks,,,50
+149,,GBP,2018-12-10 01:30:00,,,Medium,MPC Member Cunliffe Speaks,,,50
+150,2.4%,CHF,2018-12-10 01:45:00,2.5%,better,Low,Unemployment Rate,2.5%,,50
+151,17.3B,EUR,2018-12-10 02:00:00,17.2B,,Low,German Trade Balance,17.7B,,50
+152,0.1%,EUR,2018-12-10 04:00:00,-0.4%,better,Low,Italian Industrial Production m/m,-0.1%,better,50
+153,-0.3,EUR,2018-12-10 04:30:00,8.4,worse,Low,Sentix Investor Confidence,8.8,,50
+154,0.1%,GBP,2018-12-10 04:30:00,0.1%,,High,GDP m/m,0.0%,,50
+155,-0.9%,GBP,2018-12-10 04:30:00,0.0%,worse,High,Manufacturing Production m/m,0.2%,,50
+156,-0.2%,GBP,2018-12-10 04:30:00,-0.4%,,Low,Construction Output m/m,1.7%,,50
+157,-11.9B,GBP,2018-12-10 04:30:00,-10.5B,worse,Low,Goods Trade Balance,-10.7B,worse,50
+158,0.3%,GBP,2018-12-10 04:30:00,0.3%,,Low,Index of Services 3m/3m,0.4%,,50
+159,-0.6%,GBP,2018-12-10 04:30:00,-0.4%,worse,Low,Industrial Production m/m,0.0%,,50
+160,,CAD,2018-12-10 07:45:00,,,Medium,Gov Council Member Lane Speaks,,,50
+161,216K,CAD,2018-12-10 08:13:00,198K,better,Low,Housing Starts,207K,,50
+162,0.3%,GBP,2018-12-10 08:24:00,,,Low,NIESR GDP Estimate,0.4%,,50
+163,-0.2%,CAD,2018-12-10 08:30:00,-0.2%,,Low,Building Permits m/m,0.4%,,50
+164,7.08M,USD,2018-12-10 10:00:00,7.22M,worse,Low,JOLTS Job Openings,6.96M,,50
+165,,GBP,2018-12-10 10:30:00,,,High,Prime Minister May Speaks,,,50
+166,5.5,JPY,2018-12-10 18:50:00,,,Low,BSI Manufacturing Index,6.5,,50
+167,2.3%,JPY,2018-12-10 18:50:00,2.6%,worse,Low,M2 Money Stock y/y,2.7%,,50
+168,-1.5%,AUD,2018-12-10 19:30:00,-1.5%,,Medium,HPI q/q,-0.7%,,50
+169,3,AUD,2018-12-10 19:30:00,,,Low,NAB Business Confidence,5,better,50
+170,0.79|3.8,JPY,2018-12-10 22:35:00,,,Low,30-y Bond Auction,0.87|4.0,,50
+171,-16.8%,JPY,2018-12-11 00:58:00,,,Low,Prelim Machine Tool Orders y/y,-0.7%,better,50
+172,0.1%,EUR,2018-12-11 01:30:00,0.2%,worse,Low,French Final Private Payrolls q/q,0.2%,,50
+173,8.0%,CNY,2018-12-11 04:01:00,8.0%,,Low,M2 Money Supply y/y,8.0%,,50
+174,1250B,CNY,2018-12-11 04:01:00,1200B,better,Low,New Loans,697B,,50
+175,3.3%,GBP,2018-12-11 04:30:00,3.0%,better,High,Average Earnings Index 3m/y,3.1%,better,50
+176,4.1%,GBP,2018-12-11 04:30:00,4.1%,,Medium,Unemployment Rate,4.1%,,50
+177,21.9K,GBP,2018-12-11 04:30:00,13.2K,worse,Low,Claimant Count Change,23.2K,worse,50
+178,-17.5,EUR,2018-12-11 05:00:00,-25.0,better,Medium,German ZEW Economic Sentiment,-24.1,,50
+179,-21.0,EUR,2018-12-11 05:00:00,-23.2,better,Low,ZEW Economic Sentiment,-22.0,,50
+180,104.8,USD,2018-12-11 05:45:00,107.3,worse,Low,NFIB Small Business Index,107.4,,50
+181,0.1%,USD,2018-12-11 08:30:00,0.0%,better,High,PPI m/m,0.6%,,50
+182,0.3%,USD,2018-12-11 08:30:00,0.1%,better,Medium,Core PPI m/m,0.5%,,50
+183,,NZD,2018-12-11 14:15:00,,,High,RBNZ Gov Orr Speaks,,,50
+184,0.1%,AUD,2018-12-11 18:27:00,,,Medium,Westpac Consumer Sentiment,2.8%,,50
+185,7.6%,JPY,2018-12-11 18:50:00,10.2%,worse,Low,Core Machinery Orders m/m,-18.3%,,50
+186,2.3%,JPY,2018-12-11 18:50:00,2.4%,,Low,PPI y/y,3.0%,,50
+187,1.9%,JPY,2018-12-11 23:30:00,0.9%,better,Low,Tertiary Industry Activity m/m,-1.2%,,50
+188,10.2%,EUR,2018-12-12 04:00:00,10.3%,better,Low,Italian Quarterly Unemployment Rate,10.7%,,50
+189,0.2%,EUR,2018-12-12 05:00:00,0.2%,,Low,Industrial Production m/m,-0.6%,worse,50
+190,82.6%,CAD,2018-12-12 08:30:00,85.8%,worse,Low,Capacity Utilization Rate,84.1%,worse,50
+191,0.0%,USD,2018-12-12 08:30:00,0.0%,,High,CPI m/m,0.3%,,50
+192,0.2%,USD,2018-12-12 08:30:00,0.2%,,High,Core CPI m/m,0.2%,,50
+193,-1.2M,USD,2018-12-12 10:30:00,-3.0M,,Low,Crude Oil Inventories,-7.3M,,50
+194,2.92|2.4,USD,2018-12-12 13:01:00,,,Low,10-y Bond Auction,3.21|2.5,,50
+195,-0.6%,NZD,2018-12-12 16:45:00,,,Low,FPI m/m,-0.6%,,50
+196,4.0%,AUD,2018-12-12 19:00:00,,,Low,MI Inflation Expectations,3.6%,,50
+197,-11%,GBP,2018-12-12 19:01:00,-10%,worse,Low,RICS House Price Balance,-10%,,50
+198,,AUD,2018-12-12 19:30:00,,,Low,RBA Bulletin,,,50
+199,-1.3%,CNY,2018-12-13 01:46:00,,,Low,Foreign Direct Investment ytd/y,3.3%,,50
+200,0.1%,EUR,2018-12-13 02:00:00,0.1%,,Low,German Final CPI m/m,0.1%,,50
+201,-0.2%,EUR,2018-12-13 02:45:00,-0.2%,,Low,French Final CPI m/m,-0.2%,,50
+202,-0.3%,CHF,2018-12-13 03:15:00,0.1%,worse,Low,PPI m/m,0.2%,,50
+203,,CHF,2018-12-13 03:30:00,,,High,SNB Monetary Policy Assessment,,,50
+204,-0.75%,CHF,2018-12-13 03:30:00,-0.75%,,Medium,Libor Rate,-0.75%,,50
+205,,CHF,2018-12-13 04:00:00,,,High,SNB Press Conference,,,50
+206,0.00%,EUR,2018-12-13 07:45:00,0.00%,,High,Main Refinancing Rate,0.00%,,50
+207,0.0%,CAD,2018-12-13 08:30:00,0.0%,,Low,NHPI m/m,0.0%,,50
+208,,EUR,2018-12-13 08:30:00,,,High,ECB Press Conference,,,50
+209,-1.6%,USD,2018-12-13 08:30:00,-1.0%,worse,Low,Import Prices m/m,0.5%,,50
+210,206K,USD,2018-12-13 08:30:00,226K,better,Low,Unemployment Claims,233K,,50
+211,-77B,USD,2018-12-13 10:30:00,-81B,,Low,Natural Gas Storage,-63B,,50
+212,3.17|2.3,USD,2018-12-13 13:01:00,,,Medium,30-y Bond Auction,3.42|2.1,,50
+213,-204.9B,USD,2018-12-13 14:00:00,-193.5B,worse,Low,Federal Budget Balance,-100.5B,,50
+214,53.5,NZD,2018-12-13 16:30:00,,,Low,Business NZ Manufacturing Index,53.7,,50
+215,19,JPY,2018-12-13 18:50:00,18,better,Low,Tankan Manufacturing Index,19,,50
+216,24,JPY,2018-12-13 18:50:00,21,better,Low,Tankan Non-Manufacturing Index,22,,50
+217,52.4,JPY,2018-12-13 19:30:00,52.3,,Low,Flash Manufacturing PMI,52.2,better,50
+218,5.9%,CNY,2018-12-13 21:00:00,5.9%,,Medium,Fixed Asset Investment ytd/y,5.7%,,50
+219,5.4%,CNY,2018-12-13 21:00:00,5.9%,worse,Medium,Industrial Production y/y,5.9%,,50
+220,8.1%,CNY,2018-12-13 21:00:00,8.8%,worse,Low,Retail Sales y/y,8.6%,,50
+221,4.8%,CNY,2018-12-13 21:00:00,,,Low,Unemployment Rate,4.9%,,50
+222,2.9%,JPY,2018-12-13 23:30:00,2.8%,better,Low,Revised Industrial Production m/m,2.9%,,50
+223,0.2%,EUR,2018-12-14 02:00:00,,,Low,German WPI m/m,0.3%,,50
+224,49.7,EUR,2018-12-14 03:15:00,50.7,worse,Medium,French Flash Manufacturing PMI,50.8,,50
+225,49.6,EUR,2018-12-14 03:15:00,54.8,worse,Medium,French Flash Services PMI,55.1,,50
+226,51.5,EUR,2018-12-14 03:30:00,51.8,,Medium,German Flash Manufacturing PMI,51.8,,50
+227,52.5,EUR,2018-12-14 03:30:00,53.4,worse,Medium,German Flash Services PMI,53.3,,50
+228,51.4,EUR,2018-12-14 04:00:00,51.9,worse,Medium,Flash Manufacturing PMI,51.8,,50
+229,51.4,EUR,2018-12-14 04:00:00,53.4,worse,Medium,Flash Services PMI,53.4,,50
+230,,EUR,2018-12-14 00:00:00,,,Medium,Euro Summit,,,50
+231,0.2%,USD,2018-12-14 08:30:00,0.2%,,High,Core Retail Sales m/m,1.0%,better,50
+232,0.2%,USD,2018-12-14 08:30:00,0.1%,better,High,Retail Sales m/m,1.1%,better,50
+233,78.5%,USD,2018-12-14 09:15:00,78.6%,,Low,Capacity Utilization Rate,78.1%,worse,50
+234,0.6%,USD,2018-12-14 09:15:00,0.3%,better,Low,Industrial Production m/m,-0.2%,worse,50
+235,-0.4%,GBP,2018-12-14 09:30:00,,,Low,CB Leading Index m/m,-0.4%,,50
+236,53.9,USD,2018-12-14 09:45:00,55.1,worse,Low,Flash Manufacturing PMI,55.3,,50
+237,53.4,USD,2018-12-14 09:45:00,54.7,worse,Low,Flash Services PMI,54.7,,50
+238,0.6%,USD,2018-12-14 10:00:00,0.6%,,Low,Business Inventories m/m,0.5%,worse,50
+239,,EUR,2018-12-15 05:30:00,,,Medium,ECB President Draghi Speaks,,,50
+240,51.3,AUD,2018-12-02 16:30:00,,,Low,AIG Manufacturing Index,58.3,,49
+241,-0.3%,NZD,2018-12-02 16:45:00,0.1%,worse,Low,Overseas Trade Index q/q,0.4%,worse,49
+242,4.5%,JPY,2018-12-02 18:50:00,8.6%,worse,Low,Capital Spending q/y,12.8%,,49
+243,0.0%,AUD,2018-12-02 19:00:00,,,Low,MI Inflation Gauge m/m,0.1%,,49
+244,-1.5%,AUD,2018-12-02 19:30:00,-1.4%,,Medium,Building Approvals m/m,5.5%,better,49
+245,1.9%,AUD,2018-12-02 19:30:00,2.9%,worse,Medium,Company Operating Profits q/q,2.4%,better,49
+246,-0.3%,AUD,2018-12-02 19:30:00,,,Low,ANZ Job Advertisements m/m,0.3%,,49
+247,52.2,JPY,2018-12-02 19:30:00,51.8,better,Low,Final Manufacturing PMI,51.8,,49
+248,50.2,CNY,2018-12-02 20:45:00,50.1,,Low,Caixin Manufacturing PMI,50.1,,49
+249,14.9%,AUD,2018-12-03 00:30:00,,,Low,Commodity Prices y/y,14.9%,better,49
+250,0.8%,CHF,2018-12-03 03:15:00,-0.7%,better,Low,Retail Sales y/y,-2.5%,better,49
+251,52.6,EUR,2018-12-03 03:15:00,51.5,better,Low,Spanish Manufacturing PMI,51.8,,49
+252,57.7,CHF,2018-12-03 03:30:00,56.3,better,Low,Manufacturing PMI,57.4,,49
+253,48.6,EUR,2018-12-03 03:45:00,48.9,,Low,Italian Manufacturing PMI,49.2,,49
+254,50.8,EUR,2018-12-03 03:50:00,50.7,,Low,French Final Manufacturing PMI,50.7,,49
+255,51.8,EUR,2018-12-03 03:55:00,51.6,,Low,German Final Manufacturing PMI,51.6,,49
+256,51.8,EUR,2018-12-03 04:00:00,51.5,,Low,Final Manufacturing PMI,51.5,,49
+257,53.1,GBP,2018-12-03 04:30:00,51.6,better,Medium,Manufacturing PMI,51.1,,49
+258,,EUR,2018-12-03 00:00:00,,,Low,Eurogroup Meetings,,,49
+259,,USD,2018-12-03 06:30:00,,,Medium,FOMC Member Clarida Speaks,,,49
+260,,USD,2018-12-03 08:00:00,,,Medium,FOMC Member Quarles Speaks,,,49
+261,,USD,2018-12-03 09:15:00,,,Medium,FOMC Member Williams Speaks,,,49
+262,54.9,CAD,2018-12-03 09:30:00,,,Low,Manufacturing PMI,53.9,,49
+263,55.3,USD,2018-12-03 09:45:00,55.4,,Low,Final Manufacturing PMI,55.4,,49
+264,59.3,USD,2018-12-03 10:00:00,57.5,better,High,ISM Manufacturing PMI,57.7,,49
+265,-0.1%,USD,2018-12-03 10:00:00,0.4%,worse,Low,Construction Spending m/m,-0.1%,,49
+266,60.7,USD,2018-12-03 10:00:00,70.1,worse,Low,ISM Manufacturing Prices,71.6,,49
+267,17.5M,USD,2018-12-03 00:00:00,17.3M,better,Low,Total Vehicle Sales,17.6M,,49
+268,,USD,2018-12-03 10:30:00,,,Medium,FOMC Member Brainard Speaks,,,49
+269,,GBP,2018-12-03 12:30:00,,,Medium,MPC Member Haldane Speaks,,,49
+270,,USD,2018-12-03 18:00:00,,,High,Fed Chair Powell Speaks,,,49
+271,,USD,2018-12-03 18:00:00,,,Medium,FOMC Member Brainard Speaks,,,49
+272,6.1%,JPY,2018-12-03 18:50:00,5.7%,,Low,Monetary Base y/y,5.9%,,49
+273,-0.5%,GBP,2018-12-03 19:01:00,0.3%,worse,Low,BRC Retail Sales Monitor y/y,0.1%,,49
+274,-10.7B,AUD,2018-12-03 19:30:00,-10.2B,worse,Medium,Current Account,-12.1B,better,49
+275,,AUD,2018-12-03 22:30:00,,,High,RBA Rate Statement,,,49
+276,1.50%,AUD,2018-12-03 22:30:00,1.50%,,Medium,Cash Rate,1.50%,,49
+277,0.07|3.8,JPY,2018-12-03 22:35:00,,,Low,10-y Bond Auction,0.14|4.3,,49
+278,-87.0B,EUR,2018-12-04 02:45:00,,,Low,French Gov Budget Balance,-87.1B,,49
+279,-1.8K,EUR,2018-12-04 03:00:00,34.2K,better,Low,Spanish Unemployment Change,52.2K,,49
+280,-0.3%,CHF,2018-12-04 03:15:00,-0.1%,worse,Low,CPI m/m,0.2%,,49
+281,,GBP,2018-12-04 04:15:00,,,High,BOE Gov Carney Speaks,,,49
+282,53.4,GBP,2018-12-04 04:30:00,52.5,better,Medium,Construction PMI,53.2,,49
+283,0.8%,EUR,2018-12-04 05:00:00,0.5%,better,Low,PPI m/m,0.6%,better,49
+284,,EUR,2018-12-04 00:00:00,,,Low,ECOFIN Meetings,,,49
+285,0.3%,CAD,2018-12-04 08:30:00,0.4%,better,Low,Labor Productivity q/q,0.7%,,49
+286,2.2%,NZD,2018-12-04 09:35:00,,,Low,GDT Price Index,-3.5%,,49
+287,,USD,2018-12-04 10:00:00,,,Medium,FOMC Member Williams Speaks,,,49
+288,52.6,USD,2018-12-04 10:00:00,57.3,worse,Low,IBD/TIPP Economic Optimism,56.4,,49
+289,,GBP,2018-12-04 13:00:00,,,Medium,MPC Member Vlieghe Speaks,,,49
+290,55.1,AUD,2018-12-04 16:30:00,,,Low,AIG Services Index,51.1,,49
+291,-0.6%,NZD,2018-12-04 19:00:00,,,Low,ANZ Commodity Prices m/m,-2.4%,,49
+292,0.3%,AUD,2018-12-04 19:30:00,0.6%,worse,High,GDP q/q,0.9%,,49
+293,53.8,CNY,2018-12-04 20:45:00,50.7,better,Low,Caixin Services PMI,50.8,,49
+294,54.0,EUR,2018-12-05 03:15:00,53.9,,Low,Spanish Services PMI,54.0,,49
+295,,EUR,2018-12-05 03:30:00,,,Medium,ECB President Draghi Speaks,,,49
+296,50.3,EUR,2018-12-05 03:45:00,49.2,better,Low,Italian Services PMI,49.2,,49
+297,55.1,EUR,2018-12-05 03:50:00,55.0,,Low,French Final Services PMI,55.0,,49
+298,53.3,EUR,2018-12-05 03:55:00,53.3,,Low,German Final Services PMI,53.3,,49
+299,53.4,EUR,2018-12-05 04:00:00,53.1,,Low,Final Services PMI,53.1,,49
+300,,All,2018-12-05 00:00:00,,,Medium,OPEC-JMMC Meetings,,,49
+301,50.4,GBP,2018-12-05 04:30:00,52.5,worse,Medium,Services PMI,52.2,,49
+302,,GBP,2018-12-05 04:30:00,,,Low,FPC Meeting Minutes,,,49
+303,1.46|1.9,EUR,2018-12-05 04:41:00,,,Low,Spanish 10-y Bond Auction,1.61|1.6,,49
+304,0.3%,EUR,2018-12-05 05:00:00,0.2%,better,Low,Retail Sales m/m,-0.5%,worse,49
+305,,CAD,2018-12-05 10:00:00,,,High,BOC Rate Statement,,,49
+306,1.75%,CAD,2018-12-05 10:00:00,1.75%,,High,Overnight Rate,1.75%,,49
+307,,USD,2018-12-05 14:00:00,,,Low,Beige Book,,,49
+308,0.3%,AUD,2018-12-05 19:30:00,0.3%,,High,Retail Sales m/m,0.1%,worse,49
+309,2.32B,AUD,2018-12-05 19:30:00,3.10B,worse,Medium,Trade Balance,2.94B,worse,49
+310,,USD,2018-12-05 20:15:00,,,Medium,FOMC Member Quarles Speaks,,,49
+311,0.3%,EUR,2018-12-06 02:00:00,-0.4%,better,Low,German Factory Orders m/m,0.1%,worse,49
+312,,AUD,2018-12-06 04:05:00,,,Medium,RBA Assist Gov Debelle Speaks,,,49
+313,,All,2018-12-06 00:00:00,,,High,OPEC Meetings,,,49
+314,,GBP,2018-12-06 05:00:00,,,Medium,MPC Member Ramsden Speaks,,,49
+315,1.91|2.4,GBP,2018-12-06 05:34:00,,,Low,30-y Bond Auction,1.83|1.8,,49
+316,51.5%,USD,2018-12-06 07:30:00,,,Low,Challenger Job Cuts y/y,153.6%,,49
+317,179K,USD,2018-12-06 08:15:00,195K,worse,Medium,ADP Non-Farm Employment Change,225K,,49
+318,-1.2B,CAD,2018-12-06 08:30:00,-0.7B,worse,High,Trade Balance,-0.9B,worse,49
+319,2.3%,USD,2018-12-06 08:30:00,2.3%,,Low,Revised Nonfarm Productivity q/q,2.2%,,49
+320,0.9%,USD,2018-12-06 08:30:00,1.1%,worse,Low,Revised Unit Labor Costs q/q,1.2%,,49
+321,-55.5B,USD,2018-12-06 08:30:00,-55.2B,,Low,Trade Balance,-54.6B,,49
+322,231K,USD,2018-12-06 08:30:00,226K,worse,Low,Unemployment Claims,235K,,49
+323,,CAD,2018-12-06 08:35:00,,,High,BOC Gov Poloz Speaks,,,49
+324,54.7,USD,2018-12-06 09:45:00,54.4,,Low,Final Services PMI,54.4,,49
+325,57.2,CAD,2018-12-06 10:00:00,59.9,worse,Low,Ivey PMI,61.8,,49
+326,60.7,USD,2018-12-06 10:00:00,59.1,better,High,ISM Non-Manufacturing PMI,60.3,,49
+327,-2.1%,USD,2018-12-06 10:00:00,-1.9%,worse,Low,Factory Orders m/m,0.2%,worse,49
+328,-7.3M,USD,2018-12-06 11:00:00,-1.3M,,Medium,Crude Oil Inventories,3.6M,,49
+329,,USD,2018-12-06 12:15:00,,,Medium,FOMC Member Bostic Speaks,,,49
+330,44.5,AUD,2018-12-06 16:30:00,,,Low,AIG Construction Index,46.4,,49
+331,-0.3%,JPY,2018-12-06 18:30:00,1.2%,worse,Low,Household Spending y/y,-1.6%,,49
+332,,USD,2018-12-06 18:30:00,,,Medium,FOMC Member Williams Speaks,,,49
+333,,USD,2018-12-06 18:45:00,,,High,Fed Chair Powell Speaks,,,49
+334,1.5%,JPY,2018-12-06 19:00:00,1.0%,better,Medium,Average Cash Earnings y/y,0.8%,worse,49
+335,100.5%,JPY,2018-12-07 00:02:00,104.8%,worse,Low,Leading Indicators,104.3%,,49
+336,-0.5%,EUR,2018-12-07 02:00:00,0.3%,worse,Low,German Industrial Production m/m,0.1%,,49
+337,1.2%,EUR,2018-12-07 02:45:00,0.8%,better,Low,French Industrial Production m/m,-1.6%,better,49
+338,-4.1B,EUR,2018-12-07 02:45:00,-5.9B,better,Low,French Trade Balance,-5.4B,better,49
+339,749B,CHF,2018-12-07 03:00:00,,,Low,Foreign Currency Reserves,753B,,49
+340,-1.4%,GBP,2018-12-07 03:30:00,0.3%,worse,Low,Halifax HPI m/m,0.7%,,49
+341,0.1%,EUR,2018-12-07 04:00:00,-0.2%,better,Low,Italian Retail Sales m/m,-0.8%,,49
+342,,All,2018-12-07 00:00:00,,,High,OPEC Meetings,,,49
+343,3.2%,GBP,2018-12-07 04:30:00,,,Low,Consumer Inflation Expectations,3.0%,,49
+344,0.2%,EUR,2018-12-07 05:00:00,0.2%,,Low,Final Employment Change q/q,0.2%,,49
+345,0.2%,EUR,2018-12-07 05:00:00,0.2%,,Low,Revised GDP q/q,0.2%,,49
+346,,All,2018-12-07 00:00:00,,,Medium,OPEC-JMMC Meetings,,,49
+347,94.1K,CAD,2018-12-07 08:30:00,10.5K,better,High,Employment Change,11.2K,,49
+348,5.6%,CAD,2018-12-07 08:30:00,5.8%,better,High,Unemployment Rate,5.8%,,49
+349,0.2%,USD,2018-12-07 08:30:00,0.3%,worse,High,Average Hourly Earnings m/m,0.1%,worse,49
+350,155K,USD,2018-12-07 08:30:00,198K,worse,High,Non-Farm Employment Change,237K,worse,49
+351,3.7%,USD,2018-12-07 08:30:00,3.7%,,High,Unemployment Rate,3.7%,,49
+352,97.5,USD,2018-12-07 10:00:00,97.0,,Medium,Prelim UoM Consumer Sentiment,97.5,worse,49
+353,0.8%,USD,2018-12-07 10:00:00,0.7%,worse,Low,Final Wholesale Inventories m/m,0.7%,,49
+354,2.7%,USD,2018-12-07 10:00:00,,,Low,Prelim UoM Inflation Expectations,2.8%,,49
+355,-63B,USD,2018-12-07 10:30:00,-63B,,Low,Natural Gas Storage,-59B,,49
+356,,USD,2018-12-07 12:00:00,,,Medium,FOMC Member Brainard Speaks,,,49
+357,25.4B,USD,2018-12-07 15:00:00,15.1B,better,Low,Consumer Credit m/m,11.6B,better,49
+358,306B,CNY,2018-12-07 22:07:00,227B,better,Medium,Trade Balance,234B,,49
+359,44.7B,CNY,2018-12-07 22:08:00,36.2B,better,Low,USD-Denominated Trade Balance,34.0B,,49
+360,2.2%,CNY,2018-12-08 20:30:00,2.4%,worse,Low,CPI y/y,2.5%,,49
+361,2.7%,CNY,2018-12-08 20:30:00,2.8%,,Low,PPI y/y,3.3%,,49
+362,,EUR,2018-11-25 00:00:00,,,High,EU Economic Summit,,,48
+363,0.0%,NZD,2018-11-25 16:45:00,1.0%,worse,High,Retail Sales q/q,1.1%,,48
+364,0.4%,NZD,2018-11-25 16:45:00,1.5%,worse,Medium,Core Retail Sales q/q,1.3%,,48
+365,,AUD,2018-11-25 17:15:00,,,Medium,RBA Gov Lowe Speaks,,,48
+366,51.8,JPY,2018-11-25 19:30:00,53.0,worse,Low,Flash Manufacturing PMI,52.9,,48
+367,,AUD,2018-11-25 22:00:00,,,Medium,RBA Assist Gov Kent Speaks,,,48
+368,102.0,EUR,2018-11-26 04:00:00,102.3,worse,Medium,German Ifo Business Climate,102.9,,48
+369,39.7K,GBP,2018-11-26 04:30:00,38.9K,better,Low,High Street Lending,38.7K,,48
+370,1.2%,CNY,2018-11-26 09:00:00,,,Low,CB Leading Index m/m,1.0%,worse,48
+371,,EUR,2018-11-26 09:00:00,,,High,ECB President Draghi Speaks,,,48
+372,,GBP,2018-11-26 13:30:00,,,High,BOE Gov Carney Speaks,,,48
+373,-1295M,NZD,2018-11-26 16:45:00,-850M,worse,Medium,Trade Balance,-1596M,worse,48
+374,1.3%,JPY,2018-11-26 18:50:00,1.2%,better,Low,SPPI y/y,1.1%,worse,48
+375,0.6%,JPY,2018-11-27 00:00:00,0.5%,better,Low,BOJ Core CPI y/y,0.5%,,48
+376,19,GBP,2018-11-27 06:00:00,10,better,Low,CBI Realized Sales,5,,48
+377,,USD,2018-11-27 08:30:00,,,Medium,FOMC Member Clarida Speaks,,,48
+378,0.2%,USD,2018-11-27 09:00:00,0.4%,worse,Low,HPI m/m,0.4%,better,48
+379,5.1%,USD,2018-11-27 09:00:00,5.3%,worse,Low,S&P/CS Composite-20 HPI y/y,5.5%,,48
+380,135.7,USD,2018-11-27 10:00:00,136.2,worse,High,CB Consumer Confidence,137.9,,48
+381,,USD,2018-11-27 14:30:00,,,Medium,FOMC Member Bostic Speaks,,,48
+382,,NZD,2018-11-27 15:00:00,,,High,RBNZ Financial Stability Report,,,48
+383,,NZD,2018-11-27 17:00:00,,,High,RBNZ Gov Orr Speaks,,,48
+384,,NZD,2018-11-27 19:00:00,,,High,RBNZ Gov Orr Speaks,,,48
+385,0.1%,GBP,2018-11-27 19:01:00,,,Low,BRC Shop Price Index y/y,-0.2%,,48
+386,-2.8%,AUD,2018-11-27 19:30:00,0.9%,worse,Medium,Construction Work Done q/q,1.8%,better,48
+387,10.4,EUR,2018-11-28 02:00:00,10.5,,Low,German GfK Consumer Climate,10.6,,48
+388,-42.3,CHF,2018-11-28 04:00:00,,,Low,Credit Suisse Economic Expectations,-39.1,,48
+389,3.9%,EUR,2018-11-28 04:00:00,3.5%,better,Low,M3 Money Supply y/y,3.6%,,48
+390,3.2%,EUR,2018-11-28 04:03:00,3.2%,,Low,Private Loans y/y,3.2%,better,48
+391,0.34|1.6,EUR,2018-11-28 05:34:00,,,Low,German 10-y Bond Auction,0.42|1.4,,48
+392,3.5%,USD,2018-11-28 08:30:00,3.6%,worse,High,Prelim GDP q/q,3.5%,,48
+393,-77.2B,USD,2018-11-28 08:30:00,-76.7B,,Low,Goods Trade Balance,-76.3B,,48
+394,1.7%,USD,2018-11-28 08:30:00,1.7%,,Low,Prelim GDP Price Index q/q,1.7%,,48
+395,0.7%,USD,2018-11-28 08:30:00,0.5%,worse,Low,Prelim Wholesale Inventories m/m,0.4%,worse,48
+396,544K,USD,2018-11-28 10:00:00,583K,worse,Low,New Home Sales,597K,better,48
+397,14,USD,2018-11-28 10:00:00,16,worse,Low,Richmond Manufacturing Index,15,,48
+398,3.6M,USD,2018-11-28 10:30:00,0.6M,,Medium,Crude Oil Inventories,4.9M,,48
+399,,GBP,2018-11-28 11:40:00,,,High,Bank Stress Test Results,,,48
+400,,GBP,2018-11-28 11:40:00,,,Medium,BOE Financial Stability Report,,,48
+401,,GBP,2018-11-28 11:40:00,,,Low,FPC Statement,,,48
+402,,GBP,2018-11-28 11:45:00,,,High,BOE Gov Carney Speaks,,,48
+403,,USD,2018-11-28 12:00:00,,,High,Fed Chair Powell Speaks,,,48
+404,3.5%,JPY,2018-11-28 18:50:00,2.7%,better,Low,Retail Sales y/y,2.2%,,48
+405,-37.1,NZD,2018-11-28 19:00:00,,,High,ANZ Business Confidence,-37.1,,48
+406,-0.5%,AUD,2018-11-28 19:30:00,1.1%,worse,High,Private Capital Expenditure q/q,-0.9%,better,48
+407,-0.8%,AUD,2018-11-28 23:00:00,,,Low,HIA New Home Sales m/m,1.1%,,48
+408,-0.2%,CHF,2018-11-29 01:45:00,0.4%,worse,Low,GDP q/q,0.7%,,48
+409,0.1%,EUR,2018-11-29 00:00:00,0.2%,worse,Medium,German Prelim CPI m/m,0.2%,,48
+410,0.8%,EUR,2018-11-29 02:45:00,0.5%,better,Low,French Consumer Spending m/m,-2.0%,worse,48
+411,0.4%,EUR,2018-11-29 02:45:00,0.4%,,Low,French Prelim GDP q/q,0.4%,,48
+412,1.7%,EUR,2018-11-29 03:00:00,2.0%,worse,Low,Spanish Flash CPI y/y,2.3%,,48
+413,-16K,EUR,2018-11-29 03:55:00,-10K,better,Low,German Unemployment Change,-12K,,48
+414,5.0B,GBP,2018-11-29 04:30:00,4.5B,better,Medium,Net Lending to Individuals m/m,4.9B,better,48
+415,0.7%,GBP,2018-11-29 04:30:00,0.3%,better,Low,M4 Money Supply m/m,-0.3%,,48
+416,67K,GBP,2018-11-29 04:30:00,65K,better,Low,Mortgage Approvals,66K,,48
+417,3.24|1.4,EUR,2018-11-29 05:21:00,,,Low,Italian 10-y Bond Auction,3.36|1.5,,48
+418,,EUR,2018-11-29 06:30:00,,,Low,ECB Financial Stability Review,,,48
+419,-10.3B,CAD,2018-11-29 08:30:00,-11.9B,better,Medium,Current Account,-16.7B,worse,48
+420,0.1%,USD,2018-11-29 08:30:00,0.2%,worse,Medium,Core PCE Price Index m/m,0.2%,,48
+421,0.6%,USD,2018-11-29 08:30:00,0.4%,better,Medium,Personal Spending m/m,0.2%,worse,48
+422,0.5%,USD,2018-11-29 08:30:00,0.4%,better,Low,Personal Income m/m,0.2%,,48
+423,234K,USD,2018-11-29 08:30:00,221K,worse,Low,Unemployment Claims,224K,,48
+424,-13,GBP,2018-11-29 08:37:00,-11,worse,Low,GfK Consumer Confidence,-10,,48
+425,-2.6%,USD,2018-11-29 10:00:00,0.8%,worse,Low,Pending Home Sales m/m,0.7%,better,48
+426,-59B,USD,2018-11-29 10:30:00,-76B,,Low,Natural Gas Storage,-134B,,48
+427,,USD,2018-11-29 14:00:00,,,High,FOMC Meeting Minutes,,,48
+428,1.5%,NZD,2018-11-29 16:45:00,,,Low,Building Consents m/m,-1.3%,,48
+429,1.0%,JPY,2018-11-29 18:30:00,1.1%,worse,Low,Tokyo Core CPI y/y,1.0%,,48
+430,2.4%,JPY,2018-11-29 18:30:00,2.3%,worse,Low,Unemployment Rate,2.3%,,48
+431,2.9%,JPY,2018-11-29 18:50:00,1.3%,better,Low,Prelim Industrial Production m/m,-0.4%,better,48
+432,0.4%,AUD,2018-11-29 19:30:00,0.4%,,Low,Private Sector Credit m/m,0.4%,,48
+433,50.0,CNY,2018-11-29 19:59:00,50.2,,Medium,Manufacturing PMI,50.2,,48
+434,53.4,CNY,2018-11-29 20:00:00,53.8,worse,Medium,Non-Manufacturing PMI,53.9,,48
+435,,NZD,2018-11-29 20:00:00,,,High,RBNZ Gov Orr Speaks,,,48
+436,42.9,JPY,2018-11-30 00:00:00,43.3,worse,Low,Consumer Confidence,43.0,,48
+437,0.3%,JPY,2018-11-30 00:02:00,0.4%,,Low,Housing Starts y/y,-1.5%,,48
+438,,All,2018-11-30 00:00:00,,,High,G20 Meetings,,,48
+439,0.3%,GBP,2018-11-30 01:59:00,0.1%,better,Low,Nationwide HPI m/m,0.0%,,48
+440,1.0%,EUR,2018-11-30 02:00:00,0.4%,better,Low,German Import Prices m/m,0.4%,,48
+441,-0.3%,EUR,2018-11-30 02:00:00,0.4%,worse,Low,German Retail Sales m/m,0.1%,,48
+442,-0.2%,EUR,2018-11-30 02:45:00,-0.2%,,Low,French Prelim CPI m/m,0.1%,,48
+443,99.1,CHF,2018-11-30 03:00:00,99.6,worse,Medium,KOF Economic Barometer,100.2,,48
+444,10.6%,EUR,2018-11-30 04:00:00,10.1%,worse,Low,Italian Monthly Unemployment Rate,10.3%,worse,48
+445,2.0%,EUR,2018-11-30 05:00:00,2.1%,worse,Medium,CPI Flash Estimate y/y,2.2%,,48
+446,1.0%,EUR,2018-11-30 05:00:00,1.1%,worse,Medium,Core CPI Flash Estimate y/y,1.1%,,48
+447,-0.1%,EUR,2018-11-30 05:00:00,-0.3%,better,Low,Italian Prelim CPI m/m,0.0%,,48
+448,8.1%,EUR,2018-11-30 05:00:00,8.0%,worse,Low,Unemployment Rate,8.1%,,48
+449,-0.1%,CAD,2018-11-30 08:30:00,0.1%,worse,High,GDP m/m,0.1%,,48
+450,-2.4%,CAD,2018-11-30 08:30:00,-5.2%,better,Medium,RMPI m/m,-1.0%,,48
+451,0.2%,CAD,2018-11-30 08:30:00,-0.5%,better,Low,IPPI m/m,0.2%,better,48
+452,,USD,2018-11-30 09:00:00,,,Medium,FOMC Member Williams Speaks,,,48
+453,66.4,USD,2018-11-30 09:45:00,58.6,better,Medium,Chicago PMI,58.4,,48
+454,,All,2018-12-01 00:00:00,,,High,G20 Meetings,,,48
+455,,CHF,2018-12-01 04:00:00,,,Medium,SNB Chairman Jordan Speaks,,,48
+456,1.4%,NZD,2018-11-18 16:45:00,0.8%,better,Low,PPI Input q/q,1.0%,,47
+457,1.5%,NZD,2018-11-18 16:45:00,0.9%,better,Low,PPI Output q/q,0.9%,,47
+458,-0.30T,JPY,2018-11-18 18:50:00,-0.48T,better,Low,Trade Balance,-0.14T,better,47
+459,-1.7%,GBP,2018-11-18 19:01:00,,,Low,Rightmove HPI m/m,1.0%,,47
+460,17.0B,EUR,2018-11-19 04:00:00,24.2B,worse,Low,Current Account,24.3B,better,47
+461,,EUR,2018-11-19 00:00:00,,,Low,Eurogroup Meetings,,,47
+462,,EUR,2018-11-19 06:00:00,,,Low,German Buba Monthly Report,,,47
+463,60,USD,2018-11-19 10:00:00,67,worse,Low,NAHB Housing Market Index,68,,47
+464,,USD,2018-11-19 10:45:00,,,Low,FOMC Member Williams Speaks,,,47
+465,,AUD,2018-11-19 19:30:00,,,Medium,Monetary Policy Meeting Minutes,,,47
+466,0.3%,EUR,2018-11-20 02:00:00,0.3%,,Low,German PPI m/m,0.5%,,47
+467,3.75B,CHF,2018-11-20 02:08:00,2.89B,better,Low,Trade Balance,2.23B,worse,47
+468,,AUD,2018-11-20 03:20:00,,,Medium,RBA Gov Lowe Speaks,,,47
+469,,GBP,2018-11-20 05:00:00,,,High,Inflation Report Hearings,,,47
+470,,EUR,2018-11-20 00:00:00,,,Low,ECOFIN Meetings,,,47
+471,10,GBP,2018-11-20 06:00:00,-6,better,Low,CBI Industrial Order Expectations,-6,,47
+472,1.26M,USD,2018-11-20 08:30:00,1.26M,,Medium,Building Permits,1.27M,better,47
+473,1.23M,USD,2018-11-20 08:30:00,1.23M,,Medium,Housing Starts,1.21M,,47
+474,-3.5%,NZD,2018-11-20 09:34:00,,,Low,GDT Price Index,-2.0%,,47
+475,,EUR,2018-11-20 10:00:00,,,Medium,German Buba President Weidmann Speaks,,,47
+476,,CAD,2018-11-20 12:45:00,,,Medium,Gov Council Member Wilkins Speaks,,,47
+477,,CAD,2018-11-20 17:00:00,,,Medium,Gov Council Member Lane Speaks,,,47
+478,0.1%,AUD,2018-11-20 18:30:00,,,Low,MI Leading Index m/m,0.0%,better,47
+479,6.3%,NZD,2018-11-20 21:00:00,,,Low,Credit Card Spending y/y,7.8%,,47
+480,-0.9%,JPY,2018-11-20 23:30:00,-0.8%,,Low,All Industries Activity m/m,0.4%,,47
+481,8.0B,GBP,2018-11-21 04:30:00,5.6B,worse,Medium,Public Sector Net Borrowing,2.0B,better,47
+482,-0.5%,CAD,2018-11-21 08:30:00,0.1%,worse,Low,Wholesale Sales m/m,-0.1%,,47
+483,0.1%,USD,2018-11-21 08:30:00,0.4%,worse,High,Core Durable Goods Orders m/m,0.0%,,47
+484,-4.4%,USD,2018-11-21 08:30:00,-2.2%,worse,Medium,Durable Goods Orders m/m,0.7%,,47
+485,224K,USD,2018-11-21 08:30:00,215K,worse,Low,Unemployment Claims,221K,worse,47
+486,97.5,USD,2018-11-21 10:00:00,98.4,worse,Medium,Revised UoM Consumer Sentiment,98.3,,47
+487,0.1%,USD,2018-11-21 10:00:00,0.2%,worse,Low,CB Leading Index m/m,0.6%,better,47
+488,5.22M,USD,2018-11-21 10:00:00,5.20M,,Low,Existing Home Sales,5.15M,,47
+489,2.8%,USD,2018-11-21 10:00:00,,,Low,Revised UoM Inflation Expectations,2.8%,,47
+490,4.9M,USD,2018-11-21 10:30:00,2.5M,,Medium,Crude Oil Inventories,10.3M,,47
+491,-134B,USD,2018-11-21 12:00:00,-105B,,Low,Natural Gas Storage,39B,,47
+492,4.0%,NZD,2018-11-21 16:45:00,,,Low,Visitor Arrivals m/m,-1.7%,better,47
+493,1.0%,JPY,2018-11-21 18:30:00,1.0%,,Low,National Core CPI y/y,1.0%,,47
+494,1.61|1.6,EUR,2018-11-22 04:49:00,,,Low,Spanish 10-y Bond Auction,1.64|2.1,,47
+495,,EUR,2018-11-22 07:30:00,,,Low,ECB Monetary Policy Meeting Accounts,,,47
+496,,GBP,2018-11-22 07:39:00,,,High,Prime Minister May Speaks,,,47
+497,,USD,2018-11-22 00:00:00,,,Non-Economic,Bank Holiday,,,47
+498,3.9%,CAD,2018-11-22 08:30:00,,,Low,Corporate Profits q/q,1.0%,,47
+499,,CAD,2018-11-22 09:45:00,,,Low,Gov Council Member Wilkins Speaks,,,47
+500,-4,EUR,2018-11-22 09:57:00,-3,worse,Low,Consumer Confidence,-3,,47
+501,,CAD,2018-11-22 10:30:00,,,Low,BOC Financial System Review,,,47
+502,,GBP,2018-11-22 15:55:00,,,Medium,MPC Member Saunders Speaks,,,47
+503,,JPY,2018-11-22 00:00:00,,,Non-Economic,Bank Holiday,,,47
+504,-0.2%,EUR,2018-11-23 02:00:00,-0.2%,,Low,German Final GDP q/q,-0.2%,,47
+505,50.7,EUR,2018-11-23 03:15:00,51.3,worse,Medium,French Flash Manufacturing PMI,51.2,,47
+506,55.0,EUR,2018-11-23 03:15:00,54.9,,Medium,French Flash Services PMI,55.3,,47
+507,51.6,EUR,2018-11-23 03:30:00,52.3,worse,Medium,German Flash Manufacturing PMI,52.2,,47
+508,53.3,EUR,2018-11-23 03:30:00,54.6,worse,Medium,German Flash Services PMI,54.7,better,47
+509,51.5,EUR,2018-11-23 04:00:00,52.0,worse,Medium,Flash Manufacturing PMI,52.0,,47
+510,53.1,EUR,2018-11-23 04:00:00,53.6,worse,Medium,Flash Services PMI,53.7,better,47
+511,0.3%,CAD,2018-11-23 08:30:00,0.1%,better,High,CPI m/m,-0.4%,,47
+512,0.1%,CAD,2018-11-23 08:30:00,0.3%,worse,High,Core Retail Sales m/m,-0.4%,,47
+513,1.9%,CAD,2018-11-23 08:30:00,1.9%,,Medium,Common CPI y/y,1.9%,,47
+514,2.0%,CAD,2018-11-23 08:30:00,2.0%,,Medium,Median CPI y/y,1.9%,worse,47
+515,0.2%,CAD,2018-11-23 08:30:00,0.1%,better,Medium,Retail Sales m/m,-0.1%,,47
+516,2.1%,CAD,2018-11-23 08:30:00,2.1%,,Medium,Trimmed CPI y/y,2.0%,worse,47
+517,0.4%,CAD,2018-11-23 08:30:00,,,Low,Core CPI m/m,0.0%,,47
+518,0.4,EUR,2018-11-23 08:59:00,-1.8,better,Low,Belgian NBB Business Climate,-1.1,,47
+519,55.4,USD,2018-11-23 09:45:00,55.8,worse,Low,Flash Manufacturing PMI,55.7,,47
+520,54.4,USD,2018-11-23 09:45:00,55.0,worse,Low,Flash Services PMI,54.8,,47
+521,2.9%,JPY,2018-11-11 18:50:00,2.8%,,Low,PPI y/y,3.0%,,46
+522,-1.1%,JPY,2018-11-12 00:59:00,,,Low,Prelim Machine Tool Orders y/y,2.9%,,46
+523,-0.2%,EUR,2018-11-12 04:00:00,-0.5%,better,Low,Italian Industrial Production m/m,1.7%,,46
+524,,CAD,2018-11-12 00:00:00,,,Non-Economic,Bank Holiday,,,46
+525,,USD,2018-11-12 00:00:00,,,Non-Economic,Bank Holiday,,,46
+526,,USD,2018-11-12 14:30:00,,,Medium,FOMC Member Daly Speaks,,,46
+527,-0.6%,NZD,2018-11-12 16:45:00,,,Low,FPI m/m,-0.1%,,46
+528,4,AUD,2018-11-12 19:30:00,,,Medium,NAB Business Confidence,6,,46
+529,0.87|4.0,JPY,2018-11-12 22:35:00,,,Low,30-y Bond Auction,0.90|3.9,,46
+530,0.2%,EUR,2018-11-13 02:00:00,0.2%,,Low,German Final CPI m/m,0.2%,,46
+531,0.2%,EUR,2018-11-13 02:45:00,0.3%,worse,Low,French Prelim Private Payrolls q/q,0.1%,worse,46
+532,0.2%,CHF,2018-11-13 03:15:00,0.1%,better,Low,PPI m/m,-0.2%,,46
+533,8.0%,CNY,2018-11-13 03:45:00,8.3%,worse,Low,M2 Money Supply y/y,8.3%,,46
+534,697B,CNY,2018-11-13 03:45:00,915B,worse,Low,New Loans,1380B,,46
+535,3.0%,GBP,2018-11-13 04:30:00,3.0%,,High,Average Earnings Index 3m/y,2.8%,better,46
+536,4.1%,GBP,2018-11-13 04:30:00,4.0%,worse,Medium,Unemployment Rate,4.0%,,46
+537,20.2K,GBP,2018-11-13 04:30:00,4.3K,worse,Low,Claimant Count Change,23.2K,worse,46
+538,-24.1,EUR,2018-11-13 05:00:00,-24.2,,Medium,German ZEW Economic Sentiment,-24.7,,46
+539,-22.0,EUR,2018-11-13 05:00:00,-17.3,worse,Low,ZEW Economic Sentiment,-19.4,,46
+540,107.4,USD,2018-11-13 05:14:00,108.0,,Low,NFIB Small Business Index,107.9,,46
+541,,USD,2018-11-13 10:00:00,,,Medium,FOMC Member Brainard Speaks,,,46
+542,-100.5B,USD,2018-11-13 14:00:00,-116.6B,better,Low,Federal Budget Balance,119.1B,,46
+543,,USD,2018-11-13 14:00:00,,,Low,Loan Officer Survey,,,46
+544,2.8%,AUD,2018-11-13 18:30:00,,,Medium,Westpac Consumer Sentiment,1.0%,,46
+545,-0.3%,JPY,2018-11-13 18:50:00,-0.3%,,Medium,Prelim GDP q/q,0.7%,better,46
+546,-0.3%,JPY,2018-11-13 18:50:00,-0.1%,worse,Low,Prelim GDP Price Index y/y,0.0%,worse,46
+547,0.6%,AUD,2018-11-13 19:30:00,0.6%,,High,Wage Price Index q/q,0.5%,worse,46
+548,5.7%,CNY,2018-11-13 21:00:00,5.5%,,Medium,Fixed Asset Investment ytd/y,5.4%,,46
+549,5.9%,CNY,2018-11-13 21:00:00,5.8%,,Medium,Industrial Production y/y,5.8%,,46
+550,8.6%,CNY,2018-11-13 21:00:00,9.2%,worse,Low,Retail Sales y/y,9.2%,,46
+551,4.9%,CNY,2018-11-13 21:00:00,,,Low,Unemployment Rate,4.9%,,46
+552,-1.1%,JPY,2018-11-13 23:30:00,-0.4%,worse,Low,Tertiary Industry Activity m/m,0.4%,,46
+553,-0.4%,JPY,2018-11-13 23:32:00,-1.1%,better,Low,Revised Industrial Production m/m,-1.1%,,46
+554,-0.2%,EUR,2018-11-14 02:00:00,-0.1%,worse,High,German Prelim GDP q/q,0.5%,,46
+555,0.1%,EUR,2018-11-14 02:45:00,0.1%,,Low,French Final CPI m/m,0.1%,,46
+556,2.4%,GBP,2018-11-14 04:30:00,2.5%,worse,High,CPI y/y,2.4%,,46
+557,0.8%,GBP,2018-11-14 04:30:00,0.6%,better,Medium,PPI Input m/m,1.4%,,46
+558,3.3%,GBP,2018-11-14 04:30:00,3.4%,worse,Medium,RPI y/y,3.3%,,46
+559,1.9%,GBP,2018-11-14 04:30:00,1.9%,,Low,Core CPI y/y,1.9%,,46
+560,3.5%,GBP,2018-11-14 04:30:00,3.3%,better,Low,HPI y/y,3.1%,,46
+561,0.3%,GBP,2018-11-14 04:30:00,0.2%,,Low,PPI Output m/m,0.4%,,46
+562,0.2%,EUR,2018-11-14 05:00:00,0.2%,,Medium,Flash GDP q/q,0.2%,,46
+563,0.2%,EUR,2018-11-14 05:00:00,,,Low,Flash Employment Change q/q,0.4%,,46
+564,-0.3%,EUR,2018-11-14 05:00:00,-0.4%,better,Low,Industrial Production m/m,1.1%,better,46
+565,1.04|1.2,EUR,2018-11-14 05:33:00,,,Low,German 30-y Bond Auction,1.04|1.4,,46
+566,0.3%,USD,2018-11-14 08:30:00,0.3%,,High,CPI m/m,0.1%,,46
+567,0.2%,USD,2018-11-14 08:30:00,0.2%,,High,Core CPI m/m,0.1%,,46
+568,,USD,2018-11-14 10:00:00,,,Medium,FOMC Member Quarles Speaks,,,46
+569,,USD,2018-11-14 18:00:00,,,High,Fed Chair Powell Speaks,,,46
+570,3.6%,AUD,2018-11-14 19:00:00,,,Low,MI Inflation Expectations,4.0%,,46
+571,32.8K,AUD,2018-11-14 19:30:00,19.9K,better,High,Employment Change,7.8K,better,46
+572,5.0%,AUD,2018-11-14 19:30:00,5.1%,better,High,Unemployment Rate,5.0%,,46
+573,,AUD,2018-11-14 21:00:00,,,Medium,RBA Assist Gov Debelle Speaks,,,46
+574,3.3%,CNY,2018-11-15 02:00:00,,,Low,Foreign Direct Investment ytd/y,2.9%,,46
+575,-0.5%,GBP,2018-11-15 04:30:00,0.2%,worse,High,Retail Sales m/m,-0.4%,better,46
+576,13.4B,EUR,2018-11-15 05:00:00,16.4B,worse,Low,Trade Balance,16.8B,,46
+577,,GBP,2018-11-15 08:00:00,,,Medium,MPC Member Tenreyro Speaks,,,46
+578,-23.0K,CAD,2018-11-15 08:30:00,,,Low,ADP Non-Farm Employment Change,66.9K,better,46
+579,0.7%,USD,2018-11-15 08:30:00,0.5%,better,High,Core Retail Sales m/m,-0.1%,,46
+580,0.8%,USD,2018-11-15 08:30:00,0.6%,better,High,Retail Sales m/m,-0.1%,worse,46
+581,12.9,USD,2018-11-15 08:30:00,20.1,worse,Medium,Philly Fed Manufacturing Index,22.2,,46
+582,23.3,USD,2018-11-15 08:30:00,19.9,better,Low,Empire State Manufacturing Index,21.1,,46
+583,0.5%,USD,2018-11-15 08:30:00,0.1%,better,Low,Import Prices m/m,0.2%,worse,46
+584,216K,USD,2018-11-15 08:30:00,213K,,Low,Unemployment Claims,214K,,46
+585,,USD,2018-11-15 10:00:00,,,Medium,FOMC Member Quarles Speaks,,,46
+586,0.3%,USD,2018-11-15 10:00:00,0.3%,,Low,Business Inventories m/m,0.5%,,46
+587,39B,USD,2018-11-15 10:30:00,35B,,Low,Natural Gas Storage,65B,,46
+588,10.3M,USD,2018-11-15 11:00:00,2.9M,,Medium,Crude Oil Inventories,5.8M,,46
+589,,USD,2018-11-15 11:30:00,,,High,Fed Chair Powell Speaks,,,46
+590,,USD,2018-11-15 13:00:00,,,Medium,FOMC Member Bostic Speaks,,,46
+591,53.5,NZD,2018-11-15 16:30:00,,,Medium,Business NZ Manufacturing Index,51.9,,46
+592,0.3%,EUR,2018-11-16 02:00:00,0.2%,,Low,German WPI m/m,0.4%,,46
+593,,EUR,2018-11-16 03:30:00,,,High,ECB President Draghi Speaks,,,46
+594,2.2%,EUR,2018-11-16 05:00:00,2.2%,,Low,Final CPI y/y,2.1%,,46
+595,1.1%,EUR,2018-11-16 05:00:00,1.1%,,Low,Final Core CPI y/y,1.1%,,46
+596,1.27B,EUR,2018-11-16 05:08:00,2.87B,worse,Low,Italian Trade Balance,2.49B,worse,46
+597,,EUR,2018-11-16 08:00:00,,,Medium,German Buba President Weidmann Speaks,,,46
+598,0.2%,CAD,2018-11-16 08:30:00,0.1%,,Medium,Manufacturing Sales m/m,-0.5%,,46
+599,7.70B,CAD,2018-11-16 08:30:00,0.30B,better,Low,Foreign Securities Purchases,2.63B,,46
+600,78.4%,USD,2018-11-16 09:15:00,78.3%,,Low,Capacity Utilization Rate,78.5%,better,46
+601,0.1%,USD,2018-11-16 09:15:00,0.2%,worse,Low,Industrial Production m/m,0.2%,worse,46
+602,-0.4%,GBP,2018-11-16 09:30:00,,,Low,CB Leading Index m/m,-0.2%,,46
+603,-0.1%,AUD,2018-11-16 10:30:00,,,Low,CB Leading Index m/m,0.2%,,46
+604,30.8B,USD,2018-11-16 16:00:00,46.2B,worse,Low,TIC Long-Term Purchases,131.7B,,46
+605,,CAD,2018-11-04 02:00:00,,,Non-Economic,Daylight Saving Time Shift,,,45
+606,,USD,2018-11-04 02:00:00,,,Non-Economic,Daylight Saving Time Shift,,,45
+607,51.1,AUD,2018-11-04 16:30:00,,,Low,AIG Services Index,52.5,,45
+608,,JPY,2018-11-04 18:50:00,,,Low,Monetary Policy Meeting Minutes,,,45
+609,0.1%,AUD,2018-11-04 19:00:00,,,Low,MI Inflation Gauge m/m,0.3%,,45
+610,-2.4%,NZD,2018-11-04 19:00:00,,,Low,ANZ Commodity Prices m/m,-2.4%,worse,45
+611,0.2%,AUD,2018-11-04 19:30:00,,,Low,ANZ Job Advertisements m/m,-0.7%,,45
+612,,JPY,2018-11-04 20:00:00,,,Medium,BOJ Gov Kuroda Speaks,,,45
+613,50.8,CNY,2018-11-04 20:45:00,52.9,worse,Low,Caixin Services PMI,53.1,,45
+614,52.2K,EUR,2018-11-05 03:00:00,30.3K,worse,Low,Spanish Unemployment Change,20.4K,,45
+615,8.8,EUR,2018-11-05 04:30:00,9.9,worse,Low,Sentix Investor Confidence,11.4,,45
+616,52.2,GBP,2018-11-05 04:30:00,53.4,worse,High,Services PMI,53.9,,45
+617,,CAD,2018-11-05 08:10:00,,,High,BOC Gov Poloz Speaks,,,45
+618,54.8,USD,2018-11-05 09:45:00,54.7,,Low,Final Services PMI,54.7,,45
+619,60.3,USD,2018-11-05 10:00:00,59.3,better,High,ISM Non-Manufacturing PMI,61.6,,45
+620,56.4,USD,2018-11-05 10:00:00,59.2,worse,Low,IBD/TIPP Economic Optimism,57.8,,45
+621,-1.6%,JPY,2018-11-05 18:30:00,1.6%,worse,Low,Household Spending y/y,2.8%,,45
+622,0.1%,GBP,2018-11-05 19:01:00,0.6%,worse,Low,BRC Retail Sales Monitor y/y,-0.2%,,45
+623,,AUD,2018-11-05 22:30:00,,,High,RBA Rate Statement,,,45
+624,1.50%,AUD,2018-11-05 22:30:00,1.50%,,Medium,Cash Rate,1.50%,,45
+625,0.3%,EUR,2018-11-06 02:00:00,-0.4%,better,Low,German Factory Orders m/m,2.5%,better,45
+626,54.0,EUR,2018-11-06 03:15:00,51.9,better,Low,Spanish Services PMI,52.5,,45
+627,49.2,EUR,2018-11-06 03:45:00,52.1,worse,Low,Italian Services PMI,53.3,,45
+628,55.3,EUR,2018-11-06 03:50:00,55.6,,Low,French Final Services PMI,55.6,,45
+629,54.7,EUR,2018-11-06 03:55:00,53.6,better,Low,German Final Services PMI,53.6,,45
+630,53.7,EUR,2018-11-06 04:00:00,53.3,better,Low,Final Services PMI,53.3,,45
+631,0.5%,EUR,2018-11-06 05:00:00,0.4%,better,Low,PPI m/m,0.4%,better,45
+632,1.49|2.0,GBP,2018-11-06 05:35:00,,,Low,10-y Bond Auction,1.60|1.9,,45
+633,0.4%,CAD,2018-11-06 08:30:00,0.3%,,Low,Building Permits m/m,-1.1%,worse,45
+634,7.01M,USD,2018-11-06 10:00:00,7.09M,worse,Low,JOLTS Job Openings,7.29M,better,45
+635,,USD,2018-11-06 00:00:00,,,High,Congressional Elections,,,45
+636,-2.0%,NZD,2018-11-06 10:22:00,,,Low,GDT Price Index,-0.3%,,45
+637,3.21|2.5,USD,2018-11-06 13:01:00,,,Low,10-y Bond Auction,3.23|2.4,,45
+638,46.4,AUD,2018-11-06 16:30:00,,,Low,AIG Construction Index,49.3,,45
+639,1.1%,NZD,2018-11-06 16:45:00,0.5%,better,High,Employment Change q/q,0.6%,better,45
+640,3.9%,NZD,2018-11-06 16:45:00,4.4%,better,High,Unemployment Rate,4.4%,better,45
+641,0.5%,NZD,2018-11-06 16:45:00,0.5%,,Low,Labor Cost Index q/q,0.6%,,45
+642,1.1%,JPY,2018-11-06 19:00:00,1.2%,worse,Medium,Average Cash Earnings y/y,0.8%,worse,45
+643,2.0%,NZD,2018-11-06 21:00:00,,,High,Inflation Expectations q/q,2.0%,,45
+644,103.9%,JPY,2018-11-07 00:00:00,103.9%,,Low,Leading Indicators,104.5%,,45
+645,0.2%,EUR,2018-11-07 02:00:00,0.0%,better,Low,German Industrial Production m/m,0.1%,better,45
+646,753B,CHF,2018-11-07 03:00:00,,,Low,Foreign Currency Reserves,740B,,45
+647,0.7%,GBP,2018-11-07 03:30:00,0.5%,better,Low,Halifax HPI m/m,-1.3%,,45
+648,-0.8%,EUR,2018-11-07 04:00:00,-0.1%,worse,Low,Italian Retail Sales m/m,0.6%,worse,45
+649,0.0%,EUR,2018-11-07 05:00:00,0.1%,worse,Low,Retail Sales m/m,0.3%,better,45
+650,0.42|1.4,EUR,2018-11-07 05:33:00,,,Low,German 10-y Bond Auction,0.55|1.1,,45
+651,,CHF,2018-11-07 09:00:00,,,Medium,Gov Board Member Zurbrugg Speaks,,,45
+652,61.8,CAD,2018-11-07 10:00:00,50.9,better,Medium,Ivey PMI,50.4,,45
+653,5.8M,USD,2018-11-07 10:30:00,2.0M,,Medium,Crude Oil Inventories,3.2M,,45
+654,3.42|2.1,USD,2018-11-07 13:01:00,,,Low,30-y Bond Auction,3.34|2.4,,45
+655,1.75%,NZD,2018-11-07 15:00:00,1.75%,,High,Official Cash Rate,1.75%,,45
+656,,NZD,2018-11-07 15:00:00,,,High,RBNZ Monetary Policy Statement,,,45
+657,,NZD,2018-11-07 15:00:00,,,High,RBNZ Rate Statement,,,45
+658,10.9B,USD,2018-11-07 15:00:00,15.7B,worse,Low,Consumer Credit m/m,22.9B,better,45
+659,,NZD,2018-11-07 16:00:00,,,High,RBNZ Press Conference,,,45
+660,,JPY,2018-11-07 18:50:00,,,Low,BOJ Summary of Opinions,,,45
+661,2.2%,JPY,2018-11-07 18:50:00,2.4%,worse,Low,Bank Lending y/y,2.3%,,45
+662,-18.3%,JPY,2018-11-07 18:50:00,-9.5%,worse,Low,Core Machinery Orders m/m,6.8%,,45
+663,1.33T,JPY,2018-11-07 18:50:00,1.36T,,Low,Current Account,1.43T,,45
+664,-10%,GBP,2018-11-07 19:01:00,-2%,worse,Low,RICS House Price Balance,-2%,,45
+665,234B,CNY,2018-11-07 22:00:00,209B,better,Medium,Trade Balance,213B,,45
+666,34.0B,CNY,2018-11-07 22:00:00,35.0B,worse,Low,USD-Denominated Trade Balance,31.7B,,45
+667,49.5,JPY,2018-11-08 00:00:00,48.9,better,Low,Economy Watchers Sentiment,48.6,,45
+668,2.5%,CHF,2018-11-08 01:45:00,2.5%,,Low,Unemployment Rate,2.5%,,45
+669,17.6B,EUR,2018-11-08 02:00:00,18.2B,worse,Low,German Trade Balance,18.2B,,45
+670,-5.7B,EUR,2018-11-08 02:45:00,-6.1B,better,Low,French Trade Balance,-5.7B,,45
+671,,EUR,2018-11-08 04:00:00,,,Low,ECB Economic Bulletin,,,45
+672,0.82|1.8,EUR,2018-11-08 04:59:00,,,Low,French 10-y Bond Auction,0.86|1.6,,45
+673,,EUR,2018-11-08 05:00:00,,,Medium,EU Economic Forecasts,,,45
+674,206K,CAD,2018-11-08 08:13:00,199K,better,Low,Housing Starts,190K,,45
+675,0.0%,CAD,2018-11-08 08:30:00,0.1%,worse,Low,NHPI m/m,0.0%,,45
+676,214K,USD,2018-11-08 08:30:00,214K,,Low,Unemployment Claims,215K,,45
+677,4.47%,USD,2018-11-08 10:00:00,,,Low,Mortgage Delinquencies,4.36%,,45
+678,65B,USD,2018-11-08 10:30:00,56B,,Low,Natural Gas Storage,48B,,45
+679,,CHF,2018-11-08 12:30:00,,,Medium,Gov Board Member Maechler Speaks,,,45
+680,,USD,2018-11-08 14:00:00,,,High,FOMC Statement,,,45
+681,<2.25%,USD,2018-11-08 14:00:00,<2.25%,,High,Federal Funds Rate,<2.25%,,45
+682,2.7%,JPY,2018-11-08 18:50:00,2.8%,worse,Low,M2 Money Stock y/y,2.8%,,45
+683,,AUD,2018-11-08 19:30:00,,,High,RBA Monetary Policy Statement,,,45
+684,-1.0%,AUD,2018-11-08 19:30:00,-0.9%,,Low,Home Loans m/m,-2.2%,,45
+685,2.5%,CNY,2018-11-08 20:30:00,2.5%,,Low,CPI y/y,2.5%,,45
+686,3.3%,CNY,2018-11-08 20:30:00,3.3%,,Low,PPI y/y,3.6%,,45
+687,-1.8%,EUR,2018-11-09 02:45:00,-0.3%,worse,Low,French Industrial Production m/m,0.2%,worse,45
+688,0.0%,GBP,2018-11-09 04:30:00,0.1%,worse,High,GDP m/m,0.0%,,45
+689,0.2%,GBP,2018-11-09 04:30:00,0.1%,better,High,Manufacturing Production m/m,-0.1%,better,45
+690,0.6%,GBP,2018-11-09 04:30:00,0.6%,,High,Prelim GDP q/q,0.4%,,45
+691,-1.2%,GBP,2018-11-09 04:30:00,0.2%,worse,Medium,Prelim Business Investment q/q,-0.7%,worse,45
+692,1.7%,GBP,2018-11-09 04:30:00,0.2%,better,Low,Construction Output m/m,-0.3%,better,45
+693,-9.7B,GBP,2018-11-09 04:30:00,-11.4B,better,Low,Goods Trade Balance,-11.2B,,45
+694,0.4%,GBP,2018-11-09 04:30:00,0.5%,worse,Low,Index of Services 3m/3m,0.5%,,45
+695,0.0%,GBP,2018-11-09 04:30:00,-0.1%,better,Low,Industrial Production m/m,0.0%,worse,45
+696,0.6%,USD,2018-11-09 08:30:00,0.2%,better,High,PPI m/m,0.2%,,45
+697,0.5%,USD,2018-11-09 08:30:00,0.2%,better,Medium,Core PPI m/m,0.2%,,45
+698,0.4%,GBP,2018-11-09 08:50:00,,,Low,NIESR GDP Estimate,0.6%,worse,45
+699,,USD,2018-11-09 09:05:00,,,Medium,FOMC Member Quarles Speaks,,,45
+700,98.3,USD,2018-11-09 10:00:00,98.0,,Medium,Prelim UoM Consumer Sentiment,98.6,,45
+701,0.4%,USD,2018-11-09 10:00:00,0.3%,worse,Low,Final Wholesale Inventories m/m,0.3%,,45
+702,2.8%,USD,2018-11-09 10:00:00,,,Low,Prelim UoM Inflation Expectations,2.9%,,45
+703,2.1%,JPY,2018-10-28 18:50:00,2.1%,,Low,Retail Sales y/y,2.7%,,44
+704,1.1%,AUD,2018-10-28 23:20:00,,,Low,HIA New Home Sales m/m,-2.9%,,44
+705,4.7B,GBP,2018-10-29 04:30:00,4.1B,better,Medium,Net Lending to Individuals m/m,4.3B,better,44
+706,-0.3%,GBP,2018-10-29 04:30:00,0.3%,worse,Low,M4 Money Supply m/m,0.1%,,44
+707,65K,GBP,2018-10-29 04:30:00,65K,,Low,Mortgage Approvals,66K,,44
+708,0.2%,USD,2018-10-29 07:30:00,0.1%,better,Medium,Core PCE Price Index m/m,0.0%,,44
+709,0.4%,USD,2018-10-29 07:30:00,0.4%,,Medium,Personal Spending m/m,0.5%,better,44
+710,0.2%,USD,2018-10-29 07:30:00,0.4%,worse,Low,Personal Income m/m,0.4%,better,44
+711,,GBP,2018-10-29 10:25:00,,,Medium,Autumn Forecast Statement,,,44
+712,2.3%,JPY,2018-10-29 18:30:00,2.4%,better,Low,Unemployment Rate,2.4%,,44
+713,3.3%,AUD,2018-10-29 19:30:00,3.9%,worse,Medium,Building Approvals m/m,-8.1%,better,44
+714,,AUD,2018-10-29 21:10:00,,,Medium,RBA Assist Gov Bullock Speaks,,,44
+715,0.4%,EUR,2018-10-30 01:30:00,0.4%,,Low,French Flash GDP q/q,0.2%,,44
+716,0.2%,EUR,2018-10-30 00:00:00,0.1%,better,Medium,German Prelim CPI m/m,0.4%,,44
+717,-1.7%,EUR,2018-10-30 02:45:00,-0.4%,worse,Low,French Consumer Spending m/m,1.1%,better,44
+718,100.1,CHF,2018-10-30 03:00:00,100.8,worse,Medium,KOF Economic Barometer,102.3,,44
+719,2.3%,EUR,2018-10-30 03:00:00,2.3%,,Low,Spanish Flash CPI y/y,2.3%,better,44
+720,-11K,EUR,2018-10-30 03:55:00,-12K,,Low,German Unemployment Change,-23K,,44
+721,0.0%,EUR,2018-10-30 04:00:00,0.2%,worse,Low,Italian Prelim GDP q/q,0.2%,,44
+722,0.2%,EUR,2018-10-30 05:00:00,0.4%,worse,Medium,Prelim Flash GDP q/q,0.4%,better,44
+723,3.36|1.5,EUR,2018-10-30 05:14:00,,,Low,Italian 10-y Bond Auction,2.90|1.4,,44
+724,5,GBP,2018-10-30 06:00:00,27,worse,Low,CBI Realized Sales,23,,44
+725,5.5%,USD,2018-10-30 08:00:00,6.0%,worse,Low,S&P/CS Composite-20 HPI y/y,5.9%,,44
+726,137.9,USD,2018-10-30 09:00:00,136.3,better,High,CB Consumer Confidence,135.3,worse,44
+727,,CAD,2018-10-30 14:30:00,,,High,BOC Gov Poloz Speaks,,,44
+728,-1.5%,NZD,2018-10-30 16:45:00,,,Low,Building Consents m/m,6.8%,worse,44
+729,-1.1%,JPY,2018-10-30 18:50:00,-0.3%,worse,Low,Prelim Industrial Production m/m,0.2%,worse,44
+730,-37.1,NZD,2018-10-30 19:00:00,,,High,ANZ Business Confidence,-38.3,,44
+731,-0.2%,GBP,2018-10-30 19:01:00,,,Low,BRC Shop Price Index y/y,0.2%,,44
+732,-10,GBP,2018-10-30 19:01:00,-10,,Low,GfK Consumer Confidence,-9,,44
+733,0.4%,AUD,2018-10-30 19:30:00,0.5%,,High,CPI q/q,0.4%,,44
+734,0.4%,AUD,2018-10-30 19:30:00,0.4%,,High,Trimmed Mean CPI q/q,0.4%,worse,44
+735,0.4%,AUD,2018-10-30 19:30:00,0.4%,,Low,Private Sector Credit m/m,0.5%,,44
+736,50.2,CNY,2018-10-30 20:00:00,50.6,worse,Medium,Manufacturing PMI,50.8,,44
+737,53.9,CNY,2018-10-30 20:00:00,54.7,worse,Medium,Non-Manufacturing PMI,54.9,,44
+738,,JPY,2018-10-30 22:08:00,,,High,BOJ Outlook Report,,,44
+739,,JPY,2018-10-30 22:08:00,,,High,Monetary Policy Statement,,,44
+740,-0.10%,JPY,2018-10-30 22:08:00,-0.10%,,Medium,BOJ Policy Rate,-0.10%,,44
+741,-1.5%,JPY,2018-10-31 00:00:00,-0.7%,worse,Low,Housing Starts y/y,1.6%,,44
+742,43.0,JPY,2018-10-31 00:02:00,43.5,worse,Low,Consumer Confidence,43.4,,44
+743,,JPY,2018-10-31 01:30:00,,,High,BOJ Press Conference,,,44
+744,0.1%,EUR,2018-10-31 02:00:00,0.5%,worse,Low,German Retail Sales m/m,-0.3%,worse,44
+745,0.1%,EUR,2018-10-31 02:45:00,0.1%,,Low,French Prelim CPI m/m,-0.2%,,44
+746,0.6%,EUR,2018-10-31 03:00:00,0.6%,,Medium,Spanish Flash GDP q/q,0.6%,,44
+747,-39.1,CHF,2018-10-31 04:00:00,,,Low,Credit Suisse Economic Expectations,-30.8,,44
+748,10.1%,EUR,2018-10-31 04:00:00,9.9%,worse,Low,Italian Monthly Unemployment Rate,9.8%,worse,44
+749,2.2%,EUR,2018-10-31 05:00:00,2.2%,,Medium,CPI Flash Estimate y/y,2.1%,,44
+750,1.1%,EUR,2018-10-31 05:00:00,1.1%,,Medium,Core CPI Flash Estimate y/y,0.9%,,44
+751,0.0%,EUR,2018-10-31 05:00:00,0.2%,worse,Low,Italian Prelim CPI m/m,-0.5%,worse,44
+752,8.1%,EUR,2018-10-31 05:00:00,8.1%,,Low,Unemployment Rate,8.1%,,44
+753,227K,USD,2018-10-31 07:15:00,188K,better,Medium,ADP Non-Farm Employment Change,218K,worse,44
+754,0.1%,CAD,2018-10-31 07:30:00,0.0%,better,High,GDP m/m,0.2%,,44
+755,-0.9%,CAD,2018-10-31 07:30:00,-0.5%,worse,Medium,RMPI m/m,-4.8%,worse,44
+756,0.1%,CAD,2018-10-31 07:30:00,0.0%,better,Low,IPPI m/m,-0.5%,,44
+757,0.8%,USD,2018-10-31 07:30:00,0.7%,better,Medium,Employment Cost Index q/q,0.6%,,44
+758,58.4,USD,2018-10-31 08:45:00,60.1,worse,Low,Chicago PMI,60.4,,44
+759,3.2M,USD,2018-10-31 09:30:00,3.6M,,Medium,Crude Oil Inventories,6.3M,,44
+760,,CHF,2018-10-31 12:15:00,,,High,SNB Chairman Jordan Speaks,,,44
+761,,CAD,2018-10-31 15:15:00,,,High,BOC Gov Poloz Speaks,,,44
+762,58.3,AUD,2018-10-31 16:30:00,,,Low,AIG Manufacturing Index,59.0,,44
+763,3.02B,AUD,2018-10-31 19:30:00,1.71B,better,Medium,Trade Balance,2.34B,better,44
+764,1.9%,AUD,2018-10-31 19:30:00,1.1%,better,Low,Import Prices q/q,3.2%,,44
+765,52.9,JPY,2018-10-31 19:30:00,53.1,,Low,Final Manufacturing PMI,53.1,,44
+766,50.1,CNY,2018-10-31 20:45:00,49.9,,Low,Caixin Manufacturing PMI,50.0,,44
+767,0.14|4.3,JPY,2018-10-31 22:35:00,,,Low,10-y Bond Auction,0.14|4.2,,44
+768,13.1%,AUD,2018-11-01 00:30:00,,,Low,Commodity Prices y/y,6.2%,better,44
+769,-6,CHF,2018-11-01 01:45:00,-8,better,Low,SECO Consumer Climate,-7,,44
+770,0.0%,GBP,2018-11-01 02:00:00,0.2%,worse,Low,Nationwide HPI m/m,0.2%,,44
+771,,EUR,2018-11-01 00:00:00,,,Non-Economic,French Bank Holiday,,,44
+772,,EUR,2018-11-01 00:00:00,,,Non-Economic,Italian Bank Holiday,,,44
+773,0.2%,CHF,2018-11-01 03:15:00,0.2%,,Low,CPI m/m,0.1%,,44
+774,57.4,CHF,2018-11-01 03:30:00,58.6,worse,Low,Manufacturing PMI,59.7,,44
+775,51.1,GBP,2018-11-01 04:30:00,53.0,worse,High,Manufacturing PMI,53.6,,44
+776,153.6%,USD,2018-11-01 06:30:00,,,Low,Challenger Job Cuts y/y,70.9%,,44
+777,,GBP,2018-11-01 07:00:00,,,High,BOE Inflation Report,,,44
+778,0-0-9,GBP,2018-11-01 07:00:00,0-0-9,,High,MPC Official Bank Rate Votes,0-0-9,,44
+779,,GBP,2018-11-01 07:00:00,,,High,Monetary Policy Summary,,,44
+780,0.75%,GBP,2018-11-01 07:00:00,0.75%,,Medium,Official Bank Rate,0.75%,,44
+781,435B,GBP,2018-11-01 07:00:00,435B,,Low,Asset Purchase Facility,435B,,44
+782,0-0-9,GBP,2018-11-01 07:00:00,0-0-9,,Low,MPC Asset Purchase Facility Votes,0-0-9,,44
+783,,GBP,2018-11-01 07:30:00,,,High,BOE Gov Carney Speaks,,,44
+784,2.2%,USD,2018-11-01 07:30:00,2.2%,,Low,Prelim Nonfarm Productivity q/q,3.0%,,44
+785,1.2%,USD,2018-11-01 07:30:00,1.1%,,Low,Prelim Unit Labor Costs q/q,-1.0%,,44
+786,214K,USD,2018-11-01 07:30:00,213K,,Low,Unemployment Claims,216K,,44
+787,53.9,CAD,2018-11-01 08:30:00,,,Low,Manufacturing PMI,54.8,,44
+788,55.7,USD,2018-11-01 08:45:00,55.9,,Low,Final Manufacturing PMI,55.9,,44
+789,57.7,USD,2018-11-01 09:00:00,59.0,worse,High,ISM Manufacturing PMI,59.8,,44
+790,0.0%,USD,2018-11-01 09:00:00,0.2%,,Low,Construction Spending m/m,0.8%,better,44
+791,71.6,USD,2018-11-01 09:00:00,67.5,better,Low,ISM Manufacturing Prices,66.9,,44
+792,48B,USD,2018-11-01 09:30:00,53B,,Low,Natural Gas Storage,58B,,44
+793,17.6M,USD,2018-11-01 00:00:00,17.1M,better,Low,Total Vehicle Sales,17.4M,,44
+794,5.9%,JPY,2018-11-01 18:50:00,6.2%,,Low,Monetary Base y/y,5.9%,,44
+795,0.2%,AUD,2018-11-01 19:30:00,0.3%,worse,High,Retail Sales m/m,0.3%,,44
+796,0.8%,AUD,2018-11-01 19:30:00,0.2%,better,Low,PPI q/q,0.3%,,44
+797,0.4%,EUR,2018-11-02 02:00:00,0.4%,,Low,German Import Prices m/m,0.0%,,44
+798,-87.1B,EUR,2018-11-02 02:45:00,,,Low,French Gov Budget Balance,-97.3B,,44
+799,-2.7%,CHF,2018-11-02 03:15:00,-0.2%,worse,Low,Retail Sales y/y,0.4%,,44
+800,51.8,EUR,2018-11-02 03:15:00,51.0,better,Low,Spanish Manufacturing PMI,51.4,,44
+801,49.2,EUR,2018-11-02 03:45:00,49.7,worse,Low,Italian Manufacturing PMI,50.0,,44
+802,51.2,EUR,2018-11-02 03:50:00,51.2,,Low,French Final Manufacturing PMI,51.2,,44
+803,52.2,EUR,2018-11-02 03:55:00,52.3,,Low,German Final Manufacturing PMI,52.3,,44
+804,52.0,EUR,2018-11-02 04:00:00,52.1,,Low,Final Manufacturing PMI,52.1,,44
+805,53.2,GBP,2018-11-02 04:30:00,52.0,better,Medium,Construction PMI,52.1,,44
+806,11.2K,CAD,2018-11-02 07:30:00,12.7K,worse,High,Employment Change,63.3K,,44
+807,5.8%,CAD,2018-11-02 07:30:00,5.9%,better,High,Unemployment Rate,5.9%,,44
+808,-0.4B,CAD,2018-11-02 07:30:00,0.2B,worse,Medium,Trade Balance,-0.6B,worse,44
+809,0.2%,USD,2018-11-02 07:30:00,0.2%,,High,Average Hourly Earnings m/m,0.3%,,44
+810,250K,USD,2018-11-02 07:30:00,194K,better,High,Non-Farm Employment Change,118K,worse,44
+811,3.7%,USD,2018-11-02 07:30:00,3.7%,,High,Unemployment Rate,3.7%,,44
+812,-54.0B,USD,2018-11-02 07:30:00,-53.5B,,Low,Trade Balance,-53.3B,,44
+813,0.7%,USD,2018-11-02 09:00:00,0.5%,better,Low,Factory Orders m/m,2.6%,better,44
+
+
+814,,NZD,2018-10-21 00:00:00,,,Non-Economic,Bank Holiday,,,43
+815,,AUD,2018-10-21 21:00:00,,,Medium,RBA Assist Gov Debelle Speaks,,,43
+816,0.5%,JPY,2018-10-21 23:30:00,0.4%,,Low,All Industries Activity m/m,-0.2%,worse,43
+817,,EUR,2018-10-22 05:00:00,,,Low,German Buba Monthly Report,,,43
+818,-0.1%,CAD,2018-10-22 07:30:00,0.1%,worse,Low,Wholesale Sales m/m,1.1%,worse,43
+819,0.2%,AUD,2018-10-22 09:30:00,,,Low,CB Leading Index m/m,0.1%,,43
+820,,AUD,2018-10-22 17:35:00,,,Medium,RBA Assist Gov Debelle Speaks,,,43
+821,,AUD,2018-10-22 22:00:00,,,Medium,RBA Assist Gov Bullock Speaks,,,43
+822,,AUD,2018-10-22 23:30:00,,,Medium,RBA Assist Gov Debelle Speaks,,,43
+823,0.5%,JPY,2018-10-23 00:00:00,0.5%,,Low,BOJ Core CPI y/y,0.5%,,43
+824,0.5%,EUR,2018-10-23 01:00:00,0.3%,better,Low,German PPI m/m,0.3%,,43
+825,-6,GBP,2018-10-23 05:00:00,-1,worse,Low,CBI Industrial Order Expectations,-1,,43
+826,,GBP,2018-10-23 05:30:00,,,Medium,MPC Member Haldane Speaks,,,43
+827,-3,EUR,2018-10-23 09:00:00,-3,,Low,Consumer Confidence,-3,,43
+828,15,USD,2018-10-23 09:00:00,25,worse,Low,Richmond Manufacturing Index,29,,43
+829,,GBP,2018-10-23 10:20:00,,,High,BOE Gov Carney Speaks,,,43
+830,,USD,2018-10-23 12:30:00,,,Medium,FOMC Member Bostic Speaks,,,43
+831,53.1,JPY,2018-10-23 19:30:00,52.6,better,Low,Flash Manufacturing PMI,52.5,worse,43
+832,51.2,EUR,2018-10-24 02:15:00,52.4,worse,Medium,French Flash Manufacturing PMI,52.5,,43
+833,55.6,EUR,2018-10-24 02:15:00,54.7,better,Medium,French Flash Services PMI,54.8,better,43
+834,52.3,EUR,2018-10-24 02:30:00,53.4,worse,Medium,German Flash Manufacturing PMI,53.7,,43
+835,53.6,EUR,2018-10-24 02:30:00,55.5,worse,Medium,German Flash Services PMI,55.9,worse,43
+836,52.1,EUR,2018-10-24 03:00:00,53.0,worse,Medium,Flash Manufacturing PMI,53.2,,43
+837,53.3,EUR,2018-10-24 03:00:00,54.5,worse,Medium,Flash Services PMI,54.7,,43
+838,3.5%,EUR,2018-10-24 03:00:00,3.5%,,Low,M3 Money Supply y/y,3.4%,,43
+839,3.1%,EUR,2018-10-24 03:00:00,3.2%,worse,Low,Private Loans y/y,3.1%,,43
+840,38.5K,GBP,2018-10-24 03:30:00,39.0K,worse,Low,High Street Lending,39.2K,,43
+841,-1.1,EUR,2018-10-24 08:00:00,0.5,worse,Low,Belgian NBB Business Climate,1.2,,43
+842,0.3%,USD,2018-10-24 08:00:00,0.3%,,Low,HPI m/m,0.4%,better,43
+843,55.9,USD,2018-10-24 08:45:00,55.4,better,Low,Flash Manufacturing PMI,55.6,,43
+844,54.7,USD,2018-10-24 08:45:00,54.1,better,Low,Flash Services PMI,53.5,better,43
+845,,CAD,2018-10-24 09:00:00,,,High,BOC Monetary Policy Report,,,43
+846,,CAD,2018-10-24 09:00:00,,,High,BOC Rate Statement,,,43
+847,1.75%,CAD,2018-10-24 09:00:00,1.75%,,High,Overnight Rate,1.50%,,43
+848,553K,USD,2018-10-24 09:00:00,627K,worse,Low,New Home Sales,585K,worse,43
+849,6.3M,USD,2018-10-24 09:30:00,3.6M,,Medium,Crude Oil Inventories,6.5M,,43
+850,,CAD,2018-10-24 10:15:00,,,High,BOC Press Conference,,,43
+851,,USD,2018-10-24 12:00:00,,,Medium,FOMC Member Bostic Speaks,,,43
+852,,USD,2018-10-24 12:10:00,,,Medium,FOMC Member Mester Speaks,,,43
+853,,USD,2018-10-24 13:00:00,,,Low,Beige Book,,,43
+854,-1560M,NZD,2018-10-24 16:45:00,-1365M,worse,Medium,Trade Balance,-1470M,better,43
+855,,USD,2018-10-24 18:00:00,,,Low,FOMC Member Brainard Speaks,,,43
+856,1.2%,JPY,2018-10-24 18:50:00,1.2%,,Low,SPPI y/y,1.3%,,43
+857,14.6%,EUR,2018-10-25 02:00:00,14.9%,better,Medium,Spanish Unemployment Rate,15.3%,,43
+858,102.8,EUR,2018-10-25 03:00:00,103.1,worse,Medium,German Ifo Business Climate,103.7,,43
+859,,All,2018-10-25 00:00:00,,,Medium,OPEC-JMMC Meetings,,,43
+860,0.00%,EUR,2018-10-25 06:45:00,0.00%,,High,Main Refinancing Rate,0.00%,,43
+861,,EUR,2018-10-25 07:30:00,,,High,ECB Press Conference,,,43
+862,0.1%,USD,2018-10-25 07:30:00,0.5%,worse,High,Core Durable Goods Orders m/m,0.0%,,43
+863,0.8%,USD,2018-10-25 07:30:00,-1.3%,better,Medium,Durable Goods Orders m/m,4.4%,,43
+864,-76.0B,USD,2018-10-25 07:30:00,-74.9B,worse,Low,Goods Trade Balance,-75.5B,,43
+865,0.3%,USD,2018-10-25 07:30:00,0.5%,better,Low,Prelim Wholesale Inventories m/m,1.0%,worse,43
+866,215K,USD,2018-10-25 07:30:00,214K,,Low,Unemployment Claims,210K,,43
+867,1.2%,CNY,2018-10-25 08:00:00,,,Low,CB Leading Index m/m,0.7%,,43
+868,0.5%,USD,2018-10-25 09:00:00,-0.1%,better,Low,Pending Home Sales m/m,-1.9%,,43
+869,58B,USD,2018-10-25 09:30:00,47B,,Low,Natural Gas Storage,81B,,43
+870,,USD,2018-10-25 11:15:00,,,Medium,FOMC Member Clarida Speaks,,,43
+871,,USD,2018-10-25 16:30:00,,,Medium,FOMC Member Mester Speaks,,,43
+872,1.0%,JPY,2018-10-25 18:30:00,1.0%,,Low,Tokyo Core CPI y/y,1.0%,,43
+873,10.6,EUR,2018-10-26 01:00:00,10.5,,Low,German GfK Consumer Climate,10.6,,43
+874,3.5%,USD,2018-10-26 07:30:00,3.3%,better,High,Advance GDP q/q,4.2%,better,43
+875,1.7%,USD,2018-10-26 07:30:00,2.1%,worse,Medium,Advance GDP Price Index q/q,3.0%,,43
+876,,EUR,2018-10-26 09:00:00,,,High,ECB President Draghi Speaks,,,43
+877,98.6,USD,2018-10-26 09:00:00,98.9,,Medium,Revised UoM Consumer Sentiment,99.0,,43
+878,2.9%,USD,2018-10-26 09:00:00,,,Low,Revised UoM Inflation Expectations,2.8%,,43
+879,,CHF,2018-10-27 21:00:00,,,Non-Economic,Daylight Saving Time Shift,,,43
+880,,EUR,2018-10-27 21:00:00,,,Non-Economic,Daylight Saving Time Shift,,,43
+881,,GBP,2018-10-27 21:00:00,,,Non-Economic,Daylight Saving Time Shift,,,43

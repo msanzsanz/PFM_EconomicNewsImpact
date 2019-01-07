@@ -1769,9 +1769,9 @@
       <size sizing-mode='automatic' />
       <zones>
         <zone h='100000' id='2' type='layout-basic' w='100000' x='0' y='0'>
-          <zone h='97572' id='5' param='horz' type='layout-flow' w='98504' x='748' y='1214'>
-            <zone h='97572' id='3' type='layout-basic' w='83537' x='748' y='1214'>
-              <zone h='48786' id='1' name='Actual_vs_Deviation' w='83537' x='748' y='1214'>
+          <zone h='97576' id='5' param='horz' type='layout-flow' w='98504' x='748' y='1212'>
+            <zone h='97576' id='3' type='layout-basic' w='83551' x='748' y='1212'>
+              <zone h='44007' id='1' name='Actual_vs_Deviation' w='83551' x='748' y='1212'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1779,7 +1779,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone h='48786' id='8' name='Market_reaction' w='83537' x='748' y='50000'>
+              <zone h='53569' id='8' name='Market_reaction' w='83551' x='748' y='45219'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1788,8 +1788,8 @@
                 </zone-style>
               </zone>
             </zone>
-            <zone fixed-size='160' h='97572' id='4' is-fixed='true' param='vert' type='layout-flow' w='14967' x='84285' y='1214'>
-              <zone h='7891' id='6' mode='compact' param='[Parameters].[Year Parameter]' type='paramctrl' w='14967' x='84285' y='1214'>
+            <zone fixed-size='160' h='97576' id='4' is-fixed='true' param='vert' type='layout-flow' w='14953' x='84299' y='1212'>
+              <zone h='7879' id='6' mode='compact' param='[Parameters].[Year Parameter]' type='paramctrl' w='14953' x='84299' y='1212'>
                 <zone-style>
                   <format attr='border-color' value='#000000' />
                   <format attr='border-style' value='none' />
@@ -1797,7 +1797,7 @@
                   <format attr='margin' value='4' />
                 </zone-style>
               </zone>
-              <zone custom-title='true' h='11381' id='7' mode='slider' param='[Parameters].[Datetime Gmt Parameter]' type='paramctrl' w='14967' x='84285' y='9105'>
+              <zone custom-title='true' h='11364' id='7' mode='slider' param='[Parameters].[Datetime Gmt Parameter]' type='paramctrl' w='14953' x='84299' y='9091'>
                 <formatted-text>
                   <run>Last N events</run>
                 </formatted-text>
@@ -1820,7 +1820,7 @@
       </zones>
     </dashboard>
   </dashboards>
-  <windows source-height='30'>
+  <windows pres-mode='true' source-height='30'>
     <window class='worksheet' name='Actual_vs_Deviation'>
       <cards>
         <edge name='left'>
@@ -1889,7 +1889,7 @@
           <zoom type='entire-view' />
         </viewpoint>
       </viewpoints>
-      <active id='7' />
+      <active id='-1' />
     </window>
   </windows>
 </workbook>

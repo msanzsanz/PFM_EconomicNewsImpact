@@ -51,9 +51,9 @@ def get_economic_calendar(start_link, end_link, week_number, output_path):
     while start_link != end_link:
 
         # Log current status
-        logging.info('Scraping data for link: {}'.format(end_link))
+        logging.info('Scrapping data for link: {}'.format(end_link))
 
-        baseURL = 'https://www.forexfactory.com/calendar.php?'
+        baseURL = 'https://www.forexfactory.com/'
         r = requests.get(baseURL + end_link)
 
         # If the server does not have information for the requiered week, it automatically changes the url to
@@ -197,7 +197,7 @@ def get_economic_calendar(start_link, end_link, week_number, output_path):
 #
 #   INVOCATION EXAMPLE:
 #
-#       python forexfactory_scraper.py week=oct21.2018 week=dec23.2018 52 ../data/raw
+#       python forexfactory_scraper.py calendar.php?week=oct21.2018 calendar.php?week=dec23.2018 52 ../../data/demo/
 #
 #
 ########################################################################################################################

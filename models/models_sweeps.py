@@ -14,7 +14,6 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
 from sklearn.svm import SVC, SVR
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
-from sklearn.ensemble import VotingClassifier
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 from sklearn.ensemble import AdaBoostClassifier, AdaBoostRegressor
 from sklearn.ensemble import GradientBoostingClassifier, GradientBoostingRegressor
@@ -112,8 +111,8 @@ def convert_categorical_to_numerical_news(df_news, groupby):
     dummy_previous_error.columns = ['pe_accurate', 'pe_better', 'pe_worse']
     dummy_impact = pd.get_dummies(df_news['impact'])
 
-    df_look_up_table = df_news[['new_id', 'new']].drop_duplicates()
-    df_look_up_table.to_csv(os.path.join(base_output_path, 'look_up_table_' + groupby + '.csv'))
+    #df_look_up_table = df_news[['new_id', 'new']].drop_duplicates()
+    #df_look_up_table.to_csv(os.path.join(base_output_path, 'look_up_table_' + groupby + '.csv'))
 
     df_news = df_news.drop(['new', 'datetime_gmt', 'forecast_error', 'impact', 'previous_error'], axis=1)
     df_news['new_id'] = df_news['new_id'].astype(str)

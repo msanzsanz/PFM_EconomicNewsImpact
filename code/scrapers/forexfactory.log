@@ -1,11 +1,11 @@
-2019-01-05 18:11:14,930 - INFO - Scraping data for link: calendar.php?week=dec23.2018
-2019-01-05 18:11:16,885 - INFO - Successfully retrieved data for year: 2018
-2019-01-05 18:11:16,911 - INFO - Scraping data for link: calendar.php?week=dec16.2018
-2019-01-05 18:11:19,198 - INFO - Scraping data for link: calendar.php?week=dec9.2018
-2019-01-05 18:11:21,383 - INFO - Scraping data for link: calendar.php?week=dec2.2018
-2019-01-05 18:11:24,015 - INFO - Scraping data for link: calendar.php?week=nov25.2018
-2019-01-05 18:11:25,938 - INFO - Scraping data for link: calendar.php?week=nov18.2018
-2019-01-05 18:11:27,703 - INFO - Scraping data for link: calendar.php?week=nov11.2018
-2019-01-05 18:11:29,706 - INFO - Scraping data for link: calendar.php?week=nov4.2018
-2019-01-05 18:11:31,912 - INFO - Scraping data for link: calendar.php?week=oct28.2018
-2019-01-05 18:11:34,346 - INFO - End of the program
+2019-01-07 21:42:05,530 - INFO - Scrapping data for link: calendar.php?week=dec23.2018
+2019-01-07 21:42:08,008 - INFO - Scrapping data for link: calendar.php?week=dec16.2018
+2019-01-07 21:42:11,348 - INFO - Scrapping data for link: calendar.php?week=dec9.2018
+2019-01-07 21:42:16,440 - INFO - Scrapping data for link: calendar.php?week=dec2.2018
+2019-01-07 21:42:19,877 - INFO - Scrapping data for link: calendar.php?week=nov25.2018
+2019-01-07 21:42:22,533 - INFO - Scrapping data for link: calendar.php?week=nov18.2018
+2019-01-07 21:42:24,735 - INFO - Scrapping data for link: calendar.php?week=nov11.2018
+2019-01-07 21:42:27,480 - INFO - Scrapping data for link: calendar.php?week=nov4.2018
+2019-01-07 21:42:30,270 - INFO - Scrapping data for link: calendar.php?week=oct28.2018
+2019-01-07 21:42:34,222 - INFO - Scrapping data for link: calendar.php?week=oct21.2018
+2019-01-07 21:42:36,638 - INFO - End of the program
