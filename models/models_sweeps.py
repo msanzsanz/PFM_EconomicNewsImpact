@@ -425,6 +425,7 @@ def run_classification_models_basic_grid(df_news, sweep_market_variables, sweep_
     columns_of_model = list(set(df_news.columns) - set(columns_to_predict) - set(['datetime']))
 
     logging.info('X columns for the classification model: {}'.format(columns_of_model))
+    logging.info('y dependent variable: {}'.format(columns_to_predict[0]))
 
     X = df_news[columns_of_model].values
     y = df_news[columns_to_predict[0]].values
@@ -659,9 +660,9 @@ if __name__ == '__main__':
                         buy_delay = int(sweep_when_buy_sell.split('_')[0])
                         sell_after = int(sweep_when_buy_sell.split('_')[1])
 
-                        if sell_after in snapshots_after:
+                        if sell_after in snapshots_after and buy_delay in snapshots_after:
 
-                            predict_at = '_0_' + str(sell_after) + '_after'
+                            predict_at = '_' + str(buy_delay) + '_' + str(sell_after) + '_after'
 
                             columns_to_predict = [column_name + predict_at for column_name in
                                                             [COLUMN_TO_PREDICT_CLF_PREFIX, COLUMN_TO_PREDICT_REG_PREFIX]]
@@ -677,8 +678,9 @@ if __name__ == '__main__':
                             else:
                                 market_fields_before = []
 
+
                             market_fields = market_fields_after + market_fields_before + ['datetime'] \
-                                            + [columns_to_predict[1]]
+                                            + ['pips_agg_0_' + str(sell_after) + '_after']
 
                             logging.info('List of dynamic market fields: {}'.format(market_fields))
 
@@ -687,9 +689,18 @@ if __name__ == '__main__':
                             # As some news are published in bundle, we need to drop duplicates in the market df
                             df_market = df_market.drop_duplicates()
 
+                            # We compute the pips difference in that window time
+                            snapshots_buy_delay = 'pips_agg_0_' + str(buy_delay) + '_after'
+                            snapshots_sell_after = 'pips_agg_0_' + str(sell_after) + '_after'
+                            df_market[columns_to_predict[1]] = df_market[snapshots_sell_after] - \
+                                                               df_market[snapshots_buy_delay]
+
                             # we create the variable holding the classification to predict
                             df_market[columns_to_predict[0]] = df_market[columns_to_predict[1]].apply(
                                                                             lambda x: get_class(x, sell_after))
+
+                            # drop the extra column created to compute pips differences
+                            df_market = df_market.drop(['pips_agg_0_' + str(sell_after) + '_after'], axis=1)
 
                             df_news_sweep = df_news.merge(df_market, on='datetime', how='left')
 
@@ -713,7 +724,7 @@ if __name__ == '__main__':
 
                         else:
                             logging.error('sweep not allowed. Buy delay: {} - Sell after: {}'.format(buy_delay, sell_after))
-                            logging.error('Sell delay should be in the list of 30min snapshots')
+                            logging.error('Both values should be in the list of 30min snapshots')
 
     df_results.to_csv(os.path.join(base_output_path, exp_name + '_models_performance.csv'))
     shutil.rmtree(partial_results_path, ignore_errors=True)

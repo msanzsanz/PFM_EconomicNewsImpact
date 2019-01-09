@@ -575,23 +575,23 @@ def get_market_information_after(df, snapshot_at):
 
     column_high = 'high' + sufix
     column_low = 'low' + sufix
-    column_open = 'open' + sufix
+    column_close = 'close' + sufix
     column_volatility = 'volatility' + sufix
     column_pips = 'pips_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
-    df_local[column_high] = df_local['high'].rolling(window=window_size, min_periods=1).max()
-    df_local[column_low] = df_local['low'].rolling(window=window_size, min_periods=1).min()
+    df_local[column_high] = df_local['high'].shift().rolling(window=window_size, min_periods=1).max().fillna(df_local['high'])
+    df_local[column_low] = df_local['low'].shift().rolling(window=window_size, min_periods=1).min().fillna(df_local['low'])
 
     df_local[column_volatility] = df_local[column_high] - df_local[column_low]
     df_local[column_volatility] = df_local[column_volatility].astype(int)
 
-    df_local[column_open] = df_local['open'].shift(window_size - 1).fillna(df_local['open'])
-    df_local[column_pips] = df_local[column_open] - df_local['open']
+    df_local[column_close] = df_local['close'].shift(window_size).fillna(df_local['close'])
+    df_local[column_pips] = df_local[column_close] - df_local['close']
     df_local[column_pips] = df_local[column_pips].astype(int)
 
     # Drop undesired columns
-    df_local = df_local.drop([column_high, column_low, column_open, 'open', 'high', 'low', 'close'], axis=1)
+    df_local = df_local.drop([column_high, column_low, column_close, 'open', 'high', 'low', 'close'], axis=1)
 
     return df_local
 
@@ -664,7 +664,7 @@ def fe_dukascopy(filename):
 
 
 def add_features_from_snapshots(df_features, df_pair):
-    # Create a copy of the dataframe reversed
+    # Create a copy of the dataframe reversed for the rolling window to work
     df_pair_reverse = df_pair[::-1].copy()
 
     # We  extract market information some time before the news are released.

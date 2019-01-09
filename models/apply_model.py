@@ -52,7 +52,7 @@ def apply_model_clf(train_df, test_df):
     clf_report = classification_report(y_test, y_predict, output_dict=True)
 
     processed_df['direction_agg_0_120_after_predicted'] = y_predict
-    processed_df.to_csv('model_results.csv')
+    processed_df.to_csv('/Users/wola/Documents/MSS/Personales/GitRepos/PFM_EconomicNewsImpact/models/model_results.csv')
 
     print(clf_report)
 
