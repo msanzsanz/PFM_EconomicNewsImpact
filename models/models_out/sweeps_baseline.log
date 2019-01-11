@@ -1,3 +1,11 @@
-2019-01-09 07:51:18,114 - INFO - #########################
-2019-01-09 07:51:18,114 - INFO - 
-2019-01-09 07:51:18,114 - INFO - Starting a new sweep, grouping news by: ALL_NO_1_1_1
+2019-01-11 17:52:50,419 - INFO - #########################
+2019-01-11 17:52:50,421 - INFO - 
+2019-01-11 17:52:50,423 - INFO - Starting a new sweep, grouping news by: ALL_NO_1_1_1
+2019-01-11 17:59:58,503 - INFO - Starting a new sweep with market features: all
+2019-01-11 17:59:58,504 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-11 17:59:58,505 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2019-01-11 18:00:04,393 - INFO - Starting a new sweep for grid mode: basic
+2019-01-11 18:00:06,520 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_max_30_60_after']
+2019-01-11 18:00:34,116 - INFO - X columns for the classification model: ['pe_accurate', 'pips_candle_20_25_after', 'volatility_10_15_after', 'volatility_25_30_after', 'pips_candle_15_20_after', 'year', 'volatility_60_0_before', 'previous_error_diff_outlier_class', 'pe_better', 'num_news', 'forecast_error_diff_outlier_class', 'new_id', 'pips_agg_60_0_before', 'weekday', 'volatility_5_10_after', 'pe_worse', 'forecast_error_diff_deviation', 'Medium', 'week', 'fe_accurate', 'pips_candle_25_30_after', 'fe_better', 'pips_candle_0_5_after', 'fe_worse', 'pips_candle_10_15_after', 'volatility_15_20_after', 'Low', 'volatility_0_5_after', 'pips_candle_5_10_after', 'volatility_20_25_after', 'High', 'previous_error_diff_deviation']
+2019-01-11 18:00:34,118 - INFO - y dependent variable: reaction_max_30_60_after
+2019-01-11 18:00:34,174 - INFO - Starting KNeighborsClassifier

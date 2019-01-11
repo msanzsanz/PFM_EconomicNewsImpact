@@ -340,7 +340,6 @@ def get_deviation_and_outlier(df, field_name, size=5):
     field_uq = field_name + '_upper_quartile'
     field_lq = field_name + '_lower_quartile'
     field_outlier = field_name + '_outlier_class'
-    field_tmp = field_name + '_tmp'
     field_mean = field_name + '_mean'
 
     for new in news_list:
@@ -364,15 +363,15 @@ def get_deviation_and_outlier(df, field_name, size=5):
                                                axis=1)
 
         # compute std of the last events, excluding outliers
-        median = df_temp[field_name].median()
-        df_temp[field_tmp] = np.where(df_temp[field_outlier] < 2, df_temp[field_name], median)
+        #median = df_temp[field_name].median()
+        #df_temp[field_tmp] = np.where(df_temp[field_outlier] < 2, df_temp[field_name], median)
 
         # We set the "min_periods" to 5, to avoid contaminating our data with the first scrapped entries
-        df_temp[field_std] = df_temp[field_tmp].shift().rolling(window=size, min_periods=size).std() \
-            .fillna(df_temp[field_tmp])
+        df_temp[field_std] = df_temp[field_name].shift().rolling(window=size, min_periods=size).std() \
+            .fillna(df_temp[field_name])
 
-        df_temp[field_mean] = df_temp[field_tmp].shift().rolling(window=size, min_periods=size).std() \
-            .fillna(df_temp[field_tmp])
+        df_temp[field_mean] = df_temp[field_name].shift().rolling(window=size, min_periods=size).mean() \
+            .fillna(df_temp[field_name])
 
         df_temp[field_deviation] = df_temp.apply(lambda row: compute_ratio(row, field_name, field_std, field_mean),
                                                  axis=1)
@@ -380,7 +379,7 @@ def get_deviation_and_outlier(df, field_name, size=5):
         df_temp[field_deviation] = df_temp[field_deviation].apply(lambda x: float(format(x, '.2f')))
 
         # Drop undesired columns
-        df_temp.drop(columns=[field_lq, field_uq, field_std, field_tmp, field_mean], axis=1, inplace=True)
+        df_temp.drop(columns=[field_lq, field_uq, field_std, field_mean], axis=1, inplace=True)
 
         df_out = df_out.append(df_temp)
 
@@ -580,7 +579,10 @@ def get_market_information_after(df, snapshot_from, snapshot_to):
     column_close = 'close' + sufix
     column_close_from = 'close' + str(snapshot_from)
     column_volatility = 'volatility' + sufix
-    column_pips = 'pips_agg' + sufix
+    column_pips_candle = 'pips_candle' + sufix
+    column_pips_max = 'pips_candle_max' + sufix
+    column_pips_min = 'pips_candle_min' + sufix
+    column_pips_agg = 'pips_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
     df_local[column_high] = df_local['high'].shift(shift_distance).rolling(window=window_size, min_periods=1).max()\
@@ -593,8 +595,18 @@ def get_market_information_after(df, snapshot_from, snapshot_to):
 
     df_local[column_close] = df_local['close'].shift(shift_distance + window_size).fillna(df_local['close'])
     df_local[column_close_from] = df_local['close'].shift(shift_distance).fillna(df_local['close'])
-    df_local[column_pips] = df_local[column_close] - df_local[column_close_from]
-    df_local[column_pips] = df_local[column_pips].astype(int)
+
+    df_local[column_pips_candle] = df_local[column_close] - df_local[column_close_from]
+    df_local[column_pips_candle] = df_local[column_pips_candle].astype(int)
+
+    df_local[column_pips_agg] = df_local[column_close] - df_local['close']
+    df_local[column_pips_agg] = df_local[column_pips_agg].astype(int)
+
+    df_local[column_pips_max] = df_local[column_high] - df_local[column_close_from]
+    df_local[column_pips_max] = df_local[column_pips_max].astype(int)
+
+    df_local[column_pips_min] = df_local[column_low] - df_local[column_close_from]
+    df_local[column_pips_min] = df_local[column_pips_min].astype(int)
 
     # Drop undesired columns
     df_local = df_local.drop([column_high, column_low, column_close, column_close_from,
@@ -670,7 +682,7 @@ def fe_dukascopy(filename):
     return df_pair
 
 
-def add_features_from_snapshots(df_features, df_pair):
+def add_features_from_snapshots(df_features, df_pair, snapshots_from, snapshots_to):
     # Create a copy of the dataframe reversed for the rolling window to work
     df_pair_reverse = df_pair[::-1].copy()
 
@@ -681,10 +693,14 @@ def add_features_from_snapshots(df_features, df_pair):
     df_features = df_features.set_index('datetime_gmt').join(df_pair_before_release)
     df_features = df_features.reset_index(drop=False)
 
-    for i in range(0,len(snapshots_after) - 1):
-        df_pair_snapshot = get_market_information_after(df_pair_reverse, snapshots_after[i], snapshots_after[i+1])
-        df_features = df_features.set_index('datetime_gmt').join(df_pair_snapshot)
-        df_features = df_features.reset_index(drop=False)
+    # Add features for each of the [snapshot_from - snapshots_to] candles
+    for snapshot_from in snapshots_from:
+        for snapshot_to in snapshots_to:
+            if snapshot_from < snapshot_to:
+                df_pair_snapshot = get_market_information_after(df_pair_reverse, snapshot_from, snapshot_to)
+                df_features = df_features.set_index('datetime_gmt').join(df_pair_snapshot)
+                df_features = df_features.reset_index(drop=False)
+
 
     return df_features
 
@@ -733,11 +749,12 @@ if __name__ == '__main__':
     currency_news = sys.argv[5]
     currency_pair = sys.argv[6]
     candles_5m = ast.literal_eval(sys.argv[7])
-    snapshots_after = ast.literal_eval(sys.argv[8])
-    dst_correction = str(sys.argv[9])
-    output_path = sys.argv[10]
-    csv_prefix_out = sys.argv[11]
-    log_file = sys.argv[12]
+    snapshots_from = ast.literal_eval(sys.argv[8])
+    snapshots_to = ast.literal_eval(sys.argv[9])
+    dst_correction = str(sys.argv[10])
+    output_path = sys.argv[11]
+    csv_prefix_out = sys.argv[12]
+    log_file = sys.argv[13]
 
     # Create log file
     set_logger(log_file)
@@ -771,7 +788,7 @@ if __name__ == '__main__':
         df_features = fe_forexfactory(year, ff_file, currency_news, dst_correction)
 
         # Add market information for the requested snapshots
-        df_features = add_features_from_snapshots(df_features, df_pair)
+        df_features = add_features_from_snapshots(df_features, df_pair, snapshots_from, snapshots_to)
 
         if len(df_features) != 0:
 
