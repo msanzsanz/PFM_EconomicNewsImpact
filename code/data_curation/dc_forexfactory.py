@@ -380,7 +380,7 @@ def get_deviation_and_outlier(df, field_name, size=5):
         df_temp[field_deviation] = df_temp[field_deviation].apply(lambda x: float(format(x, '.2f')))
 
         # Drop undesired columns
-        #df_temp.drop(columns=[field_lq, field_uq, field_std, field_tmp, field_dir_std, field_mean], axis=1, inplace=True)
+        df_temp.drop(columns=[field_lq, field_uq, field_std, field_tmp, field_mean], axis=1, inplace=True)
 
         df_out = df_out.append(df_temp)
 
@@ -567,31 +567,38 @@ def fe_forexfactory(year, ff_file, currency, dst_correction, freq='5min'):
 #       snapshot_at:    number of minutes after the release
 #
 ########################################################################################################################
-def get_market_information_after(df, snapshot_at):
+def get_market_information_after(df, snapshot_from, snapshot_to):
     df_local = df.copy()
 
-    sufix = '_0_' + str(snapshot_at) + '_after'
-    window_size = snapshot_at // CANDLE_SIZE
+    sufix = '_' + str(snapshot_from) + '_' + str(snapshot_to) + '_after'
+    window_size = snapshot_to // CANDLE_SIZE
+    shift_distance = snapshot_from // CANDLE_SIZE
+    window_size = window_size - shift_distance
 
     column_high = 'high' + sufix
     column_low = 'low' + sufix
     column_close = 'close' + sufix
+    column_close_from = 'close' + str(snapshot_from)
     column_volatility = 'volatility' + sufix
     column_pips = 'pips_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
-    df_local[column_high] = df_local['high'].shift().rolling(window=window_size, min_periods=1).max().fillna(df_local['high'])
-    df_local[column_low] = df_local['low'].shift().rolling(window=window_size, min_periods=1).min().fillna(df_local['low'])
+    df_local[column_high] = df_local['high'].shift(shift_distance).rolling(window=window_size, min_periods=1).max()\
+                                                                    .fillna(df_local['high'])
+    df_local[column_low] = df_local['low'].shift(shift_distance).rolling(window=window_size, min_periods=1).min()\
+                                                                    .fillna(df_local['low'])
 
     df_local[column_volatility] = df_local[column_high] - df_local[column_low]
     df_local[column_volatility] = df_local[column_volatility].astype(int)
 
-    df_local[column_close] = df_local['close'].shift(window_size).fillna(df_local['close'])
-    df_local[column_pips] = df_local[column_close] - df_local['close']
+    df_local[column_close] = df_local['close'].shift(shift_distance + window_size).fillna(df_local['close'])
+    df_local[column_close_from] = df_local['close'].shift(shift_distance).fillna(df_local['close'])
+    df_local[column_pips] = df_local[column_close] - df_local[column_close_from]
     df_local[column_pips] = df_local[column_pips].astype(int)
 
     # Drop undesired columns
-    df_local = df_local.drop([column_high, column_low, column_close, 'open', 'high', 'low', 'close'], axis=1)
+    df_local = df_local.drop([column_high, column_low, column_close, column_close_from,
+                              'open', 'high', 'low', 'close'], axis=1)
 
     return df_local
 
@@ -674,8 +681,8 @@ def add_features_from_snapshots(df_features, df_pair):
     df_features = df_features.set_index('datetime_gmt').join(df_pair_before_release)
     df_features = df_features.reset_index(drop=False)
 
-    for snapshot in snapshots_after:
-        df_pair_snapshot = get_market_information_after(df_pair_reverse, snapshot)
+    for i in range(0,len(snapshots_after) - 1):
+        df_pair_snapshot = get_market_information_after(df_pair_reverse, snapshots_after[i], snapshots_after[i+1])
         df_features = df_features.set_index('datetime_gmt').join(df_pair_snapshot)
         df_features = df_features.reset_index(drop=False)
 

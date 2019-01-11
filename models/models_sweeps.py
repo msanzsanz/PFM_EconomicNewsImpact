@@ -65,14 +65,27 @@ TEST_SIZE = 0.2
 RANDOM_STATE = 42
 CROSS_VAL = 5
 
-THS_30 = 9
-THS_60 = 11
-THS_90 = 14
-THS_120 = 15
-THS_150 = 16
-THS_180 = 17
-THS_210 = 18
-THS_240 = 19
+THS_0_30 = 9
+THS_30_60 = 8
+THS_30_90 = 15
+THS_30_120 = 21
+THS_30_180 = 32
+THS_30_240 = 6
+THS_60_120 = 7
+THS_60_180 = 7
+THS_60_240 = 6
+
+        nohup python models_sweeps.py 0_30 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_0_30 &
+        nohup python models_sweeps.py 0_60 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_0_60 &
+        nohup python models_sweeps.py 30_60 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_30_60 &
+        nohup python models_sweeps.py 30_90 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_30_90 &
+        nohup python models_sweeps.py 30_120 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_30_120 &
+        nohup python models_sweeps.py 30_180 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_30_180 &
+        nohup python models_sweeps.py 30_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_30_240 &
+        nohup python models_sweeps.py 60_120 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_60_120 &
+        nohup python models_sweeps.py 60_180 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_60_180 &
+        nohup python models_sweeps.py 60_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 30,60,90,120,150,180,210,240 ./models_out/ sweeps_baseline_60_240 &
+
 
 PREDICTED_VALUES = [0,1,2]
 
@@ -546,8 +559,8 @@ def get_dynamic_market_fields_after(candles_5m, snapshots_after, type):
         dynamic_market_fields = dynamic_market_fields + tmp
 
     # We don´t have pips_candle and other advanced metrics in the individual snapshots
-    for snapshot in snapshots_after:
-        tmp = [column + '_0_' + str(snapshot) + '_after' for column in COLUMNS_MARKET_REACTION_AFTER_BASIC]
+    for i in range(0, len(snapshots_after) -1):
+        tmp = [column + '_' + str(i) + '_' + str(i+1) + '_after' for column in COLUMNS_MARKET_REACTION_AFTER_BASIC]
         dynamic_market_fields = dynamic_market_fields + tmp
 
     return dynamic_market_fields
@@ -580,7 +593,7 @@ def get_dynamic_market_fields_before():
 #
 ########################################################################################################################
 
-def get_class(num_pips, sell_after):
+def get_class(num_pips, buy_delay, sell_after):
 
     if sell_after == 30: threshold = THS_30
     elif sell_after == 60: threshold = THS_60
@@ -680,7 +693,7 @@ if __name__ == '__main__':
 
 
                             market_fields = market_fields_after + market_fields_before + ['datetime'] \
-                                            + ['pips_agg_0_' + str(sell_after) + '_after']
+                                            + [columns_to_predict[1]]
 
                             logging.info('List of dynamic market fields: {}'.format(market_fields))
 
@@ -689,18 +702,10 @@ if __name__ == '__main__':
                             # As some news are published in bundle, we need to drop duplicates in the market df
                             df_market = df_market.drop_duplicates()
 
-                            # We compute the pips difference in that window time
-                            snapshots_buy_delay = 'pips_agg_0_' + str(buy_delay) + '_after'
-                            snapshots_sell_after = 'pips_agg_0_' + str(sell_after) + '_after'
-                            df_market[columns_to_predict[1]] = df_market[snapshots_sell_after] - \
-                                                               df_market[snapshots_buy_delay]
-
                             # we create the variable holding the classification to predict
                             df_market[columns_to_predict[0]] = df_market[columns_to_predict[1]].apply(
-                                                                            lambda x: get_class(x, sell_after))
+                                                                        lambda x: get_class(x, buy_delay, sell_after))
 
-                            # drop the extra column created to compute pips differences
-                            df_market = df_market.drop(['pips_agg_0_' + str(sell_after) + '_after'], axis=1)
 
                             df_news_sweep = df_news.merge(df_market, on='datetime', how='left')
 
