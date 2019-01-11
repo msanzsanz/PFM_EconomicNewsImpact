@@ -721,9 +721,9 @@ def add_features_from_snapshots(df_features, df_pair, snapshots_from, snapshots_
 #
 #       currency_news:  three-letter abbreviation for the news of interest. E.g. USD for United States dollar news
 #       currency_pair:  six-letter abbreviation for the pair of interest. E.f. EURUSD for euro-american dollar
-#       candles_5m:   array of required snapshots for 5min candles
-#       snapshots_15m:  array of required snapshots for 15min candles
-#       snapshots_30m:  array of required snapshots for 30min candles
+#       candles_5m:     array of required snapshots for 5min candles
+#       snapshots_from: left-side value of the candle to be computed
+#       snapshots_to:   right-side value of the candle to be computed
 #       dst_correction: "ON" if the scrapper was run when DST was off
 #                       "OFF" otherwise
 #       output_path:    path to store the dataframe with the processed data
@@ -733,9 +733,12 @@ def add_features_from_snapshots(df_features, df_pair, snapshots_from, snapshots_
 #
 #   INVOCATION EXAMPLE:
 #
-#       python 2007 2018 ./../data/raw/ forexfactory USD EURUSD [5,10,15,20,25,30] [30,60,90,120,180,210,240] ON \
-#               ../../data/curated/ features dc_forexfactory.log
+#       python dc_forexfactory.py 2007 2018  ../../data/raw/ forexfactory_ USD EURUSD
+#       [5,10,15,20,25,30] [0,30,60] [30,60,120,180,240] ON ../../data/curated/ features dc_forexfactory.log
 #
+#           Requested windows   [0_30, 0_60, 0_120, 0_180, 0_240,
+#                               30_60, 30_120, 30_180, 30_240,
+#                               60_120, 60_180, 60_240]
 #
 ########################################################################################################################
 

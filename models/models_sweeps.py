@@ -72,8 +72,8 @@ PREDICTED_VALUES = [0,1]
 
 OUTPUT_COLUMNS = ['model_type', 'model', 'direction', 'sweeps_market_variables', 'sweep_news_agg','sweep_buy_sell',
                   'before_data','sweep_grid','best_score','best_params','f1_microavg', 'precision_weighted',
-                  'precision_EUR_down','precision_EUR_same','precision_EUR_up','support_EUR_down','support_EUR_same',
-                  'support_EUR_up', 'report','elapsed_time']
+                  'precision_below_TH','precision_above_TH','support_below_TH','support_above_TH',
+                  'report','elapsed_time']
 
 
 SNAPSHOT_OFFSET_BEFORE_RELEASE = 60
@@ -249,12 +249,10 @@ def model_fit_and_classify(clf_model, model_name, X_train, y_train, X_test, y_te
                                     'best_params': str(clf_model.best_params_),
                                     'f1_microavg': format(clf_report['micro avg']['f1-score'], '.2f'),
                                     'precision_weighted': format(clf_report['weighted avg']['precision'], '.2f'),
-                                    'precision_EUR_down': format(clf_report['0']['precision'], '.2f'),
-                                    'precision_EUR_same': format(clf_report['1']['precision'], '.2f'),
-                                    'precision_EUR_up': format(clf_report['2']['precision'], '.2f'),
-                                    'support_EUR_down': format(clf_report['0']['support'], '.2f'),
-                                    'support_EUR_same': format(clf_report['1']['support'], '.2f'),
-                                    'support_EUR_up': format(clf_report['2']['support'], '.2f'),
+                                    'precision_below_TH': format(clf_report['0']['precision'], '.2f'),
+                                    'precision_above_TH': format(clf_report['1']['precision'], '.2f'),
+                                    'support_below_TH': format(clf_report['0']['support'], '.2f'),
+                                    'support_above_TH': format(clf_report['1']['support'], '.2f'),
                                     'report': str(clf_report),
                                     'elapsed_time': total_time},
                                    ignore_index=True)
@@ -264,7 +262,7 @@ def model_fit_and_classify(clf_model, model_name, X_train, y_train, X_test, y_te
 
 def model_fit_and_predict(reg_model, model_name, X_train, y_train, X_test, y_test,
                           sweeps_market_variables, sweeps_new, sweep_buy_sell, before_data, sweep_grid,
-                          df_results):
+                          direction, df_results):
 
     time_init = time.time()
 
@@ -291,12 +289,10 @@ def model_fit_and_predict(reg_model, model_name, X_train, y_train, X_test, y_tes
                                     'best_params': str(reg_model.best_params_),
                                     'f1_microavg': '',
                                     'precision_weighted': '',
-                                    'precision_EUR_down': '',
-                                    'precision_EUR_same': '',
-                                    'precision_EUR_up': '',
-                                    'support_EUR_down': '',
-                                    'support_EUR_same': '',
-                                    'support_EUR_up': '',
+                                    'precision_below_TH': '',
+                                    'precision_above_TH': '',
+                                    'support_below_TH': '',
+                                    'support_above_TH': '',
                                     'report': format(mse_test, '.2f'),
                                     'elapsed_time': total_time},
                                    ignore_index=True)
@@ -665,7 +661,7 @@ if __name__ == '__main__':
 
                             sweep_name = sweep_how_agg_news + '-' + sweep_market_feature + '-' \
                                         + sweep_include_data_before_release + '-' \
-                                         + sweep_when_buy_sell + '-' + sweep_grid + '- ' + direction
+                                         + sweep_when_buy_sell + '-' + sweep_grid + '-' + direction
 
                             start_time = time.time()
                             buy_delay = int(sweep_when_buy_sell.split('_')[0])
