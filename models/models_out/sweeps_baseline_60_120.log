@@ -43,3 +43,15 @@
 2019-01-11 23:14:50,705 - INFO - Starting XGBRegressor
 2019-01-11 23:15:11,685 - INFO - Starting GradientBoostingRegressor
 2019-01-11 23:15:59,515 - INFO - Starting AdaBoostRegressor
+2019-01-11 23:17:05,692 - INFO - sweep done in: 116.43 min
+2019-01-11 23:17:05,709 - INFO - Starting a new sweep with market features: all
+2019-01-11 23:17:05,709 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-11 23:17:05,709 - INFO - Starting a new sweep, delay in between buying-selling is: 60_120
+2019-01-11 23:17:05,710 - INFO - Starting a new sweep for grid mode: basic
+2019-01-11 23:17:05,710 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_30_60_after', 'pips_candle_30_60_after', 'pips_candle_max_30_60_after', 'pips_candle_min_30_60_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_max_60_120_after']
+2019-01-11 23:17:07,758 - INFO - X columns for the classification model: ['previous_error_diff_deviation', 'volatility_0_5_after', 'volatility_60_0_before', 'volatility_25_30_after', 'weekday', 'volatility_5_10_after', 'fe_worse', 'year', 'new_id', 'forecast_error_diff_deviation', 'pips_agg_60_0_before', 'pips_candle_0_5_after', 'volatility_15_20_after', 'Medium', 'fe_accurate', 'pe_better', 'volatility_10_15_after', 'pips_candle_5_10_after', 'Low', 'week', 'pips_candle_min_30_60_after', 'pips_candle_max_30_60_after', 'forecast_error_diff_outlier_class', 'High', 'num_news', 'pe_accurate', 'pips_candle_25_30_after', 'pips_candle_20_25_after', 'pips_candle_15_20_after', 'previous_error_diff_outlier_class', 'pe_worse', 'pips_candle_30_60_after', 'volatility_20_25_after', 'fe_better', 'volatility_30_60_after', 'pips_candle_10_15_after']
+2019-01-11 23:17:07,758 - INFO - y dependent variable: reaction_max_60_120_after
+2019-01-11 23:17:08,002 - INFO - Starting KNeighborsClassifier
+2019-01-11 23:24:52,080 - INFO - Starting SVC - rbf
+2019-01-11 23:33:22,395 - INFO - Starting DecisionTreeClassifier
+2019-01-11 23:33:59,698 - INFO - Starting RandomForestClassifier

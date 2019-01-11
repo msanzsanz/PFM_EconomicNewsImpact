@@ -1,4 +1,4 @@
-# MARKET REACTION TO NEWS EVENTS
+MARKET REACTION TO NEWS EVENTS
 ---
 
 ## Table of contents
@@ -16,7 +16,8 @@ The reason we want to use the Forex Factory calendar is to know when market-movi
 ## Data sources <a name="data"></a>
 Two publicly available data sources have been used as sources of raw data:
 - **Forex related macro-economic news events, scrapped from [forexfactory](https://www.forexfactory.com/calendar.php)**
-Forex Factory calendar is one of the most accurate calendars to keep track of Forex-related news events.
+
+    Forex Factory calendar is one of the most accurate calendars to keep track of Forex-related news events.
 Unfortunatelly, forexfactory does not facilitate any mechanism to download this historical data from their website, so a dedicated scrapper had to be developed for such a purpose.
 
     Once ran the scrapper, a file is created with the following information:
@@ -35,7 +36,8 @@ Unfortunatelly, forexfactory does not facilitate any mechanism to download this 
     | week | week of the year. | From 1 to 52
 
 - **Historical EUR-USD exchange rate, downloaded from [dukascopy](https://www.dukascopy.com/swiss/english/marketwatch/historical/)**
-The exchange price for the EUR-USD pair was downloaded from dukascopy, in candlesticks of 5 minutes.
+
+    The exchange price for the EUR-USD pair was downloaded from dukascopy, in candlesticks of 5 minutes.
 
     | Field | Description | Format
     | ------ | ------ | -------
@@ -52,16 +54,18 @@ The picture belows illustrates the methodology followed for this project:
 
 
 - **Phase-1: Obtain raw data from publicly available sources**
-As explained above, data from forexfactory was obtained using our own scrapper whilst data from dukascopy was downloaded from their website.
-Raw data is uploaded to the repo, to /data/raw/
-Data from forexfactory was obtained running the scrapper this way:
+
+    As explained above, data from forexfactory was obtained using our own scrapper whilst data from dukascopy was downloaded from their website.   
+    Raw data is uploaded to the repo, to /data/raw/   
+    Data from forexfactory was obtained running the scrapper this way:
 
     ```sh
     $ cd code/scrappers
     $ python forexfactory_scraper.py calendar.php?week=oct14.2006 calendar.php?week=dec23.2018 52 ../../data/raw/
     ```
-- **Phase-2: Getting familiar with the data**
-Before extracting features from the raw data, we did an exploratory analysis on the raw data to understand it better: /code/data_curation/data_familiarity.ipynb.
+- **Phase-2: Getting familiar with the data**   
+
+    Before extracting features from the raw data, we did an exploratory analysis on the raw data to understand it better: /code/data_curation/data_familiarity.ipynb.
 Main observations:
     * Some news are published in %, whilst others in Millions, Billions, Thousands, etc. We would need to normalize that.
     * For USD, news are more or less evenly distributed between High, Medium and Low. For instance, for 2017, 22 High news were published, 27 Medium and 29 Low.
@@ -70,24 +74,24 @@ Main observations:
     * There are news published in 'bundle', this is, at exactly the same date and time. This occurs about 30% of the times.   
 
 - **Phase-3: Feature engineer**
-Raw data was processed to generate features of interest for the models.
+
+    Raw data was processed to generate features of interest for the models.
 In essence, our models aim to predict the market reaction to news events, so we needed to incorporate market features to our dataframe:
 
-The most relevant observations to mention here would be:
+    The most relevant observations to mention here would be:
     * Both dataframes were converted to the same timezone 
 Forexfactory was scrapped in US/Eastern with DST off and dukascopy provides its data in GMT.
     * Handle Daylight Saving Times (DST)
 Forexfactory stores the data without accounting for DST (as explained in the code), so we needed to add +1h whenever applicable.
     * A significant amount of time was spent to sanity check a proper merge of both dataframes by datetime.
-This could sound like an easy task, but it was very time-consuming. We needed to ensure that dukascopy was alligned with forexfactory so that the data going into the models reflected the same market reaction as the one observed in the forexfactory website. The goal of our project is to predict short-term impact, so a deviation in minutes (as those originated by DST ) could ruin our models.
-*As a curiosity, our first data source for exchange rates was forexite.com, but we had to change to dukascopy exactly because of this same reason*
-    * 
-
-    Run feature engineer code   
-    ```sh
-    $ cd code/data_curation
-    $ python dc_forexfactory.py 2007 2018  ../../data/raw/ forexfactory_ USD EURUSD [5,10,15,20,25,30] [0,30,60] [30,60,120,180,240] ON ../../data/curated/ features dc_forexfactory.log
-    ```
+This could sound like an easy task, but it was very time-consuming. We needed to ensure that dukascopy was alligned with forexfactory so that the data going into the models reflected the same market reaction as the one observed in the forexfactory website. The goal of our project is to predict short-term impact, so a deviation in minutes (as those originated by DST ) could ruin our models.   
+   
+        *As a curiosity, our first data source for exchange rates was forexite.com, but we had to change to dukascopy exactly because of this same reason*
+    
+        ```sh
+        $ cd code/data_curation
+        $ python dc_forexfactory.py 2007 2018  ../../data/raw/ forexfactory_ USD EURUSD [5,10,15,20,25,30] [0,30,60] [30,60,120,180,240] ON ../../data/curated/ features dc_forexfactory.log
+        ```
     
 New most-relevant features created 
     
