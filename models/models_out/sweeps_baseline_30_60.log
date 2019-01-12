@@ -60,3 +60,161 @@
 2019-01-11 23:38:38,718 - INFO - Starting AdaBoostClassifier
 2019-01-11 23:39:30,106 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
 2019-01-11 23:39:30,238 - INFO - Starting KNeighborsRegressor
+2019-01-11 23:45:12,749 - INFO - Starting SVR - rbf
+2019-01-11 23:52:46,928 - INFO - Starting DecisionTreeRegressor
+2019-01-11 23:53:18,260 - INFO - Starting RandomForestRegressor
+2019-01-12 00:43:30,493 - INFO - Starting XGBRegressor
+2019-01-12 00:43:49,794 - INFO - Starting GradientBoostingRegressor
+2019-01-12 00:44:31,563 - INFO - Starting AdaBoostRegressor
+2019-01-12 00:45:31,473 - INFO - sweep done in: 105.18 min
+2019-01-12 00:45:31,476 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 00:45:31,476 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_min_30_60_after']
+2019-01-12 00:45:33,213 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 00:45:33,213 - INFO - y dependent variable: reaction_min_30_60_after
+2019-01-12 00:45:33,379 - INFO - Starting KNeighborsClassifier
+2019-01-12 00:50:54,585 - INFO - Starting SVC - rbf
+2019-01-12 00:58:02,957 - INFO - Starting DecisionTreeClassifier
+2019-01-12 00:58:34,605 - INFO - Starting RandomForestClassifier
+2019-01-12 01:18:50,449 - INFO - Starting XGBClassifier
+2019-01-12 01:19:09,890 - INFO - Starting GradientBoostingClassifier
+2019-01-12 01:19:58,136 - INFO - Starting AdaBoostClassifier
+2019-01-12 01:20:49,072 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 01:20:49,198 - INFO - Starting KNeighborsRegressor
+2019-01-12 01:27:31,223 - INFO - Starting SVR - rbf
+2019-01-12 01:34:50,749 - INFO - Starting DecisionTreeRegressor
+2019-01-12 01:35:21,560 - INFO - Starting RandomForestRegressor
+2019-01-12 02:25:35,257 - INFO - Starting XGBRegressor
+2019-01-12 02:25:54,988 - INFO - Starting GradientBoostingRegressor
+2019-01-12 02:26:34,468 - INFO - Starting AdaBoostRegressor
+2019-01-12 02:27:23,751 - INFO - sweep done in: 101.87 min
+2019-01-12 02:27:23,769 - INFO - #########################
+2019-01-12 02:27:23,769 - INFO - 
+2019-01-12 02:27:23,769 - INFO - Starting a new sweep, grouping news by: ALL_NO_3_2_1
+2019-01-12 02:28:34,251 - INFO - Starting a new sweep with market features: basic
+2019-01-12 02:28:34,251 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-12 02:28:34,251 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2019-01-12 02:28:34,251 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 02:28:34,251 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_max_30_60_after']
+2019-01-12 02:28:36,086 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 02:28:36,086 - INFO - y dependent variable: reaction_max_30_60_after
+2019-01-12 02:28:36,230 - INFO - Starting KNeighborsClassifier
+2019-01-12 02:34:12,469 - INFO - Starting SVC - rbf
+2019-01-12 02:41:29,473 - INFO - Starting DecisionTreeClassifier
+2019-01-12 02:42:01,533 - INFO - Starting RandomForestClassifier
+2019-01-12 03:02:25,549 - INFO - Starting XGBClassifier
+2019-01-12 03:02:46,829 - INFO - Starting GradientBoostingClassifier
+2019-01-12 03:03:35,477 - INFO - Starting AdaBoostClassifier
+2019-01-12 03:04:26,005 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 03:04:26,134 - INFO - Starting KNeighborsRegressor
+2019-01-12 03:10:09,328 - INFO - Starting SVR - rbf
+2019-01-12 03:17:30,325 - INFO - Starting DecisionTreeRegressor
+2019-01-12 03:18:02,864 - INFO - Starting RandomForestRegressor
+2019-01-12 04:10:37,844 - INFO - Starting XGBRegressor
+2019-01-12 04:10:57,660 - INFO - Starting GradientBoostingRegressor
+2019-01-12 04:11:39,847 - INFO - Starting AdaBoostRegressor
+2019-01-12 04:12:31,607 - INFO - sweep done in: 103.96 min
+2019-01-12 04:12:31,637 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 04:12:31,638 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_min_30_60_after']
+2019-01-12 04:12:33,419 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 04:12:33,419 - INFO - y dependent variable: reaction_min_30_60_after
+2019-01-12 04:12:33,569 - INFO - Starting KNeighborsClassifier
+2019-01-12 04:18:20,886 - INFO - Starting SVC - rbf
+2019-01-12 04:25:19,902 - INFO - Starting DecisionTreeClassifier
+2019-01-12 04:25:52,199 - INFO - Starting RandomForestClassifier
+2019-01-12 04:46:09,819 - INFO - Starting XGBClassifier
+2019-01-12 04:46:29,915 - INFO - Starting GradientBoostingClassifier
+2019-01-12 04:47:19,666 - INFO - Starting AdaBoostClassifier
+2019-01-12 04:48:09,788 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 04:48:09,926 - INFO - Starting KNeighborsRegressor
+2019-01-12 04:53:39,016 - INFO - Starting SVR - rbf
+2019-01-12 05:00:50,118 - INFO - Starting DecisionTreeRegressor
+2019-01-12 05:01:21,561 - INFO - Starting RandomForestRegressor
+2019-01-12 05:53:58,813 - INFO - Starting XGBRegressor
+2019-01-12 05:54:18,655 - INFO - Starting GradientBoostingRegressor
+2019-01-12 05:55:00,772 - INFO - Starting AdaBoostRegressor
+2019-01-12 05:56:02,513 - INFO - sweep done in: 103.51 min
+2019-01-12 05:56:02,528 - INFO - Starting a new sweep with market features: all
+2019-01-12 05:56:02,529 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-12 05:56:02,529 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2019-01-12 05:56:02,529 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 05:56:02,529 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_max_30_60_after']
+2019-01-12 05:56:04,426 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 05:56:04,427 - INFO - y dependent variable: reaction_max_30_60_after
+2019-01-12 05:56:04,580 - INFO - Starting KNeighborsClassifier
+2019-01-12 06:01:55,210 - INFO - Starting SVC - rbf
+2019-01-12 06:09:02,877 - INFO - Starting DecisionTreeClassifier
+2019-01-12 06:09:34,902 - INFO - Starting RandomForestClassifier
+2019-01-12 06:30:03,234 - INFO - Starting XGBClassifier
+2019-01-12 06:30:24,598 - INFO - Starting GradientBoostingClassifier
+2019-01-12 06:31:13,105 - INFO - Starting AdaBoostClassifier
+2019-01-12 06:32:02,825 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 06:32:02,962 - INFO - Starting KNeighborsRegressor
+2019-01-12 06:37:47,419 - INFO - Starting SVR - rbf
+2019-01-12 06:44:50,050 - INFO - Starting DecisionTreeRegressor
+2019-01-12 06:45:21,522 - INFO - Starting RandomForestRegressor
+2019-01-12 07:37:53,903 - INFO - Starting XGBRegressor
+2019-01-12 07:38:14,377 - INFO - Starting GradientBoostingRegressor
+2019-01-12 07:38:59,210 - INFO - Starting AdaBoostRegressor
+2019-01-12 07:39:54,496 - INFO - sweep done in: 103.87 min
+2019-01-12 07:39:54,503 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 07:39:54,504 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_min_30_60_after']
+2019-01-12 07:39:56,363 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 07:39:56,363 - INFO - y dependent variable: reaction_min_30_60_after
+2019-01-12 07:39:56,507 - INFO - Starting KNeighborsClassifier
+2019-01-12 07:46:38,538 - INFO - Starting SVC - rbf
+2019-01-12 07:53:30,538 - INFO - Starting DecisionTreeClassifier
+2019-01-12 07:54:02,682 - INFO - Starting RandomForestClassifier
+2019-01-12 08:14:34,512 - INFO - Starting XGBClassifier
+2019-01-12 08:14:54,744 - INFO - Starting GradientBoostingClassifier
+2019-01-12 08:15:45,052 - INFO - Starting AdaBoostClassifier
+2019-01-12 08:16:35,029 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 08:16:35,149 - INFO - Starting KNeighborsRegressor
+2019-01-12 08:22:22,980 - INFO - Starting SVR - rbf
+2019-01-12 08:29:28,622 - INFO - Starting DecisionTreeRegressor
+2019-01-12 08:29:59,707 - INFO - Starting RandomForestRegressor
+2019-01-12 09:22:34,708 - INFO - Starting XGBRegressor
+2019-01-12 09:22:59,049 - INFO - Starting GradientBoostingRegressor
+2019-01-12 09:23:46,964 - INFO - Starting AdaBoostRegressor
+2019-01-12 09:24:54,994 - INFO - sweep done in: 105.01 min
+2019-01-12 09:24:55,000 - INFO - #########################
+2019-01-12 09:24:55,000 - INFO - 
+2019-01-12 09:24:55,001 - INFO - Starting a new sweep, grouping news by: ALL_YES_1_1_1
+2019-01-12 09:26:18,786 - INFO - Starting a new sweep with market features: basic
+2019-01-12 09:26:18,787 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-12 09:26:18,787 - INFO - Starting a new sweep, delay in between buying-selling is: 30_60
+2019-01-12 09:26:18,787 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 09:26:18,787 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_max_30_60_after']
+2019-01-12 09:26:20,174 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 09:26:20,175 - INFO - y dependent variable: reaction_max_30_60_after
+2019-01-12 09:26:20,293 - INFO - Starting KNeighborsClassifier
+2019-01-12 09:31:01,271 - INFO - Starting SVC - rbf
+2019-01-12 09:35:09,068 - INFO - Starting DecisionTreeClassifier
+2019-01-12 09:35:33,751 - INFO - Starting RandomForestClassifier
+2019-01-12 09:53:42,134 - INFO - Starting XGBClassifier
+2019-01-12 09:53:56,291 - INFO - Starting GradientBoostingClassifier
+2019-01-12 09:54:29,044 - INFO - Starting AdaBoostClassifier
+2019-01-12 09:55:04,725 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 09:55:04,817 - INFO - Starting KNeighborsRegressor
+2019-01-12 09:59:09,944 - INFO - Starting SVR - rbf
+2019-01-12 10:02:58,308 - INFO - Starting DecisionTreeRegressor
+2019-01-12 10:03:22,144 - INFO - Starting RandomForestRegressor
+2019-01-12 10:39:51,720 - INFO - Starting XGBRegressor
+2019-01-12 10:40:06,769 - INFO - Starting GradientBoostingRegressor
+2019-01-12 10:40:36,430 - INFO - Starting AdaBoostRegressor
+2019-01-12 10:41:07,598 - INFO - sweep done in: 74.81 min
+2019-01-12 10:41:07,605 - INFO - Starting a new sweep for grid mode: basic
+2019-01-12 10:41:07,605 - INFO - List of dynamic market fields: ['volatility_0_5_after', 'pips_candle_0_5_after', 'volatility_5_10_after', 'pips_candle_5_10_after', 'volatility_10_15_after', 'pips_candle_10_15_after', 'volatility_15_20_after', 'pips_candle_15_20_after', 'volatility_20_25_after', 'pips_candle_20_25_after', 'volatility_25_30_after', 'pips_candle_25_30_after', 'volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_min_30_60_after']
+2019-01-12 10:41:08,987 - INFO - X columns for the classification model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 10:41:08,987 - INFO - y dependent variable: reaction_min_30_60_after
+2019-01-12 10:41:09,099 - INFO - Starting KNeighborsClassifier
+2019-01-12 10:45:18,594 - INFO - Starting SVC - rbf
+2019-01-12 10:49:02,678 - INFO - Starting DecisionTreeClassifier
+2019-01-12 10:49:25,399 - INFO - Starting RandomForestClassifier
+2019-01-12 11:06:28,613 - INFO - Starting XGBClassifier
+2019-01-12 11:06:43,318 - INFO - Starting GradientBoostingClassifier
+2019-01-12 11:07:18,228 - INFO - Starting AdaBoostClassifier
+2019-01-12 11:07:57,124 - INFO - X columns for the regression model: ['fe_better', 'week', 'pe_accurate', 'volatility_5_10_after', 'pips_candle_10_15_after', 'volatility_10_15_after', 'volatility_20_25_after', 'previous_error_diff_deviation', 'pe_worse', 'weekday', 'pips_candle_20_25_after', 'volatility_25_30_after', 'forecast_error_diff_deviation', 'pe_better', 'fe_worse', 'new_id', 'Low', 'pips_candle_0_5_after', 'num_news', 'High', 'volatility_60_0_before', 'pips_agg_60_0_before', 'pips_candle_25_30_after', 'volatility_0_5_after', 'previous_error_diff_outlier_class', 'pips_candle_15_20_after', 'volatility_15_20_after', 'Medium', 'pips_candle_5_10_after', 'forecast_error_diff_outlier_class', 'year', 'fe_accurate']
+2019-01-12 11:07:57,218 - INFO - Starting KNeighborsRegressor
+2019-01-12 11:12:00,747 - INFO - Starting SVR - rbf
+2019-01-12 11:15:38,624 - INFO - Starting DecisionTreeRegressor
+2019-01-12 11:16:00,399 - INFO - Starting RandomForestRegressor
