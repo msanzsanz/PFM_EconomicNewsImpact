@@ -77,7 +77,7 @@ Main observations would be:
 - **Phase-3: Feature engineer**
 
     Raw data was processed to generate features of interest for the models.   
-In essence, our models aim to predict the market reaction to news events, so we needed to incorporate market features to our dataframe:
+In essence, our models aim to predict the market reaction to news events, so we needed to incorporate market features to our dataframe.
 
     For that:
     * Both dataframes were converted to the same timezone   
@@ -99,11 +99,11 @@ This could sound like an easy task, but it was very time-consuming. We needed to
     | Field | Description | Format
     | ------ | ------ | -------
     |year, quarter, month, weekday | raw datetime is decomposed into individual fields. For the models, we will use year, week and weekday. | yyyy, e.g. 2018
-    |forecast_error_diff| difference between actual and forecasted values. <br> We have aligned the sign with the usual market effect, i.e., positive diffs are good for the currency. Negative otherwise. This value could be pretty small for some news (e.g. 0.2% - 0.1% = 0.1 for CPI), or pretty large for others (e.g. 312K - 179K = 133 for Non-Farm employment change). <br> Thus, we would need to transform it to the same scale before using it on the modeling phase.    | float
-    |forecast_error_diff_deviation| ratio between *forecast_error_diff* and the standard deviation of *forecast_error_diff* for the previous **5 events**. <br> This field tells you if an economic data was un-expected compared to its recent history. A surprise could generate a bigger impact (more price movement) in the markets. | float
+    |forecast_error_diff| difference between actual and forecasted values. <br> We ensure that the difference is always negative whenever *forecast_error* is equal to *"worse"* and positive whenever is equal to *"better"*. <br> That will make the life easier to models and for visualization dashboards. | float
+    |forecast_error_diff_deviation| *forecast_error_diff* can be pretty small for some news (e.g. 0.2% - 0.1% = 0.1 for CPI) or pretty large for others (e.g. 312K - 179K = 133 for Non-Farm employment change). <br> Therefore, we need to transform it to a common scale for all the news before using it on the modeling phase. <br> We compute *forecast_error_diff_deviation* as the ratio between *forecast_error_diff* and the standard deviation of *forecast_error_diff* for the previous **5 events**. <br> This field tells you if an economic data was un-expected compared to its recent history. Bigger deviations could generate bigger surprises --> bigger impact (more price movement) in the markets. | float
     |forecast_error_diff_outlier_class| numeric field indicating whether *forecast_error_diff* was an outlier **for the entire history** of this new or not.  | 0: within Q1 - Q3 <br> 1: Out of the Q1 - Q3 range but still not an outlier <br> 2: Outlier <br> 3: Extreme Outlier
-    |previous_error_diff| difference between previous published value and corrected one (if corrected). As it happens for *forecast_error_diff*, this value could be pretty small for some news and pretty large for others, so we need to transform it to the same scale.| float
-    |previous_error_diff_deviation| ratio between *previous_error_diff* and the standard deviation of previous_error_diff for the previous **5 events**. Deviations in forecasted values + corrections on the previous release could generate bigger impacts in the market. | float
+    |previous_error_diff| difference between the previous published value and the corrected one. <br> If the government does not correct the value, this field will be equal to 0. As it happens for *forecast_error_diff*, this value could be pretty small for some news and pretty large for others, so we need to transform it to the same scale.| float
+    |previous_error_diff_deviation| ratio between *previous_error_diff* and the standard deviation of previous_error_diff for the previous **5 events**. Deviations in the forecasted value + corrections on the previous release could generate bigger impacts in the market. | float
     |previous_error_diff_outlier_class| numeric field indicating whether *previous_error_diff* was an outlier or not.  | 0: within Q1 <br> Q3, 1: Out of the Q1 - Q3 range but still not an outlier <br> 2: Outlier <br> 3: Extreme Outlier
     |volatility_60_0_**before**| volatility, i.e. (high - low), one hour before the publication of the new. | integer 
     |pips_agg_60_0_**before**| pips variation in the  exchange pair, calculated as (close - open), one hour before the publication of the new | integer 
@@ -113,20 +113,33 @@ This could sound like an easy task, but it was very time-consuming. We needed to
     |pips_candle_max_X_Y_**after**| maximum pips variation in the exchange pair, calculated as (high - open), of *X_Y* window.| integer 
     |pips_candle_min_X_Y_**after**| minimum pips variation in the exchange pair, calculated as (low - open), of *X_Y* window. | integer 
     
-- **Phase-4: Feature and model selection**   
+- **Phase-4: Feature selection**   
     Before creating models we did an exploratory analysis to understand our features better: **/code/models/data_familiarity.ipynb**.   
 Main goals were:   
-    * Ensure there was no missing data.
+    * Ensure there were NaN or nulls.
     * Locate outliers and decide what to do with them.
     * Review features correlations.
     * Decide which models would make more sense for our prediction objective.
     
-    Details could be found on the notebook itself. Key points would be:
+    Low-level details could be found in the notebook itself. Key relevant points would be:
     
-    *  
+    * No one of the individual features extracted from ForexFactory seems to have a direct high correlation with the market reaction, which is surprising and disappointing.   
+     My expectation was to see a linear-ish relationship between *forecast_error_diff_deviation* and the corresponding market impact. I.e., surprises on news events should generally generate a
+bigger impact (more price movement) in the markets. However, it does not seems to work like that. Sometimes big deviations do not move the market at all and the other way around... :-(
+    * The highest correlations are seen between on market variables with their short-term past ones. I.e. *pips_candle_max_30_240_after* is highly correlated with *pips_candle_max_30_180_after* , as well as *pips_candle_max_30_120*. Still correlated but with less intensity with *pips_candle_max_0_60*. 
    
+- **Phase-5: Models**
 
-
+    Due to the lack of linear relationship between variables, linear regression models are likely to work poorly for our purpose.   
+    Other techniques like KNeighbors, decision trees, random forest, boosting classifiers, etc. are expected to behave better, capturing the non-linearity in the data by dividing the space into smaller sub-spaces.
+    
+    So, how to start? We need to decide a bunch of things:
+    
+    1. How to group forexfactory features when there are multiple news published at the same date and time.   
+    Basically, there are several approaches:   
+        * Option A: We just sum up all deviations, giving the same weight(1) to all of them
+     
+     
 ## Summary of results <a name="results"></a>
 
 ## Dashboard <a name="dashboard"></a>
@@ -134,3 +147,6 @@ Main goals were:
 ## Conclusions & future Research <a name="conclusions"></a>
 
 ## References <a name="references"></a>
+
+
+Visualización para ver si hay alguna noticia para la que exista correlación en deviation --> market impact
