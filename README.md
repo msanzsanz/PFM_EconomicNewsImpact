@@ -3,17 +3,18 @@ MARKET REACTION TO NEWS EVENTS
 
 ## Table of contents
 1. [Abstract](#abstract)
-2. [Data sources](#data)
+2. [Data sources](#data-sources)
 3. [Methodology](#methodology)
-4. [Summary of results](#results)
+4. [Summary of results](#summary-of-results)
 5. [Dashboard](#dashboard)
-6. [Conclusions & future Research](#conclusions)
+6. [Conclusions & future Research](#conclusions-and-future-research)
 7. [References](#references)
 
-## Abstract <a name="abstract"> </a>
+
+## Abstract
 The reason we want to use the Forex Factory calendar is to know when market-moving news are expected and thereby avoid or prepare for periods of high volatility.
 
-## Data sources <a name="data"></a>
+## Data sources 
 Two publicly available data sources have been used as sources of raw data:
 - **Macro-economic news events, scrapped from [forexfactory](https://www.forexfactory.com/calendar.php)**
 
@@ -49,7 +50,7 @@ Unfortunatelly, Forex Factory does not facilitate any mechanism to download this
     | Volume | Volume of transactions done on during this candle  | e.g. 5268.6
 
 
-## Methodology <a name="methodology"></a>
+## Methodology
 The picture below illustrates the methodology followed for this project:
 
 Each piece of code is commented, so that readers can understand what it does / how to invoke it.
@@ -174,13 +175,13 @@ bigger impact (more price movement) in the markets. However, it does not seems t
     ```
       
           
-## Summary of results <a name="results"></a>
+## Summary of results 
 
-## Dashboard <a name="dashboard"></a>
+## Dashboard 
 
-## Conclusions & future Research <a name="conclusions"></a>
+## Conclusions and future Research 
 
-## References <a name="references"></a>
+## References 
 
 
 Visualización para ver si hay alguna noticia para la que exista correlación en deviation --> market impact

@@ -102,3 +102,5 @@
 2019-01-13 21:01:11,147 - INFO - y dependent variable: reaction_max_0_60_after
 2019-01-13 21:01:11,213 - INFO - Starting KNeighborsClassifier
 2019-01-13 21:03:21,120 - INFO - Starting SVC - rbf
+2019-01-13 21:07:30,811 - INFO - Starting DecisionTreeClassifier
+2019-01-13 21:07:49,718 - INFO - Starting RandomForestClassifier

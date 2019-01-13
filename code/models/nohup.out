@@ -1315,3 +1315,9 @@ FileNotFoundError: File b'../data/curated/features_news_USD_pair_EURUSD_2007_201
   'precision', 'predicted', average, warn_for)
 2019-01-13 21:06:52,169 - INFO - Starting DecisionTreeClassifier
 2019-01-13 21:07:11,575 - INFO - Starting RandomForestClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-13 21:07:30,811 - INFO - Starting DecisionTreeClassifier
+/anaconda3/lib/python3.6/site-packages/sklearn/metrics/classification.py:1143: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+2019-01-13 21:07:49,718 - INFO - Starting RandomForestClassifier
