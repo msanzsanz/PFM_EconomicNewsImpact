@@ -351,11 +351,11 @@ def get_deviation_and_outlier(df, field_name, size=5):
         total_rows = len(df_temp)
 
         # First, we flag the outliers
-        df_temp[field_uq] = df_temp[field_name].shift().rolling(window=total_rows, min_periods=size) \
+        df_temp[field_uq] = df_temp[field_name].shift().rolling(window=total_rows - 1, min_periods=size) \
             .quantile(.75, interpolation='midpoint') \
             .fillna(df_temp[field_name])
 
-        df_temp[field_lq] = df_temp[field_name].shift().rolling(window=total_rows, min_periods=size) \
+        df_temp[field_lq] = df_temp[field_name].shift().rolling(window=total_rows - 1, min_periods=size) \
             .quantile(.25, interpolation='midpoint') \
             .fillna(df_temp[field_name])
 
@@ -584,10 +584,10 @@ def get_market_information_after(df, snapshot_from, snapshot_to):
     column_pips_min = 'pips_candle_min' + sufix
     column_pips_agg = 'pips_agg' + sufix
 
-    # rolling function counts for the current row. Shift jumps as many rows as indicated
-    df_local[column_high] = df_local['high'].shift(shift_distance).rolling(window=window_size, min_periods=1).max()\
+    # rolling function also counts for the current row. Shift jumps as many rows as indicated
+    df_local[column_high] = df_local['high'].shift(shift_distance + 1).rolling(window=window_size, min_periods=1).max()\
                                                                     .fillna(df_local['high'])
-    df_local[column_low] = df_local['low'].shift(shift_distance).rolling(window=window_size, min_periods=1).min()\
+    df_local[column_low] = df_local['low'].shift(shift_distance + 1).rolling(window=window_size, min_periods=1).min()\
                                                                     .fillna(df_local['low'])
 
     df_local[column_volatility] = df_local[column_high] - df_local[column_low]
@@ -639,12 +639,12 @@ def get_market_information_before(df_pair, snapshot_at):
     column_pips = 'pips_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
-    df[column_high] = df['high'].rolling(window=window_size, min_periods=1).max()
-    df[column_low] = df['low'].rolling(window=window_size, min_periods=1).min()
+    df[column_high] = df['high'].shift().rolling(window=window_size, min_periods=1).max()
+    df[column_low] = df['low'].shift().rolling(window=window_size, min_periods=1).min()
     df[column_volatility] = df[column_high] - df[column_low]
     df[column_volatility] = df[column_volatility].astype(int)
 
-    df[column_open] = df['open'].shift(window_size - 1).fillna(df['open'])
+    df[column_open] = df['open'].shift(window_size).fillna(df['open'])
     df[column_pips] = df['open'] - df[column_open]
     df[column_pips] = df[column_pips].astype(int)
 
