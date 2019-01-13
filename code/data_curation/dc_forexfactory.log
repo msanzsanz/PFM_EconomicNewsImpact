@@ -1,9 +1,9 @@
-2019-01-11 21:57:59,594 - INFO - Reading dukascopy file...
-2019-01-11 21:59:31,439 - INFO - Processing year: 2007 for news from: USD in the pair: EURUSD
-2019-01-11 22:00:28,581 - INFO - Processed year: 2007 for news from: USD in the pair: EURUSD
-2019-01-11 22:00:28,584 - INFO - Processing year: 2008 for news from: USD in the pair: EURUSD
-2019-01-11 22:00:29,474 - ERROR - These 3 news extracted from forexfactory have nan in some columns
-2019-01-11 22:00:29,479 - ERROR - [[1103 'Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
+2019-01-13 10:14:08,604 - INFO - Reading dukascopy file...
+2019-01-13 10:14:28,679 - INFO - Processing year: 2007 for news from: USD in the pair: EURUSD
+2019-01-13 10:14:44,482 - INFO - Processed year: 2007 for news from: USD in the pair: EURUSD
+2019-01-13 10:14:44,483 - INFO - Processing year: 2008 for news from: USD in the pair: EURUSD
+2019-01-13 10:14:44,665 - ERROR - These 3 news extracted from forexfactory have nan in some columns
+2019-01-13 10:14:44,668 - ERROR - [[1103 'Reject' 'USD' Timestamp('2008-09-29 13:42:00') 'Pass' 'accurate'
   'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
   Timestamp('2008-09-29 17:40:00+0000', tz='GMT')]
  [1159 'Pass' 'USD' Timestamp('2008-10-01 21:35:00') 'Pass' 'accurate'
@@ -12,190 +12,190 @@
  [1194 'Pass' 'USD' Timestamp('2008-10-03 13:23:00') 'Pass' 'accurate'
   'High' 'Economic Stabilization Bill Vote' nan 'accurate' 40 1
   Timestamp('2008-10-03 17:25:00+0000', tz='GMT')]]
-2019-01-11 22:00:29,485 - ERROR - Removed these rows from the dataframe
-2019-01-11 22:01:23,202 - INFO - Processed year: 2008 for news from: USD in the pair: EURUSD
-2019-01-11 22:01:23,203 - INFO - Processing year: 2009 for news from: USD in the pair: EURUSD
-2019-01-11 22:02:17,839 - INFO - Processed year: 2009 for news from: USD in the pair: EURUSD
-2019-01-11 22:02:17,839 - INFO - Processing year: 2010 for news from: USD in the pair: EURUSD
-2019-01-11 22:02:18,651 - ERROR - These 1 news extracted from forexfactory have nan in some columns
-2019-01-11 22:02:18,681 - ERROR - [[4191 'Pass' 'USD' Timestamp('2010-01-28 15:59:00') 'Pass' 'accurate'
+2019-01-13 10:14:44,672 - ERROR - Removed these rows from the dataframe
+2019-01-13 10:14:59,964 - INFO - Processed year: 2008 for news from: USD in the pair: EURUSD
+2019-01-13 10:14:59,964 - INFO - Processing year: 2009 for news from: USD in the pair: EURUSD
+2019-01-13 10:15:16,265 - INFO - Processed year: 2009 for news from: USD in the pair: EURUSD
+2019-01-13 10:15:16,265 - INFO - Processing year: 2010 for news from: USD in the pair: EURUSD
+2019-01-13 10:15:16,434 - ERROR - These 1 news extracted from forexfactory have nan in some columns
+2019-01-13 10:15:16,436 - ERROR - [[4191 'Pass' 'USD' Timestamp('2010-01-28 15:59:00') 'Pass' 'accurate'
   'High' 'Fed Chairman Nomination Vote' nan 'accurate' 5 0
   Timestamp('2010-01-28 21:00:00+0000', tz='GMT')]]
-2019-01-11 22:02:18,687 - ERROR - Removed these rows from the dataframe
-2019-01-11 22:03:13,691 - INFO - Processed year: 2010 for news from: USD in the pair: EURUSD
-2019-01-11 22:03:13,700 - INFO - Processing year: 2011 for news from: USD in the pair: EURUSD
-2019-01-11 22:04:08,402 - INFO - Processed year: 2011 for news from: USD in the pair: EURUSD
-2019-01-11 22:04:08,403 - INFO - Processing year: 2012 for news from: USD in the pair: EURUSD
-2019-01-11 22:05:01,715 - INFO - Processed year: 2012 for news from: USD in the pair: EURUSD
-2019-01-11 22:05:01,715 - INFO - Processing year: 2013 for news from: USD in the pair: EURUSD
-2019-01-11 22:05:54,828 - INFO - Processed year: 2013 for news from: USD in the pair: EURUSD
-2019-01-11 22:05:54,828 - INFO - Processing year: 2014 for news from: USD in the pair: EURUSD
-2019-01-11 22:05:55,598 - ERROR - These 1 news extracted from forexfactory have nan in some columns
-2019-01-11 22:05:55,621 - ERROR - [[4316 'Pass' 'USD' Timestamp('2014-01-06 18:00:00') 'Pass' 'accurate'
+2019-01-13 10:15:16,439 - ERROR - Removed these rows from the dataframe
+2019-01-13 10:15:31,434 - INFO - Processed year: 2010 for news from: USD in the pair: EURUSD
+2019-01-13 10:15:31,434 - INFO - Processing year: 2011 for news from: USD in the pair: EURUSD
+2019-01-13 10:15:46,863 - INFO - Processed year: 2011 for news from: USD in the pair: EURUSD
+2019-01-13 10:15:46,863 - INFO - Processing year: 2012 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:02,383 - INFO - Processed year: 2012 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:02,383 - INFO - Processing year: 2013 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:18,672 - INFO - Processed year: 2013 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:18,673 - INFO - Processing year: 2014 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:18,860 - ERROR - These 1 news extracted from forexfactory have nan in some columns
+2019-01-13 10:16:18,863 - ERROR - [[4316 'Pass' 'USD' Timestamp('2014-01-06 18:00:00') 'Pass' 'accurate'
   'High' 'Fed Chairman Nomination Vote' nan 'accurate' 2 0
   Timestamp('2014-01-06 23:00:00+0000', tz='GMT')]]
-2019-01-11 22:05:55,627 - ERROR - Removed these rows from the dataframe
-2019-01-11 22:06:49,367 - INFO - Processed year: 2014 for news from: USD in the pair: EURUSD
-2019-01-11 22:06:49,374 - INFO - Processing year: 2015 for news from: USD in the pair: EURUSD
-2019-01-11 22:07:45,252 - INFO - Processed year: 2015 for news from: USD in the pair: EURUSD
-2019-01-11 22:07:45,252 - INFO - Processing year: 2016 for news from: USD in the pair: EURUSD
-2019-01-11 22:08:39,923 - INFO - Processed year: 2016 for news from: USD in the pair: EURUSD
-2019-01-11 22:08:39,924 - INFO - Processing year: 2017 for news from: USD in the pair: EURUSD
-2019-01-11 22:09:35,780 - INFO - Processed year: 2017 for news from: USD in the pair: EURUSD
-2019-01-11 22:09:35,781 - INFO - Processing year: 2018 for news from: USD in the pair: EURUSD
-2019-01-11 22:10:30,347 - INFO - Processed year: 2018 for news from: USD in the pair: EURUSD
-2019-01-11 22:10:30,348 - INFO - Compute deviation with actual values from the previous publication
-2019-01-11 22:10:49,873 - INFO - Adding deviation ratio + outlier flag between forecast and actual
-2019-01-11 22:10:56,283 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:10:57,923 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:00,258 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:07,733 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:08,971 - INFO - mean and std were zero but this value is != 0. Ratio: -1.25
-2019-01-11 22:11:09,000 - INFO - mean and std were zero but this value is != 0. Ratio: -1.25
-2019-01-11 22:11:09,888 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:09,938 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:09,963 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:09,968 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:18,130 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:21,591 - INFO - Adding correction ratio + outlier flag for previous published values
-2019-01-11 22:11:22,305 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:25,454 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:25,458 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:25,492 - INFO - mean and std were zero but this value is != 0. Ratio: -3.0
-2019-01-11 22:11:28,403 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:28,408 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:28,429 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:28,770 - INFO - mean and std were zero but this value is != 0. Ratio: -2.9
-2019-01-11 22:11:28,776 - INFO - mean and std were zero but this value is != 0. Ratio: -1.2
-2019-01-11 22:11:28,780 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:28,784 - INFO - mean and std were zero but this value is != 0. Ratio: -2.3
-2019-01-11 22:11:28,788 - INFO - mean and std were zero but this value is != 0. Ratio: -1.2
-2019-01-11 22:11:29,759 - INFO - mean and std were zero but this value is != 0. Ratio: -1.3
-2019-01-11 22:11:30,202 - INFO - mean and std were zero but this value is != 0. Ratio: -1.3
-2019-01-11 22:11:30,651 - INFO - mean and std were zero but this value is != 0. Ratio: 4.8
-2019-01-11 22:11:31,996 - INFO - mean and std were zero but this value is != 0. Ratio: 2.0
-2019-01-11 22:11:31,999 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:32,038 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:32,042 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:32,046 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:32,067 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:32,072 - INFO - mean and std were zero but this value is != 0. Ratio: 2.0
-2019-01-11 22:11:32,089 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
-2019-01-11 22:11:32,968 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,969 - INFO - mean and std were zero but this value is != 0. Ratio: 1.05
-2019-01-11 22:11:32,971 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,972 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,993 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,994 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
-2019-01-11 22:11:32,996 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,997 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,998 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:32,999 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,000 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:33,000 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,002 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,014 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,015 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,017 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:33,020 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,021 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
-2019-01-11 22:11:33,023 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,024 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,043 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,044 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,044 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,045 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:33,045 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:33,047 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,047 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,048 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
-2019-01-11 22:11:33,051 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,052 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
-2019-01-11 22:11:33,074 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,075 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,075 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
-2019-01-11 22:11:33,078 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
-2019-01-11 22:11:33,431 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:33,468 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:33,981 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:33,981 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:33,982 - INFO - mean and std were zero but this value is != 0. Ratio: 1.06
-2019-01-11 22:11:33,996 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:33,997 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
-2019-01-11 22:11:34,001 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:34,001 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,002 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,002 - INFO - mean and std were zero but this value is != 0. Ratio: 1.04
-2019-01-11 22:11:34,004 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:34,004 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,035 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:34,036 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,036 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,040 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,040 - INFO - mean and std were zero but this value is != 0. Ratio: 1.05
-2019-01-11 22:11:34,068 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
-2019-01-11 22:11:34,071 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,072 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:34,073 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,074 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:34,082 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:34,083 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:34,083 - INFO - mean and std were zero but this value is != 0. Ratio: 1.05
-2019-01-11 22:11:34,088 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,333 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,333 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,334 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,346 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,347 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,348 - INFO - mean and std were zero but this value is != 0. Ratio: -1.04
-2019-01-11 22:11:36,350 - INFO - mean and std were zero but this value is != 0. Ratio: -1.05
-2019-01-11 22:11:36,353 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,354 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,354 - INFO - mean and std were zero but this value is != 0. Ratio: -1.11
-2019-01-11 22:11:36,404 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,405 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,406 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,407 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,407 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,408 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,409 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
-2019-01-11 22:11:36,430 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:36,431 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,432 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,432 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
-2019-01-11 22:11:36,434 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
-2019-01-11 22:11:36,435 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
-2019-01-11 22:11:38,129 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:38,135 - INFO - mean and std were zero but this value is != 0. Ratio: -1.2
-2019-01-11 22:11:38,154 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:41,230 - INFO - mean and std were zero but this value is != 0. Ratio: -1.75
-2019-01-11 22:11:41,232 - INFO - mean and std were zero but this value is != 0. Ratio: -1.5
-2019-01-11 22:11:42,108 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:42,126 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:42,130 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:42,132 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:42,157 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:42,159 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:42,172 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:42,177 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:43,009 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:43,035 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:43,061 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:43,088 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:43,996 - INFO - mean and std were zero but this value is != 0. Ratio: 2.6
-2019-01-11 22:11:45,854 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:45,858 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:45,891 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:11:45,900 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:11:47,217 - INFO - mean and std were zero but this value is != 0. Ratio: -1.7
-2019-01-11 22:11:53,799 - INFO - Adding deviation ratio + outlier flags for forecast and actual, including previous values
-2019-01-11 22:12:02,274 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:12:04,424 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:12:12,273 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:12:13,676 - INFO - mean and std were zero but this value is != 0. Ratio: -1.25
-2019-01-11 22:12:13,678 - INFO - mean and std were zero but this value is != 0. Ratio: -1.5
-2019-01-11 22:12:14,660 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:12:14,718 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:12:14,745 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
-2019-01-11 22:12:14,751 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
-2019-01-11 22:12:36,960 - INFO - End
+2019-01-13 10:16:18,866 - ERROR - Removed these rows from the dataframe
+2019-01-13 10:16:34,783 - INFO - Processed year: 2014 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:34,783 - INFO - Processing year: 2015 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:50,805 - INFO - Processed year: 2015 for news from: USD in the pair: EURUSD
+2019-01-13 10:16:50,805 - INFO - Processing year: 2016 for news from: USD in the pair: EURUSD
+2019-01-13 10:17:06,453 - INFO - Processed year: 2016 for news from: USD in the pair: EURUSD
+2019-01-13 10:17:06,453 - INFO - Processing year: 2017 for news from: USD in the pair: EURUSD
+2019-01-13 10:17:22,095 - INFO - Processed year: 2017 for news from: USD in the pair: EURUSD
+2019-01-13 10:17:22,095 - INFO - Processing year: 2018 for news from: USD in the pair: EURUSD
+2019-01-13 10:17:38,044 - INFO - Processed year: 2018 for news from: USD in the pair: EURUSD
+2019-01-13 10:17:38,044 - INFO - Compute deviation with actual values from the previous publication
+2019-01-13 10:17:43,114 - INFO - Adding deviation ratio + outlier flag between forecast and actual
+2019-01-13 10:17:44,424 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:44,767 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:45,203 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:46,711 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:46,988 - INFO - mean and std were zero but this value is != 0. Ratio: -1.25
+2019-01-13 10:17:46,989 - INFO - mean and std were zero but this value is != 0. Ratio: -1.25
+2019-01-13 10:17:47,182 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:47,191 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:47,196 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:47,200 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:49,117 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:49,917 - INFO - Adding correction ratio + outlier flag for previous published values
+2019-01-13 10:17:50,075 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:50,692 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:50,694 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:50,697 - INFO - mean and std were zero but this value is != 0. Ratio: -3.0
+2019-01-13 10:17:51,306 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:51,309 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:51,312 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:51,386 - INFO - mean and std were zero but this value is != 0. Ratio: -2.9
+2019-01-13 10:17:51,389 - INFO - mean and std were zero but this value is != 0. Ratio: -1.2
+2019-01-13 10:17:51,391 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:51,393 - INFO - mean and std were zero but this value is != 0. Ratio: -2.3
+2019-01-13 10:17:51,396 - INFO - mean and std were zero but this value is != 0. Ratio: -1.2
+2019-01-13 10:17:51,577 - INFO - mean and std were zero but this value is != 0. Ratio: -1.3
+2019-01-13 10:17:51,670 - INFO - mean and std were zero but this value is != 0. Ratio: -1.3
+2019-01-13 10:17:51,787 - INFO - mean and std were zero but this value is != 0. Ratio: 4.8
+2019-01-13 10:17:52,099 - INFO - mean and std were zero but this value is != 0. Ratio: 2.0
+2019-01-13 10:17:52,100 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:52,102 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:52,103 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:52,105 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:52,107 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:52,110 - INFO - mean and std were zero but this value is != 0. Ratio: 2.0
+2019-01-13 10:17:52,113 - INFO - mean and std were zero but this value is != 0. Ratio: -2.0
+2019-01-13 10:17:52,275 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,275 - INFO - mean and std were zero but this value is != 0. Ratio: 1.05
+2019-01-13 10:17:52,276 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,277 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,277 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,278 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
+2019-01-13 10:17:52,279 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,279 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,279 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,280 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,280 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,280 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,281 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,281 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,281 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,282 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,283 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,283 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
+2019-01-13 10:17:52,285 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,285 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,285 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,285 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,286 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,286 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,286 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,287 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,287 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,287 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
+2019-01-13 10:17:52,289 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,289 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
+2019-01-13 10:17:52,290 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,291 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,291 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
+2019-01-13 10:17:52,292 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
+2019-01-13 10:17:52,389 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:52,391 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:52,511 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,511 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,512 - INFO - mean and std were zero but this value is != 0. Ratio: 1.06
+2019-01-13 10:17:52,513 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,514 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
+2019-01-13 10:17:52,516 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,516 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,516 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,517 - INFO - mean and std were zero but this value is != 0. Ratio: 1.04
+2019-01-13 10:17:52,518 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,518 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,521 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,522 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,522 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,523 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,524 - INFO - mean and std were zero but this value is != 0. Ratio: 1.05
+2019-01-13 10:17:52,526 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
+2019-01-13 10:17:52,527 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,528 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,528 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,529 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,529 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:52,529 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:52,529 - INFO - mean and std were zero but this value is != 0. Ratio: 1.05
+2019-01-13 10:17:52,532 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,013 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,014 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,014 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,015 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,015 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,015 - INFO - mean and std were zero but this value is != 0. Ratio: -1.04
+2019-01-13 10:17:53,017 - INFO - mean and std were zero but this value is != 0. Ratio: -1.05
+2019-01-13 10:17:53,018 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,018 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,019 - INFO - mean and std were zero but this value is != 0. Ratio: -1.11
+2019-01-13 10:17:53,025 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,025 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,025 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,026 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,026 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,026 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,026 - INFO - mean and std were zero but this value is != 0. Ratio: 1.03
+2019-01-13 10:17:53,030 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,031 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,031 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,031 - INFO - mean and std were zero but this value is != 0. Ratio: -1.03
+2019-01-13 10:17:53,032 - INFO - mean and std were zero but this value is != 0. Ratio: -1.02
+2019-01-13 10:17:53,033 - INFO - mean and std were zero but this value is != 0. Ratio: -1.01
+2019-01-13 10:17:53,408 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:53,411 - INFO - mean and std were zero but this value is != 0. Ratio: -1.2
+2019-01-13 10:17:53,417 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:54,089 - INFO - mean and std were zero but this value is != 0. Ratio: -1.75
+2019-01-13 10:17:54,091 - INFO - mean and std were zero but this value is != 0. Ratio: -1.5
+2019-01-13 10:17:54,274 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:54,276 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,278 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:54,279 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,282 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,283 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,287 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,290 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:54,553 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,563 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:54,567 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:54,573 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:54,823 - INFO - mean and std were zero but this value is != 0. Ratio: 2.6
+2019-01-13 10:17:55,309 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:55,311 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:55,318 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:17:55,324 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:55,670 - INFO - mean and std were zero but this value is != 0. Ratio: -1.7
+2019-01-13 10:17:57,260 - INFO - Adding deviation ratio + outlier flags for forecast and actual, including previous values
+2019-01-13 10:17:58,918 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:17:59,369 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:18:00,955 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:18:01,225 - INFO - mean and std were zero but this value is != 0. Ratio: -1.25
+2019-01-13 10:18:01,227 - INFO - mean and std were zero but this value is != 0. Ratio: -1.5
+2019-01-13 10:18:01,413 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:18:01,422 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:18:01,426 - INFO - mean and std were zero but this value is != 0. Ratio: -1.1
+2019-01-13 10:18:01,428 - INFO - mean and std were zero but this value is != 0. Ratio: 1.1
+2019-01-13 10:18:05,905 - INFO - End

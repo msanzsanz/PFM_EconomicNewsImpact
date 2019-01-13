@@ -1,0 +1,22 @@
+2019-01-13 14:37:31,676 - INFO - #########################
+2019-01-13 14:37:31,676 - INFO - 
+2019-01-13 14:37:31,676 - INFO - Starting a new sweep, grouping news by: ALL_NO_1_1_1
+2019-01-13 14:39:01,033 - INFO - Starting a new sweep with market features: basic
+2019-01-13 14:39:01,034 - INFO - Starting a new sweep, features before the publication are: included
+2019-01-13 14:39:01,034 - INFO - Starting a new sweep, delay in between buying-selling is: 0_60
+2019-01-13 14:39:01,034 - INFO - Starting a new sweep for grid mode: basic
+2019-01-13 14:39:01,034 - INFO - List of dynamic market fields: ['volatility_60_0_before', 'pips_agg_60_0_before', 'datetime', 'pips_candle_max_0_60_after']
+2019-01-13 14:39:02,625 - INFO - X columns for the classification model: ['fe_better', 'weekday', 'pe_worse', 'Low', 'pe_better', 'previous_error_diff_deviation', 'week', 'High', 'new_id', 'previous_error_diff_outlier_class', 'Medium', 'year', 'fe_worse', 'forecast_error_diff_deviation', 'volatility_60_0_before', 'pips_agg_60_0_before', 'fe_accurate', 'pe_accurate', 'forecast_error_diff_outlier_class', 'num_news']
+2019-01-13 14:39:02,626 - INFO - y dependent variable: reaction_max_0_60_after
+2019-01-13 14:39:02,772 - INFO - Starting KNeighborsClassifier
+2019-01-13 14:41:56,920 - INFO - Starting SVC - rbf
+2019-01-13 14:50:07,511 - INFO - Starting DecisionTreeClassifier
+2019-01-13 14:50:36,997 - INFO - Starting RandomForestClassifier
+2019-01-13 15:15:34,705 - INFO - Starting XGBClassifier
+2019-01-13 15:15:53,102 - INFO - Starting GradientBoostingClassifier
+2019-01-13 15:16:36,300 - INFO - Starting AdaBoostClassifier
+2019-01-13 15:17:22,077 - INFO - X columns for the regression model: ['fe_better', 'weekday', 'pe_worse', 'Low', 'pe_better', 'previous_error_diff_deviation', 'week', 'High', 'new_id', 'previous_error_diff_outlier_class', 'Medium', 'year', 'fe_worse', 'forecast_error_diff_deviation', 'volatility_60_0_before', 'pips_agg_60_0_before', 'fe_accurate', 'pe_accurate', 'forecast_error_diff_outlier_class', 'num_news']
+2019-01-13 15:17:22,198 - INFO - Starting KNeighborsRegressor
+2019-01-13 15:20:08,281 - INFO - Starting SVR - rbf
+2019-01-13 15:27:52,158 - INFO - Starting DecisionTreeRegressor
+2019-01-13 15:28:26,636 - INFO - Starting RandomForestRegressor

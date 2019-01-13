@@ -114,32 +114,64 @@ This could sound like an easy task, but it was very time-consuming. We needed to
     |pips_candle_min_X_Y_**after**| minimum pips variation in the exchange pair, calculated as (low - open), of *X_Y* window. | integer 
     
 - **Phase-4: Feature selection**   
-    Before creating models we did an exploratory analysis to understand our features better: **/code/models/data_familiarity.ipynb**.   
+    Before creating any model we did an exploratory analysis to understand our features better: **/code/models/data_familiarity.ipynb**.   
 Main goals were:   
-    * Ensure there were NaN or nulls.
+    * Ensure there were no NaN or nulls.
     * Locate outliers and decide what to do with them.
     * Review features correlations.
     * Decide which models would make more sense for our prediction objective.
     
     Low-level details could be found in the notebook itself. Key relevant points would be:
     
-    * No one of the individual features extracted from ForexFactory seems to have a direct high correlation with the market reaction, which is surprising and disappointing.   
+    * Any feature extracted from ForexFactory seems to have a direct high correlation with the reaction of the market, which is surprising and disappointing.   
      My expectation was to see a linear-ish relationship between *forecast_error_diff_deviation* and the corresponding market impact. I.e., surprises on news events should generally generate a
 bigger impact (more price movement) in the markets. However, it does not seems to work like that. Sometimes big deviations do not move the market at all and the other way around... :-(
-    * The highest correlations are seen between on market variables with their short-term past ones. I.e. *pips_candle_max_30_240_after* is highly correlated with *pips_candle_max_30_180_after* , as well as *pips_candle_max_30_120*. Still correlated but with less intensity with *pips_candle_max_0_60*. 
+    * The highest correlations are seen on features that hold market reaction with those same features from the short-term past. I.e. *pips_candle_max_30_240_after* is highly correlated with *pips_candle_max_30_180_after* , as well as *pips_candle_max_30_120*. Still correlated, but with less intensity, with *pips_candle_max_0_60*. 
    
 - **Phase-5: Models**
 
-    Due to the lack of linear relationship between variables, linear regression models are likely to work poorly for our purpose.   
-    Other techniques like KNeighbors, decision trees, random forest, boosting classifiers, etc. are expected to behave better, capturing the non-linearity in the data by dividing the space into smaller sub-spaces.
+    Due to the lack of linear relationships between variables, linear regression models are likely to work poorly for our purpose.   
+    Other techniques like KNeighbors, decision trees, random forest, boosting classifiers, etc. are expected to behave better, capturing non-linearity in the data by dividing the space into smaller sub-spaces.
     
-    So, how to start? We need to decide a bunch of things:
+    But, how to start? We need to decide a bunch of things:
     
-    1. How to group forexfactory features when there are multiple news published at the same date and time.   
-    Basically, there are several approaches:   
-        * Option A: We just sum up all deviations, giving the same weight(1) to all of them
-     
-     
+    1. **How to group deviations whenever there are several news published at the same date and time.**   
+    Basically, we could apply several approaches:   
+        * Option A: sum up all deviations to compute one unique deviation value by each datetime, giving the same weight(=1) to each new.
+        * Option B: Assumption: news classified by ForexFactory as having a 'High' impact will, in fact, move the market more heavily in case of deviations than those classified as having a 'Low' impact. Thus, we could still sum up all the deviation values, but applying different weights depending on the expected impact (3 for 'High' news, 2 for 'Medium', 1 for 'Low').
+        * Option C: consider in our models just news published in isolation, regardless they impact classification. All news will have the same weight.
+        * Option D: consider in our models just news published in isolation, regardless they impact classification, weighted by the estimated impact.
+        * Option E: consider in our models just news published in isolation, and just those classified as having a 'High' impact.
+  
+    2. **Once published the new, how much time do we wait for running our model?**
+    On phase-4 was observed that the highest correlations were seen on features holding market reaction, with those same features from the short-term past.
+    Thus, perhaps we will have higher accuracy predicting the market reaction after 2 hours if we feed the model with the market reaction after 30 min.
+    But, how much time to wait? 15 min? 30 min? difficult to say at this time.   
+
+    3. **Do we want to feed the model with market status before the release of the new?**
+    It seems sensible to think that flat windows before the release of the news (by flat we refer to a constant exchange rate) could mean that the market is waiting for the release announcement in order to take a path (either going UP or DOWN). Thus, it feels like an interesting feature to consider in our models.
+    
+    Based on the above, we could generate a lot of models, one per each combination of these three decisions. Creating individual Jupyter notebooks was not a practical approach to tests all those models, so we decided to create a mini-tool to do sweeps based on the user choice.
+    
+    
+    ```sh
+    $ cd code/models
+    $ nohup python models_sweeps.py 0_30 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/ sweeps_baseline_0_30 &
+    $ nohup python models_sweeps.py 0_60 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_0_60 &
+    $ nohup python models_sweeps.py 0_120 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_0_120 &
+    $ nohup python models_sweeps.py 0_180 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/ sweeps_baseline_0_180 &
+    $ nohup python models_sweeps.py 0_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_0_240 &
+    $ nohup python models_sweeps.py 30_60 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_30_60 &
+    $ nohup python models_sweeps.py 30_120 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_30_120 &
+    $ nohup python models_sweeps.py 30_180 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_30_180 &
+    $ nohup python models_sweeps.py 30_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/ sweeps_baseline_30_240 &
+    $ nohup python models_sweeps.py 60_120 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_60_120 &       
+    $ nohup python models_sweeps.py 60_180 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_60_180 &
+    $ nohup python models_sweeps.py 60_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_60_240 &
+
+    ```
+      
+          
 ## Summary of results <a name="results"></a>
 
 ## Dashboard <a name="dashboard"></a>

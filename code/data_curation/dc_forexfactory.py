@@ -639,8 +639,8 @@ def get_market_information_before(df_pair, snapshot_at):
     column_pips = 'pips_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
-    df[column_high] = df['high'].shift().rolling(window=window_size, min_periods=1).max()
-    df[column_low] = df['low'].shift().rolling(window=window_size, min_periods=1).min()
+    df[column_high] = df['high'].shift().rolling(window=window_size, min_periods=1).max().fillna(df['high'])
+    df[column_low] = df['low'].shift().rolling(window=window_size, min_periods=1).min().fillna(df['low'])
     df[column_volatility] = df[column_high] - df[column_low]
     df[column_volatility] = df[column_volatility].astype(int)
 
