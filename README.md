@@ -12,14 +12,25 @@ MARKET REACTION TO NEWS EVENTS
 
 
 ## Abstract
-The reason we want to use the Forex Factory calendar is to know when market-moving news are expected and thereby avoid or prepare for periods of high volatility.
+Forex, also known as foreign exchange, is a decentralized global market where all the world's currencies trade.   
+Just like stocks, you can trade currency based on what you think its value is (or where it's headed). The big difference with Forex is that you can trade up or down just as easily. If you think a currency will increase in value, you can buy it. If you think it will decrease, you can sell it.   
+
+There are different strategies to make investments and try to get money out of it. 
+While some traders rely on technical and fundamental analysis for their decision-making, there are also those who make investment decisions based on market news. Market news is the communication of selected information on current financial events, as the US Unemployment rate.   
+ 
+The main tool for these traders is a Forex calendar, to know when market-moving news are expected and thereby avoid or prepare for periods of high volatility.
+
+For every new (e.g. US Unemployment rate), the calendar publishes a forecast value, based on the consensus from experts are analysts. Whenever the actual value differs greatly from the forecast, the market could react very quickly in one direction or the other. If the currency value is going to be higher or lower, and how high / low the currency would go, is the goal for this project.   
+This would be an unavailable tool for traders because they could know, right after the news release, what investment they should make based on what happened in the past with similar events. In fact, this is what traders are doing right know but basing their guess on intuition and experience.
+
+
 
 ## Data sources 
 Two publicly available data sources have been used as sources of raw data:
 - **Macro-economic news events, scrapped from [forexfactory](https://www.forexfactory.com/calendar.php)**
 
     Forex Factory calendar is one of the most accurate calendars to keep track of Forex-related news events.
-Unfortunatelly, Forex Factory does not facilitate any mechanism to download this historical data from their website, so a dedicated scrapper had to be developed for such  purpose.
+Unfortunately, Forex Factory does not facilitate any mechanism to download this historical data from their website, so a dedicated scrapper had to be developed for such  purpose.
 
     Once ran the scrapper, a file is created in the desired path with the following information:
     
@@ -35,6 +46,7 @@ Unfortunatelly, Forex Factory does not facilitate any mechanism to download this
     | previous | Governments can amend the released values if needed. If that happens, Forex Factory make that correction public in their economic calendar by mean of this field.| e.g. 3%
     | previous_error | Flag that indicates whether the previous value was corrected on this release or not. If corrected, the flag indicates whether the corrected value was better or worse for the economy w.r.t the previous one.  | <better\|worse\|accurate>
     | week | week of the year. | From 1 to 52
+     
 
 - **Historical EUR-USD exchange rate, downloaded from [dukascopy](https://www.dukascopy.com/swiss/english/marketwatch/historical/)**
 
@@ -182,6 +194,7 @@ bigger impact (more price movement) in the markets. However, it does not seems t
 ## Conclusions and future Research 
 
 ## References 
+
 
 
 Visualización para ver si hay alguna noticia para la que exista correlación en deviation --> market impact

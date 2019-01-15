@@ -585,15 +585,15 @@ def get_market_information_after(df, snapshot_from, snapshot_to):
     column_pips_agg = 'pips_agg' + sufix
 
     # rolling function also counts for the current row. Shift jumps as many rows as indicated
-    df_local[column_high] = df_local['high'].shift(shift_distance + 1).rolling(window=window_size, min_periods=1).max()\
+    df_local[column_high] = df_local['high'].shift(shift_distance).rolling(window=window_size, min_periods=1).max()\
                                                                     .fillna(df_local['high'])
-    df_local[column_low] = df_local['low'].shift(shift_distance + 1).rolling(window=window_size, min_periods=1).min()\
+    df_local[column_low] = df_local['low'].shift(shift_distance).rolling(window=window_size, min_periods=1).min()\
                                                                     .fillna(df_local['low'])
 
     df_local[column_volatility] = df_local[column_high] - df_local[column_low]
     df_local[column_volatility] = df_local[column_volatility].astype(int)
 
-    df_local[column_close] = df_local['close'].shift(shift_distance + window_size).fillna(df_local['close'])
+    df_local[column_close] = df_local['close'].shift(shift_distance + window_size-1).fillna(df_local['close'])
     df_local[column_close_from] = df_local['close'].shift(shift_distance).fillna(df_local['close'])
 
     df_local[column_pips_candle] = df_local[column_close] - df_local[column_close_from]
@@ -639,8 +639,8 @@ def get_market_information_before(df_pair, snapshot_at):
     column_pips = 'pips_agg' + sufix
 
     # rolling function counts for the current row. Shift jumps as many rows as indicated
-    df[column_high] = df['high'].shift().rolling(window=window_size, min_periods=1).max().fillna(df['high'])
-    df[column_low] = df['low'].shift().rolling(window=window_size, min_periods=1).min().fillna(df['low'])
+    df[column_high] = df['high'].rolling(window=window_size, min_periods=1).max().fillna(df['high'])
+    df[column_low] = df['low'].rolling(window=window_size, min_periods=1).min().fillna(df['low'])
     df[column_volatility] = df[column_high] - df[column_low]
     df[column_volatility] = df[column_volatility].astype(int)
 

@@ -587,7 +587,7 @@ def get_class(num_pips, buy_delay, sell_after):
 
     snapshot = 'TH_' + str(buy_delay) + '_' + str(sell_after)
 
-    if snapshot == 'TH_0_30': threshold = 17
+    if snapshot == 'TH_0_30': threshold = 18
     elif snapshot == 'TH_0_60': threshold = 24
     elif snapshot == 'TH_0_120': threshold = 32
     elif snapshot == 'TH_0_180': threshold = 37
