@@ -63,7 +63,7 @@ Unfortunately, Forex Factory does not facilitate any mechanism to download this 
 
 ## Methodology
 The picture below illustrates the methodology followed for this project:
-
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/methodology.png "methodology")
 
 
 Each piece of code is commented, helping readers can understand what it does / how to invoke it.
