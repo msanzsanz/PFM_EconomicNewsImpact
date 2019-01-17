@@ -97,17 +97,17 @@ In essence, our models aim to predict the market reaction to news events, so we 
 ![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/aux/market_snapshots.png "market_snapshots")
 
 
-    For that:
-    * Both dataframes were converted to the same timezone.   
+For that:   
+* Both dataframes were converted to the same timezone.   
 Forex Factory was scrapped in US/Eastern (DST off) and dukascopy provides its data in GMT (DST on).
-    * Handle Daylight Saving Times (DST).   
+* Handle Daylight Saving Times (DST).   
 Forex Factory stores the data without accounting for DST (as explained in the code), so we needed to add +1h whenever applicable.
-    * A significant amount of time was spent to sanity check a proper merge of both dataframes by datetime.   
+* A significant amount of time was spent to sanity check a proper merge of both dataframes by datetime.   
 This could sound like an easy task, but it was very time-consuming. We needed to ensure that dukascopy was alligned with Forex Factory so that the data going into the models reflected the same market reaction as the one observed in the Forex Factory [website](https://www.forexfactory.com/market.php). Worth re-iterating that the goal of our project is to predict **short-term impact** based on news events, so a deviation in minutes (as those originated by DST ) could ruin our models.   
    
-        *As a curiosity, our first data source for exchange rates was forexite.com, but we had to change to dukascopy exactly because of this same reason. Not sure how dukascopy handles DST but we were unable to validate the merge.*
+    *As a curiosity, our first data source for exchange rates was forexite.com, but we had to change to dukascopy exactly because of this same reason. Not sure how dukascopy handles DST but we were unable to validate the merge.*
         
-        To extract features from the raw data, run:
+     To extract features from the raw data, run:
         
         ```sh
         $ cd code/data_curation
@@ -247,11 +247,11 @@ We think that presenting historical data this way, as easy to use, is key for be
 
 It allows users to:
 
-- For each news, they can know how much the forecast values deviated from the actual ones.
-- How much that difference surprises the market, using the previous 5 announcements as reference.   
+- Know, per news, how much the forecast values deviated from the actual one.
+- know how much that difference surprises the market, using the previous 5 announcements as reference.   
  *Remember that forecast_error_diff_deviation is the ratio between forecast_error_diff and the standard deviation of forecast_error_diff for the previous 5 events.*
 - Box plots for max pips positive/negative variations, for the entire history of the new.
-- A second tab to analyze with which news announcements the market react more heavily in average.
+- A second tab to analyze for which news announcements the market reacted more heavily in average.
   
 
  
@@ -259,43 +259,44 @@ As reference, we encourage readers to compare our dashboard with the one from Fo
 
 **User guide**    
 
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_1")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_2")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_3")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_4")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_5")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_6")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_7")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_1")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_2")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_3")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_4")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_5")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_6")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_7")
  
 ## Conclusions and future Research 
 
-- The hypothesis that motivated this study: "The higher the forecast-actual deviation, the higher market reaction", was not true. At least not across all news.
+- The hypothesis that motivated this study: "The higher the deviation between forecast and actual, the higher the market reaction", was not true. At least not across all news.
 - Our best model obtained a precision of 84% in predicting an increase bigger than 24 pips one hour after the news release. Well, not a bad number.
   This obviously has the caveats that the recall is only 25%, and it´s only applicable whenever high news are released in isolation, but I would say it´s a good starting point.
 - Performance on our regression models is useless for helping traders.
-- All the models were run twice, the second time with fewer features. Simplest models obtaining equivalent or better results.
+- All the models were run twice, the second time with fewer features. Simplest models obtained equivalent or better results.
 
 
 **Next steps:**
 
 - Low hanging fruit:
-    - Fine tune the models hyperparameters to see whether we can improve on performance.    
+    - Fine tune the hyperparameters in the models to see whether we can improve on performance.    
 We right now have all the infrastructure to do extra sweeps pretty easily, just consuming HW resources.
     - Test whether ensemble classifiers improve performance, e.g., Voting classifier.
 - Could we apply non-supervised techniques to see whether news cluster somehow and then re-apply our current models?
-- Remove outliers and re-run the regression sweeps. 
-- Try other machine learning techniques, like causal impact analysis. 
+- Remove outliers and re-run regression sweeps. 
+- Try different machine learning techniques, like causal impact analysis. 
 - New features on the visualization dashboard:
-    * Per new, add a scatter plot displaying the relationship between forecast-actual difference and pips variation.
-    * Display precision and recall by New ID.
+    * Add, per new, a scatter plot displaying the relationship between the forecast / actual difference and pips variation.
+    * Display precision and recall by each news.
 - Last but not least, go for a beer now !! :-D
  
 
 ## Lessons learnt
 
-- The saying about 80% of the time is invested in preparing the data and 20% of the time in models was true in this case. Moreover if your starting point is your own scrapper getting data from public websites.
+- The saying about 80% of the time is invested in preparing the data and 20% of the time in models was true in this case. Moreover as we needed to develop a scrapper to get the data from public websites.
 - Doing models sweeps takes a lot of time, even with relatively small datasets. AWS, spark or clusters are definetely your friends.
-- Panda is amazing to handle dataframes ! shifts, rolling, [::-1] to reverse, etc. There are native methods for almost everything.
-- Tableau is also very powerfull, although you have to accommodate the dataframe sometimes, or do workarounds using parameters, sets, etc. to achieve what you need.
+- Panda is amazing! 
+shifts, rolling, [::-1] to reverse, etc. There are native methods for almost everything.
+- Tableau is also very powerful, although you have to accommodate the dataframe sometimes, or do workarounds using parameters, sets, etc. to achieve what you need.
 
 
