@@ -64,6 +64,8 @@ Unfortunately, Forex Factory does not facilitate any mechanism to download this 
 ## Methodology
 The picture below illustrates the methodology followed for this project:
 
+
+
 Each piece of code is commented, helping readers can understand what it does / how to invoke it.
 
 - **Phase-1: Obtain raw data from publicly available sources**
