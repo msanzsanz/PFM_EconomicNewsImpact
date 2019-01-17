@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdf335ac-c36e-4d2d-be8a-aeea22561d26" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/data_exploration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/models/data_exploration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/models/join_sweeps.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/code/models/join_sweeps.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization/.~analysis_models__15034.twbr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization/analysis_models.twb" beforeDir="false" afterPath="$PROJECT_DIR$/visualization/analysis_models.twb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualization/forex_Viz.twb" beforeDir="false" afterPath="$PROJECT_DIR$/visualization/forex_Viz.twb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +58,7 @@
         <counts>
           <entry key="AWS_Setup_for_sklearn" value="198" />
           <entry key="Python Console" value="2171" />
-          <entry key="md" value="14870" />
+          <entry key="md" value="17415" />
           <entry key="py" value="50220" />
           <entry key="sh" value="942" />
           <entry key="txt" value="1989" />
@@ -60,7 +66,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="14870" />
+          <entry key="Markdown" value="17415" />
           <entry key="PLAIN_TEXT" value="3129" />
           <entry key="Python" value="52391" />
         </counts>
@@ -118,8 +124,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="125">
-                <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+              <first_editor relative-caret-position="554">
+                <caret line="241" column="27" selection-start-line="241" selection-start-column="27" selection-end-line="241" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -129,8 +135,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/code/models/models_sweeps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="41" column="101" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="101" />
+            <state relative-caret-position="230">
+              <caret line="589" column="3" selection-start-line="589" selection-start-column="3" selection-end-line="600" selection-end-column="48" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -167,8 +173,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>df</find>
-      <find>run_models_basic_grid</find>
       <find>columns_to_predict[0]</find>
       <find>model_fit_and_predict</find>
       <find>ALL_NO_1_1_1</find>
@@ -193,9 +197,11 @@
       <find>_YES</find>
       <find>group_news_by_datetime</find>
       <find>column_high</find>
-      <find>_TH</find>
       <find>get_market_information_after</find>
       <find>Forexfactory</find>
+      <find>_TH</find>
+      <find>KNeighborsClassifier</find>
+      <find>take</find>
       <find>TH_</find>
     </findStrings>
     <replaceStrings>
@@ -474,7 +480,7 @@
     <frame x="0" y="23" width="1280" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.060365368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.060365368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -800,8 +806,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/code/models/models_sweeps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="41" column="101" selection-start-line="41" selection-start-column="86" selection-end-line="41" selection-end-column="101" />
+        <state relative-caret-position="230">
+          <caret line="589" column="3" selection-start-line="589" selection-start-column="3" selection-end-line="600" selection-end-column="48" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -811,8 +817,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="125">
-            <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
+          <first_editor relative-caret-position="554">
+            <caret line="241" column="27" selection-start-line="241" selection-start-column="27" selection-end-line="241" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>

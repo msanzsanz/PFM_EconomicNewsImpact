@@ -16,13 +16,12 @@ Forex, also known as foreign exchange, is a decentralized global market where al
 Just like stocks, you can trade currency based on what you think its value is (or where it's headed). The big difference with Forex is that you can trade up or down just as easily. If you think a currency will increase in value, you can buy it. If you think it will decrease, you can sell it.   
 
 There are different strategies to make investments and try to get money out of them. 
-While some traders rely on technical and fundamental analysis for their decision-making, there are also those who make investment decisions based on market news published on Forex calendars. So, what market news is?    
-Market news is the communication of selected information on current financial events, as the US unemployment rate.   
+While some traders rely on technical and fundamental analysis for their decision-making, there are also those who make investment decisions based on market news published on Forex calendars. So, what market news is?   
+    
+Market news is the communication of selected information on current financial events, as the US unemployment rate. Every month Forex calendars publish a forecast value for the US unemployment rate, based on the consensus from experts and analysts. Whenever the actual value published by the government differs greatly from the forecast, the market could react very quickly in one direction or the other.   
+   
+Therefore, any **tool helping traders to predict the direction of the market reaction, and how high / low the currency will go**, would be an unavailable resource. They would have more information to decide, right after the news release, what investment decision to make, based on what happened in the past with similar events. In fact, this is what traders are doing right know but based on intuition and experience.
  
-Every month Forex calendars publish a forecast value for the US unemployment rate, based on the consensus from experts and analysts. Whenever the actual value published by the government differs greatly from the forecast, the market could react very quickly in one direction or the other.   
-Therefore, any tool helping them to predict the direction of the market reaction, and how high / low the currency would go, would be an unavailable tool for traders. They will have more information to decide, right after the news release, what investment decision to make, based on what happened in the past with similar events. In fact, this is what traders are doing right know but based on intuition and experience.
-
-
 
 ## Data sources 
 Two publicly available data sources have been used as sources of raw data:
@@ -66,7 +65,8 @@ The picture below illustrates the methodology followed for this project:
 ![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/methodology.png "methodology")
 
 
-Each piece of code is commented, helping readers can understand what it does / how to invoke it.
+Each piece of code is commented, helping readers can understand what it does / how to invoke it.   
+Also, each .py file created generates a log file to ensure everything runs as expected.
 
 - **Phase-1: Obtain raw data from publicly available sources**
 
@@ -151,34 +151,34 @@ bigger impact (more price movement) on the market. However, it does not seem to 
    
 - **Phase-5: Models**
 
-    Worth remembering our prediction objectives:
+    Worth recapping which were our prediction objectives:
     
-    * Which direction the market will take? Will it respond strongly to the news release?
-    * Number of pips variation
+    * Could we predict the market direction after each news release? 
+    * Could we predict how many pips the EUR will increase or decrease over the USD after X minutes? 
     
-    The market suffers a pips variation after each news release, meaning that the EUR increases or decreases its value versus the USD. If the EUR increases, there is a positive pips variation. If it decreases, the pips variation is negative.
-    With the exploration done in the previous phase, we know how the distribution of the pips variation looks like, for each of the window-intervals requested by the user. For our classification models, we have used the 75th percentile on those distributions as a threshold value.
-
-    **How many models to create?**    
-    We decided to create 4 models:
+    If the EUR increases, there is a positive pips variation. If it decreases, the pips variation is negative.
+    Thus, we decided to create 4 models for each desired window-frame.
     
-    * Model to classify whether the maximum positive variation in pips is above or below the threshold.
-    * Model to classify whether the maximum negative variation in pips is above or below the threshold.
-    * Model to predict the maximum positive variation in pips.
-    * Model to predict the maximum negative variation in pips.   
+    * Model to **classify** whether the **maximum positive pips variation** is above or below a given threshold.
+    * Model to **classify** whether the **maximum negative pips variation** is above or below a given threshold.
+    * Model to predict the **maximum number of pips the EUR will increase over the USD**.
+    * Model to predict the **maximum number of pips the EUR will decrease over the USD**.   
     
-    Thus, If *pips_candle_max_X_Y_after* or *pips_candle_min_X_Y_after* >= threshold, we can consider that it might be worth to invest, as this news release seats on that 25% of the times with highest impact. 
-    Otherwise we can skip investments, as chances for high impact are low.  
+    Next natural question would be, which threshold value to use for the classification models?   
+    Thanks to the exploration done in the previous phase, we know the distribution of pips variation for each of the window-intervals requested by the user. For our classification models, we have used the 75th percentile on those distributions as a threshold value.
     
-    **Which techniques to use?**   
+    Thus, it might be worth to invest whenever  *pips_candle_max_X_Y_after* or *pips_candle_min_X_Y_after* >= threshold, as this release seats on the 25% of the times with highest market impact.   
+    
+    **Which methods to use?**   
     Due to the lack of strong linear relationships between variables, linear regression models are likely to work poorly for our purpose.   
-    Other techniques like KNeighbors, decision trees, random forest, boosting classifiers, etc. are expected to behave better, capturing non-linearity in the data by dividing the space into smaller sub-spaces.
+    We decided to apply KNeighbors, Decision Trees, Random Forest, XGBoost, GradientBoosting and AdaBoost instead, as they are expected to behave better, capturing non-linearity in the data by dividing the space into smaller sub-spaces.    
+    We also tried SVC-poly and SVC-rbf, as they were "for free" once developed the program to do sweeps. 
     
-    But, how to start? We needed to decide a bunch of things:
+    But, before starting, we need to decide a bunch of things:
     
     1. **How to group Forex Factory data whenever there are several news published at the same date and time.**   
     Basically, we could apply several approaches:   
-        * Option A: sum up all deviations to compute one unique value by each datetime, giving the same weight(=1) to each new, regardless whether is classified as 'High', 'Medium' or 'Low'.
+        * Option A: sum up all deviations to compute one unique value by each datetime, giving the same weight(=1) to each new, regardless whether it was classified as having 'High', 'Medium' or 'Low' impact.
         * Option B: assuming that news classified by Forex Factory as having a 'High' impact will, in fact, move the market more heavily than those classified as 'Low' impact, it seems sensible to apply different weights when adding up deviations (3 for 'High', 2 for 'Medium', 1 for 'Low').
         * Option C: consider in our models just news published in isolation, regardless their impact classification. All news will have the same weight.
         * Option D: consider in our models just news published in isolation, regardless their impact classification, but weighted by the Forex Factory impact classification. (3 for 'High', 2 for 'Medium', 1 for 'Low').
@@ -186,18 +186,17 @@ bigger impact (more price movement) on the market. However, it does not seem to 
   
     2. **Once published the new, how much time do we wait for running our model?**   
     As explained before, during phase-4 was observed that the highest correlations were seen on features holding market reaction, with those same features from the short-term past.   
-    Thus, perhaps we will have higher accuracy predicting  market reaction after 2 hours if we feed the model with  market reaction after 30 min.   
+    Thus, perhaps we will have higher accuracy predicting the market reaction after 2 hours if we feed the model with the market reaction after 30 min.   
     But, how much time to wait? 15 min? 30 min? difficult to say at this time.   
 
     3. **Do we want to feed the model with market status before the release of the new?**   
     It seems sensible to think that low volatility before news events could mean that the market is waiting for the release announcement in order to take a path (either going UP or DOWN). Thus, it feels like an interesting feature to consider in our models.
        
-    We can generate a lot of models, one per each combination of these variables.    
+    Taking into account all of this we can generate a lot of models, one per each combination of these variables.    
     Creating individual Jupyter notebooks was not a practical approach to tests all these combinations, so we decided to create a mini-tool to do sweeps based on the user choice: **models_sweeps.py**
     
-    Also, this code runs, for each of sweep, 3 models:
-    
-    * Regression model to classify whether the release will have 
+    Running all these permutations could take +24h, depending on your HOST. I will recommend using AWS instances, a cluster or leaving it running overnight.
+     
     
     ```sh
     $ cd code/models
@@ -215,28 +214,33 @@ bigger impact (more price movement) on the market. However, it does not seem to 
     $ nohup python models_sweeps.py 60_240 ALL_NO_1_1_1,ALL_NO_3_2_1,ALL_YES_1_1_1,ALL_YES_3_2_1,High_NO_1_1_1,High_YES_1_1_1 basic,all included basic ../../data/curated/features_news_USD_pair_EURUSD_2007_2018.csv  5,10,15,20,25,30 0,30,60 30,60,120,180,240 ../../data/models_results/  sweeps_baseline_60_240 &
 
     ```
-      
+    
           
 ## Summary of results 
-A tableau dashboard has been created to easily analyse which sweeps provides better results: visualization/analysis_models.twb
-Also available at: https://public.tableau.com/profile/montse4888#!/vizhome/analysis_models/Whichsweepsperformbetter
 
-Naming convention:
-* Variable holding how the news have been aggregated, **sweep_news_agg**, encoded this way:
+3248 models were created in the previous step, so we created a simple dashboard in Tableau to easily analyse which sweeps provide better results.   
+You can find it at **visualization/analysis_models.twb** or at [https://public.tableau.com/profile/montse4888#!/vizhome/analysis_models/Whichsweepsperformbetter](https://public.tableau.com/profile/montse4888#!/vizhome/analysis_models/Whichsweepsperformbetter)
 
-    f1_f2_f3_f4_f5, e.g. ALL_NO_1_1_1, where
+Naming convention to understand the dashboard:
+*  **sweep_news_agg** is the variable that captures how the news have been aggregated, encoded this way:
+
+    f1_f2_f3_f4_f5, where:
     
     * f1: <ALL \| High \| Medium \| Low > 
-    * f2: <Yes \| No>. Yes meaning just using news that were published in isolation. No otherwise   
+    * f2: <Yes \| No>. Yes means use news that were published in isolation. No otherwise.   
     * f3: weight for HIGH news   
     * f4: weight for MEDIUM news   
     * f5: weight for LOW news   
+    
+    And example could be ALL_NO_1_1_1, which uses all the news for the models, all with weight=1, regardless Forex Factory impact classification.
  
 Users can filter by precision, recall and aggregation criteria. 
+
+
+## Visualization dashboard
  
-
-## Dashboard 
-
+A dashboard has been created to easily visualize historical data from Forex Factory.
+ 
 ## Conclusions and future Research 
 
 ## References 
