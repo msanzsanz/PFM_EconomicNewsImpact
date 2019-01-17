@@ -143,7 +143,7 @@ def apply_weights(row, field_value, impact_filter, high_weight, medium_weight, l
 def group_news_by_datetime(group_type, df):
     # ALL_NO_1_1_1, where
     #
-    # f1: [ALL, HIGH, MEDIUM, LOW
+    # f1: [All, High, Medium, Low
     # f2: [YES, NO]. YES meaning just using news that were published in isolation. NO otherwise
     # f3: weight for HIGH news
     # f4: weight for MEDIUM news
