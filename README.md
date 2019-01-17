@@ -66,8 +66,8 @@ The picture below illustrates the methodology followed for this project:
 ![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/aux/methodology.png "methodology")
 
 
-Each piece of code is commented, helping readers can understand what it does / how to invoke it.   
-Also, each .py file created generates a log file to ensure everything runs as expected.
+Each piece of code is commented, helping readers to understand what it does / how to invoke it.   
+Also, the code generates log files to ensure everything runs as expected.
 
 - **Phase-1: Obtain raw data from publicly available sources**
 
