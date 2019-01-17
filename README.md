@@ -215,7 +215,8 @@ bigger impact (more price movement) on the market. However, it does not seem to 
       
           
 ## Summary of results 
-A tableau dashboard has been created to easily analyse which sweeps provides better results:
+A tableau dashboard has been created to easily analyse which sweeps provides better results: visualization/analysis_models.twb
+Also available at: https://public.tableau.com/profile/montse4888#!/vizhome/analysis_models/Whichsweepsperformbetter
 
 Naming convention:
 * Variable holding how the news have been aggregated, **sweep_news_agg**, encoded this way:
@@ -228,14 +229,12 @@ Naming convention:
     * f4: weight for MEDIUM news   
     * f5: weight for LOW news   
  
+Users can filter by precision, recall and aggregation criteria. 
  
-* 
+
 ## Dashboard 
 
 ## Conclusions and future Research 
 
 ## References 
 
-
-
-Visualización para ver si hay alguna noticia para la que exista correlación en deviation --> market impact
