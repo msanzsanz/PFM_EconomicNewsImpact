@@ -93,6 +93,9 @@ Main observations would be:
     Raw data was processed to generate features of interest for the models.   
 In essence, our models aim to predict the market reaction to news events, so we needed to merge Forex Factory and Dukascopy dataframes.
 
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/market_snapshots.png "market_snapshots")
+
+
     For that:
     * Both dataframes were converted to the same timezone.   
 Forex Factory was scrapped in US/Eastern (DST off) and dukascopy provides its data in GMT (DST on).
