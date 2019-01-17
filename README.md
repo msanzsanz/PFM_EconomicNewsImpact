@@ -240,6 +240,9 @@ Users can filter by precision, recall and aggregation criteria.
 ## Visualization dashboard
  
 A dashboard has been created to easily visualize historical data from Forex Factory.
+
+You can find the pdf here ![alt text]( "market_snapshots")
+
  
 ## Conclusions and future Research 
 
