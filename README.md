@@ -8,7 +8,7 @@ MARKET REACTION TO NEWS EVENTS
 4. [Summary of results](#summary-of-results)
 5. [Dashboard](#dashboard)
 6. [Conclusions & future Research](#lessons-learnt-conclusions-and-future-research)
-7. [Lessons learnt](#lessons-learnt)
+7. [Lessons learned](#lessons-learned)
 
 
 
@@ -284,7 +284,7 @@ We right now have all the infrastructure to do extra sweeps pretty easily, just 
 - Last but not least, go for a beer now !! :-D
  
 
-## Lessons learnt
+## Lessons learned
 
 - The saying about 80% of the time is invested in preparing the data and 20% of the time in models was true in this case. Moreover as we needed to develop a scrapper to get the data from public websites.
 - Doing models sweeps takes a lot of time, even with relatively small datasets. AWS, spark or clusters are definetely your friends.
