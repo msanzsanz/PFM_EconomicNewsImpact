@@ -259,13 +259,13 @@ As reference, we encourage readers to compare our dashboard with the one from Fo
 
 **User guide**    
 
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_1")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_2")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_3")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_4")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_5")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_6")
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.jpg "userguide_7")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_2.jpg "userguide_1")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_3.jpg "userguide_2")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_4.jpg "userguide_3")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_5.jpg "userguide_4")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_6.jpg "userguide_5")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_7.jpg "userguide_6")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_8.jpg "userguide_7")
  
 ## Conclusions and future Research 
 
