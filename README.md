@@ -7,8 +7,9 @@ MARKET REACTION TO NEWS EVENTS
 3. [Methodology](#methodology)
 4. [Summary of results](#summary-of-results)
 5. [Dashboard](#dashboard)
-6. [Conclusions & future Research](#conclusions-and-future-research)
-7. [References](#references)
+6. [Conclusions & future Research](#lessons-learnt-conclusions-and-future-research)
+7. [Lessons learnt](#lessons-learnt)
+
 
 
 ## Abstract
@@ -62,7 +63,7 @@ Unfortunately, Forex Factory does not facilitate any mechanism to download this 
 
 ## Methodology
 The picture below illustrates the methodology followed for this project:
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/methodology.png "methodology")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/aux/methodology.png "methodology")
 
 
 Each piece of code is commented, helping readers can understand what it does / how to invoke it.   
@@ -93,7 +94,7 @@ Main observations would be:
     Raw data was processed to generate features of interest for the models.   
 In essence, our models aim to predict the market reaction to news events, so we needed to merge Forex Factory and Dukascopy dataframes.
 
-![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/market_snapshots.png "market_snapshots")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/aux/market_snapshots.png "market_snapshots")
 
 
     For that:
@@ -239,12 +240,62 @@ Users can filter by precision, recall and aggregation criteria.
 
 ## Visualization dashboard
  
-A dashboard has been created to easily visualize historical data from Forex Factory.
+A dashboard has been created to easily visualize historical data scrapped from Forex Factory. You can find it at **visualization/forex_Viz.twb** or at [https://public.tableau.com/profile/montse4888#!/vizhome/forex_Viz/Viz?publish=yes](https://public.tableau.com/profile/montse4888#!/vizhome/forex_Viz/Viz?publish=yes)
 
-You can find the pdf here ![alt text]( "market_snapshots")
 
+We think that presenting historical data this way, as easy to use, is key for being able to trade on the news.
+
+It allows users to:
+
+- For each news, they can know how much the forecast values deviated from the actual ones.
+- How much that difference surprises the market, using the previous 5 announcements as reference.   
+ *Remember that forecast_error_diff_deviation is the ratio between forecast_error_diff and the standard deviation of forecast_error_diff for the previous 5 events.*
+- Box plots for max pips positive/negative variations, for the entire history of the new.
+- A second tab to analyze with which news announcements the market react more heavily in average.
+  
+
+ 
+As reference, we encourage readers to compare our dashboard with the one from ForexFactory at [https://www.forexfactory.com/#graph=100903]
+
+**User guide**    
+
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_1")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_2")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_3")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_4")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_5")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_6")
+![alt text](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_7")
  
 ## Conclusions and future Research 
 
-## References 
+- The hypothesis that motivated this study: "The higher the forecast-actual deviation, the higher market reaction", was not true. At least not across all news.
+- Our best model obtained a precision of 84% in predicting an increase bigger than 24 pips one hour after the news release. Well, not a bad number.
+  This obviously has the caveats that the recall is only 25%, and it´s only applicable whenever high news are released in isolation, but I would say it´s a good starting point.
+- Performance on our regression models is useless for helping traders.
+- All the models were run twice, the second time with fewer features. Simplest models obtaining equivalent or better results.
+
+
+**Next steps:**
+
+- Low hanging fruit:
+    - Fine tune the models hyperparameters to see whether we can improve on performance.    
+We right now have all the infrastructure to do extra sweeps pretty easily, just consuming HW resources.
+    - Test whether ensemble classifiers improve performance, e.g., Voting classifier.
+- Could we apply non-supervised techniques to see whether news cluster somehow and then re-apply our current models?
+- Remove outliers and re-run the regression sweeps. 
+- Try other machine learning techniques, like causal impact analysis. 
+- New features on the visualization dashboard:
+    * Per new, add a scatter plot displaying the relationship between forecast-actual difference and pips variation.
+    * Display precision and recall by New ID.
+- Last but not least, go for a beer now !! :-D
+ 
+
+## Lessons learnt
+
+- The saying about 80% of the time is invested in preparing the data and 20% of the time in models was true in this case. Moreover if your starting point is your own scrapper getting data from public websites.
+- Doing models sweeps takes a lot of time, even with relatively small datasets. AWS, spark or clusters are definetely your friends.
+- Panda is amazing to handle dataframes ! shifts, rolling, [::-1] to reverse, etc. There are native methods for almost everything.
+- Tableau is also very powerfull, although you have to accommodate the dataframe sometimes, or do workarounds using parameters, sets, etc. to achieve what you need.
+
 

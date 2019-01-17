@@ -5,7 +5,7 @@
   <document-format-change-manifest>
     <SortTagCleanup />
   </document-format-change-manifest>
-  <repository-location id='analysis_models' path='/workbooks' revision='1.7' />
+  <repository-location id='analysis_models' path='/workbooks' revision='1.8' />
   <preferences>
     <preference name='ui.encoding.shelf.height' value='24' />
     <preference name='ui.shelf.height' value='26' />
@@ -705,6 +705,26 @@
               <bucket>&quot;max&quot;</bucket>
             </map>
           </encoding>
+          <encoding attr='color' field='[none:sweep_news_agg:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;ALL_NO_1_1_1&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;High_NO_1_1_1&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;ALL_YES_3_2_1&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;ALL_YES_1_1_1&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;High_YES_1_1_1&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;ALL_NO_3_2_1&quot;</bucket>
+            </map>
+          </encoding>
           <encoding attr='color' field='[none:sweep_buy_sell:nk]' type='palette'>
             <map to='#499894'>
               <bucket>&quot;30_180&quot;</bucket>
@@ -741,26 +761,6 @@
             </map>
             <map to='#f28e2b'>
               <bucket>&quot;0_60&quot;</bucket>
-            </map>
-          </encoding>
-          <encoding attr='color' field='[none:sweep_news_agg:nk]' type='palette'>
-            <map to='#4e79a7'>
-              <bucket>&quot;ALL_NO_1_1_1&quot;</bucket>
-            </map>
-            <map to='#59a14f'>
-              <bucket>&quot;High_NO_1_1_1&quot;</bucket>
-            </map>
-            <map to='#76b7b2'>
-              <bucket>&quot;ALL_YES_3_2_1&quot;</bucket>
-            </map>
-            <map to='#e15759'>
-              <bucket>&quot;ALL_YES_1_1_1&quot;</bucket>
-            </map>
-            <map to='#edc948'>
-              <bucket>&quot;High_YES_1_1_1&quot;</bucket>
-            </map>
-            <map to='#f28e2b'>
-              <bucket>&quot;ALL_NO_3_2_1&quot;</bucket>
             </map>
           </encoding>
         </style-rule>
