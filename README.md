@@ -257,9 +257,7 @@ It allows users to:
  
 As reference, we encourage readers to compare our dashboard with the one from ForexFactory at [https://www.forexfactory.com/#graph=100903]
 
-**User guide**    
-
-![user guide](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_1")
+[user guide](https://github.com/msanzsanz/PFM_EconomicNewsImpact/blob/master/visualization/userguide_1.pdf "userguide_1")
 
 
 ## Conclusions and future Research 
